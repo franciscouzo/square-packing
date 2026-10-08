@@ -13,14 +13,10 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 106 | 10.82297973416944 | **10.822908044142** | 7.169e-05 |
 | 108 | 10.92591939016138 | **10.904821012323** | 2.110e-02 |
 | 110 | 10.99679327401957 | **10.996783396634** | 9.877e-06 |
-| 123 | 11.60139979378801 | **11.601384658386** | 1.514e-05 |
-| 126 | 11.77473513240654 | **11.773585291698** | 1.150e-03 |
 | 127 | 11.82287565553229 | **11.810878787596** | 1.200e-02 |
-| 130 | 11.91119052015898 | **11.905917042068** | 5.273e-03 |
 | 131 | 11.95652543280926 | **11.951105389418** | 5.420e-03 |
 | 132 | 11.99137344423646 | **11.991327887694** | 4.556e-05 |
 | 152 | 12.83095954472600 | **12.830718800982** | 2.407e-04 |
-| 154 | 12.93166712962655 | **12.931663721170** | 3.408e-06 |
 | 155 | 12.95844711161529 | **12.952498944018** | 5.948e-03 |
 | 156 | 12.98208376048414 | **12.982082698520** | 1.062e-06 |
 | 172 | 13.61898898660160 | **13.618988956936** | 2.967e-08 |
@@ -28,21 +24,13 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 180 | 13.93508705291129 | **13.916993522481** | 1.809e-02 |
 | 181 | 13.95690672341755 | **13.953748821958** | 3.158e-03 |
 | 182 | 13.97419105332569 | **13.974090713125** | 1.003e-04 |
-| 199 | 14.61898898660160 | **14.618988956907** | 2.969e-08 |
 | 206 | 14.87221902560728 | **14.860158663396** | 1.206e-02 |
-| 207 | 14.89395494255333 | **14.893954634242** | 3.083e-07 |
 | 208 | 14.93776656277905 | **14.924518772034** | 1.325e-02 |
-| 209 | 14.95861500087481 | **14.953939011861** | 4.676e-03 |
 | 210 | 14.97413341886404 | **14.973001116591** | 1.132e-03 |
 | 228 | 15.60902282132495 | **15.604601475739** | 4.421e-03 |
-| 236 | 15.87607539315201 | **15.872219025616** | 3.856e-03 |
-| 237 | 15.91421356237309 | **15.911191683008** | 3.022e-03 |
-| 238 | 15.93965520031394 | **15.931725503598** | 7.930e-03 |
-| 239 | 15.95635358406308 | **15.953819333485** | 2.534e-03 |
 | 240 | 15.97556282833087 | **15.969685337537** | 5.877e-03 |
 | 241 | 15.99080517810520 | **15.988132439538** | 2.673e-03 |
 | 259 | 16.60257141234448 | **16.602568490498** | 2.922e-06 |
-| 263 | 16.74264068711928 | **16.742267609152** | 3.731e-04 |
 | 268 | 16.87931143465371 | **16.878814821018** | 4.966e-04 |
 | 269 | 16.90596764828402 | **16.905967058599** | 5.897e-07 |
 | 270 | 16.94062059800744 | **16.937810329391** | 2.810e-03 |
@@ -52,8 +40,6 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 292 | 17.60257141234448 | **17.597249391200** | 5.322e-03 |
 | 297 | 17.74106074604732 | **17.740417287548** | 6.435e-04 |
 | 301 | 17.86889155557430 | **17.846667192848** | 2.222e-02 |
-| 302 | 17.88674602860566 | **17.885993892537** | 7.521e-04 |
-| 303 | 17.93125509556197 | **17.924341009860** | 6.914e-03 |
 | 304 | 17.94910783564662 | **17.934650018396** | 1.446e-02 |
 | 305 | 17.96066201401205 | **17.952959459024** | 7.703e-03 |
 | 306 | 17.96913960675661 | **17.963433717496** | 5.706e-03 |
@@ -69,7 +55,7 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 
 ## Standing against the current register
 
-The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-08): 8 best known, 18 superseded, 26 tied (rounding).
+The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-08): 8 best known, 4 superseded, 26 tied (rounding).
 
 | n | found here | best known elsewhere | source | status |
 |---|---|---|---|---|
@@ -80,14 +66,10 @@ The table above compares with the catalogue as fetched in September. Against the
 | 106 | 10.822908044142 | 10.822908044133 | register | tied (rounding) |
 | 108 | 10.904821012323 (seeded from Ryan Xu) | 10.904824785111 | [Ryan Xu](https://github.com/jlevy/squares/issues/432) (pending) | **best known** |
 | 110 | 10.996783396634 | 10.996783396632 | register | tied (rounding) |
-| 123 | 11.601384658386 | 11.591378145712 | [Ryan Xu](https://github.com/jlevy/squares/issues/432) (pending) | superseded by 1.0e-02 |
-| 126 | 11.773585291698 | 11.742640687212 | [Ryan Xu](https://github.com/jlevy/squares/issues/432) (pending) | superseded by 3.1e-02 |
 | 127 | 11.810878787596 (seeded from Ryan Xu) | 11.810936647512 | [Ryan Xu](https://github.com/jlevy/squares/issues/432) (pending) | **best known** |
-| 130 | 11.905917042068 | 11.904483032516 | register | superseded by 1.4e-03 |
 | 131 | 11.951105389418 (seeded from Ryan Xu) | 11.951150044912 | [Ryan Xu](https://github.com/jlevy/squares/issues/432) (pending) | **best known** |
 | 132 | 11.991327887694 | 11.991327887692 | register | tied (rounding) |
 | 152 | 12.830718800982 | 12.830718800977 | register | tied (rounding) |
-| 154 | 12.931663721170 | 12.926562245852 | register | superseded by 5.1e-03 |
 | 155 | 12.952498944018 (seeded from Nate Chaoweeraprasit (SQUISH)) | 12.952503202605 | register | **best known** |
 | 156 | 12.982082698520 | 12.982082698517 | register | tied (rounding) |
 | 172 | 13.618988956936 | 13.618988956899 | register | tied (rounding) |
@@ -95,21 +77,13 @@ The table above compares with the catalogue as fetched in September. Against the
 | 180 | 13.916993522481 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.917653417450 | register | **best known** |
 | 181 | 13.953748821958 | 13.953748821954 | register | tied (rounding) |
 | 182 | 13.974090713125 | 13.974090713121 | register | tied (rounding) |
-| 199 | 14.618988956907 | 14.617572173593 | register | superseded by 1.4e-03 |
 | 206 | 14.860158663396 | 14.860158663392 | register | tied (rounding) |
-| 207 | 14.893954634242 | 14.887992258303 | register | superseded by 6.0e-03 |
 | 208 | 14.924518772034 | 14.924518772029 | register | tied (rounding) |
-| 209 | 14.953939011861 | 14.949617952200 | register | superseded by 4.3e-03 |
 | 210 | 14.973001116591 | 14.973001116588 | register | tied (rounding) |
 | 228 | 15.604601475739 | 15.604602454546 | register | **best known** |
-| 236 | 15.872219025616 | 15.867800839420 | register | superseded by 4.4e-03 |
-| 237 | 15.911191683008 | 15.903676235189 | register | superseded by 7.5e-03 |
-| 238 | 15.931725503598 | 15.926146857011 | register | superseded by 5.6e-03 |
-| 239 | 15.953819333485 | 15.949313169728 | register | superseded by 4.5e-03 |
 | 240 | 15.969685337537 | 15.969685337531 | register | tied (rounding) |
 | 241 | 15.988132439538 | 15.988132439525 | register | tied (rounding) |
 | 259 | 16.602568490498 | 16.602568490493 | register | tied (rounding) |
-| 263 | 16.742267609152 | 16.740419679539 | register | superseded by 1.8e-03 |
 | 268 | 16.878814821018 | 16.878814821007 | register | tied (rounding) |
 | 269 | 16.905967058599 | 16.905967058584 | register | tied (rounding) |
 | 270 | 16.937810329391 | 16.937807228446 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) (pending) | superseded by 3.1e-06 |
@@ -119,8 +93,6 @@ The table above compares with the catalogue as fetched in September. Against the
 | 292 | 17.597249391200 | 17.597249391156 | register | tied (rounding) |
 | 297 | 17.740417287548 | 17.740417287544 | register | tied (rounding) |
 | 301 | 17.846667192848 | 17.846667192843 | register | tied (rounding) |
-| 302 | 17.885993892537 | 17.881306218096 | register | superseded by 4.7e-03 |
-| 303 | 17.924341009860 | 17.920312372920 | register | superseded by 4.0e-03 |
 | 304 | 17.934650018396 | 17.934650018391 | register | tied (rounding) |
 | 305 | 17.952959459024 | 17.952959459016 | register | tied (rounding) |
 | 306 | 17.963433717496 | 17.963438139764 | register | **best known** |
@@ -152,7 +124,7 @@ Searches also cover n=325–400. The comparison bounds below are constructed fro
 | 375 | 19.93125509556197 | **19.907052698738** | 2.420e-02 |
 | 376 | 19.94910783564662 | **19.920279652319** | 2.883e-02 |
 | 377 | 19.96066201401205 | **19.925720814343** | 3.494e-02 |
-| 378 | 19.96913960675661 | **19.947431670018** | 2.171e-02 |
+| 378 | 19.96913960675661 | **19.947426312032** | 2.171e-02 |
 | 379 | 19.98272201579610 | **19.957538882119** | 2.518e-02 |
 
 <!-- /expanded-search-results -->
