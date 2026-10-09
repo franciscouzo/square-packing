@@ -9,8 +9,6 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 68 | 8.7987961402601 | **8.798795237220** | 9.030e-07 |
 | 84 | 9.70710678118654 | **9.697934799017** | 9.172e-03 |
 | 86 | 9.82287565553229 | **9.820535407499** | 2.340e-03 |
-| 102 | 10.61138794077522 | **10.607174680178** | 4.213e-03 |
-| 103 | 10.70378195534367 | **10.703516755574** | 2.652e-04 |
 | 105 | 10.80761933330707 | **10.789303783750** | 1.832e-02 |
 | 106 | 10.82297973416944 | **10.822908044135** | 7.169e-05 |
 | 108 | 10.92591939016138 | **10.904821012322** | 2.110e-02 |
@@ -41,7 +39,6 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 269 | 16.90596764828402 | **16.905967058587** | 5.897e-07 |
 | 270 | 16.94062059800744 | **16.936720031124** | 3.901e-03 |
 | 271 | 16.95499909412532 | **16.950820792628** | 4.178e-03 |
-| 272 | 16.96971602419903 | **16.968165867855** | 1.550e-03 |
 | 273 | 16.98820725030513 | **16.983925962654** | 4.281e-03 |
 | 292 | 17.60257141234448 | **17.597249391200** | 5.322e-03 |
 | 297 | 17.74106074604732 | **17.740417287547** | 6.435e-04 |
@@ -62,15 +59,13 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 
 ## Standing against the current register
 
-The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-09): 17 best known, 24 registered, 1 tied, 3 superseded.
+The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-09): 17 best known, 24 registered, 1 tied.
 
 | n | found here | best known elsewhere | source | status |
 |---|---|---|---|---|
 | 68 | 8.798795237220 | 8.798795237218 | register | **registered** (exact optimum by Seth Rehwaldt) |
 | 84 | 9.697934799017 (seeded from Ryan Xu) | 9.698052060510 | register | **best known** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
 | 86 | 9.820535407499 (seeded from Ryan Xu) | 9.820565730010 | register | **best known** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
-| 102 | 10.607174680178 | 10.605828696511 | register | superseded by 1.3e-03 |
-| 103 | 10.703516755574 | 10.679232047511 | register | superseded by 2.4e-02 |
 | 105 | 10.789303783750 (seeded from Ryan Xu) | 10.790676575411 | register | **best known** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
 | 106 | 10.822908044135 | 10.822908044133 | register | **registered** (exact optimum by Evan Daniel) |
 | 108 | 10.904821012322 (seeded from Ryan Xu) | 10.904824785111 | register | **best known** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
@@ -101,7 +96,6 @@ The table above compares with the catalogue as fetched in September. Against the
 | 269 | 16.905967058587 | 16.905967058584 | register | **registered** (exact optimum by Evan Daniel) |
 | 270 | 16.936720031124 (seeded from Evan Daniel) | 16.937807228446 | register | **best known** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
 | 271 | 16.950820792628 | 16.950820792625 | register | **registered** (exact optimum by Evan Daniel) |
-| 272 | 16.968165867855 | 16.968110145770 | register | superseded by 5.6e-05 |
 | 273 | 16.983925962654 | 16.983925962650 | register | **registered** (exact optimum by Evan Daniel) |
 | 292 | 17.597249391200 | 17.597249391156 | register | **registered** (exact optimum by Seth Rehwaldt) |
 | 297 | 17.740417287547 | 17.740417287544 | register | **registered** (exact optimum by Evan Daniel) |
