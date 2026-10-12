@@ -1,0 +1,28 @@
+{
+  "n": 241,
+  "packing": "n241.txt",
+  "packing_sha256": "74d449ae41f71adfe4ab3a347bf1cd777885382c49098df18fcc3b24bf2b741e",
+  "certificate": "certificates/n241.cert",
+  "certificate_sha256": "bc826910ec40d843df0e4565cb6df80c3b1757c292e7b924de97da2580af6075",
+  "rational_side": "56654293892568867634658195801/3543746727775500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "search_job": {
+      "id": 94648,
+      "method": "hop",
+      "source": "external/seeds/n241.txt",
+      "source_origin": "external",
+      "source_sha256": "c04e85424cb43733f898265c4d8b50bd52d573b7b0f44e3602f19a43ab9549d5",
+      "constructed_seed": null
+    },
+    "seed_credit": "Daniil Ostashev",
+    "seed_certificate": {
+      "source": "dostashev",
+      "certificate": "dostashev/records/n0241.sqcert",
+      "sha256": "8d67da52a9445c38f28f5cea24169bcd3a421c39db581a5a5bf779c0d4cdf962",
+      "request": "https://github.com/jlevy/squares/issues/501",
+      "side": "9991958905656775259135410873409821230409663792812755550161009991958905656775259135410873409821230409663792812755550161/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "dilation": "1+1e-12"
+}

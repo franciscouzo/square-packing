@@ -31,8 +31,13 @@ import random
 import subprocess
 import time
 
-DEFAULT_WEIGHTS = {"slp": .20, "hop": .35, "old": .10, "graft": .08, "shrink": .10,
-                   "fq": .10, "drop": .04, "grow": .03, "compress": .03}
+# 2026-10-12: 24,863 completed jobs since October 7. Hop/FQ produced
+# 83/25 accepted improvements; cheap SLP produced 20. Graft, grow, random
+# starts and compression produced none. Keep reduced shares for older
+# basins, shrink-hopping, deletion and CUDA starts.
+DEFAULT_WEIGHTS = {"slp": .25, "hop": .45, "fq": .20, "drop": .03,
+                   "shrink": .02, "old": .015, "gpu": .005,
+                   "graft": 0., "grow": 0., "compress": 0., "random": 0.}
 COMPRESS_MAX_N = 120  # the browser engine is O(n^2) per evaluation; its page caps n at 120
 PUBLISHED_MAX = 324
 

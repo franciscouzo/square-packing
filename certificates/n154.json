@@ -1,0 +1,21 @@
+{
+  "n": 154,
+  "packing": "n154.txt",
+  "packing_sha256": "79eb7209ed6ff79a64017c001b2fabf1c8e2471e8630a18c64eb42cfd247321a",
+  "certificate": "certificates/n154.cert",
+  "certificate_sha256": "5335cb3b7028f3a51e0206bed29b1cca8f56a68f138ed40b5026862788563e69",
+  "rational_side": "12922499814642397493692375652931/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Evan Daniel (from Francisco Couzo's n=155 seed)",
+    "seed_certificate": "evand/search/packer/candidates/tt_n154.cert",
+    "web_seed": {
+      "id": "a455743c740626ef25fe306597704948",
+      "n": 154,
+      "side": 12.922499814656899,
+      "method": "fq",
+      "received": "20261012T210640Z",
+      "original_packing_sha256": "ebc4be619b867759d02226924e2b962465d9c8286fec3aec96dbc42fd51cc6d3"
+    }
+  }
+}

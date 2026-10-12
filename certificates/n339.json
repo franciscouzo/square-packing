@@ -1,0 +1,37 @@
+{
+  "n": 339,
+  "packing": "n339.txt",
+  "packing_sha256": "7b98a8d144439dc6e0f9afde67075e0f6da948b4dd60b2e907bfb40741d25a09",
+  "certificate": "certificates/n339.cert",
+  "certificate_sha256": "c479e13a612f56a074899487e2a285a3a6adcaed42cdef7b646d8fcd7a7bd901",
+  "rational_side": "4247372425158980137376328899/224403568199500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "search_job": {
+      "id": 86956,
+      "method": "ellsworth_cycle",
+      "source": "n339.txt",
+      "source_origin": "constructed",
+      "source_sha256": "bfba0f3e0c9f733c45c8189f66d6cd59011c4b256bb1d6389b7e98268ca01c45",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n304.txt",
+        "source_sha256": "31aa56c960b87cf5f25d18bff9599e6911ca15c8feffd3655d64bb1d6395c480",
+        "source_n": 304,
+        "source_side": 17.929655793708648,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.929655793710648
+      }
+    },
+    "web_seed": {
+      "id": "b5f9f57d0fb6dee4a68861cb045bb256",
+      "n": 339,
+      "side": 18.92738363849441,
+      "method": "ellsworth",
+      "received": "20261013T103636Z",
+      "original_packing_sha256": "f8afdbacaf5aab5bafcc2a0116a26822d9ae6b118ec658a96a2ce04ca02100fd"
+    }
+  },
+  "dilation": "1+1e-11"
+}

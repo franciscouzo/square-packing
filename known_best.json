@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T20:23:55Z",
+  "generated": "2026-10-13T13:27:10Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -11,7 +11,7 @@
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "31523f87316bdfda00f5459dd9077928e264f133"
+      "commit": "96c4e427f228243adc6ed0e77caf9ca1139bb79e"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
@@ -19,11 +19,11 @@
     },
     "mishapolk": {
       "url": "https://github.com/Mishapolk/square-packing-records.git",
-      "commit": "dd3da5c753c5ded6cb3b89476193b7b801005415"
+      "commit": "336bdf5efab4784e54e0ac32edf3ed12f9c8af7e"
     },
     "snakefang": {
       "url": "https://github.com/TheSnakeFang/squarepack-certs.git",
-      "commit": "c75bebd87933416d3e1c7aba35ec733ea8ac7da0"
+      "commit": "078789a4cfd36f915f1bfbe76d742413d79b2965"
     },
     "ebdeleeuw": {
       "url": "https://github.com/ebdeleeuw/square-packing-n70.git",
@@ -31,11 +31,11 @@
     },
     "dostashev": {
       "url": "https://github.com/dostashev/square-packing.git",
-      "commit": "e656a460755622d26922f43c36881f47f41c0445"
+      "commit": "b909e1b74cda50906e12b4373e010ddee39e47e4"
     },
     "buddenping": {
       "url": "https://github.com/BuddenPing/square-packing-certificates.git",
-      "commit": "bc328a7d727aedd0eabebd6ea80285f572b65d2d"
+      "commit": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d"
     },
     "rbarnett": {
       "url": "https://github.com/RobertBarnettProjects/square-packing-research.git",
@@ -43,7 +43,7 @@
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
-      "commit": "562fdbdff1d98948f68b36b81b53f9c8165ffd08"
+      "commit": "34c826f08fc75dc51eb8d6f72c04b0f74b0c4ffb"
     }
   },
   "note": "Best known upper bounds: the register's reported value or a verified, published certificate. Third-party packings are credited to their authors and are used here only as comparison bounds and search seeds.",
@@ -794,6 +794,12 @@
       "register_text": "10789303783748158831034729697921/1000000000000000000000000000000",
       "also_found_by": [
         {
+          "source": "buddenping",
+          "credit": "BuddenPing",
+          "request": "https://github.com/jlevy/squares/issues/503",
+          "ours": "n105.txt"
+        },
+        {
           "source": "mishapolk",
           "credit": "Mishapolk",
           "request": "https://github.com/jlevy/squares/issues/470",
@@ -1014,22 +1020,14 @@
       "source": "register",
       "register": 11.81087878758918,
       "register_text": "5905439393794589919821183554001/500000000000000000000000000000",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mishapolk",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n127.txt"
-        }
-      ],
       "external": {
-        "side": "4724374659004724374659/400000000000000000000",
-        "side_decimal": 11.810936647511811,
-        "source": "ry-xu",
-        "credit": "Ryan Xu",
-        "request": "https://github.com/jlevy/squares/issues/432",
-        "certificate": "ry-xu/certificates/n127/n127.cert.json",
-        "sha256": "196d22b40ce485484df9345c19fea648c14da9a32ff8c407ea9686fa4588aa0f",
+        "side": "236217575751835937999999891891212124185139787875922969/19999999999980000000000010000000000000000000000000000",
+        "side_decimal": 11.810878787603608,
+        "source": "mishapolk",
+        "credit": "Mishapolk",
+        "request": "https://github.com/jlevy/squares/issues/470",
+        "certificate": "mishapolk/certificates/square-127.txt",
+        "sha256": "4364d6da2076e908b77379ec489439f683cc6659a9e5c0c36b529834b988ef83",
         "pending": false
       },
       "register_found_by": [
@@ -1059,7 +1057,7 @@
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/501",
         "certificate": "dostashev/records/n0129.sqcert",
-        "sha256": "6ee26567f49a700822840807ea97947647bcdbf110e656041c0e2fe970624e72",
+        "sha256": "123031b8e95245cbbf23f1876ed071ca4f6b6d274ca20c01f03797fa35f4fa47",
         "pending": true
       },
       "seed": "external/seeds/n129.txt"
@@ -1086,14 +1084,6 @@
       "source": "register",
       "register": 11.94965958803586,
       "register_text": "546262522801617822590053861036247525257980632054448711125685429647597444905863823/45713647219586261662645849733884420493261937951141483500332220381589307940237228",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mishapolk",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n131.txt"
-        }
-      ],
       "external": {
         "side": "546262522801617822590053861036247525257980632054448711125685429647597444905863823/45713647219586261662645849733884420493261937951141483500332220381589307940237228",
         "side_decimal": 11.94965958803586,
@@ -1214,18 +1204,18 @@
       "register_text": "9 + (5/2)\u221a2"
     },
     "146": {
-      "side": 12.583782203951046,
+      "side": 12.583782203950834,
       "source": "register",
       "register": 12.583782203951046,
       "register_text": "116279649124311595126849961042493265136092670741573762928668277775998122712863472766532671969348798419026610394581005669/9240437194455113887096299456817024243377978045957194209468060456305894240222303442118770000000000000000000000000000000",
       "external": {
-        "side": "116279649124311595126849961042493265136092670741573762928668277775998122712863472766532671969348798419026610394581005669/9240437194455113887096299456817024243377978045957194209468060456305894240222303442118770000000000000000000000000000000",
-        "side_decimal": 12.583782203951046,
-        "source": "rbarnett",
-        "credit": "Robert Barnett (refinement of Ryan Xu)",
-        "request": "https://github.com/jlevy/squares/issues/505",
-        "certificate": "rbarnett/certificates/n146.cert",
-        "sha256": "77b5524f387472a8e5996e319d05735e2a6a0046c24e7043995549bf3945fa3d",
+        "side": "6291891101975417145956733968525575683386443086533905641519426925380587272252740885402451051/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "side_decimal": 12.583782203950834,
+        "source": "buddenping",
+        "credit": "BuddenPing",
+        "request": "https://github.com/jlevy/squares/issues/503",
+        "certificate": "buddenping/n146.cert.json",
+        "sha256": "a88ede7e2faa9d62fe8b6d0e46f7d38dde7df1f5a198d15bc6d6d726df77d13d",
         "pending": false
       },
       "seed": "external/seeds/n146.txt"
@@ -1280,13 +1270,13 @@
       "register": 12.870013850407044,
       "register_text": "6435006925203522001385040447/500000000000000000000000000",
       "external": {
-        "side": "6435006925203522001385040447/500000000000000000000000000",
-        "side_decimal": 12.870013850407044,
-        "source": "buddenping",
-        "credit": "BuddenPing",
-        "request": "https://github.com/jlevy/squares/issues/504",
-        "certificate": "buddenping/n153.cert.json",
-        "sha256": "31b3fb3cba73528fab21d085a34f3209684a868e7116059ea5c21e664bca1ff2",
+        "side": "16087517313020434517313005597/1250000000000000000000000000",
+        "side_decimal": 12.870013850416347,
+        "source": "mishapolk",
+        "credit": "Mishapolk",
+        "request": "https://github.com/jlevy/squares/issues/470",
+        "certificate": "mishapolk/certificates/square-153.txt",
+        "sha256": "8fae8edbceccf4099c937bf268a50f25c6198b35c2f9c268fc4fbb302f239170",
         "pending": false
       },
       "seed": "external/seeds/n153.txt"
@@ -1306,7 +1296,12 @@
         "sha256": "06985d5fd506a29d534b8b8c60d872139921205070794f1681f843733e5610df",
         "pending": true
       },
-      "seed": "external/seeds/n154.txt"
+      "register_found_by": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ],
+      "register_improved_by": [],
+      "own": 12.922499814644976,
+      "own_status": "best known"
     },
     "155": {
       "side": 12.952425406958456,
@@ -1478,26 +1473,18 @@
       "register_text": "13 + (1/2)\u221a2"
     },
     "175": {
-      "side": 13.764174317486596,
-      "source": "dostashev",
+      "side": 13.764174317500661,
+      "source": "mishapolk",
       "register": 13.767120724692314,
       "register_text": "860445045293269576081339809497/62500000000000000000000000000",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mishapolk",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n175_s13.767155163545.txt"
-        }
-      ],
       "external": {
-        "side": "27528348634973193258855646440084685651524191041221518308579027528348634973193258855646440084685651524191041221518308579/2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "side_decimal": 13.764174317486596,
-        "source": "dostashev",
-        "credit": "Daniil Ostashev",
-        "request": "https://github.com/jlevy/squares/issues/528",
-        "certificate": "dostashev/records/n0175.sqcert",
-        "sha256": "a84adbcf843c32a02e5e571c1f345559547ff43e7369df34ba4ae32cb50d97b2",
+        "side": "68820871587503301871587439481/5000000000000000000000000000",
+        "side_decimal": 13.764174317500661,
+        "source": "mishapolk",
+        "credit": "Mishapolk",
+        "request": "https://github.com/jlevy/squares/issues/470",
+        "certificate": "mishapolk/certificates/square-175.txt",
+        "sha256": "ab6b707b5536779de18ccd59632be1807ab1761f6e297613133af52e66bc7cd7",
         "pending": true
       },
       "register_found_by": [
@@ -1511,18 +1498,18 @@
       "seed": "external/seeds/n175.txt"
     },
     "176": {
-      "side": 13.808663234386957,
+      "side": 13.795872318436407,
       "source": "dostashev",
       "register": 13.812856253277056,
       "register_text": "305005022674381157367132529416905207296020948646520876053762749858683599318120744/22081242074898135703849455266036121393870562834861102970956326327326447327968587",
       "external": {
-        "side": "69043316171934782832304950404729823976428779059647971914573069043316171934782832304950404729823976428779059647971914573/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "side_decimal": 13.808663234386957,
+        "side": "68979361592182036316559270269560387219324228264293937540813068979361592182036316559270269560387219324228264293937540813/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "side_decimal": 13.795872318436407,
         "source": "dostashev",
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/501",
         "certificate": "dostashev/records/n0176.sqcert",
-        "sha256": "e14b16cd4bdd68e4716617ca561ab3462614eab75eed9a8407f6aee6b31a6053",
+        "sha256": "f70f484dfeb7057fd23c57859eac8d77bc4554e3d6aa6df1425ae5cdd2e9ef39",
         "pending": true
       },
       "register_found_by": [
@@ -1530,7 +1517,8 @@
       ],
       "register_improved_by": [],
       "own": 13.80763722680486,
-      "own_status": "best known"
+      "own_status": "superseded",
+      "seed": "external/seeds/n176.txt"
     },
     "177": {
       "side": 13.822979734169449,
@@ -1574,22 +1562,14 @@
       "source": "register",
       "register": 13.916993522477833,
       "register_text": "13916993522477832483558124720393/1000000000000000000000000000000",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mishapolk",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n180.txt"
-        }
-      ],
       "external": {
-        "side": "489683896443017/35184372088832",
-        "side_decimal": 13.917653417451476,
-        "source": "squish",
-        "credit": "Nate Chaoweeraprasit (SQUISH)",
-        "request": "https://github.com/jlevy/squares/issues/422",
-        "certificate": "squish/squish-submission-2026-10-07b/n180/n180.cert.json",
-        "sha256": "4a182ac6aa4d96f26e6aff68400bc74b5c89a25c7abeb9f35a4b47b64a0d5219",
+        "side": "139169935224955702935224826533/10000000000000000000000000000",
+        "side_decimal": 13.91699352249557,
+        "source": "mishapolk",
+        "credit": "Mishapolk",
+        "request": "https://github.com/jlevy/squares/issues/470",
+        "certificate": "mishapolk/certificates/square-180.txt",
+        "sha256": "c5e4ec93e7af11b4da6c2f089de5ac52088a77c633e5271f6f45c38dfbfcb9d0",
         "pending": false
       },
       "register_found_by": [
@@ -1788,7 +1768,7 @@
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/501",
         "certificate": "dostashev/records/n0204.sqcert",
-        "sha256": "9d6261e7bbd83ddb8aee29e6f713c403e07d07e3e436f51ec09037b3c241ffa0",
+        "sha256": "44cc7ad3cafe4d4005b0972ea6620a92f8c1da787227fdc3237d32fdf9b67562",
         "pending": true
       },
       "seed": "external/seeds/n204.txt"
@@ -1814,19 +1794,19 @@
       "own_status": "tied (within 1e-10)"
     },
     "207": {
-      "side": 14.880960373043676,
-      "source": "register",
+      "side": 14.88096037157172,
+      "source": "mishapolk",
       "register": 14.880960373043676,
       "register_text": "148809603730436756319360591381170501178639/10000000000000000000000000000000000000000",
       "external": {
-        "side": "148809603730436756319360591381170501178639/10000000000000000000000000000000000000000",
-        "side_decimal": 14.880960373043676,
-        "source": "buddenping",
-        "credit": "BuddenPing",
-        "request": "https://github.com/jlevy/squares/issues/503",
-        "certificate": "buddenping/n207.cert.json",
-        "sha256": "1c334f3170ece68cf2c2f16341660f7a80ef44bf7a9cdb083940d1b99756c071",
-        "pending": false
+        "side": "74404801857858597801857789193/5000000000000000000000000000",
+        "side_decimal": 14.88096037157172,
+        "source": "mishapolk",
+        "credit": "Mishapolk",
+        "request": "https://github.com/jlevy/squares/issues/470",
+        "certificate": "mishapolk/certificates/square-207.txt",
+        "sha256": "a599181de48ec6e82ba9b9a83f52d421ceae2fb267e7de89ce4058409dbcc534",
+        "pending": true
       },
       "seed": "external/seeds/n207.txt"
     },
@@ -1869,6 +1849,14 @@
       "source": "register",
       "register": 14.94622322644645,
       "register_text": "14946223226446451055256712327571/1000000000000000000000000000000",
+      "also_found_by": [
+        {
+          "source": "mishapolk",
+          "credit": "Mishapolk",
+          "request": "https://github.com/jlevy/squares/issues/470",
+          "ours": "n209.txt"
+        }
+      ],
       "external": {
         "side": "352086775394428731924221642717430604621536094874634535695725650032320439933977965/23556905311577298619235189039173243928057287546251527278924911938419541052151072",
         "side_decimal": 14.94622365448792,
@@ -1903,21 +1891,26 @@
       "own_status": "tied (within 1e-10)"
     },
     "211": {
-      "side": 14.996336721336316,
-      "source": "register",
+      "side": 14.993694186583246,
+      "source": "dostashev",
       "register": 14.996336721336316,
       "register_text": "74981683606681578473292015533873289965462274509366086287257074981683606681578473292015533873289965462274509366086287257/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "external": {
-        "side": "74981683606681578473292015533873289965462274509366086287257074981683606681578473292015533873289965462274509366086287257/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "side_decimal": 14.996336721336316,
+        "side": "149936941865832465706359181817612514235389167555807511399813149936941865832465706359181817612514235389167555807511399813/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "side_decimal": 14.993694186583246,
         "source": "dostashev",
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/501",
         "certificate": "dostashev/records/n0211.sqcert",
-        "sha256": "4b2275abb50f2fed96bd7014f0cee1661cb737c9c878403cf74e1fd79ad5d6c4",
-        "pending": false
+        "sha256": "7d35edaac371fd7b2a32517bd52dd0fd8b58d9ae9642008112496f80b58bf310",
+        "pending": true
       },
-      "seed": "external/seeds/n211.txt"
+      "register_found_by": [
+        "Daniil Ostashev"
+      ],
+      "register_improved_by": [],
+      "own": 14.993558913982707,
+      "own_status": "best known"
     },
     "212": {
       "side": 15.0,
@@ -2057,7 +2050,7 @@
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0232.sqcert",
-        "sha256": "fa276f8c54510872cf41a94a7289839e4dd43261e3c3f30f5f7b0c2e9a5500f9",
+        "sha256": "6f3db14c05d43e370248cf3b41578dc797239faea8e439428924da8807704301",
         "pending": true
       },
       "seed": "external/seeds/n232.txt"
@@ -2102,6 +2095,14 @@
       "source": "register",
       "register": 15.902949607677831,
       "register_text": "99393435047986448060704927533/6250000000000000000000000000",
+      "also_found_by": [
+        {
+          "source": "mishapolk",
+          "credit": "Mishapolk",
+          "request": "https://github.com/jlevy/squares/issues/470",
+          "ours": "n237_s15.902949607681.txt"
+        }
+      ],
       "external": {
         "side": "985175957045048952983043545219609058238043896611796404750765221827457100311536267/61949105502245043847087036993442184322886619069992659024865961513616685288782651",
         "side_decimal": 15.902989220874966,
@@ -2170,18 +2171,28 @@
       "own_status": "tied (within 1e-10)"
     },
     "241": {
-      "side": 15.98813243952499,
-      "source": "register",
+      "side": 15.98713424905084,
+      "source": "dostashev",
       "register": 15.98813243952499,
       "register_text": "15.988132439524990848590591447359",
+      "external": {
+        "side": "9991958905656775259135410873409821230409663792812755550161009991958905656775259135410873409821230409663792812755550161/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "side_decimal": 15.98713424905084,
+        "source": "dostashev",
+        "credit": "Daniil Ostashev",
+        "request": "https://github.com/jlevy/squares/issues/501",
+        "certificate": "dostashev/records/n0241.sqcert",
+        "sha256": "8d67da52a9445c38f28f5cea24169bcd3a421c39db581a5a5bf779c0d4cdf962",
+        "pending": true
+      },
       "register_found_by": [
         "Francisco Couzo"
       ],
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 15.988132439528009,
-      "own_status": "tied (within 1e-10)"
+      "own": 15.987117095154002,
+      "own_status": "best known"
     },
     "242": {
       "side": 16.0,
@@ -2385,7 +2396,7 @@
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0264.sqcert",
-        "sha256": "aa0fa6cba29b40912f8ca1a770a059de2fddfc0b6a6cf6e948443c4dd0ee980d",
+        "sha256": "4ecfe5b3f748ed8a53aec0253829036434add2559e2cc4fef9353b1b303804c7",
         "pending": true
       },
       "seed": "external/seeds/n264.txt"
@@ -2418,14 +2429,22 @@
       "source": "register",
       "register": 16.838815269948263,
       "register_text": "4209703817487065565108620335551/250000000000000000000000000000",
+      "also_found_by": [
+        {
+          "source": "mishapolk",
+          "credit": "Mishapolk",
+          "request": "https://github.com/jlevy/squares/issues/470",
+          "ours": "n267.txt"
+        }
+      ],
       "external": {
-        "side": "1052426788019431510326749707018301194265434762463/62500000000000000000000000000000000000000000000",
-        "side_decimal": 16.838828608310905,
-        "source": "mishapolk",
-        "credit": "Mishapolk",
-        "request": "https://github.com/jlevy/squares/issues/470",
-        "certificate": "mishapolk/certificates/square-267.txt",
-        "sha256": "4802db4f295af62d909e8e6a710e597b7e135f2fbb947a8dbf31eb1c6946e655",
+        "side": "168388319611168388319611/10000000000000000000000",
+        "side_decimal": 16.83883196111684,
+        "source": "ry-xu",
+        "credit": "Ryan Xu",
+        "request": "https://github.com/jlevy/squares/issues/432",
+        "certificate": "ry-xu/certificates/n267/n267.cert.json",
+        "sha256": "f226635e43bae7017b95dad7e7140c3c9051c516e6b7c8d55ad7c244eeffa88d",
         "pending": false
       },
       "register_found_by": [
@@ -2483,16 +2502,16 @@
       "register_text": "761203984658924994781689956746506132479479002945859948235062760911587068049389066/44966630820689093059794938239713705461989197412012889888820554168494459778549053",
       "also_found_by": [
         {
+          "source": "mishapolk",
+          "credit": "Mishapolk",
+          "request": "https://github.com/jlevy/squares/issues/470",
+          "ours": "n270.txt"
+        },
+        {
           "source": "evand",
           "credit": "Evan Daniel",
           "request": "https://github.com/jlevy/squares/issues/399",
           "ours": "n270_s16.936723023057.txt"
-        },
-        {
-          "source": "mishapolk",
-          "credit": "Mishapolk",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n270_s16.936723155037.txt"
         }
       ],
       "external": {
@@ -2781,21 +2800,28 @@
       "own_status": "tied (within 1e-10)"
     },
     "302": {
-      "side": 17.87202984908118,
-      "source": "register",
+      "side": 17.87027538273376,
+      "source": "buddenping",
       "register": 17.87202984908118,
       "register_text": "558500932783786874181638432249/31250000000000000000000000000",
       "external": {
-        "side": "820999445009309740922029456921019877028889439831661589361637087272075109744743203/45937671990376526418357407123080370268809104789707150587775569201223938448317194",
-        "side_decimal": 17.87202984908118,
-        "source": "squish",
-        "credit": "Nate Chaoweeraprasit (SQUISH)",
-        "request": "https://github.com/jlevy/squares/issues/481",
-        "certificate": "squish/squish-submission-2026-10-09/n302/n302.cert.json",
-        "sha256": "cb2ed58d9474fef469aa5f1ad93bb51344429de38de4c324703d57c4f782d16d",
-        "pending": false
+        "side": "1787027538273375975382555057/100000000000000000000000000",
+        "side_decimal": 17.87027538273376,
+        "source": "buddenping",
+        "credit": "BuddenPing",
+        "request": "https://github.com/jlevy/squares/issues/503",
+        "certificate": "buddenping/n302.cert.json",
+        "sha256": "fc57b683ccd411660bb5d5f9758fb2ac013733220bf525936d73f2a11fd8d2cd",
+        "pending": true
       },
-      "seed": "external/seeds/n302.txt"
+      "register_found_by": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ],
+      "register_improved_by": [
+        "Evan Daniel"
+      ],
+      "own": 17.87001385040785,
+      "own_status": "best known"
     },
     "303": {
       "side": 17.90995829106991,
@@ -2809,7 +2835,7 @@
         "credit": "Daniil Ostashev",
         "request": "https://github.com/jlevy/squares/issues/501",
         "certificate": "dostashev/records/n0303.sqcert",
-        "sha256": "f8c22f3c00cf40bab8e6edd33ccd58f99f4837d5ccad717bbb1ef964986c3f58",
+        "sha256": "b90c9ed1f0d1f6eb1f3032136495e6f45739bf0c1b14b570e460b1d5ee8a09d2",
         "pending": true
       },
       "register_found_by": [
@@ -2823,19 +2849,19 @@
       "seed": "external/seeds/n303.txt"
     },
     "304": {
-      "side": 17.929565946848502,
-      "source": "register",
+      "side": 17.929427758075175,
+      "source": "dostashev",
       "register": 17.929565946848502,
       "register_text": "8964782973424250487190982671787/500000000000000000000000000000",
       "external": {
-        "side": "510485576549308947359639122176771480874060688471611521000826585202734096682803420/28471575075230807279259985772792709540176911602103069986239820873572704667056489",
-        "side_decimal": 17.92965704217088,
-        "source": "squish",
-        "credit": "Nate Chaoweeraprasit (SQUISH)",
-        "request": "https://github.com/jlevy/squares/issues/500",
-        "certificate": "squish/squish-submission-2026-10-11/n304/n304.cert.json",
-        "sha256": "ce52b2ed338874604fcfe744e5d66d31086051a619e4f10ea6b908808311c47c",
-        "pending": false
+        "side": "358588555161503499313326522779782297248782400899192783432303585885551615034993133265227797822972487824008991927834323/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "side_decimal": 17.929427758075175,
+        "source": "dostashev",
+        "credit": "Daniil Ostashev",
+        "request": "https://github.com/jlevy/squares/issues/501",
+        "certificate": "dostashev/records/n0304.sqcert",
+        "sha256": "b87d0c9df7336872a2e0c26b761a1d7030b8850c2cf385bec43126f62c270c71",
+        "pending": true
       },
       "register_found_by": [
         "Nate Chaoweeraprasit (itsnaka)"
@@ -2844,7 +2870,8 @@
         "Francisco Couzo"
       ],
       "own": 17.929565946851916,
-      "own_status": "tied (within 1e-10)"
+      "own_status": "superseded",
+      "seed": "external/seeds/n304.txt"
     },
     "305": {
       "side": 17.950466482137713,
@@ -3078,6 +3105,247 @@
       },
       "own": 18.993724773106884,
       "own_status": "best known"
+    },
+    "380": {
+      "side": 19.976775433974193,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "1102997094976695021048786866207114120794307672281712078143966862895587101/55213970774324510460005687954914031282828270928685798549291030582132736",
+        "side_decimal": 19.976775433974193,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0380/n0380.cert",
+        "sha256": "c0d2afbe7603d8435353eba2556a5e80948a02a0472f7dae5e08d28d3cc09ec5",
+        "pending": true
+      },
+      "own": 19.97355360472992,
+      "own_status": "best known"
+    },
+    "381": {
+      "side": 19.976969740405508,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "17234497240723668942314557127864871189472035564122930362827769318543721/862718293348820475141548404758626698746797696721330057918371520839680",
+        "side_decimal": 19.976969740405508,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0381/n0381.cert",
+        "sha256": "726164b7a570b69324a3c0ccde0bbd3d01bdd5bdf76f8a29212f12889d7ccbff",
+        "pending": true
+      },
+      "own": 19.974977397660567,
+      "own_status": "best known"
+    },
+    "382": {
+      "side": 19.989479729399672,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "269457653704352009538801091757719713332271894027604544062655799750885/13479973333575319909990991250831751289361739009640320293602072723456",
+        "side_decimal": 19.989479729399672,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0382/n0382.cert",
+        "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
+        "pending": true
+      },
+      "own": 19.98860056638926,
+      "own_status": "best known"
+    },
+    "421": {
+      "side": 20.986150316947157,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "2317457380531002914614000710343704621883770649262691924802299290592859733/110427941548649020655085048026060020593231938109087407528308743744782336",
+        "side_decimal": 20.986150316947157,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0421/n0421.cert",
+        "sha256": "293eb22a57044452905f8b80f4000f05d18b6b33743ad3b84af90c56346714e4",
+        "pending": true
+      },
+      "seed": "external/seeds/n421.txt"
+    },
+    "422": {
+      "side": 20.988436524095743,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "1158854920840187498410870429669458729543438121272675678899849360536671457/55213970774324511255895940089552524403274760768387439833640791902781440",
+        "side_decimal": 20.988436524095743,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0422/n0422.cert",
+        "sha256": "97832c44c4b15b87771da3dddbceb3c686535ee8748f7e68c8121a124008c5f8",
+        "pending": true
+      },
+      "seed": "external/seeds/n422.txt"
+    },
+    "463": {
+      "side": 21.986880406196935,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "606991486083162904987577728977390689954071295984593529570074591041400447/27606985387162255966803890600051589153358147571450570560156425676390400",
+        "side_decimal": 21.986880406196935,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0463/n0463.cert",
+        "sha256": "6740ef0a765277491971955beb09c6188febe4f39343cd3b59f859cae51bdfcb",
+        "pending": true
+      },
+      "seed": "external/seeds/n463.txt"
+    },
+    "464": {
+      "side": 21.991709536768994,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "7483390973809528826841061493910685232669/340282366920938463463374607431768211456",
+        "side_decimal": 21.991709536768994,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0464/n0464.cert",
+        "sha256": "5b4af257ea92a5525c12d8dbe732c8a673e14d23116e70cb89e34c348b1200f6",
+        "pending": true
+      },
+      "seed": "external/seeds/n464.txt"
+    },
+    "507": {
+      "side": 22.997807183348822,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "634900126847486084576776157566614767390569857251031337920523399709893877/27606985387162255186899928323902227478415488725524002187997693786193920",
+        "side_decimal": 22.997807183348822,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0507/n0507.cert",
+        "sha256": "a6e179c9b9a58acee9fc687ea6a71ba3e56a91435440beaa6ec0e1ded19d9ee4",
+        "pending": true
+      },
+      "seed": "external/seeds/n507.txt"
+    },
+    "508": {
+      "side": 22.994733849702143,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "2539261125481649278155507344633381185724425181898280513679258733886458669/110427941548649020635845075644743503795699118148102561418959459891281920",
+        "side_decimal": 22.994733849702143,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0508/n0508.cert",
+        "sha256": "9aebaa05aa0ab93cbf3eaf743be24825f838fb9a1566a6052ec19444b1bf6dc1",
+        "pending": true
+      },
+      "seed": "external/seeds/n508.txt"
+    },
+    "553": {
+      "side": 23.998811020144984,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "2041593054305809199879994207491447135985/85070591730234615865843651857942052864",
+        "side_decimal": 23.998811020144984,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0553/n0553.cert",
+        "sha256": "2271ec012fa3a01ca6a3f252bf193bd8ce491de54799a5361adb33ac86e6a9bd",
+        "pending": true
+      },
+      "seed": "external/seeds/n553.txt"
+    },
+    "601": {
+      "side": 24.99891457242713,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "45229321728441757595408781196662925738578526096250305622350027787439746631583/1809251421592840395660637148062745326904901544656568206241044693895922843648",
+        "side_decimal": 24.99891457242713,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0601/n0601.cert",
+        "sha256": "226514e90ddc56e4324f3c374d12b585c95c6d817b15b33541cfef1f30e9c1e1",
+        "pending": true
+      },
+      "seed": "external/seeds/n601.txt"
+    },
+    "651": {
+      "side": 25.99154781527438,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "87591342862064295508487125417011635496664448440520027934010605585185/3369993333393932687051592768398122495892639555649251752566065201152",
+        "side_decimal": 25.99154781527438,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0651/n0651.cert",
+        "sha256": "8e44f0e68ea23f094d3ddf291d46b5173d3d910aac7076b175863c113c6a3bec",
+        "pending": true
+      },
+      "seed": "external/seeds/n651.txt"
+    },
+    "758": {
+      "side": 27.996346242823115,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "96611840202444087174494892663549130216293714420782662205472746761569581/3450873173395281933791983322059874960139122984889259309391445477031936",
+        "side_decimal": 27.996346242823115,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0758/n0758.cert",
+        "sha256": "0a6077d8119d5a61927411a426ef9c8b59af015de09ed2b5188c5be246696579",
+        "pending": true
+      },
+      "seed": "external/seeds/n758.txt"
+    },
+    "814": {
+      "side": 28.999873603982717,
+      "source": "snakefang",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "9868145630371284470375486817699016805947/340282366920938463463374607431768211456",
+        "side_decimal": 28.999873603982717,
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0814/n0814.cert",
+        "sha256": "d0706af82df33710e85d9e0c62b9d07e2929bfd25bfece748f0f6021240f0914",
+        "pending": true
+      },
+      "seed": "external/seeds/n814.txt"
     }
   },
   "published_above_324": {
@@ -3091,7 +3359,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
         "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-        "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/hunt3_n343.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n343.cert",
         "checked": "2026-10-10T19:07:33Z"
       },
       "certificates": [
@@ -3102,7 +3370,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
           "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-          "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/hunt3_n343.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n343.cert",
           "checked": "2026-10-10T19:07:33Z"
         },
         {
@@ -3112,7 +3380,7 @@
           "request": "https://github.com/jlevy/squares/issues/484",
           "certificate": "snakefang/n0343/n0343.cert",
           "sha256": "698f11cc69271904a4c09a8debcb005e270af2840c4b8d7371ad943d046dbced",
-          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/c75bebd87933416d3e1c7aba35ec733ea8ac7da0/n0343/n0343.cert",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0343/n0343.cert",
           "checked": "2026-10-10T13:28:45Z"
         }
       ]
@@ -3127,7 +3395,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
         "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-        "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/hunt3_n344.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n344.cert",
         "checked": "2026-10-10T19:07:34Z"
       },
       "certificates": [
@@ -3138,7 +3406,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
           "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-          "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/hunt3_n344.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n344.cert",
           "checked": "2026-10-10T19:07:34Z"
         },
         {
@@ -3148,7 +3416,7 @@
           "request": "https://github.com/jlevy/squares/issues/484",
           "certificate": "snakefang/n0344/n0344.cert",
           "sha256": "38c53a316dde42b8c00a96a869daa3583c9ec938beaf591acd5eff3b40b0b6be",
-          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/c75bebd87933416d3e1c7aba35ec733ea8ac7da0/n0344/n0344.cert",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0344/n0344.cert",
           "checked": "2026-10-10T13:28:46Z"
         }
       ]
@@ -3163,7 +3431,7 @@
         "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
         "certificate": "evand/search/packer/candidates/big1_n375.cert",
         "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-        "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/big1_n375.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/big1_n375.cert",
         "checked": "2026-10-10T10:55:59Z",
         "same_as_ours": "n375_s19.906981767294.txt"
       },
@@ -3175,7 +3443,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
           "certificate": "evand/search/packer/candidates/big1_n375.cert",
           "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-          "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/big1_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/big1_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.906981767294.txt"
         },
@@ -3186,9 +3454,87 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
           "certificate": "evand/search/packer/candidates/polish_n375.cert",
           "sha256": "fa92e2b602f87b5fcd2c7d0973cfba3ba64046fdd9aec5ed1292dd29a231bc8a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/candidates/polish_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/polish_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.907024202150.txt"
+        }
+      ]
+    },
+    "380": {
+      "side": 19.976775433974193,
+      "source": "snakefang",
+      "external": {
+        "side": "1102997094976695021048786866207114120794307672281712078143966862895587101/55213970774324510460005687954914031282828270928685798549291030582132736",
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0380/n0380.cert",
+        "sha256": "c0d2afbe7603d8435353eba2556a5e80948a02a0472f7dae5e08d28d3cc09ec5",
+        "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0380/n0380.cert",
+        "checked": "2026-10-12T21:09:52Z"
+      },
+      "certificates": [
+        {
+          "side": "1102997094976695021048786866207114120794307672281712078143966862895587101/55213970774324510460005687954914031282828270928685798549291030582132736",
+          "source": "snakefang",
+          "credit": "Kevin Fang (TheSnakeFang)",
+          "request": "https://github.com/jlevy/squares/issues/484",
+          "certificate": "snakefang/n0380/n0380.cert",
+          "sha256": "c0d2afbe7603d8435353eba2556a5e80948a02a0472f7dae5e08d28d3cc09ec5",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0380/n0380.cert",
+          "checked": "2026-10-12T21:09:52Z"
+        }
+      ]
+    },
+    "381": {
+      "side": 19.976969740405508,
+      "source": "snakefang",
+      "external": {
+        "side": "17234497240723668942314557127864871189472035564122930362827769318543721/862718293348820475141548404758626698746797696721330057918371520839680",
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0381/n0381.cert",
+        "sha256": "726164b7a570b69324a3c0ccde0bbd3d01bdd5bdf76f8a29212f12889d7ccbff",
+        "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0381/n0381.cert",
+        "checked": "2026-10-12T21:09:53Z"
+      },
+      "certificates": [
+        {
+          "side": "17234497240723668942314557127864871189472035564122930362827769318543721/862718293348820475141548404758626698746797696721330057918371520839680",
+          "source": "snakefang",
+          "credit": "Kevin Fang (TheSnakeFang)",
+          "request": "https://github.com/jlevy/squares/issues/484",
+          "certificate": "snakefang/n0381/n0381.cert",
+          "sha256": "726164b7a570b69324a3c0ccde0bbd3d01bdd5bdf76f8a29212f12889d7ccbff",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0381/n0381.cert",
+          "checked": "2026-10-12T21:09:53Z"
+        }
+      ]
+    },
+    "382": {
+      "side": 19.989479729399672,
+      "source": "snakefang",
+      "external": {
+        "side": "269457653704352009538801091757719713332271894027604544062655799750885/13479973333575319909990991250831751289361739009640320293602072723456",
+        "source": "snakefang",
+        "credit": "Kevin Fang (TheSnakeFang)",
+        "request": "https://github.com/jlevy/squares/issues/484",
+        "certificate": "snakefang/n0382/n0382.cert",
+        "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
+        "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0382/n0382.cert",
+        "checked": "2026-10-13T00:15:49Z"
+      },
+      "certificates": [
+        {
+          "side": "269457653704352009538801091757719713332271894027604544062655799750885/13479973333575319909990991250831751289361739009640320293602072723456",
+          "source": "snakefang",
+          "credit": "Kevin Fang (TheSnakeFang)",
+          "request": "https://github.com/jlevy/squares/issues/484",
+          "certificate": "snakefang/n0382/n0382.cert",
+          "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/n0382/n0382.cert",
+          "checked": "2026-10-13T00:15:49Z"
         }
       ]
     }

@@ -389,9 +389,14 @@ def choose_job(counter, seconds=120, host="local", rotation=None, max_n=SEARCH_M
     # it beats ours (import_external.py), so no job polishes a superseded basin.
     base, origin = best_source(HERE, n)
     construction = None
-    # Method mix (search_methods.json): 2026-10-08 review, from the yields per
-    # method and from what found the recent external records.
-    method = pick(load_weights(HERE), rng.random())
+    # Use the reviewed mix for every target, including focused searches;
+    # fixed periodic overrides would keep disabled methods running.
+    weights = load_weights(HERE)
+    if host == "local" and "gpu" in weights:
+        weights = {method: weight for method, weight in weights.items() if method != "gpu"}
+        total = sum(weights.values())
+        weights = {method: weight/total for method, weight in weights.items()} if total else {"hop": 1.}
+    method = pick(weights, rng.random())
     if method == "old":
         # Kick an older basin of the same count (Evan Daniel's s(270), s(272)).
         old = old_basin(HERE, n, rng)
@@ -417,37 +422,6 @@ def choose_job(counter, seconds=120, host="local", rotation=None, max_n=SEARCH_M
             base, origin = other, other_origin
         else:
             method = "hop"
-    if counter % 121 == 120:
-        method = "random"
-    # Reuse a remote CPU slot for polishing CUDA starts; do not oversubscribe
-    # the CPU machine or wait for the GPU if another job already owns it.
-    if host != "local" and counter % 23 == 22:
-        method = "gpu"
-        base, origin = best_source(HERE, n)
-        construction = None
-    if focus:
-        # Every target receives every method, independent of which host slot
-        # finishes first. Escape optimized catalogue configurations as well as
-        # polishing them; retain near-best search candidates for subsequent LP.
-        methods = ("hop", "hop", "slp", "hop", "gpu", "hop",
-                   "drop", "hop", "grow", "hop", "slp", "random")
-        phase = rotation//len(focus)
-        # Offset profiles so GPU jobs for different targets are separated by
-        # CPU jobs instead of three simultaneous contenders for one GPU lock.
-        method = methods[(phase+4*(rotation % len(focus))) % len(methods)]
-        if method == "gpu" and host == "local":
-            method = "hop"
-        base, origin = best_source(HERE, n)
-        construction = None
-        if method in ("drop", "grow"):
-            other_n = n+(1 if method == "drop" else -1)
-            other = HERE/f"n{other_n}.txt"
-            if not other.exists():
-                other = HERE/f"records/n{other_n}.txt"
-            if other.exists():
-                base = other
-            else:
-                method = "hop"
     if construction:
         packing = construction.pop("packing")
     else:
