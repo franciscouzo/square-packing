@@ -1,0 +1,87 @@
+{
+  "sha256": "3bff3561325aac425d467478f3c5413e1af74f3953cb404dccf1a744dc7c0fb3",
+  "rational_side": "23273485711141371561974624939440367392124897/1169426776483432183424599904343180000000000",
+  "log": "  grow=1+1e-12: 12 failures, e.g. ('overlap', 'squares 9 and 13 overlap')\n  grow=1+1e-11: 7 failures, e.g. ('overlap', 'squares 9 and 13 overlap')\nn=375 EXACT-VALID  side = 19.901618621327248\n  rational side  = 23273485711141371561974624939440367392124897/1169426776483432183424599904343180000000000\n  pairs tested=70125 touching=0 container contacts=5\n  record         = 19.902353152174001   margin = +7.345e-04\n",
+  "orientation": {
+    "symmetry": "mirror_x_then_rotate_270",
+    "score_before": 63.17569505037735,
+    "score_after": 63.16078797443196,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 63.17569505037735
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 130.39568167432228
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 142.4595511385396
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 134.61078053246015
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 134.26523851603284
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 143.18208381591626
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 131.22064762125166
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 63.16078797443196
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.4104007406570054,
+    "reference": "/root/square-packing/records/n375.txt",
+    "reference_sha256": "3cb2374ceddce92bad4fd1837737eaf34b696ce9247f06c33595281031554377",
+    "original_sha256": "e7642730311982e96181a4ce45ca8d97b4ae1c436b9cf802e7fa1c16f5c0cb4e",
+    "changed": true,
+    "side_before": 19.901618619437087,
+    "side_after": 19.901618619437087,
+    "roundoff_repair": 0.0
+  },
+  "reference": {
+    "kind": "derived reference upper bound, not a published-record comparison",
+    "bound": "19.93125509556197",
+    "source_n": 303,
+    "source_bound": "1793125509556197/100000000000000",
+    "layers": 2,
+    "deleted": 0,
+    "manifest_sha256": "9c9dc6ffe5b43bba99c3cfc93fd18ecf390f64c2410d61f4415dc5decc00f262"
+  },
+  "review": {
+    "date": "2026-10-12",
+    "host": "ct105-web",
+    "source": "ct105:record:a87a2fa7fd11f1295eff8016b0a8c1a1",
+    "source_sha256": "6620c9c623cf052c6b137ba07cef4edaa4a61b7605cf094854cf0e472f89ef6d",
+    "staged_sha256": "e7642730311982e96181a4ce45ca8d97b4ae1c436b9cf802e7fa1c16f5c0cb4e"
+  },
+  "web_submission": {
+    "n": 375,
+    "side": 19.901618621327252,
+    "previous": 19.901685592304876,
+    "method": "ellsworth",
+    "attribution": "franciscouzo",
+    "received": "20261012T181659Z",
+    "email_public": false,
+    "name": "franciscouzo",
+    "email": null,
+    "id": "a87a2fa7fd11f1295eff8016b0a8c1a1",
+    "original_packing_sha256": "6620c9c623cf052c6b137ba07cef4edaa4a61b7605cf094854cf0e472f89ef6d"
+  },
+  "seed_inherited_from": "n375_s19.902353152174.certificate.json",
+  "source_packing": {
+    "file": "n375.txt",
+    "side": 19.90235315217404
+  }
+}

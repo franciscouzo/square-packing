@@ -80,7 +80,7 @@ The table above compares with the catalogue as fetched in September. Against the
 | 155 | 12.952498944016 (seeded from Nate Chaoweeraprasit (SQUISH)) | 12.952425406958 | register | superseded by 7.4e-05 (same packing also in [#465](https://github.com/jlevy/squares/issues/465)) |
 | 156 | 12.979165853837 (seeded from Daniil Ostashev) | 12.979172613644 | register | **best known** |
 | 172 | 13.618988956902 | 13.618988956899 | register | **registered** (exact optimum by Evan Daniel) |
-| 175 | 13.767119024201 (seeded from Ryan Xu) | 13.764174317487 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | superseded by 2.9e-03 |
+| 175 | 13.767119024201 (seeded from Ryan Xu) | 13.764174317487 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/528) (pending) | superseded by 2.9e-03 |
 | 176 | 13.807637226928 (seeded from Daniil Ostashev) | 13.808663234387 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | **best known** |
 | 177 | 13.822979734172 | 13.822979734169 | register | **registered** (exact optimum by Evan Daniel) |
 | 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
@@ -137,7 +137,7 @@ Searches also cover n=325–400. The derived reference bounds remain the frozen 
 | 372 | 19.82412338847854 | **19.822875655617** | 1.248e-03 | — | — | reference comparison only |
 | 373 | 19.86889155557430 | **19.823062082842** | 4.583e-02 | — | — | reference comparison only |
 | 374 | 19.88674602860566 | **19.832356217037** | 5.439e-02 | — | — | reference comparison only |
-| 375 | 19.93125509556197 | **19.902353152174** | 2.890e-02 | 19.906981767291 | [Evan Daniel (from a Francisco Couzo seed)](https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988) | **smaller than reviewed published bound** |
+| 375 | 19.93125509556197 | **19.901618619437** | 2.964e-02 | 19.906981767291 | [Evan Daniel (from a Francisco Couzo seed)](https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988) | **smaller than reviewed published bound** |
 | 376 | 19.94910783564662 | **19.904949736502** | 4.416e-02 | — | — | reference comparison only |
 | 377 | 19.96066201401205 | **19.925720814334** | 3.494e-02 | — | — | reference comparison only |
 | 378 | 19.96913960675661 | **19.942536155951** | 2.660e-02 | — | — | reference comparison only |
@@ -146,3 +146,5 @@ Searches also cover n=325–400. The derived reference bounds remain the frozen 
 | 381 | 20 | **19.992663288467** | 7.337e-03 | — | — | reference comparison only |
 
 <!-- /expanded-search-results -->
+
+Latest record review: [12 October 2026, 15:25 Córdoba time](REVIEW_20261012_1525.md).

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T18:05:13Z",
+  "generated": "2026-10-12T18:21:16Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -43,7 +43,7 @@
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
-      "commit": "06c425eca69e43c17bb480d90572efadb294e277"
+      "commit": "562fdbdff1d98948f68b36b81b53f9c8165ffd08"
     }
   },
   "note": "Best known upper bounds: the register's reported value or a verified, published certificate. Third-party packings are credited to their authors and are used here only as comparison bounds and search seeds.",
@@ -1300,8 +1300,8 @@
         "side": "12922566401934059503377267965457/1000000000000000000000000000000",
         "side_decimal": 12.92256640193406,
         "source": "evand",
-        "credit": "Evan Daniel",
-        "request": "https://github.com/jlevy/squares/issues/399",
+        "credit": "Evan Daniel (from Francisco Couzo's n=155 seed)",
+        "request": "https://github.com/jlevy/squares/issues/552",
         "certificate": "evand/search/packer/candidates/tt_n154.cert",
         "sha256": "06985d5fd506a29d534b8b8c60d872139921205070794f1681f843733e5610df",
         "pending": true
@@ -1495,7 +1495,7 @@
         "side_decimal": 13.764174317486596,
         "source": "dostashev",
         "credit": "Daniil Ostashev",
-        "request": "https://github.com/jlevy/squares/issues/501",
+        "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0175.sqcert",
         "sha256": "a84adbcf843c32a02e5e571c1f345559547ff43e7369df34ba4ae32cb50d97b2",
         "pending": true
@@ -2055,7 +2055,7 @@
         "side_decimal": 15.764174317486596,
         "source": "dostashev",
         "credit": "Daniil Ostashev",
-        "request": "https://github.com/jlevy/squares/issues/501",
+        "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0232.sqcert",
         "sha256": "fa276f8c54510872cf41a94a7289839e4dd43261e3c3f30f5f7b0c2e9a5500f9",
         "pending": true
@@ -2383,7 +2383,7 @@
         "side_decimal": 16.774735132387832,
         "source": "dostashev",
         "credit": "Daniil Ostashev",
-        "request": "https://github.com/jlevy/squares/issues/501",
+        "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0264.sqcert",
         "sha256": "aa0fa6cba29b40912f8ca1a770a059de2fddfc0b6a6cf6e948443c4dd0ee980d",
         "pending": true
