@@ -62,7 +62,7 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 
 ## Standing against the current register
 
-The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-12): 6 best known, 17 registered, 9 tied, 13 superseded.
+The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-12): 4 best known, 17 registered, 11 tied, 13 superseded.
 
 | n | found here | best known elsewhere | source | status |
 |---|---|---|---|---|
@@ -84,7 +84,7 @@ The table above compares with the catalogue as fetched in September. Against the
 | 176 | 13.807637226928 (seeded from Daniil Ostashev) | 13.808663234387 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | **best known** |
 | 177 | 13.822979734172 | 13.822979734169 | register | **registered** (exact optimum by Evan Daniel) |
 | 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
-| 181 | 13.953748821957 | 13.950819531023 | [Nate Chaoweeraprasit (SQUISH)](https://github.com/jlevy/squares/issues/500) (pending) | superseded by 2.9e-03 |
+| 181 | 13.953748821957 | 13.950819531023 | register | superseded by 2.9e-03 |
 | 182 | 13.974090713124 | 13.974090713121 | register | **registered** (exact optimum by Evan Daniel) |
 | 206 | 14.860158663395 | 14.860158663392 | register | **registered** (exact optimum by Evan Daniel) |
 | 208 | 14.924518772032 | 14.924518772029 | register | tied (rounding) (same packing also in [#438](https://github.com/jlevy/squares/issues/438), [#422](https://github.com/jlevy/squares/issues/422), [#470](https://github.com/jlevy/squares/issues/470)) |
@@ -99,15 +99,15 @@ The table above compares with the catalogue as fetched in September. Against the
 | 267 | 16.838815269951 (seeded from Ryan Xu) | 16.838815269948 | register | tied (rounding) |
 | 268 | 16.878814821010 | 16.878814821007 | register | **registered** (exact optimum by Evan Daniel) |
 | 269 | 16.905967058587 | 16.901513582189 | register | superseded by 4.5e-03 |
-| 270 | 16.929775353545 (seeded from Nate Chaoweeraprasit (SQUISH)) | 16.928196993329 | [Nate Chaoweeraprasit (SQUISH)](https://github.com/jlevy/squares/issues/500) (pending) | superseded by 1.6e-03 |
-| 271 | 16.948992356454 (seeded from Nate Chaoweeraprasit (SQUISH)) | 16.949116687815 | [Nate Chaoweeraprasit (SQUISH)](https://github.com/jlevy/squares/issues/500) (pending) | **best known** |
+| 270 | 16.929775353545 (seeded from Nate Chaoweeraprasit (SQUISH)) | 16.928196993329 | register | superseded by 1.6e-03 |
+| 271 | 16.948992356454 (seeded from Nate Chaoweeraprasit (SQUISH)) | 16.949116687815 | register | **best known** |
 | 273 | 16.983925962654 | 16.983925962650 | register | **registered** (exact optimum by Evan Daniel) |
 | 292 | 17.597249391200 | 17.591378145498 | register | superseded by 5.9e-03 |
 | 297 | 17.740417287547 | 17.740417287544 | register | **registered** (exact optimum by Evan Daniel) |
 | 301 | 17.846667192847 | 17.846667192843 | register | **registered** (exact optimum by Evan Daniel) |
 | 303 | 17.917365675356 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.909958291070 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | superseded by 7.4e-03 |
-| 304 | 17.929565946852 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.929657042171 | [Nate Chaoweeraprasit (SQUISH)](https://github.com/jlevy/squares/issues/500) (pending) | **best known** |
-| 305 | 17.950466482141 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.950544853926 | [Nate Chaoweeraprasit (SQUISH)](https://github.com/jlevy/squares/issues/500) (pending) | **best known** |
+| 304 | 17.929565946852 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.929565946849 | register | tied (rounding) |
+| 305 | 17.950466482141 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.950466482138 | register | tied (rounding) |
 | 306 | 17.963433717495 | 17.963433717491 | register | **registered** (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
 | 307 | 17.981030548637 | 17.980862784055 | register | superseded by 1.7e-04 |
 | 308 | 17.998459831027 (seeded from Kevin Fang (TheSnakeFang)) | 17.998269879526 | register | superseded by 1.9e-04 |
@@ -116,33 +116,33 @@ The table above compares with the catalogue as fetched in September. Against the
 
 <!-- expanded-search-results -->
 
-Searches also cover n=325–400. The comparison bounds below are constructed from catalogue packings using added border rows or grids; they are **not surveyed published records**. See [the expansion notes](SEARCH_TO_400.md) for sources and coverage.
+Searches also cover n=325–400. The derived reference bounds remain the frozen L-border/grid comparisons. Published bounds come from the verified sources in `known_best.json`; their values below are rounded upward. Reviewed published comparisons cover 3 of these 24 counts as of 2026-10-12. A dash means no published comparison was established in the reviewed sources. See [the expansion notes](SEARCH_TO_400.md) for sources and coverage.
 
-| n | derived reference bound | found here | improvement |
-|---|---|---|---|
-| 327 | 18.60257141234448 | **18.597249391205** | 5.322e-03 |
-| 332 | 18.74106074604732 | **18.740417287547** | 6.435e-04 |
-| 335 | 18.82412338847854 | **18.822875655544** | 1.248e-03 |
-| 336 | 18.86889155557430 | **18.825571499865** | 4.332e-02 |
-| 337 | 18.88674602860566 | **18.858391767640** | 2.835e-02 |
-| 338 | 18.93125509556197 | **18.906332809856** | 2.492e-02 |
-| 339 | 18.94910783564662 | **18.929433883811** | 1.967e-02 |
-| 340 | 18.96066201401205 | **18.939649632895** | 2.101e-02 |
-| 341 | 18.96913960675661 | **18.951882408724** | 1.726e-02 |
-| 342 | 18.98272201579610 | **18.964706723440** | 1.802e-02 |
-| 343 | 19 | **18.993870589753** | 6.129e-03 |
-| 344 | 19 | **18.993744819377** | 6.255e-03 |
-| 364 | 19.60257141234448 | **19.597249391207** | 5.322e-03 |
-| 369 | 19.74106074604732 | **19.740417287548** | 6.435e-04 |
-| 372 | 19.82412338847854 | **19.822875655617** | 1.248e-03 |
-| 373 | 19.86889155557430 | **19.823062082842** | 4.583e-02 |
-| 374 | 19.88674602860566 | **19.832356217037** | 5.439e-02 |
-| 375 | 19.93125509556197 | **19.902353152174** | 2.890e-02 |
-| 376 | 19.94910783564662 | **19.904949736502** | 4.416e-02 |
-| 377 | 19.96066201401205 | **19.925720814334** | 3.494e-02 |
-| 378 | 19.96913960675661 | **19.942536155951** | 2.660e-02 |
-| 379 | 19.98272201579610 | **19.953572709542** | 2.915e-02 |
-| 380 | 20 | **19.987440766559** | 1.256e-02 |
-| 381 | 20 | **19.992663288467** | 7.337e-03 |
+| n | derived reference bound | found here (numerical) | improvement over reference | verified published bound | published source | standing |
+|---|---|---|---|---|---|---|
+| 327 | 18.60257141234448 | **18.597249391205** | 5.322e-03 | — | — | reference comparison only |
+| 332 | 18.74106074604732 | **18.740417287547** | 6.435e-04 | — | — | reference comparison only |
+| 335 | 18.82412338847854 | **18.822875655544** | 1.248e-03 | — | — | reference comparison only |
+| 336 | 18.86889155557430 | **18.825571499865** | 4.332e-02 | — | — | reference comparison only |
+| 337 | 18.88674602860566 | **18.858391767640** | 2.835e-02 | — | — | reference comparison only |
+| 338 | 18.93125509556197 | **18.906332809856** | 2.492e-02 | — | — | reference comparison only |
+| 339 | 18.94910783564662 | **18.929433883811** | 1.967e-02 | — | — | reference comparison only |
+| 340 | 18.96066201401205 | **18.939649632895** | 2.101e-02 | — | — | reference comparison only |
+| 341 | 18.96913960675661 | **18.951882408724** | 1.726e-02 | — | — | reference comparison only |
+| 342 | 18.98272201579610 | **18.964706723440** | 1.802e-02 | — | — | reference comparison only |
+| 343 | 19 | **18.993870589753** | 6.129e-03 | 18.978232523636 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | superseded by 1.6e-02 |
+| 344 | 19 | **18.993741872901** | 6.258e-03 | 18.994450514278 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | **smaller than reviewed published bound** |
+| 364 | 19.60257141234448 | **19.597249391207** | 5.322e-03 | — | — | reference comparison only |
+| 369 | 19.74106074604732 | **19.740417287548** | 6.435e-04 | — | — | reference comparison only |
+| 372 | 19.82412338847854 | **19.822875655617** | 1.248e-03 | — | — | reference comparison only |
+| 373 | 19.86889155557430 | **19.823062082842** | 4.583e-02 | — | — | reference comparison only |
+| 374 | 19.88674602860566 | **19.832356217037** | 5.439e-02 | — | — | reference comparison only |
+| 375 | 19.93125509556197 | **19.902353152174** | 2.890e-02 | 19.906981767291 | [Evan Daniel (from a Francisco Couzo seed)](https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988) | **smaller than reviewed published bound** |
+| 376 | 19.94910783564662 | **19.904949736502** | 4.416e-02 | — | — | reference comparison only |
+| 377 | 19.96066201401205 | **19.925720814334** | 3.494e-02 | — | — | reference comparison only |
+| 378 | 19.96913960675661 | **19.942536155951** | 2.660e-02 | — | — | reference comparison only |
+| 379 | 19.98272201579610 | **19.953572709542** | 2.915e-02 | — | — | reference comparison only |
+| 380 | 20 | **19.987440766559** | 1.256e-02 | — | — | reference comparison only |
+| 381 | 20 | **19.992663288467** | 7.337e-03 | — | — | reference comparison only |
 
 <!-- /expanded-search-results -->
