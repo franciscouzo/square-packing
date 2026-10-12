@@ -1,0 +1,138 @@
+{
+  "sha256": "2ba9f006604925cb8be423222ed52942298695b97ac48c79acde5f9ba388d28e",
+  "rational_side": "273372897117148243745465881/16129151651010000000000000",
+  "log": "n=271 EXACT-VALID  side = 16.948994158662384\n  rational side  = 273372897117148243745465881/16129151651010000000000000\n  pairs tested=36585 touching=0 container contacts=112\n  record         = 16.948994158647000   margin = -1.538e-11\n",
+  "search_job": {
+    "id": 88910,
+    "n": 271,
+    "seed": 925088910,
+    "method": "hop",
+    "variant": true,
+    "radius": 0.02,
+    "iterations": 1000,
+    "hop_seconds": 240,
+    "slp_seconds": 120,
+    "source": "external/seeds/n271.txt",
+    "source_origin": "external",
+    "range_group": "published",
+    "focus_targets": [],
+    "constructed_seed": null,
+    "source_sha256": "2fb477f4388b50e8f080ad6d879d753a80dc828c02ca7ff7ea75915eba0caef1",
+    "host": "fran@192.168.0.200",
+    "started": 1791771395.2750583,
+    "worker_details": {
+      "translations": true,
+      "worker_sha256": "f297214c77f0d2ff56eea51d4437858bda051f13af8864717d999d078366384a",
+      "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+      "pool_size": 6,
+      "actual_method": "hop",
+      "fq_finish": {
+        "n271_0": 16.949116687819252
+      },
+      "winner": "n271_5",
+      "refinement_candidates": [
+        {
+          "name": "incumbent",
+          "before": 16.949116687824613,
+          "after": 16.949116687827804
+        },
+        {
+          "name": "n271_0",
+          "before": 16.949515567564106,
+          "after": 16.949116687819384
+        },
+        {
+          "name": "n271_1",
+          "before": 16.94972624201923,
+          "after": 16.949116687820638
+        },
+        {
+          "name": "n271_2",
+          "before": 16.949741333547202,
+          "after": 16.949117128518022
+        },
+        {
+          "name": "n271_3",
+          "before": 16.94975606499432,
+          "after": 16.94911668782652
+        },
+        {
+          "name": "n271_4",
+          "before": 16.949916385147215,
+          "after": 16.94911668782712
+        },
+        {
+          "name": "n271_5",
+          "before": 16.949959049086203,
+          "after": 16.94899415864736
+        },
+        {
+          "name": "n271_0+fq",
+          "before": 16.949116687822237,
+          "after": 16.94911668782543
+        }
+      ]
+    }
+  },
+  "seed_credit": "Nate Chaoweeraprasit (SQUISH)",
+  "seed_certificate": {
+    "source": "squish",
+    "certificate": "squish/squish-submission-2026-10-11/n271/n271.cert.json",
+    "sha256": "3868ef22494b88fdfabdfb051df8f378c9c828339ebc07cc2db584e9f130924d",
+    "request": "https://github.com/jlevy/squares/issues/500",
+    "side": "226641509159806817533826968807522186618590497703207479506050881660303454046913630/13371877327550822127276902291903146156943895843133007855104572641371568124309293"
+  },
+  "orientation": {
+    "symmetry": "rotate_270",
+    "score_before": 120.55944854039026,
+    "score_after": 25.732912015219494,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 120.55944854039026
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 81.13538896295478
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 116.64208151783214
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 25.732912015219494
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 26.130206691882236
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 119.27078517031974
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 81.10463965267006
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 117.66482423585124
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.3081483326096522,
+    "reference": "/root/square-packing/records/n271.txt",
+    "reference_sha256": "0585a1e11aa6d116f22703f1e64a9f668f819ad254c66deb6705cd680cd27a57",
+    "original_sha256": "b1da2cc86e2b0f19430b547911215ba0974b07d489e94507c37fd5c6a64febbb",
+    "changed": true,
+    "side_before": 16.94899415864736,
+    "side_after": 16.94899415864736,
+    "roundoff_repair": 0.0
+  },
+  "exact_polish_of": {
+    "file": "n271_s16.948994158647.txt",
+    "exact_certificate": "n271_s16.948994158647.exact.cert",
+    "side_before": "16948994158647/1000000000000"
+  }
+}

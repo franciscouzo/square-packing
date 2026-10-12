@@ -1,0 +1,80 @@
+{
+  "sha256": "3d6ac36cc647a846bb241e81b66470400258ca9aea2c91f825c27a2a2e518992",
+  "rational_side": "124647359751634468842806520833193640643459376398882890781/9027330108701143984932839551087011439848425662500000000",
+  "log": "  grow=1+1e-12: 1 failures, e.g. ('overlap', 'squares 22 and 30 overlap')\n  grow=1+1e-11: 1 failures, e.g. ('overlap', 'squares 22 and 30 overlap')\nn=176 EXACT-VALID  side = 13.807776856580332\n  rational side  = 124647359751634468842806520833193640643459376398882890781/9027330108701143984932839551087011439848425662500000000\n  pairs tested=15400 touching=0 container contacts=5\n  record         = 13.808663134386958   margin = +8.863e-04\n",
+  "orientation": {
+    "symmetry": "mirror_x_then_rotate_180",
+    "score_before": 79.30956450004818,
+    "score_after": 28.269816878455885,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 79.30956450004818
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 35.29098586164494
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 77.42974474479031
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 32.44003166945735
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 33.30300113691029
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 79.00036993676628
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 28.269816878455885
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 79.32243754922467
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.40077919049856014,
+    "reference": "/root/square-packing/records/n176.txt",
+    "reference_sha256": "fa16d46694057c9cab1ead21301df2b52b92aa8c9a5512121e74945b346b38db",
+    "original_sha256": "6eade58af4fd692126715f7ee16f4b3fae82d057873061ce7fa7fc40f0f0b068",
+    "changed": true,
+    "side_before": 13.807776855276638,
+    "side_after": 13.807776855276638,
+    "roundoff_repair": 0.0
+  },
+  "known_best_elsewhere": {
+    "side": "7773586324608721/562949953421312",
+    "table": "known_best.json",
+    "table_sha256": "c7a4c87210380a29bef702839ab60cca2b976ffe4a8786865fd68c0431bd6420"
+  },
+  "review": {
+    "date": "2026-10-12",
+    "host": "ct105-web",
+    "source": "ct105:record:ad5ae2e2b2c6d51edf1bdabe61ca42d4",
+    "source_sha256": "5fd5229bc0e65023d5105039f1b1549cb0b875df1ef9b8039663051d5cc03810",
+    "staged_sha256": "6eade58af4fd692126715f7ee16f4b3fae82d057873061ce7fa7fc40f0f0b068"
+  },
+  "web_submission": {
+    "n": 176,
+    "side": 13.807776856580334,
+    "previous": 13.807943253780545,
+    "method": "ellsworth",
+    "attribution": "franciscouzo",
+    "received": "20261012T162110Z",
+    "email_public": false,
+    "name": "franciscouzo",
+    "email": null,
+    "id": "ad5ae2e2b2c6d51edf1bdabe61ca42d4",
+    "original_packing_sha256": "5fd5229bc0e65023d5105039f1b1549cb0b875df1ef9b8039663051d5cc03810"
+  },
+  "seed_credit": "Daniil Ostashev",
+  "seed_certificate": "dostashev/records/n0176.sqcert"
+}

@@ -1,0 +1,141 @@
+{
+  "sha256": "72b7961a558331d2c7bd191e15474e45c918f973d8f56035d482c497c732f935",
+  "rational_side": "24768871528205264817390163/1304054138018800000000000",
+  "log": "n=344 EXACT-VALID  side = 18.993744819395054\n  rational side  = 24768871528205264817390163/1304054138018800000000000\n  pairs tested=58996 touching=0 container contacts=70\n  record         = 18.993881400528000   margin = +1.366e-04\n",
+  "orientation": {
+    "symmetry": "rotate_90",
+    "score_before": 194.56510781241406,
+    "score_after": 134.5563593957245,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 194.56510781241406
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 134.5563593957245
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 153.9630352373256
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 216.7204339771123
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 216.81477767245914
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 194.7790240579103
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 135.69694801535002
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 152.92900273086815
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.62542162382325,
+    "reference": "/root/square-packing/records/n344.txt",
+    "reference_sha256": "8c0cba7c985c0e1963e200b52640b67485a2692a17faa57c7a0e9448a8f64147",
+    "original_sha256": "01b16c6950e11a92e6eda5f3bc8955473755e3fbd0fc4a04a268696bb28a4343",
+    "changed": true,
+    "side_before": 18.99374481937706,
+    "side_after": 18.99374481937706,
+    "roundoff_repair": 0.0
+  },
+  "known_best_elsewhere": {
+    "side": "5346462516137939/281474976710656",
+    "table": "known_best.json",
+    "table_sha256": "058d18efabcfc36433c099a725e4eda0cf25d7f2d827c1ed4fe01df36a558616"
+  },
+  "reference": {
+    "kind": "derived reference upper bound, not a published-record comparison",
+    "bound": "19",
+    "source_n": 308,
+    "source_bound": "18",
+    "layers": 1,
+    "deleted": 1,
+    "manifest_sha256": "9c9dc6ffe5b43bba99c3cfc93fd18ecf390f64c2410d61f4415dc5decc00f262"
+  },
+  "search_job": {
+    "id": 91423,
+    "n": 344,
+    "seed": 925091423,
+    "method": "hop",
+    "variant": true,
+    "radius": 0.003,
+    "iterations": 1000,
+    "hop_seconds": 240,
+    "slp_seconds": 120,
+    "source": "n344.txt",
+    "source_origin": "constructed",
+    "range_group": "expanded",
+    "focus_targets": [],
+    "constructed_seed": {
+      "construction": "L-border and deletion",
+      "source": "n344.txt",
+      "source_sha256": "39099baf950a17b4e4be3b6963150de2315960f9357d063d7eb1dcca4d3aa2ce",
+      "source_n": 344,
+      "source_side": 18.99396511632623,
+      "layers": 0,
+      "deleted": 0,
+      "side": 18.99396511632623
+    },
+    "source_sha256": "bf42d9b5e2c9d3208b8b46bb01e4bdcc31000ac60b335ca00e172cae11c5ff80",
+    "host": "fran@192.168.0.200",
+    "started": 1791824756.690088,
+    "worker_details": {
+      "translations": false,
+      "worker_sha256": "f297214c77f0d2ff56eea51d4437858bda051f13af8864717d999d078366384a",
+      "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+      "pool_size": 6,
+      "actual_method": "hop",
+      "fq_finish": {},
+      "winner": "n344_0",
+      "refinement_candidates": [
+        {
+          "name": "incumbent",
+          "before": 18.993965116333456,
+          "after": 18.99396511633706
+        },
+        {
+          "name": "n344_0",
+          "before": 18.994079977627674,
+          "after": 18.99374481937706
+        },
+        {
+          "name": "n344_1",
+          "before": 18.99410062773708,
+          "after": 18.993782995182052
+        },
+        {
+          "name": "n344_2",
+          "before": 18.994127396169915,
+          "after": 18.993753564876744
+        },
+        {
+          "name": "n344_3",
+          "before": 18.99415191410079,
+          "after": 18.99374926537437
+        },
+        {
+          "name": "n344_4",
+          "before": 18.994173789484,
+          "after": 18.993973279244862
+        },
+        {
+          "name": "n344_5",
+          "before": 18.994217679321636,
+          "after": 18.993767150454772
+        }
+      ]
+    }
+  }
+}

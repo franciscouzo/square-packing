@@ -1,0 +1,168 @@
+{
+  "sha256": "15c9460d7385d8bcac6ff787c12a5892f4cae89939b70d04c5f117a6b06deed7",
+  "rational_side": "127672411527404835692206103/9836719321184000000000000",
+  "log": "n=156 EXACT-VALID  side = 12.979165853848670\n  rational side  = 127672411527404835692206103/9836719321184000000000000\n  pairs tested=12090 touching=0 container contacts=62\n  record         = 12.979165853842000   margin = -6.669e-12\n",
+  "search_job": {
+    "id": 89888,
+    "n": 156,
+    "seed": 925089888,
+    "method": "hop",
+    "variant": false,
+    "radius": 0.003,
+    "iterations": 1000,
+    "hop_seconds": 240,
+    "slp_seconds": 120,
+    "source": "external/seeds/n156.txt",
+    "source_origin": "external",
+    "range_group": "published",
+    "focus_targets": [],
+    "constructed_seed": null,
+    "source_sha256": "a455de39f83a089e9317fca19734aa966eb89f4676f431f6cdcd9ffef9395975",
+    "host": "fran@192.168.0.200",
+    "started": 1791791861.714525,
+    "worker_details": {
+      "translations": true,
+      "worker_sha256": "f297214c77f0d2ff56eea51d4437858bda051f13af8864717d999d078366384a",
+      "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+      "pool_size": 6,
+      "actual_method": "hop",
+      "fq_finish": {
+        "n156_0": 12.979172613647247,
+        "n156_1": 12.979172613647194,
+        "n156_2": 12.979172613647286,
+        "n156_3": 12.979172613647306,
+        "n156_4": 12.979165853837491,
+        "n156_5": 12.979172613647645
+      },
+      "winner": "n156_4+fq",
+      "refinement_candidates": [
+        {
+          "name": "incumbent",
+          "before": 12.979172613651635,
+          "after": 12.979172613654033
+        },
+        {
+          "name": "n156_0",
+          "before": 12.979317246697308,
+          "after": 12.979172613648323
+        },
+        {
+          "name": "n156_1",
+          "before": 12.979409423980702,
+          "after": 12.979179528381199
+        },
+        {
+          "name": "n156_2",
+          "before": 12.97943161567201,
+          "after": 12.97917328875307
+        },
+        {
+          "name": "n156_3",
+          "before": 12.979596100278442,
+          "after": 12.979172613647533
+        },
+        {
+          "name": "n156_4",
+          "before": 12.97964518613002,
+          "after": 12.979214511041622
+        },
+        {
+          "name": "n156_5",
+          "before": 12.97966471591931,
+          "after": 12.979178323454553
+        },
+        {
+          "name": "n156_0+fq",
+          "before": 12.97917261364944,
+          "after": 12.979172613651839
+        },
+        {
+          "name": "n156_1+fq",
+          "before": 12.979172613649387,
+          "after": 12.979172613651784
+        },
+        {
+          "name": "n156_2+fq",
+          "before": 12.97917261364948,
+          "after": 12.979172613651874
+        },
+        {
+          "name": "n156_3+fq",
+          "before": 12.979172613649498,
+          "after": 12.979172613651896
+        },
+        {
+          "name": "n156_4+fq",
+          "before": 12.97916585383968,
+          "after": 12.979165853842076
+        },
+        {
+          "name": "n156_5+fq",
+          "before": 12.979172613649814,
+          "after": 12.97917261365221
+        }
+      ]
+    }
+  },
+  "seed_credit": "Daniil Ostashev",
+  "seed_certificate": {
+    "source": "dostashev",
+    "certificate": "dostashev/records/n0156.sqcert",
+    "sha256": "694dcbf9f20ddb1ef19678fcbf7905736658834b0f2b31312d6d67380ca2534a",
+    "request": "https://github.com/jlevy/squares/issues/501",
+    "side": "8111982883527766297069290937797918339306619994848173142743008111982883527766297069290937797918339306619994848173142743/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "orientation": {
+    "symmetry": "identity",
+    "score_before": 10.9227283245646,
+    "score_after": 10.9227283245646,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 10.9227283245646
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 65.91599891983043
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 51.30269335749457
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 66.5187219191383
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 69.01732817177154
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 51.983010999014525
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 63.07771544538373
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 12.835321244965382
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.26460818063701186,
+    "reference": "/root/square-packing/records/n156.txt",
+    "reference_sha256": "d0c34a766ddaf56cd915d3a9fad104b053d123d6dd7ecb644fac27141c36a8bd",
+    "original_sha256": "04d58c092a6ec1de609fc7df1dbb51127128f50ed5ccfa0f85e1271af8de3d35",
+    "changed": true,
+    "side_before": 12.979165853842076,
+    "side_after": 12.979165853842076,
+    "roundoff_repair": 0.0
+  },
+  "exact_polish_of": {
+    "file": "n156_s12.979165853842.txt",
+    "exact_certificate": "n156_s12.979165853842.exact.cert",
+    "side_before": "6489582926921/500000000000"
+  }
+}

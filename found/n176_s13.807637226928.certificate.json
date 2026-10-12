@@ -1,0 +1,96 @@
+{
+  "sha256": "35db5a6801b30577d69a6938ff09b743030ab1ed6a1cdb8fb1f6600c10be18c2",
+  "rational_side": "16901400155217473384363693/1224061718691400000000000",
+  "log": "  grow=1+1e-12: 1 failures, e.g. ('overlap', 'squares 100 and 101 overlap')\nn=176 EXACT-VALID  side = 13.807637227055960\n  rational side  = 16901400155217473384363693/1224061718691400000000000\n  pairs tested=15400 touching=0 container contacts=30\n  record         = 13.807776855277000   margin = +1.396e-04\n",
+  "orientation": {
+    "symmetry": "rotate_90",
+    "score_before": 76.3418368137108,
+    "score_after": 29.468008733032104,
+    "scores": [
+      {
+        "symmetry": "identity",
+        "score": 76.3418368137108
+      },
+      {
+        "symmetry": "rotate_90",
+        "score": 29.468008733032104
+      },
+      {
+        "symmetry": "rotate_180",
+        "score": 78.38669837803371
+      },
+      {
+        "symmetry": "rotate_270",
+        "score": 34.97809311491561
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_0",
+        "score": 33.36786842638695
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_90",
+        "score": 79.68101588802492
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_180",
+        "score": 37.48705424911836
+      },
+      {
+        "symmetry": "mirror_x_then_rotate_270",
+        "score": 75.2736301358361
+      }
+    ],
+    "reordered": true,
+    "rms_corner_displacement": 0.40918439339901364,
+    "reference": "/root/square-packing/records/n176.txt",
+    "reference_sha256": "fa16d46694057c9cab1ead21301df2b52b92aa8c9a5512121e74945b346b38db",
+    "original_sha256": "a2e59c6de8f0fca044798cf1c9eba0dc89a062d33bdc0ce532f873cd56f7b730",
+    "changed": true,
+    "side_before": 13.807637226927884,
+    "side_after": 13.807637226927884,
+    "roundoff_repair": 0.0
+  },
+  "known_best_elsewhere": {
+    "side": "7773586324608721/562949953421312",
+    "table": "known_best.json",
+    "table_sha256": "2385680cc2f08f5dffac48a2630d6987fcbbd5d76853d2f3498febf6b8e71374"
+  },
+  "search_job": {
+    "id": 91542,
+    "n": 176,
+    "seed": 925091542,
+    "method": "hop",
+    "variant": true,
+    "radius": 0.01,
+    "iterations": 1000,
+    "hop_seconds": 240,
+    "slp_seconds": 120,
+    "source": "n176.txt",
+    "source_origin": "own",
+    "range_group": "published",
+    "focus_targets": [],
+    "constructed_seed": null,
+    "source_sha256": "3d6ac36cc647a846bb241e81b66470400258ca9aea2c91f825c27a2a2e518992",
+    "host": "fran@192.168.0.200",
+    "started": 1791827141.816942,
+    "worker_details": {
+      "translations": true,
+      "worker_sha256": "f297214c77f0d2ff56eea51d4437858bda051f13af8864717d999d078366384a",
+      "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+      "pool_size": 0,
+      "actual_method": "hop",
+      "fq_finish": {},
+      "winner": "incumbent",
+      "refinement_candidates": [
+        {
+          "name": "incumbent",
+          "before": 13.807694914690972,
+          "after": 13.807637226927884
+        }
+      ]
+    }
+  },
+  "seed_credit": "Daniil Ostashev",
+  "seed_certificate": "dostashev/records/n0176.sqcert",
+  "seed_inherited_from": "n176_s13.807776855277.certificate.json"
+}

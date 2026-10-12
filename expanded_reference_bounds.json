@@ -1,0 +1,1485 @@
+{
+  "published_range_max": 324,
+  "search_max": 400,
+  "source": "https://kingbird.myphotos.cc/packing/squares_in_squares.html",
+  "construction": "m -> m+2*floor(s)+1, s -> s+1; repeat and delete surplus squares",
+  "notice": "Constructed comparisons for 325..400; not surveyed published records.",
+  "entries": {
+    "325": {
+      "bound": "18.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n290.txt",
+        "source_sha256": "4412c94f1a85cf78e286d0a12032db304ffa7422301e95a1003c06abd7817b6e",
+        "source_n": 290,
+        "source_side": 17.535533905932738,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.535533905934738
+      },
+      "seed_side": "9267766952969/500000000000",
+      "seed_sha256": "a497cd8169b575d5e0b8e42cdfc9f5672e5427c39ff6644d925a53ddf53a06de"
+    },
+    "326": {
+      "bound": "18.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n291.txt",
+        "source_sha256": "22802961409fd3b6baa7fce10c6c04e5467169a4edabbf4ed7f0894ef4b641ba",
+        "source_n": 291,
+        "source_side": 17.535533905932738,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.535533905934738
+      },
+      "seed_side": "9267766952969/500000000000",
+      "seed_sha256": "ee42afd8f02e79bd3526eb6ab1f7eeda816c35195009ca67d91a308c0812912c"
+    },
+    "327": {
+      "bound": "18.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n292.txt",
+        "source_sha256": "201ebe0b8d7f67995fe05b87946a7457856495b6dc9eb7f43b74a25ec27ad68b",
+        "source_n": 292,
+        "source_side": 17.602571412344485,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.602571412346485
+      },
+      "seed_side": "372051428247/20000000000",
+      "seed_sha256": "10d988402d0653627ff05fc918b8ec0ccecadc25676c4b3a99257448fdf0a5a0"
+    },
+    "328": {
+      "bound": "18.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n293.txt",
+        "source_sha256": "118d4463ac2b972085692f0917786ce548349443098c60e510e531c61961a613",
+        "source_n": 293,
+        "source_side": 17.634146341463413,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.634146341465414
+      },
+      "seed_side": "18634146341469/1000000000000",
+      "seed_sha256": "e1066bab622762e60634fca6d1f69f53661bbba4f0f1199bb0bf729a8e5f6da3"
+    },
+    "329": {
+      "bound": "18.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n294.txt",
+        "source_sha256": "3ab54f915c93a8a65c856975e12b8639f137973b82027ce5a5cdfd79eade6328",
+        "source_n": 294,
+        "source_side": 17.65685424949238,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.65685424949438
+      },
+      "seed_side": "9328427124749/500000000000",
+      "seed_sha256": "7b0458e232f7c3f346fde33ad39e07f3feeb27be68ba308b13750e20ada03121"
+    },
+    "330": {
+      "bound": "18.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n295.txt",
+        "source_sha256": "f7660474ff6c8b74304d4e248019940ff15404b011f523eec29e80de551e048f",
+        "source_n": 295,
+        "source_side": 17.707106781186546,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.707106781188546
+      },
+      "seed_side": "2338388347649/125000000000",
+      "seed_sha256": "8141c87769633bc9a7a9a9b5d90b0d36244f2794d0e0f0828aa6d59c8236dea2"
+    },
+    "331": {
+      "bound": "18.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n296.txt",
+        "source_sha256": "552f6c31690ca3ea8cd545916e57ccc5e0b9270bfaec38e53b881cd0fc45c6fe",
+        "source_n": 296,
+        "source_side": 17.707106781186546,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.707106781188546
+      },
+      "seed_side": "2338388347649/125000000000",
+      "seed_sha256": "a5d2b1aa14d380af714c9800097681f6e590a63f367a62331b37571308bb59dc"
+    },
+    "332": {
+      "bound": "18.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n297.txt",
+        "source_sha256": "f66822550bf152d4ff0718b3b9bf82613554bd89a7a8fd53558f61b306260801",
+        "source_n": 297,
+        "source_side": 17.74043282471456,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.74043282471656
+      },
+      "seed_side": "234255410309/12500000000",
+      "seed_sha256": "c6b7ad5532a3ee4e6f113986304969c6a7d2679b08a0cc8bf8009e59f4f4423b"
+    },
+    "333": {
+      "bound": "18.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n298.txt",
+        "source_sha256": "21a5e6f4c7901c7a72bfe5986a36e52e09f9246fd56df076130612805ba8497b",
+        "source_n": 298,
+        "source_side": 17.77817459305202,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.778174593054022
+      },
+      "seed_side": "9389087296529/500000000000",
+      "seed_sha256": "2f18278d67d9806e0d1d62c7c323b51a3ebc2e1c8fa1ee418e7087a33324d9ed"
+    },
+    "334": {
+      "bound": "18.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n299.txt",
+        "source_sha256": "681fba0becf84c1337f99dcfbc8e1966002bd82c84c9740e099d716894eb6e9c",
+        "source_n": 299,
+        "source_side": 17.822875655532297,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.822875655534297
+      },
+      "seed_side": "9411437827769/500000000000",
+      "seed_sha256": "a61fc2d284e10a3e5a25a7713c94353f562e7e6993e6afbc4927179eb2d39775"
+    },
+    "335": {
+      "bound": "18.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n300.txt",
+        "source_sha256": "1fe24e94d1269f6fe3cfb0d36a83985ce27b9777ef5e8d87c9a61303c2e92f09",
+        "source_n": 300,
+        "source_side": 17.824123388478544,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.824123388480544
+      },
+      "seed_side": "4706030847121/250000000000",
+      "seed_sha256": "a5e67d6e93bb4cf4911ba22188452f290d1203761ca8fd88c9b71cf0db013dc1"
+    },
+    "336": {
+      "bound": "18.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n301.txt",
+        "source_sha256": "a4f8b3782352195fb6aff437d52f2d5f95b6f7d49fcbd7f6f629c9b05d14ffe0",
+        "source_n": 301,
+        "source_side": 17.846667193938817,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.846667193940817
+      },
+      "seed_side": "2355833399243/125000000000",
+      "seed_sha256": "936bbe9c1cf72e459ebfc510e622ceed567a17c26d378e927fe906970d6b4db7"
+    },
+    "337": {
+      "bound": "18.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n302.txt",
+        "source_sha256": "2a752fd2a323512569ef8ffe780f9b120f745cdc685590eda0f4df49ceee4a4f",
+        "source_n": 302,
+        "source_side": 17.88604519350688,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.88604519350888
+      },
+      "seed_side": "2360755649189/125000000000",
+      "seed_sha256": "d27da8e27a02f794b88362e5e3a88245bfc91d03fe375c496a15fe768ae36c2d"
+    },
+    "338": {
+      "bound": "18.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n303.txt",
+        "source_sha256": "c0fafc85126fbb91e92827ccebb941cee94bbf61b705bc78416e15e125861328",
+        "source_n": 303,
+        "source_side": 17.927275052063443,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.927275052065443
+      },
+      "seed_side": "18927275052069/1000000000000",
+      "seed_sha256": "2cd584d37dd0687e532253fe97d9848671486a0e319c9958eb7e5385d10d7a45"
+    },
+    "339": {
+      "bound": "18.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n304.txt",
+        "source_sha256": "587bb144ebf36206409853ac926c1c6f404400e7dd24b38f115a5ae64d27feff",
+        "source_n": 304,
+        "source_side": 17.93484705980486,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.93484705980686
+      },
+      "seed_side": "1893484705981/100000000000",
+      "seed_sha256": "6d2c6b9249a25749f856371f143e389b93991fa621ddc501c1cd837d7b7bc9b5"
+    },
+    "340": {
+      "bound": "18.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n305.txt",
+        "source_sha256": "ffa1cf12733a1a1806596319d1b7b255544036aeeac2de3fe12906b4434a8f7b",
+        "source_n": 305,
+        "source_side": 17.95327082233211,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.95327082233411
+      },
+      "seed_side": "9476635411169/500000000000",
+      "seed_sha256": "ed904cf4b60629a9a4e2484264de6ecf3d192b632f6af7852563e07bee8731a4"
+    },
+    "341": {
+      "bound": "18.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n306.txt",
+        "source_sha256": "c4b59c11d63b44ebed895a1ffe402326681f29c7c87fa777b261335594bcda8f",
+        "source_n": 306,
+        "source_side": 17.96387184040809,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.96387184041009
+      },
+      "seed_side": "9481935920207/500000000000",
+      "seed_sha256": "59943d520dc6af58135fe289d2cbbcb9748958a544c87c4ebfdf785dd70dc0f6"
+    },
+    "342": {
+      "bound": "18.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n307.txt",
+        "source_sha256": "319592893dad779ca2b3a813bf15933f240a9bb76d43dbdb547524918da0945b",
+        "source_n": 307,
+        "source_side": 17.98184201853627,
+        "layers": 1,
+        "deleted": 0,
+        "side": 18.98184201853827
+      },
+      "seed_side": "9490921009271/500000000000",
+      "seed_sha256": "ed6e155753485087a6ead2ce6864c4f5702592e9640c05fc48f5e4c8f4a4c49f"
+    },
+    "343": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 2,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "a9bafda2527da347a9d796975674b58774d95d06fc154b36f73ff066519d0e8c"
+    },
+    "344": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 1,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "8c0cba7c985c0e1963e200b52640b67485a2692a17faa57c7a0e9448a8f64147"
+    },
+    "345": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "a05f6f90e1a5f701d74a3145a8f92f08f44d5087c90a0c354da603059e19ad40"
+    },
+    "346": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "97c0cce058fcd1950496328c19161f68ba7cecf39d264e5ee70f0c8751c4073c"
+    },
+    "347": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "1e0148f458f79e5282a075588b9052a9b32a81f37761b74629558b147f54e640"
+    },
+    "348": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "1d3d1ee9171b7b928184651813276abe87a9581085cb2a9edec07ac15ed0a96e"
+    },
+    "349": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "88df5d238c21ea5cf3d2c8f10672a67e1a1cd7e2b861f25c73b7fdffa16f4f7d"
+    },
+    "350": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "98f377371d6756f975ea8505bcc2de0517793b05d1166679e008bfc1b1fafea9"
+    },
+    "351": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "0701aa0babf05fac530251337e3694cc906a2d558439283370b15c50c1224d4a"
+    },
+    "352": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "93d2aae1d4c05f6f53347869cdc06896951014424a999ba1432bc3b66fe211e0"
+    },
+    "353": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "5c427bbb43ad89850554ed3960ad34c233fb63a48d936c37e488ac43197436a6"
+    },
+    "354": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "2c4a27083caf5cd3898820cea5a20efeea5df3a62f434bdd6af12bf6885259b4"
+    },
+    "355": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "819e324455f11716ca1b3c6d06996ac61be6ff7dd96c7f07ae503503de88fdd7"
+    },
+    "356": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "cc1c0a4d89478effeb04e20737909a467bff3b78868bf90d3abf51ac05725533"
+    },
+    "357": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "d8e41c3014df258435f3770f44ee375c434be52a88175bd15e8aac999425761e"
+    },
+    "358": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "5c9bea7c4ae968bf9bc6dd0dcd6576d1106f7c86ed58479152deeea9c1e45196"
+    },
+    "359": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "b98fa72e330d283ddd7e8593cb54f1767d11e369ae06e762f32c865c17877d48"
+    },
+    "360": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 1,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "b8e28c14e6d8a21f0553b64c60bd594e67e025b1b8bb1646d1b58756a4782cc1"
+    },
+    "361": {
+      "bound": "19",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true,
+      "seed": {
+        "construction": "grid",
+        "width": 19,
+        "source": null,
+        "layers": 0,
+        "side": 19.0
+      },
+      "seed_side": "19",
+      "seed_sha256": "c3cd12d198ae4c22d662655e56a822f88a064026764d9fa2057892c530418b13"
+    },
+    "362": {
+      "bound": "19.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n290.txt",
+        "source_sha256": "4412c94f1a85cf78e286d0a12032db304ffa7422301e95a1003c06abd7817b6e",
+        "source_n": 290,
+        "source_side": 17.535533905932738,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.535533905936738
+      },
+      "seed_side": "976776695297/50000000000",
+      "seed_sha256": "704842e61f43b37b3f6ed7f5cc8bf2143d7cb7e32a2b2e977828eef6452fe882"
+    },
+    "363": {
+      "bound": "19.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n291.txt",
+        "source_sha256": "22802961409fd3b6baa7fce10c6c04e5467169a4edabbf4ed7f0894ef4b641ba",
+        "source_n": 291,
+        "source_side": 17.535533905932738,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.535533905936738
+      },
+      "seed_side": "976776695297/50000000000",
+      "seed_sha256": "ee62beffab916be8091908f0437551a8d07ff1656d573e8a80b8932e9e63ebe9"
+    },
+    "364": {
+      "bound": "19.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n292.txt",
+        "source_sha256": "201ebe0b8d7f67995fe05b87946a7457856495b6dc9eb7f43b74a25ec27ad68b",
+        "source_n": 292,
+        "source_side": 17.602571412344485,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.602571412348485
+      },
+      "seed_side": "153145089159/7812500000",
+      "seed_sha256": "2bf9a49325cb7ebb1491c4a45d5ee6ca9e4103197f8fd4f8f7eeb664b30ac24b"
+    },
+    "365": {
+      "bound": "19.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n293.txt",
+        "source_sha256": "118d4463ac2b972085692f0917786ce548349443098c60e510e531c61961a613",
+        "source_n": 293,
+        "source_side": 17.634146341463413,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.634146341467414
+      },
+      "seed_side": "19634146341471/1000000000000",
+      "seed_sha256": "57af1c5e465b9b3a5c668c8efb52340b67eb23eae9610d06dedbacbc47f219f8"
+    },
+    "366": {
+      "bound": "19.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n294.txt",
+        "source_sha256": "3ab54f915c93a8a65c856975e12b8639f137973b82027ce5a5cdfd79eade6328",
+        "source_n": 294,
+        "source_side": 17.65685424949238,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.65685424949638
+      },
+      "seed_side": "39313708499/2000000000",
+      "seed_sha256": "ef869baf4bb57fab54e13a418bcf077fedde402f9c014fa925beb30804ab9055"
+    },
+    "367": {
+      "bound": "19.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n295.txt",
+        "source_sha256": "f7660474ff6c8b74304d4e248019940ff15404b011f523eec29e80de551e048f",
+        "source_n": 295,
+        "source_side": 17.707106781186546,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.707106781190546
+      },
+      "seed_side": "9853553390597/500000000000",
+      "seed_sha256": "115aa4f0af5283bb49ebe6d682a0d531fb27ef3110eb1f844cc931164c060fb3"
+    },
+    "368": {
+      "bound": "19.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n296.txt",
+        "source_sha256": "552f6c31690ca3ea8cd545916e57ccc5e0b9270bfaec38e53b881cd0fc45c6fe",
+        "source_n": 296,
+        "source_side": 17.707106781186546,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.707106781190546
+      },
+      "seed_side": "9853553390597/500000000000",
+      "seed_sha256": "a24e090b851414021356694b4fd0bc8318b99ddfa92479caf99262dbef636e9c"
+    },
+    "369": {
+      "bound": "19.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n297.txt",
+        "source_sha256": "f66822550bf152d4ff0718b3b9bf82613554bd89a7a8fd53558f61b306260801",
+        "source_n": 297,
+        "source_side": 17.74043282471456,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.74043282471856
+      },
+      "seed_side": "9870216412361/500000000000",
+      "seed_sha256": "22ed1b4480c50b36fc4b906861c5cd809ed92a00652f50b2eb71a1c11ab285a2"
+    },
+    "370": {
+      "bound": "19.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n298.txt",
+        "source_sha256": "21a5e6f4c7901c7a72bfe5986a36e52e09f9246fd56df076130612805ba8497b",
+        "source_n": 298,
+        "source_side": 17.77817459305202,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.778174593056022
+      },
+      "seed_side": "988908729653/50000000000",
+      "seed_sha256": "508578ab7f9360359a20db342db4367a27b1b709838d286daf7ca8beb60d4b61"
+    },
+    "371": {
+      "bound": "19.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n299.txt",
+        "source_sha256": "681fba0becf84c1337f99dcfbc8e1966002bd82c84c9740e099d716894eb6e9c",
+        "source_n": 299,
+        "source_side": 17.822875655532297,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.822875655536297
+      },
+      "seed_side": "991143782777/50000000000",
+      "seed_sha256": "0bc31ff6e0c7a77036f971555c73c0c07adea4d3f41e260dc1b9c1e8e96ca0d6"
+    },
+    "372": {
+      "bound": "19.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n300.txt",
+        "source_sha256": "1fe24e94d1269f6fe3cfb0d36a83985ce27b9777ef5e8d87c9a61303c2e92f09",
+        "source_n": 300,
+        "source_side": 17.824123388478544,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.824123388482544
+      },
+      "seed_side": "9912061694243/500000000000",
+      "seed_sha256": "6d126795d377d8e78055a7ad1f86bffe802723d1a5d365b74fee576bbb23d4fa"
+    },
+    "373": {
+      "bound": "19.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n301.txt",
+        "source_sha256": "a4f8b3782352195fb6aff437d52f2d5f95b6f7d49fcbd7f6f629c9b05d14ffe0",
+        "source_n": 301,
+        "source_side": 17.846667193938817,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.846667193942817
+      },
+      "seed_side": "19846667193947/1000000000000",
+      "seed_sha256": "97895a605180d410834118377b3f36dd8d5d16bf0078a64749e3ce5222b4ef8a"
+    },
+    "374": {
+      "bound": "19.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n302.txt",
+        "source_sha256": "2a752fd2a323512569ef8ffe780f9b120f745cdc685590eda0f4df49ceee4a4f",
+        "source_n": 302,
+        "source_side": 17.88604519350688,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.88604519351088
+      },
+      "seed_side": "3977209038703/200000000000",
+      "seed_sha256": "78d42f49d001a4f4e0d9207692c5bd47b0353fdcdbcff2854579fb6fc3c8374d"
+    },
+    "375": {
+      "bound": "19.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n303.txt",
+        "source_sha256": "c0fafc85126fbb91e92827ccebb941cee94bbf61b705bc78416e15e125861328",
+        "source_n": 303,
+        "source_side": 17.927275052063443,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.927275052067444
+      },
+      "seed_side": "19927275052071/1000000000000",
+      "seed_sha256": "3cb2374ceddce92bad4fd1837737eaf34b696ce9247f06c33595281031554377"
+    },
+    "376": {
+      "bound": "19.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n304.txt",
+        "source_sha256": "587bb144ebf36206409853ac926c1c6f404400e7dd24b38f115a5ae64d27feff",
+        "source_n": 304,
+        "source_side": 17.93484705980486,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.93484705980886
+      },
+      "seed_side": "19934847059813/1000000000000",
+      "seed_sha256": "1cd743e95d54198f64f1446dbc0b90dd68f4c7065b22b35943524217a5ed8ef2"
+    },
+    "377": {
+      "bound": "19.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n305.txt",
+        "source_sha256": "ffa1cf12733a1a1806596319d1b7b255544036aeeac2de3fe12906b4434a8f7b",
+        "source_n": 305,
+        "source_side": 17.95327082233211,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.953270822336112
+      },
+      "seed_side": "997663541117/50000000000",
+      "seed_sha256": "07e52fd4dae8a69dd97788d5ba9eeb79b33e967e259b7417ab70c0e5fc78f59a"
+    },
+    "378": {
+      "bound": "19.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n306.txt",
+        "source_sha256": "c4b59c11d63b44ebed895a1ffe402326681f29c7c87fa777b261335594bcda8f",
+        "source_n": 306,
+        "source_side": 17.96387184040809,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.96387184041209
+      },
+      "seed_side": "623870995013/31250000000",
+      "seed_sha256": "a76c31a63132887fd591a8850a574aa6f9f78b6ad18a7075436f68866e191384"
+    },
+    "379": {
+      "bound": "19.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n307.txt",
+        "source_sha256": "319592893dad779ca2b3a813bf15933f240a9bb76d43dbdb547524918da0945b",
+        "source_n": 307,
+        "source_side": 17.98184201853627,
+        "layers": 2,
+        "deleted": 0,
+        "side": 19.98184201854027
+      },
+      "seed_side": "1248865126159/62500000000",
+      "seed_sha256": "a97b76c771e9a7354b26df6aa82cd57faf2229a2689b89d169c241d1d0cd0cb1"
+    },
+    "380": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 4,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "8c57c791d4e208a0aaafec47ad0b2e1863c1788710420b4e5c1b963004e67933"
+    },
+    "381": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 3,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "1f42c568c4a1d1702aff860063509135b89056030d9ec0188afcd5b28539f93b"
+    },
+    "382": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 2,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "d67d0e99def67e49ee40a370945db5044ca47821037002bf185f708f6230febd"
+    },
+    "383": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 1,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "99eda69ccffe7327f55e46a035a8f3a2a6e7336042c90a84fa4e47cf1a12d177"
+    },
+    "384": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "781b0ef105b4aded287f56ea476ef1b0b6de146bfcde9309b1269e8dd07fbce9"
+    },
+    "385": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "0fc03829f854abaad7aafae22c7f6106aa6a202602b7ed9c37371298241301c3"
+    },
+    "386": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "04ef42901e98317f81eed747dc482393c24d245b070ab5c9ece82deccc32d32a"
+    },
+    "387": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "deda50cf5b02c40f585886fee7b3d8ff7b3fd3de912f6d43c8a92b1b1e3bcd39"
+    },
+    "388": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "edc1d9112ba14069a2401bc149133830b77a9ed42df259f6605bade2d0f0c457"
+    },
+    "389": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "54292caec53fcb907d1dc292df8f12200488bb45bda934b68bdc5f63710a338c"
+    },
+    "390": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "17a8f6d004f9774cc45a8ca249e15ae8bc8b3ec873c802e52f98abbf681d018a"
+    },
+    "391": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "bbf2fadf1a5d854f65c0efc811930875d0e1fe9e364da49bb787974add1ed6df"
+    },
+    "392": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "6bc87e463bbf29cab92fbe8f1fc89e29741f14d8509a623b52840aa2e81f020e"
+    },
+    "393": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "30f7c4b66f7ba04664f030855c6ae4a293a7d33e2af8e9f7df33238df2b54bb3"
+    },
+    "394": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "4a8593896c00318c1237d1dc1cff35f1cf98c89375112b1710878109301b5854"
+    },
+    "395": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "72d41d57bfad8a3e83d40cb86de1c5bfd35abd82c50df273c3d0dc0f46c797d2"
+    },
+    "396": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "83339f1e617cccac6dfa20ac54c2c8d1becbef9a04a2f3ec0b1e770c603a809c"
+    },
+    "397": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "41cff50a8257bec9fcc8bc9601f667b2b5b8aaac93ef1b41597187fed4109f5a"
+    },
+    "398": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "73e855e16f749a737e1d2034dec6a85399d60946eaa0b3b07463ea0e91bd0e8b"
+    },
+    "399": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 2,
+      "deleted": 0,
+      "grid_optimal": false,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "74c9d7c86abed51722a41634a35a39df71fb7cee8bf175fc2cb8fbafe1fc783b"
+    },
+    "400": {
+      "bound": "20",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true,
+      "seed": {
+        "construction": "grid",
+        "width": 20,
+        "source": null,
+        "layers": 0,
+        "side": 20.0
+      },
+      "seed_side": "20",
+      "seed_sha256": "28798734cbd614628b0e382cd3f86793beff2841426765b1e52b8d81a0e3ef28"
+    }
+  }
+}
