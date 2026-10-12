@@ -7,8 +7,9 @@ square with a rational centre (x, y) and t = tan(θ/2), so that (cos θ, sin θ)
 
 - **exact optimum**: written by Evan Daniel's exact contact solver (`search/exact`, commit 77f3c0ab);
   S lies within about 1e-19 of the packing's exact KKT point.
-- **rational witness**: the decimal packing as rationals, centres scaled apart by 1+1e-12, where the
-  exact solve did not certify a smaller side.
+- **rational witness**: the decimal packing as rationals, with an adaptive rational dilation of
+  the centres, where the exact solve did not certify a smaller side. The dilation starts at
+  1+1e-12 and increases until exact verification succeeds; the amount varies by certificate.
 
 Check with his verifier (standard library only):
 

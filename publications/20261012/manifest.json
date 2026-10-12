@@ -1,0 +1,183 @@
+{
+  "certificate_repository": "franciscouzo/square-packing",
+  "certificate_commit": "0fa0e0de2ef0b414655e871b1baffcfe0d33c815",
+  "register_commit": "562fdbdff1d98948f68b36b81b53f9c8165ffd08",
+  "checkers": [
+    {
+      "name": "sqpack",
+      "repository": "jlevy/squares",
+      "commit": "562fdbdff1d98948f68b36b81b53f9c8165ffd08",
+      "path": "packing/src/sqpack/verify.py",
+      "url": "https://raw.githubusercontent.com/jlevy/squares/562fdbdff1d98948f68b36b81b53f9c8165ffd08/packing/src/sqpack/verify.py",
+      "sha256": "56bc5b9f690b054ba30e82547dea4aa9d0ccea0a2b1827fab28fcc4e98677337"
+    },
+    {
+      "name": "evand",
+      "repository": "evand/square-packing",
+      "commit": "31523f87316bdfda00f5459dd9077928e264f133",
+      "path": "search/exact/verify_cert.py",
+      "url": "https://raw.githubusercontent.com/evand/square-packing/31523f87316bdfda00f5459dd9077928e264f133/search/exact/verify_cert.py",
+      "sha256": "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52"
+    }
+  ],
+  "records": [
+    {
+      "n": 156,
+      "certificate_path": "certificates/n156.cert",
+      "certificate_sha256": "1b4dfa721e3289c9f55f6920fe10360b75eb56dd03b366c281ddabf2dbf24dd2",
+      "rational_side": "12979165853834276453965882038847/1000000000000000000000000000000",
+      "rounded_up": "12.979165853835",
+      "construction": "exact contact solver output",
+      "dilation": null,
+      "packing_sha256": "15c9460d7385d8bcac6ff787c12a5892f4cae89939b70d04c5f117a6b06deed7",
+      "comparison": {
+        "kind": "registered bound",
+        "side": "8111982883527766297069290937797918339306619994848173142743008111982883527766297069290937797918339306619994848173142743/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/blob/562fdbdff1d98948f68b36b81b53f9c8165ffd08/packing/frontier/STATUS.md",
+        "rounded_up": "12.979172613645"
+      },
+      "improvement": "4224881343513340614663518543339306619994848173142743008111982883527766297069290937797918339306619994848173142743/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "n": 176,
+      "certificate_path": "certificates/n176.cert",
+      "certificate_sha256": "1b132aa65b3a513267c9bfd260395216c070946c62220cfba663115baf3c901b",
+      "rational_side": "42253500388043689581217825957/3060154296728500000000000000",
+      "rounded_up": "13.807637227056",
+      "construction": "adaptive rational witness",
+      "dilation": "1+1e-11",
+      "packing_sha256": "35db5a6801b30577d69a6938ff09b743030ab1ed6a1cdb8fb1f6600c10be18c2",
+      "comparison": {
+        "kind": "published certificate",
+        "side": "69043316171934782832304950404729823976428779059647971914573069043316171934782832304950404729823976428779059647971914573/5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "url": "https://github.com/dostashev/square-packing/blob/fe43a64ecf2581cdbd11830e8a5be0989746c5d3/records/n0176.sqcert",
+        "rounded_up": "13.808663234387"
+      },
+      "improvement": "31397407424216482540802142870131861276015488489894094043339557150148861112294719061712870131861276015488489894094042916990748861/30601542967285000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "n": 237,
+      "certificate_path": "certificates/n237.cert",
+      "certificate_sha256": "7b65988e7da36573f7b1318839f0da023c16a730225404a299870898db8cfa70",
+      "rational_side": "15902947773658185869705573326239/1000000000000000000000000000000",
+      "rounded_up": "15.902947773659",
+      "construction": "exact contact solver output",
+      "dilation": null,
+      "packing_sha256": "8f3780a2360e7ad25301669ff236b1359d29ded0190f681ca0e7040e04a65ea4",
+      "comparison": {
+        "kind": "registered bound",
+        "side": "99393435047986448060704927533/6250000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/blob/562fdbdff1d98948f68b36b81b53f9c8165ffd08/packing/frontier/STATUS.md",
+        "rounded_up": "15.902949607678"
+      },
+      "improvement": "1834019645820007215079041/1000000000000000000000000000000"
+    },
+    {
+      "n": 271,
+      "certificate_path": "certificates/n271.cert",
+      "certificate_sha256": "690a1d024f271dffdd0c54d0203f0f1ac1295ccb84f835b7ebe4ff14e5253617",
+      "rational_side": "16948992356451205603226618436627/1000000000000000000000000000000",
+      "rounded_up": "16.948992356452",
+      "construction": "exact contact solver output",
+      "dilation": null,
+      "packing_sha256": "760eee7409d64b5d6dd8dcf3bcaec31132f99d408e25e8b8d57ce9abc8d5c927",
+      "comparison": {
+        "kind": "registered bound",
+        "side": "226641509159806817533826968807522186618590497703207479506050881660303454046913630/13371877327550822127276902291903146156943895843133007855104572641371568124309293",
+        "url": "https://github.com/jlevy/squares/blob/562fdbdff1d98948f68b36b81b53f9c8165ffd08/packing/frontier/STATUS.md",
+        "rounded_up": "16.949116687816"
+      },
+      "improvement": "1662543744759121245181620875570160235339647626426934936193306462294951810895227064557784092922226132325289/13371877327550822127276902291903146156943895843133007855104572641371568124309293000000000000000000000000000000"
+    },
+    {
+      "n": 338,
+      "certificate_path": "certificates/n338.cert",
+      "certificate_sha256": "20cfd3cab9120d956848b342c378fd04837dfacd6e9c2f37fac294478bf7a519",
+      "rational_side": "9453166404926046689995693165509/500000000000000000000000000000",
+      "rounded_up": "18.906332809853",
+      "construction": "exact contact solver output",
+      "dilation": null,
+      "packing_sha256": "4e4c04846ebe0c90bfa898d558717a26735d9546e4fccedcd2117bdb114f65f1",
+      "comparison": {
+        "kind": "previous report #506",
+        "commit": "337078ca3e05153aceb099237b175cf64af5748a",
+        "side": "18906436500551825926629088515923/1000000000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/issues/506",
+        "rounded_up": "18.906436500552"
+      },
+      "improvement": "20738139946509327540436981/200000000000000000000000000000"
+    },
+    {
+      "n": 344,
+      "certificate_path": "certificates/n344.cert",
+      "certificate_sha256": "145c020467e1af49210b5f5d815ce7eb7e248f1bbee072c7fe79c5f61c4058ca",
+      "rational_side": "83284325592732658265440964873/4384829811311500000000000000",
+      "rounded_up": "18.993741872920",
+      "construction": "adaptive rational witness",
+      "dilation": "1+1e-12",
+      "packing_sha256": "808a274343dbb3d0867d194df280af5242b8d5b4456533080b2db23794fcc060",
+      "comparison": {
+        "kind": "previous report #506",
+        "commit": "337078ca3e05153aceb099237b175cf64af5748a",
+        "side": "9497176622471721177242628290181/500000000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/issues/506",
+        "rounded_up": "18.994353244944"
+      },
+      "improvement": "2680762276673815265900033977372196364763/4384829811311500000000000000000000000000000"
+    },
+    {
+      "n": 375,
+      "certificate_path": "certificates/n375.cert",
+      "certificate_sha256": "0252c1ee50315af5065a7ddf7f7a252ea3e5d48ef70e4e3925f7c7b56bcc785c",
+      "rational_side": "581837142778534347520704447657618356033117642159/29235669412085804585614997608579500000000000000",
+      "rounded_up": "19.901618621328",
+      "construction": "adaptive rational witness",
+      "dilation": "1+1e-10",
+      "packing_sha256": "3bff3561325aac425d467478f3c5413e1af74f3953cb404dccf1a744dc7c0fb3",
+      "comparison": {
+        "kind": "previous report #506",
+        "commit": "337078ca3e05153aceb099237b175cf64af5748a",
+        "side": "38166979981362750351336743477/1917328312988500000000000000",
+        "url": "https://github.com/jlevy/squares/issues/506",
+        "rounded_up": "19.906335145009"
+      },
+      "improvement": "211505436161541137415822658659293532896162270073560783/44843501370371173855316704543697755671107868600000000000"
+    },
+    {
+      "n": 376,
+      "certificate_path": "certificates/n376.cert",
+      "certificate_sha256": "428cf419e40b40758e32ae932b51b4613d34ddb293f233fcdbc6c7499af468e9",
+      "rational_side": "1244059358531167002713366954627/62500000000000000000000000000",
+      "rounded_up": "19.904949736499",
+      "construction": "exact contact solver output",
+      "dilation": null,
+      "packing_sha256": "a55f0807b6ebed5b93972272d79e50e8e1d1dfa0e08dfb9c2228eb7fd68b0951",
+      "comparison": {
+        "kind": "previous report #506",
+        "commit": "337078ca3e05153aceb099237b175cf64af5748a",
+        "side": "4977569146721136045070070348659/250000000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/issues/506",
+        "rounded_up": "19.910276586885"
+      },
+      "improvement": "1331712596468034216602530151/250000000000000000000000000000"
+    },
+    {
+      "n": 378,
+      "certificate_path": "certificates/n378.cert",
+      "certificate_sha256": "c15aeb0fa927ec749bab7ae22eca36645a2f2343c184ebccb9cf29c3afb7aa03",
+      "rational_side": "28547984384116369335179568707/1431512228978500000000000000",
+      "rounded_up": "19.942536155970",
+      "construction": "adaptive rational witness",
+      "dilation": "1+1e-12",
+      "packing_sha256": "6792ff7573d486a2db1a3a1d9f3e8c0c37a831a9c13a6cb2fa007209365a6e79",
+      "comparison": {
+        "kind": "previous report #506",
+        "commit": "337078ca3e05153aceb099237b175cf64af5748a",
+        "side": "4985635444338702633332804918119/250000000000000000000000000000",
+        "url": "https://github.com/jlevy/squares/issues/506",
+        "rounded_up": "19.942541777355"
+      },
+      "improvement": "4023540836283524477967584073743022883/715756114489250000000000000000000000000000"
+    }
+  ]
+}

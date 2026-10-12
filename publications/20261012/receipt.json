@@ -1,0 +1,97 @@
+{
+  "certificate_commit": "0fa0e0de2ef0b414655e871b1baffcfe0d33c815",
+  "manifest_sha256": "def6ad84edb986c71b78edcc649b2bc25fda775d4c089072b1c64952a7b8bc95",
+  "checked_at": "2026-10-12T18:34:22.377176+00:00",
+  "records": [
+    {
+      "n": 156,
+      "certificate_sha256": "1b4dfa721e3289c9f55f6920fe10360b75eb56dd03b366c281ddabf2dbf24dd2",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 1960,
+      "sqpack_seconds": 0.31380198104307055,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.2324744611978531,
+      "evand_output": "n = 156, S = 12979165853834276453965882038847/1000000000000000000000000000000 (~12.979165853834276234)\n  min wall clearance  = 5.000e-21  (square #1)\n  min pair separation = 1.000e-20  (squares #127, #131; 364 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 176,
+      "certificate_sha256": "1b132aa65b3a513267c9bfd260395216c070946c62220cfba663115baf3c901b",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 2268,
+      "sqpack_seconds": 0.2701140420977026,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.2521050290670246,
+      "evand_output": "n = 176, S = 42253500388043689581217825957/3060154296728500000000000000 (~13.807637227055961304)\n  min wall clearance  = 1.000e-15  (square #11)\n  min pair separation = 4.160e-12  (squares #100, #101; 428 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 237,
+      "certificate_sha256": "7b65988e7da36573f7b1318839f0da023c16a730225404a299870898db8cfa70",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 3214,
+      "sqpack_seconds": 0.4183742799796164,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.3477655961178243,
+      "evand_output": "n = 237, S = 15902947773658185869705573326239/1000000000000000000000000000000 (~15.902947773658185682)\n  min wall clearance  = 5.000e-21  (square #0)\n  min pair separation = 1.000e-20  (squares #24, #234; 519 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 271,
+      "certificate_sha256": "690a1d024f271dffdd0c54d0203f0f1ac1295ccb84f835b7ebe4ff14e5253617",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 3691,
+      "sqpack_seconds": 0.4564999369904399,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.43898152094334364,
+      "evand_output": "n = 271, S = 16948992356451205603226618436627/1000000000000000000000000000000 (~16.948992356451206831)\n  min wall clearance  = 5.000e-21  (square #2)\n  min pair separation = 1.000e-20  (squares #231, #232; 592 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 338,
+      "certificate_sha256": "20cfd3cab9120d956848b342c378fd04837dfacd6e9c2f37fac294478bf7a519",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 4680,
+      "sqpack_seconds": 0.5291984810028225,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.6175635321997106,
+      "evand_output": "n = 338, S = 9453166404926046689995693165509/500000000000000000000000000000 (~18.90633280985209197)\n  min wall clearance  = 5.000e-21  (square #4)\n  min pair separation = 1.000e-20  (squares #262, #263; 716 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 344,
+      "certificate_sha256": "145c020467e1af49210b5f5d815ce7eb7e248f1bbee072c7fe79c5f61c4058ca",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 4869,
+      "sqpack_seconds": 0.5644209180027246,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.7811709460802376,
+      "evand_output": "n = 344, S = 83284325592732658265440964873/4384829811311500000000000000 (~18.993741872919432723)\n  min wall clearance  = 1.000e-15  (square #0)\n  min pair separation = 1.200e-12  (squares #316, #317; 823 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 375,
+      "certificate_sha256": "0252c1ee50315af5065a7ddf7f7a252ea3e5d48ef70e4e3925f7c7b56bcc785c",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 5380,
+      "sqpack_seconds": 0.8198049510829151,
+      "evand_exit_code": 0,
+      "evand_seconds": 1.2092229519039392,
+      "evand_output": "n = 375, S = 581837142778534347520704447657618356033117642159/29235669412085804585614997608579500000000000000 (~19.901618621327251901)\n  min wall clearance  = 1.000e-15  (square #4)\n  min pair separation = 7.605e-11  (squares #9, #13; 948 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 376,
+      "certificate_sha256": "428cf419e40b40758e32ae932b51b4613d34ddb293f233fcdbc6c7499af468e9",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 5403,
+      "sqpack_seconds": 0.5872921068221331,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.7546827429905534,
+      "evand_output": "n = 376, S = 1244059358531167002713366954627/62500000000000000000000000000 (~19.904949736498672053)\n  min wall clearance  = 5.000e-21  (square #2)\n  min pair separation = 1.000e-20  (squares #241, #244; 780 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    },
+    {
+      "n": 378,
+      "certificate_sha256": "c15aeb0fa927ec749bab7ae22eca36645a2f2343c184ebccb9cf29c3afb7aa03",
+      "sqpack_valid": true,
+      "sqpack_pairs_tested": 5451,
+      "sqpack_seconds": 0.5593242777977139,
+      "evand_exit_code": 0,
+      "evand_seconds": 0.930320210987702,
+      "evand_output": "n = 378, S = 28547984384116369335179568707/1431512228978500000000000000 (~19.94253615596959861)\n  min wall clearance  = 1.000e-15  (square #4)\n  min pair separation = 1.199e-12  (squares #209, #210; 843 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)\n  VALID: s(n) <= S"
+    }
+  ]
+}
