@@ -1,0 +1,31 @@
+{
+  "n": 176,
+  "packing": "n176.txt",
+  "packing_sha256": "147ad79a12137d78f7ba47724dbb9d9e62ffc0f66ffebb5c9eb2cd8e10847c47",
+  "certificate": "certificates/n176.cert",
+  "certificate_sha256": "a561a4737c68d6b7c776c7a7300ec6dcfa852db46c80235bd9f95da9102013a8",
+  "rational_side": "552305489072091180922030085613/40000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Daniil Ostashev",
+    "seed_certificate": "dostashev/records/n0176.sqcert",
+    "search_job": {
+      "id": 91542,
+      "method": "hop",
+      "source": "n176.txt",
+      "source_origin": "own",
+      "source_sha256": "3d6ac36cc647a846bb241e81b66470400258ca9aea2c91f825c27a2a2e518992",
+      "constructed_seed": null
+    },
+    "web_seed": {
+      "id": "ad5ae2e2b2c6d51edf1bdabe61ca42d4",
+      "n": 176,
+      "side": 13.807776856580334,
+      "method": "ellsworth",
+      "attribution": "franciscouzo",
+      "name": "franciscouzo",
+      "received": "20261012T162110Z",
+      "original_packing_sha256": "5fd5229bc0e65023d5105039f1b1549cb0b875df1ef9b8039663051d5cc03810"
+    }
+  }
+}

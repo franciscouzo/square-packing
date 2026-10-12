@@ -21,7 +21,7 @@ known value in the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/p
 | 156 | 12.98208376048414 | **12.979165853837** | 2.918e-03 |
 | 172 | 13.61898898660160 | **13.618988956902** | 2.970e-08 |
 | 175 | 13.77817459305202 | **13.767119024201** | 1.106e-02 |
-| 176 | 13.82287565553229 | **13.807637226928** | 1.524e-02 |
+| 176 | 13.82287565553229 | **13.807637226805** | 1.524e-02 |
 | 177 | 13.82302875075647 | **13.822979734172** | 4.902e-05 |
 | 180 | 13.93508705291129 | **13.916993522480** | 1.809e-02 |
 | 181 | 13.95690672341755 | **13.953748821957** | 3.158e-03 |
@@ -81,7 +81,7 @@ The table above compares with the catalogue as fetched in September. Against the
 | 156 | 12.979165853837 (seeded from Daniil Ostashev) | 12.979172613644 | register | **best known** |
 | 172 | 13.618988956902 | 13.618988956899 | register | **registered** (exact optimum by Evan Daniel) |
 | 175 | 13.767119024201 (seeded from Ryan Xu) | 13.764174317487 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/528) (pending) | superseded by 2.9e-03 |
-| 176 | 13.807637226928 (seeded from Daniil Ostashev) | 13.808663234387 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | **best known** |
+| 176 | 13.807637226805 (seeded from Daniil Ostashev) | 13.808663234387 | [Daniil Ostashev](https://github.com/jlevy/squares/issues/501) (pending) | **best known** |
 | 177 | 13.822979734172 | 13.822979734169 | register | **registered** (exact optimum by Evan Daniel) |
 | 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
 | 181 | 13.953748821957 | 13.950819531023 | register | superseded by 2.9e-03 |
@@ -131,16 +131,16 @@ Searches also cover n=325–400. The derived reference bounds remain the frozen 
 | 341 | 18.96913960675661 | **18.951882408724** | 1.726e-02 | — | — | reference comparison only |
 | 342 | 18.98272201579610 | **18.964706723440** | 1.802e-02 | — | — | reference comparison only |
 | 343 | 19 | **18.993870589753** | 6.129e-03 | 18.978232523636 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | superseded by 1.6e-02 |
-| 344 | 19 | **18.993741872901** | 6.258e-03 | 18.994450514278 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | **smaller than reviewed published bound** |
+| 344 | 19 | **18.993724773107** | 6.275e-03 | 18.994450514278 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | **smaller than reviewed published bound** |
 | 364 | 19.60257141234448 | **19.597249391207** | 5.322e-03 | — | — | reference comparison only |
 | 369 | 19.74106074604732 | **19.740417287548** | 6.435e-04 | — | — | reference comparison only |
 | 372 | 19.82412338847854 | **19.822875655617** | 1.248e-03 | — | — | reference comparison only |
 | 373 | 19.86889155557430 | **19.823062082842** | 4.583e-02 | — | — | reference comparison only |
 | 374 | 19.88674602860566 | **19.832356217037** | 5.439e-02 | — | — | reference comparison only |
-| 375 | 19.93125509556197 | **19.901618619437** | 2.964e-02 | 19.906981767291 | [Evan Daniel (from a Francisco Couzo seed)](https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988) | **smaller than reviewed published bound** |
+| 375 | 19.93125509556197 | **19.901013503858** | 3.024e-02 | 19.906981767291 | [Evan Daniel (from a Francisco Couzo seed)](https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988) | **smaller than reviewed published bound** |
 | 376 | 19.94910783564662 | **19.904949736502** | 4.416e-02 | — | — | reference comparison only |
 | 377 | 19.96066201401205 | **19.925720814334** | 3.494e-02 | — | — | reference comparison only |
-| 378 | 19.96913960675661 | **19.942536155951** | 2.660e-02 | — | — | reference comparison only |
+| 378 | 19.96913960675661 | **19.942536155950** | 2.660e-02 | — | — | reference comparison only |
 | 379 | 19.98272201579610 | **19.953572709542** | 2.915e-02 | — | — | reference comparison only |
 | 380 | 20 | **19.987440766559** | 1.256e-02 | — | — | reference comparison only |
 | 381 | 20 | **19.992663288467** | 7.337e-03 | — | — | reference comparison only |

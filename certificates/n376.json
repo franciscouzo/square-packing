@@ -1,0 +1,28 @@
+{
+  "n": 376,
+  "packing": "n376.txt",
+  "packing_sha256": "a55f0807b6ebed5b93972272d79e50e8e1d1dfa0e08dfb9c2228eb7fd68b0951",
+  "certificate": "certificates/n376.cert",
+  "certificate_sha256": "428cf419e40b40758e32ae932b51b4613d34ddb293f233fcdbc6c7499af468e9",
+  "rational_side": "1244059358531167002713366954627/62500000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 89413,
+      "method": "fq",
+      "source": "n376.txt",
+      "source_origin": "constructed",
+      "source_sha256": "3dcf0fc55918a57f5cb3e1a7395d4cdffc0d3f9d1ce365a69bbd6d0e4686f991",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n376.txt",
+        "source_sha256": "c4443a3aa3e9b64bec17d027790bd632f64d031fa29cb3acbc4f4bffe077a44c",
+        "source_n": 376,
+        "source_side": 19.907020926638484,
+        "layers": 0,
+        "deleted": 0,
+        "side": 19.907020926638484
+      }
+    }
+  }
+}

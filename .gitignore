@@ -1,0 +1,37 @@
+/target
+__pycache__/
+*.log
+search.err
+seed*.txt
+
+# Working scratch: per-run bests, superseded by found/.
+/results
+
+# Record packings imported from the catalogue's SVGs. Third-party derived data;
+# rebuild with parse_svg_packing.py + import_record.py as the README describes.
+/records
+
+# Locally fetched upstream exact geometry checker.
+/verify.py
+*.err
+.venv/
+/experiments/
+/work/
+/inbox/
+/completed/
+/external/
+/superseded/
+/telegram.json
+
+# Runtime archives supply older search basins; published certificates use stable
+# certificates/nN.cert and certificates/nN.json paths, with history kept in Git.
+/found/
+
+# Local credentials and editor/build scratch.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.tmp
+.pytest_cache/
