@@ -82,5 +82,55 @@ class FocusTests(unittest.TestCase):
                 search.load_focus()
 
 
+class LocalConfigurationTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        context = patch.object(search, "HERE", self.root)
+        context.start()
+        self.addCleanup(context.stop)
+
+    def parse(self, *arguments):
+        with patch("sys.argv", ["search_forever.py", "coordinator", *arguments]), \
+             patch.object(search, "coordinator") as coordinator:
+            search.main()
+        return coordinator.call_args.args[0]
+
+    def test_default_search_uses_no_private_remote(self):
+        args = self.parse()
+        self.assertEqual(args.remote_jobs, 0)
+        self.assertIsNone(args.remote)
+        self.assertIsNone(args.remote_root)
+
+    def test_private_hosts_configuration_and_cli_override(self):
+        (self.root/"search_hosts.json").write_text(json.dumps({
+            "remote": "search@example.test", "remote_root": "/srv/packing", "remote_jobs": 3}))
+        args = self.parse()
+        self.assertEqual((args.remote, args.remote_root, args.remote_jobs),
+                         ("search@example.test", "/srv/packing", 3))
+        args = self.parse("--remote", "override@example.test", "--remote-jobs", "1")
+        self.assertEqual((args.remote, args.remote_jobs), ("override@example.test", 1))
+
+    def test_remote_jobs_require_both_connection_arguments(self):
+        with patch("sys.stderr", search.io.StringIO()):
+            with self.assertRaises(SystemExit) as raised:
+                self.parse("--remote-jobs", "1", "--remote", "search@example.test")
+        self.assertEqual(raised.exception.code, 2)
+
+    def test_missing_private_notification_module_is_a_noop(self):
+        with patch.dict("sys.modules", {"notify": None}):
+            search.notify_record({"n": 84}, {"after": "9.7"})
+
+    def test_private_notification_callback_receives_the_record(self):
+        from types import SimpleNamespace
+        from unittest.mock import Mock
+        callback = Mock()
+        job, entry = {"n": 84}, {"after": "9.7"}
+        with patch.dict("sys.modules", {"notify": SimpleNamespace(notify_record=callback)}):
+            search.notify_record(job, entry)
+        callback.assert_called_once_with(job, entry)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -232,44 +232,14 @@ def run_worker(root, job):
 
 
 def notify_record(job, entry):
-    """Telegram message for an installed improvement (notify.py; no-op without
-    telegram.json). Re-imports every source first, so the message says whether
-    the value is still a record against what is public right now."""
-    import threading
-
-    def run():
-        from notify import send_record
-        known = HERE/"known_best.json"
-        if not known.exists() or time.time()-known.stat().st_mtime > 600:
-            try:
-                subprocess.run([str(HERE/".venv/bin/python"), str(HERE/"import_external.py")], cwd=HERE,
-                               capture_output=True, timeout=900)
-            except (subprocess.SubprocessError, OSError):
-                pass  # fall back to the last table
-        n, after, before = job["n"], float(Fraction(entry["after"])), float(Fraction(entry["before"]))
-        e = json.loads(known.read_text())["entries"].get(str(n), {}) if known.exists() else {}
-        holder = ""
-        if e.get("source"):
-            holder = "register" if e["source"] == "register" else (e.get("external") or {}).get("credit", e["source"])
-            request = (e.get("external") or {}).get("request", "")
-            holder += f" #{request.rsplit('/', 1)[-1]}" if request and e["source"] != "register" else ""
-        if n > PUBLISHED_MAX and not e.get("side"):
-            # Beyond the register: compare with the derived reference bound.
-            ref = next((float(l.split()[1]) for l in (HERE/"records.txt").read_text().splitlines()
-                        if l.strip() and not l.startswith("#") and int(l.split()[0]) == n), None)
-            head = (f"New result n={n} (beyond the register, n > 324): {after:.12f}"
-                    + (f", {ref-after:.1e} below the derived reference" if ref else ""))
-        elif not e.get("side") or after < e["side"]-1e-10:
-            label = "New record" if n <= PUBLISHED_MAX else "New result (n > 324)"
-            head = f"{label} n={n}: {after:.12f}, " + (
-                f"{e['side']-after:.1e} below best known elsewhere ({holder})" if e.get("side") else "no published value")
-        elif after <= e["side"]+1e-10:
-            head = f"n={n}: {after:.12f} ties the best known ({holder}), not a new record"
-        else:
-            head = f"n={n}: {after:.12f} improves ours but is NOT a record: {holder} has {e['side']:.12f}"
-        text = f"{head}. Was {before:.12f}; found by {job.get('method')} on {job.get('host', '')}."
-        send_record(text, HERE/f"n{n}.txt", f"n = {n}   s = {after:.12f}")
-    threading.Thread(target=run, daemon=True).start()
+    """Run an optional local callback; notification code is kept outside Git."""
+    try:
+        from notify import notify_record as callback
+    except ModuleNotFoundError as exc:
+        if exc.name != "notify":
+            raise
+        return
+    callback(job, entry)
 
 
 def seed_credit(cert, job):
@@ -708,18 +678,22 @@ def coordinator(args):
 
 
 def main():
+    hosts = HERE/"search_hosts.json"
+    defaults = json.loads(hosts.read_text()) if hosts.exists() else {}
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("mode", choices=["worker", "coordinator"])
     parser.add_argument("--root", type=Path, default=HERE)
-    parser.add_argument("--remote", default="fran@192.168.0.200")
-    parser.add_argument("--remote-root", default="/home/fran/sqpack-forever")
+    parser.add_argument("--remote", default=defaults.get("remote"))
+    parser.add_argument("--remote-root", default=defaults.get("remote_root"))
     parser.add_argument("--local-jobs", type=int, default=2)
     parser.add_argument("--local-mode", choices=["search", "ellsworth"], default="ellsworth")
-    parser.add_argument("--remote-jobs", type=int, default=12)
+    parser.add_argument("--remote-jobs", type=int, default=defaults.get("remote_jobs", 0))
     parser.add_argument("--seconds", type=float, default=120)
     parser.add_argument("--max-n", type=int, choices=range(PUBLISHED_MAX, SEARCH_MAX+1),
                         default=SEARCH_MAX, metavar="324..400")
     args = parser.parse_args()
+    if args.mode == "coordinator" and args.remote_jobs and not (args.remote and args.remote_root):
+        parser.error("remote jobs require --remote and --remote-root")
     if args.mode == "worker":
         os.environ["OPENBLAS_NUM_THREADS"] = "1"
         os.environ["OMP_NUM_THREADS"] = "1"

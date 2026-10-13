@@ -35,3 +35,19 @@ seed*.txt
 *.key
 *.tmp
 .pytest_cache/
+
+# Private notifications, host settings, generated reports and publication drafts.
+/notify.py
+/search_hosts.json
+/search_focus.json
+/search_methods.json
+/publications/
+/REVIEW*.md
+/RECORD_AUDIT*.md
+/BOUNDARY_STUDY*.md
+/SEARCH_*.md
+/FOCUS_*.md
+/CONTINUOUS_SEARCH.md
+/DEVELOPMENT.md
+/LOCAL_REFINEMENT.md
+/NOTES.md

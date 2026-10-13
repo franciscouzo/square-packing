@@ -98,8 +98,8 @@ def render(rows, known):
             'remain the frozen L-border/grid comparisons. Published bounds '
             'come from the verified sources in `known_best.json`; their values below '
             'are rounded upward.'+coverage+' A dash means no published comparison '
-            'was established in the reviewed sources. See [the expansion notes](SEARCH_TO_400.md) '
-            'for sources and coverage.\n\n'
+            'was established in the reviewed sources. Source revisions and certificate links '
+            'are recorded in [known_best.json](known_best.json).\n\n'
             '| n | derived reference bound | found here (numerical) | improvement over reference | '
             'verified published bound | published source | standing |\n'
             '|---|---|---|---|---|---|---|\n'+'\n'.join(table)+'\n\n'+END_MARKER)
