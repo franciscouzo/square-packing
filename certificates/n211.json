@@ -1,11 +1,11 @@
 {
   "n": 211,
   "packing": "n211.txt",
-  "packing_sha256": "142b9be5715082eafb9b1fb1aa2b20b4a3ce8f5f4c9c261d05ce6e4dbdcdbb60",
+  "packing_sha256": "0e4d6ace5d96323d14e77a1df88c46639c0229148e70deb697e4ae8fbb61644b",
   "certificate": "certificates/n211.cert",
-  "certificate_sha256": "8859aaa9c26d4e83bbd42950a9afd0b9e5f987ba2063540955e6710f64136a6a",
-  "rational_side": "5735936523425659529936799651/382560041700500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "63349528bac6225399fe4c6fece65e08e1c54a29dd2fad7372f16f229ddca2ba",
+  "rational_side": "7496779456987003085666602828823/500000000000000000000000000000",
+  "kind": "exact optimum",
   "origin": {
     "seed_credit": "Daniil Ostashev",
     "seed_certificate": {
@@ -23,6 +23,5 @@
       "source_sha256": "70358c5b810249e6feaaa94fe92c8f2b28bf706dbe3982b2fb8db5de35bb7537",
       "constructed_seed": null
     }
-  },
-  "dilation": "1+1e-11"
+  }
 }

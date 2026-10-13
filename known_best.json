@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T13:27:10Z",
+  "generated": "2026-10-13T17:06:04Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -11,7 +11,7 @@
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "96c4e427f228243adc6ed0e77caf9ca1139bb79e"
+      "commit": "fc094b1f7995057eb2dc2fe35b70e10b7d95f010"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
@@ -1300,7 +1300,7 @@
         "Nate Chaoweeraprasit (itsnaka)"
       ],
       "register_improved_by": [],
-      "own": 12.922499814644976,
+      "own": 12.921206577135031,
       "own_status": "best known"
     },
     "155": {
@@ -1909,7 +1909,7 @@
         "Daniil Ostashev"
       ],
       "register_improved_by": [],
-      "own": 14.993558913982707,
+      "own": 14.99355891397683,
       "own_status": "best known"
     },
     "212": {
@@ -2191,7 +2191,7 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 15.987117095154002,
+      "own": 15.98711709515326,
       "own_status": "best known"
     },
     "242": {
@@ -3069,6 +3069,24 @@
       "register": 18.0,
       "register_text": "18"
     },
+    "339": {
+      "side": 18.92689890035674,
+      "source": "evand",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "1892689890035674158973360842897/100000000000000000000000000000",
+        "side_decimal": 18.92689890035674,
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n339.cert",
+        "sha256": "c09a12a5242f7ac759a4ef30c1d64fb813cef4419344c3c9459af30cf2a7801c",
+        "pending": true
+      },
+      "own": 18.925319360524085,
+      "own_status": "best known"
+    },
     "343": {
       "side": 18.97823252363561,
       "source": "evand",
@@ -3103,8 +3121,60 @@
         "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
         "pending": true
       },
-      "own": 18.993724773106884,
+      "own": 18.99372469178712,
       "own_status": "best known"
+    },
+    "364": {
+      "side": 19.583782203950836,
+      "source": "evand",
+      "register": null,
+      "register_text": null,
+      "external": {
+        "side": "19583782203950834292109305759091/1000000000000000000000000000000",
+        "side_decimal": 19.583782203950836,
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n364.cert",
+        "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
+        "pending": true
+      },
+      "own": 19.59724939120724,
+      "own_status": "superseded",
+      "seed": "external/seeds/n364.txt"
+    },
+    "375": {
+      "side": 19.882451030481246,
+      "source": "evand",
+      "register": null,
+      "register_text": null,
+      "also_found_by": [
+        {
+          "source": "evand",
+          "credit": "Evan Daniel (from a Francisco Couzo seed)",
+          "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
+          "ours": "n375_s19.906981767294.txt"
+        },
+        {
+          "source": "evand",
+          "credit": "Evan Daniel (from a Francisco Couzo seed)",
+          "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
+          "ours": "n375_s19.907024202150.txt"
+        }
+      ],
+      "external": {
+        "side": "19882451030481246819527281665997/1000000000000000000000000000000",
+        "side_decimal": 19.882451030481246,
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n375.cert",
+        "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
+        "pending": true
+      },
+      "own": 19.893906534238862,
+      "own_status": "superseded",
+      "seed": "external/seeds/n375.txt"
     },
     "380": {
       "side": 19.976775433974193,
@@ -3121,7 +3191,7 @@
         "sha256": "c0d2afbe7603d8435353eba2556a5e80948a02a0472f7dae5e08d28d3cc09ec5",
         "pending": true
       },
-      "own": 19.97355360472992,
+      "own": 19.961611078652222,
       "own_status": "best known"
     },
     "381": {
@@ -3157,7 +3227,7 @@
         "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
         "pending": true
       },
-      "own": 19.98860056638926,
+      "own": 19.987713157590203,
       "own_status": "best known"
     },
     "421": {
@@ -3349,6 +3419,32 @@
     }
   },
   "published_above_324": {
+    "339": {
+      "side": 18.92689890035674,
+      "source": "evand",
+      "external": {
+        "side": "1892689890035674158973360842897/100000000000000000000000000000",
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n339.cert",
+        "sha256": "c09a12a5242f7ac759a4ef30c1d64fb813cef4419344c3c9459af30cf2a7801c",
+        "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n339.cert",
+        "checked": "2026-10-13T14:45:57Z"
+      },
+      "certificates": [
+        {
+          "side": "1892689890035674158973360842897/100000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "certificate": "evand/search/packer/candidates/comp2_n339.cert",
+          "sha256": "c09a12a5242f7ac759a4ef30c1d64fb813cef4419344c3c9459af30cf2a7801c",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n339.cert",
+          "checked": "2026-10-13T14:45:57Z"
+        }
+      ]
+    },
     "343": {
       "side": 18.97823252363561,
       "source": "evand",
@@ -3359,7 +3455,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
         "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n343.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/hunt3_n343.cert",
         "checked": "2026-10-10T19:07:33Z"
       },
       "certificates": [
@@ -3370,7 +3466,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
           "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n343.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/hunt3_n343.cert",
           "checked": "2026-10-10T19:07:33Z"
         },
         {
@@ -3395,7 +3491,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
         "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n344.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/hunt3_n344.cert",
         "checked": "2026-10-10T19:07:34Z"
       },
       "certificates": [
@@ -3406,7 +3502,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
           "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/hunt3_n344.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/hunt3_n344.cert",
           "checked": "2026-10-10T19:07:34Z"
         },
         {
@@ -3421,21 +3517,56 @@
         }
       ]
     },
-    "375": {
-      "side": 19.906981767290603,
+    "364": {
+      "side": 19.583782203950836,
       "source": "evand",
       "external": {
-        "side": "9953490883645300797660281830293/500000000000000000000000000000",
+        "side": "19583782203950834292109305759091/1000000000000000000000000000000",
         "source": "evand",
-        "credit": "Evan Daniel (from a Francisco Couzo seed)",
-        "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
-        "certificate": "evand/search/packer/candidates/big1_n375.cert",
-        "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-        "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/big1_n375.cert",
-        "checked": "2026-10-10T10:55:59Z",
-        "same_as_ours": "n375_s19.906981767294.txt"
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n364.cert",
+        "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
+        "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n364.cert",
+        "checked": "2026-10-13T14:45:58Z"
       },
       "certificates": [
+        {
+          "side": "19583782203950834292109305759091/1000000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "certificate": "evand/search/packer/candidates/comp2_n364.cert",
+          "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n364.cert",
+          "checked": "2026-10-13T14:45:58Z"
+        }
+      ]
+    },
+    "375": {
+      "side": 19.882451030481246,
+      "source": "evand",
+      "external": {
+        "side": "19882451030481246819527281665997/1000000000000000000000000000000",
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/comp2_n375.cert",
+        "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
+        "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n375.cert",
+        "checked": "2026-10-13T14:45:56Z"
+      },
+      "certificates": [
+        {
+          "side": "19882451030481246819527281665997/1000000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "certificate": "evand/search/packer/candidates/comp2_n375.cert",
+          "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/comp2_n375.cert",
+          "checked": "2026-10-13T14:45:56Z"
+        },
         {
           "side": "9953490883645300797660281830293/500000000000000000000000000000",
           "source": "evand",
@@ -3443,7 +3574,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
           "certificate": "evand/search/packer/candidates/big1_n375.cert",
           "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/big1_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/big1_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.906981767294.txt"
         },
@@ -3454,7 +3585,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
           "certificate": "evand/search/packer/candidates/polish_n375.cert",
           "sha256": "fa92e2b602f87b5fcd2c7d0973cfba3ba64046fdd9aec5ed1292dd29a231bc8a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/96c4e427f228243adc6ed0e77caf9ca1139bb79e/search/packer/candidates/polish_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/fc094b1f7995057eb2dc2fe35b70e10b7d95f010/search/packer/candidates/polish_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.907024202150.txt"
         }

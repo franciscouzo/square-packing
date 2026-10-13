@@ -1,10 +1,10 @@
 {
   "n": 382,
   "packing": "n382.txt",
-  "packing_sha256": "2113283d8ff4181074a57d15d60cd10855c44dc39042fb669329896991d81fe8",
+  "packing_sha256": "a1f244355c2768659808ef30d5e2dfa136f4d73ee358690a3116aeacd1ad9408",
   "certificate": "certificates/n382.cert",
-  "certificate_sha256": "d3f00b60f1df2bff529a02217570ff18e13f01f84863ea5b9ba2b842eec366ef",
-  "rational_side": "94198950843216391147752843823/4712633609411500000000000000",
+  "certificate_sha256": "53561eaef2a4cd1980a22058bc6c3c9ffa2de50ff5622f8da670f9dcaeb11e0d",
+  "rational_side": "16910059023533815728370360359/846022698554500000000000000",
   "kind": "rational witness",
   "origin": {
     "seed_credit": "Kevin Fang (TheSnakeFang)",
@@ -16,30 +16,13 @@
       "side": "269457653704352009538801091757719713332271894027604544062655799750885/13479973333575319909990991250831751289361739009640320293602072723456"
     },
     "web_seed": {
-      "id": "2f5dd5bf657a8fbdf533e008c470c8ea",
+      "id": "7d0c74edde3ffee3dbd5c51a7ac1aa4a",
       "n": 382,
-      "side": 19.989297688217025,
-      "method": "ellsworth",
-      "received": "20261013T030641Z",
-      "original_packing_sha256": "ee078899f946ff5e59d020aa8be31ff89a7aba602402355ec3861a426c63d5bc"
-    },
-    "search_job": {
-      "id": 95049,
+      "side": 19.987713157609193,
       "method": "fq",
-      "source": "n382.txt",
-      "source_origin": "constructed",
-      "source_sha256": "ddf0a545f61ce675d5661252b5a21afdb67cde474250352bba39352bdfbd8c41",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n382.txt",
-        "source_sha256": "4de5f08fdb5a43963edccc0bb2bc50cc828416b4c5b5a77df7bfbdeb3812442c",
-        "source_n": 382,
-        "source_side": 19.988610633515982,
-        "layers": 0,
-        "deleted": 0,
-        "side": 19.988610633515982
-      }
+      "received": "20261013T160950Z",
+      "original_packing_sha256": "9693f5fa9b8b427d47d015e2a92ea5720ecf15b6062b3f38b04258953091ec5c"
     }
   },
-  "dilation": "1+1e-10"
+  "dilation": "1+1e-12"
 }

@@ -1,10 +1,10 @@
 {
   "n": 339,
   "packing": "n339.txt",
-  "packing_sha256": "7b98a8d144439dc6e0f9afde67075e0f6da948b4dd60b2e907bfb40741d25a09",
+  "packing_sha256": "af653a0e8999e00afddd752475e67d6f792521508ed6ab5f0ae6bc20424d92e2",
   "certificate": "certificates/n339.cert",
-  "certificate_sha256": "c479e13a612f56a074899487e2a285a3a6adcaed42cdef7b646d8fcd7a7bd901",
-  "rational_side": "4247372425158980137376328899/224403568199500000000000000",
+  "certificate_sha256": "08d78e0c315ef03c891833b8331bfd23da2a977e131b4d26a2e04abb0a16a545",
+  "rational_side": "7843211074020413644369172117/414429522933500000000000000",
   "kind": "rational witness",
   "origin": {
     "search_job": {
@@ -25,12 +25,12 @@
       }
     },
     "web_seed": {
-      "id": "b5f9f57d0fb6dee4a68861cb045bb256",
+      "id": "5ec2fb787182c066ad2883ee43924e91",
       "n": 339,
-      "side": 18.92738363849441,
-      "method": "ellsworth",
-      "received": "20261013T103636Z",
-      "original_packing_sha256": "f8afdbacaf5aab5bafcc2a0116a26822d9ae6b118ec658a96a2ce04ca02100fd"
+      "side": 18.925319360703334,
+      "method": "fq",
+      "received": "20261013T172425Z",
+      "original_packing_sha256": "27b5a1fb47d279bd36f03b3c68a947a73b83f3e2049b07e85b44175f5edcb44f"
     }
   },
   "dilation": "1+1e-11"

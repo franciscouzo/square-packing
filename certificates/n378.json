@@ -1,11 +1,11 @@
 {
   "n": 378,
   "packing": "n378.txt",
-  "packing_sha256": "fdb73be26a820cd61ce24c48d96efca90ef2df7b180189f270fbc2520fa7a3b3",
+  "packing_sha256": "8e8c1a5ad7a662e2563d06fcc059eab7a310d460ddf3e05a8d62de32cefde0e2",
   "certificate": "certificates/n378.cert",
-  "certificate_sha256": "5ba870c8b0f2469c1285bac52ee259b887a22c823d58cf4f2a1b3203a7e256a5",
-  "rational_side": "2397291160888108008114994597/120210043548500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "15a96d409b43253fdd1c6b48c732fb00782551cae7458e2310e3df4560af9065",
+  "rational_side": "9971259846922534078917474447089/500000000000000000000000000000",
+  "kind": "exact optimum",
   "origin": {
     "search_job": {
       "id": 94745,
@@ -24,6 +24,5 @@
         "side": 19.94252084700095
       }
     }
-  },
-  "dilation": "1+1e-11"
+  }
 }
