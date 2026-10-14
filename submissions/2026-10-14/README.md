@@ -1,0 +1,54 @@
+# 14 October 2026 registration witnesses
+
+21 certified upper bounds through n=1024 and two certificate precision refinements. Campaign improvements are credited to Francisco Couzo. Seven existing composites retain Kevin Fang’s construction credit; they were regenerated or copied from his pinned source and independently replayed.
+
+Each certificate proves s(n) ≤ S. The exact rational certificate header is authoritative; the displayed sides below are rounded upward to 12 decimal places. Provenance, prior comparison bounds, complete certificate hashes and exact verification receipts are in [manifest.json](manifest.json).
+
+| n | Certified side, rounded up | Report | Credit |
+|---:|---:|---|---|
+| [237](certificates/n237.cert) | 15.902603638284 | Campaign improvement | Francisco Couzo; refinement of Mykhailo Polkovskyi’s certificate |
+| [339](certificates/n339.cert) | 18.915818555470 | Campaign improvement | Francisco Couzo; continued L-border construction from issue #506 |
+| [342](certificates/n342.cert) | 18.964706723173 | Precision refinement | Francisco Couzo |
+| [382](certificates/n382.cert) | 19.987621154241 | Campaign improvement | Francisco Couzo; refinement of Kevin Fang’s packing |
+| [409](certificates/n409.cert) | 20.767428349966 | Campaign improvement | Francisco Couzo |
+| [419](certificates/n419.cert) | 20.959997582079 | Campaign improvement | Francisco Couzo |
+| [450](certificates/n450.cert) | 21.767428350587 | Campaign improvement | Francisco Couzo |
+| [461](certificates/n461.cert) | 21.973183753375 | Campaign improvement | Francisco Couzo |
+| [542](certificates/n542.cert) | 23.828427124774 | Precision refinement | Francisco Couzo |
+| [552](certificates/n552.cert) | 23.968034845503 | Campaign improvement | Francisco Couzo |
+| [599](certificates/n599.cert) | 24.968034846127 | Campaign improvement | Francisco Couzo |
+| [648](certificates/n648.cert) | 25.968034846328 | Campaign improvement | Francisco Couzo |
+| [649](certificates/n649.cert) | 25.976974088403 | Campaign improvement | Francisco Couzo |
+| [651](certificates/n651.cert) | 25.984515068279 | Campaign improvement | Francisco Couzo; refinement of Kevin Fang’s packing |
+| [703](certificates/n703.cert) | 26.999256308447 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [757](certificates/n757.cert) | 27.991000865994 | Campaign improvement | Francisco Couzo |
+| [804](certificates/n804.cert) | 28.920398747577 | Campaign improvement | Francisco Couzo |
+| [812](certificates/n812.cert) | 28.988287236851 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [930](certificates/n930.cert) | 30.988287236851 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [931](certificates/n931.cert) | 30.994048655032 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [992](certificates/n992.cert) | 31.997220361783 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [993](certificates/n993.cert) | 31.991327887692 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+| [994](certificates/n994.cert) | 31.999256308447 | Fang composite | Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo |
+
+## Verification
+
+All 23 certificates passed the independent exact rational Python verifier from [jlevy/squares](https://github.com/jlevy/squares/blob/37e6757ed4c51a1d93f2f999814c2a5efbe2a223/packing/src/sqpack/verify.py) and [Evan Daniel’s standalone checker](https://github.com/evand/square-packing/blob/622cd2e21407700fe8d5ac5943af820725107921/search/exact/verify_cert.py). The 16 campaign/precision witnesses also passed the campaign’s Rust rational checker. Evan’s checker logs are retained in [verification/](verification/); its return codes are in [verification-receipts.json](verification-receipts.json).
+
+From this directory, using Python 3 and the standard library:
+
+```sh
+sha256sum -c SHA256SUMS
+curl -fsSL https://raw.githubusercontent.com/evand/square-packing/622cd2e21407700fe8d5ac5943af820725107921/search/exact/verify_cert.py -o verify_cert.py
+echo "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52  verify_cert.py" | sha256sum -c -
+for certificate in certificates/*.cert; do
+    python3 verify_cert.py "$certificate" || exit 1
+done
+```
+
+The certificate format is `n S`, followed by exactly n triples `(x,y,t)` of exact rationals, where `(x,y)` is the centre and `t=tan(theta/2)`. All checkers use the separating-axis theorem and exact half-angle rotations. No optimality proof or independent human review is claimed.
+
+## Composite source
+
+[Kevin Fang’s composite table](https://github.com/TheSnakeFang/squarepack-certs/blob/078789a4cfd36f915f1bfbe76d742413d79b2965/composites/TABLE.md) supplies the seven original rows at n=703,812,930,931,992,993,994. Two certificates were shipped; five were regenerated by the retained `tools/glue.py`. All seven match their original table hashes. This batch supports [jlevy/squares issue #603](https://github.com/jlevy/squares/issues/603); it does not verify the entire inventory or general theorem.
+
+OpenAI Codex assisted verification orchestration, certificate preparation and the registration draft; earlier search work also used Claude Code. Francisco Couzo directed the work.

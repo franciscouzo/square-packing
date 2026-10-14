@@ -1,0 +1,4 @@
+n = 450, S = 86015497401862821831433322593/3951569106671500000000000000 (~21.767428350586460084)
+  min wall clearance  = 1.000e-15  (square #409)
+  min pair separation = 1.000e-12  (squares #409, #410; 1020 pairs with |dc|^2 <= 2 checked by separating axes, the rest by disc separation)
+  VALID: s(n) <= S

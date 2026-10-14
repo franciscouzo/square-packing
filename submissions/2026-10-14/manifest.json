@@ -1,0 +1,751 @@
+{
+  "format": "square-packing-registration-v1",
+  "date": "2026-10-14",
+  "baseline_commit": "487b05809099d8f7d006aaeb6bfc1ebe95cb8d0d",
+  "checker_source": "https://github.com/evand/square-packing/blob/622cd2e21407700fe8d5ac5943af820725107921/search/exact/verify_cert.py",
+  "checker_sha256": "3299ca0c0f02f7c221deeea69a9a85b5a90db6bc410b20727fdff211c92bed52",
+  "independent_checker_source": "https://github.com/jlevy/squares/blob/37e6757ed4c51a1d93f2f999814c2a5efbe2a223/packing/src/sqpack/verify.py",
+  "independent_checker_sha256": "56bc5b9f690b054ba30e82547dea4aa9d0ccea0a2b1827fab28fcc4e98677337",
+  "publication_replay_wall_seconds": 22.433335755951703,
+  "certificates": [
+    {
+      "n": 237,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n237.cert",
+      "certificate_sha256": "75d2fc3950e551d1bedb2b2a3a2a178349f2e57ac34a9b7666eec5c9162fa850",
+      "rational_side": "12163897896660350527924222391/764899771970500000000000000",
+      "side_rounded_up_12": "15.902603638284",
+      "previous_index_bound": "7951352528933183399718238226741/500000000000000000000000000000",
+      "previous_index_source": "https://github.com/jlevy/squares/issues/593",
+      "gain_over_previous_index": "77575815750444226050356168374350726281/764899771970500000000000000000000000000000",
+      "credit": "Francisco Couzo; refinement of Mykhailo Polkovskyi\u2019s certificate",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 3204,
+        "side": "12163897896660350527924222391/764899771970500000000000000",
+        "n": 237
+      },
+      "evand_verification": {
+        "n": 237,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 0.641692045610398,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 339,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n339.cert",
+      "certificate_sha256": "962c2407da66741a77d9db1a5eb336269837846d8cc240bfa223e085737d0218",
+      "rational_side": "15760492451744053967692664819/833191141347000000000000000",
+      "side_rounded_up_12": "18.915818555470",
+      "previous_index_bound": "15163629392496813604853546001/801627794525500000000000000",
+      "previous_index_source": "certificates/n339.cert",
+      "gain_over_previous_index": "12230061596811788697993799558636397/53432734164494379463667880000000000000",
+      "credit": "Francisco Couzo; continued L-border construction from issue #506",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 4699,
+        "side": "15760492451744053967692664819/833191141347000000000000000",
+        "n": 339
+      },
+      "evand_verification": {
+        "n": 339,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 1.0026283762417734,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 342,
+      "group": "Precision refinement",
+      "certificate": "certificates/n342.cert",
+      "certificate_sha256": "e3910e16d63e2ce6393414aad0ccd4b161d4a3ba5f0b9e33e0dc871b0deabf65",
+      "rational_side": "13505979727081420240143041327/712163911851000000000000000",
+      "side_rounded_up_12": "18.964706723173",
+      "previous_index_bound": "13683643870395713554876559129/721532057939500000000000000",
+      "previous_index_source": "certificates/n342.cert",
+      "gain_over_previous_index": "2347931370216300931370213953/8221585486529547243056232000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 4790,
+        "side": "13505979727081420240143041327/712163911851000000000000000",
+        "n": 342
+      },
+      "evand_verification": {
+        "n": 342,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 0.9939168659038842,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 382,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n382.cert",
+      "certificate_sha256": "9f42f0e883d12b3cb5d9b6045d3b8844fa9b05b75fd5910ebafabd5600d6168b",
+      "rational_side": "11022991764484891182563636300647365246824336756792134646965777453391/551490929281812357791494555514909292818123577914945500000000000000",
+      "side_rounded_up_12": "19.987621154241",
+      "previous_index_bound": "14010251818059348235116958914488556342564891897290889275193566381789/700946431579804428050776957009464315798044280507769500000000000000",
+      "previous_index_source": "certificates/n382.cert",
+      "gain_over_previous_index": "4157159565612968232144381127255761470281989095277067721821499382433293088328980049/30925247914297331858646067447866560169279576921710471386140810263062583352498000000000000",
+      "credit": "Francisco Couzo; refinement of Kevin Fang\u2019s packing",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 5560,
+        "side": "11022991764484891182563636300647365246824336756792134646965777453391/551490929281812357791494555514909292818123577914945500000000000000",
+        "n": 382
+      },
+      "evand_verification": {
+        "n": 382,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 1.3883357499726117,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 409,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n409.cert",
+      "certificate_sha256": "b673dccea2b98f7763ee1d3bc02788ce155a13dcc2578ed0055698eecf9a3060",
+      "rational_side": "12913362409176042797577197977/621808448863500000000000000",
+      "side_rounded_up_12": "20.767428349966",
+      "previous_index_bound": "101362240172664741185988914319/4880815815284500000000000000",
+      "previous_index_source": "certificates/n409.cert",
+      "gain_over_previous_index": "153859887426719335234426565475347/3034932511290494079954165750000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 5709,
+        "side": "12913362409176042797577197977/621808448863500000000000000",
+        "n": 409
+      },
+      "search": {
+        "method": "fq",
+        "received": "20261014T174706Z",
+        "sha256": "263d01a166d6b94e004340706ff1fa79bcd798b4b0ff71b9c78eedca7bb7d9dd"
+      },
+      "evand_verification": {
+        "n": 409,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 1.5399662172421813,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 419,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n419.cert",
+      "certificate_sha256": "e2493e42a60e915d671e780995bcc2e2b9c8771272e9df0328890fc26a6a4095",
+      "rational_side": "80695119733625752827535766822771925130844543419314113774658870691/3849958446685324913565194998050235494743230122939250000000000000",
+      "side_rounded_up_12": "20.959997582079",
+      "previous_index_bound": "6690535228605028909668020899813530898769469914541480311/319182138728050000000000003191821387280500000000000000",
+      "previous_index_source": "certificates/n419.cert",
+      "gain_over_previous_index": "11786974201101597955589018209032932075080932650260315151505431391981741181014080118311822368842741/7864563014573716903972191727834239521392246822848709132669587916550777831267926407834941600000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 5998,
+        "side": "80695119733625752827535766822771925130844543419314113774658870691/3849958446685324913565194998050235494743230122939250000000000000",
+        "n": 419
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T180436Z",
+        "sha256": "9e01a73b3c001bf7b67719b191dbfa712304c73dc3b07bba25f86a7f1609f440"
+      },
+      "evand_verification": {
+        "n": 419,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 2.012809676118195,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 450,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n450.cert",
+      "certificate_sha256": "43a72d9ffedaec7984405c15e5634bf6dac1497eafe1d0a027e632cf4d529e43",
+      "rational_side": "86015497401862821831433322593/3951569106671500000000000000",
+      "side_rounded_up_12": "21.767428350587",
+      "previous_index_bound": "15317514777467740482909520671646740611399473333931469631687028779147752314701642121931986291/703688045149258204608632351177470268107360855988373441405898166147788099020500000000000000",
+      "previous_index_source": "certificates/n450.cert",
+      "gain_over_previous_index": "563865471008853980843311887159598290834604318920831687525800024286562874607188201573075163403281/11122687759783473609864901216878923434009022139005857604186564661742860403568465476661063000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 6451,
+        "side": "86015497401862821831433322593/3951569106671500000000000000",
+        "n": 450
+      },
+      "construction": {
+        "source_n": 409,
+        "base_side": 20.76742835036569,
+        "tiles": 1,
+        "layers": 1,
+        "n": 450
+      },
+      "evand_verification": {
+        "n": 450,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 1.6170067959465086,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 461,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n461.cert",
+      "certificate_sha256": "e87e9e7099ba4a15a45c426948df6fb463e8f1bc1ef00ea3ea6b496458210206",
+      "rational_side": "4815728038236625594119195870229537391060756184031012912605279819357/219163872303991689276056426799981765896492324486478500000000000000",
+      "side_rounded_up_12": "21.973183753375",
+      "previous_index_bound": "49273058002329035256365201/2242286209500000000000000",
+      "previous_index_source": "certificates/n461.cert",
+      "gain_over_previous_index": "633623209142255226406589127435261997992008936340183351317759347930177387/491428128487859556666310364357445328521162143618629909768245750000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 6766,
+        "side": "4815728038236625594119195870229537391060756184031012912605279819357/219163872303991689276056426799981765896492324486478500000000000000",
+        "n": 461
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T174649Z",
+        "sha256": "43fa1ec10643bda5fc7b6f8f58e79b8c9a3dcea298d8eb4e77ad29c40f5ab602"
+      },
+      "evand_verification": {
+        "n": 461,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 2.1407593777403235,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 542,
+      "group": "Precision refinement",
+      "certificate": "certificates/n542.cert",
+      "certificate_sha256": "3f0f4267fab316b0418558e2b0ffe295b07feddc2135eb3a7da44a4c15a8c5d6",
+      "rational_side": "5532991125316051254254297371/232201273560500000000000000",
+      "side_rounded_up_12": "23.828427124774",
+      "previous_index_bound": "16745277520316176915532936133899994679953594312518311099388656875527/702743720007778450563934029240973058883588653334763500000000000000",
+      "previous_index_source": "certificates/n542.cert",
+      "gain_over_previous_index": "1334412482823128211680375876949253414884500620144827551264195069177/1305423894179596649498182968150865531368309148935513760384563534000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 7986,
+        "side": "5532991125316051254254297371/232201273560500000000000000",
+        "n": 542
+      },
+      "search": {
+        "method": "fq",
+        "received": "20261014T174540Z",
+        "sha256": "d1cb054e569371abb389a0bacf4bfc56f1bdbe7cc589d1ddef99d1679665ec65"
+      },
+      "evand_verification": {
+        "n": 542,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 2.5149517660029233,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 552,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n552.cert",
+      "certificate_sha256": "0ccff73bb54e8bdd5721e7b1f524549d9fbd224b262902feaa4c9121d2867908",
+      "rational_side": "1336913104446320995776430361526045060886790944910372943/55779003704893601939282009645665379846500000000000000",
+      "side_rounded_up_12": "23.968034845503",
+      "previous_index_bound": "106327837659856151532559413237/4435175451243500000000000000",
+      "previous_index_source": "certificates/n552.cert",
+      "gain_over_previous_index": "2833338952763123416298313034307726596706593137353451725734047/494779335853528678580422307637230941209012936528245500000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 8255,
+        "side": "1336913104446320995776430361526045060886790944910372943/55779003704893601939282009645665379846500000000000000",
+        "n": 552
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T175224Z",
+        "sha256": "454ca04076f2c6fc768a6906e8665eb9eca19d1314efc8b1e9230475ef5e0bbb"
+      },
+      "evand_verification": {
+        "n": 552,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 2.8538024402223527,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 599,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n599.cert",
+      "certificate_sha256": "784d64ef9396898fbf28e1df2473d7e83f4d7b7811a0afb061d1502d7f8c2ccd",
+      "rational_side": "26704722559059887305228107379/1069556443814500000000000000",
+      "side_rounded_up_12": "24.968034846127",
+      "previous_index_bound": "124436494572000213735935371607/4982724084678500000000000000",
+      "previous_index_source": "certificates/n599.cert",
+      "gain_over_previous_index": "118361381943654788531472536427149529/21317218610070384102184553000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 8870,
+        "side": "26704722559059887305228107379/1069556443814500000000000000",
+        "n": 599
+      },
+      "construction": {
+        "source_n": 552,
+        "base_side": 23.96803484590282,
+        "tiles": 1,
+        "layers": 1,
+        "n": 599
+      },
+      "evand_verification": {
+        "n": 599,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 2.8041808642446995,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 648,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n648.cert",
+      "certificate_sha256": "fe4cffa0820f61e202e89d7465da245aac07b8c6a780668ee7597fb275440a67",
+      "rational_side": "1580917747964295160131077049/60879375637000000000000000",
+      "side_rounded_up_12": "25.968034846328",
+      "previous_index_bound": "18657056191974940184012761079/718308796789500000000000000",
+      "previous_index_source": "certificates/n648.cert",
+      "gain_over_previous_index": "19424546276823909834127804485287851/3498415285048757609392920000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 9783,
+        "side": "1580917747964295160131077049/60879375637000000000000000",
+        "n": 648
+      },
+      "construction": {
+        "source_n": 552,
+        "base_side": 23.96803484590282,
+        "tiles": 1,
+        "layers": 2,
+        "n": 648
+      },
+      "evand_verification": {
+        "n": 648,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 3.4321333416737616,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 649,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n649.cert",
+      "certificate_sha256": "0ffc969bbc63e1213ae633e9b14fff3a4f0523b19a5f195fac498988f15efbbb",
+      "rational_side": "22005763134880310331656432423/847125729886500000000000000",
+      "side_rounded_up_12": "25.976974088403",
+      "previous_index_bound": "44099849026111878700764737402012357346228464531477144070708527477/1697598456078201015909210873192033645717977402488500000000000000",
+      "previous_index_source": "certificates/n649.cert",
+      "gain_over_previous_index": "5187873484772643409656031448777010245071612225413136627244286599969141/6391463694041962435217582486093526658693809610744817528544690000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 9810,
+        "side": "22005763134880310331656432423/847125729886500000000000000",
+        "n": 649
+      },
+      "search": {
+        "method": "fq",
+        "received": "20261014T172031Z",
+        "sha256": "583144f41a8bc8df4b224c2a3047f4dbea974120fcc3cc4423eee09ce78db20e"
+      },
+      "evand_verification": {
+        "n": 649,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 3.3872690638527274,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 651,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n651.cert",
+      "certificate_sha256": "8ade5e7accce355c76b6ccf4d838b686b85787d9711e0d4401faa31dc4cae923",
+      "rational_side": "241476276408156387115385105463274782867431850070691071/9293083814480905136206318825678729558937500000000000",
+      "side_rounded_up_12": "25.984515068279",
+      "previous_index_bound": "294441873690303914007872700583821533544449503642660679/11331270732714994916905799440402481152000000000000000",
+      "previous_index_source": "certificates/n651.cert",
+      "gain_over_previous_index": "5113240071103461720602037701999324975744156493485262471041229535818880110437577529661/13478713426392947946559556927118075214837859961499330793828543583971534962688000000000000",
+      "credit": "Francisco Couzo; refinement of Kevin Fang\u2019s packing",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 9880,
+        "side": "241476276408156387115385105463274782867431850070691071/9293083814480905136206318825678729558937500000000000",
+        "n": 651
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T180604Z",
+        "sha256": "d8cbb750290a55a0c8d3c526e1e3c0280f81e19c6dc2268dba6e83a8adbecc79"
+      },
+      "evand_verification": {
+        "n": 651,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 3.746505043003708,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 703,
+      "group": "Fang composite",
+      "certificate": "certificates/n703.cert",
+      "certificate_sha256": "0ba5cd285b5dd1a8b9892cc25b45611f54230760601d297bc9a126e1094d6ec6",
+      "rational_side": "84738539313948868700545951204479818784523271832856247966865/3138550867693340381917894711603833208051177722232017256448",
+      "side_rounded_up_12": "26.999256308447",
+      "previous_index_bound": "27",
+      "previous_index_source": "integer square grid",
+      "gain_over_previous_index": "2334113771321611237206008823677832858526667408217957231/3138550867693340381917894711603833208051177722232017256448",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 10570,
+        "side": "84738539313948868700545951204479818784523271832856247966865/3138550867693340381917894711603833208051177722232017256448",
+        "n": 703
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n27_703_r17x16_n0257+n-110",
+        "level": "L1",
+        "n": "27",
+        "count": "703",
+        "j": "1",
+        "side_rounded_up_15": "26.999256308446249",
+        "A": "r17x16_n0257",
+        "B": "n-110",
+        "B_path": "third_party/daniel/n-110.cert",
+        "sha256": "0ba5cd285b5dd1a8b9892cc25b45611f54230760601d297bc9a126e1094d6ec6",
+        "status": "shipped",
+        "file": "composites/n027_j1_703.cert"
+      },
+      "evand_verification": {
+        "n": 703,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 757,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n757.cert",
+      "certificate_sha256": "124d118d70d80c13011b9fd7fc82c46ed3917d1d3a2b5c0b83920a0e8d715083",
+      "rational_side": "2017013645520556066618921865312330242011007231621137760082264853190861249025432441426574553/72059361334628479177359726217958887411830602793896518335182698782951858151500000000000000",
+      "side_rounded_up_12": "27.991000865994",
+      "previous_index_bound": "136816143864530688313398265227/4887605677488500000000000000",
+      "previous_index_source": "certificates/n757.cert",
+      "gain_over_previous_index": "2066406906733983248729939393589022154098477409908393044834390631349821820712574121921069571439591/1408790974301301798100422799248807294896560030713839733721567986441892964297768435090031000000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 11630,
+        "side": "2017013645520556066618921865312330242011007231621137760082264853190861249025432441426574553/72059361334628479177359726217958887411830602793896518335182698782951858151500000000000000",
+        "n": 757
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T180406Z",
+        "sha256": "d1659c32c3e668e016cca878a8e2fa2347953368bfcd9dcd13893fd52466559c"
+      },
+      "evand_verification": {
+        "n": 757,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 5.3215718902647495,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 804,
+      "group": "Campaign improvement",
+      "certificate": "certificates/n804.cert",
+      "certificate_sha256": "a1ccc9a96dc8011152b3a2e0a171f1ee9051f3a55ddb98c4c3b2bb29a35d1d15",
+      "rational_side": "21316338098656938426429163392528974468810470714920720667861834801531/737069301316017949763472070077201158201889297143765500000000000000",
+      "side_rounded_up_12": "28.920398747577",
+      "previous_index_bound": "13092878199277341168278402529/452615151164500000000000000",
+      "previous_index_source": "certificates/n804.cert",
+      "gain_over_previous_index": "22609957598723847749664348294249550863885215678206981624568048956803707501/3336087332338618631173892780183661394046226032362200798712399247500000000000",
+      "credit": "Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 12166,
+        "side": "21316338098656938426429163392528974468810470714920720667861834801531/737069301316017949763472070077201158201889297143765500000000000000",
+        "n": 804
+      },
+      "search": {
+        "method": "ellsworth",
+        "received": "20261014T181652Z",
+        "sha256": "07943e404a46423d4a716bbc470a0a6c2ef2fc2ef88088499fec862698fd74f9"
+      },
+      "evand_verification": {
+        "n": 804,
+        "valid": true,
+        "exit_code": 0,
+        "seconds": 5.851332729216665,
+        "reused_sha256_matched_receipt": false
+      }
+    },
+    {
+      "n": 812,
+      "group": "Fang composite",
+      "certificate": "certificates/n812.cert",
+      "certificate_sha256": "90b2464abbf3befd8e1111368f7ec5fdaef47e463b3a1bc187d88e355d773651",
+      "rational_side": "29525091996913125398135261373207251893009342818073786109012779159953438223084287005749394901/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488",
+      "side_rounded_up_12": "28.988287236851",
+      "previous_index_bound": "18872667690679673018872374403/650950719726500000000000000",
+      "previous_index_source": "certificates/n812.cert",
+      "gain_over_previous_index": "169167620390389768420447870420311696763035029119980760595260019890125214357599840883635787609769385415110769171/40466614834737782566891173465877325792382610313956256720581192501192289319766963433801874510184448000000000000000",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 12300,
+        "side": "29525091996913125398135261373207251893009342818073786109012779159953438223084287005749394901/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488",
+        "n": 812
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n29_812_r21x20_n0401+n-71",
+        "level": "L1",
+        "n": "29",
+        "count": "812",
+        "j": "0",
+        "side_rounded_up_15": "28.988287236850655",
+        "A": "r21x20_n0401",
+        "B": "n-71",
+        "B_path": "third_party/daniel/n-71.cert",
+        "sha256": "90b2464abbf3befd8e1111368f7ec5fdaef47e463b3a1bc187d88e355d773651",
+        "status": "reproducible-only",
+        "file": ""
+      },
+      "evand_verification": {
+        "n": 812,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 930,
+      "group": "Fang composite",
+      "certificate": "certificates/n930.cert",
+      "certificate_sha256": "a0ff666efa63476259470aaa778575c09df8cbf29a9cedea349d1246e713e32d",
+      "rational_side": "31562127973249117466400685445292960303480366676912448108616062071407764215299748344203296213/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488",
+      "side_rounded_up_12": "30.988287236851",
+      "previous_index_bound": "121936608406908259714928273801/3934763004525500000000000000",
+      "previous_index_source": "certificates/n930.cert",
+      "gain_over_previous_index": "313451256892411759378339112593520197125181831353177799871144693945945859405273610963976015609628199899592453557/244606133989695540435128452881332555327206748710857883851596148126190887502779210982809992708489216000000000000000",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 14224,
+        "side": "31562127973249117466400685445292960303480366676912448108616062071407764215299748344203296213/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488",
+        "n": 930
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n31_930_r21x20_n0401+n-109",
+        "level": "L1",
+        "n": "31",
+        "count": "930",
+        "j": "0",
+        "side_rounded_up_15": "30.988287236850655",
+        "A": "r21x20_n0401",
+        "B": "n-109",
+        "B_path": "third_party/daniel/n-109.cert",
+        "sha256": "a0ff666efa63476259470aaa778575c09df8cbf29a9cedea349d1246e713e32d",
+        "status": "reproducible-only",
+        "file": ""
+      },
+      "evand_verification": {
+        "n": 930,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 931,
+      "group": "Fang composite",
+      "certificate": "certificates/n931.cert",
+      "certificate_sha256": "503efbc15a94dc93609b30022f0a2b60be659c1848c80c1468e104f3fb6b9547",
+      "rational_side": "97276398299580079480270046125646242095222712627928615194987/3138550867693340381917894711603833208051177722232017256448",
+      "side_rounded_up_12": "30.994048655032",
+      "previous_index_bound": "31",
+      "previous_index_source": "integer square grid",
+      "gain_over_previous_index": "18678598913472359184689934072587354363796761263919754901/3138550867693340381917894711603833208051177722232017256448",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 14273,
+        "side": "97276398299580079480270046125646242095222712627928615194987/3138550867693340381917894711603833208051177722232017256448",
+        "n": 931
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n31_931_r19x18_n0325+n-156",
+        "level": "L1",
+        "n": "31",
+        "count": "931",
+        "j": "1",
+        "side_rounded_up_15": "30.994048655031932",
+        "A": "r19x18_n0325",
+        "B": "n-156",
+        "B_path": "third_party/daniel/n-156.cert",
+        "sha256": "503efbc15a94dc93609b30022f0a2b60be659c1848c80c1468e104f3fb6b9547",
+        "status": "reproducible-only",
+        "file": ""
+      },
+      "evand_verification": {
+        "n": 931,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 992,
+      "group": "Fang composite",
+      "certificate": "certificates/n992.cert",
+      "certificate_sha256": "65c89b14a05e6be890317b3aae783109b0fddefdea414d69f9409b5175474bee",
+      "rational_side": "4073718063728373757973775730945251758519568907513379265429013564598940141656835560846275171/127314748520905380599255848038102926985035077487490105738133619379770731599102650938818560",
+      "side_rounded_up_12": "31.997220361783",
+      "previous_index_bound": "32",
+      "previous_index_source": "integer square grid",
+      "gain_over_previous_index": "353888940598421202411406274041905001553572086304118191262255553723269514449269195918749/127314748520905380599255848038102926985035077487490105738133619379770731599102650938818560",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 15410,
+        "side": "4073718063728373757973775730945251758519568907513379265429013564598940141656835560846275171/127314748520905380599255848038102926985035077487490105738133619379770731599102650938818560",
+        "n": 992
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n32_992_r22x21_n0442+n-109",
+        "level": "L1",
+        "n": "32",
+        "count": "992",
+        "j": "0",
+        "side_rounded_up_15": "31.997220361782828",
+        "A": "r22x21_n0442",
+        "B": "n-109",
+        "B_path": "third_party/daniel/n-109.cert",
+        "sha256": "65c89b14a05e6be890317b3aae783109b0fddefdea414d69f9409b5175474bee",
+        "status": "reproducible-only",
+        "file": ""
+      },
+      "evand_verification": {
+        "n": 992,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 993,
+      "group": "Fang composite",
+      "certificate": "certificates/n993.cert",
+      "certificate_sha256": "c30e494d7136f11a38ad3f59d7472c708b3b094ec62752bc838846fa03788cc1",
+      "rational_side": "118027167624474462350242506798159235185882372704589/3689348814741910323200000000000000000000000000000",
+      "side_rounded_up_12": "31.991327887692",
+      "previous_index_bound": "32",
+      "previous_index_source": "integer square grid",
+      "gain_over_previous_index": "31994447266667992157493201840764814117627295411/3689348814741910323200000000000000000000000000000",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 15456,
+        "side": "118027167624474462350242506798159235185882372704589/3689348814741910323200000000000000000000000000000",
+        "n": 993
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n32_993_r21x20_n0401+n-132",
+        "level": "L1",
+        "n": "32",
+        "count": "993",
+        "j": "1",
+        "side_rounded_up_15": "31.991327887691502",
+        "A": "r21x20_n0401",
+        "B": "n-132",
+        "B_path": "third_party/daniel/n-132.cert",
+        "sha256": "c30e494d7136f11a38ad3f59d7472c708b3b094ec62752bc838846fa03788cc1",
+        "status": "reproducible-only",
+        "file": ""
+      },
+      "evand_verification": {
+        "n": 993,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    },
+    {
+      "n": 994,
+      "group": "Fang composite",
+      "certificate": "certificates/n994.cert",
+      "certificate_sha256": "aef770c71d1d8884c1937fd168ce71de9f18b5d7484723c9408f628d1e2050c2",
+      "rational_side": "100431293652415570610986130679801330983437596962595754777745/3138550867693340381917894711603833208051177722232017256448",
+      "side_rounded_up_12": "31.999256308447",
+      "previous_index_bound": "32",
+      "previous_index_source": "integer square grid",
+      "gain_over_previous_index": "2334113771321610386500091521331674200090148828797428591/3138550867693340381917894711603833208051177722232017256448",
+      "credit": "Kevin Fang (TheSnakeFang); independent replay by Francisco Couzo",
+      "jlevy_exact_replay": {
+        "valid": true,
+        "pairs_tested": 15490,
+        "side": "100431293652415570610986130679801330983437596962595754777745/3138550867693340381917894711603833208051177722232017256448",
+        "n": 994
+      },
+      "source_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "original_composite": {
+        "id": "L1_n32_994_r17x16_n0257+n-241",
+        "level": "L1",
+        "n": "32",
+        "count": "994",
+        "j": "2",
+        "side_rounded_up_15": "31.999256308446249",
+        "A": "r17x16_n0257",
+        "B": "n-241",
+        "B_path": "third_party/daniel/n-241.cert",
+        "sha256": "aef770c71d1d8884c1937fd168ce71de9f18b5d7484723c9408f628d1e2050c2",
+        "status": "shipped",
+        "file": "composites/n032_j2_994.cert"
+      },
+      "evand_verification": {
+        "n": 994,
+        "valid": true,
+        "exit_code": 0,
+        "reused_sha256_matched_receipt": true
+      }
+    }
+  ]
+}
