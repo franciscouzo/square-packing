@@ -1,0 +1,17 @@
+{
+  "n": 172,
+  "packing": "n172.txt",
+  "packing_sha256": "5a40820c8a0b4e9c326fcb92ccadb30c364f2f705a16f61525320c9502af6a3e",
+  "certificate": "certificates/n172.cert",
+  "certificate_sha256": "62ff74ec0426b1515b2436200ca1c2892fd2c3d9c8367d5bbec9fc1f22253a00",
+  "rational_side": "340474723922484960724992287973/25000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 3642,
+      "method": "ellsworth_cycle",
+      "source": "n172.txt",
+      "source_sha256": "2d5ede5337fe87040f97230add00591695eb1ffbe223cc92d0e7af165d7f2560"
+    }
+  }
+}

@@ -86,6 +86,9 @@ def current_metadata(n, src, side, kind):
         value = next((item[field] for item in lineage if item.get(field)), None)
         if value:
             origin[field] = value
+    construction = next((item['construction'] for item in lineage if item.get('construction')), None)
+    if construction:
+        origin['construction'] = construction
     job = current.get("search_job") or {}
     if job:
         origin["search_job"] = {key: job[key] for key in
@@ -96,6 +99,12 @@ def current_metadata(n, src, side, kind):
         origin["web_seed"] = {key: web[key] for key in
                               ("id", "n", "side", "method", "attribution", "name", "received", "original_packing_sha256")
                               if key in web}
+    web_seed = origin.get("web_seed", {})
+    owner_names = {"franciscouzo", "francisco couzo"}
+    if any(str(web_seed.get(key, "")).strip().casefold() in owner_names
+           for key in ("attribution", "name")):
+        web_seed.pop("attribution", None)
+        web_seed.pop("name", None)
     metadata = {"n": n, "packing": packing.name, "packing_sha256": digest,
                 "certificate": f"certificates/n{n}.cert",
                 "certificate_sha256": hashlib.sha256(src.read_bytes()).hexdigest(),

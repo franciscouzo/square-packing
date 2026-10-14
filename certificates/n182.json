@@ -1,0 +1,17 @@
+{
+  "n": 182,
+  "packing": "n182.txt",
+  "packing_sha256": "3253be6fda35959cbf7a8e7df8ab53c484554bd88b62bbeea1a096c5e5be8a30",
+  "certificate": "certificates/n182.cert",
+  "certificate_sha256": "5826ad138cf2c98b57fff1036132a1c80fc2043219452f8f8ee760131e12061d",
+  "rational_side": "3493522678280359751787532508193/250000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 2569,
+      "method": "hop",
+      "source": "records/n182.txt",
+      "source_sha256": "32488c0377f61775eb29fd3067d4b07d9a8a973f8bd2c4a6717bfc93de92a66b"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "n": 505,
+  "packing": "n505.txt",
+  "packing_sha256": "fa777ce1714bbd398865332aa0c5d8a42bae539d229ccf4b622c3a90747fa609",
+  "certificate": "certificates/n505.cert",
+  "certificate_sha256": "2b26cf1e6ccb9c52bb2b03d6ea04f8ce841c4a4aa7f2dfc175c28bb530b11b66",
+  "rational_side": "1024844048426239783723856827102334420025853226632144523/44610606423650000000000000446106064236500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "construction": {
+      "label": "elimination from n=506",
+      "kind": "derived",
+      "source_n": 506,
+      "source": "9ddfcad0238f220997706efe2107f423bdee671de55613d73d84a2eecfd202b5",
+      "tiles": 1,
+      "layers": 0
+    }
+  },
+  "dilation": "1+1e-12"
+}

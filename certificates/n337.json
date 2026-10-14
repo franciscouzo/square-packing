@@ -1,0 +1,27 @@
+{
+  "n": 337,
+  "packing": "n337.txt",
+  "packing_sha256": "09e4b87ac58d0218440241dc8c8602699cca4e82cd8e455f281db3977fbe318e",
+  "certificate": "certificates/n337.cert",
+  "certificate_sha256": "2bcf92a216a88380cdb103896fb39cefd82cd0ce9b2f20a1bdd9eab549ab0a47",
+  "rational_side": "3771678353527245620694257618907/200000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 41330,
+      "method": "gpu",
+      "source": "n337.txt",
+      "source_sha256": "bb821951e90e77421f7d67ccf0c02b084d74a915d48cd8e8280eb6235d6d3788",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n337.txt",
+        "source_sha256": "d55d470a87e269ca50fb6b2be92170d0b33716d47a172157091f239560ddf3da",
+        "source_n": 337,
+        "source_side": 18.85839176774182,
+        "layers": 0,
+        "deleted": 0,
+        "side": 18.85839176774182
+      }
+    }
+  }
+}

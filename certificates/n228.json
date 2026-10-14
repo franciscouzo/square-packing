@@ -1,0 +1,19 @@
+{
+  "n": 228,
+  "packing": "n228.txt",
+  "packing_sha256": "ac49909623026fdfbc5749767a94e90b46f2da517d84c89005124d4c99c5874d",
+  "certificate": "certificates/n228.cert",
+  "certificate_sha256": "cb5e49904ac5e4b548bf6c20cbcb4d0a72f52ccc0eee6a36c784d4c3495d38ad",
+  "rational_side": "3901150368932418571180158525547/250000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 71944,
+      "method": "fq",
+      "source": "n228.txt",
+      "source_origin": "own",
+      "source_sha256": "3b7521774ced6ae3eb3c51134bca174c935fec40caa6377582f807dfc7c2fad5",
+      "constructed_seed": null
+    }
+  }
+}

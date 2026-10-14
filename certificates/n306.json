@@ -1,0 +1,18 @@
+{
+  "n": 306,
+  "packing": "n306.txt",
+  "packing_sha256": "0ab428f60331fe757c26750e080c873bcb285c8573c791713438284e23d44632",
+  "certificate": "certificates/n306.cert",
+  "certificate_sha256": "f58de39d385fcc006f7e6f967e16640ff3471534b6cb54aadcd59be14df0b3c7",
+  "rational_side": "8981716858745712869796920037761/500000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 64720,
+      "method": "ellsworth_cycle",
+      "source": "n306.txt",
+      "source_sha256": "2490edd9c36c4c7999bc000d0030268d0b81aacdfc984a905eede018c9c2ed34",
+      "constructed_seed": null
+    }
+  }
+}

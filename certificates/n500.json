@@ -1,0 +1,16 @@
+{
+  "n": 500,
+  "packing": "n500.txt",
+  "packing_sha256": "68ee2fb495b2131ec06cc68f06db3b118fb86c68a63025f7a6475ef910cc57af",
+  "certificate": "certificates/n500.cert",
+  "certificate_sha256": "f090adb3484c7dcdeee55b2be511be98793cbc5c35d0cee52894f8c5352db7f8",
+  "rational_side": "704025157539281416924552733032810228111283425110799113/30744134728150000000000000307441347281500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "construction": {
+      "label": "parametric construction",
+      "kind": "construction"
+    }
+  },
+  "dilation": "1+1e-12"
+}

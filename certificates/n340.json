@@ -1,0 +1,28 @@
+{
+  "n": 340,
+  "packing": "n340.txt",
+  "packing_sha256": "b4e65be246f523dca909ce899db0e32cda81f64b7019ebf51c7591bfb40aa885",
+  "certificate": "certificates/n340.cert",
+  "certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+  "rational_side": "4734912408222751641551744529533/250000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 83330,
+      "method": "hop",
+      "source": "n340.txt",
+      "source_origin": "constructed",
+      "source_sha256": "9007cd84686d42ec96ddea939f530842c071b92b11e0c787716046d521dec584",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n340.txt",
+        "source_sha256": "e94ea5758e6e3c5e9a19fb4bf87a369a421c5bba99cec57f447cfbcd1c38a8e0",
+        "source_n": 340,
+        "source_side": 18.939691298963183,
+        "layers": 0,
+        "deleted": 0,
+        "side": 18.939691298963183
+      }
+    }
+  }
+}

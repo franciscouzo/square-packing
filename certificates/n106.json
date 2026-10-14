@@ -1,0 +1,17 @@
+{
+  "n": 106,
+  "packing": "n106.txt",
+  "packing_sha256": "b2e7f81e54220e77689e8111c2e72fde1dca1b16757f63248917341bfe251a92",
+  "certificate": "certificates/n106.cert",
+  "certificate_sha256": "186d69780b5cfbac068584dd24ce3ce81bfe2f188b5c522b0bcc6faf2dc920f5",
+  "rational_side": "10822908044132847555194436943331/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 9778,
+      "method": "hop",
+      "source": "n106.txt",
+      "source_sha256": "517b45562c1a4891aa1dea37bfed00e029561acddaf0469a2d38666682de025e"
+    }
+  }
+}

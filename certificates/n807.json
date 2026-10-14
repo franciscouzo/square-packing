@@ -1,0 +1,20 @@
+{
+  "n": 807,
+  "packing": "n807.txt",
+  "packing_sha256": "4146382f66726c2b91e65ee0da6392b9563def8f1e21fe6e36482e0236d64509",
+  "certificate": "certificates/n807.cert",
+  "certificate_sha256": "7a49cfb42db98547de02faff9551a524a31e9cd58fe9a75a12d4d481f47495d7",
+  "rational_side": "67317222689037995287783916937/2326588081218500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "construction": {
+      "label": "elimination from n=808",
+      "kind": "derived",
+      "source_n": 808,
+      "source": "2f242ac055139ae7c8745a33fab64e4c2f03b9930d2dd888886fde5d91e1a15e",
+      "tiles": 1,
+      "layers": 0
+    }
+  },
+  "dilation": "1+1e-12"
+}

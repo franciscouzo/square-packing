@@ -1,0 +1,21 @@
+{
+  "n": 503,
+  "packing": "n503.txt",
+  "packing_sha256": "2230c64856248cbd7e9073434e13d066c03edca34dc7d4fce20ef4d4b4fddc94",
+  "certificate": "certificates/n503.cert",
+  "certificate_sha256": "310db900c7ae4be232365c906ff6b9015cf29aca8f95131c0eef4f8602a7005d",
+  "rational_side": "11516807342031953706780012283/501603769547750000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "seed_credit": "L-border from n=460 (Evan Daniel)",
+    "construction": {
+      "label": "L-border from n=460",
+      "kind": "derived",
+      "source_n": 460,
+      "source": "2a6e0920821db49434a5f3e0a8afb7d308c58ab875e2c792eb9a04d2a456b01f",
+      "tiles": 1,
+      "layers": 1
+    }
+  },
+  "dilation": "1+1e-12"
+}

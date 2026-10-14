@@ -1,0 +1,17 @@
+{
+  "n": 110,
+  "packing": "n110.txt",
+  "packing_sha256": "8a97279f09a9e7f0be0478e76372ddde8afbe38469f70c52c2cbe3b229850315",
+  "certificate": "certificates/n110.cert",
+  "certificate_sha256": "91e46c27e6252f878c8d102c63dd407bbff2abfc1cec3b6438b6e4a3be3d51c9",
+  "rational_side": "10996783396631591639612746267957/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 8194,
+      "method": "hop",
+      "source": "records/n110.txt",
+      "source_sha256": "61302012962c81a5f24d2e8c99548984af06408f4f0921dbdad1de8b2c112ccd"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "n": 342,
+  "packing": "n342.txt",
+  "packing_sha256": "a3dff2f5e3308e76026133b13fd2bc499b6278b811321275becc6146cf2d227d",
+  "certificate": "certificates/n342.cert",
+  "certificate_sha256": "a51f7557e4c724f67af8161ceadd332e9744ff7d28fadd65033d6642c6aee912",
+  "rational_side": "13683643870395713554876559129/721532057939500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "search_job": {
+      "id": 71251,
+      "method": "hop",
+      "source": "n342.txt",
+      "source_sha256": "cf637b8b784d60d24e6dbde16bc5ee1002e92e77c62134c8f5b4f364c3e5795d",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n342.txt",
+        "source_sha256": "a0dbd0f038edc80c816bcb2456544367036d482a2212fb1ae44c8007f675e7f0",
+        "source_n": 342,
+        "source_side": 18.964706723592208,
+        "layers": 0,
+        "deleted": 0,
+        "side": 18.964706723592208
+      }
+    }
+  },
+  "dilation": "1+1e-12"
+}

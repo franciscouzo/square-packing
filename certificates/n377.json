@@ -1,0 +1,27 @@
+{
+  "n": 377,
+  "packing": "n377.txt",
+  "packing_sha256": "98590cb7a083e1fc347de7668d1f5b11b78876037ba3e18ba04b0a7f26b83c3a",
+  "certificate": "certificates/n377.cert",
+  "certificate_sha256": "cec44dca3dd05293a0ff5be0383d4ec3a0c259964f44bd19166bae003546b1e0",
+  "rational_side": "19925720814330639527141984222949/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 64356,
+      "method": "hop",
+      "source": "n377.txt",
+      "source_sha256": "2cc0134a6cd6a3d8447d36ddc9280c59dcc14a1e5146f33411051ee6ead34078",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n377.txt",
+        "source_sha256": "dad5ed586bac4003f7f93662b9e427876f1da4ea5781c779b3ebf5ebe4c92569",
+        "source_n": 377,
+        "source_side": 19.925722342181366,
+        "layers": 0,
+        "deleted": 0,
+        "side": 19.925722342181366
+      }
+    }
+  }
+}

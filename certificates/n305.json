@@ -1,0 +1,27 @@
+{
+  "n": 305,
+  "packing": "n305.txt",
+  "packing_sha256": "543c0e41ff93d8ed3ea1512f1a10feb1ea99a263dde72fb748136efc1f1f4cc5",
+  "certificate": "certificates/n305.cert",
+  "certificate_sha256": "a5fe5e365a242972e36c7c79a1d20184949d3fb1c6b3cda3af8e6cb192fd752a",
+  "rational_side": "3590093296427542454697714045223/200000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Nate Chaoweeraprasit (SQUISH)",
+    "seed_certificate": {
+      "source": "squish",
+      "certificate": "squish/squish-submission-2026-10-11/n305/n305.cert.json",
+      "sha256": "95a291460f3c128a9c80c1ba571c4d8118293f36860f38d5d55775636da80d33",
+      "request": "https://github.com/jlevy/squares/issues/500",
+      "side": "176574386584524522718242075735181894343653439251445905894414633471908824717084407/9836714596766635588546138051753839920746733217534271639970138607199828771763358"
+    },
+    "search_job": {
+      "id": 85023,
+      "method": "ellsworth_cycle",
+      "source": "external/seeds/n305.txt",
+      "source_origin": "external",
+      "source_sha256": "a3e6481817a741bb7b91707cd91cd281fed12e6da66f5798b8a275e234c706a4",
+      "constructed_seed": null
+    }
+  }
+}

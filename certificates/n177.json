@@ -1,0 +1,17 @@
+{
+  "n": 177,
+  "packing": "n177.txt",
+  "packing_sha256": "37b4a1e142d44b5a4f9cad81f27b7d0df98981e4f1b2ae459ad2fa9011e4c7fd",
+  "certificate": "certificates/n177.cert",
+  "certificate_sha256": "522383966164b4b0a708bd4e68908f2630f87f5ba8f4476f3b6745b039ba84d4",
+  "rational_side": "13822979734169448600231882896281/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 10892,
+      "method": "hop",
+      "source": "n177.txt",
+      "source_sha256": "9c2b3998488862765f480e0c1d28422ce8313d5b9fb928f2e7616412ea3c03b7"
+    }
+  }
+}

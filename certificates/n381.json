@@ -1,11 +1,11 @@
 {
   "n": 381,
   "packing": "n381.txt",
-  "packing_sha256": "4d052d0525b8eb13923c61faca04edf1d1656d969172c3d87cbb89f92a7b9a79",
+  "packing_sha256": "412f1ccdb46c3afb545477327362ceeecf9a91a8cf34811a97adb25c7783c541",
   "certificate": "certificates/n381.cert",
-  "certificate_sha256": "40da73433dbd32ce9131a01c2ddc5e347cd0024393a88d28520c8e71fefe564b",
-  "rational_side": "19974977397656713743580918961689/1000000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "7cde7963940bd4d40a3c6025d4d1540c9132b5f97bb727466d6aef318f44d2b8",
+  "rational_side": "32037817831128924462785536575129217977395383886581861493002910505031/1603916602985187645403376566039166029851876454033765500000000000000",
+  "kind": "rational witness",
   "origin": {
     "seed_credit": "Kevin Fang (TheSnakeFang)",
     "seed_certificate": {
@@ -16,12 +16,12 @@
       "side": "17234497240723668942314557127864871189472035564122930362827769318543721/862718293348820475141548404758626698746797696721330057918371520839680"
     },
     "web_seed": {
-      "id": "e81b87bbe7547fde282b7d8c67ab49da",
+      "id": "187388cc16cf6a16dfb68b5801387d24",
       "n": 381,
-      "side": 19.97544534281392,
+      "side": 19.974740439430885,
       "method": "fq",
-      "received": "20261013T020511Z",
-      "original_packing_sha256": "efc574630b05378dad789da6bc1eefa96ff5765c5a2af208671eb10e64117ade"
+      "received": "20261014T075300Z",
+      "original_packing_sha256": "98ff95f43ea7bf2e1782620701834675311e5252eb7f81a14275246a26d693e7"
     },
     "search_job": {
       "id": 93715,
@@ -40,5 +40,6 @@
         "side": 19.97544534279494
       }
     }
-  }
+  },
+  "dilation": "1+1e-12"
 }

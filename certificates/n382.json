@@ -1,10 +1,10 @@
 {
   "n": 382,
   "packing": "n382.txt",
-  "packing_sha256": "a1f244355c2768659808ef30d5e2dfa136f4d73ee358690a3116aeacd1ad9408",
+  "packing_sha256": "2592e43e0553cee5987481638a05ab8947514d5165991354624be8f827f1ec5a",
   "certificate": "certificates/n382.cert",
-  "certificate_sha256": "53561eaef2a4cd1980a22058bc6c3c9ffa2de50ff5622f8da670f9dcaeb11e0d",
-  "rational_side": "16910059023533815728370360359/846022698554500000000000000",
+  "certificate_sha256": "3ddc0189ff419a310fcf9c6b146592f91038c9951447cb7d80c94ed572ac298b",
+  "rational_side": "14010251818059348235116958914488556342564891897290889275193566381789/700946431579804428050776957009464315798044280507769500000000000000",
   "kind": "rational witness",
   "origin": {
     "seed_credit": "Kevin Fang (TheSnakeFang)",
@@ -22,6 +22,23 @@
       "method": "fq",
       "received": "20261013T160950Z",
       "original_packing_sha256": "9693f5fa9b8b427d47d015e2a92ea5720ecf15b6062b3f38b04258953091ec5c"
+    },
+    "search_job": {
+      "id": 98897,
+      "method": "hop",
+      "source": "n382.txt",
+      "source_origin": "constructed",
+      "source_sha256": "5dd9322495048226711b6621169a957c07f91794f732d3dd92924b18f0d4b4c7",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n382.txt",
+        "source_sha256": "b53f17407bfe041baae1a6d6c92f843c04aad7a966f4e5654b62312de7aa8bb7",
+        "source_n": 382,
+        "source_side": 19.987635342824902,
+        "layers": 0,
+        "deleted": 0,
+        "side": 19.987635342824902
+      }
     }
   },
   "dilation": "1+1e-12"

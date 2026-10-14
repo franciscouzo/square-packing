@@ -1,10 +1,10 @@
 {
   "n": 380,
   "packing": "n380.txt",
-  "packing_sha256": "d59877fa9c1769e15964d20f966e6f72032d5a89a1970726875cb98d1a58312c",
+  "packing_sha256": "a5cc6f37bac77420fcad6f320dfd60c75f8f88a8ca3a203e4923caac4a6b1eaa",
   "certificate": "certificates/n380.cert",
-  "certificate_sha256": "2b3d1ba123e90e523dddb8c275ea44592987d957be1e71fe9e8031dcb404483f",
-  "rational_side": "10836602188256857315809318661/542872123174250000000000000",
+  "certificate_sha256": "e4fe866e9185dd84621493a8413cac23b01ebba54f7e42177fac629c6892f659",
+  "rational_side": "192045622821364978459464692497841382441896144928009620403613513371148879414238305312340475713/9620752137374874211041362294850606266048713056414271986430848922999709460006500000000000000",
   "kind": "rational witness",
   "origin": {
     "seed_credit": "Kevin Fang (TheSnakeFang)",
@@ -16,12 +16,29 @@
       "side": "1102997094976695021048786866207114120794307672281712078143966862895587101/55213970774324510460005687954914031282828270928685798549291030582132736"
     },
     "web_seed": {
-      "id": "2814574aca4c991c445885b4009f89de",
+      "id": "955afa1eb9fed4419233b015ecc0d7de",
       "n": 380,
-      "side": 19.961611078671186,
+      "side": 19.96160176430759,
       "method": "fq",
-      "received": "20261013T165337Z",
-      "original_packing_sha256": "951bfb62d013c518a0146f30e19d008201d38be3d4fcb33853d48c2ba7c56300"
+      "received": "20261013T205043Z",
+      "original_packing_sha256": "0de71726ecda239291b31397443578355bb700e15baa1b8477f8fd0ce3438381"
+    },
+    "search_job": {
+      "id": 95785,
+      "method": "hop",
+      "source": "n380.txt",
+      "source_origin": "constructed",
+      "source_sha256": "29c01f672ce6965b808222b92af97f49dcbccb03c5ddeb13c189cf6d855bc670",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n380.txt",
+        "source_sha256": "d59877fa9c1769e15964d20f966e6f72032d5a89a1970726875cb98d1a58312c",
+        "source_n": 380,
+        "source_side": 19.961611078652222,
+        "layers": 0,
+        "deleted": 0,
+        "side": 19.961611078652222
+      }
     }
   },
   "dilation": "1+1e-12"

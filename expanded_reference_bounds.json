@@ -1,9 +1,9 @@
 {
   "published_range_max": 324,
-  "search_max": 400,
+  "search_max": 1024,
   "source": "https://kingbird.myphotos.cc/packing/squares_in_squares.html",
   "construction": "m -> m+2*floor(s)+1, s -> s+1; repeat and delete surplus squares",
-  "notice": "Constructed comparisons for 325..400; not surveyed published records.",
+  "notice": "Frozen comparisons for 325..1024; derived L-border/grid bounds except retained catalogue references. Not a surveyed record table.",
   "entries": {
     "325": {
       "bound": "18.53553390593273",
@@ -1480,6 +1480,5622 @@
       },
       "seed_side": "20",
       "seed_sha256": "28798734cbd614628b0e382cd3f86793beff2841426765b1e52b8d81a0e3ef28"
+    },
+    "401": {
+      "bound": "20.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "402": {
+      "bound": "20.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "403": {
+      "bound": "20.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "404": {
+      "bound": "20.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "405": {
+      "bound": "20.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "406": {
+      "bound": "20.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "407": {
+      "bound": "20.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "408": {
+      "bound": "20.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "409": {
+      "bound": "20.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "410": {
+      "bound": "20.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "411": {
+      "bound": "20.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "412": {
+      "bound": "20.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "413": {
+      "bound": "20.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "414": {
+      "bound": "20.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "415": {
+      "bound": "20.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "416": {
+      "bound": "20.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "417": {
+      "bound": "20.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "418": {
+      "bound": "20.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "419": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "420": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "421": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "422": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "423": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "424": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "425": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "426": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "427": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "428": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "429": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "430": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "431": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "432": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "433": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "434": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "435": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "436": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "437": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "438": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "439": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "440": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 3,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "441": {
+      "bound": "21",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "442": {
+      "bound": "21.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "443": {
+      "bound": "21.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "444": {
+      "bound": "21.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "445": {
+      "bound": "21.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "446": {
+      "bound": "21.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "447": {
+      "bound": "21.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "448": {
+      "bound": "21.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "449": {
+      "bound": "21.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "450": {
+      "bound": "21.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "451": {
+      "bound": "21.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "452": {
+      "bound": "21.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "453": {
+      "bound": "21.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "454": {
+      "bound": "21.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "455": {
+      "bound": "21.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "456": {
+      "bound": "21.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "457": {
+      "bound": "21.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "458": {
+      "bound": "21.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "459": {
+      "bound": "21.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "460": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "461": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "462": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "463": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "464": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "465": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "466": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "467": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "468": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "469": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "470": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "471": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "472": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "473": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "474": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "475": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "476": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "477": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "478": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "479": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "480": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "481": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "482": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "483": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 4,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "484": {
+      "bound": "22",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "485": {
+      "bound": "22.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "486": {
+      "bound": "22.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "487": {
+      "bound": "22.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "488": {
+      "bound": "22.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "489": {
+      "bound": "22.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "490": {
+      "bound": "22.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "491": {
+      "bound": "22.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "492": {
+      "bound": "22.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "493": {
+      "bound": "22.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "494": {
+      "bound": "22.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "495": {
+      "bound": "22.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "496": {
+      "bound": "22.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "497": {
+      "bound": "22.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "498": {
+      "bound": "22.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "499": {
+      "bound": "22.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "500": {
+      "bound": "22.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "501": {
+      "bound": "22.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "502": {
+      "bound": "22.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "503": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "504": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "505": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "506": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "507": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "508": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "509": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "510": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "511": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "512": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "513": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "514": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "515": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "516": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "517": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "518": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "519": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "520": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "521": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "522": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "523": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "524": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "525": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "526": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "527": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "528": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 5,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "529": {
+      "bound": "23",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "530": {
+      "bound": "23.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "531": {
+      "bound": "23.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "532": {
+      "bound": "23.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "533": {
+      "bound": "23.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "534": {
+      "bound": "23.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "535": {
+      "bound": "23.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "536": {
+      "bound": "23.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "537": {
+      "bound": "23.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "538": {
+      "bound": "23.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "539": {
+      "bound": "23.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "540": {
+      "bound": "23.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "541": {
+      "bound": "23.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "542": {
+      "bound": "23.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "543": {
+      "bound": "23.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "544": {
+      "bound": "23.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "545": {
+      "bound": "23.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "546": {
+      "bound": "23.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "547": {
+      "bound": "23.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "548": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "549": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "550": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "551": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "552": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "553": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "554": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "555": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "556": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "557": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "558": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "559": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "560": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "561": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "562": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "563": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "564": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "565": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "566": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "567": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "568": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "569": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "570": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "571": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "572": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "573": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "574": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "575": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 6,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "576": {
+      "bound": "24",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "577": {
+      "bound": "24.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "578": {
+      "bound": "24.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "579": {
+      "bound": "24.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "580": {
+      "bound": "24.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "581": {
+      "bound": "24.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "582": {
+      "bound": "24.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "583": {
+      "bound": "24.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "584": {
+      "bound": "24.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "585": {
+      "bound": "24.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "586": {
+      "bound": "24.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "587": {
+      "bound": "24.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "588": {
+      "bound": "24.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "589": {
+      "bound": "24.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "590": {
+      "bound": "24.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "591": {
+      "bound": "24.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "592": {
+      "bound": "24.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "593": {
+      "bound": "24.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "594": {
+      "bound": "24.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "595": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "596": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "597": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "598": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "599": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "600": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "601": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "602": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "603": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "604": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "605": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "606": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "607": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "608": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "609": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "610": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "611": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "612": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "613": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "614": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "615": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "616": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "617": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "618": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "619": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "620": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "621": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "622": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "623": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "624": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 7,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "625": {
+      "bound": "25",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "626": {
+      "bound": "25.52081528017130",
+      "type": "catalogue reference upper bound",
+      "source_n": 626,
+      "source_bound": "255208152801713/10000000000000",
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "627": {
+      "bound": "25.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "628": {
+      "bound": "25.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "629": {
+      "bound": "25.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "630": {
+      "bound": "25.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "631": {
+      "bound": "25.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "632": {
+      "bound": "25.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "633": {
+      "bound": "25.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "634": {
+      "bound": "25.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "635": {
+      "bound": "25.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "636": {
+      "bound": "25.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "637": {
+      "bound": "25.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "638": {
+      "bound": "25.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "639": {
+      "bound": "25.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "640": {
+      "bound": "25.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "641": {
+      "bound": "25.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "642": {
+      "bound": "25.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "643": {
+      "bound": "25.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "644": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "645": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "646": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "647": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "648": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "649": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "650": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "651": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "652": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "653": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "654": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "655": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "656": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "657": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "658": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "659": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "660": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "661": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "662": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "663": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "664": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "665": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "666": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "667": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "668": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "669": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "670": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "671": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "672": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "673": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "674": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "675": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 8,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "676": {
+      "bound": "26",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "677": {
+      "bound": "26.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "678": {
+      "bound": "26.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "679": {
+      "bound": "26.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "680": {
+      "bound": "26.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "681": {
+      "bound": "26.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "682": {
+      "bound": "26.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "683": {
+      "bound": "26.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "684": {
+      "bound": "26.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "685": {
+      "bound": "26.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "686": {
+      "bound": "26.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "687": {
+      "bound": "26.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "688": {
+      "bound": "26.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "689": {
+      "bound": "26.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "690": {
+      "bound": "26.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "691": {
+      "bound": "26.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "692": {
+      "bound": "26.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "693": {
+      "bound": "26.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "694": {
+      "bound": "26.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "695": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "696": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "697": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "698": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "699": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "700": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "701": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "702": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "703": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "704": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "705": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "706": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "707": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "708": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "709": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "710": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "711": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "712": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "713": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "714": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "715": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "716": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "717": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "718": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "719": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "720": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "721": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "722": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "723": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "724": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "725": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "726": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "727": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "728": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 9,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "729": {
+      "bound": "27",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "730": {
+      "bound": "27.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "731": {
+      "bound": "27.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "732": {
+      "bound": "27.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "733": {
+      "bound": "27.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "734": {
+      "bound": "27.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "735": {
+      "bound": "27.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "736": {
+      "bound": "27.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "737": {
+      "bound": "27.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "738": {
+      "bound": "27.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "739": {
+      "bound": "27.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "740": {
+      "bound": "27.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "741": {
+      "bound": "27.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "742": {
+      "bound": "27.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "743": {
+      "bound": "27.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "744": {
+      "bound": "27.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "745": {
+      "bound": "27.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "746": {
+      "bound": "27.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "747": {
+      "bound": "27.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "748": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 20,
+      "grid_optimal": false
+    },
+    "749": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 19,
+      "grid_optimal": false
+    },
+    "750": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "751": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "752": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "753": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "754": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "755": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "756": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "757": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "758": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "759": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "760": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "761": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "762": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "763": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "764": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "765": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "766": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "767": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "768": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "769": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "770": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "771": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "772": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "773": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "774": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "775": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "776": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "777": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "778": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "779": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "780": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "781": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "782": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "783": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 10,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "784": {
+      "bound": "28",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "785": {
+      "bound": "28.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "786": {
+      "bound": "28.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "787": {
+      "bound": "28.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "788": {
+      "bound": "28.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "789": {
+      "bound": "28.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "790": {
+      "bound": "28.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "791": {
+      "bound": "28.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "792": {
+      "bound": "28.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "793": {
+      "bound": "28.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "794": {
+      "bound": "28.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "795": {
+      "bound": "28.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "796": {
+      "bound": "28.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "797": {
+      "bound": "28.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "798": {
+      "bound": "28.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "799": {
+      "bound": "28.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "800": {
+      "bound": "28.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "801": {
+      "bound": "28.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "802": {
+      "bound": "28.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "803": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 22,
+      "grid_optimal": false
+    },
+    "804": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 21,
+      "grid_optimal": false
+    },
+    "805": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 20,
+      "grid_optimal": false
+    },
+    "806": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 19,
+      "grid_optimal": false
+    },
+    "807": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "808": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "809": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "810": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "811": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "812": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "813": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "814": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "815": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "816": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "817": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "818": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "819": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "820": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "821": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "822": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "823": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "824": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "825": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "826": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "827": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "828": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "829": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "830": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "831": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "832": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "833": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "834": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "835": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "836": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "837": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "838": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "839": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "840": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 11,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "841": {
+      "bound": "29",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "842": {
+      "bound": "29.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "843": {
+      "bound": "29.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "844": {
+      "bound": "29.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "845": {
+      "bound": "29.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "846": {
+      "bound": "29.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "847": {
+      "bound": "29.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "848": {
+      "bound": "29.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "849": {
+      "bound": "29.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "850": {
+      "bound": "29.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "851": {
+      "bound": "29.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "852": {
+      "bound": "29.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "853": {
+      "bound": "29.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "854": {
+      "bound": "29.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "855": {
+      "bound": "29.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "856": {
+      "bound": "29.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "857": {
+      "bound": "29.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "858": {
+      "bound": "29.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "859": {
+      "bound": "29.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "860": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 24,
+      "grid_optimal": false
+    },
+    "861": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 23,
+      "grid_optimal": false
+    },
+    "862": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 22,
+      "grid_optimal": false
+    },
+    "863": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 21,
+      "grid_optimal": false
+    },
+    "864": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 20,
+      "grid_optimal": false
+    },
+    "865": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 19,
+      "grid_optimal": false
+    },
+    "866": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "867": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "868": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "869": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "870": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "871": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "872": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "873": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "874": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "875": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "876": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "877": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "878": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "879": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "880": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "881": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "882": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "883": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "884": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "885": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "886": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "887": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "888": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "889": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "890": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "891": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "892": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "893": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "894": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "895": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "896": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "897": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "898": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "899": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 12,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "900": {
+      "bound": "30",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "901": {
+      "bound": "30.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "902": {
+      "bound": "30.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "903": {
+      "bound": "30.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "904": {
+      "bound": "30.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "905": {
+      "bound": "30.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "906": {
+      "bound": "30.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "907": {
+      "bound": "30.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "908": {
+      "bound": "30.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "909": {
+      "bound": "30.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "910": {
+      "bound": "30.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "911": {
+      "bound": "30.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "912": {
+      "bound": "30.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "913": {
+      "bound": "30.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "914": {
+      "bound": "30.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "915": {
+      "bound": "30.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "916": {
+      "bound": "30.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "917": {
+      "bound": "30.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "918": {
+      "bound": "30.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "919": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 26,
+      "grid_optimal": false
+    },
+    "920": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 25,
+      "grid_optimal": false
+    },
+    "921": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 24,
+      "grid_optimal": false
+    },
+    "922": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 23,
+      "grid_optimal": false
+    },
+    "923": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 22,
+      "grid_optimal": false
+    },
+    "924": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 21,
+      "grid_optimal": false
+    },
+    "925": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 20,
+      "grid_optimal": false
+    },
+    "926": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 19,
+      "grid_optimal": false
+    },
+    "927": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "928": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "929": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "930": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "931": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "932": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "933": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "934": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "935": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "936": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "937": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "938": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "939": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "940": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "941": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "942": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "943": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "944": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "945": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "946": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "947": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "948": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "949": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "950": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "951": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "952": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "953": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "954": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "955": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "956": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "957": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "958": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "959": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "960": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 13,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "961": {
+      "bound": "31",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
+    },
+    "962": {
+      "bound": "31.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 290,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "963": {
+      "bound": "31.53553390593273",
+      "type": "derived reference upper bound",
+      "source_n": 291,
+      "source_bound": "1753553390593273/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "964": {
+      "bound": "31.60257141234448",
+      "type": "derived reference upper bound",
+      "source_n": 292,
+      "source_bound": "110016071327153/6250000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "965": {
+      "bound": "31.63414634146341",
+      "type": "derived reference upper bound",
+      "source_n": 293,
+      "source_bound": "1763414634146341/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "966": {
+      "bound": "31.65685424949238",
+      "type": "derived reference upper bound",
+      "source_n": 294,
+      "source_bound": "882842712474619/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "967": {
+      "bound": "31.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 295,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "968": {
+      "bound": "31.70710678118654",
+      "type": "derived reference upper bound",
+      "source_n": 296,
+      "source_bound": "885355339059327/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "969": {
+      "bound": "31.74106074604732",
+      "type": "derived reference upper bound",
+      "source_n": 297,
+      "source_bound": "443526518651183/25000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "970": {
+      "bound": "31.77817459305202",
+      "type": "derived reference upper bound",
+      "source_n": 298,
+      "source_bound": "888908729652601/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "971": {
+      "bound": "31.82287565553229",
+      "type": "derived reference upper bound",
+      "source_n": 299,
+      "source_bound": "1782287565553229/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "972": {
+      "bound": "31.82412338847854",
+      "type": "derived reference upper bound",
+      "source_n": 300,
+      "source_bound": "891206169423927/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "973": {
+      "bound": "31.86889155557430",
+      "type": "derived reference upper bound",
+      "source_n": 301,
+      "source_bound": "178688915555743/10000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "974": {
+      "bound": "31.88674602860566",
+      "type": "derived reference upper bound",
+      "source_n": 302,
+      "source_bound": "894337301430283/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "975": {
+      "bound": "31.93125509556197",
+      "type": "derived reference upper bound",
+      "source_n": 303,
+      "source_bound": "1793125509556197/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "976": {
+      "bound": "31.94910783564662",
+      "type": "derived reference upper bound",
+      "source_n": 304,
+      "source_bound": "897455391782331/50000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "977": {
+      "bound": "31.96066201401205",
+      "type": "derived reference upper bound",
+      "source_n": 305,
+      "source_bound": "359213240280241/20000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "978": {
+      "bound": "31.96913960675661",
+      "type": "derived reference upper bound",
+      "source_n": 306,
+      "source_bound": "1796913960675661/100000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "979": {
+      "bound": "31.98272201579610",
+      "type": "derived reference upper bound",
+      "source_n": 307,
+      "source_bound": "179827220157961/10000000000000",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "980": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 28,
+      "grid_optimal": false
+    },
+    "981": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 27,
+      "grid_optimal": false
+    },
+    "982": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 26,
+      "grid_optimal": false
+    },
+    "983": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 25,
+      "grid_optimal": false
+    },
+    "984": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 24,
+      "grid_optimal": false
+    },
+    "985": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 23,
+      "grid_optimal": false
+    },
+    "986": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 22,
+      "grid_optimal": false
+    },
+    "987": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 21,
+      "grid_optimal": false
+    },
+    "988": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 20,
+      "grid_optimal": false
+    },
+    "989": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 19,
+      "grid_optimal": false
+    },
+    "990": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 18,
+      "grid_optimal": false
+    },
+    "991": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 17,
+      "grid_optimal": false
+    },
+    "992": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 16,
+      "grid_optimal": false
+    },
+    "993": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 15,
+      "grid_optimal": false
+    },
+    "994": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 14,
+      "grid_optimal": false
+    },
+    "995": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 13,
+      "grid_optimal": false
+    },
+    "996": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 12,
+      "grid_optimal": false
+    },
+    "997": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 11,
+      "grid_optimal": false
+    },
+    "998": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 10,
+      "grid_optimal": false
+    },
+    "999": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 9,
+      "grid_optimal": false
+    },
+    "1000": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 8,
+      "grid_optimal": false
+    },
+    "1001": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 7,
+      "grid_optimal": false
+    },
+    "1002": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 6,
+      "grid_optimal": false
+    },
+    "1003": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 5,
+      "grid_optimal": false
+    },
+    "1004": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 4,
+      "grid_optimal": false
+    },
+    "1005": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 3,
+      "grid_optimal": false
+    },
+    "1006": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 2,
+      "grid_optimal": false
+    },
+    "1007": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 1,
+      "grid_optimal": false
+    },
+    "1008": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 308,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1009": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 309,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1010": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 310,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1011": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 311,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1012": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 312,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1013": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 313,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1014": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 314,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1015": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 315,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1016": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 316,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1017": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 317,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1018": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 318,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1019": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 319,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1020": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 320,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1021": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 321,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1022": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 322,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1023": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": 323,
+      "source_bound": "18",
+      "layers": 14,
+      "deleted": 0,
+      "grid_optimal": false
+    },
+    "1024": {
+      "bound": "32",
+      "type": "derived reference upper bound",
+      "source_n": null,
+      "source_bound": null,
+      "layers": 0,
+      "deleted": 0,
+      "grid_optimal": true
     }
   }
 }

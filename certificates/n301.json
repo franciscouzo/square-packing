@@ -1,0 +1,17 @@
+{
+  "n": 301,
+  "packing": "n301.txt",
+  "packing_sha256": "765693f2f981748719c254f07da6da233c6092ae9573e38eab43c89f564a5c62",
+  "certificate": "certificates/n301.cert",
+  "certificate_sha256": "55090ed78b6e9688c4040985ae8d9a94148871206690501d28e937d8b049c7de",
+  "rational_side": "17846667192843489783121781262887/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 2416,
+      "method": "hop",
+      "source": "n301.txt",
+      "source_sha256": "931b4010c1e12438dd8160ceb62c875abfdc8d9e992ff16e298aaf30c2f0196f"
+    }
+  }
+}

@@ -18,8 +18,8 @@ Sources (each pinned to the commit fetched, recorded in known_best.json):
 
 An external packing geometrically identical to one of ours (aligned RMS
 corner displacement < 1e-6) is recorded as "also found by", not as a
-competitor; values within 1e-9 of each other keep the credit of the earlier
-source (PRIORITY).
+competitor. The smallest verified external certificate supplies the bound and
+seed; atlas certificates retain the construction credit of their source.
 
 Writes known_best.json (tracked: values, sources and credit only) and, under
 the ignored external/seeds/, decimal pose files in this repository's format:
@@ -39,6 +39,7 @@ Usage: python3 import_external.py [--offline] [--no-verify]
 import argparse
 from concurrent.futures import ProcessPoolExecutor
 from fractions import Fraction
+import gzip
 import hashlib
 import json
 import math
@@ -64,8 +65,8 @@ REPOS = {
     "buddenping": "https://github.com/BuddenPing/square-packing-certificates.git",
     "rbarnett": "https://github.com/RobertBarnettProjects/square-packing-research.git",
 }
-# Earlier, original constructors first: among values within ROUNDING of each
-# other, credit goes to the first source in this order.
+# Prefer the register when its rounded value agrees with an external bound;
+# use this stable order to break exact ties between external certificates.
 PRIORITY = ["register", "squish", "ry-xu", "evand", "sidg2k1", "mishapolk", "snakefang", "ebdeleeuw",
             "dostashev", "buddenping", "rbarnett"]
 ROUNDING = 1e-9
@@ -74,7 +75,7 @@ CREDIT = {
     "ry-xu": ("Ryan Xu", "https://github.com/jlevy/squares/issues/432"),
     "evand": ("Evan Daniel", "https://github.com/jlevy/squares/issues/399"),
     "sidg2k1": ("Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1", "https://github.com/jlevy/squares/issues/438"),
-    "mishapolk": ("Mishapolk", "https://github.com/jlevy/squares/issues/470"),
+    "mishapolk": ("Mykhailo Polkovskyi (Mishapolk)", "https://github.com/jlevy/squares/issues/470"),
     "snakefang": ("Kevin Fang (TheSnakeFang)", "https://github.com/jlevy/squares/issues/484"),
     "ebdeleeuw": ("ebdeleeuw (precision refinement of Ryan Xu)", "https://github.com/jlevy/squares/issues/483"),
     "dostashev": ("Daniil Ostashev", "https://github.com/jlevy/squares/issues/501"),
@@ -86,6 +87,7 @@ REGISTER = "https://raw.githubusercontent.com/jlevy/squares/{}/packing/frontier/
 REQUEST_BY_PATH = {"evand/search/packer/candidates/hunt1_": "https://github.com/jlevy/squares/issues/465",
                    "evand/search/packer/candidates/hunt3_": "https://github.com/jlevy/squares/issues/489",
                    "evand/search/packer/candidates/tt_n154": "https://github.com/jlevy/squares/issues/552",
+                   "evand/search/packer/candidates/fresh_n": "https://github.com/jlevy/squares/issues/596",
                    "evand/search/packer/candidates/big1_n375.": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
                    "evand/search/packer/candidates/polish_n375.": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
                    "squish/squish-submission-2026-10-06/": "https://github.com/jlevy/squares/issues/401",
@@ -96,9 +98,32 @@ REQUEST_BY_PATH = {"evand/search/packer/candidates/hunt1_": "https://github.com/
                    "dostashev/records/n0175.": "https://github.com/jlevy/squares/issues/528",
                    "dostashev/records/n0232.": "https://github.com/jlevy/squares/issues/528",
                    "dostashev/records/n0264.": "https://github.com/jlevy/squares/issues/528"}
+REQUEST_BY_PATH.update({f"dostashev/records/n{n:04d}.": f"https://github.com/jlevy/squares/issues/{issue}"
+                        for n, issue in ((176, 575), (211, 575), (241, 575), (304, 575),
+                                         (129, 562), (204, 562), (303, 562))})
+_ATLAS = None
+
+
+def atlas_credit(path):
+    """Original record credit for Evan's current regularized certificates."""
+    global _ATLAS
+    if not str(path).startswith('evand/search/regularize/lists/certs/'):
+        return None
+    match = re.search(r'n-(\d+)\.cert\.gz$', str(path))
+    if not match:
+        return None
+    if _ATLAS is None:
+        index = SOURCES/'evand/site/www/data/index.json'
+        _ATLAS = json.loads(index.read_text()).get('records', {}) if index.exists() else {}
+    return _ATLAS.get(str(int(match[1])), {}).get('credit')
 
 
 def request_for(source, path):
+    if source == 'mishapolk' and re.fullmatch(r'n\d+\.cert', Path(path).name):
+        return 'https://github.com/jlevy/squares/issues/593'
+    attribution = atlas_credit(path)
+    if attribution and attribution.get('url'):
+        return attribution['url']
     for prefix, url in REQUEST_BY_PATH.items():
         if str(path).startswith(prefix):
             return url
@@ -106,6 +131,15 @@ def request_for(source, path):
 
 
 def credit_for(source, path):
+    attribution = atlas_credit(path)
+    if attribution and attribution.get('who'):
+        credit = attribution['who'].replace(' (this project)', '')
+        original = attribution.get('found_by') or {}
+        return f"{original['who']}, refined by {credit}" if original.get('who') else credit
+    if str(path).startswith('mishapolk/certificates/square-103.cert'):
+        return 'Ryan Xu, refined by Mishapolk'
+    if str(path).startswith('mishapolk/certificates/square-258.cert'):
+        return 'Nate Chaoweeraprasit (SQUISH), refined by Mishapolk'
     if str(path).startswith('evand/search/packer/candidates/tt_n154'):
         return 'Evan Daniel (from Francisco Couzo\'s n=155 seed)'
     if str(path).startswith('evand/search/packer/candidates/hunt3_n34'):
@@ -197,7 +231,9 @@ def register_bounds():
 
 def read_cert_text(path):
     """Evan Daniel's .cert format: comment lines, 'n S', then 'x y t' rationals."""
-    rows = [l.split() for l in path.read_text().splitlines() if l.strip() and not l.startswith("#")]
+    with (gzip.open(path, 'rt') if path.suffix == '.gz' else path.open()) as stream:
+        text = stream.read()
+    rows = [l.split() for l in text.splitlines() if l.strip() and not l.startswith("#")]
     n, side = int(rows[0][0]), Fraction(rows[0][1])
     return n, side, [tuple(map(Fraction, r[:3])) for r in rows[1:n+1]]
 
@@ -225,6 +261,11 @@ def certificates():
         yield (*read_cert_json(path), "ry-xu", path)
     for path in sorted((SOURCES/"evand").glob("search/packer/candidates/*.cert")):
         yield (*read_cert_text(path), "evand", path)
+    for path in sorted((SOURCES/"evand").glob("search/regularize/lists/certs/**/*.cert.gz")):
+        yield (*read_cert_text(path), "evand", path)
+    mishapolk = SOURCES/"mishapolk/certificates"
+    for path in sorted(set(mishapolk.glob("square-*.cert")) | set(mishapolk.glob("n[0-9]*.cert"))):
+        yield (*read_cert_text(path), "mishapolk", path)
     for path in sorted((SOURCES/"sidg2k1").glob("witnesses/packing-*.cert")):
         yield (*read_cert_text(path), "sidg2k1", path)
     for path in sorted((SOURCES/"snakefang").glob("n*/n*.cert")):
@@ -348,6 +389,17 @@ def own_sides():
     return out
 
 
+def note_same_packing(also, candidate, ours):
+    """Keep one external citation per matching packing, without citing ourselves."""
+    credit = credit_for(candidate["source"], candidate["path"])
+    if credit == OWN_NAME or credit.startswith(OWN_NAME+' ('):
+        return
+    request = request_for(candidate["source"], candidate["path"])
+    if any(item["request"] == request and item["ours"] == ours for item in also):
+        return
+    also.append({"source": candidate["source"], "credit": credit, "request": request, "ours": ours})
+
+
 def write_pose(path, side, squares):
     """Decimal seed file. Certificates with ~1e-20 gaps can overlap by ~1e-16
     once rounded to floats, so seeds pass through slp_refine.repair (which
@@ -366,6 +418,7 @@ def main():
     p.add_argument("--offline", action="store_true", help="use the sources already fetched")
     p.add_argument("--no-verify", action="store_true", help="skip exact checks (seeds are then not written)")
     p.add_argument("--procs", type=int, default=1)
+    p.add_argument("--max-n", type=int, default=1024, help="largest count retained in the bound tables")
     a = p.parse_args()
     import fcntl
     SOURCES.mkdir(parents=True, exist_ok=True)
@@ -374,18 +427,27 @@ def main():
     commits = fetch(a.offline)
     register = register_bounds()
     own = own_sides()
+    # Reviewed catalogue constructions and derived bounds can have no upstream
+    # certificate in the repositories fetched above. Keep their checked bounds
+    # and local seeds across scheduled refreshes.
+    previous = json.loads((ROOT/"known_best.json").read_text()) if (ROOT/"known_best.json").exists() else {}
+    reviewed = previous.get("reviewed_comparisons", {})
     cache_path = SEEDS/"verified.json"
     cache = json.loads(cache_path.read_text()) if cache_path.exists() else {}
 
     # Best certificate per n, plus every other one as an alternative basin.
     found = {}
     for n, side, squares, source, path in certificates():
+        if n > a.max_n:
+            continue
         if len(squares) != n:
             raise ValueError(f"{path}: {len(squares)} squares, header says {n}")
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         found.setdefault(n, []).append({"side": side, "squares": squares, "source": source,
                                         "path": str(path.relative_to(SOURCES)), "sha256": digest})
     for n, poses, source, path in decimal_packings():
+        if n > a.max_n:
+            continue
         digest = hashlib.sha256(path.read_bytes()).hexdigest()
         known = cache.get(digest)
         for k in ([known["grow_exp"]] if known and known.get("valid") else range(12, 7, -1)):
@@ -431,16 +493,16 @@ def main():
         also = []
         for d in list(candidates):
             ours = same_as_ours(n, d)
-            if ours:
+            if ours and n in own:
                 candidates.remove(d)
                 d["same_as_ours"] = ours
-                also.append({"source": d["source"], "credit": credit_for(d["source"], d["path"]),
-                             "request": request_for(d["source"], d["path"]), "ours": ours})
+                note_same_packing(also, d, ours)
         best_ext = None
         if candidates:
-            low = float(candidates[0]["side"])
-            near = [d for d in candidates if float(d["side"]) <= low+ROUNDING]
-            best_ext = min(near, key=lambda d: PRIORITY.index(d["source"]))
+            # The seed and bound must describe the same smallest certificate.
+            # Construction credits come from the source/atlas provenance, not
+            # from choosing a slightly larger witness in repository order.
+            best_ext = min(candidates, key=lambda d: (d["side"], PRIORITY.index(d["source"])))
         options = []
         if reg:
             options.append((reg["reported"], "register"))
@@ -472,6 +534,15 @@ def main():
                                    "tied (within 1e-10)" if own[n] <= side+1e-10 else "superseded")
         entries[str(n)] = entry
 
+    for n, reviewed_entry in reviewed.items():
+        current = entries.get(n)
+        if current is None or reviewed_entry["side"] < current["side"]:
+            entries[n] = dict(reviewed_entry)
+        if int(n) in own:
+            entries[n]["own"] = own[int(n)]
+            entries[n]["own_status"] = ("best known" if own[int(n)] < entries[n]["side"]-1e-10 else
+                                        "tied (within 1e-10)" if own[int(n)] <= entries[n]["side"]+1e-10 else "superseded")
+
     # Seeds: the best external packing where it beats ours, every other
     # verified external packing as an alternative basin. Files are replaced
     # atomically and stale ones removed afterwards: the coordinator may be
@@ -482,7 +553,13 @@ def main():
         if not valid:
             continue
         best = valid[0]
-        if float(best["side"]) < own.get(n, math.inf)-1e-9:
+        reviewed_entry = reviewed.get(str(n))
+        reviewed_is_better = (reviewed_entry and
+                              Fraction(reviewed_entry["external"]["side"]) <= best["side"] and
+                              (ROOT/reviewed_entry["seed"]).exists())
+        if reviewed_is_better:
+            entries[str(n)]["seed"] = reviewed_entry["seed"]
+        elif float(best["side"]) < own.get(n, math.inf)-1e-9:
             wanted[SEEDS/f"n{n}.txt"] = (best["side"], best["squares"])
             entries[str(n)]["seed"] = f"external/seeds/n{n}.txt"
         for d in valid[1:]:
@@ -502,8 +579,9 @@ def main():
         tmp = target.with_name(target.name+".tmp")
         write_pose(tmp, side, squares)
         tmp.replace(target)
+    retained = {ROOT/e["seed"] for e in reviewed.values() if e.get("seed")}
     for stale in list(SEEDS.glob("n[0-9]*.txt"))+list((SEEDS/"old").glob("*.txt")):
-        if stale not in wanted:
+        if stale not in wanted and stale not in retained:
             stale.unlink()
 
     manifest = {"generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "sources": commits,
@@ -511,7 +589,15 @@ def main():
                         "certificate. Third-party packings are credited to their authors and are used here only "
                         "as comparison bounds and search seeds.",
                 "entries": entries,
-                "published_above_324": reviewed_publications(found, cache, commits, credit_for, request_for)}
+                "published_above_324": reviewed_publications(found, cache, commits, credit_for, request_for, max_n=a.max_n),
+                "reviewed_comparisons": reviewed}
+    for field in ("reviewed_submissions", "bounds_max_n"):
+        if field in previous:
+            manifest[field] = previous[field]
+    for n, entry in reviewed.items():
+        if int(n) > 324 and (n not in manifest["published_above_324"]
+                            or entry["side"] < manifest["published_above_324"][n]["side"]):
+            manifest["published_above_324"][n] = dict(entry)
     tmp = ROOT/"known_best.json.tmp"
     tmp.write_text(json.dumps(manifest, indent=2)+"\n")
     tmp.replace(ROOT/"known_best.json")  # readers never see a partial file
@@ -521,6 +607,7 @@ def main():
             status[e["own_status"]] = status.get(e["own_status"], 0)+1
     print(f"known_best.json: {len(entries)} counts; ours: {status}; "
           f"seeds: {len(list(SEEDS.glob('n[0-9]*.txt')))}, old basins: {len(list((SEEDS/'old').glob('*.txt')))}")
+    lock.close()
 
 
 if __name__ == "__main__":

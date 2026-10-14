@@ -1,0 +1,20 @@
+{
+  "n": 591,
+  "packing": "n591.txt",
+  "packing_sha256": "fa483c3fbb68a79825d3dc09f12a4d77869f645238478055a31f5bd007b6c66a",
+  "certificate": "certificates/n591.cert",
+  "certificate_sha256": "d38083efa4f093e27608e5cd5014bc6c19a26ececba290c4f2766a4c18e78eb3",
+  "rational_side": "4052145091639830586218856592789392199478642656316873589/163205871691950000000000001632058716919500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "web_seed": {
+      "id": "c51d75fd6c80e507602be65b94da4aef",
+      "n": 591,
+      "side": 24.82842712477557,
+      "method": "fq",
+      "received": "20261014T154258Z",
+      "original_packing_sha256": "40900106776f59f894854f500233ed40bc0175aa6c8949dc85dc88babf673ae9"
+    }
+  },
+  "dilation": "1+1e-12"
+}

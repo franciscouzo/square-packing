@@ -1,27 +1,27 @@
 {
   "n": 339,
   "packing": "n339.txt",
-  "packing_sha256": "af653a0e8999e00afddd752475e67d6f792521508ed6ab5f0ae6bc20424d92e2",
+  "packing_sha256": "2e956ca38fec377ebd0c950cab7830665f3a1451a81cafdda87c5ac5409bbc04",
   "certificate": "certificates/n339.cert",
-  "certificate_sha256": "08d78e0c315ef03c891833b8331bfd23da2a977e131b4d26a2e04abb0a16a545",
-  "rational_side": "7843211074020413644369172117/414429522933500000000000000",
+  "certificate_sha256": "83fe17deaa690882ccea99bffc36d8611a5504553be24c428d77b03cbe660abf",
+  "rational_side": "15163629392496813604853546001/801627794525500000000000000",
   "kind": "rational witness",
   "origin": {
     "search_job": {
-      "id": 86956,
-      "method": "ellsworth_cycle",
+      "id": 99849,
+      "method": "hop",
       "source": "n339.txt",
       "source_origin": "constructed",
-      "source_sha256": "bfba0f3e0c9f733c45c8189f66d6cd59011c4b256bb1d6389b7e98268ca01c45",
+      "source_sha256": "bf981a8f13e115d7a693eed3b7f4da0060ac610200b2947cda0d790bd5a21b60",
       "constructed_seed": {
         "construction": "L-border and deletion",
-        "source": "n304.txt",
-        "source_sha256": "31aa56c960b87cf5f25d18bff9599e6911ca15c8feffd3655d64bb1d6395c480",
-        "source_n": 304,
-        "source_side": 17.929655793708648,
-        "layers": 1,
+        "source": "n339.txt",
+        "source_sha256": "9b5765c22823d18ef1ca95ab2ef20a9a17ed1eeef75a510cd0bc1a734962136c",
+        "source_n": 339,
+        "source_side": 18.918264033146706,
+        "layers": 0,
         "deleted": 0,
-        "side": 18.929655793710648
+        "side": 18.918264033146706
       }
     },
     "web_seed": {
@@ -33,5 +33,5 @@
       "original_packing_sha256": "27b5a1fb47d279bd36f03b3c68a947a73b83f3e2049b07e85b44175f5edcb44f"
     }
   },
-  "dilation": "1+1e-11"
+  "dilation": "1+1e-12"
 }

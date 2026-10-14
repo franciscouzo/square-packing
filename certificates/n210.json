@@ -1,0 +1,17 @@
+{
+  "n": 210,
+  "packing": "n210.txt",
+  "packing_sha256": "a4e2f75b8d8d5820275576faf0b9c69d7af6edec71b58080c2297d33bed6b1ee",
+  "certificate": "certificates/n210.cert",
+  "certificate_sha256": "85648fe7d80c9486d1d4a32560696390da25e1cc09dc4bf16695298548baf679",
+  "rational_side": "3743250279146906435495754512617/250000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 3135,
+      "method": "ellsworth_cycle",
+      "source": "n210.txt",
+      "source_sha256": "e646d3e490192faa5eefb8b2bbf6d8d5bfec5419076203fcd66a9be1e0524c94"
+    }
+  }
+}

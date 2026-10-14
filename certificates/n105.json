@@ -1,0 +1,27 @@
+{
+  "n": 105,
+  "packing": "n105.txt",
+  "packing_sha256": "636fc863c915cd06164fc62f1e8ed8c3db9069da86aeb762658d3256a5620f26",
+  "certificate": "certificates/n105.cert",
+  "certificate_sha256": "3d4fc1ed6193ede6787e3f9dee2f29ca9ca83f0dc7e85eb0b46c95081d7e3212",
+  "rational_side": "10789303783748158831034729697921/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Ryan Xu",
+    "seed_certificate": {
+      "source": "ry-xu",
+      "certificate": "ry-xu/certificates/n105/n105.cert.json",
+      "sha256": "b251c331b00b5e6e4041b4253c4e46e2afcaa55c291ee6962b890d3c0947f02a",
+      "request": "https://github.com/jlevy/squares/issues/432",
+      "side": "53953382877053953382877/5000000000000000000000"
+    },
+    "search_job": {
+      "id": 73444,
+      "method": "hop",
+      "source": "n105.txt",
+      "source_origin": "own",
+      "source_sha256": "f7e35af93307e169f6f5db6715085e336d15c25b76b46bfec45c068893783bfd",
+      "constructed_seed": null
+    }
+  }
+}

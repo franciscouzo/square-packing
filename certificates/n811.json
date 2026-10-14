@@ -1,0 +1,20 @@
+{
+  "n": 811,
+  "packing": "n811.txt",
+  "packing_sha256": "8ab4775536b1453483b37c42f1cad42b4648312bada071421ca8829ca342368d",
+  "certificate": "certificates/n811.cert",
+  "certificate_sha256": "e20d5a9eca7c343d054fa79094145f354fa119dc560a3dbb1add728bc164342f",
+  "rational_side": "142417987967697764215381645721/4913599785485500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "construction": {
+      "label": "L-border from n=756",
+      "kind": "derived",
+      "source_n": 756,
+      "source": "418f167cd23639fbff5b3b2ea43006c3718b97f94b0dd70dadb5c5357b7860a7",
+      "tiles": 1,
+      "layers": 1
+    }
+  },
+  "dilation": "1+1e-12"
+}

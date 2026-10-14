@@ -1,0 +1,17 @@
+{
+  "n": 273,
+  "packing": "n273.txt",
+  "packing_sha256": "d3077598f2b5f1cc0da42da5af04a795cf6a05480670174e522677f6a87887c7",
+  "certificate": "certificates/n273.cert",
+  "certificate_sha256": "405171da4809f61be5c42b8dc6439d422ea3051aa4c98e51b7e28faf2be5c2c5",
+  "rational_side": "16983925962650404316108837346991/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 1492,
+      "method": "slp",
+      "source": "n273.txt",
+      "source_sha256": "46b10fd2e44ba64917f78a2021696be7cf4ab5383efb02ee7432d3b755581d56"
+    }
+  }
+}

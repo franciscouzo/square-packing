@@ -1,4 +1,4 @@
-"""Published comparisons alongside the frozen n=325..400 reference bounds."""
+"""Published comparisons alongside frozen reference bounds through n=1024."""
 from fractions import Fraction
 import math
 
@@ -8,7 +8,7 @@ ROUNDING = Fraction(1, 10**10)
 PUBLISHED_MAX = 324
 
 
-def reviewed_publications(found, verified, sources, credit_for, request_for, max_n=400):
+def reviewed_publications(found, verified, sources, credit_for, request_for, max_n=1024):
     """Retain verified published bounds, including those adopted by our search.
 
     This is documentation data. The importer's competitor entries and seed
@@ -94,7 +94,8 @@ def render(rows, known):
     if date:
         coverage += f' as of {date}'
     coverage += '.'
-    return (MARKER+'\n\nSearches also cover n=325–400. The derived reference bounds '
+    upper = max([400, *[int(row.split('|')[1]) for row in rows]])
+    return (MARKER+f'\n\nRecorded packings also cover n=325–{upper}. The derived reference bounds '
             'remain the frozen L-border/grid comparisons. Published bounds '
             'come from the verified sources in `known_best.json`; their values below '
             'are rounded upward.'+coverage+' A dash means no published comparison '

@@ -1,0 +1,17 @@
+{
+  "n": 332,
+  "packing": "n332.txt",
+  "packing_sha256": "05ca5283ca206a47a8b966eeb00b172b5e70a36e2acc0f38210ab0bd17500749",
+  "certificate": "certificates/n332.cert",
+  "certificate_sha256": "67de10536e34aa6367b50fe9e5d29119ef2357b7fe369b2dc22e6f6bc5e42864",
+  "rational_side": "234255216094297523139540072097/12500000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 17814,
+      "method": "slp",
+      "source": "records/n332.txt",
+      "source_sha256": "c73d81872ad7a7f036f6d763092e69b8b86885df0398515a5d1d5757c50c979c"
+    }
+  }
+}

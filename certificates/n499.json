@@ -1,0 +1,20 @@
+{
+  "n": 499,
+  "packing": "n499.txt",
+  "packing_sha256": "573fa9689a8137cbaa10e9a84f98b4a36f77f5e80073505001cac18228457d13",
+  "certificate": "certificates/n499.cert",
+  "certificate_sha256": "9c85ccba4c6d122b7d3db0e161fcf3f43865707dc818dbcf9159e2341e695e51",
+  "rational_side": "8009616759877170520930670808498441215711855436668401369/349772638305950000000000003497726383059500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "construction": {
+      "label": "elimination from n=500",
+      "kind": "derived",
+      "source_n": 500,
+      "source": "8610bcec864329a9d95585ccaeda9db1ecc2d970343eb749754072f8a857253f",
+      "tiles": 1,
+      "layers": 0
+    }
+  },
+  "dilation": "1+1e-12"
+}
