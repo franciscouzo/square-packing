@@ -11,7 +11,7 @@ import json
 import math
 from pathlib import Path
 
-from expanded_comparisons import rounded_up
+from gobel_bounds import catalogue as gobel_catalogue, exact_value
 from lower_bounds import approximation
 
 ROOT = Path(__file__).resolve().parent
@@ -66,6 +66,7 @@ def render(max_n=1024):
     certificates = {int(path.stem[1:]): json.loads(path.read_text())
                     for path in (ROOT/'certificates').glob('n[0-9]*.json')}
     catalogue = certified_catalogue()
+    gobel = gobel_catalogue(max_n, root=ROOT)
     entries = {}
     for n in range(1, max_n+1):
         grid = {'bound': str(math.isqrt(n-1)+1), 'source': 'integer square grid',
@@ -95,24 +96,27 @@ def render(max_n=1024):
                 'sha256': certificate['certificate_sha256']})
         if str(n) in catalogue:
             verified.append(catalogue[str(n)])
-        best_verified = min(verified, key=lambda item: Fraction(item['bound']))
+        if str(n) in gobel:
+            verified.append(gobel[str(n)])
+        best_verified = min(verified, key=exact_value)
         best_reported = min([*reported, *verified], key=lambda item: scalar(item['bound']))
-        entries[str(n)] = {'verified': dict(best_verified, rounded_up=rounded_up(best_verified['bound'])),
+        entries[str(n)] = {'verified': dict(best_verified, rounded_up=exact_value(best_verified).rounded_up()),
                           'reported': best_reported}
     # Removing squares from a witness preserves feasibility. Propagate a
     # stronger bound downwards even when a later root certificate improves.
     for n in range(max_n-1, 0, -1):
         current, larger = entries[str(n)], entries[str(n+1)]
-        if Fraction(larger['verified']['bound']) < Fraction(current['verified']['bound']):
+        if exact_value(larger['verified']) < exact_value(current['verified']):
             inherited = dict(larger['verified'])
             source_n = inherited.get('source_n', n+1)
-            inherited.update(source_n=source_n, deleted_squares=source_n-n,
-                             status='verified by deletion from an exact certificate')
+            status = ('verified by deletion from an exact algebraic construction'
+                      if inherited.get('exact_bound') else 'verified by deletion from an exact certificate')
+            inherited.update(source_n=source_n, deleted_squares=source_n-n, status=status)
             current['verified'] = inherited
             if scalar(inherited['bound']) < scalar(current['reported']['bound']):
                 current['reported'] = dict(inherited)
     return {'generated': datetime.now(timezone.utc).isoformat(), 'max_n': max_n,
-            'note': 'Each count has an unconditional grid upper bound. Exact rational/algebraic certificate bounds are retained separately from frozen reference comparisons and reported register values. Source links and certificate hashes preserve attribution.',
+            'note': 'Each count has an unconditional grid upper bound. Exact rational certificates and algebraic Göbel constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.',
             'entries': entries}
 
 

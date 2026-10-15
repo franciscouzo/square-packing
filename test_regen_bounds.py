@@ -8,6 +8,7 @@ import unittest
 from unittest.mock import patch
 
 import regen_bounds
+from gobel_bounds import generate as generate_gobel, exact_value, Q2
 
 
 class RetainedCertifiedBounds(unittest.TestCase):
@@ -54,6 +55,37 @@ class RetainedCertifiedBounds(unittest.TestCase):
             certificate.write_text(certificate.read_text()+'# changed\n')
             with patch.object(regen_bounds,'ROOT',root),self.assertRaises(ValueError):
                 regen_bounds.render(max_n=6)
+
+    def test_exact_algebraic_comparison_beats_a_smaller_rational_enclosure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);certificate=self.fixture(root)
+            data=generate_gobel(max_n=5)
+            (root/'gobel_bounds.json').write_text(json.dumps(data))
+            # This certificate is above the algebraic value but below its
+            # outward enclosure. Comparing only rational enclosures is wrong.
+            hi=Fraction(data['witnesses'][0]['bound'])
+            challenger=hi-Fraction(1,10**90)
+            self.assertLess(Q2(2,Fraction(1,2)),Q2(challenger))
+            certificate.write_text(f'5 {challenger}\n'+'1/2 1/2 0\n'*5)
+            path=root/'certified_bounds.json';retained=json.loads(path.read_text())
+            retained['entries']['5'].update(bound=str(challenger),
+                certificate_sha256=hashlib.sha256(certificate.read_bytes()).hexdigest())
+            path.write_text(json.dumps(retained))
+            with patch.object(regen_bounds,'ROOT',root):
+                entry=regen_bounds.render(max_n=5)['entries']['5']['verified']
+            self.assertEqual(exact_value(entry),Q2(2,Fraction(1,2)))
+            self.assertEqual(entry['credit'],'Frits Göbel; family formulas generalized by David Ellsworth')
+
+    def test_algebraic_constructions_propagate_by_deletion(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);self.fixture(root)
+            (root/'gobel_bounds.json').write_text(json.dumps(generate_gobel(max_n=27)))
+            with patch.object(regen_bounds,'ROOT',root):
+                entry=regen_bounds.render(max_n=27)['entries']['26']['verified']
+            self.assertEqual(exact_value(entry),Q2(5,Fraction(1,2)))
+            self.assertEqual(entry['source_n'],27)
+            self.assertEqual(entry['deleted_squares'],1)
+            self.assertEqual(entry['status'],'verified by deletion from an exact algebraic construction')
 
 
 if __name__=='__main__':unittest.main()

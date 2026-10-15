@@ -1,0 +1,1025 @@
+n,before_verified_upper,before_source,gobel_exact_upper,gobel_upper_rounded_up,family,a,b,source_n,deleted_squares,before_standing,corrected_verified_upper,corrected_source,after_standing
+1,1.000000000000,integer square grid,2 + 1/2*sqrt(2),2.707106781187,square,1,1,5,4,ours smaller,1.000000000000,integer square grid,ours smaller
+2,2.000000000000,integer square grid,2 + 1/2*sqrt(2),2.707106781187,square,1,1,5,3,ours smaller,2.000000000000,integer square grid,ours smaller
+3,2.000000000000,integer square grid,2 + 1/2*sqrt(2),2.707106781187,square,1,1,5,2,ours smaller,2.000000000000,integer square grid,ours smaller
+4,2.000000000000,integer square grid,2 + 1/2*sqrt(2),2.707106781187,square,1,1,5,1,ours smaller,2.000000000000,integer square grid,ours smaller
+5,2.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 1/2*sqrt(2),2.707106781187,square,1,1,5,0,Gobel smaller,2.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+6,3.000000000000,integer square grid,2 + 1*sqrt(2),3.414213562374,square,1,2,8,2,ours smaller,3.000000000000,integer square grid,ours smaller
+7,3.000000000000,integer square grid,2 + 1*sqrt(2),3.414213562374,square,1,2,8,1,ours smaller,3.000000000000,integer square grid,ours smaller
+8,3.000000000000,integer square grid,2 + 1*sqrt(2),3.414213562374,square,1,2,8,0,ours smaller,3.000000000000,integer square grid,ours smaller
+9,3.000000000000,integer square grid,3 + 1/2*sqrt(2),3.707106781187,strip,2,2,10,1,ours smaller,3.000000000000,integer square grid,ours smaller
+10,3.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,3 + 1/2*sqrt(2),3.707106781187,strip,2,2,10,0,Gobel smaller,3.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+11,3.877083590023,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,2 + 3/2*sqrt(2),4.121320343560,corner_strip,2,2,11,0,ours smaller,3.877083590023,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+12,4.000000000000,integer square grid,3 + 1*sqrt(2),4.414213562374,square,2,2,16,4,ours smaller,4.000000000000,integer square grid,ours smaller
+13,4.000000000000,integer square grid,3 + 1*sqrt(2),4.414213562374,square,2,2,16,3,ours smaller,4.000000000000,integer square grid,ours smaller
+14,4.000000000000,integer square grid,3 + 1*sqrt(2),4.414213562374,square,2,2,16,2,ours smaller,4.000000000000,integer square grid,ours smaller
+15,4.000000000000,integer square grid,3 + 1*sqrt(2),4.414213562374,square,2,2,16,1,ours smaller,4.000000000000,integer square grid,ours smaller
+16,4.000000000000,integer square grid,3 + 1*sqrt(2),4.414213562374,square,2,2,16,0,ours smaller,4.000000000000,integer square grid,ours smaller
+17,4.675530093605,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,4 + 1/2*sqrt(2),4.707106781187,strip,3,3,17,0,ours smaller,4.675530093605,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+18,4.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 2*sqrt(2),4.828427124747,corner_strip,3,3,18,0,ours smaller,4.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+19,4.885618083165,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,3 + 3/2*sqrt(2),5.121320343560,square,2,3,21,2,ours smaller,4.885618083165,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+20,5.000000000000,integer square grid,3 + 3/2*sqrt(2),5.121320343560,square,2,3,21,1,ours smaller,5.000000000000,integer square grid,ours smaller
+21,5.000000000000,integer square grid,3 + 3/2*sqrt(2),5.121320343560,square,2,3,21,0,ours smaller,5.000000000000,integer square grid,ours smaller
+22,5.000000000000,integer square grid,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,5,ours smaller,5.000000000000,integer square grid,ours smaller
+23,5.000000000000,integer square grid,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,4,ours smaller,5.000000000000,integer square grid,ours smaller
+24,5.000000000000,integer square grid,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,3,ours smaller,5.000000000000,integer square grid,ours smaller
+25,5.000000000000,integer square grid,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,2,ours smaller,5.000000000000,integer square grid,ours smaller
+26,5.621320343560,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,1,ours smaller,5.621320343560,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+27,5.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 1/2*sqrt(2),5.707106781187,strip,4,5,27,0,Gobel smaller,5.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+28,5.824444616675,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,3 + 2*sqrt(2),5.828427124747,square,2,4,28,0,ours smaller,5.824444616675,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+29,5.933833462677,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,4 + 3/2*sqrt(2),6.121320343560,square,3,3,33,4,ours smaller,5.933833462677,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+30,6.000000000000,integer square grid,4 + 3/2*sqrt(2),6.121320343560,square,3,3,33,3,ours smaller,6.000000000000,integer square grid,ours smaller
+31,6.000000000000,integer square grid,4 + 3/2*sqrt(2),6.121320343560,square,3,3,33,2,ours smaller,6.000000000000,integer square grid,ours smaller
+32,6.000000000000,integer square grid,4 + 3/2*sqrt(2),6.121320343560,square,3,3,33,1,ours smaller,6.000000000000,integer square grid,ours smaller
+33,6.000000000000,integer square grid,4 + 3/2*sqrt(2),6.121320343560,square,3,3,33,0,ours smaller,6.000000000000,integer square grid,ours smaller
+34,6.000000000000,integer square grid,6 + 1/2*sqrt(2),6.707106781187,strip,5,6,38,4,ours smaller,6.000000000000,integer square grid,ours smaller
+35,6.000000000000,integer square grid,6 + 1/2*sqrt(2),6.707106781187,strip,5,6,38,3,ours smaller,6.000000000000,integer square grid,ours smaller
+36,6.000000000000,integer square grid,6 + 1/2*sqrt(2),6.707106781187,strip,5,6,38,2,ours smaller,6.000000000000,integer square grid,ours smaller
+37,6.598619609245,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 1/2*sqrt(2),6.707106781187,strip,5,6,38,1,ours smaller,6.598619609245,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+38,6.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,6 + 1/2*sqrt(2),6.707106781187,strip,5,6,38,0,Gobel smaller,6.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+39,6.810722083069,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,4 + 2*sqrt(2),6.828427124747,square,3,4,40,1,ours smaller,6.810722083069,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+40,6.828427124747,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,4 + 2*sqrt(2),6.828427124747,square,3,4,40,0,Gobel smaller,6.828427124747,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+41,6.926693094469,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,8,ours smaller,6.926693094469,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+42,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,7,ours smaller,7.000000000000,integer square grid,ours smaller
+43,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,6,ours smaller,7.000000000000,integer square grid,ours smaller
+44,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,5,ours smaller,7.000000000000,integer square grid,ours smaller
+45,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,4,ours smaller,7.000000000000,integer square grid,ours smaller
+46,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,3,ours smaller,7.000000000000,integer square grid,ours smaller
+47,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,2,ours smaller,7.000000000000,integer square grid,ours smaller
+48,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,1,ours smaller,7.000000000000,integer square grid,ours smaller
+49,7.000000000000,integer square grid,4 + 5/2*sqrt(2),7.535533905933,square,3,5,49,0,ours smaller,7.000000000000,integer square grid,ours smaller
+50,7.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 1/2*sqrt(2),7.707106781187,strip,6,8,52,2,ours smaller,7.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+51,7.690355937289,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 1/2*sqrt(2),7.707106781187,strip,6,8,52,1,ours smaller,7.690355937289,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+52,7.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 1/2*sqrt(2),7.707106781187,strip,6,8,52,0,Gobel smaller,7.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+53,7.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 9/2*sqrt(2),8.363961030679,corner_strip,6,8,53,0,ours smaller,7.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+54,7.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,11,ours smaller,7.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+55,7.945771007504,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,10,ours smaller,7.945771007504,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+56,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,9,ours smaller,8.000000000000,integer square grid,ours smaller
+57,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,8,ours smaller,8.000000000000,integer square grid,ours smaller
+58,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,7,ours smaller,8.000000000000,integer square grid,ours smaller
+59,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,6,ours smaller,8.000000000000,integer square grid,ours smaller
+60,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,5,ours smaller,8.000000000000,integer square grid,ours smaller
+61,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,4,ours smaller,8.000000000000,integer square grid,ours smaller
+62,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,3,ours smaller,8.000000000000,integer square grid,ours smaller
+63,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,2,ours smaller,8.000000000000,integer square grid,ours smaller
+64,8.000000000000,integer square grid,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,1,ours smaller,8.000000000000,integer square grid,ours smaller
+65,8.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 5/2*sqrt(2),8.535533905933,square,4,5,65,0,Gobel smaller,8.535533905933,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+66,8.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 1/2*sqrt(2),8.707106781187,strip,7,9,67,1,ours smaller,8.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+67,8.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 1/2*sqrt(2),8.707106781187,strip,7,9,67,0,Gobel smaller,8.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+68,8.798795237219,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,2 + 5*sqrt(2),9.071067811866,corner_strip,7,9,68,0,ours smaller,8.798795237219,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+69,8.827194655730,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 3*sqrt(2),9.242640687120,square,4,6,76,7,ours smaller,8.827194655730,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+70,8.880960371556,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 3*sqrt(2),9.242640687120,square,4,6,76,6,ours smaller,8.880960371556,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+71,8.944071557571,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 3*sqrt(2),9.242640687120,square,4,6,76,5,ours smaller,8.944071557571,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+72,9.000000000000,integer square grid,5 + 3*sqrt(2),9.242640687120,square,4,6,76,4,ours smaller,9.000000000000,integer square grid,ours smaller
+73,9.000000000000,integer square grid,5 + 3*sqrt(2),9.242640687120,square,4,6,76,3,ours smaller,9.000000000000,integer square grid,ours smaller
+74,9.000000000000,integer square grid,5 + 3*sqrt(2),9.242640687120,square,4,6,76,2,ours smaller,9.000000000000,integer square grid,ours smaller
+75,9.000000000000,integer square grid,5 + 3*sqrt(2),9.242640687120,square,4,6,76,1,ours smaller,9.000000000000,integer square grid,ours smaller
+76,9.000000000000,integer square grid,5 + 3*sqrt(2),9.242640687120,square,4,6,76,0,ours smaller,9.000000000000,integer square grid,ours smaller
+77,9.000000000000,integer square grid,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,7,ours smaller,9.000000000000,integer square grid,ours smaller
+78,9.000000000000,integer square grid,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,6,ours smaller,9.000000000000,integer square grid,ours smaller
+79,9.000000000000,integer square grid,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,5,ours smaller,9.000000000000,integer square grid,ours smaller
+80,9.000000000000,integer square grid,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,4,ours smaller,9.000000000000,integer square grid,ours smaller
+81,9.000000000000,integer square grid,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,3,ours smaller,9.000000000000,integer square grid,ours smaller
+82,9.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,2,ours smaller,9.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+83,9.634757648632,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,1,ours smaller,9.634757648632,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+84,9.697934799015,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 1/2*sqrt(2),9.707106781187,strip,8,10,84,0,ours smaller,9.697934799015,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+85,9.742640687120,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 11/2*sqrt(2),9.778174593053,corner_strip,8,10,85,0,ours smaller,9.742640687120,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+86,9.820535407497,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 7/2*sqrt(2),9.949747468306,square,4,7,89,3,ours smaller,9.820535407497,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+87,9.838815269949,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 7/2*sqrt(2),9.949747468306,square,4,7,89,2,ours smaller,9.838815269949,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+88,9.882451030482,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,5 + 7/2*sqrt(2),9.949747468306,square,4,7,89,1,ours smaller,9.882451030482,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+89,9.949747468306,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,5 + 7/2*sqrt(2),9.949747468306,square,4,7,89,0,Gobel smaller,9.949747468306,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+90,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,6,ours smaller,10.000000000000,integer square grid,ours smaller
+91,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,5,ours smaller,10.000000000000,integer square grid,ours smaller
+92,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,4,ours smaller,10.000000000000,integer square grid,ours smaller
+93,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,3,ours smaller,10.000000000000,integer square grid,ours smaller
+94,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,2,ours smaller,10.000000000000,integer square grid,ours smaller
+95,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,1,ours smaller,10.000000000000,integer square grid,ours smaller
+96,10.000000000000,integer square grid,6 + 3*sqrt(2),10.242640687120,square,5,6,96,0,ours smaller,10.000000000000,integer square grid,ours smaller
+97,10.000000000000,integer square grid,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,7,ours smaller,10.000000000000,integer square grid,ours smaller
+98,10.000000000000,integer square grid,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,6,ours smaller,10.000000000000,integer square grid,ours smaller
+99,10.000000000000,integer square grid,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,5,ours smaller,10.000000000000,integer square grid,ours smaller
+100,10.000000000000,integer square grid,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,4,ours smaller,10.000000000000,integer square grid,ours smaller
+101,10.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,3,ours smaller,10.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+102,10.605828696432,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,2,ours smaller,10.605828696432,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+103,10.679232047362,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,1,ours smaller,10.679232047362,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+104,10.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,10 + 1/2*sqrt(2),10.707106781187,strip,9,12,104,0,Gobel smaller,10.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+105,10.789303783749,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 7/2*sqrt(2),10.949747468306,square,5,7,109,4,ours smaller,10.789303783749,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+106,10.822908044133,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 7/2*sqrt(2),10.949747468306,square,5,7,109,3,ours smaller,10.822908044133,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+107,10.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,6 + 7/2*sqrt(2),10.949747468306,square,5,7,109,2,ours smaller,10.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+108,10.904821012321,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 7/2*sqrt(2),10.949747468306,square,5,7,109,1,ours smaller,10.904821012321,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+109,10.949747468306,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,6 + 7/2*sqrt(2),10.949747468306,square,5,7,109,0,Gobel smaller,10.949747468306,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+110,10.996783396632,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 4*sqrt(2),11.656854249493,square,5,8,124,14,ours smaller,10.996783396632,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+111,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,13,ours smaller,11.000000000000,integer square grid,ours smaller
+112,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,12,ours smaller,11.000000000000,integer square grid,ours smaller
+113,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,11,ours smaller,11.000000000000,integer square grid,ours smaller
+114,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,10,ours smaller,11.000000000000,integer square grid,ours smaller
+115,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,9,ours smaller,11.000000000000,integer square grid,ours smaller
+116,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,8,ours smaller,11.000000000000,integer square grid,ours smaller
+117,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,7,ours smaller,11.000000000000,integer square grid,ours smaller
+118,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,6,ours smaller,11.000000000000,integer square grid,ours smaller
+119,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,5,ours smaller,11.000000000000,integer square grid,ours smaller
+120,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,4,ours smaller,11.000000000000,integer square grid,ours smaller
+121,11.000000000000,integer square grid,6 + 4*sqrt(2),11.656854249493,square,5,8,124,3,ours smaller,11.000000000000,integer square grid,ours smaller
+122,11.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,6 + 4*sqrt(2),11.656854249493,square,5,8,124,2,ours smaller,11.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+123,11.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,6 + 4*sqrt(2),11.656854249493,square,5,8,124,1,ours smaller,11.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+124,11.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,6 + 4*sqrt(2),11.656854249493,square,5,8,124,0,Gobel smaller,11.656854249493,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+125,11.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,11 + 1/2*sqrt(2),11.707106781187,strip,10,13,125,0,Gobel smaller,11.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+126,11.742640687120,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,2 + 7*sqrt(2),11.899494936612,corner_strip,10,13,126,0,ours smaller,11.742640687120,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+127,11.810878787590,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 4*sqrt(2),12.656854249493,square,6,8,148,21,ours smaller,11.810878787590,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+128,11.825091968214,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 4*sqrt(2),12.656854249493,square,6,8,148,20,ours smaller,11.825091968214,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+129,11.870013850405,certificates/best/n129.cert,7 + 4*sqrt(2),12.656854249493,square,6,8,148,19,ours smaller,11.870013850405,certificates/best/n129.cert,ours smaller
+130,11.904483032516,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 4*sqrt(2),12.656854249493,square,6,8,148,18,ours smaller,11.904483032516,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+131,11.949659588036,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 4*sqrt(2),12.656854249493,square,6,8,148,17,ours smaller,11.949659588036,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+132,11.985680198846,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 4*sqrt(2),12.656854249493,square,6,8,148,16,ours smaller,11.985680198846,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+133,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,15,ours smaller,12.000000000000,integer square grid,ours smaller
+134,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,14,ours smaller,12.000000000000,integer square grid,ours smaller
+135,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,13,ours smaller,12.000000000000,integer square grid,ours smaller
+136,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,12,ours smaller,12.000000000000,integer square grid,ours smaller
+137,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,11,ours smaller,12.000000000000,integer square grid,ours smaller
+138,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,10,ours smaller,12.000000000000,integer square grid,ours smaller
+139,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,9,ours smaller,12.000000000000,integer square grid,ours smaller
+140,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,8,ours smaller,12.000000000000,integer square grid,ours smaller
+141,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,7,ours smaller,12.000000000000,integer square grid,ours smaller
+142,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,6,ours smaller,12.000000000000,integer square grid,ours smaller
+143,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,5,ours smaller,12.000000000000,integer square grid,ours smaller
+144,12.000000000000,integer square grid,7 + 4*sqrt(2),12.656854249493,square,6,8,148,4,ours smaller,12.000000000000,integer square grid,ours smaller
+145,12.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 4*sqrt(2),12.656854249493,square,6,8,148,3,ours smaller,12.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+146,12.583782190152,https://github.com/jlevy/squares/issues/399,7 + 4*sqrt(2),12.656854249493,square,6,8,148,2,ours smaller,12.583782190152,https://github.com/jlevy/squares/issues/399,ours smaller
+147,12.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 4*sqrt(2),12.656854249493,square,6,8,148,1,Gobel smaller,12.656854249493,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+148,12.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 4*sqrt(2),12.656854249493,square,6,8,148,0,Gobel smaller,12.656854249493,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+149,12.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,12 + 1/2*sqrt(2),12.707106781187,strip,11,15,149,0,Gobel smaller,12.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+150,12.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 8*sqrt(2),13.313708498985,corner_strip,11,15,150,0,ours smaller,12.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+151,12.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,14,ours smaller,12.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+152,12.830718800977,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,13,ours smaller,12.830718800977,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+153,12.870013850405,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-exact-153-302-2026-10-13-v1,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,12,ours smaller,12.870013850405,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-exact-153-302-2026-10-13-v1,ours smaller
+154,12.921206577133,certificates/best/n154.cert,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,11,ours smaller,12.921206577133,certificates/best/n154.cert,ours smaller
+155,12.952425406959,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,10,ours smaller,12.952425406959,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+156,12.979165853835,certificates/best/n156.cert,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,9,ours smaller,12.979165853835,certificates/best/n156.cert,ours smaller
+157,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,8,ours smaller,13.000000000000,integer square grid,ours smaller
+158,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,7,ours smaller,13.000000000000,integer square grid,ours smaller
+159,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,6,ours smaller,13.000000000000,integer square grid,ours smaller
+160,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,5,ours smaller,13.000000000000,integer square grid,ours smaller
+161,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,4,ours smaller,13.000000000000,integer square grid,ours smaller
+162,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,3,ours smaller,13.000000000000,integer square grid,ours smaller
+163,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,2,ours smaller,13.000000000000,integer square grid,ours smaller
+164,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,1,ours smaller,13.000000000000,integer square grid,ours smaller
+165,13.000000000000,integer square grid,7 + 9/2*sqrt(2),13.363961030679,square,6,9,165,0,ours smaller,13.000000000000,integer square grid,ours smaller
+166,13.000000000000,integer square grid,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,8,ours smaller,13.000000000000,integer square grid,ours smaller
+167,13.000000000000,integer square grid,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,7,ours smaller,13.000000000000,integer square grid,ours smaller
+168,13.000000000000,integer square grid,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,6,ours smaller,13.000000000000,integer square grid,ours smaller
+169,13.000000000000,integer square grid,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,5,ours smaller,13.000000000000,integer square grid,ours smaller
+170,13.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,4,ours smaller,13.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+171,13.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,3,ours smaller,13.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+172,13.618988956900,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,2,ours smaller,13.618988956900,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+173,13.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,1,ours smaller,13.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+174,13.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,13 + 1/2*sqrt(2),13.707106781187,strip,12,16,174,0,Gobel smaller,13.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+175,13.764174317487,certificates/best/n175.cert,2 + 17/2*sqrt(2),14.020815280172,corner_strip,12,16,175,0,ours smaller,13.764174317487,certificates/best/n175.cert,ours smaller
+176,13.795872318437,certificates/best/n176.cert,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,17,ours smaller,13.795872318437,certificates/best/n176.cert,ours smaller
+177,13.822979734170,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,16,ours smaller,13.822979734170,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+178,13.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,15,ours smaller,13.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+179,13.883795490511,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,14,ours smaller,13.883795490511,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+180,13.916993522478,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,13,ours smaller,13.916993522478,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+181,13.950819531023,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,12,ours smaller,13.950819531023,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+182,13.974090713122,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,11,ours smaller,13.974090713122,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+183,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,10,ours smaller,14.000000000000,integer square grid,ours smaller
+184,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,9,ours smaller,14.000000000000,integer square grid,ours smaller
+185,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,8,ours smaller,14.000000000000,integer square grid,ours smaller
+186,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,7,ours smaller,14.000000000000,integer square grid,ours smaller
+187,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,6,ours smaller,14.000000000000,integer square grid,ours smaller
+188,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,5,ours smaller,14.000000000000,integer square grid,ours smaller
+189,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,4,ours smaller,14.000000000000,integer square grid,ours smaller
+190,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,3,ours smaller,14.000000000000,integer square grid,ours smaller
+191,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,2,ours smaller,14.000000000000,integer square grid,ours smaller
+192,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,1,ours smaller,14.000000000000,integer square grid,ours smaller
+193,14.000000000000,integer square grid,8 + 9/2*sqrt(2),14.363961030679,square,7,9,193,0,ours smaller,14.000000000000,integer square grid,ours smaller
+194,14.000000000000,integer square grid,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,7,ours smaller,14.000000000000,integer square grid,ours smaller
+195,14.000000000000,integer square grid,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,6,ours smaller,14.000000000000,integer square grid,ours smaller
+196,14.000000000000,integer square grid,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,5,ours smaller,14.000000000000,integer square grid,ours smaller
+197,14.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,4,ours smaller,14.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+198,14.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,3,ours smaller,14.571428571429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+199,14.617572173593,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,2,ours smaller,14.617572173593,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+200,14.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,1,ours smaller,14.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+201,14.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,14 + 1/2*sqrt(2),14.707106781187,strip,13,17,201,0,Gobel smaller,14.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+202,14.727922061358,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,2 + 9*sqrt(2),14.727922061358,corner_strip,13,17,202,0,Gobel smaller,14.727922061358,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+203,14.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 5*sqrt(2),15.071067811866,square,7,10,212,9,ours smaller,14.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+204,14.808663234387,certificates/best/n204.cert,8 + 5*sqrt(2),15.071067811866,square,7,10,212,8,ours smaller,14.808663234387,certificates/best/n204.cert,ours smaller
+205,14.824451146125,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 5*sqrt(2),15.071067811866,square,7,10,212,7,ours smaller,14.824451146125,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+206,14.860158663392,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 5*sqrt(2),15.071067811866,square,7,10,212,6,ours smaller,14.860158663392,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+207,14.880960371556,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 5*sqrt(2),15.071067811866,square,7,10,212,5,ours smaller,14.880960371556,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+208,14.924518772030,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 5*sqrt(2),15.071067811866,square,7,10,212,4,ours smaller,14.924518772030,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+209,14.946223226447,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 5*sqrt(2),15.071067811866,square,7,10,212,3,ours smaller,14.946223226447,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+210,14.973001116588,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,8 + 5*sqrt(2),15.071067811866,square,7,10,212,2,ours smaller,14.973001116588,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+211,14.993549626300,certificates/n211.cert,8 + 5*sqrt(2),15.071067811866,square,7,10,212,1,ours smaller,14.993549626300,certificates/n211.cert,ours smaller
+212,15.000000000000,integer square grid,8 + 5*sqrt(2),15.071067811866,square,7,10,212,0,ours smaller,15.000000000000,integer square grid,ours smaller
+213,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,18,ours smaller,15.000000000000,integer square grid,ours smaller
+214,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,17,ours smaller,15.000000000000,integer square grid,ours smaller
+215,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,16,ours smaller,15.000000000000,integer square grid,ours smaller
+216,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,15,ours smaller,15.000000000000,integer square grid,ours smaller
+217,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,14,ours smaller,15.000000000000,integer square grid,ours smaller
+218,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,13,ours smaller,15.000000000000,integer square grid,ours smaller
+219,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,12,ours smaller,15.000000000000,integer square grid,ours smaller
+220,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,11,ours smaller,15.000000000000,integer square grid,ours smaller
+221,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,10,ours smaller,15.000000000000,integer square grid,ours smaller
+222,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,9,ours smaller,15.000000000000,integer square grid,ours smaller
+223,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,8,ours smaller,15.000000000000,integer square grid,ours smaller
+224,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,7,ours smaller,15.000000000000,integer square grid,ours smaller
+225,15.000000000000,integer square grid,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,6,ours smaller,15.000000000000,integer square grid,ours smaller
+226,15.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,5,ours smaller,15.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+227,15.571067811866,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,4,ours smaller,15.571067811866,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+228,15.604601475730,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,3,ours smaller,15.604601475730,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+229,15.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,2,ours smaller,15.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+230,15.682926829269,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,1,ours smaller,15.682926829269,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+231,15.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,15 + 1/2*sqrt(2),15.707106781187,strip,14,19,231,0,Gobel smaller,15.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+232,15.764174317487,certificates/best/n232.cert,8 + 11/2*sqrt(2),15.778174593053,square,7,11,233,1,ours smaller,15.764174317487,certificates/best/n232.cert,ours smaller
+233,15.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,8 + 11/2*sqrt(2),15.778174593053,square,7,11,233,0,Gobel smaller,15.778174593053,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+234,15.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,9 + 5*sqrt(2),16.071067811866,square,8,10,244,10,ours smaller,15.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+235,15.826605633429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 5*sqrt(2),16.071067811866,square,8,10,244,9,ours smaller,15.826605633429,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+236,15.863955747160,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 5*sqrt(2),16.071067811866,square,8,10,244,8,ours smaller,15.863955747160,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+237,15.902603638260,certificates/n237.cert,9 + 5*sqrt(2),16.071067811866,square,8,10,244,7,ours smaller,15.902603638260,certificates/n237.cert,ours smaller
+238,15.924106785322,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 5*sqrt(2),16.071067811866,square,8,10,244,6,ours smaller,15.924106785322,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+239,15.948443327301,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 5*sqrt(2),16.071067811866,square,8,10,244,5,ours smaller,15.948443327301,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+240,15.969685337531,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 5*sqrt(2),16.071067811866,square,8,10,244,4,ours smaller,15.969685337531,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+241,15.987117095151,certificates/n241.cert,9 + 5*sqrt(2),16.071067811866,square,8,10,244,3,ours smaller,15.987117095151,certificates/n241.cert,ours smaller
+242,16.000000000000,integer square grid,9 + 5*sqrt(2),16.071067811866,square,8,10,244,2,ours smaller,16.000000000000,integer square grid,ours smaller
+243,16.000000000000,integer square grid,9 + 5*sqrt(2),16.071067811866,square,8,10,244,1,ours smaller,16.000000000000,integer square grid,ours smaller
+244,16.000000000000,integer square grid,9 + 5*sqrt(2),16.071067811866,square,8,10,244,0,ours smaller,16.000000000000,integer square grid,ours smaller
+245,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,17,ours smaller,16.000000000000,integer square grid,ours smaller
+246,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,16,ours smaller,16.000000000000,integer square grid,ours smaller
+247,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,15,ours smaller,16.000000000000,integer square grid,ours smaller
+248,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,14,ours smaller,16.000000000000,integer square grid,ours smaller
+249,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,13,ours smaller,16.000000000000,integer square grid,ours smaller
+250,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,12,ours smaller,16.000000000000,integer square grid,ours smaller
+251,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,11,ours smaller,16.000000000000,integer square grid,ours smaller
+252,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,10,ours smaller,16.000000000000,integer square grid,ours smaller
+253,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,9,ours smaller,16.000000000000,integer square grid,ours smaller
+254,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,8,ours smaller,16.000000000000,integer square grid,ours smaller
+255,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,7,ours smaller,16.000000000000,integer square grid,ours smaller
+256,16.000000000000,integer square grid,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,6,ours smaller,16.000000000000,integer square grid,ours smaller
+257,16.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,5,ours smaller,16.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+258,16.563448002134,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,4,ours smaller,16.563448002134,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+259,16.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,3,ours smaller,16.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+260,16.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,2,ours smaller,16.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+261,16.678779875343,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,1,ours smaller,16.678779875343,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+262,16.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,16 + 1/2*sqrt(2),16.707106781187,strip,15,20,262,0,Gobel smaller,16.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+263,16.733166007900,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 11/2*sqrt(2),16.778174593053,square,8,11,265,2,ours smaller,16.733166007900,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+264,16.774735132388,certificates/best/n264.cert,9 + 11/2*sqrt(2),16.778174593053,square,8,11,265,1,ours smaller,16.774735132388,certificates/best/n264.cert,ours smaller
+265,16.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,9 + 11/2*sqrt(2),16.778174593053,square,8,11,265,0,Gobel smaller,16.778174593053,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+266,16.823028750757,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,22,ours smaller,16.823028750757,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+267,16.838815269949,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,21,ours smaller,16.838815269949,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+268,16.878814821007,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,20,ours smaller,16.878814821007,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+269,16.901513582190,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,19,ours smaller,16.901513582190,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+270,16.928196993330,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,18,ours smaller,16.928196993330,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+271,16.948992356452,certificates/best/n271.cert,9 + 6*sqrt(2),17.485281374239,square,8,12,288,17,ours smaller,16.948992356452,certificates/best/n271.cert,ours smaller
+272,16.965586474838,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,16,ours smaller,16.965586474838,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+273,16.983925962651,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,9 + 6*sqrt(2),17.485281374239,square,8,12,288,15,ours smaller,16.983925962651,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+274,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,14,ours smaller,17.000000000000,integer square grid,ours smaller
+275,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,13,ours smaller,17.000000000000,integer square grid,ours smaller
+276,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,12,ours smaller,17.000000000000,integer square grid,ours smaller
+277,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,11,ours smaller,17.000000000000,integer square grid,ours smaller
+278,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,10,ours smaller,17.000000000000,integer square grid,ours smaller
+279,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,9,ours smaller,17.000000000000,integer square grid,ours smaller
+280,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,8,ours smaller,17.000000000000,integer square grid,ours smaller
+281,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,7,ours smaller,17.000000000000,integer square grid,ours smaller
+282,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,6,ours smaller,17.000000000000,integer square grid,ours smaller
+283,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,5,ours smaller,17.000000000000,integer square grid,ours smaller
+284,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,4,ours smaller,17.000000000000,integer square grid,ours smaller
+285,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,3,ours smaller,17.000000000000,integer square grid,ours smaller
+286,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,2,ours smaller,17.000000000000,integer square grid,ours smaller
+287,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,1,ours smaller,17.000000000000,integer square grid,ours smaller
+288,17.000000000000,integer square grid,9 + 6*sqrt(2),17.485281374239,square,8,12,288,0,ours smaller,17.000000000000,integer square grid,ours smaller
+289,17.000000000000,integer square grid,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,7,ours smaller,17.000000000000,integer square grid,ours smaller
+290,17.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,6,ours smaller,17.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+291,17.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,5,ours smaller,17.535533905933,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+292,17.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,4,ours smaller,17.591378145498,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+293,17.634146341464,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,3,ours smaller,17.634146341464,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+294,17.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,2,ours smaller,17.656854249493,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+295,17.704232790737,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,1,ours smaller,17.704232790737,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+296,17.707106781187,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,17 + 1/2*sqrt(2),17.707106781187,strip,16,22,296,0,Gobel smaller,17.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+297,17.740417287544,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,2 + 23/2*sqrt(2),18.263455967291,corner_strip,16,22,297,0,ours smaller,17.740417287544,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+298,17.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,10 + 6*sqrt(2),18.485281374239,square,9,12,324,26,ours smaller,17.778174593053,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+299,17.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,10 + 6*sqrt(2),18.485281374239,square,9,12,324,25,ours smaller,17.822875655533,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1,ours smaller
+300,17.824123388479,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,24,ours smaller,17.824123388479,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+301,17.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,23,ours smaller,17.846667192844,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+302,17.870013850405,certificates/best/n302.cert,10 + 6*sqrt(2),18.485281374239,square,9,12,324,22,ours smaller,17.870013850405,certificates/best/n302.cert,ours smaller
+303,17.909958291070,certificates/best/n303.cert,10 + 6*sqrt(2),18.485281374239,square,9,12,324,21,ours smaller,17.909958291070,certificates/best/n303.cert,ours smaller
+304,17.929427758076,certificates/best/n304.cert,10 + 6*sqrt(2),18.485281374239,square,9,12,324,20,ours smaller,17.929427758076,certificates/best/n304.cert,ours smaller
+305,17.950466482138,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,19,ours smaller,17.950466482138,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+306,17.963433717492,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,18,ours smaller,17.963433717492,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+307,17.980862784055,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,17,ours smaller,17.980862784055,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+308,17.998269879527,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,10 + 6*sqrt(2),18.485281374239,square,9,12,324,16,ours smaller,17.998269879527,https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2,ours smaller
+309,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,15,ours smaller,18.000000000000,integer square grid,ours smaller
+310,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,14,ours smaller,18.000000000000,integer square grid,ours smaller
+311,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,13,ours smaller,18.000000000000,integer square grid,ours smaller
+312,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,12,ours smaller,18.000000000000,integer square grid,ours smaller
+313,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,11,ours smaller,18.000000000000,integer square grid,ours smaller
+314,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,10,ours smaller,18.000000000000,integer square grid,ours smaller
+315,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,9,ours smaller,18.000000000000,integer square grid,ours smaller
+316,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,8,ours smaller,18.000000000000,integer square grid,ours smaller
+317,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,7,ours smaller,18.000000000000,integer square grid,ours smaller
+318,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,6,ours smaller,18.000000000000,integer square grid,ours smaller
+319,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,5,ours smaller,18.000000000000,integer square grid,ours smaller
+320,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,4,ours smaller,18.000000000000,integer square grid,ours smaller
+321,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,3,ours smaller,18.000000000000,integer square grid,ours smaller
+322,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,2,ours smaller,18.000000000000,integer square grid,ours smaller
+323,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,1,ours smaller,18.000000000000,integer square grid,ours smaller
+324,18.000000000000,integer square grid,10 + 6*sqrt(2),18.485281374239,square,9,12,324,0,ours smaller,18.000000000000,integer square grid,ours smaller
+325,18.535533905933,certificates/best/n325.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,6,ours smaller,18.535533905933,certificates/best/n325.cert,ours smaller
+326,18.535533905933,certificates/best/n326.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,5,ours smaller,18.535533905933,certificates/best/n326.cert,ours smaller
+327,18.591378145498,certificates/best/n327.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,4,ours smaller,18.591378145498,certificates/best/n327.cert,ours smaller
+328,18.634146341464,certificates/best/n328.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,3,ours smaller,18.634146341464,certificates/best/n328.cert,ours smaller
+329,18.656854249493,certificates/best/n329.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,2,ours smaller,18.656854249493,certificates/best/n329.cert,ours smaller
+330,18.704232790737,certificates/best/n330.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,1,ours smaller,18.704232790737,certificates/best/n330.cert,ours smaller
+331,18.707106781187,certificates/best/n331.cert,18 + 1/2*sqrt(2),18.707106781187,strip,17,23,331,0,Gobel smaller,18.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+332,18.740417287544,certificates/best/n332.cert,2 + 12*sqrt(2),18.970562748478,corner_strip,17,23,332,0,ours smaller,18.740417287544,certificates/best/n332.cert,ours smaller
+333,18.778174593053,certificates/best/n333.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,16,ours smaller,18.778174593053,certificates/best/n333.cert,ours smaller
+334,18.822875655533,certificates/best/n334.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,15,ours smaller,18.822875655533,certificates/best/n334.cert,ours smaller
+335,18.822875655562,certificates/n335.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,14,ours smaller,18.822875655562,certificates/n335.cert,ours smaller
+336,18.825571499862,certificates/n336.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,13,ours smaller,18.825571499862,certificates/n336.cert,ours smaller
+337,18.858391767637,certificates/n337.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,12,ours smaller,18.858391767637,certificates/n337.cert,ours smaller
+338,18.906332809853,certificates/n338.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,11,ours smaller,18.906332809853,certificates/n338.cert,ours smaller
+339,18.915818555441,certificates/n339.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,10,ours smaller,18.915818555441,certificates/n339.cert,ours smaller
+340,18.939649632892,certificates/n340.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,9,ours smaller,18.939649632892,certificates/n340.cert,ours smaller
+341,18.951882408720,certificates/n341.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,8,ours smaller,18.951882408720,certificates/n341.cert,ours smaller
+342,18.964706723173,certificates/best/n342.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,7,ours smaller,18.964706723173,certificates/best/n342.cert,ours smaller
+343,18.978232523636,certificates/best/n343.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,6,ours smaller,18.978232523636,certificates/best/n343.cert,ours smaller
+344,18.993724691804,certificates/best/n344.cert,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,5,ours smaller,18.993724691804,certificates/best/n344.cert,ours smaller
+345,19.000000000000,integer square grid,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,4,ours smaller,19.000000000000,integer square grid,ours smaller
+346,19.000000000000,integer square grid,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,3,ours smaller,19.000000000000,integer square grid,ours smaller
+347,19.000000000000,integer square grid,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,2,ours smaller,19.000000000000,integer square grid,ours smaller
+348,19.000000000000,integer square grid,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,1,ours smaller,19.000000000000,integer square grid,ours smaller
+349,19.000000000000,integer square grid,10 + 13/2*sqrt(2),19.192388155426,square,9,13,349,0,ours smaller,19.000000000000,integer square grid,ours smaller
+350,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,19,ours smaller,19.000000000000,integer square grid,ours smaller
+351,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,18,ours smaller,19.000000000000,integer square grid,ours smaller
+352,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,17,ours smaller,19.000000000000,integer square grid,ours smaller
+353,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,16,ours smaller,19.000000000000,integer square grid,ours smaller
+354,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,15,ours smaller,19.000000000000,integer square grid,ours smaller
+355,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,14,ours smaller,19.000000000000,integer square grid,ours smaller
+356,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,13,ours smaller,19.000000000000,integer square grid,ours smaller
+357,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,12,ours smaller,19.000000000000,integer square grid,ours smaller
+358,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,11,ours smaller,19.000000000000,integer square grid,ours smaller
+359,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,10,ours smaller,19.000000000000,integer square grid,ours smaller
+360,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,9,ours smaller,19.000000000000,integer square grid,ours smaller
+361,19.000000000000,integer square grid,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,8,ours smaller,19.000000000000,integer square grid,ours smaller
+362,19.535533905933,certificates/best/n362.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,7,ours smaller,19.535533905933,certificates/best/n362.cert,ours smaller
+363,19.535533905933,certificates/best/n363.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,6,ours smaller,19.535533905933,certificates/best/n363.cert,ours smaller
+364,19.583782203951,certificates/best/n364.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,5,ours smaller,19.583782203951,certificates/best/n364.cert,ours smaller
+365,19.621320343560,certificates/best/n365.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,4,ours smaller,19.621320343560,certificates/best/n365.cert,ours smaller
+366,19.656854249493,certificates/best/n366.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,3,ours smaller,19.656854249493,certificates/best/n366.cert,ours smaller
+367,19.704232790737,certificates/best/n367.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,2,ours smaller,19.704232790737,certificates/best/n367.cert,ours smaller
+368,19.707106781187,certificates/best/n369.cert,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,1,Gobel smaller,19.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+369,19.707106781187,https://kingbird.myphotos.cc/packing/square-369.svg,19 + 1/2*sqrt(2),19.707106781187,strip,18,25,369,0,Gobel smaller,19.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+370,19.767478905842,certificates/best/n370.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,6,ours smaller,19.767478905842,certificates/best/n370.cert,ours smaller
+371,19.822875655533,certificates/best/n371.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,5,ours smaller,19.822875655533,certificates/best/n371.cert,ours smaller
+372,19.822875655562,certificates/best/n372.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,4,ours smaller,19.822875655562,certificates/best/n372.cert,ours smaller
+373,19.823062082838,certificates/n373.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,3,ours smaller,19.823062082838,certificates/n373.cert,ours smaller
+374,19.832356217033,certificates/n374.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,2,ours smaller,19.832356217033,certificates/n374.cert,ours smaller
+375,19.882451030482,certificates/best/n375.cert,10 + 7*sqrt(2),19.899494936612,square,9,14,376,1,ours smaller,19.882451030482,certificates/best/n375.cert,ours smaller
+376,19.899494936612,https://kingbird.myphotos.cc/packing/square-376.svg,10 + 7*sqrt(2),19.899494936612,square,9,14,376,0,Gobel smaller,19.899494936612,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+377,19.925720814331,certificates/n377.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,12,ours smaller,19.925720814331,certificates/n377.cert,ours smaller
+378,19.942506891619,certificates/n378.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,11,ours smaller,19.942506891619,certificates/n378.cert,ours smaller
+379,19.953014541486,certificates/n379.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,10,ours smaller,19.953014541486,certificates/n379.cert,ours smaller
+380,19.961601762402,certificates/n380.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,9,ours smaller,19.961601762402,certificates/n380.cert,ours smaller
+381,19.974740439431,certificates/best/n381.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,8,ours smaller,19.974740439431,certificates/best/n381.cert,ours smaller
+382,19.987621154210,certificates/n382.cert,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,7,ours smaller,19.987621154210,certificates/n382.cert,ours smaller
+383,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,6,ours smaller,20.000000000000,integer square grid,ours smaller
+384,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,5,ours smaller,20.000000000000,integer square grid,ours smaller
+385,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,4,ours smaller,20.000000000000,integer square grid,ours smaller
+386,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,3,ours smaller,20.000000000000,integer square grid,ours smaller
+387,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,2,ours smaller,20.000000000000,integer square grid,ours smaller
+388,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,1,ours smaller,20.000000000000,integer square grid,ours smaller
+389,20.000000000000,integer square grid,11 + 13/2*sqrt(2),20.192388155426,square,10,13,389,0,ours smaller,20.000000000000,integer square grid,ours smaller
+390,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,18,ours smaller,20.000000000000,integer square grid,ours smaller
+391,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,17,ours smaller,20.000000000000,integer square grid,ours smaller
+392,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,16,ours smaller,20.000000000000,integer square grid,ours smaller
+393,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,15,ours smaller,20.000000000000,integer square grid,ours smaller
+394,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,14,ours smaller,20.000000000000,integer square grid,ours smaller
+395,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,13,ours smaller,20.000000000000,integer square grid,ours smaller
+396,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,12,ours smaller,20.000000000000,integer square grid,ours smaller
+397,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,11,ours smaller,20.000000000000,integer square grid,ours smaller
+398,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,10,ours smaller,20.000000000000,integer square grid,ours smaller
+399,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,9,ours smaller,20.000000000000,integer square grid,ours smaller
+400,20.000000000000,integer square grid,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,8,ours smaller,20.000000000000,integer square grid,ours smaller
+401,20.535533905933,certificates/best/n401.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,7,ours smaller,20.535533905933,certificates/best/n401.cert,ours smaller
+402,20.535533905933,certificates/best/n402.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,6,ours smaller,20.535533905933,certificates/best/n402.cert,ours smaller
+403,20.583782203951,certificates/best/n403.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,5,ours smaller,20.583782203951,certificates/best/n403.cert,ours smaller
+404,20.621320343560,certificates/best/n404.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,4,ours smaller,20.621320343560,certificates/best/n404.cert,ours smaller
+405,20.656854249493,certificates/best/n405.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,3,ours smaller,20.656854249493,certificates/best/n405.cert,ours smaller
+406,20.704232790737,certificates/best/n406.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,2,ours smaller,20.704232790737,certificates/best/n406.cert,ours smaller
+407,20.707106781187,certificates/best/n407.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,1,Gobel smaller,20.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+408,20.707106781187,certificates/best/n408.cert,20 + 1/2*sqrt(2),20.707106781187,strip,19,26,408,0,Gobel smaller,20.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+409,20.767428349966,certificates/best/n409.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,7,ours smaller,20.767428349966,certificates/best/n409.cert,ours smaller
+410,20.778174593076,certificates/best/n410.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,6,ours smaller,20.778174593076,certificates/best/n410.cert,ours smaller
+411,20.822875655557,certificates/best/n411.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,5,ours smaller,20.822875655557,certificates/best/n411.cert,ours smaller
+412,20.823062082838,certificates/best/n412.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,4,ours smaller,20.823062082838,certificates/best/n412.cert,ours smaller
+413,20.831663365378,certificates/best/n413.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,3,ours smaller,20.831663365378,certificates/best/n413.cert,ours smaller
+414,20.882451030482,certificates/best/n414.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,2,ours smaller,20.882451030482,certificates/best/n414.cert,ours smaller
+415,20.899494936612,certificates/best/n415.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,1,Gobel smaller,20.899494936612,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+416,20.899494936651,certificates/best/n416.cert,11 + 7*sqrt(2),20.899494936612,square,10,14,416,0,Gobel smaller,20.899494936612,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+417,20.942506891619,certificates/best/n417.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,28,ours smaller,20.942506891619,certificates/best/n417.cert,ours smaller
+418,20.949005229001,certificates/best/n418.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,27,ours smaller,20.949005229001,certificates/best/n418.cert,ours smaller
+419,20.959997582079,certificates/best/n419.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,26,ours smaller,20.959997582079,certificates/best/n419.cert,ours smaller
+420,20.974473103465,certificates/best/n420.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,25,ours smaller,20.974473103465,certificates/best/n420.cert,ours smaller
+421,20.983397833440,certificates/best/n421.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,24,ours smaller,20.983397833440,certificates/best/n421.cert,ours smaller
+422,20.984368637389,certificates/best/n422.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,23,ours smaller,20.984368637389,certificates/best/n422.cert,ours smaller
+423,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,22,ours smaller,21.000000000000,integer square grid,ours smaller
+424,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,21,ours smaller,21.000000000000,integer square grid,ours smaller
+425,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,20,ours smaller,21.000000000000,integer square grid,ours smaller
+426,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,19,ours smaller,21.000000000000,integer square grid,ours smaller
+427,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,18,ours smaller,21.000000000000,integer square grid,ours smaller
+428,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,17,ours smaller,21.000000000000,integer square grid,ours smaller
+429,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,16,ours smaller,21.000000000000,integer square grid,ours smaller
+430,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,15,ours smaller,21.000000000000,integer square grid,ours smaller
+431,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,14,ours smaller,21.000000000000,integer square grid,ours smaller
+432,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,13,ours smaller,21.000000000000,integer square grid,ours smaller
+433,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,12,ours smaller,21.000000000000,integer square grid,ours smaller
+434,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,11,ours smaller,21.000000000000,integer square grid,ours smaller
+435,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,10,ours smaller,21.000000000000,integer square grid,ours smaller
+436,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,9,ours smaller,21.000000000000,integer square grid,ours smaller
+437,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,8,ours smaller,21.000000000000,integer square grid,ours smaller
+438,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,7,ours smaller,21.000000000000,integer square grid,ours smaller
+439,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,6,ours smaller,21.000000000000,integer square grid,ours smaller
+440,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,5,ours smaller,21.000000000000,integer square grid,ours smaller
+441,21.000000000000,integer square grid,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,4,ours smaller,21.000000000000,integer square grid,ours smaller
+442,21.535533905933,certificates/best/n442.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,3,ours smaller,21.535533905933,certificates/best/n442.cert,ours smaller
+443,21.535533905933,certificates/best/n443.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,2,ours smaller,21.535533905933,certificates/best/n443.cert,ours smaller
+444,21.583782203951,certificates/best/n444.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,1,ours smaller,21.583782203951,certificates/best/n444.cert,ours smaller
+445,21.606601717827,certificates/best/n445.cert,11 + 15/2*sqrt(2),21.606601717799,square,10,15,445,0,Gobel smaller,21.606601717799,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+446,21.656854249493,certificates/best/n446.cert,21 + 1/2*sqrt(2),21.707106781187,strip,20,27,449,3,ours smaller,21.656854249493,certificates/best/n446.cert,ours smaller
+447,21.704232790737,certificates/best/n447.cert,21 + 1/2*sqrt(2),21.707106781187,strip,20,27,449,2,ours smaller,21.704232790737,certificates/best/n447.cert,ours smaller
+448,21.707106781187,certificates/best/n448.cert,21 + 1/2*sqrt(2),21.707106781187,strip,20,27,449,1,Gobel smaller,21.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+449,21.707106781187,certificates/best/n449.cert,21 + 1/2*sqrt(2),21.707106781187,strip,20,27,449,0,Gobel smaller,21.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+450,21.767428349966,certificates/best/n450.cert,2 + 14*sqrt(2),21.798989873224,corner_strip,20,27,450,0,ours smaller,21.767428349966,certificates/best/n450.cert,ours smaller
+451,21.778174593076,certificates/best/n451.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,38,ours smaller,21.778174593076,certificates/best/n451.cert,ours smaller
+452,21.778174597694,certificates/best/n452.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,37,ours smaller,21.778174597694,certificates/best/n452.cert,ours smaller
+453,21.823014758318,certificates/best/n453.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,36,ours smaller,21.823014758318,certificates/best/n453.cert,ours smaller
+454,21.828427124844,certificates/best/n454.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,35,ours smaller,21.828427124844,certificates/best/n454.cert,ours smaller
+455,21.882451030482,certificates/best/n455.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,34,ours smaller,21.882451030482,certificates/best/n455.cert,ours smaller
+456,21.899494936612,certificates/best/n456.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,33,ours smaller,21.899494936612,certificates/best/n456.cert,ours smaller
+457,21.899494936637,certificates/best/n457.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,32,ours smaller,21.899494936637,certificates/best/n457.cert,ours smaller
+458,21.942506891619,certificates/best/n458.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,31,ours smaller,21.942506891619,certificates/best/n458.cert,ours smaller
+459,21.946654374098,certificates/best/n459.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,30,ours smaller,21.946654374098,certificates/best/n459.cert,ours smaller
+460,21.958513130933,certificates/best/n460.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,29,ours smaller,21.958513130933,certificates/best/n460.cert,ours smaller
+461,21.973183753375,certificates/best/n461.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,28,ours smaller,21.973183753375,certificates/best/n461.cert,ours smaller
+462,21.982108570393,certificates/best/n462.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,27,ours smaller,21.982108570393,certificates/best/n462.cert,ours smaller
+463,21.984358960532,certificates/best/n463.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,26,ours smaller,21.984358960532,certificates/best/n463.cert,ours smaller
+464,21.989992144494,certificates/best/n464.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,25,ours smaller,21.989992144494,certificates/best/n464.cert,ours smaller
+465,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,24,ours smaller,22.000000000000,integer square grid,ours smaller
+466,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,23,ours smaller,22.000000000000,integer square grid,ours smaller
+467,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,22,ours smaller,22.000000000000,integer square grid,ours smaller
+468,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,21,ours smaller,22.000000000000,integer square grid,ours smaller
+469,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,20,ours smaller,22.000000000000,integer square grid,ours smaller
+470,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,19,ours smaller,22.000000000000,integer square grid,ours smaller
+471,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,18,ours smaller,22.000000000000,integer square grid,ours smaller
+472,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,17,ours smaller,22.000000000000,integer square grid,ours smaller
+473,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,16,ours smaller,22.000000000000,integer square grid,ours smaller
+474,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,15,ours smaller,22.000000000000,integer square grid,ours smaller
+475,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,14,ours smaller,22.000000000000,integer square grid,ours smaller
+476,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,13,ours smaller,22.000000000000,integer square grid,ours smaller
+477,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,12,ours smaller,22.000000000000,integer square grid,ours smaller
+478,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,11,ours smaller,22.000000000000,integer square grid,ours smaller
+479,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,10,ours smaller,22.000000000000,integer square grid,ours smaller
+480,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,9,ours smaller,22.000000000000,integer square grid,ours smaller
+481,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,8,ours smaller,22.000000000000,integer square grid,ours smaller
+482,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,7,ours smaller,22.000000000000,integer square grid,ours smaller
+483,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,6,ours smaller,22.000000000000,integer square grid,ours smaller
+484,22.000000000000,integer square grid,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,5,ours smaller,22.000000000000,integer square grid,ours smaller
+485,22.535533905933,certificates/best/n485.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,4,ours smaller,22.535533905933,certificates/best/n485.cert,ours smaller
+486,22.535533905933,certificates/best/n486.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,3,ours smaller,22.535533905933,certificates/best/n486.cert,ours smaller
+487,22.583782190178,certificates/best/n487.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,2,ours smaller,22.583782190178,certificates/best/n487.cert,ours smaller
+488,22.606601717827,certificates/best/n488.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,1,Gobel smaller,22.606601717799,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+489,22.606601717845,certificates/best/n489.cert,12 + 15/2*sqrt(2),22.606601717799,square,11,15,489,0,Gobel smaller,22.606601717799,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+490,22.656854249519,certificates/best/n490.cert,22 + 1/2*sqrt(2),22.707106781187,strip,21,29,493,3,ours smaller,22.656854249519,certificates/best/n490.cert,ours smaller
+491,22.707106781187,certificates/best/n491.cert,22 + 1/2*sqrt(2),22.707106781187,strip,21,29,493,2,Gobel smaller,22.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+492,22.707106781187,certificates/best/n492.cert,22 + 1/2*sqrt(2),22.707106781187,strip,21,29,493,1,Gobel smaller,22.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+493,22.707106781227,certificates/best/n493.cert,22 + 1/2*sqrt(2),22.707106781187,strip,21,29,493,0,Gobel smaller,22.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+494,22.778174593076,certificates/best/n494.cert,2 + 15*sqrt(2),23.213203435597,corner_strip,21,29,494,0,ours smaller,22.778174593076,certificates/best/n494.cert,ours smaller
+495,22.778174593079,certificates/best/n495.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,25,ours smaller,22.778174593079,certificates/best/n495.cert,ours smaller
+496,22.823014758318,certificates/best/n496.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,24,ours smaller,22.823014758318,certificates/best/n496.cert,ours smaller
+497,22.828427124774,certificates/best/n497.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,23,ours smaller,22.828427124774,certificates/best/n497.cert,ours smaller
+498,22.828427124827,certificates/best/n498.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,22,ours smaller,22.828427124827,certificates/best/n498.cert,ours smaller
+499,22.899494936612,certificates/best/n499.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,21,ours smaller,22.899494936612,certificates/best/n499.cert,ours smaller
+500,22.899494936637,certificates/best/n500.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,20,ours smaller,22.899494936637,certificates/best/n500.cert,ours smaller
+501,22.934524681996,certificates/best/n501.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,19,ours smaller,22.934524681996,certificates/best/n501.cert,ours smaller
+502,22.942809041609,certificates/best/n502.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,18,ours smaller,22.942809041609,certificates/best/n502.cert,ours smaller
+503,22.958513130933,certificates/best/n503.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,17,ours smaller,22.958513130933,certificates/best/n503.cert,ours smaller
+504,22.970562748504,certificates/best/n504.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,16,ours smaller,22.970562748504,certificates/best/n504.cert,ours smaller
+505,22.973102824304,certificates/best/n506.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,15,ours smaller,22.973102824304,certificates/best/n506.cert,ours smaller
+506,22.973102824304,certificates/best/n506.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,14,ours smaller,22.973102824304,certificates/best/n506.cert,ours smaller
+507,22.973760910106,certificates/best/n507.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,13,ours smaller,22.973760910106,certificates/best/n507.cert,ours smaller
+508,22.987759965313,certificates/best/n508.cert,12 + 8*sqrt(2),23.313708498985,square,11,16,520,12,ours smaller,22.987759965313,certificates/best/n508.cert,ours smaller
+509,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,11,ours smaller,23.000000000000,integer square grid,ours smaller
+510,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,10,ours smaller,23.000000000000,integer square grid,ours smaller
+511,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,9,ours smaller,23.000000000000,integer square grid,ours smaller
+512,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,8,ours smaller,23.000000000000,integer square grid,ours smaller
+513,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,7,ours smaller,23.000000000000,integer square grid,ours smaller
+514,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,6,ours smaller,23.000000000000,integer square grid,ours smaller
+515,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,5,ours smaller,23.000000000000,integer square grid,ours smaller
+516,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,4,ours smaller,23.000000000000,integer square grid,ours smaller
+517,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,3,ours smaller,23.000000000000,integer square grid,ours smaller
+518,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,2,ours smaller,23.000000000000,integer square grid,ours smaller
+519,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,1,ours smaller,23.000000000000,integer square grid,ours smaller
+520,23.000000000000,integer square grid,12 + 8*sqrt(2),23.313708498985,square,11,16,520,0,ours smaller,23.000000000000,integer square grid,ours smaller
+521,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,17,ours smaller,23.000000000000,integer square grid,ours smaller
+522,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,16,ours smaller,23.000000000000,integer square grid,ours smaller
+523,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,15,ours smaller,23.000000000000,integer square grid,ours smaller
+524,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,14,ours smaller,23.000000000000,integer square grid,ours smaller
+525,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,13,ours smaller,23.000000000000,integer square grid,ours smaller
+526,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,12,ours smaller,23.000000000000,integer square grid,ours smaller
+527,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,11,ours smaller,23.000000000000,integer square grid,ours smaller
+528,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,10,ours smaller,23.000000000000,integer square grid,ours smaller
+529,23.000000000000,integer square grid,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,9,ours smaller,23.000000000000,integer square grid,ours smaller
+530,23.535533905933,certificates/best/n530.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,8,ours smaller,23.535533905933,certificates/best/n530.cert,ours smaller
+531,23.535533905933,certificates/best/n531.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,7,ours smaller,23.535533905933,certificates/best/n531.cert,ours smaller
+532,23.583782190178,certificates/best/n532.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,6,ours smaller,23.583782190178,certificates/best/n532.cert,ours smaller
+533,23.606601717826,certificates/best/n534.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,5,ours smaller,23.606601717826,certificates/best/n534.cert,ours smaller
+534,23.606601717826,certificates/best/n534.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,4,ours smaller,23.606601717826,certificates/best/n534.cert,ours smaller
+535,23.656854249519,certificates/best/n535.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,3,ours smaller,23.656854249519,certificates/best/n535.cert,ours smaller
+536,23.677669534775,certificates/best/n536.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,2,ours smaller,23.677669534775,certificates/best/n536.cert,ours smaller
+537,23.707106781187,certificates/best/n537.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,1,Gobel smaller,23.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+538,23.707106781227,certificates/best/n538.cert,23 + 1/2*sqrt(2),23.707106781187,strip,22,30,538,0,Gobel smaller,23.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+539,23.778174593076,certificates/best/n539.cert,2 + 31/2*sqrt(2),23.920310216783,corner_strip,22,30,539,0,ours smaller,23.778174593076,certificates/best/n539.cert,ours smaller
+540,23.778174593079,certificates/best/n540.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,28,ours smaller,23.778174593079,certificates/best/n540.cert,ours smaller
+541,23.823014758318,certificates/best/n541.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,27,ours smaller,23.823014758318,certificates/best/n541.cert,ours smaller
+542,23.828427124774,certificates/best/n543.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,26,ours smaller,23.828427124774,certificates/best/n543.cert,ours smaller
+543,23.828427124774,certificates/best/n543.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,25,ours smaller,23.828427124774,certificates/best/n543.cert,ours smaller
+544,23.828427124775,certificates/best/n544.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,24,ours smaller,23.828427124775,certificates/best/n544.cert,ours smaller
+545,23.899494936637,certificates/best/n545.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,23,ours smaller,23.899494936637,certificates/best/n545.cert,ours smaller
+546,23.934524681996,certificates/best/n546.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,22,ours smaller,23.934524681996,certificates/best/n546.cert,ours smaller
+547,23.946082411003,certificates/best/n547.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,21,ours smaller,23.946082411003,certificates/best/n547.cert,ours smaller
+548,23.958513130933,certificates/best/n548.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,20,ours smaller,23.958513130933,certificates/best/n548.cert,ours smaller
+549,23.961513018469,certificates/best/n550.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,19,ours smaller,23.961513018469,certificates/best/n550.cert,ours smaller
+550,23.961513018469,certificates/best/n550.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,18,ours smaller,23.961513018469,certificates/best/n550.cert,ours smaller
+551,23.966901721108,certificates/best/n552.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,17,ours smaller,23.966901721108,certificates/best/n552.cert,ours smaller
+552,23.966901721108,certificates/best/n552.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,16,ours smaller,23.966901721108,certificates/best/n552.cert,ours smaller
+553,23.985912419136,certificates/best/n553.cert,13 + 8*sqrt(2),24.313708498985,square,12,16,568,15,ours smaller,23.985912419136,certificates/best/n553.cert,ours smaller
+554,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,14,ours smaller,24.000000000000,integer square grid,ours smaller
+555,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,13,ours smaller,24.000000000000,integer square grid,ours smaller
+556,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,12,ours smaller,24.000000000000,integer square grid,ours smaller
+557,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,11,ours smaller,24.000000000000,integer square grid,ours smaller
+558,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,10,ours smaller,24.000000000000,integer square grid,ours smaller
+559,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,9,ours smaller,24.000000000000,integer square grid,ours smaller
+560,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,8,ours smaller,24.000000000000,integer square grid,ours smaller
+561,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,7,ours smaller,24.000000000000,integer square grid,ours smaller
+562,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,6,ours smaller,24.000000000000,integer square grid,ours smaller
+563,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,5,ours smaller,24.000000000000,integer square grid,ours smaller
+564,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,4,ours smaller,24.000000000000,integer square grid,ours smaller
+565,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,3,ours smaller,24.000000000000,integer square grid,ours smaller
+566,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,2,ours smaller,24.000000000000,integer square grid,ours smaller
+567,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,1,ours smaller,24.000000000000,integer square grid,ours smaller
+568,24.000000000000,integer square grid,13 + 8*sqrt(2),24.313708498985,square,12,16,568,0,ours smaller,24.000000000000,integer square grid,ours smaller
+569,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,17,ours smaller,24.000000000000,integer square grid,ours smaller
+570,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,16,ours smaller,24.000000000000,integer square grid,ours smaller
+571,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,15,ours smaller,24.000000000000,integer square grid,ours smaller
+572,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,14,ours smaller,24.000000000000,integer square grid,ours smaller
+573,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,13,ours smaller,24.000000000000,integer square grid,ours smaller
+574,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,12,ours smaller,24.000000000000,integer square grid,ours smaller
+575,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,11,ours smaller,24.000000000000,integer square grid,ours smaller
+576,24.000000000000,integer square grid,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,10,ours smaller,24.000000000000,integer square grid,ours smaller
+577,24.535533905933,certificates/best/n577.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,9,ours smaller,24.535533905933,certificates/best/n577.cert,ours smaller
+578,24.535533905933,certificates/best/n578.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,8,ours smaller,24.535533905933,certificates/best/n578.cert,ours smaller
+579,24.583782190178,certificates/best/n579.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,7,ours smaller,24.583782190178,certificates/best/n579.cert,ours smaller
+580,24.606601717826,certificates/best/n581.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,6,ours smaller,24.606601717826,certificates/best/n581.cert,ours smaller
+581,24.606601717826,certificates/best/n581.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,5,ours smaller,24.606601717826,certificates/best/n581.cert,ours smaller
+582,24.656854249519,certificates/best/n582.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,4,ours smaller,24.656854249519,certificates/best/n582.cert,ours smaller
+583,24.677669529693,certificates/best/n584.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,3,ours smaller,24.677669529693,certificates/best/n584.cert,ours smaller
+584,24.677669529693,certificates/best/n584.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,2,ours smaller,24.677669529693,certificates/best/n584.cert,ours smaller
+585,24.707106781227,certificates/best/n585.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,1,Gobel smaller,24.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+586,24.707106781231,certificates/best/n586.cert,24 + 1/2*sqrt(2),24.707106781187,strip,23,32,586,0,Gobel smaller,24.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+587,24.778174593079,certificates/best/n587.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,14,ours smaller,24.778174593079,certificates/best/n587.cert,ours smaller
+588,24.823014758318,certificates/best/n588.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,13,ours smaller,24.823014758318,certificates/best/n588.cert,ours smaller
+589,24.828427124774,certificates/best/n590.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,12,ours smaller,24.828427124774,certificates/best/n590.cert,ours smaller
+590,24.828427124774,certificates/best/n590.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,11,ours smaller,24.828427124774,certificates/best/n590.cert,ours smaller
+591,24.828427124775,certificates/best/n591.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,10,ours smaller,24.828427124775,certificates/best/n591.cert,ours smaller
+592,24.899494936637,certificates/best/n592.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,9,ours smaller,24.899494936637,certificates/best/n592.cert,ours smaller
+593,24.899494936641,certificates/best/n594.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,8,ours smaller,24.899494936641,certificates/best/n594.cert,ours smaller
+594,24.899494936641,certificates/best/n594.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,7,ours smaller,24.899494936641,certificates/best/n594.cert,ours smaller
+595,24.949747468335,certificates/best/n596.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,6,ours smaller,24.949747468335,certificates/best/n596.cert,ours smaller
+596,24.949747468335,certificates/best/n596.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,5,ours smaller,24.949747468335,certificates/best/n596.cert,ours smaller
+597,24.961513018469,certificates/best/n597.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,4,ours smaller,24.961513018469,certificates/best/n597.cert,ours smaller
+598,24.966901721108,certificates/best/n599.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,3,ours smaller,24.966901721108,certificates/best/n599.cert,ours smaller
+599,24.966901721108,certificates/best/n599.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,2,ours smaller,24.966901721108,certificates/best/n599.cert,ours smaller
+600,24.985652337913,certificates/best/n600.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,1,ours smaller,24.985652337913,certificates/best/n600.cert,ours smaller
+601,24.989482347414,certificates/best/n601.cert,13 + 17/2*sqrt(2),25.020815280172,square,12,17,601,0,ours smaller,24.989482347414,certificates/best/n601.cert,ours smaller
+602,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,33,ours smaller,25.000000000000,integer square grid,ours smaller
+603,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,32,ours smaller,25.000000000000,integer square grid,ours smaller
+604,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,31,ours smaller,25.000000000000,integer square grid,ours smaller
+605,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,30,ours smaller,25.000000000000,integer square grid,ours smaller
+606,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,29,ours smaller,25.000000000000,integer square grid,ours smaller
+607,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,28,ours smaller,25.000000000000,integer square grid,ours smaller
+608,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,27,ours smaller,25.000000000000,integer square grid,ours smaller
+609,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,26,ours smaller,25.000000000000,integer square grid,ours smaller
+610,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,25,ours smaller,25.000000000000,integer square grid,ours smaller
+611,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,24,ours smaller,25.000000000000,integer square grid,ours smaller
+612,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,23,ours smaller,25.000000000000,integer square grid,ours smaller
+613,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,22,ours smaller,25.000000000000,integer square grid,ours smaller
+614,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,21,ours smaller,25.000000000000,integer square grid,ours smaller
+615,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,20,ours smaller,25.000000000000,integer square grid,ours smaller
+616,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,19,ours smaller,25.000000000000,integer square grid,ours smaller
+617,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,18,ours smaller,25.000000000000,integer square grid,ours smaller
+618,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,17,ours smaller,25.000000000000,integer square grid,ours smaller
+619,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,16,ours smaller,25.000000000000,integer square grid,ours smaller
+620,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,15,ours smaller,25.000000000000,integer square grid,ours smaller
+621,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,14,ours smaller,25.000000000000,integer square grid,ours smaller
+622,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,13,ours smaller,25.000000000000,integer square grid,ours smaller
+623,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,12,ours smaller,25.000000000000,integer square grid,ours smaller
+624,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,11,ours smaller,25.000000000000,integer square grid,ours smaller
+625,25.000000000000,integer square grid,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,10,ours smaller,25.000000000000,integer square grid,ours smaller
+626,25.535533905933,certificates/best/n626.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,9,ours smaller,25.535533905933,certificates/best/n626.cert,ours smaller
+627,25.535533905933,certificates/best/n627.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,8,ours smaller,25.535533905933,certificates/best/n627.cert,ours smaller
+628,25.583782190178,certificates/best/n628.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,7,ours smaller,25.583782190178,certificates/best/n628.cert,ours smaller
+629,25.606601717826,certificates/best/n630.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,6,ours smaller,25.606601717826,certificates/best/n630.cert,ours smaller
+630,25.606601717826,certificates/best/n630.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,5,ours smaller,25.606601717826,certificates/best/n630.cert,ours smaller
+631,25.656854249519,certificates/best/n631.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,4,ours smaller,25.656854249519,certificates/best/n631.cert,ours smaller
+632,25.677669529693,certificates/best/n633.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,3,ours smaller,25.677669529693,certificates/best/n633.cert,ours smaller
+633,25.677669529693,certificates/best/n633.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,2,ours smaller,25.677669529693,certificates/best/n633.cert,ours smaller
+634,25.707106781225,certificates/best/n634.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,1,Gobel smaller,25.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+635,25.707106781231,certificates/best/n635.cert,25 + 1/2*sqrt(2),25.707106781187,strip,24,33,635,0,Gobel smaller,25.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+636,25.727922061390,certificates/best/n636.cert,13 + 9*sqrt(2),25.727922061358,square,12,18,636,0,Gobel smaller,25.727922061358,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+637,25.778174593082,certificates/best/n637.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,16,ours smaller,25.778174593082,certificates/best/n637.cert,ours smaller
+638,25.828427124774,certificates/best/n639.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,15,ours smaller,25.828427124774,certificates/best/n639.cert,ours smaller
+639,25.828427124774,certificates/best/n639.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,14,ours smaller,25.828427124774,certificates/best/n639.cert,ours smaller
+640,25.828427124775,certificates/best/n640.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,13,ours smaller,25.828427124775,certificates/best/n640.cert,ours smaller
+641,25.899494936637,certificates/best/n641.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,12,ours smaller,25.899494936637,certificates/best/n641.cert,ours smaller
+642,25.899494936641,certificates/best/n643.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,11,ours smaller,25.899494936641,certificates/best/n643.cert,ours smaller
+643,25.899494936641,certificates/best/n643.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,10,ours smaller,25.899494936641,certificates/best/n643.cert,ours smaller
+644,25.899494936642,certificates/best/n644.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,9,ours smaller,25.899494936642,certificates/best/n644.cert,ours smaller
+645,25.949747468335,certificates/best/n645.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,8,ours smaller,25.949747468335,certificates/best/n645.cert,ours smaller
+646,25.949747468336,certificates/best/n646.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,7,ours smaller,25.949747468336,certificates/best/n646.cert,ours smaller
+647,25.953923698242,certificates/best/n647.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,6,ours smaller,25.953923698242,certificates/best/n647.cert,ours smaller
+648,25.966901721108,certificates/best/n648.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,5,ours smaller,25.966901721108,certificates/best/n648.cert,ours smaller
+649,25.976974088403,certificates/best/n649.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,4,ours smaller,25.976974088403,certificates/best/n649.cert,ours smaller
+650,25.983103013165,certificates/best/n650.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,3,ours smaller,25.983103013165,certificates/best/n650.cert,ours smaller
+651,25.984515068279,certificates/best/n651.cert,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,2,ours smaller,25.984515068279,certificates/best/n651.cert,ours smaller
+652,26.000000000000,integer square grid,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,1,ours smaller,26.000000000000,integer square grid,ours smaller
+653,26.000000000000,integer square grid,14 + 17/2*sqrt(2),26.020815280172,square,13,17,653,0,ours smaller,26.000000000000,integer square grid,ours smaller
+654,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,32,ours smaller,26.000000000000,integer square grid,ours smaller
+655,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,31,ours smaller,26.000000000000,integer square grid,ours smaller
+656,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,30,ours smaller,26.000000000000,integer square grid,ours smaller
+657,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,29,ours smaller,26.000000000000,integer square grid,ours smaller
+658,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,28,ours smaller,26.000000000000,integer square grid,ours smaller
+659,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,27,ours smaller,26.000000000000,integer square grid,ours smaller
+660,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,26,ours smaller,26.000000000000,integer square grid,ours smaller
+661,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,25,ours smaller,26.000000000000,integer square grid,ours smaller
+662,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,24,ours smaller,26.000000000000,integer square grid,ours smaller
+663,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,23,ours smaller,26.000000000000,integer square grid,ours smaller
+664,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,22,ours smaller,26.000000000000,integer square grid,ours smaller
+665,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,21,ours smaller,26.000000000000,integer square grid,ours smaller
+666,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,20,ours smaller,26.000000000000,integer square grid,ours smaller
+667,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,19,ours smaller,26.000000000000,integer square grid,ours smaller
+668,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,18,ours smaller,26.000000000000,integer square grid,ours smaller
+669,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,17,ours smaller,26.000000000000,integer square grid,ours smaller
+670,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,16,ours smaller,26.000000000000,integer square grid,ours smaller
+671,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,15,ours smaller,26.000000000000,integer square grid,ours smaller
+672,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,14,ours smaller,26.000000000000,integer square grid,ours smaller
+673,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,13,ours smaller,26.000000000000,integer square grid,ours smaller
+674,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,12,ours smaller,26.000000000000,integer square grid,ours smaller
+675,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,11,ours smaller,26.000000000000,integer square grid,ours smaller
+676,26.000000000000,integer square grid,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,10,ours smaller,26.000000000000,integer square grid,ours smaller
+677,26.535533905933,certificates/best/n677.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,9,ours smaller,26.535533905933,certificates/best/n677.cert,ours smaller
+678,26.535533905933,certificates/best/n678.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,8,ours smaller,26.535533905933,certificates/best/n678.cert,ours smaller
+679,26.583782190178,certificates/best/n679.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,7,ours smaller,26.583782190178,certificates/best/n679.cert,ours smaller
+680,26.606601717826,certificates/best/n681.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,6,ours smaller,26.606601717826,certificates/best/n681.cert,ours smaller
+681,26.606601717826,certificates/best/n681.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,5,ours smaller,26.606601717826,certificates/best/n681.cert,ours smaller
+682,26.656854249519,certificates/best/n682.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,4,ours smaller,26.656854249519,certificates/best/n682.cert,ours smaller
+683,26.677669529693,certificates/best/n684.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,3,ours smaller,26.677669529693,certificates/best/n684.cert,ours smaller
+684,26.677669529693,certificates/best/n684.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,2,ours smaller,26.677669529693,certificates/best/n684.cert,ours smaller
+685,26.707106781220,certificates/best/n685.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,1,Gobel smaller,26.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+686,26.707106781231,certificates/best/n686.cert,26 + 1/2*sqrt(2),26.707106781187,strip,25,34,686,0,Gobel smaller,26.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+687,26.727922061390,certificates/best/n687.cert,14 + 9*sqrt(2),26.727922061358,square,13,18,688,1,Gobel smaller,26.727922061358,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+688,26.727922061420,certificates/best/n688.cert,14 + 9*sqrt(2),26.727922061358,square,13,18,688,0,Gobel smaller,26.727922061358,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+689,26.778174593084,certificates/best/n689.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,36,ours smaller,26.778174593084,certificates/best/n689.cert,ours smaller
+690,26.828427124774,certificates/best/n690.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,35,ours smaller,26.828427124774,certificates/best/n690.cert,ours smaller
+691,26.828427124775,certificates/best/n691.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,34,ours smaller,26.828427124775,certificates/best/n691.cert,ours smaller
+692,26.828427124777,certificates/best/n692.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,33,ours smaller,26.828427124777,certificates/best/n692.cert,ours smaller
+693,26.899494936641,certificates/best/n694.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,32,ours smaller,26.899494936641,certificates/best/n694.cert,ours smaller
+694,26.899494936641,certificates/best/n694.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,31,ours smaller,26.899494936641,certificates/best/n694.cert,ours smaller
+695,26.899494936642,certificates/best/n695.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,30,ours smaller,26.899494936642,certificates/best/n695.cert,ours smaller
+696,26.949747468335,certificates/best/n696.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,29,ours smaller,26.949747468335,certificates/best/n696.cert,ours smaller
+697,26.949747468336,certificates/best/n697.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,28,ours smaller,26.949747468336,certificates/best/n697.cert,ours smaller
+698,26.949747468338,certificates/best/n698.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,27,ours smaller,26.949747468338,certificates/best/n698.cert,ours smaller
+699,26.949747468415,certificates/best/n699.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,26,ours smaller,26.949747468415,certificates/best/n699.cert,ours smaller
+700,26.976140287367,certificates/best/n701.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,25,ours smaller,26.976140287367,certificates/best/n701.cert,ours smaller
+701,26.976140287367,certificates/best/n701.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,24,ours smaller,26.976140287367,certificates/best/n701.cert,ours smaller
+702,26.979728191289,certificates/best/n702.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,23,ours smaller,26.979728191289,certificates/best/n702.cert,ours smaller
+703,26.990560384076,certificates/best/n703.cert,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,22,ours smaller,26.990560384076,certificates/best/n703.cert,ours smaller
+704,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,21,ours smaller,27.000000000000,integer square grid,ours smaller
+705,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,20,ours smaller,27.000000000000,integer square grid,ours smaller
+706,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,19,ours smaller,27.000000000000,integer square grid,ours smaller
+707,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,18,ours smaller,27.000000000000,integer square grid,ours smaller
+708,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,17,ours smaller,27.000000000000,integer square grid,ours smaller
+709,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,16,ours smaller,27.000000000000,integer square grid,ours smaller
+710,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,15,ours smaller,27.000000000000,integer square grid,ours smaller
+711,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,14,ours smaller,27.000000000000,integer square grid,ours smaller
+712,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,13,ours smaller,27.000000000000,integer square grid,ours smaller
+713,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,12,ours smaller,27.000000000000,integer square grid,ours smaller
+714,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,11,ours smaller,27.000000000000,integer square grid,ours smaller
+715,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,10,ours smaller,27.000000000000,integer square grid,ours smaller
+716,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,9,ours smaller,27.000000000000,integer square grid,ours smaller
+717,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,8,ours smaller,27.000000000000,integer square grid,ours smaller
+718,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,7,ours smaller,27.000000000000,integer square grid,ours smaller
+719,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,6,ours smaller,27.000000000000,integer square grid,ours smaller
+720,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,5,ours smaller,27.000000000000,integer square grid,ours smaller
+721,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,4,ours smaller,27.000000000000,integer square grid,ours smaller
+722,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,3,ours smaller,27.000000000000,integer square grid,ours smaller
+723,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,2,ours smaller,27.000000000000,integer square grid,ours smaller
+724,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,1,ours smaller,27.000000000000,integer square grid,ours smaller
+725,27.000000000000,integer square grid,14 + 19/2*sqrt(2),27.435028842545,square,13,19,725,0,ours smaller,27.000000000000,integer square grid,ours smaller
+726,27.000000000000,integer square grid,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,14,ours smaller,27.000000000000,integer square grid,ours smaller
+727,27.000000000000,integer square grid,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,13,ours smaller,27.000000000000,integer square grid,ours smaller
+728,27.000000000000,integer square grid,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,12,ours smaller,27.000000000000,integer square grid,ours smaller
+729,27.000000000000,integer square grid,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,11,ours smaller,27.000000000000,integer square grid,ours smaller
+730,27.535533905933,certificates/best/n730.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,10,ours smaller,27.535533905933,certificates/best/n730.cert,ours smaller
+731,27.535533905933,certificates/best/n731.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,9,ours smaller,27.535533905933,certificates/best/n731.cert,ours smaller
+732,27.583782190178,certificates/best/n732.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,8,ours smaller,27.583782190178,certificates/best/n732.cert,ours smaller
+733,27.606601717826,certificates/best/n734.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,7,ours smaller,27.606601717826,certificates/best/n734.cert,ours smaller
+734,27.606601717826,certificates/best/n734.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,6,ours smaller,27.606601717826,certificates/best/n734.cert,ours smaller
+735,27.656854249519,certificates/best/n735.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,5,ours smaller,27.656854249519,certificates/best/n735.cert,ours smaller
+736,27.656854249525,certificates/best/n736.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,4,ours smaller,27.656854249525,certificates/best/n736.cert,ours smaller
+737,27.677669529693,certificates/best/n737.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,3,ours smaller,27.677669529693,certificates/best/n737.cert,ours smaller
+738,27.707106781220,certificates/best/n738.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,2,Gobel smaller,27.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+739,27.707106781231,certificates/best/n739.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,1,Gobel smaller,27.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+740,27.707106781239,certificates/best/n740.cert,27 + 1/2*sqrt(2),27.707106781187,strip,26,36,740,0,Gobel smaller,27.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+741,27.727922061420,certificates/best/n741.cert,2 + 37/2*sqrt(2),28.162950903903,corner_strip,26,36,741,0,ours smaller,27.727922061420,certificates/best/n741.cert,ours smaller
+742,27.778174593084,certificates/best/n742.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,39,ours smaller,27.778174593084,certificates/best/n742.cert,ours smaller
+743,27.798989873256,certificates/best/n744.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,38,ours smaller,27.798989873256,certificates/best/n744.cert,ours smaller
+744,27.798989873256,certificates/best/n744.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,37,ours smaller,27.798989873256,certificates/best/n744.cert,ours smaller
+745,27.828427124777,certificates/best/n745.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,36,ours smaller,27.828427124777,certificates/best/n745.cert,ours smaller
+746,27.828427124795,certificates/best/n746.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,35,ours smaller,27.828427124795,certificates/best/n746.cert,ours smaller
+747,27.899494936641,certificates/best/n747.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,34,ours smaller,27.899494936641,certificates/best/n747.cert,ours smaller
+748,27.899494936642,certificates/best/n748.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,33,ours smaller,27.899494936642,certificates/best/n748.cert,ours smaller
+749,27.925990619507,certificates/best/n749.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,32,ours smaller,27.925990619507,certificates/best/n749.cert,ours smaller
+750,27.928780276056,certificates/best/n750.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,31,ours smaller,27.928780276056,certificates/best/n750.cert,ours smaller
+751,27.942911732349,certificates/best/n754.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,30,ours smaller,27.942911732349,certificates/best/n754.cert,ours smaller
+752,27.942911732349,certificates/best/n754.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,29,ours smaller,27.942911732349,certificates/best/n754.cert,ours smaller
+753,27.942911732349,certificates/best/n754.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,28,ours smaller,27.942911732349,certificates/best/n754.cert,ours smaller
+754,27.942911732349,certificates/best/n754.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,27,ours smaller,27.942911732349,certificates/best/n754.cert,ours smaller
+755,27.952229334413,certificates/best/n755.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,26,ours smaller,27.952229334413,certificates/best/n755.cert,ours smaller
+756,27.984282828196,certificates/best/n756.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,25,ours smaller,27.984282828196,certificates/best/n756.cert,ours smaller
+757,27.990560384076,certificates/best/n757.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,24,ours smaller,27.990560384076,certificates/best/n757.cert,ours smaller
+758,27.995103637067,certificates/best/n758.cert,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,23,ours smaller,27.995103637067,certificates/best/n758.cert,ours smaller
+759,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,22,ours smaller,28.000000000000,integer square grid,ours smaller
+760,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,21,ours smaller,28.000000000000,integer square grid,ours smaller
+761,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,20,ours smaller,28.000000000000,integer square grid,ours smaller
+762,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,19,ours smaller,28.000000000000,integer square grid,ours smaller
+763,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,18,ours smaller,28.000000000000,integer square grid,ours smaller
+764,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,17,ours smaller,28.000000000000,integer square grid,ours smaller
+765,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,16,ours smaller,28.000000000000,integer square grid,ours smaller
+766,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,15,ours smaller,28.000000000000,integer square grid,ours smaller
+767,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,14,ours smaller,28.000000000000,integer square grid,ours smaller
+768,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,13,ours smaller,28.000000000000,integer square grid,ours smaller
+769,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,12,ours smaller,28.000000000000,integer square grid,ours smaller
+770,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,11,ours smaller,28.000000000000,integer square grid,ours smaller
+771,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,10,ours smaller,28.000000000000,integer square grid,ours smaller
+772,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,9,ours smaller,28.000000000000,integer square grid,ours smaller
+773,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,8,ours smaller,28.000000000000,integer square grid,ours smaller
+774,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,7,ours smaller,28.000000000000,integer square grid,ours smaller
+775,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,6,ours smaller,28.000000000000,integer square grid,ours smaller
+776,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,5,ours smaller,28.000000000000,integer square grid,ours smaller
+777,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,4,ours smaller,28.000000000000,integer square grid,ours smaller
+778,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,3,ours smaller,28.000000000000,integer square grid,ours smaller
+779,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,2,ours smaller,28.000000000000,integer square grid,ours smaller
+780,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,1,ours smaller,28.000000000000,integer square grid,ours smaller
+781,28.000000000000,integer square grid,15 + 19/2*sqrt(2),28.435028842545,square,14,19,781,0,ours smaller,28.000000000000,integer square grid,ours smaller
+782,28.000000000000,integer square grid,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,13,ours smaller,28.000000000000,integer square grid,ours smaller
+783,28.000000000000,integer square grid,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,12,ours smaller,28.000000000000,integer square grid,ours smaller
+784,28.000000000000,integer square grid,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,11,ours smaller,28.000000000000,integer square grid,ours smaller
+785,28.535533905933,certificates/best/n785.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,10,ours smaller,28.535533905933,certificates/best/n785.cert,ours smaller
+786,28.535533905933,certificates/best/n786.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,9,ours smaller,28.535533905933,certificates/best/n786.cert,ours smaller
+787,28.583782190178,certificates/best/n787.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,8,ours smaller,28.583782190178,certificates/best/n787.cert,ours smaller
+788,28.606601717826,certificates/best/n789.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,7,ours smaller,28.606601717826,certificates/best/n789.cert,ours smaller
+789,28.606601717826,certificates/best/n789.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,6,ours smaller,28.606601717826,certificates/best/n789.cert,ours smaller
+790,28.656854249519,certificates/best/n790.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,5,ours smaller,28.656854249519,certificates/best/n790.cert,ours smaller
+791,28.656854249525,certificates/best/n791.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,4,ours smaller,28.656854249525,certificates/best/n791.cert,ours smaller
+792,28.656854249526,certificates/best/n792.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,3,ours smaller,28.656854249526,certificates/best/n792.cert,ours smaller
+793,28.707106781220,certificates/best/n793.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,2,Gobel smaller,28.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+794,28.707106781231,certificates/best/n794.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,1,Gobel smaller,28.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+795,28.707106781239,certificates/best/n795.cert,28 + 1/2*sqrt(2),28.707106781187,strip,27,37,795,0,Gobel smaller,28.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+796,28.727922061393,certificates/best/n796.cert,2 + 19*sqrt(2),28.870057685089,corner_strip,27,37,796,0,ours smaller,28.727922061393,certificates/best/n796.cert,ours smaller
+797,28.778174593084,certificates/best/n797.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,23,ours smaller,28.778174593084,certificates/best/n797.cert,ours smaller
+798,28.798989873256,certificates/best/n799.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,22,ours smaller,28.798989873256,certificates/best/n799.cert,ours smaller
+799,28.798989873256,certificates/best/n799.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,21,ours smaller,28.798989873256,certificates/best/n799.cert,ours smaller
+800,28.798989873257,certificates/best/n800.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,20,ours smaller,28.798989873257,certificates/best/n800.cert,ours smaller
+801,28.828427124795,certificates/best/n801.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,19,ours smaller,28.828427124795,certificates/best/n801.cert,ours smaller
+802,28.828427124817,certificates/best/n802.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,18,ours smaller,28.828427124817,certificates/best/n802.cert,ours smaller
+803,28.899494936642,certificates/best/n803.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,17,ours smaller,28.899494936642,certificates/best/n803.cert,ours smaller
+804,28.920398747577,certificates/best/n804.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,16,ours smaller,28.920398747577,certificates/best/n804.cert,ours smaller
+805,28.924508775310,certificates/best/n806.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,15,ours smaller,28.924508775310,certificates/best/n806.cert,ours smaller
+806,28.924508775310,certificates/best/n806.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,14,ours smaller,28.924508775310,certificates/best/n806.cert,ours smaller
+807,28.933881004714,certificates/best/n808.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,13,ours smaller,28.933881004714,certificates/best/n808.cert,ours smaller
+808,28.933881004714,certificates/best/n808.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,12,ours smaller,28.933881004714,certificates/best/n808.cert,ours smaller
+809,28.938951653895,certificates/best/n809.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,11,ours smaller,28.938951653895,certificates/best/n809.cert,ours smaller
+810,28.951463124704,certificates/best/n810.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,10,ours smaller,28.951463124704,certificates/best/n810.cert,ours smaller
+811,28.984282828196,certificates/best/n811.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,9,ours smaller,28.984282828196,certificates/best/n811.cert,ours smaller
+812,28.988287236851,certificates/best/n812.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,8,ours smaller,28.988287236851,certificates/best/n812.cert,ours smaller
+813,28.990560384076,certificates/best/n813.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,7,ours smaller,28.990560384076,certificates/best/n813.cert,ours smaller
+814,28.997905039848,certificates/best/n814.cert,15 + 10*sqrt(2),29.142135623731,square,14,20,820,6,ours smaller,28.997905039848,certificates/best/n814.cert,ours smaller
+815,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,5,ours smaller,29.000000000000,integer square grid,ours smaller
+816,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,4,ours smaller,29.000000000000,integer square grid,ours smaller
+817,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,3,ours smaller,29.000000000000,integer square grid,ours smaller
+818,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,2,ours smaller,29.000000000000,integer square grid,ours smaller
+819,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,1,ours smaller,29.000000000000,integer square grid,ours smaller
+820,29.000000000000,integer square grid,15 + 10*sqrt(2),29.142135623731,square,14,20,820,0,ours smaller,29.000000000000,integer square grid,ours smaller
+821,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,32,ours smaller,29.000000000000,integer square grid,ours smaller
+822,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,31,ours smaller,29.000000000000,integer square grid,ours smaller
+823,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,30,ours smaller,29.000000000000,integer square grid,ours smaller
+824,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,29,ours smaller,29.000000000000,integer square grid,ours smaller
+825,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,28,ours smaller,29.000000000000,integer square grid,ours smaller
+826,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,27,ours smaller,29.000000000000,integer square grid,ours smaller
+827,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,26,ours smaller,29.000000000000,integer square grid,ours smaller
+828,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,25,ours smaller,29.000000000000,integer square grid,ours smaller
+829,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,24,ours smaller,29.000000000000,integer square grid,ours smaller
+830,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,23,ours smaller,29.000000000000,integer square grid,ours smaller
+831,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,22,ours smaller,29.000000000000,integer square grid,ours smaller
+832,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,21,ours smaller,29.000000000000,integer square grid,ours smaller
+833,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,20,ours smaller,29.000000000000,integer square grid,ours smaller
+834,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,19,ours smaller,29.000000000000,integer square grid,ours smaller
+835,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,18,ours smaller,29.000000000000,integer square grid,ours smaller
+836,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,17,ours smaller,29.000000000000,integer square grid,ours smaller
+837,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,16,ours smaller,29.000000000000,integer square grid,ours smaller
+838,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,15,ours smaller,29.000000000000,integer square grid,ours smaller
+839,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,14,ours smaller,29.000000000000,integer square grid,ours smaller
+840,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,13,ours smaller,29.000000000000,integer square grid,ours smaller
+841,29.000000000000,integer square grid,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,12,ours smaller,29.000000000000,integer square grid,ours smaller
+842,29.535533905933,certificates/best/n842.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,11,ours smaller,29.535533905933,certificates/best/n842.cert,ours smaller
+843,29.535533905933,certificates/best/n843.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,10,ours smaller,29.535533905933,certificates/best/n843.cert,ours smaller
+844,29.583782190178,certificates/best/n844.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,9,ours smaller,29.583782190178,certificates/best/n844.cert,ours smaller
+845,29.606601717826,certificates/best/n846.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,8,ours smaller,29.606601717826,certificates/best/n846.cert,ours smaller
+846,29.606601717826,certificates/best/n846.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,7,ours smaller,29.606601717826,certificates/best/n846.cert,ours smaller
+847,29.656854249519,certificates/best/n847.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,6,ours smaller,29.656854249519,certificates/best/n847.cert,ours smaller
+848,29.656854249525,certificates/best/n848.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,5,ours smaller,29.656854249525,certificates/best/n848.cert,ours smaller
+849,29.656854249526,certificates/best/n849.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,4,ours smaller,29.656854249526,certificates/best/n849.cert,ours smaller
+850,29.656854249528,certificates/best/n850.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,3,ours smaller,29.656854249528,certificates/best/n850.cert,ours smaller
+851,29.707106781231,certificates/best/n851.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,2,Gobel smaller,29.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+852,29.707106781235,certificates/best/n853.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,1,Gobel smaller,29.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+853,29.707106781235,certificates/best/n853.cert,29 + 1/2*sqrt(2),29.707106781187,strip,28,39,853,0,Gobel smaller,29.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+854,29.778174593084,certificates/best/n854.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,7,ours smaller,29.778174593084,certificates/best/n854.cert,ours smaller
+855,29.798989873256,certificates/best/n856.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,6,ours smaller,29.798989873256,certificates/best/n856.cert,ours smaller
+856,29.798989873256,certificates/best/n856.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,5,ours smaller,29.798989873256,certificates/best/n856.cert,ours smaller
+857,29.798989873257,certificates/best/n857.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,4,ours smaller,29.798989873257,certificates/best/n857.cert,ours smaller
+858,29.828427124795,certificates/best/n858.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,3,ours smaller,29.828427124795,certificates/best/n858.cert,ours smaller
+859,29.828427124807,certificates/best/n859.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,2,ours smaller,29.828427124807,certificates/best/n859.cert,ours smaller
+860,29.849242404954,certificates/best/n861.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,1,Gobel smaller,29.849242404918,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+861,29.849242404954,certificates/best/n861.cert,15 + 21/2*sqrt(2),29.849242404918,square,14,21,861,0,Gobel smaller,29.849242404918,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+862,29.899494936647,certificates/best/n862.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,18,ours smaller,29.899494936647,certificates/best/n862.cert,ours smaller
+863,29.924508775310,certificates/best/n863.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,17,ours smaller,29.924508775310,certificates/best/n863.cert,ours smaller
+864,29.933881004714,certificates/best/n865.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,16,ours smaller,29.933881004714,certificates/best/n865.cert,ours smaller
+865,29.933881004714,certificates/best/n865.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,15,ours smaller,29.933881004714,certificates/best/n865.cert,ours smaller
+866,29.935914948135,certificates/best/n866.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,14,ours smaller,29.935914948135,certificates/best/n866.cert,ours smaller
+867,29.950867216900,certificates/best/n867.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,13,ours smaller,29.950867216900,certificates/best/n867.cert,ours smaller
+868,29.984276416596,certificates/best/n868.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,12,ours smaller,29.984276416596,certificates/best/n868.cert,ours smaller
+869,29.986851519819,certificates/best/n870.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,11,ours smaller,29.986851519819,certificates/best/n870.cert,ours smaller
+870,29.986851519819,certificates/best/n870.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,10,ours smaller,29.986851519819,certificates/best/n870.cert,ours smaller
+871,29.989568689185,certificates/best/n871.cert,16 + 10*sqrt(2),30.142135623731,square,15,20,880,9,ours smaller,29.989568689185,certificates/best/n871.cert,ours smaller
+872,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,8,ours smaller,30.000000000000,integer square grid,ours smaller
+873,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,7,ours smaller,30.000000000000,integer square grid,ours smaller
+874,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,6,ours smaller,30.000000000000,integer square grid,ours smaller
+875,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,5,ours smaller,30.000000000000,integer square grid,ours smaller
+876,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,4,ours smaller,30.000000000000,integer square grid,ours smaller
+877,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,3,ours smaller,30.000000000000,integer square grid,ours smaller
+878,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,2,ours smaller,30.000000000000,integer square grid,ours smaller
+879,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,1,ours smaller,30.000000000000,integer square grid,ours smaller
+880,30.000000000000,integer square grid,16 + 10*sqrt(2),30.142135623731,square,15,20,880,0,ours smaller,30.000000000000,integer square grid,ours smaller
+881,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,31,ours smaller,30.000000000000,integer square grid,ours smaller
+882,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,30,ours smaller,30.000000000000,integer square grid,ours smaller
+883,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,29,ours smaller,30.000000000000,integer square grid,ours smaller
+884,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,28,ours smaller,30.000000000000,integer square grid,ours smaller
+885,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,27,ours smaller,30.000000000000,integer square grid,ours smaller
+886,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,26,ours smaller,30.000000000000,integer square grid,ours smaller
+887,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,25,ours smaller,30.000000000000,integer square grid,ours smaller
+888,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,24,ours smaller,30.000000000000,integer square grid,ours smaller
+889,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,23,ours smaller,30.000000000000,integer square grid,ours smaller
+890,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,22,ours smaller,30.000000000000,integer square grid,ours smaller
+891,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,21,ours smaller,30.000000000000,integer square grid,ours smaller
+892,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,20,ours smaller,30.000000000000,integer square grid,ours smaller
+893,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,19,ours smaller,30.000000000000,integer square grid,ours smaller
+894,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,18,ours smaller,30.000000000000,integer square grid,ours smaller
+895,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,17,ours smaller,30.000000000000,integer square grid,ours smaller
+896,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,16,ours smaller,30.000000000000,integer square grid,ours smaller
+897,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,15,ours smaller,30.000000000000,integer square grid,ours smaller
+898,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,14,ours smaller,30.000000000000,integer square grid,ours smaller
+899,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,13,ours smaller,30.000000000000,integer square grid,ours smaller
+900,30.000000000000,integer square grid,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,12,ours smaller,30.000000000000,integer square grid,ours smaller
+901,30.535533905933,certificates/best/n901.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,11,ours smaller,30.535533905933,certificates/best/n901.cert,ours smaller
+902,30.535533905933,certificates/best/n902.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,10,ours smaller,30.535533905933,certificates/best/n902.cert,ours smaller
+903,30.583782190178,certificates/best/n903.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,9,ours smaller,30.583782190178,certificates/best/n903.cert,ours smaller
+904,30.606601717826,certificates/best/n905.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,8,ours smaller,30.606601717826,certificates/best/n905.cert,ours smaller
+905,30.606601717826,certificates/best/n905.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,7,ours smaller,30.606601717826,certificates/best/n905.cert,ours smaller
+906,30.656854249519,certificates/best/n906.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,6,ours smaller,30.656854249519,certificates/best/n906.cert,ours smaller
+907,30.656854249525,certificates/best/n907.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,5,ours smaller,30.656854249525,certificates/best/n907.cert,ours smaller
+908,30.656854249526,certificates/best/n908.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,4,ours smaller,30.656854249526,certificates/best/n908.cert,ours smaller
+909,30.656854249528,certificates/best/n909.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,3,ours smaller,30.656854249528,certificates/best/n909.cert,ours smaller
+910,30.707106781225,certificates/best/n910.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,2,Gobel smaller,30.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+911,30.707106781235,certificates/best/n912.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,1,Gobel smaller,30.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+912,30.707106781235,certificates/best/n912.cert,30 + 1/2*sqrt(2),30.707106781187,strip,29,40,912,0,Gobel smaller,30.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+913,30.778174593084,certificates/best/n913.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,8,ours smaller,30.778174593084,certificates/best/n913.cert,ours smaller
+914,30.778174593089,certificates/best/n914.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,7,ours smaller,30.778174593089,certificates/best/n914.cert,ours smaller
+915,30.798989873256,certificates/best/n915.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,6,ours smaller,30.798989873256,certificates/best/n915.cert,ours smaller
+916,30.798989873257,certificates/best/n916.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,5,ours smaller,30.798989873257,certificates/best/n916.cert,ours smaller
+917,30.828427124795,certificates/best/n917.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,4,ours smaller,30.828427124795,certificates/best/n917.cert,ours smaller
+918,30.828427124807,certificates/best/n918.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,3,ours smaller,30.828427124807,certificates/best/n918.cert,ours smaller
+919,30.849242404954,certificates/best/n920.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,2,Gobel smaller,30.849242404918,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+920,30.849242404954,certificates/best/n920.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,1,Gobel smaller,30.849242404918,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+921,30.849242405004,certificates/best/n921.cert,16 + 21/2*sqrt(2),30.849242404918,square,15,21,921,0,Gobel smaller,30.849242404918,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+922,30.899494939175,certificates/best/n922.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,42,ours smaller,30.899494939175,certificates/best/n922.cert,ours smaller
+923,30.933766814037,certificates/best/n924.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,41,ours smaller,30.933766814037,certificates/best/n924.cert,ours smaller
+924,30.933766814037,certificates/best/n924.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,40,ours smaller,30.933766814037,certificates/best/n924.cert,ours smaller
+925,30.935914948135,certificates/best/n925.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,39,ours smaller,30.935914948135,certificates/best/n925.cert,ours smaller
+926,30.950867216900,certificates/best/n926.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,38,ours smaller,30.950867216900,certificates/best/n926.cert,ours smaller
+927,30.982520498719,certificates/best/n929.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,37,ours smaller,30.982520498719,certificates/best/n929.cert,ours smaller
+928,30.982520498719,certificates/best/n929.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,36,ours smaller,30.982520498719,certificates/best/n929.cert,ours smaller
+929,30.982520498719,certificates/best/n929.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,35,ours smaller,30.982520498719,certificates/best/n929.cert,ours smaller
+930,30.988287236851,certificates/best/n930.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,34,ours smaller,30.988287236851,certificates/best/n930.cert,ours smaller
+931,30.990560384076,certificates/best/n931.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,33,ours smaller,30.990560384076,certificates/best/n931.cert,ours smaller
+932,30.999256308447,certificates/best/n932.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,32,ours smaller,30.999256308447,certificates/best/n932.cert,ours smaller
+933,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,31,ours smaller,31.000000000000,integer square grid,ours smaller
+934,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,30,ours smaller,31.000000000000,integer square grid,ours smaller
+935,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,29,ours smaller,31.000000000000,integer square grid,ours smaller
+936,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,28,ours smaller,31.000000000000,integer square grid,ours smaller
+937,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,27,ours smaller,31.000000000000,integer square grid,ours smaller
+938,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,26,ours smaller,31.000000000000,integer square grid,ours smaller
+939,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,25,ours smaller,31.000000000000,integer square grid,ours smaller
+940,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,24,ours smaller,31.000000000000,integer square grid,ours smaller
+941,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,23,ours smaller,31.000000000000,integer square grid,ours smaller
+942,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,22,ours smaller,31.000000000000,integer square grid,ours smaller
+943,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,21,ours smaller,31.000000000000,integer square grid,ours smaller
+944,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,20,ours smaller,31.000000000000,integer square grid,ours smaller
+945,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,19,ours smaller,31.000000000000,integer square grid,ours smaller
+946,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,18,ours smaller,31.000000000000,integer square grid,ours smaller
+947,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,17,ours smaller,31.000000000000,integer square grid,ours smaller
+948,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,16,ours smaller,31.000000000000,integer square grid,ours smaller
+949,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,15,ours smaller,31.000000000000,integer square grid,ours smaller
+950,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,14,ours smaller,31.000000000000,integer square grid,ours smaller
+951,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,13,ours smaller,31.000000000000,integer square grid,ours smaller
+952,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,12,ours smaller,31.000000000000,integer square grid,ours smaller
+953,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,11,ours smaller,31.000000000000,integer square grid,ours smaller
+954,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,10,ours smaller,31.000000000000,integer square grid,ours smaller
+955,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,9,ours smaller,31.000000000000,integer square grid,ours smaller
+956,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,8,ours smaller,31.000000000000,integer square grid,ours smaller
+957,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,7,ours smaller,31.000000000000,integer square grid,ours smaller
+958,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,6,ours smaller,31.000000000000,integer square grid,ours smaller
+959,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,5,ours smaller,31.000000000000,integer square grid,ours smaller
+960,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,4,ours smaller,31.000000000000,integer square grid,ours smaller
+961,31.000000000000,integer square grid,16 + 11*sqrt(2),31.556349186105,square,15,22,964,3,ours smaller,31.000000000000,integer square grid,ours smaller
+962,31.535533905933,certificates/best/n962.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,2,ours smaller,31.535533905933,certificates/best/n962.cert,ours smaller
+963,31.535533905933,certificates/best/n963.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,1,ours smaller,31.535533905933,certificates/best/n963.cert,ours smaller
+964,31.556349186143,certificates/best/n964.cert,16 + 11*sqrt(2),31.556349186105,square,15,22,964,0,Gobel smaller,31.556349186105,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html,exact tie
+965,31.606601717826,certificates/best/n966.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,9,ours smaller,31.606601717826,certificates/best/n966.cert,ours smaller
+966,31.606601717826,certificates/best/n966.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,8,ours smaller,31.606601717826,certificates/best/n966.cert,ours smaller
+967,31.656854249519,certificates/best/n967.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,7,ours smaller,31.656854249519,certificates/best/n967.cert,ours smaller
+968,31.656854249525,certificates/best/n968.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,6,ours smaller,31.656854249525,certificates/best/n968.cert,ours smaller
+969,31.656854249526,certificates/best/n969.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,5,ours smaller,31.656854249526,certificates/best/n969.cert,ours smaller
+970,31.656854249528,certificates/best/n970.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,4,ours smaller,31.656854249528,certificates/best/n970.cert,ours smaller
+971,31.707106781225,certificates/best/n971.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,3,Gobel smaller,31.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+972,31.707106781227,certificates/best/n974.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,2,Gobel smaller,31.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+973,31.707106781227,certificates/best/n974.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,1,Gobel smaller,31.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+974,31.707106781227,certificates/best/n974.cert,31 + 1/2*sqrt(2),31.707106781187,strip,30,42,974,0,Gobel smaller,31.707106781187,https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html,exact tie
+975,31.778174593089,certificates/best/n975.cert,2 + 43/2*sqrt(2),32.405591591022,corner_strip,30,42,975,0,ours smaller,31.778174593089,certificates/best/n975.cert,ours smaller
+976,31.778174593090,certificates/best/n976.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,52,ours smaller,31.778174593090,certificates/best/n976.cert,ours smaller
+977,31.798989873257,certificates/best/n977.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,51,ours smaller,31.798989873257,certificates/best/n977.cert,ours smaller
+978,31.828427124795,certificates/best/n978.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,50,ours smaller,31.828427124795,certificates/best/n978.cert,ours smaller
+979,31.828427124802,certificates/best/n980.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,49,ours smaller,31.828427124802,certificates/best/n980.cert,ours smaller
+980,31.828427124802,certificates/best/n980.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,48,ours smaller,31.828427124802,certificates/best/n980.cert,ours smaller
+981,31.849242404954,certificates/best/n981.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,47,ours smaller,31.849242404954,certificates/best/n981.cert,ours smaller
+982,31.849242405004,certificates/best/n982.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,46,ours smaller,31.849242405004,certificates/best/n982.cert,ours smaller
+983,31.899494936650,certificates/best/n983.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,45,ours smaller,31.899494936650,certificates/best/n983.cert,ours smaller
+984,31.920310216821,certificates/best/n984.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,44,ours smaller,31.920310216821,certificates/best/n984.cert,ours smaller
+985,31.920310216821,certificates/best/n986.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,43,ours smaller,31.920310216821,certificates/best/n986.cert,ours smaller
+986,31.920310216821,certificates/best/n986.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,42,ours smaller,31.920310216821,certificates/best/n986.cert,ours smaller
+987,31.949747468344,certificates/best/n987.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,41,ours smaller,31.949747468344,certificates/best/n987.cert,ours smaller
+988,31.949747468406,certificates/best/n988.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,40,ours smaller,31.949747468406,certificates/best/n988.cert,ours smaller
+989,31.982520498719,certificates/best/n990.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,39,ours smaller,31.982520498719,certificates/best/n990.cert,ours smaller
+990,31.982520498719,certificates/best/n990.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,38,ours smaller,31.982520498719,certificates/best/n990.cert,ours smaller
+991,31.988287236851,certificates/best/n991.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,37,ours smaller,31.988287236851,certificates/best/n991.cert,ours smaller
+992,31.988287236851,certificates/best/n992.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,36,ours smaller,31.988287236851,certificates/best/n992.cert,ours smaller
+993,31.988287236851,certificates/best/n993.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,35,ours smaller,31.988287236851,certificates/best/n993.cert,ours smaller
+994,31.996783396632,certificates/best/n994.cert,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,34,ours smaller,31.996783396632,certificates/best/n994.cert,ours smaller
+995,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,33,ours smaller,32.000000000000,integer square grid,ours smaller
+996,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,32,ours smaller,32.000000000000,integer square grid,ours smaller
+997,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,31,ours smaller,32.000000000000,integer square grid,ours smaller
+998,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,30,ours smaller,32.000000000000,integer square grid,ours smaller
+999,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,29,ours smaller,32.000000000000,integer square grid,ours smaller
+1000,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,28,ours smaller,32.000000000000,integer square grid,ours smaller
+1001,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,27,ours smaller,32.000000000000,integer square grid,ours smaller
+1002,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,26,ours smaller,32.000000000000,integer square grid,ours smaller
+1003,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,25,ours smaller,32.000000000000,integer square grid,ours smaller
+1004,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,24,ours smaller,32.000000000000,integer square grid,ours smaller
+1005,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,23,ours smaller,32.000000000000,integer square grid,ours smaller
+1006,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,22,ours smaller,32.000000000000,integer square grid,ours smaller
+1007,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,21,ours smaller,32.000000000000,integer square grid,ours smaller
+1008,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,20,ours smaller,32.000000000000,integer square grid,ours smaller
+1009,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,19,ours smaller,32.000000000000,integer square grid,ours smaller
+1010,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,18,ours smaller,32.000000000000,integer square grid,ours smaller
+1011,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,17,ours smaller,32.000000000000,integer square grid,ours smaller
+1012,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,16,ours smaller,32.000000000000,integer square grid,ours smaller
+1013,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,15,ours smaller,32.000000000000,integer square grid,ours smaller
+1014,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,14,ours smaller,32.000000000000,integer square grid,ours smaller
+1015,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,13,ours smaller,32.000000000000,integer square grid,ours smaller
+1016,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,12,ours smaller,32.000000000000,integer square grid,ours smaller
+1017,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,11,ours smaller,32.000000000000,integer square grid,ours smaller
+1018,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,10,ours smaller,32.000000000000,integer square grid,ours smaller
+1019,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,9,ours smaller,32.000000000000,integer square grid,ours smaller
+1020,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,8,ours smaller,32.000000000000,integer square grid,ours smaller
+1021,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,7,ours smaller,32.000000000000,integer square grid,ours smaller
+1022,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,6,ours smaller,32.000000000000,integer square grid,ours smaller
+1023,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,5,ours smaller,32.000000000000,integer square grid,ours smaller
+1024,32.000000000000,integer square grid,17 + 11*sqrt(2),32.556349186105,square,16,22,1028,4,ours smaller,32.000000000000,integer square grid,ours smaller

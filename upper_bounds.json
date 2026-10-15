@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-15T00:31:36.778140+00:00",
+  "generated": "2026-10-15T01:19:55.490352+00:00",
   "max_n": 1024,
-  "note": "Each count has an unconditional grid upper bound. Exact rational/algebraic certificate bounds are retained separately from frozen reference comparisons and reported register values. Source links and certificate hashes preserve attribution.",
+  "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
     "1": {
       "verified": {
@@ -65,11 +65,22 @@
     },
     "5": {
       "verified": {
-        "bound": "5646821278777391950631030447255034987758034848414385458737852480978866810826502397972523691561/2085924839766513752338888384931203236916703635113918720651407820138886450957656787131798913024",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "b2bdce4cf0da832bfbcfea0de6df9aa960f1d7edd5fd5571d4c1caffc9db0a40",
+        "bound": "33838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "2",
+          "sqrt2": "1/2",
+          "expression": "2 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 1,
+        "b": 1,
+        "source_n": 5,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "2.707106781187"
       },
       "reported": {
@@ -140,11 +151,22 @@
     },
     "10": {
       "verified": {
-        "bound": "30930984474175622811879675328744952898698953934113216717557041204471013047136636740417290418339/8343699359066055009355553539724812947666814540455674882605631280555545803830627148527195652096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "d091278b0c33eedb7d4f3073bba94b6cff52c4afc2fd0fe76fe79d4372608105",
+        "bound": "46338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "3",
+          "sqrt2": "1/2",
+          "expression": "3 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 2,
+        "b": 2,
+        "source_n": 10,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "3.707106781187"
       },
       "reported": {
@@ -395,11 +417,22 @@
     },
     "27": {
       "verified": {
-        "bound": "186009309344952081369495243782010073414189777402439712823313686584305096307804261865123756729/32592575621351777380295131014550050576823494298654980010178247189670100796213387298934358016",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "91511b95aa91ac09f7c7a43bbb67ba6ef1ed4332beec06c874434486c65b52c4",
+        "bound": "71338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "5",
+          "sqrt2": "1/2",
+          "expression": "5 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 4,
+        "b": 5,
+        "source_n": 27,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "5.707106781187"
       },
       "reported": {
@@ -560,11 +593,22 @@
     },
     "38": {
       "verified": {
-        "bound": "139301157879250200947587977115981099/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "8ad0370d03ded7996947ed3641ae493fecfe0b60c666704fb9b5081897d458e3",
+        "bound": "83838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "6",
+          "sqrt2": "1/2",
+          "expression": "6 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 5,
+        "b": 6,
+        "source_n": 38,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "6.707106781187"
       },
       "reported": {
@@ -590,11 +634,22 @@
     },
     "40": {
       "verified": {
-        "bound": "35455220708553648376978050531579179/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "b1849dc2eb400146b8dfbc7e4cf55daf00000cf6c262424021252928b79b6526",
+        "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "4",
+          "sqrt2": "2",
+          "expression": "4 + 2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 3,
+        "b": 4,
+        "source_n": 40,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "6.828427124747"
       },
       "reported": {
@@ -770,11 +825,22 @@
     },
     "52": {
       "verified": {
-        "bound": "3924913446682119314532586028298596477622449468746088638182346577556957779691109944734257387/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "771e87956650b25ecb8a9535bbe08bcafc77c821155b802fd7b57497709bce78",
+        "bound": "96338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "7",
+          "sqrt2": "1/2",
+          "expression": "7 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 6,
+        "b": 8,
+        "source_n": 52,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "7.707106781187"
       },
       "reported": {
@@ -965,11 +1031,22 @@
     },
     "65": {
       "verified": {
-        "bound": "177276103542768241884890252657895895/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "c623f1308ea684ec830c047d450ff001e61b02f6ae60a71de67de1952be974c2",
+        "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "5",
+          "sqrt2": "5/2",
+          "expression": "5 + 5/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 4,
+        "b": 5,
+        "source_n": 65,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "8.535533905933"
       },
       "reported": {
@@ -995,11 +1072,22 @@
     },
     "67": {
       "verified": {
-        "bound": "4434172440765740836099697450400941017885316567162572700841381689895553104631944121280106731/509258994083621521567111422102344540262867098416484062659035112338595324940834176545849344",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "c4aac2371ef1dac63e506058ed899aa9f344e2489fed5364bc1ad89f90072e8e",
+        "bound": "108838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "8",
+          "sqrt2": "1/2",
+          "expression": "8 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 7,
+        "b": 9,
+        "source_n": 67,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "8.707106781187"
       },
       "reported": {
@@ -1325,11 +1413,22 @@
     },
     "89": {
       "verified": {
-        "bound": "206648170091596917610602383087293485/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "4f896ed6abb091fe4fd44681f9595e86aec6b1a4e0b0af4345362793581825f4",
+        "bound": "124371843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "5",
+          "sqrt2": "7/2",
+          "expression": "5 + 7/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 4,
+        "b": 7,
+        "source_n": 89,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "9.949747468306"
       },
       "reported": {
@@ -1550,11 +1649,22 @@
     },
     "104": {
       "verified": {
-        "bound": "55594476903951860751018979595875659/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "6c1d0a9acaa6d485cdd07f5dc7b5e670701d737f860d2c4ccc8425abbae06116",
+        "bound": "133838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "10",
+          "sqrt2": "1/2",
+          "expression": "10 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 9,
+        "b": 12,
+        "source_n": 104,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "10.707106781187"
       },
       "reported": {
@@ -1625,11 +1735,22 @@
     },
     "109": {
       "verified": {
-        "bound": "227417357525736228124724368404173869/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "61eedd7a43a3bc9a1c8b3d37cda10aabc117b219a7f1f275ecb4c9b38a769a16",
+        "bound": "136871843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "6",
+          "sqrt2": "7/2",
+          "expression": "6 + 7/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 5,
+        "b": 7,
+        "source_n": 109,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "10.949747468306"
       },
       "reported": {
@@ -1850,11 +1971,22 @@
     },
     "124": {
       "verified": {
-        "bound": "30262923850018820748447554202359083/2596148429267413814265248164610048",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "f5d5577d6a427d4c2601f4415729694144558eb756cdc01ad55d621afa4b33d6",
+        "bound": "18213834764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "6",
+          "sqrt2": "4",
+          "expression": "6 + 4*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 5,
+        "b": 8,
+        "source_n": 124,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "11.656854249493"
       },
       "reported": {
@@ -1865,11 +1997,22 @@
     },
     "125": {
       "verified": {
-        "bound": "60786773762486688379549475925095755/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "328de5e7610403109cb7d79c21f5ad3b5bf1bec2c5e1a91ee94cdce0d3274124",
+        "bound": "146338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "1/2",
+          "expression": "11 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 10,
+        "b": 13,
+        "source_n": 125,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "11.707106781187"
       },
       "reported": {
@@ -2201,11 +2344,22 @@
     },
     "147": {
       "verified": {
-        "bound": "32859072279286234562712802366969131/2596148429267413814265248164610048",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "94fcf829165b4d45c8ef38eba02d5d4f1d2f6ee5c68d9cb8650579215535a6e5",
+        "bound": "19776334764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "7",
+          "sqrt2": "4",
+          "expression": "7 + 4*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 6,
+        "b": 8,
+        "source_n": 148,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "12.656854249493"
       },
       "reported": {
@@ -2216,11 +2370,22 @@
     },
     "148": {
       "verified": {
-        "bound": "32859072279286234562712802366969131/2596148429267413814265248164610048",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "35ee09498cc00b53564a74ed04a4e108f84431a4242cfa798392bd3434a2b1b9",
+        "bound": "19776334764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "7",
+          "sqrt2": "4",
+          "expression": "7 + 4*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 6,
+        "b": 8,
+        "source_n": 148,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "12.656854249493"
       },
       "reported": {
@@ -2231,11 +2396,22 @@
     },
     "149": {
       "verified": {
-        "bound": "65979070621021516008079972254315851/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "87ca3351f6f2d4a731046dbf6a6a45a65666c651473f85e6c5fb8fc57e527ba8",
+        "bound": "158838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "12",
+          "sqrt2": "1/2",
+          "expression": "12 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 11,
+        "b": 15,
+        "source_n": 149,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "12.707106781187"
       },
       "reported": {
@@ -2616,11 +2792,22 @@
     },
     "174": {
       "verified": {
-        "bound": "71171367479556343636610468583535947/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "66c5d592f89697549c7f6a9093e9012c1ec1c6f9c9484ee5c6098d2502fe350d",
+        "bound": "171338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "13",
+          "sqrt2": "1/2",
+          "expression": "13 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 12,
+        "b": 16,
+        "source_n": 174,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "13.707106781187"
       },
       "reported": {
@@ -3027,11 +3214,22 @@
     },
     "201": {
       "verified": {
-        "bound": "76363664338091171265140964912756043/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "dc7fc5e6fd0d54ccd1433c8f896def1b9f476d9b2ba9524a28130a46ad257a72",
+        "bound": "183838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "14",
+          "sqrt2": "1/2",
+          "expression": "14 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 13,
+        "b": 17,
+        "source_n": 201,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "14.707106781187"
       },
       "reported": {
@@ -3042,11 +3240,22 @@
     },
     "202": {
       "verified": {
-        "bound": "152943486903868351279826572249169539/10384593717069655257060992658440192",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "becc5928a84f924036bda900b2cbd2b34522e7e5064ff2914e86de6915b94bc8",
+        "bound": "92049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "2",
+          "sqrt2": "9",
+          "expression": "2 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "corner_strip",
+        "a": 13,
+        "b": 17,
+        "source_n": 202,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "14.727922061358"
       },
       "reported": {
@@ -3485,11 +3694,22 @@
     },
     "231": {
       "verified": {
-        "bound": "131055376782968282924146317805442708270700728419581315308824616571137562693104162522743638243491/8343699359066055009355553539724812947666814540455674882605631280555545803830627148527195652096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "388f39877e55f45df89793ea4603f5a5a65f8c9f949cc66a6551136798550df8",
+        "bound": "196338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "15",
+          "sqrt2": "1/2",
+          "expression": "15 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 14,
+        "b": 19,
+        "source_n": 231,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "15.707106781187"
       },
       "reported": {
@@ -3517,11 +3737,22 @@
     },
     "233": {
       "verified": {
-        "bound": "327699865491672200604392599896729817/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "25419c8129e15a15dbb702dac7cbce33597236bdd4f468f52bd5211aaf751648",
+        "bound": "197227182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "8",
+          "sqrt2": "11/2",
+          "expression": "8 + 11/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 7,
+        "b": 11,
+        "source_n": 233,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "15.778174593053"
       },
       "reported": {
@@ -3958,11 +4189,22 @@
     },
     "262": {
       "verified": {
-        "bound": "86748258055160826522201957571196235/5192296858534827628530496329220096",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "1f80795c38ecfd62adf8eefde08264c46e2b1eeefb2ca8caeaee7e4aa2b83a34",
+        "bound": "208838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "1/2",
+          "expression": "16 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 15,
+        "b": 20,
+        "source_n": 262,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "16.707106781187"
       },
       "reported": {
@@ -4005,11 +4247,22 @@
     },
     "265": {
       "verified": {
-        "bound": "348469052925811511118514585213610201/20769187434139310514121985316880384",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "17b3ee2dae13d9b9a6c77a2e3b39d3584b9c6bd79e3c69bdd2c2d517439e087f",
+        "bound": "209727182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "9",
+          "sqrt2": "11/2",
+          "expression": "9 + 11/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 8,
+        "b": 11,
+        "source_n": 265,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "16.778174593053"
       },
       "reported": {
@@ -4474,11 +4727,22 @@
     },
     "296": {
       "verified": {
-        "bound": "35224622607493494258608204098914226094730939269183317440518350394308246207419733242940433/1989292945639146568621528992587283360401824603189390869761855907572637988050133502132224",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (exact certificate refinement)",
-        "sha256": "50bab6776daa3b852131df1728fcc7af24f7dc73f6f537b5550160a25d4fa50d",
+        "bound": "221338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "17",
+          "sqrt2": "1/2",
+          "expression": "17 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 16,
+        "b": 22,
+        "source_n": 296,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "17.707106781187"
       },
       "reported": {
@@ -5029,13 +5293,22 @@
     },
     "331": {
       "verified": {
-        "bound": "1614736579755597587794825652564617195432432384471563787337991304805111169273879647467083744053908961226525737451260457430527288934555027422516057547987944573500378704382238733944984546901506257774825174980359819653518177652124066626432908959010937648457842266462093768958923285024603394458148382832296366009962206663559231078199539622397352731759034629720817057279103110978124962804323979319739521816995038191763257189522397770373184469043954344507613523308366633993383269837738357191735948454405254267382122382849322524730766079091444996899478316196377400744670106035489490902817597261617544891749099443568467112806771990514013889668014120222407969214508537741384526006790513098009235773675298924377154630228068730361198429346047028147682750504766000139757874360889080095814594885024484000413280659730269469295321777609771827033819982070635479760654490793414136769610733545683/86316745750310977099712446546002079990824699424862553294475081664473417874884463683625678301153004515004970778488885607840251672204890136774700296664777780201184288916318973875106132126931809860150154824534389233411542818197945953082898164750800036577626646865296512365050999409889878942848391523453404327336340413672756864868035673491721872425230875534216170298560145621848922781336876316111940455560729958121254614196430986971168072718103537527359741261915528680453711986174618059889374282004602884425529604906143809042456864420779066430483108023244108627363236848749805780530284675454496551275263776134166294331492897211773553650424057625929871346654686744226561223195762412348097395955774086458756228784493271739805476206716913908261315029103053129838787351507577618595960465325120794281362450126224133176889721564224891800823224531046470398099407000000000000000000000000",
-        "source": "certificates/best/n331.cert",
+        "bound": "233838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "18",
+          "sqrt2": "1/2",
+          "expression": "18 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 17,
+        "b": 23,
         "source_n": 331,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "PingYou Ltd (BuddenPing)",
-        "sha256": "ec938f2af7270bbc792b5a673a3d9898bc901117ad9c4c38e62ca2b3f2c9fe1b",
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "18.707106781187"
       },
       "reported": {
@@ -5650,13 +5923,22 @@
     },
     "368": {
       "verified": {
-        "bound": "394142135623730950488016887242103941421356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n369.cert",
+        "bound": "246338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "19",
+          "sqrt2": "1/2",
+          "expression": "19 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 18,
+        "b": 25,
         "source_n": 369,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "f2cb93f70863093ba7131da73f458315da72a04effd923b62a062944d37ec34f",
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "19.707106781187"
       },
       "reported": {
@@ -5667,11 +5949,22 @@
     },
     "369": {
       "verified": {
-        "bound": "394142135623730950488016887242103941421356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000",
-        "source": "https://kingbird.myphotos.cc/packing/square-369.svg",
-        "status": "exact certificate verified",
-        "credit": "Frits G\u00f6bel",
-        "sha256": "f2cb93f70863093ba7131da73f458315da72a04effd923b62a062944d37ec34f",
+        "bound": "246338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "19",
+          "sqrt2": "1/2",
+          "expression": "19 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 18,
+        "b": 25,
+        "source_n": 369,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "19.707106781187"
       },
       "reported": {
@@ -5796,11 +6089,22 @@
     },
     "376": {
       "verified": {
-        "bound": "198994949366116653416118210694701989949493661166534161182106947/10000000000000000000000000000000000000000000000000000000000000",
-        "source": "https://kingbird.myphotos.cc/packing/square-376.svg",
-        "status": "exact certificate verified",
-        "credit": "Frits G\u00f6bel",
-        "sha256": "7e0fb3f45bbf97d082600b6466a4fa5d2b941162143e3f934e4d9cabdee1528f",
+        "bound": "124371843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "10",
+          "sqrt2": "7",
+          "expression": "10 + 7*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 9,
+        "b": 14,
+        "source_n": 376,
+        "deleted_squares": 0,
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "19.899494936612"
       },
       "reported": {
@@ -6301,13 +6605,22 @@
     },
     "407": {
       "verified": {
-        "bound": "1787370071256219541994250718290112856036035982746181985931101449783456854748755163784498429603050720025463046259594830952216822288906364673836673821820844543683020831615470011250757213523947710133073234841692851983960983588829607601377172111598174117505001725989016295289098439097676882936869895981201994444392773187687791714744265642061623822123226116860596381319968252683573876799338329072254646425962060781758398641796170865775436856989389812424306948168343127561365748529570117142572057925838432385469301371410174152021448658992212942048062617156594459557529440699205148952095421339000235493911188056406150610462860335465113265301450898460062135454925212077952900312924731232078919018709293488819491783991847185388982299271938424950748860173924519833263265586534293539112775493249428604131242751903648385890689783463121863083732784912171549006636906439863198862551529744497/86316745750310977099712446546002079990824699424862553294475081664473417874884463683625678301153004515004970778488885607840251672204890136774700296664777780201184288916318973875106132126931809860150154824534389233411542818197945953082898164750800036577626646865296512365050999409889878942848391523453404327336340413672756864868035673491721872425230875534216170298560145621848922781336876316111940455560729958121254614196430986971168072718103537527359741261915528680453711986174618059889374282004602884425529604906143809042456864420779066430483108023244108627363236848749805780530284675454496551275263776134166294331492897211773553650424057625929871346654686744226561223195762412348097395955774086458756228784493271739805476206716913908261315029103053129838787351507577618595960465325120794281362450126224133176889721564224891800823224531046470398099407000000000000000000000000",
-        "source": "certificates/best/n407.cert",
-        "source_n": 407,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "PingYou Ltd (BuddenPing)",
-        "sha256": "7a5438b5121fc144d5d5e2f63fa5ec67e92ea6c9c9ff3a61fac101cfaccbad89",
+        "bound": "258838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "20",
+          "sqrt2": "1/2",
+          "expression": "20 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 19,
+        "b": 26,
+        "source_n": 408,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "20.707106781187"
       },
       "reported": {
@@ -6318,13 +6631,22 @@
     },
     "408": {
       "verified": {
-        "bound": "414142135623730950488017301384239565152306725326392122272813842356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n408.cert",
+        "bound": "258838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "20",
+          "sqrt2": "1/2",
+          "expression": "20 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 19,
+        "b": 26,
         "source_n": 408,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "4aabc9cce22cf5bf756918255fff0eafe9b223eb28786d42e1af5bcac4c23992",
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "20.707106781187"
       },
       "reported": {
@@ -6465,13 +6787,22 @@
     },
     "415": {
       "verified": {
-        "bound": "208994949366116653416118419689651356066147077284744855884096896493661166534161182106947/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n415.cert",
-        "source_n": 415,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "90544f11225336069b9ff14bdd34c1d5c77e5a4bd0c3b120ef21646a7b705ebd",
+        "bound": "130621843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "7",
+          "expression": "11 + 7*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 10,
+        "b": 14,
+        "source_n": 416,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "20.899494936612"
       },
       "reported": {
@@ -6486,23 +6817,41 @@
     },
     "416": {
       "verified": {
-        "bound": "25420908593273582000465182747/1216340809686000000000000000",
-        "source": "certificates/best/n416.cert",
+        "bound": "130621843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "7",
+          "expression": "11 + 7*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 10,
+        "b": 14,
         "source_n": 416,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "bf71de867288c24aff39c39329c595aa4bd703365edf5d42386cbb7f4e2142e8",
-        "rounded_up": "20.899494936651"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "20.899494936612"
       },
       "reported": {
-        "bound": "25420908593273582000465182747/1216340809686000000000000000",
-        "source": "certificates/best/n416.cert",
+        "bound": "130621843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "7",
+          "expression": "11 + 7*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 10,
+        "b": 14,
         "source_n": 416,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "bf71de867288c24aff39c39329c595aa4bd703365edf5d42386cbb7f4e2142e8"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "417": {
@@ -6973,23 +7322,41 @@
     },
     "445": {
       "verified": {
-        "bound": "9603509891348957693838905183737527279696277218510251814840733163791/444471093454075538884594554444710934540755388845945500000000000000",
-        "source": "certificates/best/n445.cert",
+        "bound": "54016504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "15/2",
+          "expression": "11 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 10,
+        "b": 15,
         "source_n": 445,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "89691570814aba15eae51acbfafef66496f841a8850e608086192b0cc1259479",
-        "rounded_up": "21.606601717827"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "21.606601717799"
       },
       "reported": {
-        "bound": "9603509891348957693838905183737527279696277218510251814840733163791/444471093454075538884594554444710934540755388845945500000000000000",
-        "source": "certificates/best/n445.cert",
+        "bound": "54016504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "11",
+          "sqrt2": "15/2",
+          "expression": "11 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 10,
+        "b": 15,
         "source_n": 445,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "89691570814aba15eae51acbfafef66496f841a8850e608086192b0cc1259479"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "446": {
@@ -7032,13 +7399,22 @@
     },
     "448": {
       "verified": {
-        "bound": "29276356515727039360843175799263448224028715341929548206682133160509839023221764405362590193400337491014557822871281526766587327595031770304640343105270227012099092113001338279744430419299506817378082262068115127330974789955974657638270370123309255500446585246132461850846656502097087924628603946182106385337625882027376125515884822685839990114145654069226344427193762867754661465575710999195503261413212063699312021373954022085571297671282930412228963446848927724146202935554468704968595510336797210070513919776415624463543592952228076790974293244323484202561861062985359030886473959026430949921753630669140505613920382936572858642471395118420144040236461706972454491656122504673652510019160793297510318138652131451607409909920064427379404922007871557500249393739951566574404153083779701656097246843599028815443340412340576267323268536452180994212939285360745779828467622561/1348699152348609017183006977281282499856635928513477395226173151007397154295069745056651223455515695546952668413888837622503932378201408387104692135387152815643504514317483966798533314483309529064846169133349831772055356534342905516920283824231250571525416357270258005703921865779529358482006117553959442614630318963636826013563057398308154256644232430222127660915002275341389418458388692439249069618136405595644603346819234171424501136220367773864995957217430135632089249783978407185771473156321920069148900076658497016288388506574672912976298562863189197302550575761715715320785698053976508613675996502096348348929576518933961775787875900405154239791479480378540019112433787692939021811808970100918066074757707370934460565729951779816583047329735205153731052367305900290561882270705012410646288283222252080888901899441013934387862883297601099970303234375000000000000000000",
-        "source": "certificates/best/n448.cert",
-        "source_n": 448,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "PingYou Ltd (BuddenPing)",
-        "sha256": "a9b746963fe033ea43146c9c33db54bd73aaa0e40e6119693a9fa767bdecdce0",
+        "bound": "271338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "21",
+          "sqrt2": "1/2",
+          "expression": "21 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 20,
+        "b": 27,
+        "source_n": 449,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "21.707106781187"
       },
       "reported": {
@@ -7049,13 +7425,22 @@
     },
     "449": {
       "verified": {
-        "bound": "434142135623730950488017321384239565152306725326392122272813842356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n449.cert",
+        "bound": "271338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "21",
+          "sqrt2": "1/2",
+          "expression": "21 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 20,
+        "b": 27,
         "source_n": 449,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "c9934fb24c35a4e43a73ebd810641522804c7add8efbb0b296d2803948011f09",
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "21.707106781187"
       },
       "reported": {
@@ -7740,44 +8125,81 @@
     },
     "488": {
       "verified": {
-        "bound": "10047980984803033232723509786163223017270265330855935497078947400823607356197314840733163791/444471093454075538884594554444710934540755388845945500000000000000000000000000000000000000",
-        "source": "certificates/best/n488.cert",
-        "source_n": 488,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "23fd8b63d148da982dfa70b2aa3e724755456304188b56d04cfdc4c4e79acf37",
-        "rounded_up": "22.606601717827"
+        "bound": "56516504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "12",
+          "sqrt2": "15/2",
+          "expression": "12 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 11,
+        "b": 15,
+        "source_n": 489,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "22.606601717799"
       },
       "reported": {
-        "bound": "10047980984803033232723509786163223017270265330855935497078947400823607356197314840733163791/444471093454075538884594554444710934540755388845945500000000000000000000000000000000000000",
-        "source": "certificates/best/n488.cert",
-        "source_n": 488,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "23fd8b63d148da982dfa70b2aa3e724755456304188b56d04cfdc4c4e79acf37"
+        "bound": "56516504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "12",
+          "sqrt2": "15/2",
+          "expression": "12 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 11,
+        "b": 15,
+        "source_n": 489,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "22.606601717799"
       }
     },
     "489": {
       "verified": {
-        "bound": "4989833707844019550531155621/220724625935500000000000000",
-        "source": "certificates/best/n489.cert",
+        "bound": "56516504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "12",
+          "sqrt2": "15/2",
+          "expression": "12 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 11,
+        "b": 15,
         "source_n": 489,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "89896d1652f573053f3f09aa655be6652b11664cd71127efbd36d1114e237e2c",
-        "rounded_up": "22.606601717845"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "22.606601717799"
       },
       "reported": {
-        "bound": "4989833707844019550531155621/220724625935500000000000000",
-        "source": "certificates/best/n489.cert",
+        "bound": "56516504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "12",
+          "sqrt2": "15/2",
+          "expression": "12 + 15/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 11,
+        "b": 15,
         "source_n": 489,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "89896d1652f573053f3f09aa655be6652b11664cd71127efbd36d1114e237e2c"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "490": {
@@ -7803,13 +8225,22 @@
     },
     "491": {
       "verified": {
-        "bound": "1960003562756841496193675784015608516639639581020800184524211594761802540223630680101913115152192478824400355067929204473906355643257701925157290095653744513865662958848701288556529880146389162491321294703025884314403789525535148576321435264185410586552161185515938821619273593170750371415591409130107622878823339711816352351288991661725894912487417604000375705360833394389022790794352678824769771034929083371753540094069943961177689244934825280341000373028319621129348227221401877093408167397271610503556480359971025779312131238892980887196646918116811518370388775362920807001373245416382926096073276669243834108118948680416212640934887676697716301695341886414521274619058949366148602263743288053261828937755625640416766169197829821753814969843083039526768656812179506982410956101474373207849204844077027302486057789316471899133645587753707618252619322086312260955492325943311/86316745750310977099712446546002079990824699424862553294475081664473417874884463683625678301153004515004970778488885607840251672204890136774700296664777780201184288916318973875106132126931809860150154824534389233411542818197945953082898164750800036577626646865296512365050999409889878942848391523453404327336340413672756864868035673491721872425230875534216170298560145621848922781336876316111940455560729958121254614196430986971168072718103537527359741261915528680453711986174618059889374282004602884425529604906143809042456864420779066430483108023244108627363236848749805780530284675454496551275263776134166294331492897211773553650424057625929871346654686744226561223195762412348097395955774086458756228784493271739805476206716913908261315029103053129838787351507577618595960465325120794281362450126224133176889721564224891800823224531046470398099407000000000000000000000000",
-        "source": "certificates/best/n491.cert",
-        "source_n": 491,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "PingYou Ltd (BuddenPing)",
-        "sha256": "6cc174928e68ff55740ecedaeb7c380b835c7e99e4013f03d4bd2f7b72eb9593",
+        "bound": "283838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 21,
+        "b": 29,
+        "source_n": 493,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "22.707106781187"
       },
       "reported": {
@@ -7820,13 +8251,22 @@
     },
     "492": {
       "verified": {
-        "bound": "454142135623730950488017341384239565152306725326392122272813842356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n492.cert",
-        "source_n": 492,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "3ff5887fdf7c144d35fbd6232053524c599221fff0896b10bb5a090b4848ebdf",
+        "bound": "283838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 21,
+        "b": 29,
+        "source_n": 493,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "22.707106781187"
       },
       "reported": {
@@ -7841,23 +8281,41 @@
     },
     "493": {
       "verified": {
-        "bound": "66035189671660882877196157063/2908128732906500000000000000",
-        "source": "certificates/best/n493.cert",
+        "bound": "283838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 21,
+        "b": 29,
         "source_n": 493,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "f38b3aa8900940ea12828e603328d2335b58ca8f1e0e646968196edd8ba56e92",
-        "rounded_up": "22.707106781227"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "22.707106781187"
       },
       "reported": {
-        "bound": "66035189671660882877196157063/2908128732906500000000000000",
-        "source": "certificates/best/n493.cert",
+        "bound": "283838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 21,
+        "b": 29,
         "source_n": 493,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "f38b3aa8900940ea12828e603328d2335b58ca8f1e0e646968196edd8ba56e92"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "494": {
@@ -8631,13 +9089,22 @@
     },
     "537": {
       "verified": {
-        "bound": "474142135623730950488017361384239565152306725326392122272813842356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "source": "certificates/best/n537.cert",
-        "source_n": 537,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "f7825720413f3de33620bc6306efe71d4e37b33df481a33e8a09557b1d80268c",
+        "bound": "296338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "23",
+          "sqrt2": "1/2",
+          "expression": "23 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 22,
+        "b": 30,
+        "source_n": 538,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
         "rounded_up": "23.707106781187"
       },
       "reported": {
@@ -8652,23 +9119,41 @@
     },
     "538": {
       "verified": {
-        "bound": "68943318404567382877196226006318404567382877196157063/2908128732906500000000000000000000000000000000000000",
-        "source": "certificates/best/n538.cert",
+        "bound": "296338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "23",
+          "sqrt2": "1/2",
+          "expression": "23 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 22,
+        "b": 30,
         "source_n": 538,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "36e10a9e62ceb4a4b2b2a56c6d6198f33efaf5e3a2a4342db95ead6e6dc04535",
-        "rounded_up": "23.707106781227"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "23.707106781187"
       },
       "reported": {
-        "bound": "68943318404567382877196226006318404567382877196157063/2908128732906500000000000000000000000000000000000000",
-        "source": "certificates/best/n538.cert",
+        "bound": "296338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "23",
+          "sqrt2": "1/2",
+          "expression": "23 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 22,
+        "b": 30,
         "source_n": 538,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "36e10a9e62ceb4a4b2b2a56c6d6198f33efaf5e3a2a4342db95ead6e6dc04535"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "539": {
@@ -9493,44 +9978,81 @@
     },
     "585": {
       "verified": {
-        "bound": "71851447137473882877196228914447137473882877196157063/2908128732906500000000000000000000000000000000000000",
-        "source": "certificates/best/n585.cert",
-        "source_n": 585,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "dddd0b795833ab1820415f82189053165c2d63e98cc66a3a2ac609fcbdc1a8a2",
-        "rounded_up": "24.707106781227"
+        "bound": "308838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "24",
+          "sqrt2": "1/2",
+          "expression": "24 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 23,
+        "b": 32,
+        "source_n": 586,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "24.707106781187"
       },
       "reported": {
-        "bound": "71851447137473882877196228914447137473882877196157063/2908128732906500000000000000000000000000000000000000",
-        "source": "certificates/best/n585.cert",
-        "source_n": 585,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "dddd0b795833ab1820415f82189053165c2d63e98cc66a3a2ac609fcbdc1a8a2"
+        "bound": "308838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "24",
+          "sqrt2": "1/2",
+          "expression": "24 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 23,
+        "b": 32,
+        "source_n": 586,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "24.707106781187"
       }
     },
     "586": {
       "verified": {
-        "bound": "1070992140049982870081536389237002748279245235230167369293559998973/43347533547052668101646240789708250051161912701424000000000000000",
-        "source": "certificates/best/n586.cert",
+        "bound": "308838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "24",
+          "sqrt2": "1/2",
+          "expression": "24 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 23,
+        "b": 32,
         "source_n": 586,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b871f8dec5d708d67b632b3892652b74a34812224e6a9e7bb725dcc035d99cad",
-        "rounded_up": "24.707106781231"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "24.707106781187"
       },
       "reported": {
-        "bound": "1070992140049982870081536389237002748279245235230167369293559998973/43347533547052668101646240789708250051161912701424000000000000000",
-        "source": "certificates/best/n586.cert",
+        "bound": "308838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "24",
+          "sqrt2": "1/2",
+          "expression": "24 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 23,
+        "b": 32,
         "source_n": 586,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b871f8dec5d708d67b632b3892652b74a34812224e6a9e7bb725dcc035d99cad"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "587": {
@@ -10370,65 +10892,120 @@
     },
     "634": {
       "verified": {
-        "bound": "26875845156671120790564560389367646070134430800614576969268455595139067800726436277991428413/1045463629392177240632138610720978683523879756929536002663423896021073506081500000000000000",
-        "source": "certificates/best/n634.cert",
-        "source_n": 634,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "c310e4ff3372ff43dde6af57fbc2d836ae35009e99710655e4c1216f2d1e1aa0",
-        "rounded_up": "25.707106781225"
+        "bound": "321338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "25",
+          "sqrt2": "1/2",
+          "expression": "25 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 24,
+        "b": 33,
+        "source_n": 635,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "25.707106781187"
       },
       "reported": {
-        "bound": "26875845156671120790564560389367646070134430800614576969268455595139067800726436277991428413/1045463629392177240632138610720978683523879756929536002663423896021073506081500000000000000",
-        "source": "certificates/best/n634.cert",
-        "source_n": 634,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "c310e4ff3372ff43dde6af57fbc2d836ae35009e99710655e4c1216f2d1e1aa0"
+        "bound": "321338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "25",
+          "sqrt2": "1/2",
+          "expression": "25 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 24,
+        "b": 33,
+        "source_n": 635,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "25.707106781187"
       }
     },
     "635": {
       "verified": {
-        "bound": "1114339673597035538183183744366384595365945331114221396004558329380147931591369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n635.cert",
+        "bound": "321338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "25",
+          "sqrt2": "1/2",
+          "expression": "25 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 24,
+        "b": 33,
         "source_n": 635,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b63cb1b1d91b8af403dca81321ade6c7d2c47c917539d2ed761b555efcab3750",
-        "rounded_up": "25.707106781231"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "25.707106781187"
       },
       "reported": {
-        "bound": "1114339673597035538183183744366384595365945331114221396004558329380147931591369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n635.cert",
+        "bound": "321338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "25",
+          "sqrt2": "1/2",
+          "expression": "25 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 24,
+        "b": 33,
         "source_n": 635,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b63cb1b1d91b8af403dca81321ade6c7d2c47c917539d2ed761b555efcab3750"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "636": {
       "verified": {
-        "bound": "12189035063845488592485874548252682732448912158068143761/473766790600550000000000004737667906005500000000000000",
-        "source": "certificates/best/n636.cert",
+        "bound": "160799512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "13",
+          "sqrt2": "9",
+          "expression": "13 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 12,
+        "b": 18,
         "source_n": 636,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "8b7219187e4c9bccd9f091a89cb2a3923c19dd86548ae66d93453af9f6d38887",
-        "rounded_up": "25.727922061390"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "25.727922061358"
       },
       "reported": {
-        "bound": "12189035063845488592485874548252682732448912158068143761/473766790600550000000000004737667906005500000000000000",
-        "source": "certificates/best/n636.cert",
+        "bound": "160799512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "13",
+          "sqrt2": "9",
+          "expression": "13 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 12,
+        "b": 18,
         "source_n": 636,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "8b7219187e4c9bccd9f091a89cb2a3923c19dd86548ae66d93453af9f6d38887"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "637": {
@@ -11283,86 +11860,160 @@
     },
     "685": {
       "verified": {
-        "bound": "26370319070820377701970269420987371410908876036912019010221444881627/987389584609161359320606359873895846091613593206063500000000000000",
-        "source": "certificates/best/n685.cert",
-        "source_n": 685,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "2bab514785878c964c8a44b01fd21af7a272c6d8b3eff1f10da2847848ccf0d8",
-        "rounded_up": "26.707106781220"
+        "bound": "333838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "26",
+          "sqrt2": "1/2",
+          "expression": "26 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 25,
+        "b": 34,
+        "source_n": 686,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.707106781187"
       },
       "reported": {
-        "bound": "26370319070820377701970269420987371410908876036912019010221444881627/987389584609161359320606359873895846091613593206063500000000000000",
-        "source": "certificates/best/n685.cert",
-        "source_n": 685,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "2bab514785878c964c8a44b01fd21af7a272c6d8b3eff1f10da2847848ccf0d8"
+        "bound": "333838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "26",
+          "sqrt2": "1/2",
+          "expression": "26 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 25,
+        "b": 34,
+        "source_n": 686,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.707106781187"
       }
     },
     "686": {
       "verified": {
-        "bound": "1157687207144088206284830028503626392469775345461886185712808380542060633015369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n686.cert",
+        "bound": "333838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "26",
+          "sqrt2": "1/2",
+          "expression": "26 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 25,
+        "b": 34,
         "source_n": 686,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "bf806298a95e27f588001e54bcd4510f5dea8f6c89107d2b7e21c0b79e1ef1fa",
-        "rounded_up": "26.707106781231"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.707106781187"
       },
       "reported": {
-        "bound": "1157687207144088206284830028503626392469775345461886185712808380542060633015369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n686.cert",
+        "bound": "333838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "26",
+          "sqrt2": "1/2",
+          "expression": "26 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 25,
+        "b": 34,
         "source_n": 686,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "bf806298a95e27f588001e54bcd4510f5dea8f6c89107d2b7e21c0b79e1ef1fa"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "687": {
       "verified": {
-        "bound": "12662801854446038592485887215792205084493004643942696751350638454412158068143761/473766790600550000000000004737667906005500000000000000000000000000000000000000",
-        "source": "certificates/best/n687.cert",
-        "source_n": 687,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "3f8a6ba129c659efa5e52e4be1420ce04d98eb23897fc3157220dcaebe747b90",
-        "rounded_up": "26.727922061390"
+        "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "14",
+          "sqrt2": "9",
+          "expression": "14 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 13,
+        "b": 18,
+        "source_n": 688,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.727922061358"
       },
       "reported": {
-        "bound": "12662801854446038592485887215792205084493004643942696751350638454412158068143761/473766790600550000000000004737667906005500000000000000000000000000000000000000",
-        "source": "certificates/best/n687.cert",
-        "source_n": 687,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "3f8a6ba129c659efa5e52e4be1420ce04d98eb23897fc3157220dcaebe747b90"
+        "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "14",
+          "sqrt2": "9",
+          "expression": "14 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 13,
+        "b": 18,
+        "source_n": 688,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.727922061358"
       }
     },
     "688": {
       "verified": {
-        "bound": "82542947049944710857055493603/3088266527426500000000000000",
-        "source": "certificates/best/n688.cert",
+        "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "14",
+          "sqrt2": "9",
+          "expression": "14 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 13,
+        "b": 18,
         "source_n": 688,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "e1ca47d295dc85d099e879ffea6c4672ed89c268f108903a87277fb292389855",
-        "rounded_up": "26.727922061420"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "26.727922061358"
       },
       "reported": {
-        "bound": "82542947049944710857055493603/3088266527426500000000000000",
-        "source": "certificates/best/n688.cert",
+        "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "14",
+          "sqrt2": "9",
+          "expression": "14 + 9*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 13,
+        "b": 18,
         "source_n": 688,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "e1ca47d295dc85d099e879ffea6c4672ed89c268f108903a87277fb292389855"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "689": {
@@ -12232,65 +12883,121 @@
     },
     "738": {
       "verified": {
-        "bound": "27357708655429539061290903138569922686539550920993863371488701882116630118082510221444881627/987389584609161359320606359873895846091613593206063500000000000000000000000000000000000000",
-        "source": "certificates/best/n738.cert",
-        "source_n": 738,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "08f7681140455506dd6b0ca6dd1e643b87118b51d092eb00b0eca9a6c3803791",
-        "rounded_up": "27.707106781220"
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
+        "source_n": 740,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "27.707106781187"
       },
       "reported": {
-        "bound": "27357708655429539061290903138569922686539550920993863371488701882116630118082510221444881627/987389584609161359320606359873895846091613593206063500000000000000000000000000000000000000",
-        "source": "certificates/best/n738.cert",
-        "source_n": 738,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "08f7681140455506dd6b0ca6dd1e643b87118b51d092eb00b0eca9a6c3803791"
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
+        "source_n": 740,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "27.707106781187"
       }
     },
     "739": {
       "verified": {
-        "bound": "1201034740691140874386476312640868189573605359809550975421058431703973334439369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n739.cert",
-        "source_n": 739,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b9c901d88ef45e7e467f7ce0468baa3441d16b57b8a67fcbe1956bedd3b9c081",
-        "rounded_up": "27.707106781231"
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
+        "source_n": 740,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "27.707106781187"
       },
       "reported": {
-        "bound": "1201034740691140874386476312640868189573605359809550975421058431703973334439369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n739.cert",
-        "source_n": 739,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b9c901d88ef45e7e467f7ce0468baa3441d16b57b8a67fcbe1956bedd3b9c081"
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
+        "source_n": 740,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "27.707106781187"
       }
     },
     "740": {
       "verified": {
-        "bound": "418091715621452194370919239456119006665758370888783877/15089692291674553513884482303515839313500000000000000",
-        "source": "certificates/best/n740.cert",
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
         "source_n": 740,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "54d27ecc45e268f8c5690a6f4807502259dea9c4ccd936ebf518aebc90ca7454",
-        "rounded_up": "27.707106781239"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "27.707106781187"
       },
       "reported": {
-        "bound": "418091715621452194370919239456119006665758370888783877/15089692291674553513884482303515839313500000000000000",
-        "source": "certificates/best/n740.cert",
+        "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "27",
+          "sqrt2": "1/2",
+          "expression": "27 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 26,
+        "b": 36,
         "source_n": 740,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "54d27ecc45e268f8c5690a6f4807502259dea9c4ccd936ebf518aebc90ca7454"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "741": {
@@ -13223,65 +13930,121 @@
     },
     "793": {
       "verified": {
-        "bound": "28345098240038700420611510485833403141792523834806286745384547973730223324146010221444881627/987389584609161359320606359873895846091613593206063500000000000000000000000000000000000000",
-        "source": "certificates/best/n793.cert",
-        "source_n": 793,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "d8f6550b97a96fbba3dc78176d6dd0b455f6bd2b45331d59b558978fcb00a18b",
-        "rounded_up": "28.707106781220"
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
+        "source_n": 795,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "28.707106781187"
       },
       "reported": {
-        "bound": "28345098240038700420611510485833403141792523834806286745384547973730223324146010221444881627/987389584609161359320606359873895846091613593206063500000000000000000000000000000000000000",
-        "source": "certificates/best/n793.cert",
-        "source_n": 793,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "d8f6550b97a96fbba3dc78176d6dd0b455f6bd2b45331d59b558978fcb00a18b"
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
+        "source_n": 795,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "28.707106781187"
       }
     },
     "794": {
       "verified": {
-        "bound": "1244382274238193542488122596778109986677435374157215765129308482865886035863369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n794.cert",
-        "source_n": 794,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6c0449bf6f9f9a08eb671412bd69b8dcaa1c841bb1697486c945c29f48633ee1",
-        "rounded_up": "28.707106781231"
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
+        "source_n": 795,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "28.707106781187"
       },
       "reported": {
-        "bound": "1244382274238193542488122596778109986677435374157215765129308482865886035863369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n794.cert",
-        "source_n": 794,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6c0449bf6f9f9a08eb671412bd69b8dcaa1c841bb1697486c945c29f48633ee1"
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
+        "source_n": 795,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "28.707106781187"
       }
     },
     "795": {
       "verified": {
-        "bound": "433181407913126747884804154941042759106006255692505636634845979258370888783877/15089692291674553513884482303515839313500000000000000000000000000000000000000",
-        "source": "certificates/best/n795.cert",
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
         "source_n": 795,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "68a43e9c8e08fdbd22f20ce41ce258b7444bed9e362f3e9e614367820a2d0c5e",
-        "rounded_up": "28.707106781239"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "28.707106781187"
       },
       "reported": {
-        "bound": "433181407913126747884804154941042759106006255692505636634845979258370888783877/15089692291674553513884482303515839313500000000000000000000000000000000000000",
-        "source": "certificates/best/n795.cert",
+        "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "28",
+          "sqrt2": "1/2",
+          "expression": "28 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 27,
+        "b": 37,
         "source_n": 795,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "68a43e9c8e08fdbd22f20ce41ce258b7444bed9e362f3e9e614367820a2d0c5e"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "796": {
@@ -14271,65 +15034,121 @@
     },
     "851": {
       "verified": {
-        "bound": "1287729807785246210589768880915351783781265388504880554837558534027798737287369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n851.cert",
-        "source_n": 851,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "8cc06f828f7ab4cb4fc8385dafda88a0a2a2815d41b816007c079f6ccabe4336",
-        "rounded_up": "29.707106781231"
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
+        "source_n": 853,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.707106781187"
       },
       "reported": {
-        "bound": "1287729807785246210589768880915351783781265388504880554837558534027798737287369293559998973/43347533547052668101646240789708250051161912701424000000000000000000000000000000000000000",
-        "source": "certificates/best/n851.cert",
-        "source_n": 851,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "8cc06f828f7ab4cb4fc8385dafda88a0a2a2815d41b816007c079f6ccabe4336"
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
+        "source_n": 853,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.707106781187"
       }
     },
     "852": {
       "verified": {
-        "bound": "56878556830975189256256478569245311773618627369162883/1914644776747658961730230611103215566500000000000000",
-        "source": "certificates/best/n853.cert",
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
         "source_n": 853,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "7b887d786790cd80962fa4a1f847924110931347abe36f89621b246d8b965c8e",
-        "rounded_up": "29.707106781235"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.707106781187"
       },
       "reported": {
-        "bound": "56878556830975189256256478569245311773618627369162883/1914644776747658961730230611103215566500000000000000",
-        "source": "certificates/best/n853.cert",
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
         "source_n": 853,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "7b887d786790cd80962fa4a1f847924110931347abe36f89621b246d8b965c8e"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.707106781187"
       }
     },
     "853": {
       "verified": {
-        "bound": "56878556830975189256256478569245311773618627369162883/1914644776747658961730230611103215566500000000000000",
-        "source": "certificates/best/n853.cert",
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
         "source_n": 853,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "7b887d786790cd80962fa4a1f847924110931347abe36f89621b246d8b965c8e",
-        "rounded_up": "29.707106781235"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.707106781187"
       },
       "reported": {
-        "bound": "56878556830975189256256478569245311773618627369162883/1914644776747658961730230611103215566500000000000000",
-        "source": "certificates/best/n853.cert",
+        "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "29",
+          "sqrt2": "1/2",
+          "expression": "29 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 28,
+        "b": 39,
         "source_n": 853,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "7b887d786790cd80962fa4a1f847924110931347abe36f89621b246d8b965c8e"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "854": {
@@ -14460,44 +15279,81 @@
     },
     "860": {
       "verified": {
-        "bound": "832873850217539026975872641/27902679703500000000000000",
-        "source": "certificates/best/n861.cert",
+        "bound": "373115530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "15",
+          "sqrt2": "21/2",
+          "expression": "15 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 14,
+        "b": 21,
         "source_n": 861,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "9ee54f0effd1f6f2f4c2d28097890b8f9f590895aae7262950e4f74f8e342521",
-        "rounded_up": "29.849242404954"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.849242404918"
       },
       "reported": {
-        "bound": "832873850217539026975872641/27902679703500000000000000",
-        "source": "certificates/best/n861.cert",
+        "bound": "373115530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "15",
+          "sqrt2": "21/2",
+          "expression": "15 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 14,
+        "b": 21,
         "source_n": 861,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "9ee54f0effd1f6f2f4c2d28097890b8f9f590895aae7262950e4f74f8e342521"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.849242404918"
       }
     },
     "861": {
       "verified": {
-        "bound": "832873850217539026975872641/27902679703500000000000000",
-        "source": "certificates/best/n861.cert",
+        "bound": "373115530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "15",
+          "sqrt2": "21/2",
+          "expression": "15 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 14,
+        "b": 21,
         "source_n": 861,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "9ee54f0effd1f6f2f4c2d28097890b8f9f590895aae7262950e4f74f8e342521",
-        "rounded_up": "29.849242404954"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "29.849242404918"
       },
       "reported": {
-        "bound": "832873850217539026975872641/27902679703500000000000000",
-        "source": "certificates/best/n861.cert",
+        "bound": "373115530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "15",
+          "sqrt2": "21/2",
+          "expression": "15 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 14,
+        "b": 21,
         "source_n": 861,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "9ee54f0effd1f6f2f4c2d28097890b8f9f590895aae7262950e4f74f8e342521"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "862": {
@@ -15328,65 +16184,121 @@
     },
     "910": {
       "verified": {
-        "bound": "65827447865270229776484793047808574621881082432953517/2143720290363518587419007205507597383500000000000000",
-        "source": "certificates/best/n910.cert",
-        "source_n": 910,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "599df222b34391d07cbe21266564bfac38fc604cfa3a2e27983f03a234a78be7",
-        "rounded_up": "30.707106781225"
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
+        "source_n": 912,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.707106781187"
       },
       "reported": {
-        "bound": "65827447865270229776484793047808574621881082432953517/2143720290363518587419007205507597383500000000000000",
-        "source": "certificates/best/n910.cert",
-        "source_n": 910,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "599df222b34391d07cbe21266564bfac38fc604cfa3a2e27983f03a234a78be7"
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
+        "source_n": 912,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.707106781187"
       }
     },
     "911": {
       "verified": {
-        "bound": "58793201607722848217986767973550135062966845355872063348527340118627369162883/1914644776747658961730230611103215566500000000000000000000000000000000000000",
-        "source": "certificates/best/n912.cert",
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
         "source_n": 912,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "988d3eed4c69def5ff9eba0f4a3a22b3b9915b023dd09771d7101e6aa8155de9",
-        "rounded_up": "30.707106781235"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.707106781187"
       },
       "reported": {
-        "bound": "58793201607722848217986767973550135062966845355872063348527340118627369162883/1914644776747658961730230611103215566500000000000000000000000000000000000000",
-        "source": "certificates/best/n912.cert",
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
         "source_n": 912,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "988d3eed4c69def5ff9eba0f4a3a22b3b9915b023dd09771d7101e6aa8155de9"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.707106781187"
       }
     },
     "912": {
       "verified": {
-        "bound": "58793201607722848217986767973550135062966845355872063348527340118627369162883/1914644776747658961730230611103215566500000000000000000000000000000000000000",
-        "source": "certificates/best/n912.cert",
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
         "source_n": 912,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "988d3eed4c69def5ff9eba0f4a3a22b3b9915b023dd09771d7101e6aa8155de9",
-        "rounded_up": "30.707106781235"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.707106781187"
       },
       "reported": {
-        "bound": "58793201607722848217986767973550135062966845355872063348527340118627369162883/1914644776747658961730230611103215566500000000000000000000000000000000000000",
-        "source": "certificates/best/n912.cert",
+        "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "30",
+          "sqrt2": "1/2",
+          "expression": "30 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 29,
+        "b": 40,
         "source_n": 912,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "988d3eed4c69def5ff9eba0f4a3a22b3b9915b023dd09771d7101e6aa8155de9"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "913": {
@@ -15517,65 +16429,121 @@
     },
     "919": {
       "verified": {
-        "bound": "860776529921039026975873501776529921039026975872641/27902679703500000000000000000000000000000000000000",
-        "source": "certificates/best/n920.cert",
-        "source_n": 920,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "6e7e4dc995ade829635d292c9867c7aa3f34a1c19ea327f789beebdff4b95142",
-        "rounded_up": "30.849242404954"
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
+        "source_n": 921,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.849242404918"
       },
       "reported": {
-        "bound": "860776529921039026975873501776529921039026975872641/27902679703500000000000000000000000000000000000000",
-        "source": "certificates/best/n920.cert",
-        "source_n": 920,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "6e7e4dc995ade829635d292c9867c7aa3f34a1c19ea327f789beebdff4b95142"
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
+        "source_n": 921,
+        "deleted_squares": 2,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.849242404918"
       }
     },
     "920": {
       "verified": {
-        "bound": "860776529921039026975873501776529921039026975872641/27902679703500000000000000000000000000000000000000",
-        "source": "certificates/best/n920.cert",
-        "source_n": 920,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6e7e4dc995ade829635d292c9867c7aa3f34a1c19ea327f789beebdff4b95142",
-        "rounded_up": "30.849242404954"
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
+        "source_n": 921,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.849242404918"
       },
       "reported": {
-        "bound": "860776529921039026975873501776529921039026975872641/27902679703500000000000000000000000000000000000000",
-        "source": "certificates/best/n920.cert",
-        "source_n": 920,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6e7e4dc995ade829635d292c9867c7aa3f34a1c19ea327f789beebdff4b95142"
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
+        "source_n": 921,
+        "deleted_squares": 1,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.849242404918"
       }
     },
     "921": {
       "verified": {
-        "bound": "7432720313892394046097664025405055259822608939644924069/240936883191884998863553224717899530659500000000000000",
-        "source": "certificates/best/n921.cert",
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
         "source_n": 921,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "1e157d2c1d719ed18355146c14f0b93288bdb8f9b91188dca2bd5a470f0f3655",
-        "rounded_up": "30.849242405004"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "30.849242404918"
       },
       "reported": {
-        "bound": "7432720313892394046097664025405055259822608939644924069/240936883191884998863553224717899530659500000000000000",
-        "source": "certificates/best/n921.cert",
+        "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "21/2",
+          "expression": "16 + 21/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 21,
         "source_n": 921,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "1e157d2c1d719ed18355146c14f0b93288bdb8f9b91188dca2bd5a470f0f3655"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "922": {
@@ -16280,23 +17248,41 @@
     },
     "964": {
       "verified": {
-        "bound": "137739844169892983688656627/4364885283700000000000000",
-        "source": "certificates/best/n964.cert",
+        "bound": "197227182413150284605116099789416742901664941432165180030896731986862857894269859/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "11",
+          "expression": "16 + 11*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 22,
         "source_n": 964,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "3b95f67426f1114b5ca6abf8e758f7caf414f1274e67c951a8008d672a35fdc9",
-        "rounded_up": "31.556349186143"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.556349186105"
       },
       "reported": {
-        "bound": "137739844169892983688656627/4364885283700000000000000",
-        "source": "certificates/best/n964.cert",
+        "bound": "197227182413150284605116099789416742901664941432165180030896731986862857894269859/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "16",
+          "sqrt2": "11",
+          "expression": "16 + 11*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "square",
+        "a": 15,
+        "b": 22,
         "source_n": 964,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "3b95f67426f1114b5ca6abf8e758f7caf414f1274e67c951a8008d672a35fdc9"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "965": {
@@ -16427,86 +17413,161 @@
     },
     "971": {
       "verified": {
-        "bound": "67971168155633748363903868224484327639129446336753770316172005381082432953517/2143720290363518587419007205507597383500000000000000000000000000000000000000",
-        "source": "certificates/best/n971.cert",
-        "source_n": 971,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "fc63c237fdae38cbc70570769d51fd73b8ede2f8b4be0625398b600308749ab4",
-        "rounded_up": "31.707106781225"
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
+        "source_n": 974,
+        "deleted_squares": 3,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       },
       "reported": {
-        "bound": "67971168155633748363903868224484327639129446336753770316172005381082432953517/2143720290363518587419007205507597383500000000000000000000000000000000000000",
-        "source": "certificates/best/n971.cert",
-        "source_n": 971,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "fc63c237fdae38cbc70570769d51fd73b8ede2f8b4be0625398b600308749ab4"
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
+        "source_n": 974,
+        "deleted_squares": 3,
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       }
     },
     "972": {
       "verified": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 2,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9",
-        "rounded_up": "31.707106781227"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       },
       "reported": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 2,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       }
     },
     "973": {
       "verified": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9",
-        "rounded_up": "31.707106781227"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       },
       "reported": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9"
+        "status": "verified by deletion from an exact algebraic construction",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       }
     },
     "974": {
       "verified": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9",
-        "rounded_up": "31.707106781227"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+        "rounded_up": "31.707106781187"
       },
       "reported": {
-        "bound": "3149868674588195658956104797605260036746357246890134121/99342670913550000000000000993426709135500000000000000",
-        "source": "certificates/best/n974.cert",
+        "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "exact_bound": {
+          "rational": "31",
+          "sqrt2": "1/2",
+          "expression": "31 + 1/2*sqrt(2)"
+        },
+        "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+        "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+        "family": "strip",
+        "a": 30,
+        "b": 42,
         "source_n": 974,
         "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "06b6dd12faf029a073fafe8524dec0c0b50f1646e561689eccc45526c3680ee9"
+        "status": "exact algebraic construction verified",
+        "proof": "gobel_bounds.json",
+        "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af"
       }
     },
     "975": {

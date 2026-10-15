@@ -1,0 +1,2315 @@
+{
+  "generated": "2026-10-15T01:18:10.858345+00:00",
+  "max_n": 1024,
+  "checker": "gobel_bounds.py",
+  "checker_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+  "witnesses": [
+    {
+      "family": "square",
+      "a": 1,
+      "b": 1,
+      "n": 5,
+      "bound": "33838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "1/2",
+        "expression": "2 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "2.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 5,
+        "pairs_tested": 10,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 1,
+      "b": 2,
+      "n": 8,
+      "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "1",
+        "expression": "2 + 1*sqrt(2)"
+      },
+      "enclosure_lower": "341421356237309504880168872420969807856967187537694807317667973799073247846210703/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "3.414213562374",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 8,
+        "pairs_tested": 28,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 1,
+      "b": 1,
+      "n": 5,
+      "bound": "33838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "1/2",
+        "expression": "2 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "2.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 5,
+        "pairs_tested": 10,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 1,
+      "b": 1,
+      "n": 6,
+      "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "1",
+        "expression": "2 + 1*sqrt(2)"
+      },
+      "enclosure_lower": "341421356237309504880168872420969807856967187537694807317667973799073247846210703/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "3.414213562374",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 6,
+        "pairs_tested": 15,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 2,
+      "b": 2,
+      "n": 16,
+      "bound": "27588834764831844055010554526310612991060449221105925457354248362442077990388169/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "3",
+        "sqrt2": "1",
+        "expression": "3 + 1*sqrt(2)"
+      },
+      "enclosure_lower": "441421356237309504880168872420969807856967187537694807317667973799073247846210703/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "4.414213562374",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 16,
+        "pairs_tested": 120,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 2,
+      "b": 3,
+      "n": 21,
+      "bound": "64016504294495532165031663578931838973181347663317776372062745087326233971164507/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "3",
+        "sqrt2": "3/2",
+        "expression": "3 + 3/2*sqrt(2)"
+      },
+      "enclosure_lower": "1024264068711928514640506617262909423570901562613084421953003921397219743538632109/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "5.121320343560",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 21,
+        "pairs_tested": 146,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 2,
+      "b": 4,
+      "n": 28,
+      "bound": "18213834764831844055010554526310612991060449221105925457354248362442077990388169/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "3",
+        "sqrt2": "2",
+        "expression": "3 + 2*sqrt(2)"
+      },
+      "enclosure_lower": "291421356237309504880168872420969807856967187537694807317667973799073247846210703/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "5.828427124747",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 28,
+        "pairs_tested": 234,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 2,
+      "b": 2,
+      "n": 10,
+      "bound": "46338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "3",
+        "sqrt2": "1/2",
+        "expression": "3 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "3.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 10,
+        "pairs_tested": 45,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 2,
+      "b": 2,
+      "n": 11,
+      "bound": "51516504294495532165031663578931838973181347663317776372062745087326233971164507/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "3/2",
+        "expression": "2 + 3/2*sqrt(2)"
+      },
+      "enclosure_lower": "824264068711928514640506617262909423570901562613084421953003921397219743538632109/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "4.121320343560",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 11,
+        "pairs_tested": 55,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 3,
+      "b": 3,
+      "n": 33,
+      "bound": "76516504294495532165031663578931838973181347663317776372062745087326233971164507/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "4",
+        "sqrt2": "3/2",
+        "expression": "4 + 3/2*sqrt(2)"
+      },
+      "enclosure_lower": "1224264068711928514640506617262909423570901562613084421953003921397219743538632109/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "6.121320343560",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 33,
+        "pairs_tested": 318,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 3,
+      "b": 4,
+      "n": 40,
+      "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "4",
+        "sqrt2": "2",
+        "expression": "4 + 2*sqrt(2)"
+      },
+      "enclosure_lower": "341421356237309504880168872420969807856967187537694807317667973799073247846210703/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "6.828427124747",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 40,
+        "pairs_tested": 346,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 3,
+      "b": 5,
+      "n": 49,
+      "bound": "18838834764831844055010554526310612991060449221105925457354248362442077990388169/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "4",
+        "sqrt2": "5/2",
+        "expression": "4 + 5/2*sqrt(2)"
+      },
+      "enclosure_lower": "301421356237309504880168872420969807856967187537694807317667973799073247846210703/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "7.535533905933",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 49,
+        "pairs_tested": 474,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 3,
+      "b": 3,
+      "n": 17,
+      "bound": "58838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "4",
+        "sqrt2": "1/2",
+        "expression": "4 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "4.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 17,
+        "pairs_tested": 85,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 3,
+      "b": 3,
+      "n": 18,
+      "bound": "15088834764831844055010554526310612991060449221105925457354248362442077990388169/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "2",
+        "expression": "2 + 2*sqrt(2)"
+      },
+      "enclosure_lower": "241421356237309504880168872420969807856967187537694807317667973799073247846210703/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "4.828427124747",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 18,
+        "pairs_tested": 102,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 4,
+      "b": 5,
+      "n": 65,
+      "bound": "21338834764831844055010554526310612991060449221105925457354248362442077990388169/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5",
+        "sqrt2": "5/2",
+        "expression": "5 + 5/2*sqrt(2)"
+      },
+      "enclosure_lower": "341421356237309504880168872420969807856967187537694807317667973799073247846210703/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "8.535533905933",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 65,
+        "pairs_tested": 616,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 4,
+      "b": 6,
+      "n": 76,
+      "bound": "57766504294495532165031663578931838973181347663317776372062745087326233971164507/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5",
+        "sqrt2": "3",
+        "expression": "5 + 3*sqrt(2)"
+      },
+      "enclosure_lower": "924264068711928514640506617262909423570901562613084421953003921397219743538632109/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.242640687120",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 76,
+        "pairs_tested": 814,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 4,
+      "b": 7,
+      "n": 89,
+      "bound": "124371843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5",
+        "sqrt2": "7/2",
+        "expression": "5 + 7/2*sqrt(2)"
+      },
+      "enclosure_lower": "1989949493661166534161182106946788654998770312763863651223675816593512734923474921/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.949747468306",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 89,
+        "pairs_tested": 1074,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 4,
+      "b": 5,
+      "n": 27,
+      "bound": "71338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5",
+        "sqrt2": "1/2",
+        "expression": "5 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "1141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "5.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 27,
+        "pairs_tested": 209,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 4,
+      "b": 5,
+      "n": 28,
+      "bound": "39016504294495532165031663578931838973181347663317776372062745087326233971164507/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "3",
+        "expression": "2 + 3*sqrt(2)"
+      },
+      "enclosure_lower": "624264068711928514640506617262909423570901562613084421953003921397219743538632109/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "6.242640687120",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 28,
+        "pairs_tested": 218,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 5,
+      "b": 6,
+      "n": 96,
+      "bound": "64016504294495532165031663578931838973181347663317776372062745087326233971164507/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "6",
+        "sqrt2": "3",
+        "expression": "6 + 3*sqrt(2)"
+      },
+      "enclosure_lower": "1024264068711928514640506617262909423570901562613084421953003921397219743538632109/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "10.242640687120",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 96,
+        "pairs_tested": 1214,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 5,
+      "b": 7,
+      "n": 109,
+      "bound": "136871843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "6",
+        "sqrt2": "7/2",
+        "expression": "6 + 7/2*sqrt(2)"
+      },
+      "enclosure_lower": "2189949493661166534161182106946788654998770312763863651223675816593512734923474921/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "10.949747468306",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 109,
+        "pairs_tested": 1246,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 5,
+      "b": 8,
+      "n": 124,
+      "bound": "18213834764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "6",
+        "sqrt2": "4",
+        "expression": "6 + 4*sqrt(2)"
+      },
+      "enclosure_lower": "291421356237309504880168872420969807856967187537694807317667973799073247846210703/25000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "11.656854249493",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 124,
+        "pairs_tested": 1480,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 5,
+      "b": 6,
+      "n": 38,
+      "bound": "83838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "6",
+        "sqrt2": "1/2",
+        "expression": "6 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "1341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "6.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 38,
+        "pairs_tested": 303,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 5,
+      "b": 6,
+      "n": 39,
+      "bound": "86871843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "7/2",
+        "expression": "2 + 7/2*sqrt(2)"
+      },
+      "enclosure_lower": "1389949493661166534161182106946788654998770312763863651223675816593512734923474921/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "6.949747468306",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 39,
+        "pairs_tested": 320,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 6,
+      "b": 8,
+      "n": 148,
+      "bound": "19776334764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "7",
+        "sqrt2": "4",
+        "expression": "7 + 4*sqrt(2)"
+      },
+      "enclosure_lower": "316421356237309504880168872420969807856967187537694807317667973799073247846210703/25000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "12.656854249493",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 148,
+        "pairs_tested": 1785,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 6,
+      "b": 9,
+      "n": 165,
+      "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "7",
+        "sqrt2": "9/2",
+        "expression": "7 + 9/2*sqrt(2)"
+      },
+      "enclosure_lower": "2672792206135785543921519851788728270712704687839253265859011764191659230615896327/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "13.363961030679",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 165,
+        "pairs_tested": 2174,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 6,
+      "b": 8,
+      "n": 52,
+      "bound": "96338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "7",
+        "sqrt2": "1/2",
+        "expression": "7 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "1541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "7.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 52,
+        "pairs_tested": 506,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 6,
+      "b": 8,
+      "n": 53,
+      "bound": "104549512883486596495094990736795516919544042989953329116188235261978701913493521/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "9/2",
+        "expression": "2 + 9/2*sqrt(2)"
+      },
+      "enclosure_lower": "1672792206135785543921519851788728270712704687839253265859011764191659230615896327/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "8.363961030679",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 53,
+        "pairs_tested": 517,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 7,
+      "b": 9,
+      "n": 193,
+      "bound": "179549512883486596495094990736795516919544042989953329116188235261978701913493521/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "8",
+        "sqrt2": "9/2",
+        "expression": "8 + 9/2*sqrt(2)"
+      },
+      "enclosure_lower": "2872792206135785543921519851788728270712704687839253265859011764191659230615896327/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "14.363961030679",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 193,
+        "pairs_tested": 2690,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 7,
+      "b": 10,
+      "n": 212,
+      "bound": "18838834764831844055010554526310612991060449221105925457354248362442077990388169/1250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "8",
+        "sqrt2": "5",
+        "expression": "8 + 5*sqrt(2)"
+      },
+      "enclosure_lower": "301421356237309504880168872420969807856967187537694807317667973799073247846210703/20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "15.071067811866",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 212,
+        "pairs_tested": 2828,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 7,
+      "b": 11,
+      "n": 233,
+      "bound": "197227182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "8",
+        "sqrt2": "11/2",
+        "expression": "8 + 11/2*sqrt(2)"
+      },
+      "enclosure_lower": "3155634918610404553681857596630667886426639062914642880494347711789805726308317733/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "15.778174593053",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 233,
+        "pairs_tested": 3114,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 7,
+      "b": 9,
+      "n": 67,
+      "bound": "108838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "8",
+        "sqrt2": "1/2",
+        "expression": "8 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "1741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "8.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 67,
+        "pairs_tested": 660,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 7,
+      "b": 9,
+      "n": 68,
+      "bound": "11338834764831844055010554526310612991060449221105925457354248362442077990388169/1250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "5",
+        "expression": "2 + 5*sqrt(2)"
+      },
+      "enclosure_lower": "181421356237309504880168872420969807856967187537694807317667973799073247846210703/20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.071067811866",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 68,
+        "pairs_tested": 677,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 8,
+      "b": 10,
+      "n": 244,
+      "bound": "20088834764831844055010554526310612991060449221105925457354248362442077990388169/1250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "9",
+        "sqrt2": "5",
+        "expression": "9 + 5*sqrt(2)"
+      },
+      "enclosure_lower": "321421356237309504880168872420969807856967187537694807317667973799073247846210703/20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "16.071067811866",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 244,
+        "pairs_tested": 3382,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 8,
+      "b": 11,
+      "n": 265,
+      "bound": "209727182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "9",
+        "sqrt2": "11/2",
+        "expression": "9 + 11/2*sqrt(2)"
+      },
+      "enclosure_lower": "3355634918610404553681857596630667886426639062914642880494347711789805726308317733/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "16.778174593053",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 265,
+        "pairs_tested": 3537,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 8,
+      "b": 12,
+      "n": 288,
+      "bound": "54641504294495532165031663578931838973181347663317776372062745087326233971164507/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "9",
+        "sqrt2": "6",
+        "expression": "9 + 6*sqrt(2)"
+      },
+      "enclosure_lower": "874264068711928514640506617262909423570901562613084421953003921397219743538632109/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "17.485281374239",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 288,
+        "pairs_tested": 4185,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 8,
+      "b": 10,
+      "n": 84,
+      "bound": "121338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "9",
+        "sqrt2": "1/2",
+        "expression": "9 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "1941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 84,
+        "pairs_tested": 920,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 8,
+      "b": 10,
+      "n": 85,
+      "bound": "122227182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "11/2",
+        "expression": "2 + 11/2*sqrt(2)"
+      },
+      "enclosure_lower": "1955634918610404553681857596630667886426639062914642880494347711789805726308317733/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.778174593053",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 85,
+        "pairs_tested": 943,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 9,
+      "b": 12,
+      "n": 324,
+      "bound": "57766504294495532165031663578931838973181347663317776372062745087326233971164507/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "10",
+        "sqrt2": "6",
+        "expression": "10 + 6*sqrt(2)"
+      },
+      "enclosure_lower": "924264068711928514640506617262909423570901562613084421953003921397219743538632109/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "18.485281374239",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 324,
+        "pairs_tested": 4855,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 9,
+      "b": 13,
+      "n": 349,
+      "bound": "239904851942813972715137208842037968883785839874377030945605228711747013875046197/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "10",
+        "sqrt2": "13/2",
+        "expression": "10 + 13/2*sqrt(2)"
+      },
+      "enclosure_lower": "3838477631085023563442195341472607502140573437990032495129683659387952222000739139/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "19.192388155426",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 349,
+        "pairs_tested": 5000,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 9,
+      "b": 14,
+      "n": 376,
+      "bound": "124371843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "10",
+        "sqrt2": "7",
+        "expression": "10 + 7*sqrt(2)"
+      },
+      "enclosure_lower": "1989949493661166534161182106946788654998770312763863651223675816593512734923474921/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "19.899494936612",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 376,
+        "pairs_tested": 5410,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 9,
+      "b": 12,
+      "n": 104,
+      "bound": "133838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "10",
+        "sqrt2": "1/2",
+        "expression": "10 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "2141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "10.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 104,
+        "pairs_tested": 1157,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 9,
+      "b": 12,
+      "n": 105,
+      "bound": "139904851942813972715137208842037968883785839874377030945605228711747013875046197/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "13/2",
+        "expression": "2 + 13/2*sqrt(2)"
+      },
+      "enclosure_lower": "2238477631085023563442195341472607502140573437990032495129683659387952222000739139/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "11.192388155426",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 105,
+        "pairs_tested": 1174,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 10,
+      "b": 13,
+      "n": 389,
+      "bound": "252404851942813972715137208842037968883785839874377030945605228711747013875046197/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11",
+        "sqrt2": "13/2",
+        "expression": "11 + 13/2*sqrt(2)"
+      },
+      "enclosure_lower": "4038477631085023563442195341472607502140573437990032495129683659387952222000739139/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "20.192388155426",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 389,
+        "pairs_tested": 5746,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 10,
+      "b": 14,
+      "n": 416,
+      "bound": "130621843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11",
+        "sqrt2": "7",
+        "expression": "11 + 7*sqrt(2)"
+      },
+      "enclosure_lower": "2089949493661166534161182106946788654998770312763863651223675816593512734923474921/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "20.899494936612",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 416,
+        "pairs_tested": 5895,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 10,
+      "b": 15,
+      "n": 445,
+      "bound": "54016504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11",
+        "sqrt2": "15/2",
+        "expression": "11 + 15/2*sqrt(2)"
+      },
+      "enclosure_lower": "864264068711928514640506617262909423570901562613084421953003921397219743538632109/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "21.606601717799",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 445,
+        "pairs_tested": 6367,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 10,
+      "b": 13,
+      "n": 125,
+      "bound": "146338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11",
+        "sqrt2": "1/2",
+        "expression": "11 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "2341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "11.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 125,
+        "pairs_tested": 1499,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 10,
+      "b": 13,
+      "n": 126,
+      "bound": "74371843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "7",
+        "expression": "2 + 7*sqrt(2)"
+      },
+      "enclosure_lower": "1189949493661166534161182106946788654998770312763863651223675816593512734923474921/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "11.899494936612",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 126,
+        "pairs_tested": 1520,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 11,
+      "b": 15,
+      "n": 489,
+      "bound": "56516504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "12",
+        "sqrt2": "15/2",
+        "expression": "12 + 15/2*sqrt(2)"
+      },
+      "enclosure_lower": "904264068711928514640506617262909423570901562613084421953003921397219743538632109/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "22.606601717799",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 489,
+        "pairs_tested": 6907,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 11,
+      "b": 16,
+      "n": 520,
+      "bound": "18213834764831844055010554526310612991060449221105925457354248362442077990388169/781250000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "12",
+        "sqrt2": "8",
+        "expression": "12 + 8*sqrt(2)"
+      },
+      "enclosure_lower": "291421356237309504880168872420969807856967187537694807317667973799073247846210703/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.313708498985",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 520,
+        "pairs_tested": 7788,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 11,
+      "b": 15,
+      "n": 149,
+      "bound": "158838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "12",
+        "sqrt2": "1/2",
+        "expression": "12 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "2541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "12.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 149,
+        "pairs_tested": 1794,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 11,
+      "b": 15,
+      "n": 150,
+      "bound": "10401334764831844055010554526310612991060449221105925457354248362442077990388169/781250000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "8",
+        "expression": "2 + 8*sqrt(2)"
+      },
+      "enclosure_lower": "166421356237309504880168872420969807856967187537694807317667973799073247846210703/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "13.313708498985",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 150,
+        "pairs_tested": 1811,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 12,
+      "b": 16,
+      "n": 568,
+      "bound": "18995084764831844055010554526310612991060449221105925457354248362442077990388169/781250000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "13",
+        "sqrt2": "8",
+        "expression": "13 + 8*sqrt(2)"
+      },
+      "enclosure_lower": "303921356237309504880168872420969807856967187537694807317667973799073247846210703/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "24.313708498985",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 568,
+        "pairs_tested": 8712,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 12,
+      "b": 17,
+      "n": 601,
+      "bound": "312760191002141348935179426947280420848027636758800732775022222161515325836598873/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "13",
+        "sqrt2": "17/2",
+        "expression": "13 + 17/2*sqrt(2)"
+      },
+      "enclosure_lower": "5004163056034261582962870831156486733568442188140811724400355554584245213385581951/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "25.020815280172",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 601,
+        "pairs_tested": 8924,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 12,
+      "b": 18,
+      "n": 636,
+      "bound": "160799512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "13",
+        "sqrt2": "9",
+        "expression": "13 + 9*sqrt(2)"
+      },
+      "enclosure_lower": "2572792206135785543921519851788728270712704687839253265859011764191659230615896327/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "25.727922061358",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 636,
+        "pairs_tested": 9455,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 12,
+      "b": 16,
+      "n": 174,
+      "bound": "171338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "13",
+        "sqrt2": "1/2",
+        "expression": "13 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "2741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "13.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 174,
+        "pairs_tested": 2212,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 12,
+      "b": 16,
+      "n": 175,
+      "bound": "175260191002141348935179426947280420848027636758800732775022222161515325836598873/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "17/2",
+        "expression": "2 + 17/2*sqrt(2)"
+      },
+      "enclosure_lower": "2804163056034261582962870831156486733568442188140811724400355554584245213385581951/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "14.020815280172",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 175,
+        "pairs_tested": 2237,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 13,
+      "b": 17,
+      "n": 653,
+      "bound": "325260191002141348935179426947280420848027636758800732775022222161515325836598873/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "14",
+        "sqrt2": "17/2",
+        "expression": "14 + 17/2*sqrt(2)"
+      },
+      "enclosure_lower": "5204163056034261582962870831156486733568442188140811724400355554584245213385581951/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "26.020815280172",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 653,
+        "pairs_tested": 9906,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 13,
+      "b": 18,
+      "n": 688,
+      "bound": "167049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "14",
+        "sqrt2": "9",
+        "expression": "14 + 9*sqrt(2)"
+      },
+      "enclosure_lower": "2672792206135785543921519851788728270712704687839253265859011764191659230615896327/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "26.727922061358",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 688,
+        "pairs_tested": 10170,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 13,
+      "b": 19,
+      "n": 725,
+      "bound": "342937860531805037045200535999901646830148535201012583689730718886399481817375211/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "14",
+        "sqrt2": "19/2",
+        "expression": "14 + 19/2*sqrt(2)"
+      },
+      "enclosure_lower": "5487005768508880592723208575998426349282376563216201339035691502182391709078003357/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "27.435028842545",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 725,
+        "pairs_tested": 11254,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 13,
+      "b": 17,
+      "n": 201,
+      "bound": "183838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "14",
+        "sqrt2": "1/2",
+        "expression": "14 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "2941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "14.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 201,
+        "pairs_tested": 2543,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 13,
+      "b": 17,
+      "n": 202,
+      "bound": "92049512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "9",
+        "expression": "2 + 9*sqrt(2)"
+      },
+      "enclosure_lower": "1472792206135785543921519851788728270712704687839253265859011764191659230615896327/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "14.727922061358",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 202,
+        "pairs_tested": 2571,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 14,
+      "b": 19,
+      "n": 781,
+      "bound": "355437860531805037045200535999901646830148535201012583689730718886399481817375211/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15",
+        "sqrt2": "19/2",
+        "expression": "15 + 19/2*sqrt(2)"
+      },
+      "enclosure_lower": "5687005768508880592723208575998426349282376563216201339035691502182391709078003357/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "28.435028842545",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 781,
+        "pairs_tested": 12346,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 14,
+      "b": 20,
+      "n": 820,
+      "bound": "18213834764831844055010554526310612991060449221105925457354248362442077990388169/625000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15",
+        "sqrt2": "10",
+        "expression": "15 + 10*sqrt(2)"
+      },
+      "enclosure_lower": "291421356237309504880168872420969807856967187537694807317667973799073247846210703/10000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "29.142135623731",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 820,
+        "pairs_tested": 12572,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 14,
+      "b": 21,
+      "n": 861,
+      "bound": "373115530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15",
+        "sqrt2": "21/2",
+        "expression": "15 + 21/2*sqrt(2)"
+      },
+      "enclosure_lower": "5969848480983499602483546320840365964996310938291590953671027449780538204770424763/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "29.849242404918",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 861,
+        "pairs_tested": 13213,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 14,
+      "b": 19,
+      "n": 231,
+      "bound": "196338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15",
+        "sqrt2": "1/2",
+        "expression": "15 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "3141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "15.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 231,
+        "pairs_tested": 3071,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 14,
+      "b": 19,
+      "n": 232,
+      "bound": "10088834764831844055010554526310612991060449221105925457354248362442077990388169/625000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "10",
+        "expression": "2 + 10*sqrt(2)"
+      },
+      "enclosure_lower": "161421356237309504880168872420969807856967187537694807317667973799073247846210703/10000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "16.142135623731",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 232,
+        "pairs_tested": 3074,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 15,
+      "b": 20,
+      "n": 880,
+      "bound": "18838834764831844055010554526310612991060449221105925457354248362442077990388169/625000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "16",
+        "sqrt2": "10",
+        "expression": "16 + 10*sqrt(2)"
+      },
+      "enclosure_lower": "301421356237309504880168872420969807856967187537694807317667973799073247846210703/10000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "30.142135623731",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 880,
+        "pairs_tested": 13750,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 15,
+      "b": 21,
+      "n": 921,
+      "bound": "385615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "16",
+        "sqrt2": "21/2",
+        "expression": "16 + 21/2*sqrt(2)"
+      },
+      "enclosure_lower": "6169848480983499602483546320840365964996310938291590953671027449780538204770424763/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "30.849242404918",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 921,
+        "pairs_tested": 13967,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "square",
+      "a": 15,
+      "b": 22,
+      "n": 964,
+      "bound": "197227182413150284605116099789416742901664941432165180030896731986862857894269859/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "16",
+        "sqrt2": "11",
+        "expression": "16 + 11*sqrt(2)"
+      },
+      "enclosure_lower": "3155634918610404553681857596630667886426639062914642880494347711789805726308317733/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "31.556349186105",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 964,
+        "pairs_tested": 14712,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 15,
+      "b": 20,
+      "n": 262,
+      "bound": "208838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "16",
+        "sqrt2": "1/2",
+        "expression": "16 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "3341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "16.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 262,
+        "pairs_tested": 3459,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 15,
+      "b": 20,
+      "n": 263,
+      "bound": "210615530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "21/2",
+        "expression": "2 + 21/2*sqrt(2)"
+      },
+      "enclosure_lower": "3369848480983499602483546320840365964996310938291590953671027449780538204770424763/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "16.849242404918",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 263,
+        "pairs_tested": 3476,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 16,
+      "b": 22,
+      "n": 296,
+      "bound": "221338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "17",
+        "sqrt2": "1/2",
+        "expression": "17 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "3541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "17.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 296,
+        "pairs_tested": 4066,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 16,
+      "b": 22,
+      "n": 297,
+      "bound": "228293199591132413265242754105144098794390332085436285519147712336167793778927887/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "23/2",
+        "expression": "2 + 23/2*sqrt(2)"
+      },
+      "enclosure_lower": "3652691193458118612243884065682305580710245313366980568306363397378684700462846169/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "18.263455967291",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 297,
+        "pairs_tested": 4075,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 17,
+      "b": 23,
+      "n": 331,
+      "bound": "233838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "18",
+        "sqrt2": "1/2",
+        "expression": "18 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "3741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "18.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 331,
+        "pairs_tested": 4517,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 17,
+      "b": 23,
+      "n": 332,
+      "bound": "29641504294495532165031663578931838973181347663317776372062745087326233971164507/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "12",
+        "expression": "2 + 12*sqrt(2)"
+      },
+      "enclosure_lower": "474264068711928514640506617262909423570901562613084421953003921397219743538632109/25000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "18.970562748478",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 332,
+        "pairs_tested": 4533,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 18,
+      "b": 25,
+      "n": 369,
+      "bound": "246338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "19",
+        "sqrt2": "1/2",
+        "expression": "19 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "3941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "19.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 369,
+        "pairs_tested": 5205,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 18,
+      "b": 25,
+      "n": 370,
+      "bound": "127404851942813972715137208842037968883785839874377030945605228711747013875046197/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "13",
+        "expression": "2 + 13*sqrt(2)"
+      },
+      "enclosure_lower": "2038477631085023563442195341472607502140573437990032495129683659387952222000739139/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "20.384776310851",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 370,
+        "pairs_tested": 5216,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 19,
+      "b": 26,
+      "n": 408,
+      "bound": "258838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "20",
+        "sqrt2": "1/2",
+        "expression": "20 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "4141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "20.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 408,
+        "pairs_tested": 5713,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 19,
+      "b": 26,
+      "n": 409,
+      "bound": "263648538650459789485284972210386550758632128969859987348564705785936105740480563/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "27/2",
+        "expression": "2 + 27/2*sqrt(2)"
+      },
+      "enclosure_lower": "4218376618407356631764559555366184812138114063517759797577035292574977691847688981/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "21.091883092037",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 409,
+        "pairs_tested": 5730,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 20,
+      "b": 27,
+      "n": 449,
+      "bound": "271338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "21",
+        "sqrt2": "1/2",
+        "expression": "21 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "4341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "21.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 449,
+        "pairs_tested": 6457,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 20,
+      "b": 27,
+      "n": 450,
+      "bound": "68121843353822908385073881684174290937423144547741478201479738537094545932717183/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "14",
+        "expression": "2 + 14*sqrt(2)"
+      },
+      "enclosure_lower": "1089949493661166534161182106946788654998770312763863651223675816593512734923474921/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "21.798989873224",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 450,
+        "pairs_tested": 6480,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 21,
+      "b": 29,
+      "n": 493,
+      "bound": "283838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "22",
+        "sqrt2": "1/2",
+        "expression": "22 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "4541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "22.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 493,
+        "pairs_tested": 7051,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 21,
+      "b": 29,
+      "n": 494,
+      "bound": "29016504294495532165031663578931838973181347663317776372062745087326233971164507/1250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "15",
+        "expression": "2 + 15*sqrt(2)"
+      },
+      "enclosure_lower": "464264068711928514640506617262909423570901562613084421953003921397219743538632109/20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.213203435597",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 494,
+        "pairs_tested": 7067,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 22,
+      "b": 30,
+      "n": 538,
+      "bound": "296338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "23",
+        "sqrt2": "1/2",
+        "expression": "23 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "4741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 538,
+        "pairs_tested": 7878,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 22,
+      "b": 30,
+      "n": 539,
+      "bound": "299003877709787165705327190315629002722873925854283689177981699235704417702033239/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "31/2",
+        "expression": "2 + 31/2*sqrt(2)"
+      },
+      "enclosure_lower": "4784062043356594651285235045050064043565982813668539026847707187771270683232531793/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.920310216783",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 539,
+        "pairs_tested": 7895,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 23,
+      "b": 32,
+      "n": 586,
+      "bound": "308838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "24",
+        "sqrt2": "1/2",
+        "expression": "24 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "4941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "24.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 586,
+        "pairs_tested": 8527,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 23,
+      "b": 32,
+      "n": 587,
+      "bound": "316681547239450853815348299368250228704994824296495540092690195960588573682809577/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "33/2",
+        "expression": "2 + 33/2*sqrt(2)"
+      },
+      "enclosure_lower": "5066904755831213661045572789892003659279917188743928641483043135369417178924953199/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "25.334523779157",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 587,
+        "pairs_tested": 8545,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 24,
+      "b": 33,
+      "n": 635,
+      "bound": "321338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "25",
+        "sqrt2": "1/2",
+        "expression": "25 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "5141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "25.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 635,
+        "pairs_tested": 9429,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 24,
+      "b": 33,
+      "n": 636,
+      "bound": "162760191002141348935179426947280420848027636758800732775022222161515325836598873/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "17",
+        "expression": "2 + 17*sqrt(2)"
+      },
+      "enclosure_lower": "2604163056034261582962870831156486733568442188140811724400355554584245213385581951/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "26.041630560343",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 636,
+        "pairs_tested": 9451,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 25,
+      "b": 34,
+      "n": 686,
+      "bound": "333838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "26",
+        "sqrt2": "1/2",
+        "expression": "26 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "5341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "26.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 686,
+        "pairs_tested": 10117,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 25,
+      "b": 34,
+      "n": 687,
+      "bound": "66871843353822908385073881684174290937423144547741478201479738537094545932717183/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "35/2",
+        "expression": "2 + 35/2*sqrt(2)"
+      },
+      "enclosure_lower": "1069949493661166534161182106946788654998770312763863651223675816593512734923474921/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "26.748737341530",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 687,
+        "pairs_tested": 10145,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 26,
+      "b": 36,
+      "n": 740,
+      "bound": "346338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "27",
+        "sqrt2": "1/2",
+        "expression": "27 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "5541421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "27.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 740,
+        "pairs_tested": 11130,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 26,
+      "b": 36,
+      "n": 741,
+      "bound": "352036886298778230035390517473492680669236621180919241922107189410356885644362253/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "37/2",
+        "expression": "2 + 37/2*sqrt(2)"
+      },
+      "enclosure_lower": "5632590180780451680566248279575882890707785938894707870753715030565710170309796011/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "28.162950903903",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 741,
+        "pairs_tested": 11129,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 27,
+      "b": 37,
+      "n": 795,
+      "bound": "358838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "28",
+        "sqrt2": "1/2",
+        "expression": "28 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "5741421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "28.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 795,
+        "pairs_tested": 11874,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 27,
+      "b": 37,
+      "n": 796,
+      "bound": "180437860531805037045200535999901646830148535201012583689730718886399481817375211/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "19",
+        "expression": "2 + 19*sqrt(2)"
+      },
+      "enclosure_lower": "2887005768508880592723208575998426349282376563216201339035691502182391709078003357/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "28.870057685089",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 796,
+        "pairs_tested": 11889,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 28,
+      "b": 39,
+      "n": 853,
+      "bound": "371338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "29",
+        "sqrt2": "1/2",
+        "expression": "29 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "5941421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "29.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 853,
+        "pairs_tested": 12963,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 28,
+      "b": 39,
+      "n": 854,
+      "bound": "9463834764831844055010554526310612991060449221105925457354248362442077990388169/312500000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "20",
+        "expression": "2 + 20*sqrt(2)"
+      },
+      "enclosure_lower": "151421356237309504880168872420969807856967187537694807317667973799073247846210703/5000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "30.284271247462",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 854,
+        "pairs_tested": 12972,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 29,
+      "b": 40,
+      "n": 912,
+      "bound": "383838834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "30",
+        "sqrt2": "1/2",
+        "expression": "30 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "6141421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "30.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 912,
+        "pairs_tested": 13771,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 29,
+      "b": 40,
+      "n": 913,
+      "bound": "387392225358105606255432735578735132633478418065342943751524182860125197605914929/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "41/2",
+        "expression": "2 + 41/2*sqrt(2)"
+      },
+      "enclosure_lower": "6198275605729689700086923769259762122135654689045487100024386925762003161694638823/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "30.991378028649",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 913,
+        "pairs_tested": 13786,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "strip",
+      "a": 30,
+      "b": 42,
+      "n": 974,
+      "bound": "396338834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "31",
+        "sqrt2": "1/2",
+        "expression": "31 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "6341421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "31.707106781187",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 974,
+        "pairs_tested": 14944,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "corner_strip",
+      "a": 30,
+      "b": 42,
+      "n": 975,
+      "bound": "405069894887769294365453844631356358615599316507554794666232679585009353586691267/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "2",
+        "sqrt2": "43/2",
+        "expression": "2 + 43/2*sqrt(2)"
+      },
+      "enclosure_lower": "6481118318204308709847261514101701737849589064120876714659722873360149657387060229/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "32.405591591022",
+      "source": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+      "verification": {
+        "valid": true,
+        "n": 975,
+        "pairs_tested": 14955,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    }
+  ],
+  "independent_checks": {
+    "source": {
+      "commit": "9b32da04d8ca7e4972ea7db51dce3605810ea250",
+      "path": "packing/src/sqpack/verify.py",
+      "url": "https://github.com/jlevy/squares/blob/9b32da04d8ca7e4972ea7db51dce3605810ea250/packing/src/sqpack/verify.py"
+    },
+    "checker_sha256": "56bc5b9f690b054ba30e82547dea4aa9d0ccea0a2b1827fab28fcc4e98677337",
+    "shared_arithmetic": "Q(sqrt(2)) from gobel_bounds.py; separate corner/edge SAT geometry; all pairs",
+    "receipts": [
+      {
+        "family": "square",
+        "a": 1,
+        "b": 1,
+        "n": 5,
+        "valid": true,
+        "pairs_tested": 10,
+        "container_contacts": 16,
+        "touching_pairs": 4,
+        "shapes_checked": true,
+        "duplicate_rejected": true,
+        "elapsed_seconds": 0.01407149899750948
+      },
+      {
+        "family": "strip",
+        "a": 4,
+        "b": 5,
+        "n": 27,
+        "valid": true,
+        "pairs_tested": 351,
+        "container_contacts": 40,
+        "touching_pairs": 54,
+        "shapes_checked": true,
+        "duplicate_rejected": true,
+        "elapsed_seconds": 0.20716204307973385
+      },
+      {
+        "family": "corner_strip",
+        "a": 13,
+        "b": 17,
+        "n": 202,
+        "valid": true,
+        "pairs_tested": 20301,
+        "container_contacts": 112,
+        "touching_pairs": 619,
+        "shapes_checked": true,
+        "duplicate_rejected": true,
+        "elapsed_seconds": 9.92472026264295
+      },
+      {
+        "family": "square",
+        "a": 10,
+        "b": 14,
+        "n": 416,
+        "valid": true,
+        "pairs_tested": 86320,
+        "container_contacts": 160,
+        "touching_pairs": 1426,
+        "shapes_checked": true,
+        "duplicate_rejected": true,
+        "elapsed_seconds": 40.22118615312502
+      }
+    ]
+  }
+}

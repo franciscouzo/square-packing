@@ -1,6 +1,6 @@
 # Verified upper-bound witnesses
 
-The complete upper-bound index covers every n=1..1023. It combines the finite rational witnesses below with deletion, integer grids and previously verified published algebraic bounds. Exact headers and source receipts are authoritative; displayed sides are rounded upward to 12 decimal places.
+The complete upper-bound index covers every n=1..1023. It combines the finite rational witnesses below with deletion, integer grids and exact Göbel square/strip constructions and previously verified published algebraic bounds. The [Göbel comparison](../../GOBEL_COMPARISON.md) records the corrections and credits. Exact headers and source receipts are authoritative; displayed sides are rounded upward to 12 decimal places.
 
 This directory retains 515 independently replayed finite witnesses. Original construction and certificate credits are recorded separately in [manifest.json](manifest.json). The source review is in [bound_sources.json](../../bound_sources.json).
 
@@ -542,12 +542,12 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 2 | 2.000000000000 | grid |
 | 3 | 2.000000000000 | grid |
 | 4 | 2.000000000000 | grid |
-| 5 | 2.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 5 | 2.707106781187 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 6 | 3.000000000000 | grid |
 | 7 | 3.000000000000 | grid |
 | 8 | 3.000000000000 | grid |
 | 9 | 3.000000000000 | grid |
-| 10 | 3.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 10 | 3.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 11 | 3.877083590023 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 12 | 4.000000000000 | grid |
 | 13 | 4.000000000000 | grid |
@@ -564,7 +564,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 24 | 5.000000000000 | grid |
 | 25 | 5.000000000000 | grid |
 | 26 | 5.621320343560 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 27 | 5.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 27 | 5.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 28 | 5.824444616675 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 29 | 5.933833462677 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 30 | 6.000000000000 | grid |
@@ -575,9 +575,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 35 | 6.000000000000 | grid |
 | 36 | 6.000000000000 | grid |
 | 37 | 6.598619609245 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 38 | 6.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 38 | 6.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 39 | 6.810722083069 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 40 | 6.828427124747 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 40 | 6.828427124747 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 41 | 6.926693094469 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 42 | 7.000000000000 | grid |
 | 43 | 7.000000000000 | grid |
@@ -589,7 +589,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 49 | 7.000000000000 | grid |
 | 50 | 7.571428571429 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 51 | 7.690355937289 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 52 | 7.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 52 | 7.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 53 | 7.822875655533 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 54 | 7.846667192844 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 55 | 7.945771007504 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -602,9 +602,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 62 | 8.000000000000 | grid |
 | 63 | 8.000000000000 | grid |
 | 64 | 8.000000000000 | grid |
-| 65 | 8.535533905933 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 65 | 8.535533905933 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 66 | 8.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 67 | 8.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 67 | 8.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 68 | 8.798795237219 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 69 | 8.827194655730 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 70 | 8.880960371556 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
@@ -626,7 +626,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 86 | 9.820535407497 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 87 | 9.838815269949 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 88 | 9.882451030482 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 89 | 9.949747468306 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 89 | 9.949747468306 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 90 | 10.000000000000 | grid |
 | 91 | 10.000000000000 | grid |
 | 92 | 10.000000000000 | grid |
@@ -641,12 +641,12 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 101 | 10.535533905933 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 102 | 10.605828696432 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 103 | 10.679232047362 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 104 | 10.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 104 | 10.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 105 | 10.789303783749 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 106 | 10.822908044133 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 107 | 10.846667192844 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 108 | 10.904821012321 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 109 | 10.949747468306 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 109 | 10.949747468306 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 110 | 10.996783396632 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 111 | 11.000000000000 | grid |
 | 112 | 11.000000000000 | grid |
@@ -661,8 +661,8 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 121 | 11.000000000000 | grid |
 | 122 | 11.535533905933 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 123 | 11.591378145498 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 124 | 11.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 125 | 11.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 124 | 11.656854249493 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
+| 125 | 11.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 126 | 11.742640687120 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 127 | 11.810878787590 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 128 | 11.825091968214 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -684,9 +684,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 144 | 12.000000000000 | grid |
 | 145 | 12.535533905933 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 146 | 12.583782190152 | [published source](https://github.com/jlevy/squares/issues/399) |
-| 147 | 12.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 148 | 12.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 149 | 12.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 147 | 12.656854249493 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=148) |
+| 148 | 12.656854249493 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
+| 149 | 12.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 150 | 12.778174593053 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 151 | 12.822875655533 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 152 | 12.830718800977 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -711,7 +711,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 171 | 13.571428571429 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 172 | 13.618988956900 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 173 | 13.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 174 | 13.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 174 | 13.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 175 | 13.764174317487 | [n=175](n175.cert) |
 | 176 | 13.795872318437 | [n=176](n176.cert) |
 | 177 | 13.822979734170 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -738,8 +738,8 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 198 | 14.571428571429 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 199 | 14.617572173593 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 200 | 14.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 201 | 14.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 202 | 14.727922061358 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 201 | 14.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
+| 202 | 14.727922061358 | [Göbel corner strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 203 | 14.778174593053 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 204 | 14.808663234387 | [n=204](n204.cert) |
 | 205 | 14.824451146125 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -768,9 +768,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 228 | 15.604601475730 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 229 | 15.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 230 | 15.682926829269 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 231 | 15.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 231 | 15.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 232 | 15.764174317487 | [n=232](n232.cert) |
-| 233 | 15.778174593053 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 233 | 15.778174593053 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 234 | 15.822875655533 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 235 | 15.826605633429 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 236 | 15.863955747160 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -799,10 +799,10 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 259 | 16.591378145498 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 260 | 16.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 261 | 16.678779875343 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 262 | 16.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 262 | 16.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 263 | 16.733166007900 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 264 | 16.774735132388 | [n=264](n264.cert) |
-| 265 | 16.778174593053 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 265 | 16.778174593053 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 266 | 16.823028750757 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 267 | 16.838815269949 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 268 | 16.878814821007 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -833,7 +833,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 293 | 17.634146341464 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 294 | 17.656854249493 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 295 | 17.704232790737 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 296 | 17.707106781187 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
+| 296 | 17.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 297 | 17.740417287544 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 298 | 17.778174593053 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 299 | 17.822875655533 | [published source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
@@ -868,7 +868,7 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 328 | 18.634146341464 | [n=328](n328.cert) |
 | 329 | 18.656854249493 | [n=329](n329.cert) |
 | 330 | 18.704232790737 | [n=330](n330.cert) |
-| 331 | 18.707106781187 | [n=331](n331.cert) |
+| 331 | 18.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 332 | 18.740417287544 | [n=332](n332.cert) |
 | 333 | 18.778174593053 | [n=333](n333.cert) |
 | 334 | 18.822875655533 | [n=334](n334.cert) |
@@ -905,15 +905,15 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 365 | 19.621320343560 | [n=365](n365.cert) |
 | 366 | 19.656854249493 | [n=366](n366.cert) |
 | 367 | 19.704232790737 | [n=367](n367.cert) |
-| 368 | 19.707106781187 | [n=369](n369.cert) (deletion) |
-| 369 | 19.707106781187 | [published source](https://kingbird.myphotos.cc/packing/square-369.svg) |
+| 368 | 19.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=369) |
+| 369 | 19.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 370 | 19.767478905842 | [n=370](n370.cert) |
 | 371 | 19.822875655533 | [n=371](n371.cert) |
 | 372 | 19.822875655562 | [n=372](n372.cert) |
 | 373 | 19.823062082838 | [current n=373](../n373.cert) |
 | 374 | 19.832356217033 | [current n=374](../n374.cert) |
 | 375 | 19.882451030482 | [n=375](n375.cert) |
-| 376 | 19.899494936612 | [published source](https://kingbird.myphotos.cc/packing/square-376.svg) |
+| 376 | 19.899494936612 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 377 | 19.925720814331 | [current n=377](../n377.cert) |
 | 378 | 19.942506891619 | [current n=378](../n378.cert) |
 | 379 | 19.953014541486 | [current n=379](../n379.cert) |
@@ -944,16 +944,16 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 404 | 20.621320343560 | [n=404](n404.cert) |
 | 405 | 20.656854249493 | [n=405](n405.cert) |
 | 406 | 20.704232790737 | [n=406](n406.cert) |
-| 407 | 20.707106781187 | [n=407](n407.cert) |
-| 408 | 20.707106781187 | [n=408](n408.cert) |
+| 407 | 20.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=408) |
+| 408 | 20.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 409 | 20.767428349966 | [n=409](n409.cert) |
 | 410 | 20.778174593076 | [n=410](n410.cert) |
 | 411 | 20.822875655557 | [n=411](n411.cert) |
 | 412 | 20.823062082838 | [n=412](n412.cert) |
 | 413 | 20.831663365378 | [n=413](n413.cert) |
 | 414 | 20.882451030482 | [n=414](n414.cert) |
-| 415 | 20.899494936612 | [n=415](n415.cert) |
-| 416 | 20.899494936651 | [n=416](n416.cert) |
+| 415 | 20.899494936612 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=416) |
+| 416 | 20.899494936612 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 417 | 20.942506891619 | [n=417](n417.cert) |
 | 418 | 20.949005229001 | [n=418](n418.cert) |
 | 419 | 20.959997582079 | [n=419](n419.cert) |
@@ -982,11 +982,11 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 442 | 21.535533905933 | [n=442](n442.cert) |
 | 443 | 21.535533905933 | [n=443](n443.cert) |
 | 444 | 21.583782203951 | [n=444](n444.cert) |
-| 445 | 21.606601717827 | [n=445](n445.cert) |
+| 445 | 21.606601717799 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 446 | 21.656854249493 | [n=446](n446.cert) |
 | 447 | 21.704232790737 | [n=447](n447.cert) |
-| 448 | 21.707106781187 | [n=448](n448.cert) |
-| 449 | 21.707106781187 | [n=449](n449.cert) |
+| 448 | 21.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=449) |
+| 449 | 21.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 450 | 21.767428349966 | [n=450](n450.cert) |
 | 451 | 21.778174593076 | [n=451](n451.cert) |
 | 452 | 21.778174597694 | [n=452](n452.cert) |
@@ -1025,12 +1025,12 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 485 | 22.535533905933 | [n=485](n485.cert) |
 | 486 | 22.535533905933 | [n=486](n486.cert) |
 | 487 | 22.583782190178 | [n=487](n487.cert) |
-| 488 | 22.606601717827 | [n=488](n488.cert) |
-| 489 | 22.606601717845 | [n=489](n489.cert) |
+| 488 | 22.606601717799 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=489) |
+| 489 | 22.606601717799 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 490 | 22.656854249519 | [n=490](n490.cert) |
-| 491 | 22.707106781187 | [n=491](n491.cert) |
-| 492 | 22.707106781187 | [n=492](n492.cert) |
-| 493 | 22.707106781227 | [n=493](n493.cert) |
+| 491 | 22.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=493) |
+| 492 | 22.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=493) |
+| 493 | 22.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 494 | 22.778174593076 | [n=494](n494.cert) |
 | 495 | 22.778174593079 | [n=495](n495.cert) |
 | 496 | 22.823014758318 | [n=496](n496.cert) |
@@ -1074,8 +1074,8 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 534 | 23.606601717826 | [n=534](n534.cert) |
 | 535 | 23.656854249519 | [n=535](n535.cert) |
 | 536 | 23.677669534775 | [n=536](n536.cert) |
-| 537 | 23.707106781187 | [n=537](n537.cert) |
-| 538 | 23.707106781227 | [n=538](n538.cert) |
+| 537 | 23.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=538) |
+| 538 | 23.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 539 | 23.778174593076 | [n=539](n539.cert) |
 | 540 | 23.778174593079 | [n=540](n540.cert) |
 | 541 | 23.823014758318 | [n=541](n541.cert) |
@@ -1122,8 +1122,8 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 582 | 24.656854249519 | [n=582](n582.cert) |
 | 583 | 24.677669529693 | [n=584](n584.cert) (deletion) |
 | 584 | 24.677669529693 | [n=584](n584.cert) |
-| 585 | 24.707106781227 | [n=585](n585.cert) |
-| 586 | 24.707106781231 | [n=586](n586.cert) |
+| 585 | 24.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=586) |
+| 586 | 24.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 587 | 24.778174593079 | [n=587](n587.cert) |
 | 588 | 24.823014758318 | [n=588](n588.cert) |
 | 589 | 24.828427124774 | [n=590](n590.cert) (deletion) |
@@ -1171,9 +1171,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 631 | 25.656854249519 | [n=631](n631.cert) |
 | 632 | 25.677669529693 | [n=633](n633.cert) (deletion) |
 | 633 | 25.677669529693 | [n=633](n633.cert) |
-| 634 | 25.707106781225 | [n=634](n634.cert) |
-| 635 | 25.707106781231 | [n=635](n635.cert) |
-| 636 | 25.727922061390 | [n=636](n636.cert) |
+| 634 | 25.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=635) |
+| 635 | 25.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
+| 636 | 25.727922061358 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 637 | 25.778174593082 | [n=637](n637.cert) |
 | 638 | 25.828427124774 | [n=639](n639.cert) (deletion) |
 | 639 | 25.828427124774 | [n=639](n639.cert) |
@@ -1222,10 +1222,10 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 682 | 26.656854249519 | [n=682](n682.cert) |
 | 683 | 26.677669529693 | [n=684](n684.cert) (deletion) |
 | 684 | 26.677669529693 | [n=684](n684.cert) |
-| 685 | 26.707106781220 | [n=685](n685.cert) |
-| 686 | 26.707106781231 | [n=686](n686.cert) |
-| 687 | 26.727922061390 | [n=687](n687.cert) |
-| 688 | 26.727922061420 | [n=688](n688.cert) |
+| 685 | 26.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=686) |
+| 686 | 26.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
+| 687 | 26.727922061358 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=688) |
+| 688 | 26.727922061358 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 689 | 26.778174593084 | [n=689](n689.cert) |
 | 690 | 26.828427124774 | [n=690](n690.cert) |
 | 691 | 26.828427124775 | [n=691](n691.cert) |
@@ -1275,9 +1275,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 735 | 27.656854249519 | [n=735](n735.cert) |
 | 736 | 27.656854249525 | [n=736](n736.cert) |
 | 737 | 27.677669529693 | [n=737](n737.cert) |
-| 738 | 27.707106781220 | [n=738](n738.cert) |
-| 739 | 27.707106781231 | [n=739](n739.cert) |
-| 740 | 27.707106781239 | [n=740](n740.cert) |
+| 738 | 27.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=740) |
+| 739 | 27.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=740) |
+| 740 | 27.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 741 | 27.727922061420 | [n=741](n741.cert) |
 | 742 | 27.778174593084 | [n=742](n742.cert) |
 | 743 | 27.798989873256 | [n=744](n744.cert) (deletion) |
@@ -1330,9 +1330,9 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 790 | 28.656854249519 | [n=790](n790.cert) |
 | 791 | 28.656854249525 | [n=791](n791.cert) |
 | 792 | 28.656854249526 | [n=792](n792.cert) |
-| 793 | 28.707106781220 | [n=793](n793.cert) |
-| 794 | 28.707106781231 | [n=794](n794.cert) |
-| 795 | 28.707106781239 | [n=795](n795.cert) |
+| 793 | 28.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=795) |
+| 794 | 28.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=795) |
+| 795 | 28.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 796 | 28.727922061393 | [n=796](n796.cert) |
 | 797 | 28.778174593084 | [n=797](n797.cert) |
 | 798 | 28.798989873256 | [n=799](n799.cert) (deletion) |
@@ -1388,17 +1388,17 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 848 | 29.656854249525 | [n=848](n848.cert) |
 | 849 | 29.656854249526 | [n=849](n849.cert) |
 | 850 | 29.656854249528 | [n=850](n850.cert) |
-| 851 | 29.707106781231 | [n=851](n851.cert) |
-| 852 | 29.707106781235 | [n=853](n853.cert) (deletion) |
-| 853 | 29.707106781235 | [n=853](n853.cert) |
+| 851 | 29.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=853) |
+| 852 | 29.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=853) |
+| 853 | 29.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 854 | 29.778174593084 | [n=854](n854.cert) |
 | 855 | 29.798989873256 | [n=856](n856.cert) (deletion) |
 | 856 | 29.798989873256 | [n=856](n856.cert) |
 | 857 | 29.798989873257 | [n=857](n857.cert) |
 | 858 | 29.828427124795 | [n=858](n858.cert) |
 | 859 | 29.828427124807 | [n=859](n859.cert) |
-| 860 | 29.849242404954 | [n=861](n861.cert) (deletion) |
-| 861 | 29.849242404954 | [n=861](n861.cert) |
+| 860 | 29.849242404918 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=861) |
+| 861 | 29.849242404918 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 862 | 29.899494936647 | [n=862](n862.cert) |
 | 863 | 29.924508775310 | [n=863](n863.cert) |
 | 864 | 29.933881004714 | [n=865](n865.cert) (deletion) |
@@ -1447,18 +1447,18 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 907 | 30.656854249525 | [n=907](n907.cert) |
 | 908 | 30.656854249526 | [n=908](n908.cert) |
 | 909 | 30.656854249528 | [n=909](n909.cert) |
-| 910 | 30.707106781225 | [n=910](n910.cert) |
-| 911 | 30.707106781235 | [n=912](n912.cert) (deletion) |
-| 912 | 30.707106781235 | [n=912](n912.cert) |
+| 910 | 30.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=912) |
+| 911 | 30.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=912) |
+| 912 | 30.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 913 | 30.778174593084 | [n=913](n913.cert) |
 | 914 | 30.778174593089 | [n=914](n914.cert) |
 | 915 | 30.798989873256 | [n=915](n915.cert) |
 | 916 | 30.798989873257 | [n=916](n916.cert) |
 | 917 | 30.828427124795 | [n=917](n917.cert) |
 | 918 | 30.828427124807 | [n=918](n918.cert) |
-| 919 | 30.849242404954 | [n=920](n920.cert) (deletion) |
-| 920 | 30.849242404954 | [n=920](n920.cert) |
-| 921 | 30.849242405004 | [n=921](n921.cert) |
+| 919 | 30.849242404918 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=921) |
+| 920 | 30.849242404918 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) (deletion from n=921) |
+| 921 | 30.849242404918 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 922 | 30.899494939175 | [n=922](n922.cert) |
 | 923 | 30.933766814037 | [n=924](n924.cert) (deletion) |
 | 924 | 30.933766814037 | [n=924](n924.cert) |
@@ -1501,17 +1501,17 @@ The eight new glued witnesses at 703,757,813,931,932,992,993,994 use Kevin Fang�
 | 961 | 31.000000000000 | grid |
 | 962 | 31.535533905933 | [n=962](n962.cert) |
 | 963 | 31.535533905933 | [n=963](n963.cert) |
-| 964 | 31.556349186143 | [n=964](n964.cert) |
+| 964 | 31.556349186105 | [Göbel square](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 965 | 31.606601717826 | [n=966](n966.cert) (deletion) |
 | 966 | 31.606601717826 | [n=966](n966.cert) |
 | 967 | 31.656854249519 | [n=967](n967.cert) |
 | 968 | 31.656854249525 | [n=968](n968.cert) |
 | 969 | 31.656854249526 | [n=969](n969.cert) |
 | 970 | 31.656854249528 | [n=970](n970.cert) |
-| 971 | 31.707106781225 | [n=971](n971.cert) |
-| 972 | 31.707106781227 | [n=974](n974.cert) (deletion) |
-| 973 | 31.707106781227 | [n=974](n974.cert) (deletion) |
-| 974 | 31.707106781227 | [n=974](n974.cert) |
+| 971 | 31.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=974) |
+| 972 | 31.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=974) |
+| 973 | 31.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) (deletion from n=974) |
+| 974 | 31.707106781187 | [Göbel strip](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 975 | 31.778174593089 | [n=975](n975.cert) |
 | 976 | 31.778174593090 | [n=976](n976.cert) |
 | 977 | 31.798989873257 | [n=977](n977.cert) |
