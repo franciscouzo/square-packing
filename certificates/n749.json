@@ -1,16 +1,17 @@
 {
   "n": 749,
   "packing": "n749.txt",
-  "packing_sha256": "1111acb2c0c900df744e9b399c87b9867250fbc1871a4ab7adf3bae88dcff067",
+  "packing_sha256": "071c60b412b7b01e93cbe15b7a2c20a6e83db17936a0747e7321565f41637658",
   "certificate": "certificates/n749.cert",
-  "certificate_sha256": "4fdeb6d5228fe6ab2bbe2fd075d04078130573685ae838aadef38df5e763100c",
-  "rational_side": "34268633873586223862589885011793653296230199152609261/1226080268237368573660062789422407755500000000000000",
+  "certificate_sha256": "492f3314c8ab704732325508429f58f38073bf2802e08c97636c6da8960f1ced",
+  "rational_side": "82731966624722525348046045109/2962543665929500000000000000",
   "kind": "rational witness",
   "origin": {
     "construction": {
       "label": "parametric construction",
       "kind": "construction"
-    }
+    },
+    "seed_credit": "franciscouzo"
   },
   "dilation": "1+1e-12"
 }

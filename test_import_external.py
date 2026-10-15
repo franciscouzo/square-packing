@@ -100,6 +100,18 @@ class ExternalImport(unittest.TestCase):
             self.assertEqual(importer.request_for('mishapolk', 'mishapolk/certificates/n5.cert'),
                              'https://github.com/jlevy/squares/issues/593')
 
+    def test_fang_composites_are_discovered_with_their_tracking_issue(self):
+        with tempfile.TemporaryDirectory() as directory:
+            sources=Path(directory)
+            certificate=sources/'snakefang/composites/n027_j1_703.cert'
+            certificate.parent.mkdir(parents=True)
+            certificate.write_text('5 14/5\n'+'1/2 1/2 0\n'*5)
+            with patch.object(importer,'SOURCES',sources):rows=list(importer.certificates())
+            self.assertEqual(len(rows),1)
+            self.assertEqual(rows[0][3],'snakefang')
+            self.assertEqual(importer.request_for('snakefang','snakefang/composites/n027_j1_703.cert'),
+                             'https://github.com/jlevy/squares/issues/603')
+
 
 if __name__ == '__main__':
     unittest.main()

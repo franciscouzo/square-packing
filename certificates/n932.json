@@ -1,0 +1,20 @@
+{
+  "n": 932,
+  "packing": "n932.txt",
+  "packing_sha256": "7b523f56732ea2a96547bc586f9314f2c5570e4eab339b5bb674cf370f160da0",
+  "certificate": "certificates/n932.cert",
+  "certificate_sha256": "c8de67e54cf31ccecbcd310534f359e1696b6624579da3a00ce9fe9268d2e873",
+  "rational_side": "152476164539740817297994655437/4918703952843500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "seed_credit": "Kevin Fang (rectangle and gluing); Francisco Couzo (square input)",
+    "construction": {
+      "parent_n": 211,
+      "parent_certificate_sha256": "806a37e2dd5b7c604e3481c4bd49405012b8b20d8c5dbf9a19eacbd422fbe8d3",
+      "rectangle": "r17x16_n0257",
+      "rectangle_sha256": "a7d54dcc742eb0d1d4144e8f93320f476def0b0475d6203d97a908f9960f5e9c",
+      "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+    }
+  },
+  "dilation": "1+1e-12"
+}

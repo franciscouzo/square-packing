@@ -1,20 +1,19 @@
 {
   "n": 404,
   "packing": "n404.txt",
-  "packing_sha256": "3cfe8cf9bc00cf167511d7471e8bf39cf99fb13aa5d3a28e3a04a2b8600ab625",
+  "packing_sha256": "386d7058be9760f62073283a1ac194e947822d9a664d05ad44edc406a901fca8",
   "certificate": "certificates/n404.cert",
-  "certificate_sha256": "7bb38b7d18ac26a3015a27eee4396505dfd8e46be95747a8b773084f2b7f5c4e",
-  "rational_side": "67480752427693964919309346313/3272377874031500000000000000",
+  "certificate_sha256": "6778a0c6c0693d30527df8c9036442e55439cefd6beb92679387aa8d15df2eca",
+  "rational_side": "51000336167606532097730482877/2473184806688500000000000000",
   "kind": "rational witness",
   "origin": {
-    "seed_credit": "L-border from n=365 (Evan Daniel)",
+    "seed_credit": "Evan Daniel",
     "construction": {
-      "label": "L-border from n=365",
-      "kind": "derived",
-      "source_n": 365,
-      "source": "5b52eae77be72cff94524e8a10cd78a3e9d09e94f85a2d203705922562a914cd",
+      "parent_n": 365,
+      "parent_certificate_sha256": "2d03e6bfd6993488adbf5d851d5b77feb0cd9a5dbe722f690932abe096d1e8ed",
       "tiles": 1,
-      "layers": 1
+      "layers": 1,
+      "strict_scale": "1+1e-24"
     }
   },
   "dilation": "1+1e-12"

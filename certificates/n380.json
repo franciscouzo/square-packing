@@ -1,11 +1,11 @@
 {
   "n": 380,
   "packing": "n380.txt",
-  "packing_sha256": "a5cc6f37bac77420fcad6f320dfd60c75f8f88a8ca3a203e4923caac4a6b1eaa",
+  "packing_sha256": "dcce4c55b88ee9390578310d3ffebfd224d8f3f6bc36a11d22f394f0853965b6",
   "certificate": "certificates/n380.cert",
-  "certificate_sha256": "e4fe866e9185dd84621493a8413cac23b01ebba54f7e42177fac629c6892f659",
-  "rational_side": "192045622821364978459464692497841382441896144928009620403613513371148879414238305312340475713/9620752137374874211041362294850606266048713056414271986430848922999709460006500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "ece31191f25d8b64560a5a774404d35823f3b54b63576d32dc170a693b5a814e",
+  "rational_side": "9980800881200856979634608603629/500000000000000000000000000000",
+  "kind": "exact optimum",
   "origin": {
     "seed_credit": "Kevin Fang (TheSnakeFang)",
     "seed_certificate": {
@@ -40,6 +40,5 @@
         "side": 19.961611078652222
       }
     }
-  },
-  "dilation": "1+1e-12"
+  }
 }

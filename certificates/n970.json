@@ -1,20 +1,20 @@
 {
   "n": 970,
   "packing": "n970.txt",
-  "packing_sha256": "973ed6eb928f83e67cccdd02b4cff3691c72cfe7b0040c1b841158ac689e2dc2",
+  "packing_sha256": "260e7b729643da4658fb4b8ea56093690a4e3295dc1020a5279eff4744caa2f9",
   "certificate": "certificates/n970.cert",
-  "certificate_sha256": "4fe0e13d21f8d6048bfddedcded7d66467d35d4ca1b7be483642b69a7d35db36",
-  "rational_side": "154883624891795750832166237591/4892577881170500000000000000",
+  "certificate_sha256": "a101b53626e2fc4080372ec4c75438af57c3185f95764fbab602d05c96468495",
+  "rational_side": "57311342112223754570062832761/1810392835005500000000000000",
   "kind": "rational witness",
   "origin": {
     "construction": {
-      "label": "L-border from n=909",
-      "kind": "derived",
-      "source_n": 909,
-      "source": "2d53295138eed24f852aeaf80b1dd52189f813856be756ec8c6ea4e2076a1c6b",
+      "parent_n": 850,
+      "parent_certificate_sha256": "f46882941956609ab78251ebea13d3e10222ba1deccb6e29cfeda3e16f9b2d9d",
       "tiles": 1,
-      "layers": 1
-    }
+      "layers": 2,
+      "strict_scale": "1+1e-24"
+    },
+    "seed_credit": "Francisco Couzo"
   },
   "dilation": "1+1e-12"
 }

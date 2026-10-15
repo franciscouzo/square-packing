@@ -1,10 +1,10 @@
 {
   "n": 809,
   "packing": "n809.txt",
-  "packing_sha256": "e365f74f57b2ca66af2dca913c49049ba114d93a4deff8ff42b220b34fa77ed8",
+  "packing_sha256": "784cb65f47e4f33e6abdc995cecfca971fead6d0573765d46ba65ff39a6a32b3",
   "certificate": "certificates/n809.cert",
-  "certificate_sha256": "9d143397ffdfcbe6665f29fb1eb1c03cddc94205eb6805af2c4a744bfab5cb3a",
-  "rational_side": "71897353040750168191425037039/2484129875394500000000000000",
+  "certificate_sha256": "d380c46a8bacea6fd2e8444c610d0b0c818494b672cda0c71da3f2ab62d75864",
+  "rational_side": "21056828095281205654089706041/727629264083000000000000000",
   "kind": "rational witness",
   "origin": {
     "web_seed": {
@@ -14,7 +14,8 @@
       "method": "ellsworth",
       "received": "20261014T144404Z",
       "original_packing_sha256": "43f809c87f4407084ebcc1f448d1824b161e12ec7a9d972c15c1c547625040ed"
-    }
+    },
+    "seed_credit": "Francisco Couzo"
   },
   "dilation": "1+1e-12"
 }

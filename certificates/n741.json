@@ -1,20 +1,20 @@
 {
   "n": 741,
   "packing": "n741.txt",
-  "packing_sha256": "6cb375a2dfab1c67e0723276edb7062fc8b7331b412dfab93a2ffcd97c7b1525",
+  "packing_sha256": "c5f89e7deeb816629110e0003262caea73462f58dec8ff95811af593e3591791",
   "certificate": "certificates/n741.cert",
-  "certificate_sha256": "f9bf21595419aa26224d9f3809b5478b99d3bff9c299e2fdf00cb3da3f401846",
-  "rational_side": "101899542941103481913479712017/3674979420133500000000000000",
+  "certificate_sha256": "078ecb9822c725fe751e0e7f023d827b2373a4e3e2cb7d46d6cbebd2cf2b68d9",
+  "rational_side": "8911222180536090484127511291/321380814645500000000000000",
   "kind": "rational witness",
   "origin": {
     "construction": {
-      "label": "L-border from n=688",
-      "kind": "derived",
-      "source_n": 688,
-      "source": "4b9646eea15df8590d9a4c96893b0ca0c07bb9fec1862e823be2e107604f54ee",
+      "parent_n": 688,
+      "parent_certificate_sha256": "e1ca47d295dc85d099e879ffea6c4672ed89c268f108903a87277fb292389855",
       "tiles": 1,
-      "layers": 1
-    }
+      "layers": 1,
+      "strict_scale": "1+1e-24"
+    },
+    "seed_credit": "this project"
   },
   "dilation": "1+1e-12"
 }

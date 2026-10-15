@@ -119,6 +119,8 @@ def atlas_credit(path):
 
 
 def request_for(source, path):
+    if source == 'snakefang' and '/composites/' in str(path):
+        return 'https://github.com/jlevy/squares/issues/603'
     if source == 'mishapolk' and re.fullmatch(r'n\d+\.cert', Path(path).name):
         return 'https://github.com/jlevy/squares/issues/593'
     attribution = atlas_credit(path)
@@ -268,7 +270,8 @@ def certificates():
         yield (*read_cert_text(path), "mishapolk", path)
     for path in sorted((SOURCES/"sidg2k1").glob("witnesses/packing-*.cert")):
         yield (*read_cert_text(path), "sidg2k1", path)
-    for path in sorted((SOURCES/"snakefang").glob("n*/n*.cert")):
+    fang = SOURCES/"snakefang"
+    for path in sorted(set(fang.glob("n*/n*.cert")) | set(fang.glob("composites/*.cert"))):
         yield (*read_cert_text(path), "snakefang", path)
     for path in sorted((SOURCES/"ebdeleeuw").glob("certificate.json")):
         d = json.loads(path.read_text())

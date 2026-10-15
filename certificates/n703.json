@@ -1,0 +1,20 @@
+{
+  "n": 703,
+  "packing": "n703.txt",
+  "packing_sha256": "e4c942fd66f91065bbabfc2eb461f45b300d0df0c22afc56d4f6804da40795d7",
+  "certificate": "certificates/n703.cert",
+  "certificate_sha256": "d8b1d7ee6d53867d4f300c77c05829fabe75b14a69205474baef3d7c2fb0be49",
+  "rational_side": "2614256193513283216743273469/96858166570437500000000000",
+  "kind": "rational witness",
+  "origin": {
+    "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
+    "construction": {
+      "parent_n": 29,
+      "parent_certificate_sha256": "b484ee938e1e8e0707b6ddacda481a5579abeb285e60dbd63688eb62f72155b2",
+      "rectangle": "r22x21_n0443",
+      "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+      "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+    }
+  },
+  "dilation": "1+1e-12"
+}

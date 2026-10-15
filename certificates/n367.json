@@ -1,0 +1,20 @@
+{
+  "n": 367,
+  "packing": "n367.txt",
+  "packing_sha256": "7e1a8ef6e56c10417c5c6b0a2b269897cfdcd4cc3ecdc7f755340ae79a225864",
+  "certificate": "certificates/n367.cert",
+  "certificate_sha256": "28d9b0fa7bc6332b13e04147f8e0083b08e2b7b1a32ed02288519c05ef1640d4",
+  "rational_side": "63327698751805370213130486061/3213913448155500000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "construction": {
+      "parent_n": 295,
+      "parent_certificate_sha256": "9387392a745d6c930e9e56eb5e47fda4448169318d2d0c1a6c63343988eb4658",
+      "tiles": 1,
+      "layers": 2,
+      "strict_scale": "1+1e-24"
+    }
+  },
+  "dilation": "1+1e-12"
+}

@@ -1,0 +1,27 @@
+{
+  "n": 237,
+  "packing": "n237.txt",
+  "packing_sha256": "884db8d572767657ffba049ee52041d2454596f861a8b346f3d516aacb50c37b",
+  "certificate": "certificates/n237.cert",
+  "certificate_sha256": "e367f769988aaa47ebeb4e5c40d0410c3a0bb23bad50f7478d3d3de452c1da7f",
+  "rational_side": "7951301819129798440089572127137/500000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+    "seed_certificate": {
+      "source": "mishapolk",
+      "certificate": "mishapolk/certificates/n237.cert",
+      "sha256": "b825369b3b1acf9df0d9891d7ceef59086f17028c71d4c53a987032ccb482940",
+      "request": "https://github.com/jlevy/squares/issues/593",
+      "side": "7951352528933183399718238226741/500000000000000000000000000000"
+    },
+    "search_job": {
+      "id": 100230,
+      "method": "fq",
+      "source": "external/seeds/n237.txt",
+      "source_origin": "external",
+      "source_sha256": "2be2fff245b8fa783a5675684da3554157e76e0bd5eb237323722c01f2b4ceea",
+      "constructed_seed": null
+    }
+  }
+}

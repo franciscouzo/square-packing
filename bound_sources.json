@@ -1,0 +1,199 @@
+{
+  "generated": "2026-10-15T00:31:41.207365+00:00",
+  "scope": "1<=n<1024",
+  "machines": {
+    "CT104": {
+      "captured": "2026-10-14T23:28:13.907626+00:00",
+      "counts": {
+        "text_files": 11426,
+        "pose_files": 10789
+      },
+      "pose_candidates": 2466,
+      "certificate_inventory": 2919,
+      "database_snapshots": 10
+    },
+    "desktopo": {
+      "captured": "2026-10-14T23:27:41.713563+00:00",
+      "counts": {
+        "completed_jobs": 12,
+        "pose_files": 456,
+        "text_files": 444
+      },
+      "pose_candidates": 138,
+      "certificate_inventory": 0,
+      "database_snapshots": 0
+    },
+    "CT105": {
+      "captured": "2026-10-14T23:47:26.376289+00:00",
+      "counts": {
+        "text_files": 2088,
+        "pose_files": 2085
+      },
+      "pose_candidates": 806,
+      "certificate_inventory": 1331,
+      "database_snapshots": 9
+    }
+  },
+  "repositories": {
+    "squish": {
+      "url": "https://github.com/itsnaka/squish-certs.git",
+      "commit": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
+      "remote_head": "56fa71f949234b63534772b3f3b4f1320fbf2afd"
+    },
+    "ry-xu": {
+      "url": "https://github.com/ry-xu/square_packing.git",
+      "commit": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
+      "remote_head": "9535d65d84cc33f20f4e26329f8da12bdcef216e"
+    },
+    "evand": {
+      "url": "https://github.com/evand/square-packing.git",
+      "commit": "0f37f49fa521f411d8e35c82f746e679b3447e46",
+      "remote_head": "0f37f49fa521f411d8e35c82f746e679b3447e46"
+    },
+    "sidg2k1": {
+      "url": "https://github.com/SidG2k1/square-packing-refinements.git",
+      "commit": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
+      "remote_head": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a"
+    },
+    "mishapolk": {
+      "url": "https://github.com/Mishapolk/square-packing-records.git",
+      "commit": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "remote_head": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94"
+    },
+    "snakefang": {
+      "url": "https://github.com/TheSnakeFang/squarepack-certs.git",
+      "commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "remote_head": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+    },
+    "ebdeleeuw": {
+      "url": "https://github.com/ebdeleeuw/square-packing-n70.git",
+      "commit": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
+      "remote_head": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0"
+    },
+    "dostashev": {
+      "url": "https://github.com/dostashev/square-packing.git",
+      "commit": "b909e1b74cda50906e12b4373e010ddee39e47e4",
+      "remote_head": "b909e1b74cda50906e12b4373e010ddee39e47e4"
+    },
+    "buddenping": {
+      "url": "https://github.com/BuddenPing/square-packing-certificates.git",
+      "commit": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
+      "remote_head": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d"
+    },
+    "rbarnett": {
+      "url": "https://github.com/RobertBarnettProjects/square-packing-research.git",
+      "commit": "52cf1cc7ba006731ef76818267216c87bb63281e",
+      "remote_head": "52cf1cc7ba006731ef76818267216c87bb63281e"
+    },
+    "register": {
+      "url": "https://github.com/jlevy/squares",
+      "commit": "9b32da04d8ca7e4972ea7db51dce3605810ea250",
+      "remote_head": "9b32da04d8ca7e4972ea7db51dce3605810ea250"
+    },
+    "lollipoll-five": {
+      "url": "https://github.com/lollipoll/couzo-five-exact-certificates.git",
+      "commit": "29bc1ea2e433a9186dd053d24fb421d63e09b15c",
+      "remote_head": "29bc1ea2e433a9186dd053d24fb421d63e09b15c"
+    },
+    "lollipoll-68": {
+      "url": "https://github.com/lollipoll/certified-square-packing-68.git",
+      "commit": "495238e3d5a542008ff2f01a1dbbb78527cbe732",
+      "remote_head": "495238e3d5a542008ff2f01a1dbbb78527cbe732"
+    }
+  },
+  "jlevy": {
+    "source_revision": "9b32da04d8ca7e4972ea7db51dce3605810ea250",
+    "latest_reviewed_revision": "0dd9003e084923a14c0cd2622fec867614dda36e",
+    "latest_revision_changed_bounds": false,
+    "source_tree_files": 21324,
+    "retained_certificate_files": 361,
+    "issue_and_pr_threads_reviewed": 572,
+    "open_threads_reviewed": 73,
+    "recent_issue_comments_reviewed": 32,
+    "pull_requests": [
+      {
+        "number": 608,
+        "state": "open",
+        "head": "5bfb4a0414512378fd4d204249107ff6e880d2da",
+        "url": "https://github.com/jlevy/squares/pull/608"
+      },
+      {
+        "number": 514,
+        "state": "open",
+        "head": "3b3d6af182ba89ded6352de863332c08e0649b51",
+        "url": "https://github.com/jlevy/squares/pull/514"
+      },
+      {
+        "number": 574,
+        "state": "open",
+        "head": "4c319c24a6217dbbbf05e79ebb7e2dc5be0a2cde",
+        "url": "https://github.com/jlevy/squares/pull/574"
+      },
+      {
+        "number": 602,
+        "state": "closed",
+        "head": "0d414825f0b84921d1e9f509a8b611354aef0123",
+        "url": "https://github.com/jlevy/squares/pull/602"
+      },
+      {
+        "number": 599,
+        "state": "open",
+        "head": "77152fb83a85d80aa50d773ecf1a4a062cfe0eaa",
+        "url": "https://github.com/jlevy/squares/pull/599"
+      },
+      {
+        "number": 605,
+        "state": "closed",
+        "head": "76e28cdf0f0caa690ab8e5b6f5367cf5e88f6c4f",
+        "url": "https://github.com/jlevy/squares/pull/605"
+      },
+      {
+        "number": 601,
+        "state": "closed",
+        "head": "c02afe21caa4e864f6b9d1b7b63083bb92bccd56",
+        "url": "https://github.com/jlevy/squares/pull/601"
+      },
+      {
+        "number": 578,
+        "state": "open",
+        "head": "8270752fe2e657429386e3e977b17ff9058e0760",
+        "url": "https://github.com/jlevy/squares/pull/578"
+      },
+      {
+        "number": 435,
+        "state": "open",
+        "head": "273abfa593d64a01256f8da0059aeae2e4d64186",
+        "url": "https://github.com/jlevy/squares/pull/435"
+      },
+      {
+        "number": 403,
+        "state": "open",
+        "head": "3ee60c3e5157a82c0e9b5a48e54fc6c1f57539f5",
+        "url": "https://github.com/jlevy/squares/pull/403"
+      },
+      {
+        "number": 406,
+        "state": "open",
+        "head": "8811bd763d437aaf8d75dc5d1dd4ac761a1bc39d",
+        "url": "https://github.com/jlevy/squares/pull/406"
+      }
+    ]
+  },
+  "catalogue": {
+    "source": "https://kingbird.myphotos.cc/packing/squares_in_squares.html",
+    "reported_entries_reviewed": 196,
+    "changed_printed_bounds": 0
+  },
+  "coverage": {
+    "counts": 1023,
+    "finite_witnesses": 515,
+    "exact_construction_improvements": 202,
+    "all_finite_witnesses_pass_closed_exact_replay": true
+  },
+  "notes": [
+    "Old and fresh data were both admitted; no freshness filter excluded candidates.",
+    "Frozen reference comparisons did not gate admission of verified upper bounds.",
+    "Removing squares, exact L-borders/tiling and retained rectangle gluing were considered.",
+    "Remaining linked repositories concern lower bounds, proof tools, or asymptotic ranges outside this finite scope; their stated claims were reviewed in issue history."
+  ]
+}

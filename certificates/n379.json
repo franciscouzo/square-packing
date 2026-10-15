@@ -1,27 +1,27 @@
 {
   "n": 379,
   "packing": "n379.txt",
-  "packing_sha256": "f7fe653f89f10c8af5f3ec19fe922be8cbe89fdef6cc0b8f7b8b858dffcd5792",
+  "packing_sha256": "dd10568730978449a78579b8c8078b6c5ea2909538821df7a8cd408ed8ef3948",
   "certificate": "certificates/n379.cert",
-  "certificate_sha256": "b0363f60fa62fa1b8c0b065267bdc066ca6a2ce9d704b6442daa59d0b5c92a43",
-  "rational_side": "92013180735485660917766238833/4611485941041500000000000000",
+  "certificate_sha256": "955418ea075f04c0997cdae88cb074ca7339785a89724855dd0d6ef9de979fa6",
+  "rational_side": "24063797415368110186313343347/1206023148298500000000000000",
   "kind": "rational witness",
   "origin": {
     "search_job": {
-      "id": 99187,
+      "id": 100963,
       "method": "hop",
       "source": "n379.txt",
       "source_origin": "constructed",
-      "source_sha256": "c83e13941049376e8a32f650d1179ba0922f8dde5171a36b5e79d5cddad97290",
+      "source_sha256": "a1bf98c9dcb8c8c95558e04d317f2b31f41650db8f4099d984af8d8b2209e6b0",
       "constructed_seed": {
         "construction": "L-border and deletion",
         "source": "n379.txt",
-        "source_sha256": "37172068c64e8308260a83d8b9398b855ac5c6c15ff8cf26cbbe2bc04b091324",
+        "source_sha256": "f7fe653f89f10c8af5f3ec19fe922be8cbe89fdef6cc0b8f7b8b858dffcd5792",
         "source_n": 379,
-        "source_side": 19.953043750837576,
+        "source_side": 19.95304375027915,
         "layers": 0,
         "deleted": 0,
-        "side": 19.953043750837576
+        "side": 19.95304375027915
       }
     },
     "web_seed": {
