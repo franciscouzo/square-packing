@@ -13,11 +13,46 @@
       "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
       "submission_id": "9b99f82acb509fbce935ad307d3919f8",
       "method": "fq",
-      "received": "20261017T081653Z"
+      "received": "20261017T081653Z",
+      "seed_credit": "Francisco Couzo",
+      "prior_retained_witness": {
+        "certificate": "certificates/parents/bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e.cert",
+        "certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+        "source_credit": {
+          "seed_credit": "Francisco Couzo",
+          "web_seed": {
+            "category": "CT105 web submission",
+            "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+            "submission_id": "9b99f82acb509fbce935ad307d3919f8",
+            "method": "fq",
+            "received": "20261017T081653Z"
+          },
+          "source_n": 370,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e"
+        }
+      }
     },
     "source_n": 370,
     "deleted_squares": 0,
-    "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e"
+    "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+    "prior_retained_witness": {
+      "certificate": "certificates/parents/bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e.cert",
+      "certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+      "source_credit": {
+        "seed_credit": "Francisco Couzo",
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+          "submission_id": "9b99f82acb509fbce935ad307d3919f8",
+          "method": "fq",
+          "received": "20261017T081653Z"
+        },
+        "source_n": 370,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e"
+      }
+    }
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

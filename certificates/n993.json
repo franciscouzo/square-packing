@@ -13,11 +13,46 @@
       "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
       "submission_id": "e6dc150f329896aa8ee8d44aef5c8608",
       "method": "ellsworth",
-      "received": "20261015T011822Z"
+      "received": "20261015T011822Z",
+      "seed_credit": "Francisco Couzo",
+      "prior_retained_witness": {
+        "certificate": "certificates/parents/f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd.cert",
+        "certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+        "source_credit": {
+          "seed_credit": "Francisco Couzo",
+          "web_seed": {
+            "category": "CT105 web submission",
+            "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+            "submission_id": "e6dc150f329896aa8ee8d44aef5c8608",
+            "method": "ellsworth",
+            "received": "20261015T011822Z"
+          },
+          "source_n": 993,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd"
+        }
+      }
     },
     "source_n": 993,
     "deleted_squares": 0,
-    "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd"
+    "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+    "prior_retained_witness": {
+      "certificate": "certificates/parents/f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd.cert",
+      "certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+      "source_credit": {
+        "seed_credit": "Francisco Couzo",
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+          "submission_id": "e6dc150f329896aa8ee8d44aef5c8608",
+          "method": "ellsworth",
+          "received": "20261015T011822Z"
+        },
+        "source_n": 993,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd"
+      }
+    }
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

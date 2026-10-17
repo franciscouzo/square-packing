@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T17:57:53.690482+00:00",
+  "generated": "2026-10-17T20:44:49.779184+00:00",
   "scope": "1<=n<=1024",
   "machines": {
     "CT104": {
@@ -186,7 +186,7 @@
   },
   "coverage": {
     "counts": 1024,
-    "finite_witnesses": 532,
+    "finite_witnesses": 542,
     "exact_construction_improvements": 202,
     "all_finite_witnesses_pass_closed_exact_replay": true
   },
@@ -1049,5 +1049,189 @@
         "bound": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000"
       }
     ]
+  },
+  "record_followup_20261017": {
+    "captured": "2026-10-17T20:39:06.860216+00:00",
+    "source_snapshot_counts": {
+      "local": {
+        "text_files": 15506,
+        "pose_files": 14848
+      },
+      "desktopo": {
+        "completed_jobs": 5,
+        "pose_files": 1517,
+        "text_files": 1513
+      },
+      "ct105": {
+        "text_files": 2280,
+        "pose_files": 2277
+      }
+    },
+    "ct105_database_count": 9,
+    "new_web_witness_counts": [
+      330,
+      507,
+      461,
+      749,
+      653,
+      227,
+      935
+    ],
+    "jlevy": {
+      "captured": "2026-10-17T20:39:10.589704+00:00",
+      "main": "804eff369193b698d497a9c06847059eb9de0470",
+      "commits_since_last_review": 0,
+      "main_changed_files": 0,
+      "threads": [
+        {
+          "number": 671,
+          "title": "records(#446): wand125's 18 fine-net lower bounds of 16 October, retained and registered (T-195 to T-212), with the census of batch 1",
+          "updated": "2026-10-17T18:33:31Z"
+        },
+        {
+          "number": 665,
+          "title": "feat(houses): adopt T-174 at 37 rational counts and regularize each (think-3mry)",
+          "updated": "2026-10-17T18:24:12Z"
+        },
+        {
+          "number": 658,
+          "title": "records(#639, #640): map the s(19) review onto T-194 (C1) and do T-193's stage 4 exit (V3/C3)",
+          "updated": "2026-10-17T18:18:43Z"
+        },
+        {
+          "number": 667,
+          "title": "records(intake): the 17 October sweep, stages 0 and 1: #659, #664, #446's 18 lower bounds, six watch reads (think-e2sz)",
+          "updated": "2026-10-17T18:17:21Z"
+        },
+        {
+          "number": 661,
+          "title": "records(#622): PingYou Ltd's N29 certificate, replayed on both exact routes and registered as T-195 (think-30n2)",
+          "updated": "2026-10-17T18:11:23Z"
+        },
+        {
+          "number": 670,
+          "title": "204-993: registration request",
+          "updated": "2026-10-17T18:05:06Z"
+        },
+        {
+          "number": 432,
+          "title": "18 (originally 25) new packings below record for n = 51\u2013295: registration request",
+          "updated": "2026-10-17T17:38:50Z"
+        }
+      ],
+      "comments": 1,
+      "open_prs": 16,
+      "changed_open_prs": [
+        {
+          "number": 671,
+          "head": "32d47d3214ec28f2a82b89689cd8bb8f63f98e02",
+          "title": "records(#446): wand125's 18 fine-net lower bounds of 16 October, retained and registered (T-195 to T-212), with the census of batch 1",
+          "files": 230
+        },
+        {
+          "number": 665,
+          "head": "bb85cbb590cbd009ebe5399dd379ee4a2faeeda5",
+          "title": "feat(houses): adopt T-174 at 37 rational counts and regularize each (think-3mry)",
+          "files": 391
+        },
+        {
+          "number": 658,
+          "head": "3022eb9840b72e931a4c08f25199de2969e1143f",
+          "title": "records(#639, #640): map the s(19) review onto T-194 (C1) and do T-193's stage 4 exit (V3/C3)",
+          "files": 51
+        },
+        {
+          "number": 667,
+          "head": "a5b5f0ec28c1880f53bdc161e5224e282e18eb8a",
+          "title": "records(intake): the 17 October sweep, stages 0 and 1: #659, #664, #446's 18 lower bounds, six watch reads (think-e2sz)",
+          "files": 4
+        },
+        {
+          "number": 661,
+          "head": "99232649d59cdf30242d18e45126f964e5ba7bf0",
+          "title": "records(#622): PingYou Ltd's N29 certificate, replayed on both exact routes and registered as T-195 (think-30n2)",
+          "files": 130
+        }
+      ]
+    },
+    "comparison_baseline": "23aff0c6f992271e1ad13a148d44f392c4b386c0",
+    "new_public_upper_witnesses_since_previous_review": 0,
+    "public_review_note": "Changed PRs 658/661 concern lower-bound/proof registration and provenance. PR665 changes drawings/regularization at unchanged packing-witness/known-best bytes. PR671 is an 18-lower-bound batch. Issue432 comment is a status update, not a new upper witness.",
+    "generated": "2026-10-17T20:40:32.686326+00:00",
+    "previous_commit": "23aff0c6f992271e1ad13a148d44f392c4b386c0",
+    "finite_witnesses": 542,
+    "proof_routes": [
+      "jlevy/squares rational corner verifier",
+      "verify_bound_certificate.py exact separating axes"
+    ],
+    "changed_bounds_from_previous_commit": [
+      227,
+      229,
+      260,
+      330,
+      461,
+      507,
+      652,
+      653,
+      704,
+      749,
+      750,
+      753,
+      755,
+      756,
+      757,
+      758,
+      759,
+      804,
+      805,
+      811,
+      812,
+      813,
+      814,
+      815,
+      816,
+      817,
+      864,
+      865,
+      868,
+      869,
+      871,
+      872,
+      873,
+      874,
+      923,
+      924,
+      929,
+      930,
+      932,
+      933,
+      934,
+      935,
+      990,
+      991,
+      994,
+      995,
+      996
+    ],
+    "current_previews": 438,
+    "all_count_non_regression": true,
+    "outward_rounding_and_monotonicity_checked": true,
+    "independent_classical_audit": {
+      "issue_rows": 46,
+      "states": 3821,
+      "primitive_witnesses": 123,
+      "failures": [],
+      "covers": [
+        "Gobel square",
+        "ordinary strip",
+        "corner strip",
+        "Friedman offcentre",
+        "square tiling",
+        "repeated L borders",
+        "deletion",
+        "integer grids"
+      ],
+      "method": "Independent parameter enumeration and rational sqrt(2) intervals; no production Q2.sign."
+    }
   }
 }

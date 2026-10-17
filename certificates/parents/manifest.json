@@ -35,6 +35,290 @@
       "sha256": "82816c9bbb6025bdd954c78d4bc5e5afcfb637a22dfed268d569610aa384561b",
       "source_n": 993,
       "bound": "32580645961417113500533397481335814508715878606331779108417703527134927211407479013430246869/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488"
+    },
+    "cdd08485c2b7e97c59cae33f8a70923bf8eb95c878f0f998640b88c0eae1bcc0": {
+      "certificate": "certificates/parents/cdd08485c2b7e97c59cae33f8a70923bf8eb95c878f0f998640b88c0eae1bcc0.cert",
+      "sha256": "cdd08485c2b7e97c59cae33f8a70923bf8eb95c878f0f998640b88c0eae1bcc0",
+      "source_n": 227,
+      "bound": "8556247787153006491973257/549755813888000000000000",
+      "credit": "Joost de Winter (JoostdeWinter)",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 2943,
+        "side": "8556247787153006491973257/549755813888000000000000",
+        "n": 227
+      },
+      "strict_verification": {
+        "valid": false,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e": {
+      "certificate": "certificates/parents/552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e.cert",
+      "sha256": "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e",
+      "source_n": 330,
+      "bound": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 4465,
+        "side": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000",
+        "n": 330
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e": {
+      "certificate": "certificates/parents/bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e.cert",
+      "sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+      "source_n": 370,
+      "bound": "6549046052965175741966931158177593291818431153284625290505670976537/331304909117169496147556853313049091171694961475568500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 5226,
+        "side": "6549046052965175741966931158177593291818431153284625290505670976537/331304909117169496147556853313049091171694961475568500000000000000",
+        "n": 370
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "bd6081d5d1736ff4ed90dad9f1027ee41ed65c55f92d7fecd4a66b60e45b8e8e",
+        "candidate_pairs": 5226,
+        "near_pairs": 841,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08": {
+      "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
+      "sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+      "source_n": 422,
+      "bound": "10341766570579309999734780366340518517071577288548173030137562499007625678858854880019581/492840059589432571364357149022525078865497206811572435844957616415295090500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 6076,
+        "side": "10341766570579309999734780366340518517071577288548173030137562499007625678858854880019581/492840059589432571364357149022525078865497206811572435844957616415295090500000000000000",
+        "n": 422
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+        "candidate_pairs": 6076,
+        "near_pairs": 1136,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "bb26378ecae506e5abd59574198b92eaa464b08c0e156da1c6174c7e2624371b": {
+      "certificate": "certificates/parents/bb26378ecae506e5abd59574198b92eaa464b08c0e156da1c6174c7e2624371b.cert",
+      "sha256": "bb26378ecae506e5abd59574198b92eaa464b08c0e156da1c6174c7e2624371b",
+      "source_n": 461,
+      "bound": "1323328210132703101600577/60226609554440000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 6766,
+        "side": "1323328210132703101600577/60226609554440000000000",
+        "n": 461
+      },
+      "strict_verification": {
+        "valid": false,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "cdde267b794f69ede268097cbc33c2ddb842b1667f6d028e3177a055b0569b59": {
+      "certificate": "certificates/parents/cdde267b794f69ede268097cbc33c2ddb842b1667f6d028e3177a055b0569b59.cert",
+      "sha256": "cdde267b794f69ede268097cbc33c2ddb842b1667f6d028e3177a055b0569b59",
+      "source_n": 507,
+      "bound": "51091139619854184028929084129771571438117937009421353/2223890978047151773258938072686560551500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 7408,
+        "side": "51091139619854184028929084129771571438117937009421353/2223890978047151773258938072686560551500000000000000",
+        "n": 507
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "a5cd9aec047de084be70772bcac6ed5d6a10cd4774fb5466fb12a0919b06f61b": {
+      "certificate": "certificates/parents/a5cd9aec047de084be70772bcac6ed5d6a10cd4774fb5466fb12a0919b06f61b.cert",
+      "sha256": "a5cd9aec047de084be70772bcac6ed5d6a10cd4774fb5466fb12a0919b06f61b",
+      "source_n": 653,
+      "bound": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
+      "credit": "Joost de Winter",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 9963,
+        "side": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
+        "n": 653
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "379565068e3e12aa5ae881fa2fbf73d6974c8b401fdd1a8e8d7d421b61345b9b": {
+      "certificate": "certificates/parents/379565068e3e12aa5ae881fa2fbf73d6974c8b401fdd1a8e8d7d421b61345b9b.cert",
+      "sha256": "379565068e3e12aa5ae881fa2fbf73d6974c8b401fdd1a8e8d7d421b61345b9b",
+      "source_n": 749,
+      "bound": "72233793301725647088021703/2586705279953000000000000",
+      "credit": "franciscouzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 11346,
+        "side": "72233793301725647088021703/2586705279953000000000000",
+        "n": 749
+      },
+      "strict_verification": {
+        "valid": false,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "b82d14aeb80ac6e49a210b2d98d5919d9e48a4717f2670d2c512e01f0047bc77": {
+      "certificate": "certificates/parents/b82d14aeb80ac6e49a210b2d98d5919d9e48a4717f2670d2c512e01f0047bc77.cert",
+      "sha256": "b82d14aeb80ac6e49a210b2d98d5919d9e48a4717f2670d2c512e01f0047bc77",
+      "source_n": 866,
+      "bound": "101186910468415505918011435959055612374597797525817991831726548554359/3380134506428478151978992983801345064284781519789929500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 13284,
+        "side": "101186910468415505918011435959055612374597797525817991831726548554359/3380134506428478151978992983801345064284781519789929500000000000000",
+        "n": 866
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "b82d14aeb80ac6e49a210b2d98d5919d9e48a4717f2670d2c512e01f0047bc77",
+        "candidate_pairs": 13284,
+        "near_pairs": 2045,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d": {
+      "certificate": "certificates/parents/c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d.cert",
+      "sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+      "source_n": 926,
+      "bound": "18938313241520265129560438299/611907496055750000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 14135,
+        "side": "18938313241520265129560438299/611907496055750000000000000",
+        "n": 926
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+        "candidate_pairs": 14135,
+        "near_pairs": 2111,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b": {
+      "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+      "sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+      "source_n": 935,
+      "bound": "160651042204798468074366551/5182967838092000000000000",
+      "credit": "Joost de Winter",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 14443,
+        "side": "160651042204798468074366551/5182967838092000000000000",
+        "n": 935
+      },
+      "strict_verification": {
+        "valid": false,
+        "closed_valid": true,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd": {
+      "certificate": "certificates/parents/f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd.cert",
+      "sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+      "source_n": 993,
+      "bound": "7595195082286674442932672012891587732046580383038386429042150874809707029231355302491737073/237460189889441156475298065086100814173452790698926470572542672960744222786500000000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 15455,
+        "side": "7595195082286674442932672012891587732046580383038386429042150874809707029231355302491737073/237460189889441156475298065086100814173452790698926470572542672960744222786500000000000000",
+        "n": 993
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "f4cec24de33fd218e685e7db009dfe03844044eeae29c4491768a5f56027d6fd",
+        "candidate_pairs": 15455,
+        "near_pairs": 2628,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
+    },
+    "604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d": {
+      "certificate": "certificates/parents/604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d.cert",
+      "sha256": "604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d",
+      "source_n": 929,
+      "bound": "7810483075058933354989897/252128085154375000000000",
+      "credit": "Francisco Couzo",
+      "verification": {
+        "valid": true,
+        "pairs_tested": 14228,
+        "side": "7810483075058933354989897/252128085154375000000000",
+        "n": 929
+      },
+      "strict_verification": {
+        "valid": false,
+        "closed_valid": true,
+        "sha256": "604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d",
+        "candidate_pairs": 14228,
+        "near_pairs": 2313,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
+      },
+      "note": "Prior locally retained witness; seed/construction provenance is preserved without asserting an independently established browser trajectory."
     }
   }
 }

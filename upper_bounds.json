@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T18:00:06.094502+00:00",
+  "generated": "2026-10-17T20:44:25.525656+00:00",
   "max_n": 1024,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -3691,10 +3691,10 @@
     "211": {
       "verified": {
         "bound": "7496774813149710519467765230441/500000000000000000000000000000",
-        "source": "certificates/n211.cert",
+        "source": "https://jlevy.github.io/squares/cases/211.html",
         "status": "exact certificate verified",
-        "credit": "this repository; source credit in certificate metadata",
-        "sha256": "806a37e2dd5b7c604e3481c4bd49405012b8b20d8c5dbf9a19eacbd422fbe8d3",
+        "credit": "Daniil Ostashev",
+        "sha256": "a52bd91e650c3f911303261a3bfc44f20f41e2f957112517e65b3dbbd27e153b",
         "rounded_up": "14.993549626300"
       },
       "reported": {
@@ -3955,19 +3955,19 @@
     },
     "227": {
       "verified": {
-        "bound": "194547458795865848854407472552117653131825098066089500568310019841668910818842825068644658133972443495777187230686109286929082683273291187074040913251499/12500000000000000000000000000001272204783003459957077568639425038233180795950995922365041743732086145591922059343477256613382050000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n227/n227_record.cert",
-        "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "7d386887c4acdfe2472c0b83fff54e76eae76d414fef9ddc45478d0e03011d1f",
-        "rounded_up": "15.563796703670"
+        "bound": "71427829379429597600111901507/4589408083628500000000000000",
+        "source": "certificates/n227.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "65b03df883e75f890eca985232252a6340b9b5da3437c41275c9201df03d8c17",
+        "rounded_up": "15.563625652343"
       },
       "reported": {
-        "bound": "194547458795865848854407472552117653131825098066089500568310019841668910818842825068644658133972443495777187230686109286929082683273291187074040913251499/12500000000000000000000000000001272204783003459957077568639425038233180795950995922365041743732086145591922059343477256613382050000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n227/n227_record.cert",
-        "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "7d386887c4acdfe2472c0b83fff54e76eae76d414fef9ddc45478d0e03011d1f"
+        "bound": "71427829379429597600111901507/4589408083628500000000000000",
+        "source": "certificates/n227.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "65b03df883e75f890eca985232252a6340b9b5da3437c41275c9201df03d8c17"
       }
     },
     "228": {
@@ -3987,19 +3987,19 @@
     },
     "229": {
       "verified": {
-        "bound": "156501747569482131747919637148801852719869637315233948984618327625011520667543259632677498716011131748832131668750692746335433269145213277034738380207139541/10000000000000000000000000000001737366297119815888250696550926607660931327350731575578989919015034082413286101971092035771621296900000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n229/n229_record.cert",
-        "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "34ddede798ec3bc6ff9e94fd4c12ee12207946dd43435001e8ac9e9aacdde419",
-        "rounded_up": "15.650174756949"
+        "bound": "231170315041711399213831561/14771101209934000000000000",
+        "source": "certificates/n229.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "9ab667ec73e55b4570fdc427b9f9930831a3e3f07b6953a2e05c6aee0a07609f",
+        "rounded_up": "15.650174740273"
       },
       "reported": {
-        "bound": "156501747569482131747919637148801852719869637315233948984618327625011520667543259632677498716011131748832131668750692746335433269145213277034738380207139541/10000000000000000000000000000001737366297119815888250696550926607660931327350731575578989919015034082413286101971092035771621296900000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n229/n229_record.cert",
-        "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "34ddede798ec3bc6ff9e94fd4c12ee12207946dd43435001e8ac9e9aacdde419"
+        "bound": "231170315041711399213831561/14771101209934000000000000",
+        "source": "certificates/n229.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "9ab667ec73e55b4570fdc427b9f9930831a3e3f07b6953a2e05c6aee0a07609f"
       }
     },
     "230": {
@@ -4122,7 +4122,7 @@
         "source": "https://github.com/jlevy/squares/issues/399",
         "status": "exact certificate verified; adoption pending",
         "credit": "Evan Daniel",
-        "sha256": "21dbf6792bec64b06ab5fc1d6ac56a17432f971431100fdbe63e92d23bc091c9",
+        "sha256": "abae0c5240f986373a4c49f860004ba3b187495579b4f88d41bfec0d9015a546",
         "rounded_up": "15.861934390608"
       },
       "reported": {
@@ -4130,7 +4130,7 @@
         "source": "https://github.com/jlevy/squares/issues/399",
         "status": "exact certificate verified; adoption pending",
         "credit": "Evan Daniel",
-        "sha256": "21dbf6792bec64b06ab5fc1d6ac56a17432f971431100fdbe63e92d23bc091c9"
+        "sha256": "abae0c5240f986373a4c49f860004ba3b187495579b4f88d41bfec0d9015a546"
       }
     },
     "237": {
@@ -4505,19 +4505,19 @@
     },
     "260": {
       "verified": {
-        "bound": "16645778804181379786535601/1000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n260/n260_record.cert",
+        "bound": "4161444696515435316429350771309/250000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/668",
         "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "df90e58d702555c8487a93f34b023f43903cb116c42ed50623d429dba2252d31",
-        "rounded_up": "16.645778804182"
+        "credit": "Joost de Winter (JoostdeWinter)",
+        "sha256": "e90993b1c0f625d1d6c2d1ea3b5f391bfe6d98f5bc387a10863434bb9db4934e",
+        "rounded_up": "16.645778786062"
       },
       "reported": {
-        "bound": "16645778804181379786535601/1000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n260/n260_record.cert",
+        "bound": "4161444696515435316429350771309/250000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/668",
         "status": "exact certificate verified; adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "df90e58d702555c8487a93f34b023f43903cb116c42ed50623d429dba2252d31"
+        "credit": "Joost de Winter (JoostdeWinter)",
+        "sha256": "e90993b1c0f625d1d6c2d1ea3b5f391bfe6d98f5bc387a10863434bb9db4934e"
       }
     },
     "261": {
@@ -5697,19 +5697,19 @@
     },
     "330": {
       "verified": {
-        "bound": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000",
+        "bound": "6748764126299635103858366087797796647482602981114382402710783058757/361037440354186299129428478610374403541862991294284750000000000000",
         "source": "certificates/n330.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e",
-        "rounded_up": "18.701641583454"
+        "sha256": "21be9eb4af6f37a3e72fa02cffd5f5a3d56020099c8228335b5a27e2fd5ca5df",
+        "rounded_up": "18.692698795114"
       },
       "reported": {
-        "bound": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000",
+        "bound": "6748764126299635103858366087797796647482602981114382402710783058757/361037440354186299129428478610374403541862991294284750000000000000",
         "source": "certificates/n330.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e"
+        "sha256": "21be9eb4af6f37a3e72fa02cffd5f5a3d56020099c8228335b5a27e2fd5ca5df"
       }
     },
     "331": {
@@ -8460,19 +8460,19 @@
     },
     "461": {
       "verified": {
-        "bound": "1323328210132703101600577/60226609554440000000000",
+        "bound": "65078716698804815480861629969214363552632515770783292814881823799/2961940964386800918512692530927496583231120196837000000000000000",
         "source": "certificates/n461.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "bb26378ecae506e5abd59574198b92eaa464b08c0e156da1c6174c7e2624371b",
-        "rounded_up": "21.972483922352"
+        "sha256": "d6ca19473ea1d3f7d02b620b17a51c68767337b5fc853b4229270d51efcfb209",
+        "rounded_up": "21.971645445094"
       },
       "reported": {
-        "bound": "1323328210132703101600577/60226609554440000000000",
+        "bound": "65078716698804815480861629969214363552632515770783292814881823799/2961940964386800918512692530927496583231120196837000000000000000",
         "source": "certificates/n461.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "bb26378ecae506e5abd59574198b92eaa464b08c0e156da1c6174c7e2624371b"
+        "sha256": "d6ca19473ea1d3f7d02b620b17a51c68767337b5fc853b4229270d51efcfb209"
       }
     },
     "462": {
@@ -8513,17 +8513,15 @@
       "verified": {
         "bound": "10994406511346890813/500000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0464.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "241d8b74a596cf617867eee35c9d1850237b5e62cf944c27871daa5ecc9818fe",
         "rounded_up": "21.988813022694"
       },
       "reported": {
-        "bound": "10994406511346890813/500000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0464.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "241d8b74a596cf617867eee35c9d1850237b5e62cf944c27871daa5ecc9818fe"
+        "bound": "21.988813022693783",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "465": {
@@ -9487,23 +9485,19 @@
     },
     "507": {
       "verified": {
-        "bound": "12489641226058455221291608920832243795364381598347911/543648089441233684250398896481052805500000000000000",
-        "source": "certificates/best/n507.cert",
-        "source_n": 507,
-        "deleted_squares": 0,
+        "bound": "8526738512939185417064796374951295387031054780493936200064141545665758236001595105954382717/371152107546167715203195530915493345113629845190305272039722696519526931583500000000000000",
+        "source": "certificates/n507.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6a244d3eca287b1929bc104b8b242e538d6b7424eaa27c2b8b8facc2fb9ffd93",
-        "rounded_up": "22.973760910106"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "f78563d2930bcd0d06ab37783bb8611cac9ca227e322a9fe9cc2a869f08d7f32",
+        "rounded_up": "22.973703609857"
       },
       "reported": {
-        "bound": "12489641226058455221291608920832243795364381598347911/543648089441233684250398896481052805500000000000000",
-        "source": "certificates/best/n507.cert",
-        "source_n": 507,
-        "deleted_squares": 0,
+        "bound": "8526738512939185417064796374951295387031054780493936200064141545665758236001595105954382717/371152107546167715203195530915493345113629845190305272039722696519526931583500000000000000",
+        "source": "certificates/n507.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "6a244d3eca287b1929bc104b8b242e538d6b7424eaa27c2b8b8facc2fb9ffd93"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "f78563d2930bcd0d06ab37783bb8611cac9ca227e322a9fe9cc2a869f08d7f32"
       }
     },
     "508": {
@@ -9531,17 +9525,15 @@
       "verified": {
         "bound": "229943280364379812353527908255755274821759/10000000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd",
         "rounded_up": "22.994328036438"
       },
       "reported": {
-        "bound": "229943280364379812353527908255755274821759/10000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd"
+        "bound": "22.99432803643798",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "510": {
@@ -10629,17 +10621,15 @@
       "verified": {
         "bound": "599841344764773433515660753617274733361/25000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "330ff746344b3c425fdbd724462bb71bc66dfbb01038aacf219ef948417eb424",
         "rounded_up": "23.993653790591"
       },
       "reported": {
-        "bound": "599841344764773433515660753617274733361/25000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "330ff746344b3c425fdbd724462bb71bc66dfbb01038aacf219ef948417eb424"
+        "bound": "23.993653790590937",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "556": {
@@ -11840,17 +11830,15 @@
       "verified": {
         "bound": "3124408508024516567/125000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "4b4c635e5c0a00c20cb865120e76c40e3abdfef32a369ebf6511cbc03b1eaaa8",
         "rounded_up": "24.995268064197"
       },
       "reported": {
-        "bound": "3124408508024516567/125000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "4b4c635e5c0a00c20cb865120e76c40e3abdfef32a369ebf6511cbc03b1eaaa8"
+        "bound": "24.995268064196132",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "604": {
@@ -13066,53 +13054,51 @@
     },
     "652": {
       "verified": {
-        "bound": "3249408508024516567/125000000000000000",
+        "bound": "10713831655179218713664869081116735368051274978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n652.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "0365f2937b724cb27c58d75337b5e277f71bf4ef6927254b2a428809e6995447",
-        "rounded_up": "25.995268064197"
+        "sha256": "883cf0c369061638842882ef0ca8e146aca160f81c4ca77644ac0a037234c59d",
+        "rounded_up": "25.994469543497"
       },
       "reported": {
-        "bound": "3249408508024516567/125000000000000000",
+        "bound": "10713831655179218713664869081116735368051274978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n652.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "0365f2937b724cb27c58d75337b5e277f71bf4ef6927254b2a428809e6995447"
+        "sha256": "883cf0c369061638842882ef0ca8e146aca160f81c4ca77644ac0a037234c59d"
       }
     },
     "653": {
       "verified": {
-        "bound": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
+        "bound": "10713831655179218713664869081116735368051274978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n653.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a5cd9aec047de084be70772bcac6ed5d6a10cd4774fb5466fb12a0919b06f61b",
-        "rounded_up": "25.996103908965"
+        "sha256": "80495d7c4fe33e158ef9555a5e86ab710cfb573392b1916e18f341325c647ba3",
+        "rounded_up": "25.994469543497"
       },
       "reported": {
-        "bound": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
+        "bound": "10713831655179218713664869081116735368051274978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n653.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a5cd9aec047de084be70772bcac6ed5d6a10cd4774fb5466fb12a0919b06f61b"
+        "sha256": "80495d7c4fe33e158ef9555a5e86ab710cfb573392b1916e18f341325c647ba3"
       }
     },
     "654": {
       "verified": {
         "bound": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0654.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "1dc22766ad5fcf945d8005d5621477256133ded3fea3934d3ef43955e695ede6",
         "rounded_up": "25.996103908965"
       },
       "reported": {
-        "bound": "6499025977241137654691967211499090902723/250000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0654.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "1dc22766ad5fcf945d8005d5621477256133ded3fea3934d3ef43955e695ede6"
+        "bound": "25.99610390896455",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "655": {
@@ -14324,19 +14310,19 @@
     },
     "704": {
       "verified": {
-        "bound": "6749025977241137654691967211499090902723/250000000000000000000000000000000000000",
+        "bound": "11125989773553268713664869085238316551791774978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n704.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a378c9e64b0f47c189394bd0c8a915a477e3d1495bb2d185355f5594f6867fc2",
-        "rounded_up": "26.996103908965"
+        "sha256": "67fdee95da25acfe886f6d8759bb6c6c79ce4c6c440ff077551497e0b271d101",
+        "rounded_up": "26.994469543497"
       },
       "reported": {
-        "bound": "6749025977241137654691967211499090902723/250000000000000000000000000000000000000",
+        "bound": "11125989773553268713664869085238316551791774978530315731/412158118374050000000000004121581183740500000000000000",
         "source": "certificates/n704.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a378c9e64b0f47c189394bd0c8a915a477e3d1495bb2d185355f5594f6867fc2"
+        "sha256": "67fdee95da25acfe886f6d8759bb6c6c79ce4c6c440ff077551497e0b271d101"
       }
     },
     "705": {
@@ -14360,17 +14346,15 @@
       "verified": {
         "bound": "26998712100404344909005416027219267574873/1000000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0706.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "b0caadc89f1acb394e52fdf4d7c9b9b78623ed15fe02a64da72839b4babc019e",
         "rounded_up": "26.998712100405"
       },
       "reported": {
-        "bound": "26998712100404344909005416027219267574873/1000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0706.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "b0caadc89f1acb394e52fdf4d7c9b9b78623ed15fe02a64da72839b4babc019e"
+        "bound": "26.998712100404344",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "707": {
@@ -15379,40 +15363,36 @@
     },
     "749": {
       "verified": {
-        "bound": "1744270550712468686420605878518578470766501430592831160067/62460712348211708519448157123482117085188235500000000000",
+        "bound": "13167606432921746998135840287/471551399868500000000000000",
         "source": "certificates/n749.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "818c5a8e32f15c67c6396593c7b39cff74d619a40fd0de709fab885ca629ebd9",
-        "rounded_up": "27.925883089331"
+        "sha256": "8c95f415a9e43ed89848d77e3b48fcaa040f768ba8d729fdcab8f717fc0ffe67",
+        "rounded_up": "27.924010906540"
       },
       "reported": {
-        "bound": "1744270550712468686420605878518578470766501430592831160067/62460712348211708519448157123482117085188235500000000000",
+        "bound": "13167606432921746998135840287/471551399868500000000000000",
         "source": "certificates/n749.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "818c5a8e32f15c67c6396593c7b39cff74d619a40fd0de709fab885ca629ebd9"
+        "sha256": "8c95f415a9e43ed89848d77e3b48fcaa040f768ba8d729fdcab8f717fc0ffe67"
       }
     },
     "750": {
       "verified": {
-        "bound": "10464872635555390923512559851/374698520025500000000000000",
-        "source": "certificates/best/n750.cert",
-        "source_n": 750,
-        "deleted_squares": 0,
+        "bound": "1923783510361799960254789/68883907628420000000000",
+        "source": "certificates/n750.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "4863ffd9043444794c1d73776e4a36d0bc51b511220669360d589bc2e3816b6f",
-        "rounded_up": "27.928780276056"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "27ebdd5c211feae5a53e5cb2c8b1af779e1e1853b0520acb92576f087309eced",
+        "rounded_up": "27.927909095101"
       },
       "reported": {
-        "bound": "10464872635555390923512559851/374698520025500000000000000",
-        "source": "certificates/best/n750.cert",
-        "source_n": 750,
-        "deleted_squares": 0,
+        "bound": "1923783510361799960254789/68883907628420000000000",
+        "source": "certificates/n750.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "4863ffd9043444794c1d73776e4a36d0bc51b511220669360d589bc2e3816b6f"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "27ebdd5c211feae5a53e5cb2c8b1af779e1e1853b0520acb92576f087309eced"
       }
     },
     "751": {
@@ -15500,19 +15480,19 @@
     },
     "753": {
       "verified": {
-        "bound": "525175277598861377005908761/18798271689594000000000000",
+        "bound": "3281868946575202742023586262270252927465969887/117474582532528620240471045223126000000000000",
         "source": "certificates/n753.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "dcf990e40afdb9454df434f39d7f0744d67437d153b7062655d9a7aa668b26bf",
-        "rounded_up": "27.937423518013"
+        "sha256": "28952c48aa931cb53589904fca917b46ab0573c463430cb4a51696cce55b89d9",
+        "rounded_up": "27.936842811648"
       },
       "reported": {
-        "bound": "525175277598861377005908761/18798271689594000000000000",
+        "bound": "3281868946575202742023586262270252927465969887/117474582532528620240471045223126000000000000",
         "source": "certificates/n753.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "dcf990e40afdb9454df434f39d7f0744d67437d153b7062655d9a7aa668b26bf"
+        "sha256": "28952c48aa931cb53589904fca917b46ab0573c463430cb4a51696cce55b89d9"
       }
     },
     "754": {
@@ -15534,108 +15514,102 @@
     },
     "755": {
       "verified": {
-        "bound": "15814847976799954141383522244567809554408090430591171841405001601057193497689101547423501763/565781275890211231753072521652148674868800974333509441351609047585247410881500000000000000",
-        "source": "certificates/best/n755.cert",
-        "source_n": 755,
-        "deleted_squares": 0,
+        "bound": "241491836236895852204486537/8639631750126000000000000",
+        "source": "certificates/n755.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "d114a694c6352f03d4720f3b512bc065c32c37beae943f7fa3013a258f68b4f3",
-        "rounded_up": "27.952229334413"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "bbb3d095a16da3c359db136f1740056ef5705f468041c76970999c08f2f2638d",
+        "rounded_up": "27.951635349895"
       },
       "reported": {
-        "bound": "15814847976799954141383522244567809554408090430591171841405001601057193497689101547423501763/565781275890211231753072521652148674868800974333509441351609047585247410881500000000000000",
-        "source": "certificates/best/n755.cert",
-        "source_n": 755,
-        "deleted_squares": 0,
+        "bound": "241491836236895852204486537/8639631750126000000000000",
+        "source": "certificates/n755.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "d114a694c6352f03d4720f3b512bc065c32c37beae943f7fa3013a258f68b4f3"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "bbb3d095a16da3c359db136f1740056ef5705f468041c76970999c08f2f2638d"
       }
     },
     "756": {
       "verified": {
-        "bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+        "bound": "246145374140438349281117993/8796093022208000000000000",
         "source": "certificates/n756.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
-        "rounded_up": "27.984237490911"
+        "sha256": "3293185dac440b35b1ff154235bef7f89069f0e8efffca17132a35218e4c6826",
+        "rounded_up": "27.983489205831"
       },
       "reported": {
-        "bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+        "bound": "246145374140438349281117993/8796093022208000000000000",
         "source": "certificates/n756.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353"
+        "sha256": "3293185dac440b35b1ff154235bef7f89069f0e8efffca17132a35218e4c6826"
       }
     },
     "757": {
       "verified": {
-        "bound": "512227618969848927198386569/18300420582786000000000000",
+        "bound": "3079801049630369768609999/110032439628400000000000",
         "source": "certificates/n757.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ac07259680a07329f4af8ed7c2559b0078cda85ede4088a2af887a573a65a108",
-        "rounded_up": "27.989936988207"
+        "sha256": "3ce00d0caf79697df985cde9fdbf8d6c0c04407222ae07093b01fc54db6686e5",
+        "rounded_up": "27.989936967966"
       },
       "reported": {
-        "bound": "512227618969848927198386569/18300420582786000000000000",
+        "bound": "3079801049630369768609999/110032439628400000000000",
         "source": "certificates/n757.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ac07259680a07329f4af8ed7c2559b0078cda85ede4088a2af887a573a65a108"
+        "sha256": "3ce00d0caf79697df985cde9fdbf8d6c0c04407222ae07093b01fc54db6686e5"
       }
     },
     "758": {
       "verified": {
-        "bound": "259632261511431358018073953/9274243437228000000000000",
+        "bound": "12437340329292243069852817/444270476463250000000000",
         "source": "certificates/n758.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "1091bd0f78fa3896ed0db971c1566f04a163137256590ddb43ad7a3fc7f1c367",
-        "rounded_up": "27.994980212536"
+        "sha256": "7be6c56af91867bad7ef5d7cd9c9208f5945ce90c402b87633ff28bed71ea59e",
+        "rounded_up": "27.994973756311"
       },
       "reported": {
-        "bound": "259632261511431358018073953/9274243437228000000000000",
+        "bound": "12437340329292243069852817/444270476463250000000000",
         "source": "certificates/n758.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "1091bd0f78fa3896ed0db971c1566f04a163137256590ddb43ad7a3fc7f1c367"
+        "sha256": "7be6c56af91867bad7ef5d7cd9c9208f5945ce90c402b87633ff28bed71ea59e"
       }
     },
     "759": {
       "verified": {
-        "bound": "279959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "211525976842740970383821487/7555593021050000000000000",
         "source": "certificates/n759.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e528c792ecc62cea6265d5f79a512c5de3859b8ea523a6c82475612848dcbaa3",
-        "rounded_up": "27.995949340329"
+        "sha256": "fc486c4a9cc8e0944efe662a81aa98f5488efa019ec49daa6d18eb25f2f130dc",
+        "rounded_up": "27.995946347749"
       },
       "reported": {
-        "bound": "279959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "211525976842740970383821487/7555593021050000000000000",
         "source": "certificates/n759.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e528c792ecc62cea6265d5f79a512c5de3859b8ea523a6c82475612848dcbaa3"
+        "sha256": "fc486c4a9cc8e0944efe662a81aa98f5488efa019ec49daa6d18eb25f2f130dc"
       }
     },
     "760": {
       "verified": {
         "bound": "279959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
         "rounded_up": "27.995949340329"
       },
       "reported": {
-        "bound": "279959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f"
+        "bound": "27.995949340328725",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "761": {
@@ -16719,36 +16693,36 @@
     },
     "804": {
       "verified": {
-        "bound": "1572738633130395447358348171354085237/54387397392273270258867096000000000",
+        "bound": "36567476623750802863008791/1264613614924500000000000",
         "source": "certificates/n804.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "1e9f2aaa2f723b0858f1b2dadf1ea673820489f9624981ccca219f63c1fc831c",
-        "rounded_up": "28.917335789888"
+        "sha256": "b536ac184c36a06bd3d782fd0778feb42faecbd24e11ba76893c572c12098de8",
+        "rounded_up": "28.915928305844"
       },
       "reported": {
-        "bound": "1572738633130395447358348171354085237/54387397392273270258867096000000000",
+        "bound": "36567476623750802863008791/1264613614924500000000000",
         "source": "certificates/n804.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "1e9f2aaa2f723b0858f1b2dadf1ea673820489f9624981ccca219f63c1fc831c"
+        "sha256": "b536ac184c36a06bd3d782fd0778feb42faecbd24e11ba76893c572c12098de8"
       }
     },
     "805": {
       "verified": {
-        "bound": "54432461074496350407436529/1882053637914800000000000",
+        "bound": "53543796681001692125802637/1851670878313000000000000",
         "source": "certificates/n805.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a3ca19bbe247ab161c80af084084c9b2f35132b09b79d396ab561c3242d3a6cc",
-        "rounded_up": "28.921843659464"
+        "sha256": "260896f19c9955a4ebb0fd891d3d3bd29968e7b4bab79865879952d32840ec45",
+        "rounded_up": "28.916476090926"
       },
       "reported": {
-        "bound": "54432461074496350407436529/1882053637914800000000000",
+        "bound": "53543796681001692125802637/1851670878313000000000000",
         "source": "certificates/n805.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "a3ca19bbe247ab161c80af084084c9b2f35132b09b79d396ab561c3242d3a6cc"
+        "sha256": "260896f19c9955a4ebb0fd891d3d3bd29968e7b4bab79865879952d32840ec45"
       }
     },
     "806": {
@@ -16850,121 +16824,121 @@
     },
     "811": {
       "verified": {
-        "bound": "107758975241134040901371211/3718073869819000000000000",
+        "bound": "498233759153054042888527107/17190870625466000000000000",
         "source": "certificates/n811.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "043c0fcefed6b4d23af245429454e57970ca69c9ab329c19b2d62bc4d0d89977",
-        "rounded_up": "28.982472918533"
+        "sha256": "9076aca470f82bf9e3deeef04769dc5cc8a577ff0366244580d779f23987cb4e",
+        "rounded_up": "28.982462261975"
       },
       "reported": {
-        "bound": "107758975241134040901371211/3718073869819000000000000",
+        "bound": "498233759153054042888527107/17190870625466000000000000",
         "source": "certificates/n811.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "043c0fcefed6b4d23af245429454e57970ca69c9ab329c19b2d62bc4d0d89977"
+        "sha256": "9076aca470f82bf9e3deeef04769dc5cc8a577ff0366244580d779f23987cb4e"
       }
     },
     "812": {
       "verified": {
-        "bound": "107758975241134040901371211/3718073869819000000000000",
+        "bound": "498233759153054042888527107/17190870625466000000000000",
         "source": "certificates/n812.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "b08058cbcd84a2683497663f7244da44e81bf9768e6ba9f198887d24adfc725e",
-        "rounded_up": "28.982472918533"
+        "sha256": "d30f1bd4db5bd9ad567b19a8bbdc7774784e4fc9c83c759b55ee5c235754ec2c",
+        "rounded_up": "28.982462261975"
       },
       "reported": {
-        "bound": "107758975241134040901371211/3718073869819000000000000",
+        "bound": "498233759153054042888527107/17190870625466000000000000",
         "source": "certificates/n812.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "b08058cbcd84a2683497663f7244da44e81bf9768e6ba9f198887d24adfc725e"
+        "sha256": "d30f1bd4db5bd9ad567b19a8bbdc7774784e4fc9c83c759b55ee5c235754ec2c"
       }
     },
     "813": {
       "verified": {
-        "bound": "303265873100975804964121997/10460908978686000000000000",
+        "bound": "62014253298326375088350487/2139164947779500000000000",
         "source": "certificates/n813.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "737b048bc4100fcad5532dfc38a3f4b40f696d9e89545dd64868b85ed604058d",
-        "rounded_up": "28.990394020145"
+        "sha256": "919bc5b0ff026e8f9c9d83db81cc488ad7d781f1af818c38b935fd2a3a5784fd",
+        "rounded_up": "28.989935237439"
       },
       "reported": {
-        "bound": "303265873100975804964121997/10460908978686000000000000",
+        "bound": "62014253298326375088350487/2139164947779500000000000",
         "source": "certificates/n813.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "737b048bc4100fcad5532dfc38a3f4b40f696d9e89545dd64868b85ed604058d"
+        "sha256": "919bc5b0ff026e8f9c9d83db81cc488ad7d781f1af818c38b935fd2a3a5784fd"
       }
     },
     "814": {
       "verified": {
-        "bound": "289959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "236853363854447684864678031/8168499176188000000000000",
         "source": "certificates/n814.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "44bb412b48d1036a8de63a99573cbe095fb4285a46c02f9ed9a27bc956b9d688",
-        "rounded_up": "28.995949340329"
+        "sha256": "79c94bf8c18f8e78bc0afff633da6ff344e2ee5dfb1d1a32bac84d5e2535d780",
+        "rounded_up": "28.995946347758"
       },
       "reported": {
-        "bound": "289959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "236853363854447684864678031/8168499176188000000000000",
         "source": "certificates/n814.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "44bb412b48d1036a8de63a99573cbe095fb4285a46c02f9ed9a27bc956b9d688"
+        "sha256": "79c94bf8c18f8e78bc0afff633da6ff344e2ee5dfb1d1a32bac84d5e2535d780"
       }
     },
     "815": {
       "verified": {
-        "bound": "289959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "579096232447126124605213717/19971627232850000000000000",
         "source": "certificates/n815.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e273928becf65890b20f118f41844c29bec4e88f51259b0c70258dadef2a6a95",
-        "rounded_up": "28.995949340329"
+        "sha256": "eec7ebdc8e79b8fda89946cf8a81b2334ad0d3fc0daf7ecbc2e237ec4e3f92b4",
+        "rounded_up": "28.995946384109"
       },
       "reported": {
-        "bound": "289959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "579096232447126124605213717/19971627232850000000000000",
         "source": "certificates/n815.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "e273928becf65890b20f118f41844c29bec4e88f51259b0c70258dadef2a6a95"
+        "sha256": "eec7ebdc8e79b8fda89946cf8a81b2334ad0d3fc0daf7ecbc2e237ec4e3f92b4"
       }
     },
     "816": {
       "verified": {
-        "bound": "18124055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "108178366324044447865857563/3730500466377000000000000",
         "source": "certificates/n816.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "104a54ff10499820fd9fdba1c85eb615f58d7406baf22bf9d814a919cb95955f",
-        "rounded_up": "28.998488480775"
+        "sha256": "a1fecab57a8a1c579c21fd6b31fc83443a5c1ad72534434c9f55bcad7b785dc3",
+        "rounded_up": "28.998352177961"
       },
       "reported": {
-        "bound": "18124055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "108178366324044447865857563/3730500466377000000000000",
         "source": "certificates/n816.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "104a54ff10499820fd9fdba1c85eb615f58d7406baf22bf9d814a919cb95955f"
+        "sha256": "a1fecab57a8a1c579c21fd6b31fc83443a5c1ad72534434c9f55bcad7b785dc3"
       }
     },
     "817": {
       "verified": {
-        "bound": "18124055300484316642750416463963715847119/625000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0817.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "afcf3145cc6856c31177b1b01d7178211adee69d38a268af8710df648ed81c5e",
-        "rounded_up": "28.998488480775"
+        "bound": "108178366324044447865857563/3730500466377000000000000",
+        "source": "certificates/n817.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "7d1abc73c566d451908ed22626da41ded363e945bdc07bb67b5843e34bced886",
+        "rounded_up": "28.998352177961"
       },
       "reported": {
-        "bound": "18124055300484316642750416463963715847119/625000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0817.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "afcf3145cc6856c31177b1b01d7178211adee69d38a268af8710df648ed81c5e"
+        "bound": "108178366324044447865857563/3730500466377000000000000",
+        "source": "certificates/n817.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "7d1abc73c566d451908ed22626da41ded363e945bdc07bb67b5843e34bced886"
       }
     },
     "818": {
@@ -18100,44 +18074,36 @@
     },
     "864": {
       "verified": {
-        "bound": "146466931305947440687166308035931305947440687166161569/4893015084909500000000000000000000000000000000000000",
-        "source": "certificates/best/n865.cert",
-        "source_n": 865,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "34f0ba10d3a23ada14ae7232d009ef84c8db3c7dd8d715dcca723ed4eb3d3d2e",
-        "rounded_up": "29.933881004714"
+        "bound": "64818648238757153171820179/2165476418515500000000000",
+        "source": "certificates/n864.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "9ff37cd48f544c5a8ba35acdc4889646f0fbc2bddcbb1539ce2f6a4c8e907555",
+        "rounded_up": "29.932742598598"
       },
       "reported": {
-        "bound": "146466931305947440687166308035931305947440687166161569/4893015084909500000000000000000000000000000000000000",
-        "source": "certificates/best/n865.cert",
-        "source_n": 865,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "34f0ba10d3a23ada14ae7232d009ef84c8db3c7dd8d715dcca723ed4eb3d3d2e"
+        "bound": "64818648238757153171820179/2165476418515500000000000",
+        "source": "certificates/n864.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "9ff37cd48f544c5a8ba35acdc4889646f0fbc2bddcbb1539ce2f6a4c8e907555"
       }
     },
     "865": {
       "verified": {
-        "bound": "146466931305947440687166308035931305947440687166161569/4893015084909500000000000000000000000000000000000000",
-        "source": "certificates/best/n865.cert",
-        "source_n": 865,
-        "deleted_squares": 0,
+        "bound": "64818648238757153171820179/2165476418515500000000000",
+        "source": "certificates/n865.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "34f0ba10d3a23ada14ae7232d009ef84c8db3c7dd8d715dcca723ed4eb3d3d2e",
-        "rounded_up": "29.933881004714"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "4453f019172b14300dae025d5fe42399a29c797cdf9a447c32c744815805703f",
+        "rounded_up": "29.932742598598"
       },
       "reported": {
-        "bound": "146466931305947440687166308035931305947440687166161569/4893015084909500000000000000000000000000000000000000",
-        "source": "certificates/best/n865.cert",
-        "source_n": 865,
-        "deleted_squares": 0,
+        "bound": "64818648238757153171820179/2165476418515500000000000",
+        "source": "certificates/n865.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "34f0ba10d3a23ada14ae7232d009ef84c8db3c7dd8d715dcca723ed4eb3d3d2e"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "4453f019172b14300dae025d5fe42399a29c797cdf9a447c32c744815805703f"
       }
     },
     "866": {
@@ -18176,36 +18142,36 @@
     },
     "868": {
       "verified": {
-        "bound": "583709724086177241184617279/19468539468334000000000000",
+        "bound": "128855961948399558201712757/4297760235518000000000000",
         "source": "certificates/n868.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "f941bdb70d5c24ddf009534f8dd6ec67c527c1051c4b98774afed8195cd1687e",
-        "rounded_up": "29.982204111182"
+        "sha256": "b9b4a0ef5218264b2f8cd4542fb0c4a769571f4618be834fb18d1b9bb1111a6d",
+        "rounded_up": "29.982119729132"
       },
       "reported": {
-        "bound": "583709724086177241184617279/19468539468334000000000000",
+        "bound": "128855961948399558201712757/4297760235518000000000000",
         "source": "certificates/n868.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "f941bdb70d5c24ddf009534f8dd6ec67c527c1051c4b98774afed8195cd1687e"
+        "sha256": "b9b4a0ef5218264b2f8cd4542fb0c4a769571f4618be834fb18d1b9bb1111a6d"
       }
     },
     "869": {
       "verified": {
-        "bound": "111477049110953040901371211/3718073869819000000000000",
+        "bound": "118233590823104490165837077/3943424985913200000000000",
         "source": "certificates/n869.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ffc88acdbe41322ec94415bddc3ba79409c2dac39f23c295f4db7dc0f7b40e05",
-        "rounded_up": "29.982472918533"
+        "sha256": "ddc6e0816d39f603fb96df0eff4da33b82463c839f29952e4084616c0d39738a",
+        "rounded_up": "29.982462261984"
       },
       "reported": {
-        "bound": "111477049110953040901371211/3718073869819000000000000",
+        "bound": "118233590823104490165837077/3943424985913200000000000",
         "source": "certificates/n869.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ffc88acdbe41322ec94415bddc3ba79409c2dac39f23c295f4db7dc0f7b40e05"
+        "sha256": "ddc6e0816d39f603fb96df0eff4da33b82463c839f29952e4084616c0d39738a"
       }
     },
     "870": {
@@ -18227,87 +18193,85 @@
     },
     "871": {
       "verified": {
-        "bound": "2487583616602704456269044029423443795172383342721095643395864867048433035401/82948958611004864181200487028598087521416281974424880388796125720000000000",
+        "bound": "43798576465715337981181619/1460595284054000000000000",
         "source": "certificates/n871.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "5b75abe95235841649b6ffc542175bb9d697916ceb6cf41adabe5aebafdd0cdd",
-        "rounded_up": "29.989329079687"
+        "sha256": "dd537cc1aa96c356d0a0553f12ef16346f4a425de1d3655e1f3eaba0f2b5b6c8",
+        "rounded_up": "29.986798495028"
       },
       "reported": {
-        "bound": "2487583616602704456269044029423443795172383342721095643395864867048433035401/82948958611004864181200487028598087521416281974424880388796125720000000000",
+        "bound": "43798576465715337981181619/1460595284054000000000000",
         "source": "certificates/n871.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "5b75abe95235841649b6ffc542175bb9d697916ceb6cf41adabe5aebafdd0cdd"
+        "sha256": "dd537cc1aa96c356d0a0553f12ef16346f4a425de1d3655e1f3eaba0f2b5b6c8"
       }
     },
     "872": {
       "verified": {
-        "bound": "299959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "134342447816052863761059529/4478686756394000000000000",
         "source": "certificates/n872.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "af9bec51d677bfd7266533c7da9dcb4b7ed4c17fe25ffa4cd53c1db565445594",
-        "rounded_up": "29.995949340329"
+        "sha256": "e207f82d5a24631cf4ace1eddc0bd015612e057d9deba849a7ad8953b8e2ddbc",
+        "rounded_up": "29.995946384118"
       },
       "reported": {
-        "bound": "299959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+        "bound": "134342447816052863761059529/4478686756394000000000000",
         "source": "certificates/n872.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "af9bec51d677bfd7266533c7da9dcb4b7ed4c17fe25ffa4cd53c1db565445594"
+        "sha256": "e207f82d5a24631cf4ace1eddc0bd015612e057d9deba849a7ad8953b8e2ddbc"
       }
     },
     "873": {
       "verified": {
-        "bound": "18749055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "6665094484746642911653749/222182830991200000000000",
         "source": "certificates/n873.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ba61f4ae143244cb52ad81a43d88bad03a833a1e800ef63e967a317320451004",
-        "rounded_up": "29.998488480775"
+        "sha256": "08cb35bb73678928a832d449e5d630a4eec4d8ea7807e0c76adfeb160706db15",
+        "rounded_up": "29.998242686046"
       },
       "reported": {
-        "bound": "18749055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "6665094484746642911653749/222182830991200000000000",
         "source": "certificates/n873.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ba61f4ae143244cb52ad81a43d88bad03a833a1e800ef63e967a317320451004"
+        "sha256": "08cb35bb73678928a832d449e5d630a4eec4d8ea7807e0c76adfeb160706db15"
       }
     },
     "874": {
       "verified": {
-        "bound": "18749055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "6665094484746642911653749/222182830991200000000000",
         "source": "certificates/n874.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "7d8f2abb63688b8372860652b13f317047bee9e94d9101f2ebe7093134ecf151",
-        "rounded_up": "29.998488480775"
+        "sha256": "a492229002f0f23464b5e5a22003c3e229650955272b9cc46abc472e150c789d",
+        "rounded_up": "29.998242686046"
       },
       "reported": {
-        "bound": "18749055300484316642750416463963715847119/625000000000000000000000000000000000000",
+        "bound": "6665094484746642911653749/222182830991200000000000",
         "source": "certificates/n874.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "7d8f2abb63688b8372860652b13f317047bee9e94d9101f2ebe7093134ecf151"
+        "sha256": "a492229002f0f23464b5e5a22003c3e229650955272b9cc46abc472e150c789d"
       }
     },
     "875": {
       "verified": {
         "bound": "149993918665539639324087987587084819661007/5000000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0875.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "9de1f2f8424c7cc6e36be3e0ab5ad1c1f37102d7b958c11eb5e35972a2e8a569",
         "rounded_up": "29.998783733108"
       },
       "reported": {
-        "bound": "149993918665539639324087987587084819661007/5000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0875.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "9de1f2f8424c7cc6e36be3e0ab5ad1c1f37102d7b958c11eb5e35972a2e8a569"
+        "bound": "29.998783733107928",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "876": {
@@ -19630,44 +19594,36 @@
     },
     "923": {
       "verified": {
-        "bound": "112846644811214955932310793943/3648008517346500000000000000",
-        "source": "certificates/best/n924.cert",
-        "source_n": 924,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "b42ec5ceb7074651e9552d0c3c6e6ac122ac54d8531140fbb1cebb8f6bf877cd",
-        "rounded_up": "30.933766814037"
+        "bound": "272086416762174290323739703/8796093022208000000000000",
+        "source": "certificates/n923.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "0ffa6d3be7544787a2f73146a42dd2ac2fcbe24e69a299738339033dd8d6b2a8",
+        "rounded_up": "30.932644308698"
       },
       "reported": {
-        "bound": "112846644811214955932310793943/3648008517346500000000000000",
-        "source": "certificates/best/n924.cert",
-        "source_n": 924,
-        "deleted_squares": 1,
-        "status": "verified by deletion from an exact certificate",
-        "credit": "Francisco Couzo",
-        "sha256": "b42ec5ceb7074651e9552d0c3c6e6ac122ac54d8531140fbb1cebb8f6bf877cd"
+        "bound": "272086416762174290323739703/8796093022208000000000000",
+        "source": "certificates/n923.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "0ffa6d3be7544787a2f73146a42dd2ac2fcbe24e69a299738339033dd8d6b2a8"
       }
     },
     "924": {
       "verified": {
-        "bound": "112846644811214955932310793943/3648008517346500000000000000",
-        "source": "certificates/best/n924.cert",
-        "source_n": 924,
-        "deleted_squares": 0,
+        "bound": "4178044910119682976223697/135068686418640000000000",
+        "source": "certificates/n924.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b42ec5ceb7074651e9552d0c3c6e6ac122ac54d8531140fbb1cebb8f6bf877cd",
-        "rounded_up": "30.933766814037"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "506e418be182037397d613ef66d8e2640a3910eaa3211714f73b84cde49d92c6",
+        "rounded_up": "30.932742598607"
       },
       "reported": {
-        "bound": "112846644811214955932310793943/3648008517346500000000000000",
-        "source": "certificates/best/n924.cert",
-        "source_n": 924,
-        "deleted_squares": 0,
+        "bound": "4178044910119682976223697/135068686418640000000000",
+        "source": "certificates/n924.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo",
-        "sha256": "b42ec5ceb7074651e9552d0c3c6e6ac122ac54d8531140fbb1cebb8f6bf877cd"
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "506e418be182037397d613ef66d8e2640a3910eaa3211714f73b84cde49d92c6"
       }
     },
     "925": {
@@ -19740,36 +19696,36 @@
     },
     "929": {
       "verified": {
-        "bound": "3424539331523550347333262499888131264386204514795276611211146140859382380581394394568875451/110544436009065673426823256992027336987823017668416176959848175087845900288000000000000000",
+        "bound": "7810483075058933354989897/252128085154375000000000",
         "source": "certificates/n929.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ab47b6f1cb73d0d342f3c5ccddade81d0eac7eb33a737e868b32977df4ce6ffa",
-        "rounded_up": "30.978848462737"
+        "sha256": "604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d",
+        "rounded_up": "30.978235012084"
       },
       "reported": {
-        "bound": "3424539331523550347333262499888131264386204514795276611211146140859382380581394394568875451/110544436009065673426823256992027336987823017668416176959848175087845900288000000000000000",
+        "bound": "7810483075058933354989897/252128085154375000000000",
         "source": "certificates/n929.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ab47b6f1cb73d0d342f3c5ccddade81d0eac7eb33a737e868b32977df4ce6ffa"
+        "sha256": "604df9a132d1e1b99768236805d89efb4d1fe9491b52075160da4ce44ac9dc4d"
       }
     },
     "930": {
       "verified": {
-        "bound": "136260506510174862459998939/4398046511104000000000000",
+        "bound": "37944142481455719427169607/1224715311812000000000000",
         "source": "certificates/n930.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "d7057658938d7c2f2fc848982bfd03b1ca3c421688736d02479286a0a7d1a356",
-        "rounded_up": "30.982052182975"
+        "sha256": "25b7ebd5586bf163989e6a4b3667f7e6402b40052dccb03ea7e3e15e057abc20",
+        "rounded_up": "30.982010362324"
       },
       "reported": {
-        "bound": "136260506510174862459998939/4398046511104000000000000",
+        "bound": "37944142481455719427169607/1224715311812000000000000",
         "source": "certificates/n930.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "d7057658938d7c2f2fc848982bfd03b1ca3c421688736d02479286a0a7d1a356"
+        "sha256": "25b7ebd5586bf163989e6a4b3667f7e6402b40052dccb03ea7e3e15e057abc20"
       }
     },
     "931": {
@@ -19791,70 +19747,70 @@
     },
     "932": {
       "verified": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "16449934164567891867599571/530747404451600000000000",
         "source": "certificates/n932.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "edfdd3c9e39f39a1de33ad3d609a0da4f9dbfa4f62c49ca21ecca3ec17932fc7",
-        "rounded_up": "30.995955854834"
+        "sha256": "43e8b70cf272f3a3eedee55f95c63185304c47cec645dc8798f6283953c62c68",
+        "rounded_up": "30.993904118222"
       },
       "reported": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "16449934164567891867599571/530747404451600000000000",
         "source": "certificates/n932.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "edfdd3c9e39f39a1de33ad3d609a0da4f9dbfa4f62c49ca21ecca3ec17932fc7"
+        "sha256": "43e8b70cf272f3a3eedee55f95c63185304c47cec645dc8798f6283953c62c68"
       }
     },
     "933": {
       "verified": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n933.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "9aeb2a8cf7e0204bc381d70fb31f996219e5baaa3692b07c952e1be8a0ffa909",
-        "rounded_up": "30.995955854834"
+        "sha256": "2207e89f67484b6ad8e9f963c1c9910167f74b79a31270e3d25138a8186162f7",
+        "rounded_up": "30.995336946282"
       },
       "reported": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n933.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "9aeb2a8cf7e0204bc381d70fb31f996219e5baaa3692b07c952e1be8a0ffa909"
+        "sha256": "2207e89f67484b6ad8e9f963c1c9910167f74b79a31270e3d25138a8186162f7"
       }
     },
     "934": {
       "verified": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n934.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "8f5d6430ae5f5243cefe4c0c1e644f2020a7159f7de4a55d721acf98d77694d1",
-        "rounded_up": "30.995955854834"
+        "sha256": "1bcaf91346611a6fc021bcc1fb62560f0bb8dd94be121aa731c76c5f8a535ff9",
+        "rounded_up": "30.995336946282"
       },
       "reported": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n934.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "8f5d6430ae5f5243cefe4c0c1e644f2020a7159f7de4a55d721acf98d77694d1"
+        "sha256": "1bcaf91346611a6fc021bcc1fb62560f0bb8dd94be121aa731c76c5f8a535ff9"
       }
     },
     "935": {
       "verified": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0",
-        "rounded_up": "30.995955854834"
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+        "source": "certificates/n935.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+        "rounded_up": "30.995336946282"
       },
       "reported": {
-        "bound": "154979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+        "bound": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+        "source": "certificates/n935.cert",
+        "status": "exact certificate verified",
+        "credit": "this repository; source credit in certificate metadata",
+        "sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec"
       }
     },
     "936": {
@@ -21335,36 +21291,36 @@
     },
     "990": {
       "verified": {
-        "bound": "3535083767532616020760085756880158601374027532463692788170994315947228280869394394568875451/110544436009065673426823256992027336987823017668416176959848175087845900288000000000000000",
+        "bound": "8062611160213308354989897/252128085154375000000000",
         "source": "certificates/n990.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "8daa0e9e23aac0b44c8cd89234c313d282df46ab711d1ae49f594a99cc7dfdca",
-        "rounded_up": "31.978848462737"
+        "sha256": "1e44f3990fa6f6962c6ffbf902c0335ae5ddc652fccc2b2f6d50a7f0230bbbbd",
+        "rounded_up": "31.978235012084"
       },
       "reported": {
-        "bound": "3535083767532616020760085756880158601374027532463692788170994315947228280869394394568875451/110544436009065673426823256992027336987823017668416176959848175087845900288000000000000000",
+        "bound": "8062611160213308354989897/252128085154375000000000",
         "source": "certificates/n990.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "8daa0e9e23aac0b44c8cd89234c313d282df46ab711d1ae49f594a99cc7dfdca"
+        "sha256": "1e44f3990fa6f6962c6ffbf902c0335ae5ddc652fccc2b2f6d50a7f0230bbbbd"
       }
     },
     "991": {
       "verified": {
-        "bound": "140658553021278862459998939/4398046511104000000000000",
+        "bound": "39168857793267719427169607/1224715311812000000000000",
         "source": "certificates/n991.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "50dfa8910076962fcb89a5736de00272135b7387f6a636be766766953080edba",
-        "rounded_up": "31.982052182975"
+        "sha256": "cec76940c0454f135764664856e446341f879dc9cdfadb0977cdb6121cf4537f",
+        "rounded_up": "31.982010362324"
       },
       "reported": {
-        "bound": "140658553021278862459998939/4398046511104000000000000",
+        "bound": "39168857793267719427169607/1224715311812000000000000",
         "source": "certificates/n991.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "50dfa8910076962fcb89a5736de00272135b7387f6a636be766766953080edba"
+        "sha256": "cec76940c0454f135764664856e446341f879dc9cdfadb0977cdb6121cf4537f"
       }
     },
     "992": {
@@ -21403,53 +21359,53 @@
     },
     "994": {
       "verified": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n994.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "cba6c3edd36922c599fc6c4965ca5dc3637359a1e352f1138079bf0e2e93fb2d",
-        "rounded_up": "31.995955854834"
+        "sha256": "dcc468b40c8c6149308fb27f41a9724b8da77fd0c802bb8e08581d7b3aca14f6",
+        "rounded_up": "31.995336946282"
       },
       "reported": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n994.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "cba6c3edd36922c599fc6c4965ca5dc3637359a1e352f1138079bf0e2e93fb2d"
+        "sha256": "dcc468b40c8c6149308fb27f41a9724b8da77fd0c802bb8e08581d7b3aca14f6"
       }
     },
     "995": {
       "verified": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n995.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "7ff4a4a38357609e6ed1bebeb98c551790533e14f7acb1067cd626f8cfae71cc",
-        "rounded_up": "31.995955854834"
+        "sha256": "43ab9a41393d233ad606a528c2eb24c8323eee7a7d05d376e8779f2d3f69765d",
+        "rounded_up": "31.995336946282"
       },
       "reported": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n995.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "7ff4a4a38357609e6ed1bebeb98c551790533e14f7acb1067cd626f8cfae71cc"
+        "sha256": "43ab9a41393d233ad606a528c2eb24c8323eee7a7d05d376e8779f2d3f69765d"
       }
     },
     "996": {
       "verified": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n996.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ced35a45f56b25632ee94cfe612b45292eb1531c4858ebbfaf9a1c38478b9773",
-        "rounded_up": "31.995955854834"
+        "sha256": "af6452069cf4227c62c06ddc3e29f6783aaef580d0dc77818960bce8ed39afb8",
+        "rounded_up": "31.995336946282"
       },
       "reported": {
-        "bound": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+        "bound": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
         "source": "certificates/n996.cert",
         "status": "exact certificate verified",
         "credit": "this repository; source credit in certificate metadata",
-        "sha256": "ced35a45f56b25632ee94cfe612b45292eb1531c4858ebbfaf9a1c38478b9773"
+        "sha256": "af6452069cf4227c62c06ddc3e29f6783aaef580d0dc77818960bce8ed39afb8"
       }
     },
     "997": {
@@ -21473,17 +21429,15 @@
       "verified": {
         "bound": "639966994947091183224777254436933414843/20000000000000000000000000000000000000",
         "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0998.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
+        "status": "exact certificate verified; adoption pending",
         "credit": "Joost de Winter",
         "sha256": "3be19b14dc3130b3f4138f5711837927ec3d1f2c23a6e7c049a7406e8ee60a18",
         "rounded_up": "31.998349747355"
       },
       "reported": {
-        "bound": "639966994947091183224777254436933414843/20000000000000000000000000000000000000",
-        "source": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0998.cert",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "Joost de Winter",
-        "sha256": "3be19b14dc3130b3f4138f5711837927ec3d1f2c23a6e7c049a7406e8ee60a18"
+        "bound": "31.99834974735456",
+        "source": "https://github.com/jlevy/squares",
+        "status": "reported upper bound"
       }
     },
     "999": {

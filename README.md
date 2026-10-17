@@ -54,9 +54,9 @@ evaluated with `lower_bounds.py`; evaluating the formula does not replay its pro
 | 209 | 14.95861500087481 | **14.946223226449** | 1.239e-02 |
 | 210 | 14.97413341886404 | **14.973001116590** | 1.132e-03 |
 | 211 | 15 | **14.993549626302** | 6.450e-03 |
-| 227 | 15.57106781186547 | **15.563796701672** | 7.271e-03 |
+| 227 | 15.57106781186547 | **15.563625652346** | 7.442e-03 |
 | 228 | 15.60902282132495 | **15.604601475733** | 4.421e-03 |
-| 229 | 15.65685424949238 | **15.650174754951** | 6.679e-03 |
+| 229 | 15.65685424949238 | **15.650174740257** | 6.680e-03 |
 | 232 | 15.77817459305202 | **15.764174317490** | 1.400e-02 |
 | 236 | 15.87607539315201 | **15.861934390610** | 1.414e-02 |
 | 237 | 15.91421356237309 | **15.902603638263** | 1.161e-02 |
@@ -100,7 +100,7 @@ evaluated with `lower_bounds.py`; evaluating the formula does not replay its pro
 
 ## Standing against the current register
 
-The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-17): 4 best known, 72 tied.
+The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-17): 3 best known, 72 tied, 1 superseded.
 
 | n | found here | best known elsewhere | source | status |
 |---|---|---|---|---|
@@ -121,53 +121,53 @@ The table above compares with the catalogue as fetched in September. Against the
 | 127 | 11.810878787591 (seeded from Ryan Xu) | 11.810878787589 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
 | 129 | 11.870013850407 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 11.870013850404 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#562](https://github.com/jlevy/squares/issues/562)) |
 | 130 | 11.904483032518 (seeded from PingYou Ltd (BuddenPing)) | 11.904483032516 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#438](https://github.com/jlevy/squares/issues/438), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 131 | 11.949659588038 (seeded from PingYou Ltd (BuddenPing)) | 11.949659588036 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 132 | 11.985680198848 (seeded from PingYou Ltd (BuddenPing)) | 11.985680198846 | register | tied (rounding) (same packing also in [#489](https://github.com/jlevy/squares/issues/489), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 146 | 12.583782190154 (seeded from Evan Daniel) | 12.583782190152 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399)) |
+| 131 | 11.949659588038 (seeded from PingYou Ltd (BuddenPing)) | 11.949659588036 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 132 | 11.985680198848 (seeded from PingYou Ltd (BuddenPing)) | 11.985680198846 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 146 | 12.583782190154 (seeded from Evan Daniel) | 12.583782190152 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#432](https://github.com/jlevy/squares/issues/432)) |
 | 152 | 12.830718800979 | 12.830718800977 | register | tied (rounding) |
 | 153 | 12.870013850407 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 12.870013850404 | register | tied (rounding) |
 | 154 | 12.921206577135 (seeded from Evan Daniel (from Francisco Couzo's n=155 seed)) | 12.921206577133 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 155 | 12.952260944653 (seeded from Evan Daniel) | 12.952260944651 | [Evan Daniel](https://github.com/jlevy/squares/issues/669) (pending) | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#501](https://github.com/jlevy/squares/issues/501), [#465](https://github.com/jlevy/squares/issues/465)) |
+| 155 | 12.952260944653 (seeded from Evan Daniel) | 12.952260944651 | [Evan Daniel](https://github.com/jlevy/squares/issues/669) (pending) | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#465](https://github.com/jlevy/squares/issues/465)) |
 | 156 | 12.979165853837 (seeded from Daniil Ostashev) | 12.979165853834 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
 | 172 | 13.618988956902 | 13.618988956899 | register | tied (rounding) |
 | 175 | 13.764174317489 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 13.764174317487 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#528](https://github.com/jlevy/squares/issues/528)) |
 | 176 | 13.795872318439 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 13.795872318436 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#575](https://github.com/jlevy/squares/issues/575)) |
 | 177 | 13.822979734172 | 13.822979734169 | register | tied (rounding) |
 | 179 | 13.883795490513 (seeded from PingYou Ltd (BuddenPing)) | 13.883795490511 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#451](https://github.com/jlevy/squares/issues/451), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 181 | 13.950819531026 (seeded from PingYou Ltd (BuddenPing)) | 13.950819531023 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 181 | 13.950819531026 (seeded from PingYou Ltd (BuddenPing)) | 13.950819531023 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
 | 182 | 13.974090713124 | 13.974090713121 | register | tied (rounding) |
 | 199 | 14.617572173596 (seeded from PingYou Ltd (BuddenPing)) | 14.617572173593 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
 | 204 | 14.808644416309 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 14.808663234387 | register | **best known** |
 | 206 | 14.860158663395 | 14.860158663392 | register | tied (rounding) |
 | 207 | 14.880960371558 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 14.880960371556 | [PingYou Ltd (exact certificate refinement)](https://github.com/jlevy/squares/pull/574) (pending) | tied (rounding) |
 | 208 | 14.924518772032 | 14.924518772029 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#438](https://github.com/jlevy/squares/issues/438), [#422](https://github.com/jlevy/squares/issues/422), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 209 | 14.946223226449 (seeded from Nate Chaoweeraprasit (SQUISH)) | 14.946223226446 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#488](https://github.com/jlevy/squares/issues/488), [#470](https://github.com/jlevy/squares/issues/470)) |
+| 209 | 14.946223226449 (seeded from Nate Chaoweeraprasit (SQUISH)) | 14.946223226446 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401), [#470](https://github.com/jlevy/squares/issues/470)) |
 | 210 | 14.973001116590 | 14.973001116588 | register | tied (rounding) |
 | 211 | 14.993549626302 (seeded from Daniil Ostashev) | 14.993549626299 | register | tied (rounding) |
-| 227 | 15.563796701672 (seeded from Joost de Winter) | 15.563796703669 | [Joost de Winter](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
+| 227 | 15.563625652346 (seeded from Joost de Winter (JoostdeWinter)) | 15.563796687061 | [Joost de Winter (JoostdeWinter)](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
 | 228 | 15.604601475733 | 15.604601475730 | register | tied (rounding) |
-| 229 | 15.650174754951 (seeded from Joost de Winter) | 15.650174756948 | [Joost de Winter](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
+| 229 | 15.650174740257 (seeded from Joost de Winter) | 15.650174756948 | [Joost de Winter](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
 | 232 | 15.764174317490 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 15.764174317487 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 236 | 15.861934390610 (seeded from Evan Daniel) | 15.861934390607 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) (pending) | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481)) |
-| 237 | 15.902603638263 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 15.902603638260 | register | tied (rounding) |
-| 238 | 15.924106785325 (seeded from PingYou Ltd (BuddenPing)) | 15.924106785321 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 239 | 15.948443327304 (seeded from PingYou Ltd (BuddenPing)) | 15.948443327301 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 236 | 15.861934390610 (seeded from Evan Daniel) | 15.861934390607 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) (pending) | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399)) |
+| 237 | 15.902603638263 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 15.902603638260 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401)) |
+| 238 | 15.924106785325 (seeded from PingYou Ltd (BuddenPing)) | 15.924106785321 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 239 | 15.948443327304 (seeded from PingYou Ltd (BuddenPing)) | 15.948443327301 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
 | 240 | 15.969685337534 | 15.969685337531 | register | tied (rounding) |
 | 241 | 15.987117095153 (seeded from Daniil Ostashev) | 15.987117095150 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
 | 258 | 16.563448002137 (seeded from PingYou Ltd (BuddenPing)) | 16.563448002134 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401)) |
 | 259 | 16.591378145501 (seeded from PingYou Ltd (BuddenPing)) | 16.591378145498 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481)) |
-| 260 | 16.645778802185 (seeded from Joost de Winter) | 16.645778804181 | [Joost de Winter](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
-| 261 | 16.678779875346 (seeded from BuddenPing) | 16.678779875343 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#505](https://github.com/jlevy/squares/issues/505), [#593](https://github.com/jlevy/squares/issues/593), [#432](https://github.com/jlevy/squares/issues/432)) |
-| 263 | 16.733166007903 (seeded from PingYou Ltd (BuddenPing)) | 16.733166007899 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481)) |
+| 260 | 16.645778802185 (seeded from Joost de Winter) | 16.645778786062 | [Joost de Winter (JoostdeWinter)](https://github.com/jlevy/squares/issues/668) (pending) | superseded by 1.6e-08 |
+| 261 | 16.678779875346 (seeded from BuddenPing) | 16.678779875343 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#567](https://github.com/jlevy/squares/issues/567), [#505](https://github.com/jlevy/squares/issues/505), [#593](https://github.com/jlevy/squares/issues/593), [#432](https://github.com/jlevy/squares/issues/432)) |
+| 263 | 16.733166007903 (seeded from PingYou Ltd (BuddenPing)) | 16.733166007899 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401)) |
 | 264 | 16.774735132391 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 16.774735132388 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#528](https://github.com/jlevy/squares/issues/528)) |
 | 266 | 16.823028750760 (seeded from PingYou Ltd (BuddenPing)) | 16.823028750756 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#593](https://github.com/jlevy/squares/issues/593)) |
 | 267 | 16.838815269951 (seeded from Ryan Xu) | 16.838815269948 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
 | 268 | 16.878814821010 | 16.878814821007 | register | tied (rounding) |
-| 269 | 16.901513582192 (seeded from PingYou Ltd (BuddenPing)) | 16.901513582189 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 270 | 16.928196993332 (seeded from PingYou Ltd (BuddenPing)) | 16.928196993329 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
+| 269 | 16.901513582192 (seeded from PingYou Ltd (BuddenPing)) | 16.901513582189 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 270 | 16.928196993332 (seeded from PingYou Ltd (BuddenPing)) | 16.928196993329 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
 | 271 | 16.948947733717 (seeded from Evan Daniel) | 16.948947733714 | [Evan Daniel](https://github.com/jlevy/squares/issues/664) (pending) | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 272 | 16.965586474841 (seeded from PingYou Ltd (BuddenPing)) | 16.965586474838 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#593](https://github.com/jlevy/squares/issues/593), [#500](https://github.com/jlevy/squares/issues/500)) |
+| 272 | 16.965586474841 (seeded from PingYou Ltd (BuddenPing)) | 16.965586474838 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401), [#500](https://github.com/jlevy/squares/issues/500)) |
 | 273 | 16.983925962654 | 16.983925962650 | register | tied (rounding) |
 | 292 | 17.591378145501 (seeded from PingYou Ltd (BuddenPing)) | 17.591378145498 | register | tied (rounding) |
 | 295 | 17.704232790739 (seeded from PingYou Ltd (BuddenPing)) | 17.704232790736 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
@@ -176,9 +176,9 @@ The table above compares with the catalogue as fetched in September. Against the
 | 302 | 17.870013850408 (seeded from BuddenPing) | 17.870013850404 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
 | 303 | 17.909958291073 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 17.909958291070 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#562](https://github.com/jlevy/squares/issues/562)) |
 | 304 | 17.929427758079 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 17.929427758075 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#575](https://github.com/jlevy/squares/issues/575)) |
-| 305 | 17.950466482141 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.950466482138 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
+| 305 | 17.950466482141 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.950466482138 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401)) |
 | 306 | 17.963433717495 | 17.963433717491 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 307 | 17.980862784058 (seeded from PingYou Ltd (BuddenPing)) | 17.980862784055 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#593](https://github.com/jlevy/squares/issues/593)) |
+| 307 | 17.980862784058 (seeded from PingYou Ltd (BuddenPing)) | 17.980862784055 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401)) |
 | 308 | 17.998269879530 (seeded from PingYou Ltd (BuddenPing)) | 17.998269879526 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#489](https://github.com/jlevy/squares/issues/489)) |
 
 <!-- /current-status -->
@@ -190,7 +190,7 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | n | derived reference bound | found here (numerical) | improvement over reference | verified published bound | published source | standing |
 |---|---|---|---|---|---|---|
 | 327 | 18.60257141234448 | **18.591378145501** | 1.119e-02 | 18.591378145498 | [Nate Chaoweeraprasit (SQUISH), L-border extension](https://github.com/jlevy/squares/issues/481) | tied (within 1e-10) |
-| 330 | 18.70710678118654 | **18.701641583457** | 5.465e-03 | — | — | reference comparison only |
+| 330 | 18.70710678118654 | **18.692698795117** | 1.441e-02 | — | — | reference comparison only |
 | 332 | 18.74106074604732 | **18.740417287547** | 6.435e-04 | — | — | reference comparison only |
 | 335 | 18.82412338847854 | **18.822875655544** | 1.248e-03 | — | — | reference comparison only |
 | 336 | 18.86889155557430 | **18.825571499865** | 4.332e-02 | — | — | reference comparison only |
@@ -254,7 +254,7 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 458 | 21.96913960675661 | **21.942505611668** | 2.663e-02 | — | — | reference comparison only |
 | 459 | 21.98272201579610 | **21.943735551394** | 3.899e-02 | — | — | reference comparison only |
 | 460 | 22 | **21.957651943680** | 4.235e-02 | 21.959969683021 | [Evan Daniel](https://github.com/jlevy/squares/issues/596) | **smaller than reviewed published bound** |
-| 461 | 22 | **21.972483922331** | 2.752e-02 | — | — | reference comparison only |
+| 461 | 22 | **21.971645445098** | 2.835e-02 | — | — | reference comparison only |
 | 462 | 22 | **21.980759715459** | 1.924e-02 | — | — | reference comparison only |
 | 463 | 22 | **21.984021832959** | 1.598e-02 | 21.986880406197 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
 | 464 | 22 | **21.988813017164** | 1.119e-02 | 21.988813022694 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
@@ -278,7 +278,7 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 504 | 23 | **22.970562748486** | 2.944e-02 | — | — | reference comparison only |
 | 505 | 23 | **22.972317733157** | 2.768e-02 | — | — | reference comparison only |
 | 506 | 23 | **22.973102824286** | 2.690e-02 | — | — | reference comparison only |
-| 507 | 23 | **22.973760910110** | 2.624e-02 | 22.997807183349 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
+| 507 | 23 | **22.973703609861** | 2.630e-02 | 22.997807183349 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
 | 508 | 23 | **22.987759965295** | 1.224e-02 | 22.994733849703 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
 | 509 | 23 | **22.994328036442** | 5.672e-03 | 22.994328036438 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | tied (within 1e-10) |
 | 532 | 23.60257141234448 | **23.583782190182** | 1.879e-02 | — | — | reference comparison only |
@@ -354,8 +354,8 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 649 | 26 | **25.976974088407** | 2.303e-02 | — | — | reference comparison only |
 | 650 | 26 | **25.982429027470** | 1.757e-02 | — | — | reference comparison only |
 | 651 | 26 | **25.983790117660** | 1.621e-02 | 25.991547815275 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 652 | 26 | **25.995268064201** | 4.732e-03 | — | — | reference comparison only |
-| 653 | 26 | **25.996103908931** | 3.896e-03 | — | — | reference comparison only |
+| 652 | 26 | **25.994469543502** | 5.530e-03 | — | — | reference comparison only |
+| 653 | 26 | **25.994469543502** | 5.530e-03 | — | — | reference comparison only |
 | 654 | 26 | **25.996103908931** | 3.896e-03 | 25.996103908965 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | tied (within 1e-10) |
 | 677 | 26.53553390593273 | **26.520815280187** | 1.472e-02 | — | — | reference comparison only |
 | 679 | 26.60257141234448 | **26.583782190183** | 1.879e-02 | — | — | reference comparison only |
@@ -383,7 +383,7 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 701 | 27 | **26.975561031505** | 2.444e-02 | — | — | reference comparison only |
 | 702 | 27 | **26.977494114951** | 2.251e-02 | — | — | reference comparison only |
 | 703 | 27 | **26.987493360724** | 1.251e-02 | 26.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 704 | 27 | **26.996103908970** | 3.896e-03 | — | — | reference comparison only |
+| 704 | 27 | **26.994469543502** | 5.530e-03 | — | — | reference comparison only |
 | 705 | 27 | **26.996103908970** | 3.896e-03 | — | — | reference comparison only |
 | 706 | 27 | **26.998712099434** | 1.288e-03 | 26.998712100405 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
 | 730 | 27.53553390593273 | **27.520815280179** | 1.472e-02 | — | — | reference comparison only |
@@ -404,17 +404,17 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 746 | 27.96913960675661 | **27.828427124773** | 1.407e-01 | — | — | reference comparison only |
 | 747 | 27.98272201579610 | **27.899494936650** | 8.323e-02 | — | — | reference comparison only |
 | 748 | 28 | **27.899494936623** | 1.005e-01 | — | — | reference comparison only |
-| 749 | 28 | **27.925883086609** | 7.412e-02 | — | — | reference comparison only |
-| 750 | 28 | **27.928780276061** | 7.122e-02 | — | — | reference comparison only |
+| 749 | 28 | **27.924010906544** | 7.599e-02 | — | — | reference comparison only |
+| 750 | 28 | **27.927909092408** | 7.209e-02 | — | — | reference comparison only |
 | 751 | 28 | **27.935028842582** | 6.497e-02 | — | — | reference comparison only |
 | 752 | 28 | **27.935028842582** | 6.497e-02 | — | — | reference comparison only |
-| 753 | 28 | **27.937423518018** | 6.258e-02 | — | — | reference comparison only |
+| 753 | 28 | **27.936842811621** | 6.316e-02 | — | — | reference comparison only |
 | 754 | 28 | **27.937423517986** | 6.258e-02 | — | — | reference comparison only |
-| 755 | 28 | **27.952229334391** | 4.777e-02 | — | — | reference comparison only |
-| 756 | 28 | **27.984237488186** | 1.576e-02 | — | — | reference comparison only |
-| 757 | 28 | **27.989936988179** | 1.006e-02 | 27.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 758 | 28 | **27.994980212508** | 5.020e-03 | 27.996346242824 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 759 | 28 | **27.995949339633** | 4.051e-03 | — | — | reference comparison only |
+| 755 | 28 | **27.951635349868** | 4.836e-02 | — | — | reference comparison only |
+| 756 | 28 | **27.983489205803** | 1.651e-02 | — | — | reference comparison only |
+| 757 | 28 | **27.989936967938** | 1.006e-02 | 27.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
+| 758 | 28 | **27.994973756283** | 5.026e-03 | 27.996346242824 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
+| 759 | 28 | **27.995946347722** | 4.054e-03 | — | — | reference comparison only |
 | 760 | 28 | **27.995949339633** | 4.051e-03 | 27.995949340329 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
 | 785 | 28.53553390593273 | **28.520815280186** | 1.472e-02 | — | — | reference comparison only |
 | 787 | 28.60257141234448 | **28.583782190183** | 1.879e-02 | — | — | reference comparison only |
@@ -434,20 +434,20 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 801 | 28.96913960675661 | **28.828427124836** | 1.407e-01 | — | — | reference comparison only |
 | 802 | 28.98272201579610 | **28.828427124794** | 1.543e-01 | — | — | reference comparison only |
 | 803 | 29 | **28.899494936623** | 1.005e-01 | — | — | reference comparison only |
-| 804 | 29 | **28.917335787096** | 8.266e-02 | — | — | reference comparison only |
-| 805 | 29 | **28.921843659436** | 7.816e-02 | — | — | reference comparison only |
+| 804 | 29 | **28.915928305816** | 8.407e-02 | — | — | reference comparison only |
+| 805 | 29 | **28.916476090929** | 8.352e-02 | — | — | reference comparison only |
 | 806 | 29 | **28.921843659436** | 7.816e-02 | — | — | reference comparison only |
 | 807 | 29 | **28.933881004719** | 6.612e-02 | — | — | reference comparison only |
 | 808 | 29 | **28.933881004691** | 6.612e-02 | — | — | reference comparison only |
 | 809 | 29 | **28.937423517986** | 6.258e-02 | — | — | reference comparison only |
 | 810 | 29 | **28.951463124681** | 4.854e-02 | — | — | reference comparison only |
-| 811 | 29 | **28.982472918539** | 1.753e-02 | — | — | reference comparison only |
-| 812 | 29 | **28.982472918515** | 1.753e-02 | — | — | reference comparison only |
-| 813 | 29 | **28.990394020117** | 9.606e-03 | 28.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 814 | 29 | **28.995949340334** | 4.051e-03 | 28.999873603983 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 815 | 29 | **28.995949340334** | 4.051e-03 | — | — | reference comparison only |
-| 816 | 29 | **28.998488479854** | 1.512e-03 | — | — | reference comparison only |
-| 817 | 29 | **28.998488479854** | 1.512e-03 | 28.998488480775 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
+| 811 | 29 | **28.982462261980** | 1.754e-02 | — | — | reference comparison only |
+| 812 | 29 | **28.982462261947** | 1.754e-02 | — | — | reference comparison only |
+| 813 | 29 | **28.989935237411** | 1.006e-02 | 28.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
+| 814 | 29 | **28.995946347729** | 4.054e-03 | 28.999873603983 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
+| 815 | 29 | **28.995946384081** | 4.054e-03 | — | — | reference comparison only |
+| 816 | 29 | **28.998352177966** | 1.648e-03 | — | — | reference comparison only |
+| 817 | 29 | **28.998352177932** | 1.648e-03 | 28.998488480775 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
 | 842 | 29.53553390593273 | **29.520815280189** | 1.472e-02 | — | — | reference comparison only |
 | 844 | 29.60257141234448 | **29.583782190184** | 1.879e-02 | — | — | reference comparison only |
 | 845 | 29.63414634146341 | **29.606601717813** | 2.754e-02 | — | — | reference comparison only |
@@ -469,17 +469,17 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 861 | 30 | **29.849242404930** | 1.508e-01 | — | — | reference comparison only |
 | 862 | 30 | **29.899494936623** | 1.005e-01 | — | — | reference comparison only |
 | 863 | 30 | **29.921843659435** | 7.816e-02 | — | — | reference comparison only |
-| 864 | 30 | **29.933881004719** | 6.612e-02 | — | — | reference comparison only |
-| 865 | 30 | **29.933881004719** | 6.612e-02 | — | — | reference comparison only |
+| 864 | 30 | **29.932742598603** | 6.726e-02 | — | — | reference comparison only |
+| 865 | 30 | **29.932742598569** | 6.726e-02 | — | — | reference comparison only |
 | 866 | 30 | **29.935764472092** | 6.424e-02 | — | — | reference comparison only |
 | 867 | 30 | **29.950265025773** | 4.973e-02 | — | — | reference comparison only |
-| 868 | 30 | **29.982204111152** | 1.780e-02 | — | — | reference comparison only |
-| 869 | 30 | **29.982472918539** | 1.753e-02 | — | — | reference comparison only |
+| 868 | 30 | **29.982119729102** | 1.788e-02 | — | — | reference comparison only |
+| 869 | 30 | **29.982462261954** | 1.754e-02 | — | — | reference comparison only |
 | 870 | 30 | **29.985969207313** | 1.403e-02 | — | — | reference comparison only |
-| 871 | 30 | **29.989329076764** | 1.067e-02 | 29.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 872 | 30 | **29.995949340335** | 4.051e-03 | — | — | reference comparison only |
-| 873 | 30 | **29.998488480781** | 1.512e-03 | — | — | reference comparison only |
-| 874 | 30 | **29.998488480781** | 1.512e-03 | — | — | reference comparison only |
+| 871 | 30 | **29.986798494999** | 1.320e-02 | 29.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
+| 872 | 30 | **29.995946384089** | 4.054e-03 | — | — | reference comparison only |
+| 873 | 30 | **29.998242686051** | 1.757e-03 | — | — | reference comparison only |
+| 874 | 30 | **29.998242686016** | 1.757e-03 | — | — | reference comparison only |
 | 875 | 30 | **29.998783733114** | 1.216e-03 | 29.998783733108 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | tied (within 1e-10) |
 | 901 | 30.53553390593273 | **30.520815280191** | 1.472e-02 | — | — | reference comparison only |
 | 903 | 30.60257141234448 | **30.583782190184** | 1.879e-02 | — | — | reference comparison only |
@@ -502,19 +502,19 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 920 | 31 | **30.849242404939** | 1.508e-01 | — | — | reference comparison only |
 | 921 | 31 | **30.849242404979** | 1.508e-01 | — | — | reference comparison only |
 | 922 | 31 | **30.899494936630** | 1.005e-01 | — | — | reference comparison only |
-| 923 | 31 | **30.933766814042** | 6.623e-02 | — | — | reference comparison only |
-| 924 | 31 | **30.933766814042** | 6.623e-02 | — | — | reference comparison only |
+| 923 | 31 | **30.932644308667** | 6.736e-02 | — | — | reference comparison only |
+| 924 | 31 | **30.932742598577** | 6.726e-02 | — | — | reference comparison only |
 | 925 | 31 | **30.935764472093** | 6.424e-02 | — | — | reference comparison only |
 | 926 | 31 | **30.949634321522** | 5.037e-02 | — | — | reference comparison only |
 | 927 | 31 | **30.976993727289** | 2.301e-02 | — | — | reference comparison only |
 | 928 | 31 | **30.976993727254** | 2.301e-02 | — | — | reference comparison only |
-| 929 | 31 | **30.978848462743** | 2.115e-02 | — | — | reference comparison only |
-| 930 | 31 | **30.982052182945** | 1.795e-02 | — | — | reference comparison only |
+| 929 | 31 | **30.978235012054** | 2.176e-02 | — | — | reference comparison only |
+| 930 | 31 | **30.982010362294** | 1.799e-02 | — | — | reference comparison only |
 | 931 | 31 | **30.989936243516** | 1.006e-02 | 30.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 932 | 31 | **30.995955854151** | 4.044e-03 | — | — | reference comparison only |
-| 933 | 31 | **30.995955854151** | 4.044e-03 | — | — | reference comparison only |
-| 934 | 31 | **30.995955854151** | 4.044e-03 | — | — | reference comparison only |
-| 935 | 31 | **30.995955854151** | 4.044e-03 | 30.995955854834 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
+| 932 | 31 | **30.993904117922** | 6.096e-03 | — | — | reference comparison only |
+| 933 | 31 | **30.995336946287** | 4.663e-03 | — | — | reference comparison only |
+| 934 | 31 | **30.995336946287** | 4.663e-03 | — | — | reference comparison only |
+| 935 | 31 | **30.995336946287** | 4.663e-03 | 30.995955854834 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
 | 962 | 31.53553390593273 | **31.520815280190** | 1.472e-02 | — | — | reference comparison only |
 | 964 | 31.60257141234448 | **31.556349186118** | 4.622e-02 | — | — | reference comparison only |
 | 965 | 31.63414634146341 | **31.606601717817** | 2.754e-02 | — | — | reference comparison only |
@@ -542,13 +542,13 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 | 987 | 32 | **31.949634321523** | 5.037e-02 | — | — | reference comparison only |
 | 988 | 32 | **31.949747468380** | 5.025e-02 | — | — | reference comparison only |
 | 989 | 32 | **31.976993727289** | 2.301e-02 | — | — | reference comparison only |
-| 990 | 32 | **31.978848462743** | 2.115e-02 | — | — | reference comparison only |
-| 991 | 32 | **31.982052182981** | 1.795e-02 | — | — | reference comparison only |
+| 990 | 32 | **31.978235012090** | 2.176e-02 | — | — | reference comparison only |
+| 991 | 32 | **31.982010362330** | 1.799e-02 | — | — | reference comparison only |
 | 992 | 32 | **31.985130163605** | 1.487e-02 | — | — | reference comparison only |
 | 993 | 32 | **31.985130163605** | 1.487e-02 | — | — | reference comparison only |
-| 994 | 32 | **31.995955854840** | 4.044e-03 | 31.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 995 | 32 | **31.995955854840** | 4.044e-03 | — | — | reference comparison only |
-| 996 | 32 | **31.995955854840** | 4.044e-03 | — | — | reference comparison only |
+| 994 | 32 | **31.995336946287** | 4.663e-03 | 31.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
+| 995 | 32 | **31.995336946287** | 4.663e-03 | — | — | reference comparison only |
+| 996 | 32 | **31.995336946287** | 4.663e-03 | — | — | reference comparison only |
 | 997 | 32 | **31.998349747022** | 1.650e-03 | — | — | reference comparison only |
 | 998 | 32 | **31.998349747022** | 1.650e-03 | 31.998349747355 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
 
@@ -556,6 +556,6 @@ Recorded packings also cover n=325–998. The derived reference bounds remain th
 
 <!-- complete-bound-catalogue -->
 
-The [complete verified upper-bound catalogue](certificates/best/README.md) covers every n=1..1024, using 532 retained finite witnesses, exact Göbel/Friedman constructions, L borders, deletion and grids. The [durable witness registry](certified_bounds.json) retains bound sources across comparison imports. [Source coverage](bound_sources.json) records the machine, repository, issue and PR review. Repository previews include credited adopted witnesses; the manifest distinguishes their original providers from native and browser refinements.
+The [complete verified upper-bound catalogue](certificates/best/README.md) covers every n=1..1024, using 542 retained finite witnesses, exact Göbel/Friedman constructions, L borders, deletion and grids. The [durable witness registry](certified_bounds.json) retains bound sources across comparison imports. [Source coverage](bound_sources.json) records the machine, repository, issue and PR review. Repository previews include credited adopted witnesses; the manifest distinguishes their original providers from native and browser refinements.
 
 <!-- /complete-bound-catalogue -->

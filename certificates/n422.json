@@ -13,11 +13,46 @@
       "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
       "submission_id": "ee093e5e07a0488193dabf5665dbf297",
       "method": "hop",
-      "received": "20261015T002832Z"
+      "received": "20261015T002832Z",
+      "seed_credit": "Francisco Couzo",
+      "prior_retained_witness": {
+        "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
+        "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+        "source_credit": {
+          "seed_credit": "Francisco Couzo",
+          "web_seed": {
+            "category": "CT105 web submission",
+            "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+            "submission_id": "ee093e5e07a0488193dabf5665dbf297",
+            "method": "hop",
+            "received": "20261015T002832Z"
+          },
+          "source_n": 422,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+        }
+      }
     },
     "source_n": 422,
     "deleted_squares": 0,
-    "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+    "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+    "prior_retained_witness": {
+      "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
+      "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+      "source_credit": {
+        "seed_credit": "Francisco Couzo",
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+          "submission_id": "ee093e5e07a0488193dabf5665dbf297",
+          "method": "hop",
+          "received": "20261015T002832Z"
+        },
+        "source_n": 422,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+      }
+    }
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }
