@@ -1,0 +1,46 @@
+{
+  "n": 962,
+  "packing": "n962.txt",
+  "packing_sha256": "36a3aa1f34dde268ae3c618ce0c2a7195134ba418d66ffba49f16b0216493750",
+  "certificate": "certificates/n962.cert",
+  "certificate_sha256": "c6f2f085df195e0a1e3932db5491e678cdca9be189606b75f222f6b9f0fb26df",
+  "rational_side": "175786415154379209579225581/5576835928628000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+    "seed_certificate": {
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "certificate": "certificates/parents/43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694.cert",
+      "certificate_sha256": "43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694",
+      "bound": "897933860828933749488739239/35184372088832000000000000",
+      "source_n": 626,
+      "source": "verified Friedman off-centre construction",
+      "sha256": "43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694",
+      "side": "897933860828933749488739239/35184372088832000000000000",
+      "request": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py"
+    },
+    "search_job": {
+      "id": 104237,
+      "method": "hop",
+      "source": "records/n626.txt",
+      "source_origin": "constructed",
+      "source_sha256": "3f4489020cc3026f6b3633babf1f7c74390f6d55a81e9629b18bd032d10320ad",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n626.txt",
+        "source_sha256": "b8039f203514d3e3d1bffe314c28d8bb7f33d7a1f4400c6b2e302749aefe0bbd",
+        "source_n": 626,
+        "source_side": 25.520815280205692,
+        "layers": 6,
+        "deleted": 0,
+        "side": 31.520815280217693
+      }
+    },
+    "seed_reference": {
+      "seed": "records/n626.txt",
+      "sha256": "b8039f203514d3e3d1bffe314c28d8bb7f33d7a1f4400c6b2e302749aefe0bbd",
+      "deleted_squares": 0
+    }
+  },
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+}

@@ -1,21 +1,41 @@
 {
   "n": 927,
   "packing": "n927.txt",
-  "packing_sha256": "4e65da648c798376cf0a4fcc225fc2d012f295248cc517dc7ad4dfa315f2c33b",
+  "packing_sha256": "8540b1108dce34000c9dd1e4b25f3561331d11de90a519db617e9a3fe07dc020",
   "certificate": "certificates/n927.cert",
-  "certificate_sha256": "e7a5100e1680b3b0905e1a4e516909ee812540d88667ffafb617633e405211df",
-  "rational_side": "795831127271494157856701888841015377729837897369812253/25686455280599136220207052564759823314000000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "8def7f8b34fd39e27468a91cfa6c6884f152345e643243c4e79d6a89be2ada96",
+  "rational_side": "125411410934364362876979061/4048533955182000000000000",
+  "kind": "verified source certificate",
   "origin": {
     "construction": {
-      "label": "L-border from n=868",
+      "label": "L-border from n=870",
       "kind": "derived",
-      "source_n": 868,
-      "source": "fe2d9279154cd3dc60cd4ce825db84239af03cad623377d0e55a2ad5c67edc96",
+      "source_n": 870,
+      "source": "9439a10a6f94e95c9ac101c26dfd8e682b9280c3c9e0b81f57df48155324909d",
       "tiles": 1,
       "layers": 1
     },
-    "seed_credit": "Francisco Couzo"
+    "seed_credit": "Francisco Couzo",
+    "search_job": {
+      "id": 105543,
+      "method": "hop",
+      "source": "n928.txt",
+      "source_origin": "constructed",
+      "source_sha256": "fede60f6c9e3525518d6d0362c05f7cdacb5c5edf881cee1ecce5c15db3e3a03",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n928.txt",
+        "source_sha256": "141333ad1cbc92d899389308698eaf0f54aa3fd73d62e090dc8cf702d1bcf5db",
+        "source_n": 928,
+        "source_side": 30.979110793230877,
+        "layers": 0,
+        "deleted": 0,
+        "side": 30.979110793230877
+      }
+    },
+    "source_n": 928,
+    "deleted_squares": 1,
+    "source_certificate_sha256": "0ab7614f38040d21d37823a5d9ab413e57020b4f37deba9b0995d6b926fd4bbf"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

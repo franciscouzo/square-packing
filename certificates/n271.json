@@ -1,27 +1,23 @@
 {
   "n": 271,
   "packing": "n271.txt",
-  "packing_sha256": "760eee7409d64b5d6dd8dcf3bcaec31132f99d408e25e8b8d57ce9abc8d5c927",
+  "packing_sha256": "a7dba166bebdc752429aa024945e23923f8249e5052f769fafc15b8bc781f1a5",
   "certificate": "certificates/n271.cert",
-  "certificate_sha256": "690a1d024f271dffdd0c54d0203f0f1ac1295ccb84f835b7ebe4ff14e5253617",
-  "rational_side": "16948992356451205603226618436627/1000000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "48abf7ca68909c42e0aaa5215d4d578f4cdba29d6188775012ae24636e02d680",
+  "rational_side": "16948947733713657510723401112423/1000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Nate Chaoweeraprasit (SQUISH)",
-    "seed_certificate": {
-      "source": "squish",
-      "certificate": "squish/squish-submission-2026-10-11/n271/n271.cert.json",
-      "sha256": "3868ef22494b88fdfabdfb051df8f378c9c828339ebc07cc2db584e9f130924d",
-      "request": "https://github.com/jlevy/squares/issues/500",
-      "side": "226641509159806817533826968807522186618590497703207479506050881660303454046913630/13371877327550822127276902291903146156943895843133007855104572641371568124309293"
-    },
-    "search_job": {
-      "id": 90080,
-      "method": "hop",
-      "source": "n271.txt",
-      "source_origin": "own",
-      "source_sha256": "2ba9f006604925cb8be423222ed52942298695b97ac48c79acde5f9ba388d28e",
-      "constructed_seed": null
-    }
-  }
+    "seed_credit": "Evan Daniel",
+    "category": "reviewed public submission",
+    "source_url": "https://github.com/evand/square-packing/blob/757b40b/search/packer/candidates/s271_ex1.cert",
+    "request": "https://github.com/jlevy/squares/issues/664",
+    "construction_credit": [
+      "Francisco Couzo (#561)",
+      "Nate Chaoweeraprasit (SQUISH)"
+    ],
+    "source_n": 271,
+    "deleted_squares": 0,
+    "source_certificate_sha256": "48abf7ca68909c42e0aaa5215d4d578f4cdba29d6188775012ae24636e02d680"
+  },
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

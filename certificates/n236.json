@@ -1,13 +1,17 @@
 {
   "n": 236,
   "packing": "n236.txt",
-  "packing_sha256": "d06de9691e831157390ba74f3384e61f4039f9250e4a8e8eeed92099db4e906a",
+  "packing_sha256": "95c4f990de7b1bb22beb1de3f51361d0fd98b4106cf616666993bb46b0f09ba5",
   "certificate": "certificates/n236.cert",
-  "certificate_sha256": "fb32366914cc2280c8f6409ad6c2b382696e3856701019cecaf3532efa47ae99",
-  "rational_side": "72141489697553853075202036707/4547509514478500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "f496eb01f4ea59766ba50bd71e4551dd2016305e885926316639325c80b68cf1",
+  "rational_side": "7930967195303679308621899285697/500000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "PingYou Ltd (BuddenPing)"
+    "seed_credit": "Evan Daniel",
+    "source_url": "https://github.com/evand/square-packing/blob/5ad00693899ef50ccf6502f0346187cc422cc914/search/packer/candidates/s236_bm3c.cert",
+    "source_n": 236,
+    "deleted_squares": 0,
+    "source_certificate_sha256": "f496eb01f4ea59766ba50bd71e4551dd2016305e885926316639325c80b68cf1"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

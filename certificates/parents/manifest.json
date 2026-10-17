@@ -1,0 +1,40 @@
+{
+  "note": "Source certificates retained for construction and seed provenance.",
+  "certificates": {
+    "a26786ea432208a5bb6ad5be92e1d96c9304662f249f44dfc6c67ad0fb080701": {
+      "certificate": "certificates/parents/a26786ea432208a5bb6ad5be92e1d96c9304662f249f44dfc6c67ad0fb080701.cert",
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "sha256": "a26786ea432208a5bb6ad5be92e1d96c9304662f249f44dfc6c67ad0fb080701",
+      "source_n": 368,
+      "bound": "5542914497431808439520715891/281474976710656000000000000"
+    },
+    "5f1b138aeb60df37420f6bcf549747afa10a5725268d8a91fef27ba06dd821e7": {
+      "certificate": "certificates/parents/5f1b138aeb60df37420f6bcf549747afa10a5725268d8a91fef27ba06dd821e7.cert",
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "sha256": "5f1b138aeb60df37420f6bcf549747afa10a5725268d8a91fef27ba06dd821e7",
+      "source_n": 543,
+      "bound": "335148152257690874403421837/14073748835532800000000000"
+    },
+    "43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694": {
+      "certificate": "certificates/parents/43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694.cert",
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "sha256": "43f1003373c48a646610f4519cbc0b673128204061e0f92b0a961945e5d59694",
+      "source_n": 626,
+      "bound": "897933860828933749488739239/35184372088832000000000000"
+    },
+    "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd": {
+      "certificate": "certificates/parents/efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd.cert",
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd",
+      "source_n": 849,
+      "bound": "2085879858588368511114408689/70368744177664000000000000"
+    },
+    "82816c9bbb6025bdd954c78d4bc5e5afcfb637a22dfed268d569610aa384561b": {
+      "certificate": "certificates/parents/82816c9bbb6025bdd954c78d4bc5e5afcfb637a22dfed268d569610aa384561b.cert",
+      "source_url": "https://github.com/franciscouzo/square-packing/blob/58a783368d4b7e70bb800f0009ea9ca03e578739/certificates/best/n993.cert",
+      "sha256": "82816c9bbb6025bdd954c78d4bc5e5afcfb637a22dfed268d569610aa384561b",
+      "source_n": 993,
+      "bound": "32580645961417113500533397481335814508715878606331779108417703527134927211407479013430246869/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488"
+    }
+  }
+}

@@ -12,6 +12,8 @@ import math
 from pathlib import Path
 
 from gobel_bounds import catalogue as gobel_catalogue, exact_value
+from friedman_bounds import catalogue as friedman_catalogue
+from construction_bounds import l_border_catalogue
 from lower_bounds import approximation
 
 ROOT = Path(__file__).resolve().parent
@@ -67,6 +69,8 @@ def render(max_n=1024):
                     for path in (ROOT/'certificates').glob('n[0-9]*.json')}
     catalogue = certified_catalogue()
     gobel = gobel_catalogue(max_n, root=ROOT)
+    friedman = friedman_catalogue(max_n, root=ROOT)
+    classical = l_border_catalogue([gobel, friedman], max_n)
     entries = {}
     for n in range(1, max_n+1):
         grid = {'bound': str(math.isqrt(n-1)+1), 'source': 'integer square grid',
@@ -96,8 +100,8 @@ def render(max_n=1024):
                 'sha256': certificate['certificate_sha256']})
         if str(n) in catalogue:
             verified.append(catalogue[str(n)])
-        if str(n) in gobel:
-            verified.append(gobel[str(n)])
+        if str(n) in classical:
+            verified.append(classical[str(n)])
         best_verified = min(verified, key=exact_value)
         best_reported = min([*reported, *verified], key=lambda item: scalar(item['bound']))
         entries[str(n)] = {'verified': dict(best_verified, rounded_up=exact_value(best_verified).rounded_up()),
@@ -106,7 +110,12 @@ def render(max_n=1024):
     # stronger bound downwards even when a later root certificate improves.
     for n in range(max_n-1, 0, -1):
         current, larger = entries[str(n)], entries[str(n+1)]
-        if exact_value(larger['verified']) < exact_value(current['verified']):
+        current_value = exact_value(current['verified'])
+        larger_value = exact_value(larger['verified'])
+        simpler_equal_proof = ((larger_value-current_value).sign() == 0
+                               and current['verified'].get('construction')
+                               and not larger['verified'].get('construction'))
+        if larger_value < current_value or simpler_equal_proof:
             inherited = dict(larger['verified'])
             source_n = inherited.get('source_n', n+1)
             status = ('verified by deletion from an exact algebraic construction'
@@ -116,7 +125,7 @@ def render(max_n=1024):
             if scalar(inherited['bound']) < scalar(current['reported']['bound']):
                 current['reported'] = dict(inherited)
     return {'generated': datetime.now(timezone.utc).isoformat(), 'max_n': max_n,
-            'note': 'Each count has an unconditional grid upper bound. Exact rational certificates and algebraic Göbel constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.',
+            'note': 'Each count has an unconditional grid upper bound. Exact rational certificates and algebraic Göbel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.',
             'entries': entries}
 
 

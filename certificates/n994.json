@@ -1,20 +1,23 @@
 {
   "n": 994,
   "packing": "n994.txt",
-  "packing_sha256": "9db1d759ec7620ceb1f2a9a6c96d4bf3cf85b4c10131ff6e35c86a578da82b5c",
+  "packing_sha256": "fc9a306453c79001af801f3e7e51573dcf615a8c9b870b08fb2e32aac61e2f51",
   "certificate": "certificates/n994.cert",
-  "certificate_sha256": "a8e6966bcf43b71cba67351e28b57629dbaf972380692cd665a281056d363deb",
-  "rational_side": "140991524228931843909023664257/4406428061253500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "cba6c3edd36922c599fc6c4965ca5dc3637359a1e352f1138079bf0e2e93fb2d",
+  "rational_side": "159979779274169601234769816827136411957663/5000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
+    "seed_credit": "Joost de Winter",
     "construction": {
-      "parent_n": 110,
-      "parent_certificate_sha256": "76fe4e7b842d561178c135779e73ea07de6a2f1d0234a24c41e6e1a235b59022",
-      "rectangle": "r22x21_n0443",
-      "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
-      "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
-    }
+      "kind": "L-border",
+      "source_n": 935,
+      "layers": 1,
+      "parent_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0",
+      "capacity": 996
+    },
+    "source_n": 996,
+    "deleted_squares": 2,
+    "source_certificate_sha256": "ced35a45f56b25632ee94cfe612b45292eb1531c4858ebbfaf9a1c38478b9773"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

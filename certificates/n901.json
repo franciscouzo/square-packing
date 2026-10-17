@@ -1,0 +1,29 @@
+{
+  "n": 901,
+  "packing": "n901.txt",
+  "packing_sha256": "fa75f6a25cbeee43cd0df7287658b550cae2982f755cc8a8083e9ab1bfb0ce2a",
+  "certificate": "certificates/n901.cert",
+  "certificate_sha256": "e79ac3e1a96e3279183191f6d3c58ae7ab88f55bb0808e75d1c2d006cb7df89e",
+  "rational_side": "369831854599448714489738293/12117364860798000000000000",
+  "kind": "rational witness",
+  "origin": {
+    "search_job": {
+      "id": 105489,
+      "method": "hop",
+      "source": "n730.txt",
+      "source_origin": "constructed",
+      "source_sha256": "d4a042a22c52c9acd3f8f36d5278f674ddf9474f7d0058f1dd8a89488cc7f50e",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n730.txt",
+        "source_sha256": "ab3244c63388c07f9b94a231629109899074b50abba60f17ea4c9e086dbfb737",
+        "source_n": 730,
+        "source_side": 27.52081528017892,
+        "layers": 3,
+        "deleted": 0,
+        "side": 30.52081528018492
+      }
+    }
+  },
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+}

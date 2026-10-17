@@ -1,20 +1,21 @@
 {
   "n": 330,
   "packing": "n330.txt",
-  "packing_sha256": "92cffd1e859b908db9c94bdcbb2c5c973de25ad6b919a0da637128bf193ee404",
+  "packing_sha256": "f23848dd2fcb87d2be09b915a4c4c5ee33d30032b6ce30190508923034b3c377",
   "certificate": "certificates/n330.cert",
-  "certificate_sha256": "11f515890d447f3be7e7d6e7d6ba39c3812dfb754d264cc1255cc56da77da94a",
-  "rational_side": "60588108738259605314685795953/3239272597601500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e",
+  "rational_side": "6228469266390019356626107059221690699323001031190906760336949630787/333043986464837021702978535526266959184549684935518500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "PingYou Ltd (BuddenPing)",
-    "construction": {
-      "parent_n": 295,
-      "parent_certificate_sha256": "9387392a745d6c930e9e56eb5e47fda4448169318d2d0c1a6c63343988eb4658",
-      "tiles": 1,
-      "layers": 1,
-      "strict_scale": "1+1e-24"
+    "seed_credit": "Francisco Couzo",
+    "web_seed": {
+      "category": "CT105 web submission",
+      "submission_id": "ade01c7d2310836af71be9de990c63b7",
+      "received": "20261017T173718Z",
+      "method": "hop",
+      "seed": "volunteer",
+      "source_certificate_sha256": "552864a7f2da3ef99fd64deebd650fcf1ac2b3cfae6dd833d141d6da17537b8e"
     }
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

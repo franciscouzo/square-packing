@@ -1,21 +1,17 @@
 {
   "n": 751,
   "packing": "n751.txt",
-  "packing_sha256": "dff47367526dcc1741b5ddada69d94a3f48352da4525ee7249438994c65332bb",
+  "packing_sha256": "cf239f3e34445ffb13c7abcdb850872566e7fa460f03d03d31f911c082486eab",
   "certificate": "certificates/n751.cert",
-  "certificate_sha256": "445fd49933c26554800ffd6e8e841fe408fff297ccf56ec86209f222924e9d68",
-  "rational_side": "138982256605722768411269035047/4973792922398500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "9cbd4eac5b9e60f6206d34195372acfd2e970f26180b8c091a508d0db761bbbb",
+  "rational_side": "3931505796437901768308078783/140737488355328000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "e4b2e7291ebec5fdb5b3887761f1d863",
-      "n": 751,
-      "side": 27.949747468338412,
-      "method": "fq",
-      "received": "20261014T014214Z",
-      "original_packing_sha256": "69072159d7b6528761f61dee8aa67daa32dd322a1a62fb95552fa54d49bf54ba"
-    },
-    "seed_credit": "Francisco Couzo"
+    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+    "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+    "source_n": 752,
+    "deleted_squares": 1,
+    "source_certificate_sha256": "5106521d5feaa8bcd6b21e2b8ccdf80ba581fecab4817bad60ff21b5110f81b5"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

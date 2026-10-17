@@ -3,8 +3,8 @@
   "packing": "n404.txt",
   "packing_sha256": "386d7058be9760f62073283a1ac194e947822d9a664d05ad44edc406a901fca8",
   "certificate": "certificates/n404.cert",
-  "certificate_sha256": "6778a0c6c0693d30527df8c9036442e55439cefd6beb92679387aa8d15df2eca",
-  "rational_side": "51000336167606532097730482877/2473184806688500000000000000",
+  "certificate_sha256": "c4614442d4208eac8a0e94725f98c219f87443a7f9fbf99c82259b75d2a679f5",
+  "rational_side": "20621320343559642573408746289751/1000000000000000000000000000000",
   "kind": "rational witness",
   "origin": {
     "seed_credit": "Evan Daniel",
@@ -16,5 +16,5 @@
       "strict_scale": "1+1e-24"
     }
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

@@ -1,0 +1,484 @@
+{
+  "generated": "2026-10-17T03:13:20.261607+00:00",
+  "max_n": 1024,
+  "checker": "friedman_bounds.py",
+  "checker_sha256": "68e1389641f75abc46d60800777c6fdc9a04e300ac8fe2160dcd9d584f5d2ef3",
+  "arithmetic_geometry_sha256": "17ca34bad6f89d455bd062f42f6b247596bde216b960776b86bebbf64d7b42af",
+  "witnesses": [
+    {
+      "family": "offcentre",
+      "a": 1,
+      "b": 1,
+      "n": 8,
+      "bound": "40088834764831844055010554526310612991060449221105925457354248362442077990388169/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5/2",
+        "sqrt2": "1/2",
+        "expression": "5/2 + 1/2*sqrt(2)"
+      },
+      "enclosure_lower": "641421356237309504880168872420969807856967187537694807317667973799073247846210703/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "3.207106781187",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 8,
+        "pairs_tested": 28,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 1,
+      "b": 2,
+      "n": 11,
+      "bound": "24463834764831844055010554526310612991060449221105925457354248362442077990388169/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "5/2",
+        "sqrt2": "1",
+        "expression": "5/2 + 1*sqrt(2)"
+      },
+      "enclosure_lower": "391421356237309504880168872420969807856967187537694807317667973799073247846210703/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "3.914213562374",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 11,
+        "pairs_tested": 55,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 2,
+      "b": 3,
+      "n": 26,
+      "bound": "70266504294495532165031663578931838973181347663317776372062745087326233971164507/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "7/2",
+        "sqrt2": "3/2",
+        "expression": "7/2 + 3/2*sqrt(2)"
+      },
+      "enclosure_lower": "1124264068711928514640506617262909423570901562613084421953003921397219743538632109/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "5.621320343560",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 26,
+        "pairs_tested": 193,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 3,
+      "b": 4,
+      "n": 47,
+      "bound": "22901334764831844055010554526310612991060449221105925457354248362442077990388169/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "9/2",
+        "sqrt2": "2",
+        "expression": "9/2 + 2*sqrt(2)"
+      },
+      "enclosure_lower": "366421356237309504880168872420969807856967187537694807317667973799073247846210703/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "7.328427124747",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 47,
+        "pairs_tested": 480,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 4,
+      "b": 5,
+      "n": 74,
+      "bound": "22588834764831844055010554526310612991060449221105925457354248362442077990388169/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11/2",
+        "sqrt2": "5/2",
+        "expression": "11/2 + 5/2*sqrt(2)"
+      },
+      "enclosure_lower": "361421356237309504880168872420969807856967187537694807317667973799073247846210703/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.035533905933",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 74,
+        "pairs_tested": 783,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 4,
+      "b": 6,
+      "n": 85,
+      "bound": "60891504294495532165031663578931838973181347663317776372062745087326233971164507/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "11/2",
+        "sqrt2": "3",
+        "expression": "11/2 + 3*sqrt(2)"
+      },
+      "enclosure_lower": "974264068711928514640506617262909423570901562613084421953003921397219743538632109/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "9.742640687120",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 85,
+        "pairs_tested": 957,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 5,
+      "b": 7,
+      "n": 120,
+      "bound": "143121843353822908385073881684174290937423144547741478201479738537094545932717183/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "13/2",
+        "sqrt2": "7/2",
+        "expression": "13/2 + 7/2*sqrt(2)"
+      },
+      "enclosure_lower": "2289949493661166534161182106946788654998770312763863651223675816593512734923474921/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "11.449747468306",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 120,
+        "pairs_tested": 1541,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 6,
+      "b": 8,
+      "n": 161,
+      "bound": "20557584764831844055010554526310612991060449221105925457354248362442077990388169/1562500000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15/2",
+        "sqrt2": "4",
+        "expression": "15/2 + 4*sqrt(2)"
+      },
+      "enclosure_lower": "328921356237309504880168872420969807856967187537694807317667973799073247846210703/25000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "13.156854249493",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 161,
+        "pairs_tested": 2053,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 6,
+      "b": 9,
+      "n": 178,
+      "bound": "173299512883486596495094990736795516919544042989953329116188235261978701913493521/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "15/2",
+        "sqrt2": "9/2",
+        "expression": "15/2 + 9/2*sqrt(2)"
+      },
+      "enclosure_lower": "2772792206135785543921519851788728270712704687839253265859011764191659230615896327/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "13.863961030679",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 178,
+        "pairs_tested": 2314,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 7,
+      "b": 10,
+      "n": 227,
+      "bound": "19463834764831844055010554526310612991060449221105925457354248362442077990388169/1250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "17/2",
+        "sqrt2": "5",
+        "expression": "17/2 + 5*sqrt(2)"
+      },
+      "enclosure_lower": "311421356237309504880168872420969807856967187537694807317667973799073247846210703/20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "15.571067811866",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 227,
+        "pairs_tested": 2951,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 8,
+      "b": 11,
+      "n": 282,
+      "bound": "215977182413150284605116099789416742901664941432165180030896731986862857894269859/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "19/2",
+        "sqrt2": "11/2",
+        "expression": "19/2 + 11/2*sqrt(2)"
+      },
+      "enclosure_lower": "3455634918610404553681857596630667886426639062914642880494347711789805726308317733/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "17.278174593053",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 282,
+        "pairs_tested": 3979,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 8,
+      "b": 12,
+      "n": 305,
+      "bound": "56204004294495532165031663578931838973181347663317776372062745087326233971164507/3125000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "19/2",
+        "sqrt2": "6",
+        "expression": "19/2 + 6*sqrt(2)"
+      },
+      "enclosure_lower": "899264068711928514640506617262909423570901562613084421953003921397219743538632109/50000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "17.985281374239",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 305,
+        "pairs_tested": 4300,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 9,
+      "b": 13,
+      "n": 368,
+      "bound": "246154851942813972715137208842037968883785839874377030945605228711747013875046197/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "21/2",
+        "sqrt2": "13/2",
+        "expression": "21/2 + 13/2*sqrt(2)"
+      },
+      "enclosure_lower": "3938477631085023563442195341472607502140573437990032495129683659387952222000739139/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "19.692388155426",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 368,
+        "pairs_tested": 5167,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 10,
+      "b": 14,
+      "n": 437,
+      "bound": "133746843353822908385073881684174290937423144547741478201479738537094545932717183/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "23/2",
+        "sqrt2": "7",
+        "expression": "23/2 + 7*sqrt(2)"
+      },
+      "enclosure_lower": "2139949493661166534161182106946788654998770312763863651223675816593512734923474921/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "21.399494936612",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 437,
+        "pairs_tested": 6535,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 11,
+      "b": 15,
+      "n": 512,
+      "bound": "57766504294495532165031663578931838973181347663317776372062745087326233971164507/2500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "25/2",
+        "sqrt2": "15/2",
+        "expression": "25/2 + 15/2*sqrt(2)"
+      },
+      "enclosure_lower": "924264068711928514640506617262909423570901562613084421953003921397219743538632109/40000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.106601717799",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 512,
+        "pairs_tested": 7523,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 11,
+      "b": 16,
+      "n": 543,
+      "bound": "18604459764831844055010554526310612991060449221105925457354248362442077990388169/781250000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "25/2",
+        "sqrt2": "8",
+        "expression": "25/2 + 8*sqrt(2)"
+      },
+      "enclosure_lower": "297671356237309504880168872420969807856967187537694807317667973799073247846210703/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "23.813708498985",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 543,
+        "pairs_tested": 8002,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 12,
+      "b": 17,
+      "n": 626,
+      "bound": "319010191002141348935179426947280420848027636758800732775022222161515325836598873/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "27/2",
+        "sqrt2": "17/2",
+        "expression": "27/2 + 17/2*sqrt(2)"
+      },
+      "enclosure_lower": "5104163056034261582962870831156486733568442188140811724400355554584245213385581951/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "25.520815280172",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 626,
+        "pairs_tested": 9175,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 13,
+      "b": 18,
+      "n": 715,
+      "bound": "170174512883486596495094990736795516919544042989953329116188235261978701913493521/6250000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "29/2",
+        "sqrt2": "9",
+        "expression": "29/2 + 9*sqrt(2)"
+      },
+      "enclosure_lower": "2722792206135785543921519851788728270712704687839253265859011764191659230615896327/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "27.227922061358",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 715,
+        "pairs_tested": 10919,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 13,
+      "b": 19,
+      "n": 752,
+      "bound": "349187860531805037045200535999901646830148535201012583689730718886399481817375211/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "29/2",
+        "sqrt2": "19/2",
+        "expression": "29/2 + 19/2*sqrt(2)"
+      },
+      "enclosure_lower": "5587005768508880592723208575998426349282376563216201339035691502182391709078003357/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "27.935028842545",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 752,
+        "pairs_tested": 11476,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 14,
+      "b": 20,
+      "n": 849,
+      "bound": "18526334764831844055010554526310612991060449221105925457354248362442077990388169/625000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "31/2",
+        "sqrt2": "10",
+        "expression": "31/2 + 10*sqrt(2)"
+      },
+      "enclosure_lower": "296421356237309504880168872420969807856967187537694807317667973799073247846210703/10000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "29.642135623731",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 849,
+        "pairs_tested": 12844,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    },
+    {
+      "family": "offcentre",
+      "a": 15,
+      "b": 21,
+      "n": 952,
+      "bound": "391865530061468725155221645052522872812269433643224434604439215611283637798151549/12500000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "exact_bound": {
+        "rational": "33/2",
+        "sqrt2": "21/2",
+        "expression": "33/2 + 21/2*sqrt(2)"
+      },
+      "enclosure_lower": "6269848480983499602483546320840365964996310938291590953671027449780538204770424763/200000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "rounded_up": "31.349242404918",
+      "source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+      "verification": {
+        "valid": true,
+        "n": 952,
+        "pairs_tested": 14952,
+        "arithmetic": "exact Q(sqrt(2)); closed box, disjoint interiors"
+      }
+    }
+  ],
+  "independent_checks": {
+    "n": 368,
+    "valid": true,
+    "pairs_tested": 67528,
+    "unit_shapes_checked": true,
+    "duplicate_rejected": true,
+    "wall_contacts": 148,
+    "touching_pairs": 1241,
+    "checker_sha256": "56bc5b9f690b054ba30e82547dea4aa9d0ccea0a2b1827fab28fcc4e98677337",
+    "checker_source": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/src/sqpack/verify.py",
+    "shared_arithmetic": "Q(sqrt(2)); separate corner/edge geometry and all-pair enumeration",
+    "elapsed_seconds": 22.53608739702031
+  }
+}

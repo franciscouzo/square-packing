@@ -1,21 +1,23 @@
 {
   "n": 814,
   "packing": "n814.txt",
-  "packing_sha256": "0579ab5bf676e4214092c52288595a679e3c6d4da201d506bc830cab1593dbb8",
+  "packing_sha256": "2627bf77b2dc040f4670b523fff3b5889147025161eeefe5e167b6abc6d20881",
   "certificate": "certificates/n814.cert",
-  "certificate_sha256": "decc6d574c4e0b06ebafcea5b03c6c387a6f7df5a0282deba17c2fb3bc0a3433",
-  "rational_side": "36942252138459096011276401064054362379527181004293397/1273962794472654362583730716263448573500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "44bb412b48d1036a8de63a99573cbe095fb4285a46c02f9ed9a27bc956b9d688",
+  "rational_side": "289959493403287248613110541910531104379287/10000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "a2a53d63d1d12ed7bc46fbb0124b13d3",
-      "n": 814,
-      "side": 28.997961625270843,
-      "method": "hop",
-      "received": "20261014T153556Z",
-      "original_packing_sha256": "b373226d743d6871cf109f8a1aae9e5005eb039a1ea69c5026aa492f7570b474"
+    "seed_credit": "Joost de Winter",
+    "construction": {
+      "kind": "L-border",
+      "source_n": 760,
+      "layers": 1,
+      "parent_certificate_sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
+      "capacity": 815
     },
-    "seed_credit": "Francisco Couzo"
+    "source_n": 815,
+    "deleted_squares": 1,
+    "source_certificate_sha256": "e273928becf65890b20f118f41844c29bec4e88f51259b0c70258dadef2a6a95"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

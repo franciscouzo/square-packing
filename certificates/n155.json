@@ -1,13 +1,22 @@
 {
   "n": 155,
   "packing": "n155.txt",
-  "packing_sha256": "16360894185ee7e60fb38efd70d57528c4407800031ebad8be5c0eaa8d72e42d",
+  "packing_sha256": "d48ad671a1b9c3db83e1e109ce554ef37ebef635a6bcf656391548acc31c036d",
   "certificate": "certificates/n155.cert",
-  "certificate_sha256": "4727ba59fc84fe05d91d51e1db083fed3f4b590e471581bdc1018e07f6f8a986",
-  "rational_side": "3061346959453669216483822703/236353181992125000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "a1a3b6e7c2ce4d7de79efc2e07fc0bf53616dc44b732a2849b4dc4d8f7e2c4cc",
+  "rational_side": "2590452188930112807053435932173/200000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "PingYou Ltd (BuddenPing)"
+    "seed_credit": "Evan Daniel",
+    "category": "reviewed public submission",
+    "source_url": "https://github.com/evand/square-packing/blob/59326b8/search/packer/candidates/s155_ex2.cert",
+    "request": "https://github.com/jlevy/squares/issues/669",
+    "construction_credit": [
+      "Daniil Ostashev (T-149 start)"
+    ],
+    "source_n": 155,
+    "deleted_squares": 0,
+    "source_certificate_sha256": "a1a3b6e7c2ce4d7de79efc2e07fc0bf53616dc44b732a2849b4dc4d8f7e2c4cc"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

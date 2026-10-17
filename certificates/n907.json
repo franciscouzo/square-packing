@@ -1,10 +1,10 @@
 {
   "n": 907,
   "packing": "n907.txt",
-  "packing_sha256": "4290dc1a9f733121f0b9d51c3a24d74a4595c3e6510019e6c9f109e75990699e",
+  "packing_sha256": "303ca04d4dd39fede8cd4f866272004162acbf061af4564e672f89125191a551",
   "certificate": "certificates/n907.cert",
-  "certificate_sha256": "fe3661de7fea5ae4fa26a15111c0820d05cf0f0f02c3505b74b47fdae6df93eb",
-  "rational_side": "5945539309949801988850297189/193938336319500000000000000",
+  "certificate_sha256": "d142964aca8835a540753b8f9987e36cf2124eb6df0c8bb3825c297bfdef8c31",
+  "rational_side": "108064871217067538195643701/3526675573262000000000000",
   "kind": "rational witness",
   "origin": {
     "construction": {
@@ -14,7 +14,41 @@
       "source": "2d53295138eed24f852aeaf80b1dd52189f813856be756ec8c6ea4e2076a1c6b",
       "tiles": 1,
       "layers": 0
+    },
+    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+    "seed_certificate": {
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "certificate": "certificates/parents/efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd.cert",
+      "certificate_sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd",
+      "bound": "2085879858588368511114408689/70368744177664000000000000",
+      "source_n": 849,
+      "source": "verified Friedman off-centre construction",
+      "sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd",
+      "side": "2085879858588368511114408689/70368744177664000000000000",
+      "request": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py"
+    },
+    "search_job": {
+      "id": 105501,
+      "method": "hop",
+      "source": "records/n848.txt",
+      "source_origin": "constructed",
+      "source_sha256": "e065592280273e45306c19aa59567a09d89c12807269cc0e5247e04eba8b0942",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "records/n848.txt",
+        "source_sha256": "94cbb9617b2b60e4a27e8345d44b03bcbed4c4a968b49406ed30265eb2295e37",
+        "source_n": 848,
+        "source_side": 29.642135623771136,
+        "layers": 1,
+        "deleted": 0,
+        "side": 30.642135623773136
+      }
+    },
+    "seed_reference": {
+      "seed": "records/n848.txt",
+      "sha256": "94cbb9617b2b60e4a27e8345d44b03bcbed4c4a968b49406ed30265eb2295e37",
+      "deleted_squares": 1
     }
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }
