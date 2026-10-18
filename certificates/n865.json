@@ -1,10 +1,10 @@
 {
   "n": 865,
   "packing": "n865.txt",
-  "packing_sha256": "c5bbb8110c8691bbfb44475032c00b72817088868e4981ba9642acd9f5cbe812",
+  "packing_sha256": "5b6a00cc5a5f7efa1c9edb625e47d612632a8d84f0d21af28c8a0f83c704f6ec",
   "certificate": "certificates/n865.cert",
-  "certificate_sha256": "da721da550faeb3c84d6fc26c108ed2452c97f7d54db93bd6defe143d3a27ab2",
-  "rational_side": "40939252732937571539246793/1367713486105000000000000",
+  "certificate_sha256": "b8990532742f170ecfd8fbf7148fa07180b2d9fa0261bbd272c2ab028ba02315",
+  "rational_side": "53303799351630122996258149/1780803093429600000000000",
   "kind": "rational witness",
   "origin": {
     "construction": {
@@ -16,20 +16,25 @@
     },
     "seed_credit": "Francisco Couzo",
     "search_job": {
-      "id": 108163,
+      "id": 109535,
       "method": "slp",
-      "source": "n865.txt",
+      "source": "n753.txt",
       "source_origin": "constructed",
-      "source_sha256": "c1c97ddaa22e46bbefbccaea7547e071f36470e669bd258004f2f3926f39a2ad",
+      "source_sha256": "0540aa356bffaa90b3d17747243579075293b087f69c9da6cd5e1437664b8299",
       "constructed_seed": {
         "construction": "L-border and deletion",
-        "source": "n865.txt",
-        "source_sha256": "e801998479c633dbd36137353fa7617875baaf46103e83420020f71c0668eb95",
-        "source_n": 865,
-        "source_side": 29.932742598568538,
-        "layers": 0,
+        "source": "n753.txt",
+        "source_sha256": "bad5a7f57a2f393d9fbc077ef255c3e66ce74e35774389e06dd9b84529daafed",
+        "source_n": 753,
+        "source_side": 27.932449886376347,
+        "layers": 2,
         "deleted": 0,
-        "side": 29.932742598568538
+        "border_corners": [
+          "NE",
+          "NE"
+        ],
+        "border_layout": "single-corner",
+        "side": 29.932449886380347
       }
     }
   },

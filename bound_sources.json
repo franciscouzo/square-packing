@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T05:43:41.315052+00:00",
+  "generated": "2026-10-18T22:01:29.349172+00:00",
   "scope": "1<=n<=1024",
   "machines": {
     "CT104": {
@@ -1606,6 +1606,567 @@
       996,
       997,
       998
+    ],
+    "outward_rounding_and_monotonicity_checked": true,
+    "exact_reported_precision_corrections": []
+  },
+  "web_records_installed_20261018_0752": {
+    "generated": "2026-10-18T07:55:27.259946+00:00",
+    "direct_counts": [
+      502,
+      555,
+      600,
+      868
+    ],
+    "derived_counts": [
+      602
+    ],
+    "exact_changed_bound_counts": [
+      502,
+      555,
+      600,
+      602,
+      868
+    ],
+    "audit": "experiments/records-check-20261018-0746",
+    "proof_routes": [
+      "jlevy/squares exact rational corner verifier",
+      "verify_bound_certificate.py exact separating axes"
+    ],
+    "source_certificate_sha256": {
+      "502": "a4027c423c0088fae96a8f99fa3534034fc9575da566c43f289d1785fa995c4d",
+      "555": "5444185e94b1d68cd28872a9ac0f91b2c405633c311b754fd0ea62d8a6443054",
+      "600": "81d20e241e839aadd4f64e3660ab50cdc4eaffe06b0094cf79eddf463756055f",
+      "868": "2396259caedc4608fe2c9273179c7e764e19c26ae7f213efaf52f2a9872532a4",
+      "602": "e417d509ad9dcdb9cbfff478d1f72a9290e199dee07d8dd35a55a8990f05b25d"
+    },
+    "all_count_non_regression": true,
+    "committed": false,
+    "pushed": false
+  },
+  "record_check_20261018_1744": {
+    "captured_local_UTC_minus_3": "2026-10-18T14:50:23-03:00",
+    "comparison_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+    "comparison_basis": "installed working bounds at 2026-10-18T17:50:20.633354+00:00",
+    "native_accepted_witnesses": 60,
+    "web_witnesses_better_than_native_snapshot": 17,
+    "new_public_witnesses": 0,
+    "previously_unincorporated_pose_witnesses": 0,
+    "distinct_improved_direct_counts": 70,
+    "all_improved_counts_with_L_borders_and_deletion": 78,
+    "fresh_exact_witness_replays": 77,
+    "exact_routes_per_witness": 2,
+    "independent_classical_states_compared": 3821,
+    "direct_counts": [
+      204,
+      260,
+      330,
+      343,
+      418,
+      420,
+      421,
+      422,
+      456,
+      458,
+      459,
+      461,
+      462,
+      463,
+      464,
+      497,
+      501,
+      505,
+      507,
+      545,
+      546,
+      548,
+      549,
+      553,
+      554,
+      592,
+      593,
+      598,
+      600,
+      601,
+      641,
+      642,
+      650,
+      652,
+      653,
+      654,
+      693,
+      704,
+      705,
+      706,
+      749,
+      753,
+      755,
+      760,
+      804,
+      805,
+      806,
+      808,
+      815,
+      863,
+      865,
+      867,
+      868,
+      870,
+      873,
+      874,
+      919,
+      924,
+      926,
+      927,
+      928,
+      930,
+      933,
+      934,
+      984,
+      990,
+      991,
+      992,
+      994,
+      998
+    ],
+    "all_counts": [
+      204,
+      260,
+      330,
+      343,
+      418,
+      420,
+      421,
+      422,
+      455,
+      456,
+      458,
+      459,
+      461,
+      462,
+      463,
+      464,
+      497,
+      499,
+      501,
+      505,
+      507,
+      545,
+      546,
+      548,
+      549,
+      553,
+      554,
+      592,
+      593,
+      597,
+      598,
+      600,
+      601,
+      641,
+      642,
+      650,
+      652,
+      653,
+      654,
+      693,
+      704,
+      705,
+      706,
+      749,
+      751,
+      752,
+      753,
+      755,
+      760,
+      804,
+      805,
+      806,
+      808,
+      815,
+      863,
+      865,
+      867,
+      868,
+      870,
+      872,
+      873,
+      874,
+      919,
+      924,
+      926,
+      927,
+      928,
+      930,
+      933,
+      934,
+      984,
+      987,
+      989,
+      990,
+      991,
+      992,
+      994,
+      998
+    ],
+    "github": {
+      "captured": "2026-10-18T17:45:09.621079+00:00",
+      "main": "804eff369193b698d497a9c06847059eb9de0470",
+      "commits_since_previous": 0,
+      "main_changed_files": 0,
+      "threads": [
+        {
+          "number": 661,
+          "title": "records(#622): PingYou Ltd's N29 certificate, replayed on both exact routes and registered as T-195 (think-30n2)",
+          "updated": "2026-10-18T17:28:10Z"
+        },
+        {
+          "number": 671,
+          "title": "research(#446): retain 18 fine-net lower bounds and adopt n108",
+          "updated": "2026-10-18T13:29:40Z"
+        },
+        {
+          "number": 578,
+          "title": "feat: person profiles, linked news and reviewed attribution (supersedes #490)",
+          "updated": "2026-10-18T12:35:55Z"
+        },
+        {
+          "number": 676,
+          "title": "chore: complete October 18 intake and open-work review",
+          "updated": "2026-10-18T10:28:39Z"
+        },
+        {
+          "number": 435,
+          "title": "feat: publish the complete exact-side catalogue on the web",
+          "updated": "2026-10-18T10:13:16Z"
+        },
+        {
+          "number": 646,
+          "title": "fix(site): simplify News filters and align card styling",
+          "updated": "2026-10-18T09:31:28Z"
+        },
+        {
+          "number": 658,
+          "title": "records(#639, #640): map the s(19) review onto T-194 (C1) and do T-193's stage 4 exit (V3/C3)",
+          "updated": "2026-10-18T09:30:53Z"
+        },
+        {
+          "number": 667,
+          "title": "records(intake): the 17 October sweep, stages 0 and 1: #659, #664, #446's 18 lower bounds, six watch reads (think-e2sz)",
+          "updated": "2026-10-18T09:18:25Z"
+        },
+        {
+          "number": 403,
+          "title": "feat: preserve exact polynomials through native source adoption",
+          "updated": "2026-10-18T09:16:15Z"
+        },
+        {
+          "number": 599,
+          "title": "Stabilize CI and default local feedback to quick tests",
+          "updated": "2026-10-18T09:01:24Z"
+        },
+        {
+          "number": 514,
+          "title": "feat(site): the results page opens on what was added in the last seven days, with an Added filter",
+          "updated": "2026-10-18T09:00:49Z"
+        },
+        {
+          "number": 645,
+          "title": "fix(assurance): separate source verification from independent confirmation",
+          "updated": "2026-10-18T08:58:39Z"
+        },
+        {
+          "number": 574,
+          "title": "research: submit 148 square-packing certificate refinements with exact endpoints",
+          "updated": "2026-10-18T08:58:01Z"
+        },
+        {
+          "number": 622,
+          "title": "data: submit a tighter exact N29 packing certificate",
+          "updated": "2026-10-18T08:58:00Z"
+        },
+        {
+          "number": 665,
+          "title": "feat(houses): adopt T-174 at 37 rational counts and regularize each (think-3mry)",
+          "updated": "2026-10-18T08:55:31Z"
+        },
+        {
+          "number": 407,
+          "title": "Darwin self-current RSS with native SDK and release controls",
+          "updated": "2026-10-18T08:54:49Z"
+        },
+        {
+          "number": 406,
+          "title": "feat: refuse added bulk Git blobs using actual PR base",
+          "updated": "2026-10-18T08:53:24Z"
+        },
+        {
+          "number": 675,
+          "title": "204-998: registration request",
+          "updated": "2026-10-18T08:52:26Z"
+        },
+        {
+          "number": 674,
+          "title": "s(229) \u2264 15.650163254859: registration request",
+          "updated": "2026-10-18T08:52:25Z"
+        },
+        {
+          "number": 673,
+          "title": "Credit correction request: s(146) and s(308) found_by",
+          "updated": "2026-10-18T08:52:23Z"
+        },
+        {
+          "number": 672,
+          "title": "227, 229, 330-996: registration request",
+          "updated": "2026-10-18T08:52:21Z"
+        },
+        {
+          "number": 670,
+          "title": "204-993: registration request",
+          "updated": "2026-10-18T08:52:20Z"
+        },
+        {
+          "number": 669,
+          "title": "s(155) \u2264 12.952260944651: registration request",
+          "updated": "2026-10-18T08:52:18Z"
+        },
+        {
+          "number": 668,
+          "title": "Improved upper bounds for n = 227, 229, 260: registration request",
+          "updated": "2026-10-18T08:52:16Z"
+        },
+        {
+          "number": 666,
+          "title": "s(n) < \u2308\u221an\u2309 at 18 counts from n = 509 to 1568, and s(464) \u2264 21.98881: registration request",
+          "updated": "2026-10-18T08:52:15Z"
+        }
+      ],
+      "comments": 11,
+      "open_PRs": 17,
+      "changed_open_PRs": [
+        {
+          "number": 661,
+          "head": "a87de0cf735af2f84ce3ffaceb6d4d619bc64d80",
+          "title": "records(#622): PingYou Ltd's N29 certificate, replayed on both exact routes and registered as T-195 (think-30n2)",
+          "files": 130
+        },
+        {
+          "number": 671,
+          "head": "89166716d492ae7e4e76f61550e80849dec7edc3",
+          "title": "research(#446): retain 18 fine-net lower bounds and adopt n108",
+          "files": 269
+        },
+        {
+          "number": 676,
+          "head": "5fb743b3e2b457b24581cca7eecfb4904584cc4a",
+          "title": "chore: complete October 18 intake and open-work review",
+          "files": 39
+        },
+        {
+          "number": 435,
+          "head": "7c1fe653c5dc30717f1e0546100b1de4ab0a30d7",
+          "title": "feat: publish the complete exact-side catalogue on the web",
+          "files": 177
+        }
+      ]
+    },
+    "generated": "2026-10-18T17:50:23.263329+00:00",
+    "previous_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+    "finite_witnesses": 542,
+    "proof_routes": [
+      "jlevy/squares rational corner verifier",
+      "verify_bound_certificate.py exact separating axes"
+    ],
+    "installed_reported_direct_counts": 70,
+    "installed_reported_derived_counts": 78,
+    "all_count_non_regression": true,
+    "current_previews": 438,
+    "changed_bound_counts": [
+      204,
+      260,
+      330,
+      343,
+      418,
+      420,
+      421,
+      422,
+      455,
+      456,
+      458,
+      459,
+      461,
+      462,
+      463,
+      464,
+      497,
+      499,
+      501,
+      505,
+      507,
+      545,
+      546,
+      548,
+      549,
+      553,
+      554,
+      592,
+      593,
+      597,
+      598,
+      600,
+      601,
+      641,
+      642,
+      650,
+      652,
+      653,
+      654,
+      693,
+      704,
+      705,
+      706,
+      749,
+      751,
+      752,
+      753,
+      755,
+      760,
+      804,
+      805,
+      806,
+      808,
+      815,
+      863,
+      865,
+      867,
+      868,
+      870,
+      872,
+      873,
+      874,
+      919,
+      924,
+      926,
+      927,
+      928,
+      930,
+      933,
+      934,
+      984,
+      987,
+      989,
+      990,
+      991,
+      992,
+      994,
+      998
+    ],
+    "outward_rounding_and_monotonicity_checked": true,
+    "exact_reported_precision_corrections": [
+      {
+        "n": 600,
+        "bound": "344665246011798070753914221/13797246048630000000000000",
+        "reason": "exact reported derivation retained below the general installer precision threshold"
+      },
+      {
+        "n": 808,
+        "bound": "436528832357531353106895129/15087862730998000000000000",
+        "reason": "exact reported derivation retained below the general installer precision threshold"
+      },
+      {
+        "n": 815,
+        "bound": "423145514569828958055273607/14593729647914000000000000",
+        "reason": "exact reported derivation retained below the general installer precision threshold"
+      },
+      {
+        "n": 924,
+        "bound": "55084602445059722996258149/1780803093429600000000000",
+        "reason": "exact reported derivation retained below the general installer precision threshold"
+      }
+    ]
+  },
+  "record_check_20261018_2155": {
+    "captured_local_UTC_minus_3": "2026-10-18T19:00:15-03:00",
+    "comparison_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+    "comparison_basis": "installed working bounds at 2026-10-18T22:00:12.661878+00:00",
+    "native_accepted_witnesses": 8,
+    "web_witnesses_better_than_native_snapshot": 2,
+    "new_public_witnesses": 0,
+    "previously_unincorporated_pose_witnesses": 0,
+    "distinct_improved_direct_counts": 10,
+    "all_improved_counts_with_L_borders_and_deletion": 11,
+    "fresh_exact_witness_replays": 10,
+    "exact_routes_per_witness": 2,
+    "independent_classical_states_compared": 3821,
+    "direct_counts": [
+      204,
+      458,
+      700,
+      701,
+      703,
+      706,
+      749,
+      751,
+      754,
+      987
+    ],
+    "all_counts": [
+      204,
+      458,
+      501,
+      700,
+      701,
+      703,
+      706,
+      749,
+      751,
+      754,
+      987
+    ],
+    "github": {
+      "captured": "2026-10-18T21:57:23.138731+00:00",
+      "main": "804eff369193b698d497a9c06847059eb9de0470",
+      "commits_since_previous": 0,
+      "main_changed_files": 0,
+      "threads": [
+        {
+          "number": 406,
+          "title": "feat: refuse added bulk Git blobs using actual PR base",
+          "updated": "2026-10-18T21:35:11Z"
+        },
+        {
+          "number": 603,
+          "title": "s(n\u00b2 \u2212 n + 1) < n for every n \u2265 15, and the F(n) excess (Kevin Fang): tracking an unreported result",
+          "updated": "2026-10-18T21:02:13Z"
+        }
+      ],
+      "comments": 1,
+      "open_PRs": 17,
+      "changed_open_PRs": []
+    },
+    "generated": "2026-10-18T22:00:15.551472+00:00",
+    "previous_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+    "finite_witnesses": 542,
+    "proof_routes": [
+      "jlevy/squares rational corner verifier",
+      "verify_bound_certificate.py exact separating axes"
+    ],
+    "installed_reported_direct_counts": 10,
+    "installed_reported_derived_counts": 11,
+    "all_count_non_regression": true,
+    "current_previews": 438,
+    "changed_bound_counts": [
+      204,
+      458,
+      501,
+      700,
+      701,
+      703,
+      706,
+      749,
+      751,
+      754,
+      987
     ],
     "outward_rounding_and_monotonicity_checked": true,
     "exact_reported_precision_corrections": []

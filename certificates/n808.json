@@ -1,20 +1,23 @@
 {
   "n": 808,
   "packing": "n808.txt",
-  "packing_sha256": "196181afd6f9d1bd1b6d621c54604aeebdef659e73bf00cc1826c000fc7dd15b",
+  "packing_sha256": "931b34cf76494b2539976de468b34e6cadcd6dcfc76b32fff97fd8c7ac07a7ac",
   "certificate": "certificates/n808.cert",
-  "certificate_sha256": "dcb6d590ce611925d2991d4f6ce100a354e1e786591449d9968d46b287a02221",
-  "rational_side": "24031500387951952595431028407/830566089078500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "f03433f694b613a74669adb64eb089c151254c223fc4e25ac29a38714621bb6f",
+  "rational_side": "436528832357531353106895129/15087862730998000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "c21f94a4c439239bdafc26827a24badb",
-      "n": 808,
-      "side": 28.93388100471316,
-      "method": "fq",
-      "received": "20261014T150359Z",
-      "original_packing_sha256": "5055cd88fd970969033d9e58c9ae13d4c7e2891d8c221ec56652d0d8062cb024"
-    }
+    "seed_credit": "Francisco Couzo",
+    "construction": {
+      "kind": "L-border",
+      "source_n": 753,
+      "layers": 1,
+      "capacity": 808,
+      "parent_certificate_sha256": "44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c",
+      "parent_certificate": "certificates/parents/44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c.cert"
+    },
+    "source_n": 808,
+    "source_certificate_sha256": "f03433f694b613a74669adb64eb089c151254c223fc4e25ac29a38714621bb6f"
   },
-  "dilation": "1+1e-12"
+  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

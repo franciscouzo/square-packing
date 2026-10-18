@@ -1,13 +1,32 @@
 {
   "n": 343,
   "packing": "n343.txt",
-  "packing_sha256": "f70abf5dd065451667b7ba5ce9dc0b27fb412bc0bacd3c81964e0bb73ae67b81",
+  "packing_sha256": "2e33337abbf37118b0781d9ab9121fbdd9d34849a55fa627475e37675d823e63",
   "certificate": "certificates/n343.cert",
-  "certificate_sha256": "678d6d7b1b3108f05bd8638ae41b135ec4e0865022f4a5f1d63749a2d09899d5",
-  "rational_side": "18978232523635611279730512106023/1000000000000000000000000000000",
+  "certificate_sha256": "8b333241d7d866ab51ad8ff7b515bc1a77ce86ed79051f215cab7c8633f9fca1",
+  "rational_side": "41733573967670534550712079/2199023255552000000000000",
   "kind": "rational witness",
   "origin": {
-    "seed_credit": "Evan Daniel (after Kevin Fang)"
+    "seed_credit": "Evan Daniel (after Kevin Fang)",
+    "search_job": {
+      "id": 109885,
+      "method": "hop",
+      "source": "n343.txt",
+      "source_origin": "constructed",
+      "source_sha256": "c647b7b8e098d7e88e7735b4d8376a734b9cefdeadb1347fff28a0a7919be638",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n343.txt",
+        "source_sha256": "f70abf5dd065451667b7ba5ce9dc0b27fb412bc0bacd3c81964e0bb73ae67b81",
+        "source_n": 343,
+        "source_side": 18.978232523639242,
+        "layers": 0,
+        "deleted": 0,
+        "border_corners": [],
+        "border_layout": "single-corner",
+        "side": 18.978232523639242
+      }
+    }
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

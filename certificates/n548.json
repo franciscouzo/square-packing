@@ -1,10 +1,10 @@
 {
   "n": 548,
   "packing": "n548.txt",
-  "packing_sha256": "991d6faf762cbfa7a8c0946d4525dbc3104f0fdd0eb0f9c56cf7ce46d6573ae7",
+  "packing_sha256": "dea4a83c70626709eba27841578a5f37296e3593efc09533df91a13b353ee470",
   "certificate": "certificates/n548.cert",
-  "certificate_sha256": "882a6a266c70cb3c92e692a90265aacedf44111308f244806184d7574e0d8a62",
-  "rational_side": "236451044697615581422065973/9869622631416000000000000",
+  "certificate_sha256": "b7fa50f2029fb209fcfcb0676a0be09d5527bade0df7b2ed8fe5cf2ab933a5ed",
+  "rational_side": "114614263684737829966954527/4784296730101000000000000",
   "kind": "verified source certificate",
   "origin": {
     "web_seed": {
@@ -17,25 +17,27 @@
     },
     "seed_credit": "Francisco Couzo",
     "search_job": {
-      "id": 107543,
+      "id": 110287,
       "method": "hop",
-      "source": "n550.txt",
+      "source": "n549.txt",
       "source_origin": "constructed",
-      "source_sha256": "f02b8ccac24cbdaaa1d42a0ae041d19db606889f0142050474a63072796b281e",
+      "source_sha256": "c2008c22e32b2f5591896a8f29cfe89c5c9e72825e87dc9ed3ab88c5ee829990",
       "constructed_seed": {
         "construction": "L-border and deletion",
-        "source": "n550.txt",
-        "source_sha256": "fb6a9b0c359f8906c60e26885b613625ddaf445064fe1efa466e8d36d466d80a",
-        "source_n": 550,
-        "source_side": 23.961513018473223,
+        "source": "n549.txt",
+        "source_sha256": "a415821ca1656f7d60ad3900974d88faf4db1e0be27be7bb7b140977ebb46715",
+        "source_n": 549,
+        "source_side": 23.95700960025337,
         "layers": 0,
-        "deleted": 1,
-        "side": 23.961513018473223
+        "deleted": 0,
+        "border_corners": [],
+        "border_layout": "single-corner",
+        "side": 23.95700960025337
       }
     },
     "source_n": 549,
     "deleted_squares": 1,
-    "source_certificate_sha256": "f551caf7aa88512378867911d83a7292d7e04a86e6a0e0d21bc21cbe2b603b95"
+    "source_certificate_sha256": "3e4a5362221e9bde4823d4307a1e857c3adff13b519c208fc2ccd7c8f1896de6"
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

@@ -1,11 +1,11 @@
 {
   "n": 805,
   "packing": "n805.txt",
-  "packing_sha256": "4a65a9d30a39bd023added35660eedd48bd5ba548c3200bac7ab01e0e909e343",
+  "packing_sha256": "c7f511b38b808f71fe2c5562d9d49d56b3ef963d4231700658395f386c42ad5f",
   "certificate": "certificates/n805.cert",
-  "certificate_sha256": "d2e8859aa48ecbcb0bc109265145f43cd64c9815fec60bf1d2b297102e466a58",
-  "rational_side": "16952926398574984483227075993452933469868597801824294998120485853362663899085303202217601481/586376919195984432022367609795509705755860822584085716823808994995895728740500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "78e1ce70fd5fa85c8500a81753cc3757bbe2e8478e65a9fb691baec96f1a12c0",
+  "rational_side": "93831992673017586296472033/3245696200894000000000000",
+  "kind": "rational witness",
   "origin": {
     "web_seed": {
       "category": "CT105 web submission",
@@ -44,20 +44,22 @@
     },
     "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
     "search_job": {
-      "id": 106673,
-      "method": "hop",
-      "source": "n806.txt",
+      "id": 109417,
+      "method": "slp",
+      "source": "n805.txt",
       "source_origin": "constructed",
-      "source_sha256": "38edfd212b35a8942560b473c81b538de348177488937c10c26d347a1396c065",
+      "source_sha256": "4a65a9d30a39bd023added35660eedd48bd5ba548c3200bac7ab01e0e909e343",
       "constructed_seed": {
         "construction": "L-border and deletion",
-        "source": "n806.txt",
-        "source_sha256": "82df7e8a41e5b52ef3b4b97b9bc8bd74ea4f10716d9fa683bce3c88bae7f0b00",
-        "source_n": 806,
-        "source_side": 28.921843659435535,
+        "source": "n805.txt",
+        "source_sha256": "4a65a9d30a39bd023added35660eedd48bd5ba548c3200bac7ab01e0e909e343",
+        "source_n": 805,
+        "source_side": 28.911312576599034,
         "layers": 0,
-        "deleted": 1,
-        "side": 28.921843659435535
+        "deleted": 0,
+        "border_corners": [],
+        "border_layout": "single-corner",
+        "side": 28.911312576599034
       }
     },
     "source_n": 805,

@@ -1,11 +1,11 @@
 {
   "n": 554,
   "packing": "n554.txt",
-  "packing_sha256": "6109d2bca9f76b591623915b4b5ac5ada29c7d2e26fdacf48a99e2c62118b960",
+  "packing_sha256": "de3f7c5a131b6ffec02fa1c2a1d502bf973edf5f872ebc675cc5b3e53fdeaf28",
   "certificate": "certificates/n554.cert",
-  "certificate_sha256": "a55f099f9d4a960b378d2ef53ba10f5ccd2c982d7a7541689152a971ac1ed074",
-  "rational_side": "413720192835406785697998941/17242953345500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "8e839ff0acff3e2c54d4ee8fb64b7880f0f93a308ec89914353e697180c66819",
+  "rational_side": "29957208392643458654477273/1248553915341750000000000",
+  "kind": "rational witness",
   "origin": {
     "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
     "category": "reviewed public submission",
@@ -34,6 +34,25 @@
         "source_n": 555,
         "deleted_squares": 1,
         "source_certificate_sha256": "330ff746344b3c425fdbd724462bb71bc66dfbb01038aacf219ef948417eb424"
+      }
+    },
+    "search_job": {
+      "id": 110297,
+      "method": "fq",
+      "source": "n555.txt",
+      "source_origin": "constructed",
+      "source_sha256": "9f79770f85b93f853b4f121e8a5565a3df16efb61dade2d5acac4feb6442bfbd",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n555.txt",
+        "source_sha256": "0dc9d865d77ed01917de984d7413b413fd429527612fc0dba1f24271cace3a78",
+        "source_n": 555,
+        "source_side": 23.993580713537344,
+        "layers": 0,
+        "deleted": 1,
+        "border_corners": [],
+        "border_layout": "single-corner",
+        "side": 23.993580713537344
       }
     }
   },

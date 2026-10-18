@@ -1,17 +1,43 @@
 {
   "n": 752,
   "packing": "n752.txt",
-  "packing_sha256": "ab1c445038386baae63dc484a408faffb652938a0548a86e15816e50c44710f7",
+  "packing_sha256": "21701522a0da16d65993ab55862223d7eb25d7aecf654a2b18cbc4e3c84b0350",
   "certificate": "certificates/n752.cert",
-  "certificate_sha256": "5106521d5feaa8bcd6b21e2b8ccdf80ba581fecab4817bad60ff21b5110f81b5",
-  "rational_side": "3931505796437901768308078783/140737488355328000000000000",
+  "certificate_sha256": "c5cd53625fe6d15e07ee5a3aae15932023062323abce39b8f02207b10f6710c8",
+  "rational_side": "421440969626533353106895129/15087862730998000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
-    "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
-    "source_n": 752,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "5106521d5feaa8bcd6b21e2b8ccdf80ba581fecab4817bad60ff21b5110f81b5"
+    "web_seed": {
+      "id": "fef2c497a57ca6ccfe593ac490c11c52",
+      "n": 754,
+      "side": 27.950422600584556,
+      "method": "hop",
+      "received": "20261014T110018Z",
+      "original_packing_sha256": "a3268fbb8914695d9d3382cecf1a016c8b870baf21b907e77890ea7013874b18"
+    },
+    "seed_credit": "Francisco Couzo",
+    "search_job": {
+      "id": 109315,
+      "method": "fq",
+      "source": "n753.txt",
+      "source_origin": "constructed",
+      "source_sha256": "37968660e94b634e25767a7b8801be5dc1cbe28d416e468d95d28bcac2c2166f",
+      "constructed_seed": {
+        "construction": "L-border and deletion",
+        "source": "n753.txt",
+        "source_sha256": "0b8d0a40034b7295c9a28add1d45e35967e03373c8768e26fc6758d04e97b5e7",
+        "source_n": 753,
+        "source_side": 27.935538484610117,
+        "layers": 0,
+        "deleted": 0,
+        "border_corners": [],
+        "border_layout": "single-corner",
+        "side": 27.935538484610117
+      }
+    },
+    "source_n": 753,
+    "deleted_squares": 1,
+    "source_certificate_sha256": "44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c"
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

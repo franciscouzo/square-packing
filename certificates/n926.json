@@ -1,41 +1,71 @@
 {
   "n": 926,
   "packing": "n926.txt",
-  "packing_sha256": "04f0c7267cf853e6ec70e09d65b2e10139dfd83bbd915634b297968123e4f97a",
+  "packing_sha256": "85b894dbcd1b4010f313e6f07592d86c598954245cb3d941f0c4c76ecf6061d3",
   "certificate": "certificates/n926.cert",
-  "certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
-  "rational_side": "18938313241520265129560438299/611907496055750000000000000",
+  "certificate_sha256": "caeef6eec71bc3a5c26b4fd716da877b5aff7f7354e2dcec79ff90f7597a5fe4",
+  "rational_side": "13632288045967101442390912029221694158771714423909119017092957760307/440524103846455947589615354405241038464559475896153500000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
+    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
     "web_seed": {
       "category": "CT105 web submission",
-      "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
-      "submission_id": "c2db11a1ae5c373e7e672615c61cba82",
-      "method": "fq",
-      "received": "20261014T235831Z",
-      "seed_credit": "Francisco Couzo",
-      "prior_retained_witness": {
-        "certificate": "certificates/parents/c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d.cert",
-        "certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
-        "source_credit": {
+      "source_certificate_sha256": "caeef6eec71bc3a5c26b4fd716da877b5aff7f7354e2dcec79ff90f7597a5fe4",
+      "submission_id": "03e818fa6273c30aafda005d26277874",
+      "method": "ellsworth",
+      "received": "20261018T132708Z",
+      "previous_source_credit": {
+        "seed_credit": "Francisco Couzo",
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+          "submission_id": "c2db11a1ae5c373e7e672615c61cba82",
+          "method": "fq",
+          "received": "20261014T235831Z",
           "seed_credit": "Francisco Couzo",
-          "web_seed": {
-            "category": "CT105 web submission",
-            "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
-            "submission_id": "c2db11a1ae5c373e7e672615c61cba82",
-            "method": "fq",
-            "received": "20261014T235831Z"
-          },
-          "source_n": 926,
-          "deleted_squares": 0,
-          "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d"
+          "prior_retained_witness": {
+            "certificate": "certificates/parents/c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d.cert",
+            "certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+            "source_credit": {
+              "seed_credit": "Francisco Couzo",
+              "web_seed": {
+                "category": "CT105 web submission",
+                "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+                "submission_id": "c2db11a1ae5c373e7e672615c61cba82",
+                "method": "fq",
+                "received": "20261014T235831Z"
+              },
+              "source_n": 926,
+              "deleted_squares": 0,
+              "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d"
+            }
+          }
+        },
+        "source_n": 926,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+        "prior_retained_witness": {
+          "certificate": "certificates/parents/c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d.cert",
+          "certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+          "source_credit": {
+            "seed_credit": "Francisco Couzo",
+            "web_seed": {
+              "category": "CT105 web submission",
+              "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+              "submission_id": "c2db11a1ae5c373e7e672615c61cba82",
+              "method": "fq",
+              "received": "20261014T235831Z"
+            },
+            "source_n": 926,
+            "deleted_squares": 0,
+            "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d"
+          }
         }
       }
     },
     "source_n": 926,
     "deleted_squares": 0,
-    "source_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+    "source_certificate_sha256": "caeef6eec71bc3a5c26b4fd716da877b5aff7f7354e2dcec79ff90f7597a5fe4",
     "prior_retained_witness": {
       "certificate": "certificates/parents/c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d.cert",
       "certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",

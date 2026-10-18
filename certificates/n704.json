@@ -1,23 +1,44 @@
 {
   "n": 704,
   "packing": "n704.txt",
-  "packing_sha256": "2b7415e6231573ff5114897a2da016b98d394f6a2d7037a298eb143c2717d903",
+  "packing_sha256": "cd2f25e28a049f19b802f9c2224e7eb6798ee5e5701a827a8a4822260ee66397",
   "certificate": "certificates/n704.cert",
-  "certificate_sha256": "67fdee95da25acfe886f6d8759bb6c6c79ce4c6c440ff077551497e0b271d101",
-  "rational_side": "11125989773553268713664869085238316551791774978530315731/412158118374050000000000004121581183740500000000000000",
+  "certificate_sha256": "df5cef379b51d8d574b501d74caf0b39e2b5ff6e964119ba1b30396410e6c68b",
+  "rational_side": "19314801785150565220404030516166606494258682818400213266350370122441/715515238519535387040157057155152385195353870401570500000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
+    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo; seed/construction: Joost de Winter",
     "construction": {
       "kind": "L-border",
-      "source_n": 653,
+      "source_n": 654,
       "layers": 1,
-      "parent_certificate_sha256": "80495d7c4fe33e158ef9555a5e86ab710cfb573392b1916e18f341325c647ba3",
-      "capacity": 704
+      "capacity": 705,
+      "parent_certificate_sha256": "c0472384c6ad4ba4c257e1e7361e729ee8d78d3d6f0c878404833edbac5c8cb2",
+      "parent_certificate": "certificates/parents/c0472384c6ad4ba4c257e1e7361e729ee8d78d3d6f0c878404833edbac5c8cb2.cert"
     },
-    "source_n": 704,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "67fdee95da25acfe886f6d8759bb6c6c79ce4c6c440ff077551497e0b271d101"
+    "source_n": 705,
+    "source_certificate_sha256": "15a476af34812b95652fcb03602806d03586da60d0aa4b719e70007c4a214298",
+    "web_seed": {
+      "category": "CT105 web submission",
+      "source_certificate_sha256": "15a476af34812b95652fcb03602806d03586da60d0aa4b719e70007c4a214298",
+      "submission_id": "227c4349c673dcaf75f729133a68bcae",
+      "method": "fq",
+      "received": "20261018T153416Z",
+      "previous_source_credit": {
+        "seed_credit": "Francisco Couzo; seed/construction: Joost de Winter",
+        "construction": {
+          "kind": "L-border",
+          "source_n": 654,
+          "layers": 1,
+          "capacity": 705,
+          "parent_certificate_sha256": "c0472384c6ad4ba4c257e1e7361e729ee8d78d3d6f0c878404833edbac5c8cb2",
+          "parent_certificate": "certificates/parents/c0472384c6ad4ba4c257e1e7361e729ee8d78d3d6f0c878404833edbac5c8cb2.cert"
+        },
+        "source_n": 705,
+        "source_certificate_sha256": "487f00f0bed5db4e431afd76d04d432d673d10bd7e7f21d2d55ed943a1dd242c"
+      }
+    },
+    "deleted_squares": 1
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

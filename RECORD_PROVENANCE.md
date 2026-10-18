@@ -65,3 +65,15 @@ Current issue bodies can contain later edits, and comments often quote other aut
 ## Later authorship clarification
 
 Evan Daniel’s [authorship-correction request #673](https://github.com/jlevy/squares/issues/673) distinguishes finding a different local minimum from refining a packing within the same minimum. His request concerns 146 and 308. A seed citation alone should not be read as assigning authorship of the later minimum.
+
+## Web refinements installed on 18 October 2026
+
+Francisco Couzo’s CT105 browser refinements for n=502, 555, 600 and 868 are installed with their exact source witnesses. The n=555 witness also gives n=602 by one exact L border. Earlier seed and construction credits are retained, including Joost de Winter and the Arslanov–Mustafin–Shangitbayev construction for n=555.
+
+## Records installed in the 18 October afternoon intake
+
+The native and CT105 browser witnesses reviewed in this intake improve 70 direct counts and 78 upper bounds including exact L borders and deletion. Original construction, seed, and certificate credits are retained in the canonical metadata and best-witness manifest. Source coverage and the two exact checker routes are recorded in bound_sources.json.
+
+## Records installed in the 18 October afternoon intake
+
+The native and CT105 browser witnesses reviewed in this intake improve 10 direct counts and 11 upper bounds including exact L borders and deletion. Original construction, seed, and certificate credits are retained in the canonical metadata and best-witness manifest. Source coverage and the two exact checker routes are recorded in bound_sources.json.

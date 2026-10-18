@@ -1,23 +1,43 @@
 {
   "n": 987,
   "packing": "n987.txt",
-  "packing_sha256": "345fd83913dcd7e108b0687a7cdcc903640ab9ff9efd56b4a9ef24c977654940",
+  "packing_sha256": "126497ce0f9e4275c04e53ea2270e53360cd5b4c6c958dab5adf0033ed6fca69",
   "certificate": "certificates/n987.cert",
-  "certificate_sha256": "a081dcad696d1dad1f404fb5ce20e387c476e1f89ec8e02fb37d039a99dea42d",
-  "rational_side": "19550220737576015129560438299/611907496055750000000000000",
+  "certificate_sha256": "e7350aecc4267eae0ce4930a51f82a7c5a76b77ecca9398b7f6c1d56c0c74bc1",
+  "rational_side": "26994297027873650953999340393/845033094696500000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
+    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo",
     "construction": {
       "kind": "L-border",
       "source_n": 926,
       "layers": 1,
-      "parent_certificate_sha256": "c3261ccff839730588222468db72b422db67cb8c940aa2f90c5f90b85cf0b97d",
+      "parent_certificate_sha256": "caeef6eec71bc3a5c26b4fd716da877b5aff7f7354e2dcec79ff90f7597a5fe4",
       "capacity": 987
     },
     "source_n": 987,
     "deleted_squares": 0,
-    "source_certificate_sha256": "a081dcad696d1dad1f404fb5ce20e387c476e1f89ec8e02fb37d039a99dea42d"
+    "source_certificate_sha256": "e7350aecc4267eae0ce4930a51f82a7c5a76b77ecca9398b7f6c1d56c0c74bc1",
+    "web_seed": {
+      "category": "CT105 web submission",
+      "source_certificate_sha256": "e7350aecc4267eae0ce4930a51f82a7c5a76b77ecca9398b7f6c1d56c0c74bc1",
+      "submission_id": "25aa744d61da10e4cdf57253811a7970",
+      "method": "hop",
+      "received": "20261018T185626Z",
+      "previous_source_credit": {
+        "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
+        "construction": {
+          "kind": "L-border",
+          "source_n": 926,
+          "layers": 1,
+          "parent_certificate_sha256": "caeef6eec71bc3a5c26b4fd716da877b5aff7f7354e2dcec79ff90f7597a5fe4",
+          "capacity": 987
+        },
+        "source_n": 987,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "e5cbf08147619b4ac3977477bc331d794fea8913b06ed0f4f66470a7e26d55cf"
+      }
+    }
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }
