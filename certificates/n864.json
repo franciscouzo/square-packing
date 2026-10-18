@@ -1,40 +1,23 @@
 {
   "n": 864,
   "packing": "n864.txt",
-  "packing_sha256": "8127fce506f3b1194b19ea059d2ab0ae5f80ae290952385cfb8085312cf7dd92",
+  "packing_sha256": "9cdcfde92d6e2e95ca324456fe4bc04ea5492b000138bca72340bc44d65dd9ba",
   "certificate": "certificates/n864.cert",
-  "certificate_sha256": "9ff37cd48f544c5a8ba35acdc4889646f0fbc2bddcbb1539ce2f6a4c8e907555",
-  "rational_side": "64818648238757153171820179/2165476418515500000000000",
+  "certificate_sha256": "cca0124f2a14e48bc83f50a7bcacce5c778754f01b2f9d16c53fa166271b8940",
+  "rational_side": "6367913004196044898797955165310536798598633783560067367353199379651/212797868808170240655067552127978688081702406550675500000000000000",
   "kind": "verified source certificate",
   "origin": {
+    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
     "construction": {
-      "parent_n": 808,
-      "parent_certificate_sha256": "6a013f5beed97a04a6a4a9993ac858c3b4f67ca22ed8c0667b86e9d2454061df",
-      "tiles": 1,
+      "kind": "L-border",
+      "source_n": 807,
       "layers": 1,
-      "strict_scale": "1+1e-24"
+      "parent_certificate_sha256": "5d8a442cb6b4a715dde9296bd894e45b34ab30f2e39b5c6b72519b0c92a3ac5c",
+      "capacity": 864
     },
-    "seed_credit": "Francisco Couzo",
-    "search_job": {
-      "id": 106791,
-      "method": "hop",
-      "source": "n808.txt",
-      "source_origin": "constructed",
-      "source_sha256": "b62d0782bb87e940ab9f0b4518f8fecba139a26d6400bdf794fcbfdea2f7157e",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n808.txt",
-        "source_sha256": "196181afd6f9d1bd1b6d621c54604aeebdef659e73bf00cc1826c000fc7dd15b",
-        "source_n": 808,
-        "source_side": 28.933881004690814,
-        "layers": 1,
-        "deleted": 0,
-        "side": 29.933881004692815
-      }
-    },
-    "source_n": 865,
-    "deleted_squares": 1,
-    "source_certificate_sha256": "4453f019172b14300dae025d5fe42399a29c797cdf9a447c32c744815805703f"
+    "source_n": 864,
+    "deleted_squares": 0,
+    "source_certificate_sha256": "cca0124f2a14e48bc83f50a7bcacce5c778754f01b2f9d16c53fa166271b8940"
   },
   "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
 }

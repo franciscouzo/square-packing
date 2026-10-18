@@ -105,7 +105,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [201](n201.cert) | 14.707106781187 | PingYou Ltd (BuddenPing) |
 | [202](n202.cert) | 14.727922061358 | PingYou Ltd (BuddenPing) |
 | [203](n203.cert) | 14.778174593053 | PingYou Ltd (BuddenPing) |
-| [204](n204.cert) | 14.808644417690 | Francisco Couzo; seed/construction: Mykhailo Polkovskyi (Mishapolk) |
+| [204](n204.cert) | 14.808644367227 | Francisco Couzo; seed/construction: Mykhailo Polkovskyi (Mishapolk) |
 | [205](n205.cert) | 14.824451146125 | PingYou Ltd (BuddenPing) |
 | [206](n206.cert) | 14.860158663392 | PingYou Ltd (BuddenPing) |
 | [207](n207.cert) | 14.880960371556 | Mykhailo Polkovskyi (Mishapolk) |
@@ -116,7 +116,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [226](n226.cert) | 15.535533905933 | PingYou Ltd (BuddenPing) |
 | [227](n227.cert) | 15.563625652343 | Francisco Couzo; retained seed/construction credit: Joost de Winter (JoostdeWinter) |
 | [228](n228.cert) | 15.604601475730 | PingYou Ltd (BuddenPing) |
-| [229](n229.cert) | 15.650174740273 | Francisco Couzo; seed/construction: Joost de Winter |
+| [229](n229.cert) | 15.650161513896 | Evan Daniel; start: Francisco Couzo, after Joost de Winter |
 | [230](n230.cert) | 15.682926829269 | PingYou Ltd (BuddenPing) |
 | [231](n231.cert) | 15.707106781187 | PingYou Ltd (BuddenPing) |
 | [232](n232.cert) | 15.764174317487 | Mykhailo Polkovskyi (Mishapolk) |
@@ -224,10 +224,10 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [416](n416.cert) | 20.899494936636 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [417](n417.cert) | 20.942505611684 | Francisco Couzo |
 | [418](n418.cert) | 20.945240141353 | Francisco Couzo |
-| [419](n419.cert) | 20.959713620588 | Francisco Couzo |
+| [419](n419.cert) | 20.959713421191 | Francisco Couzo |
 | [420](n420.cert) | 20.974473103465 | Francisco Couzo |
-| [421](n421.cert) | 20.982817421775 | Francisco Couzo |
-| [422](n422.cert) | 20.984021832955 | Francisco Couzo |
+| [421](n421.cert) | 20.982817268367 | Francisco Couzo |
+| [422](n422.cert) | 20.983607310148 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [442](n442.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
 | [443](n443.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
 | [444](n444.cert) | 21.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
@@ -244,13 +244,13 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [455](n455.cert) | 21.882451030482 | Evan Daniel |
 | [456](n456.cert) | 21.899494936612 | Francisco Couzo |
 | [457](n457.cert) | 21.899494936637 | Francisco Couzo |
-| [458](n458.cert) | 21.942505611689 | Francisco Couzo |
-| [459](n459.cert) | 21.943735551416 | Francisco Couzo |
-| [460](n460.cert) | 21.957651945776 | Francisco Couzo |
-| [461](n461.cert) | 21.971645445094 | Francisco Couzo |
-| [462](n462.cert) | 21.980759715480 | Francisco Couzo |
-| [463](n463.cert) | 21.984021832955 | Francisco Couzo |
-| [464](n464.cert) | 21.988813022694 | Joost de Winter |
+| [458](n458.cert) | 21.942423483273 | Francisco Couzo |
+| [459](n459.cert) | 21.942423483273 | Francisco Couzo |
+| [460](n460.cert) | 21.957558542548 | Francisco Couzo |
+| [461](n461.cert) | 21.971616092121 | Francisco Couzo |
+| [462](n462.cert) | 21.980489088007 | Francisco Couzo |
+| [463](n463.cert) | 21.983605908182 | Francisco Couzo |
+| [464](n464.cert) | 21.988035588879 | Francisco Couzo; seed/construction: Joost de Winter |
 | [485](n485.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [486](n486.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [487](n487.cert) | 22.583782190178 | Francisco Couzo |
@@ -268,7 +268,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [499](n499.cert) | 22.899494936612 | Francisco Couzo |
 | [500](n500.cert) | 22.899494936637 | Francisco Couzo |
 | [501](n501.cert) | 22.933763683699 | Francisco Couzo |
-| [502](n502.cert) | 22.942809041609 | Francisco Couzo |
+| [502](n502.cert) | 22.942402035201 | Francisco Couzo; retained seed/construction credit: franciscouzo |
 | [503](n503.cert) | 22.957558542542 | Francisco Couzo |
 | [504](n504.cert) | 22.970562748504 | Francisco Couzo |
 | [505](n505.cert) | 22.972317735354 | Francisco Couzo |
@@ -291,16 +291,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [542](n542.cert) | 23.813708499013 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [543](n543.cert) | 23.813708499013 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [544](n544.cert) | 23.828427124775 | Francisco Couzo |
-| [545](n545.cert) | 23.899494936637 | Francisco Couzo |
-| [546](n546.cert) | 23.933763683699 | Francisco Couzo |
-| [547](n547.cert) | 23.942809041643 | Francisco Couzo |
-| [548](n548.cert) | 23.957558542543 | Francisco Couzo |
-| [549](n549.cert) | 23.961513018492 | elimination from n=550 (this project) |
+| [545](n545.cert) | 23.889722420681 | Francisco Couzo |
+| [546](n546.cert) | 23.889722420681 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [547](n547.cert) | 23.906371163646 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [548](n548.cert) | 23.957455469976 | Francisco Couzo |
+| [549](n549.cert) | 23.957455469976 | Francisco Couzo |
 | [550](n550.cert) | 23.961513018469 | Francisco Couzo |
 | [551](n551.cert) | 23.966898919633 | Francisco Couzo |
 | [552](n552.cert) | 23.966901721108 | Francisco Couzo |
 | [553](n553.cert) | 23.981588093282 | Francisco Couzo; seed/construction: franciscouzo |
-| [554](n554.cert) | 23.993653790591 | Francisco Couzo; seed/construction: Joost de Winter |
+| [554](n554.cert) | 23.993580713561 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
 | [555](n555.cert) | 23.993653790591 | Joost de Winter |
 | [577](n577.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
 | [578](n578.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
@@ -317,18 +317,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [589](n589.cert) | 24.813708499019 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [590](n590.cert) | 24.813708499238 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [591](n591.cert) | 24.828427124775 | Francisco Couzo |
-| [592](n592.cert) | 24.899494936637 | Francisco Couzo |
-| [593](n593.cert) | 24.899494936641 | Francisco Couzo |
+| [592](n592.cert) | 24.889722420681 | Francisco Couzo |
+| [593](n593.cert) | 24.889722420681 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [594](n594.cert) | 24.899494936641 | Francisco Couzo |
 | [595](n595.cert) | 24.949747468335 | Francisco Couzo |
 | [596](n596.cert) | 24.949747468335 | Francisco Couzo |
 | [597](n597.cert) | 24.961513018469 | Francisco Couzo |
-| [598](n598.cert) | 24.962916747309 | Francisco Couzo |
+| [598](n598.cert) | 24.962908839930 | Francisco Couzo |
 | [599](n599.cert) | 24.966901721108 | Francisco Couzo |
 | [600](n600.cert) | 24.981585347399 | Francisco Couzo |
 | [601](n601.cert) | 24.989482347414 | Francisco Couzo |
-| [602](n602.cert) | 24.993653790591 | Joost de Winter |
-| [603](n603.cert) | 24.995268064197 | Joost de Winter |
+| [602](n602.cert) | 24.993580715986 | Francisco Couzo; seed/construction: Joost de Winter |
+| [603](n603.cert) | 24.994263342387 | Francisco Couzo; seed/construction: Joost de Winter |
 | [626](n626.cert) | 25.520815280201 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [627](n627.cert) | 25.535533905933 | PingYou Ltd (BuddenPing) |
 | [628](n628.cert) | 25.583782190178 | Francisco Couzo |
@@ -344,8 +344,8 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [638](n638.cert) | 25.813708499023 | Francisco Couzo |
 | [639](n639.cert) | 25.813708499025 | Francisco Couzo |
 | [640](n640.cert) | 25.828427124775 | Francisco Couzo |
-| [641](n641.cert) | 25.899494936637 | Francisco Couzo |
-| [642](n642.cert) | 25.899494936641 | Francisco Couzo |
+| [641](n641.cert) | 25.889564291814 | Francisco Couzo |
+| [642](n642.cert) | 25.889722420681 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [643](n643.cert) | 25.899494936641 | Francisco Couzo |
 | [644](n644.cert) | 25.899494936642 | Francisco Couzo |
 | [645](n645.cert) | 25.949747468335 | Francisco Couzo |
@@ -353,11 +353,11 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [647](n647.cert) | 25.953248543199 | Francisco Couzo |
 | [648](n648.cert) | 25.966901721108 | Francisco Couzo |
 | [649](n649.cert) | 25.976974088403 | Francisco Couzo |
-| [650](n650.cert) | 25.982429027496 | Francisco Couzo |
+| [650](n650.cert) | 25.982428402604 | Francisco Couzo |
 | [651](n651.cert) | 25.983790120159 | Francisco Couzo |
-| [652](n652.cert) | 25.995268064197 | Joost de Winter |
+| [652](n652.cert) | 25.994256215430 | Francisco Couzo; seed/construction: Joost de Winter |
 | [653](n653.cert) | 25.994469543497 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [654](n654.cert) | 25.996103908965 | Joost de Winter |
+| [654](n654.cert) | 25.995905846673 | Francisco Couzo; seed/construction: Joost de Winter |
 | [677](n677.cert) | 26.520815280213 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [678](n678.cert) | 26.535533905933 | PingYou Ltd (BuddenPing) |
 | [679](n679.cert) | 26.583782190178 | Francisco Couzo |
@@ -374,20 +374,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [690](n690.cert) | 26.813708499267 | Francisco Couzo |
 | [691](n691.cert) | 26.828427124775 | Francisco Couzo |
 | [692](n692.cert) | 26.828427124777 | Francisco Couzo |
-| [693](n693.cert) | 26.899494936641 | Francisco Couzo |
+| [693](n693.cert) | 26.889722420681 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [694](n694.cert) | 26.899494936641 | Francisco Couzo |
 | [695](n695.cert) | 26.899494936642 | Francisco Couzo |
 | [696](n696.cert) | 26.949747468335 | Francisco Couzo |
 | [697](n697.cert) | 26.949747468336 | Francisco Couzo |
 | [698](n698.cert) | 26.949747468338 | Francisco Couzo |
 | [699](n699.cert) | 26.949747468415 | Francisco Couzo |
-| [700](n700.cert) | 26.972996848621 | Francisco Couzo |
-| [701](n701.cert) | 26.975561031531 | Francisco Couzo |
+| [700](n700.cert) | 26.972954520906 | Francisco Couzo |
+| [701](n701.cert) | 26.975560060840 | Francisco Couzo |
 | [702](n702.cert) | 26.977494114977 | Francisco Couzo |
 | [703](n703.cert) | 26.987493360751 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
 | [704](n704.cert) | 26.994469543497 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [705](n705.cert) | 26.996103908965 | Joost de Winter |
-| [706](n706.cert) | 26.998712100405 | Joost de Winter |
+| [705](n705.cert) | 26.995905846673 | Francisco Couzo; seed/construction: Joost de Winter |
+| [706](n706.cert) | 26.998639495676 | Francisco Couzo; seed/construction: Joost de Winter |
 | [730](n730.cert) | 27.520815280206 | Francisco Couzo |
 | [731](n731.cert) | 27.535533905933 | PingYou Ltd (BuddenPing) |
 | [732](n732.cert) | 27.583782190178 | Francisco Couzo |
@@ -411,14 +411,14 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [750](n750.cert) | 27.927909095101 | Francisco Couzo |
 | [751](n751.cert) | 27.935028842577 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [752](n752.cert) | 27.935028842577 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [753](n753.cert) | 27.936842811648 | Francisco Couzo |
+| [753](n753.cert) | 27.935538484638 | Francisco Couzo |
 | [754](n754.cert) | 27.937423518013 | Francisco Couzo |
-| [755](n755.cert) | 27.951635349895 | Francisco Couzo |
-| [756](n756.cert) | 27.983489205831 | Francisco Couzo |
+| [755](n755.cert) | 27.951593396552 | Francisco Couzo |
+| [756](n756.cert) | 27.982602664098 | Francisco Couzo |
 | [757](n757.cert) | 27.989936967966 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [758](n758.cert) | 27.994973756311 | Francisco Couzo |
-| [759](n759.cert) | 27.995946347749 | Francisco Couzo; seed/construction: Joost de Winter |
-| [760](n760.cert) | 27.995949340329 | Joost de Winter |
+| [758](n758.cert) | 27.993798579000 | Francisco Couzo |
+| [759](n759.cert) | 27.993798579000 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
+| [760](n760.cert) | 27.995946706541 | Francisco Couzo; seed/construction: Joost de Winter |
 | [785](n785.cert) | 28.520815280214 | Francisco Couzo |
 | [786](n786.cert) | 28.535533905933 | PingYou Ltd (BuddenPing) |
 | [787](n787.cert) | 28.583782190178 | Francisco Couzo |
@@ -438,20 +438,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [801](n801.cert) | 28.828427124795 | Francisco Couzo |
 | [802](n802.cert) | 28.828427124817 | Francisco Couzo |
 | [803](n803.cert) | 28.899494936642 | Francisco Couzo |
-| [804](n804.cert) | 28.915928305844 | Francisco Couzo |
-| [805](n805.cert) | 28.916476090926 | Francisco Couzo |
-| [806](n806.cert) | 28.921843662228 | Francisco Couzo |
-| [807](n807.cert) | 28.933881004742 | elimination from n=808 (this project) |
+| [804](n804.cert) | 28.911312576594 | Francisco Couzo |
+| [805](n805.cert) | 28.911312576594 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [806](n806.cert) | 28.921462680479 | Francisco Couzo |
+| [807](n807.cert) | 28.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [808](n808.cert) | 28.933881004714 | Francisco Couzo |
-| [809](n809.cert) | 28.937423518015 | Francisco Couzo |
+| [809](n809.cert) | 28.937423314202 | Francisco Couzo |
 | [810](n810.cert) | 28.951463124704 | Francisco Couzo |
-| [811](n811.cert) | 28.982472918533 | Francisco Couzo |
-| [812](n812.cert) | 28.982462261975 | Francisco Couzo |
-| [813](n813.cert) | 28.989935237439 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [814](n814.cert) | 28.995946347758 | Francisco Couzo; seed/construction: Joost de Winter |
+| [811](n811.cert) | 28.981360068210 | Francisco Couzo |
+| [812](n812.cert) | 28.981360068210 | Francisco Couzo |
+| [813](n813.cert) | 28.989934397793 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
+| [814](n814.cert) | 28.993798579000 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
 | [815](n815.cert) | 28.995946384109 | Francisco Couzo; seed/construction: Joost de Winter |
-| [816](n816.cert) | 28.998389478849 | Francisco Couzo; seed/construction: Joost de Winter |
-| [817](n817.cert) | 28.998352177961 | Francisco Couzo; seed/construction: Joost de Winter |
+| [816](n816.cert) | 28.998219025338 | Francisco Couzo |
+| [817](n817.cert) | 28.998234675372 | Francisco Couzo; seed/construction: Joost de Winter |
 | [842](n842.cert) | 29.520815280218 | Francisco Couzo |
 | [843](n843.cert) | 29.535533905933 | PingYou Ltd (BuddenPing) |
 | [844](n844.cert) | 29.583782190178 | Francisco Couzo |
@@ -473,18 +473,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [860](n860.cert) | 29.849242405007 | Francisco Couzo |
 | [861](n861.cert) | 29.849242404953 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [862](n862.cert) | 29.899494936647 | Francisco Couzo |
-| [863](n863.cert) | 29.921843659464 | Francisco Couzo |
-| [864](n864.cert) | 29.933881004742 | elimination from n=808 (this project) |
-| [865](n865.cert) | 29.932742598598 | Francisco Couzo |
+| [863](n863.cert) | 29.921462677966 | Francisco Couzo |
+| [864](n864.cert) | 29.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [865](n865.cert) | 29.932623425046 | Francisco Couzo |
 | [866](n866.cert) | 29.935764472087 | Francisco Couzo |
-| [867](n867.cert) | 29.950265025802 | Francisco Couzo |
-| [868](n868.cert) | 29.982119729132 | Francisco Couzo |
-| [869](n869.cert) | 29.982462261984 | Francisco Couzo |
-| [870](n870.cert) | 29.985969207342 | Francisco Couzo |
+| [867](n867.cert) | 29.950105216770 | Francisco Couzo |
+| [868](n868.cert) | 29.981359990606 | Francisco Couzo |
+| [869](n869.cert) | 29.981360065447 | Francisco Couzo |
+| [870](n870.cert) | 29.985524292952 | Francisco Couzo |
 | [871](n871.cert) | 29.986798495028 | Francisco Couzo |
-| [872](n872.cert) | 29.995946384118 | Francisco Couzo; seed/construction: Joost de Winter |
-| [873](n873.cert) | 29.998352177969 | Francisco Couzo; seed/construction: Joost de Winter |
-| [874](n874.cert) | 29.998242686046 | Francisco Couzo; seed/construction: Joost de Winter |
+| [872](n872.cert) | 29.995946381399 | Francisco Couzo; seed/construction: Joost de Winter |
+| [873](n873.cert) | 29.998171180951 | Francisco Couzo |
+| [874](n874.cert) | 29.998171180951 | Francisco Couzo; seed/construction: Joost de Winter |
 | [875](n875.cert) | 29.998783733108 | Joost de Winter |
 | [901](n901.cert) | 30.520815280221 | Francisco Couzo |
 | [902](n902.cert) | 30.535533905933 | PingYou Ltd (BuddenPing) |
@@ -504,22 +504,22 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [916](n916.cert) | 30.798989873257 | Francisco Couzo |
 | [917](n917.cert) | 30.828427124795 | Francisco Couzo |
 | [918](n918.cert) | 30.828427124807 | Francisco Couzo |
-| [919](n919.cert) | 30.849242404990 | Francisco Couzo |
+| [919](n919.cert) | 30.849232404954 | Francisco Couzo |
 | [920](n920.cert) | 30.849242404954 | Francisco Couzo |
 | [921](n921.cert) | 30.849242404954 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [922](n922.cert) | 30.899494936660 | Francisco Couzo |
-| [923](n923.cert) | 30.932644308698 | Francisco Couzo |
-| [924](n924.cert) | 30.932742598607 | Francisco Couzo |
+| [923](n923.cert) | 30.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [924](n924.cert) | 30.932577553094 | Francisco Couzo |
 | [925](n925.cert) | 30.935764472087 | Francisco Couzo |
 | [926](n926.cert) | 30.949634321517 | Francisco Couzo |
-| [927](n927.cert) | 30.976993727283 | Francisco Couzo |
-| [928](n928.cert) | 30.976993727283 | Francisco Couzo |
+| [927](n927.cert) | 30.976949083864 | Francisco Couzo |
+| [928](n928.cert) | 30.976949083864 | Francisco Couzo |
 | [929](n929.cert) | 30.978235012084 | Francisco Couzo |
-| [930](n930.cert) | 30.982010362324 | Francisco Couzo |
-| [931](n931.cert) | 30.989936243547 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [932](n932.cert) | 30.993904118222 | Francisco Couzo; seed/construction: Joost de Winter |
-| [933](n933.cert) | 30.995955833661 | Francisco Couzo; seed/construction: Joost de Winter |
-| [934](n934.cert) | 30.995955836620 | Francisco Couzo; seed/construction: Joost de Winter |
+| [930](n930.cert) | 30.981543197185 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [931](n931.cert) | 30.989934734721 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
+| [932](n932.cert) | 30.993891653207 | Francisco Couzo; seed/construction: Joost de Winter |
+| [933](n933.cert) | 30.995293256848 | Francisco Couzo; seed/construction: Joost de Winter |
+| [934](n934.cert) | 30.995336946282 | Francisco Couzo; seed/construction: Joost de Winter |
 | [935](n935.cert) | 30.995336946282 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
 | [962](n962.cert) | 31.520815280221 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [963](n963.cert) | 31.535533905933 | PingYou Ltd (BuddenPing) |
@@ -548,16 +548,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [986](n986.cert) | 31.920310216821 | Francisco Couzo |
 | [987](n987.cert) | 31.949634321517 | Francisco Couzo |
 | [988](n988.cert) | 31.949747468406 | Francisco Couzo |
-| [989](n989.cert) | 31.976993727283 | Francisco Couzo |
-| [990](n990.cert) | 31.978235012084 | Francisco Couzo |
-| [991](n991.cert) | 31.982010362324 | Francisco Couzo |
-| [992](n992.cert) | 31.985130163599 | Francisco Couzo |
-| [993](n993.cert) | 31.985130163599 | Francisco Couzo |
-| [994](n994.cert) | 31.995955833661 | Francisco Couzo; seed/construction: Joost de Winter |
-| [995](n995.cert) | 31.995955836620 | Francisco Couzo; seed/construction: Joost de Winter |
-| [996](n996.cert) | 31.995336946282 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [997](n997.cert) | 31.998349747355 | Francisco Couzo; seed/construction: Joost de Winter |
-| [998](n998.cert) | 31.998349747355 | Joost de Winter |
+| [989](n989.cert) | 31.976125363479 | Francisco Couzo |
+| [990](n990.cert) | 31.978044872634 | Francisco Couzo |
+| [991](n991.cert) | 31.981535631408 | Francisco Couzo |
+| [992](n992.cert) | 31.984852411950 | Francisco Couzo |
+| [993](n993.cert) | 31.984841090107 | Francisco Couzo |
+| [994](n994.cert) | 31.993865896560 | Francisco Couzo |
+| [995](n995.cert) | 31.995231228446 | Francisco Couzo |
+| [996](n996.cert) | 31.994784549711 | Francisco Couzo |
+| [997](n997.cert) | 31.998300669675 | Francisco Couzo |
+| [998](n998.cert) | 31.998301912120 | Francisco Couzo; seed/construction: Joost de Winter |
 
 ## Complete catalogue
 
@@ -766,7 +766,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 201 | 14.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
 | 202 | 14.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 203 | 14.778174593053 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 204 | 14.808644417690 | [current certificate](../n204.cert) |
+| 204 | 14.808644367227 | [current certificate](../n204.cert) |
 | 205 | 14.824451146125 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 206 | 14.860158663392 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 207 | 14.880960371556 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
@@ -791,14 +791,14 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 226 | 15.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
 | 227 | 15.563625652343 | [current certificate](../n227.cert) |
 | 228 | 15.604601475730 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 229 | 15.650174740273 | [current certificate](../n229.cert) |
+| 229 | 15.650161513896 | [source](https://github.com/evand/square-packing/blob/00e68dfbe1d29ab5dbab1cddfb8f6ca19d5470db/search/packer/candidates/s229_v2.cert) |
 | 230 | 15.682926829269 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 231 | 15.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
 | 232 | 15.764174317487 | [certificate](n232.cert) |
 | 233 | 15.778174593053 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 234 | 15.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
 | 235 | 15.826605633429 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 236 | 15.861934390608 | [source](https://github.com/jlevy/squares/issues/399) |
+| 236 | 15.861934390608 | [source](https://github.com/jlevy/squares/issues/659) |
 | 237 | 15.902603638260 | [current certificate](../n237.cert) |
 | 238 | 15.924106785322 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
 | 239 | 15.948443327301 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
@@ -981,10 +981,10 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 416 | 20.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 417 | 20.942505611684 | [current certificate](../n417.cert) |
 | 418 | 20.945240141353 | [current certificate](../n418.cert) |
-| 419 | 20.959713620588 | [current certificate](../n419.cert) |
+| 419 | 20.959713421191 | [current certificate](../n419.cert) |
 | 420 | 20.974473103465 | [certificate](n420.cert) |
-| 421 | 20.982817421775 | [current certificate](../n421.cert) |
-| 422 | 20.984021832955 | [current certificate](../n422.cert) |
+| 421 | 20.982817268367 | [current certificate](../n421.cert) |
+| 422 | 20.983607310148 | [current certificate](../n422.cert) |
 | 423 | 21.000000000000 | grid |
 | 424 | 21.000000000000 | grid |
 | 425 | 21.000000000000 | grid |
@@ -1020,13 +1020,13 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 455 | 21.882451030482 | [certificate](n455.cert) |
 | 456 | 21.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
 | 457 | 21.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 458 | 21.942505611689 | [current certificate](../n458.cert) |
-| 459 | 21.943735551416 | [current certificate](../n459.cert) |
-| 460 | 21.957651945776 | [current certificate](../n460.cert) |
-| 461 | 21.971645445094 | [current certificate](../n461.cert) |
-| 462 | 21.980759715480 | [current certificate](../n462.cert) |
-| 463 | 21.984021832955 | [current certificate](../n463.cert) |
-| 464 | 21.988813022694 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0464.cert) |
+| 458 | 21.942423483273 | [current certificate](../n458.cert) |
+| 459 | 21.942423483273 | [current certificate](../n459.cert) |
+| 460 | 21.957558542548 | [current certificate](../n460.cert) |
+| 461 | 21.971616092121 | [current certificate](../n461.cert) |
+| 462 | 21.980489088007 | [current certificate](../n462.cert) |
+| 463 | 21.983605908182 | [current certificate](../n463.cert) |
+| 464 | 21.988035588879 | [current certificate](../n464.cert) |
 | 465 | 22.000000000000 | grid |
 | 466 | 22.000000000000 | grid |
 | 467 | 22.000000000000 | grid |
@@ -1064,7 +1064,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 499 | 22.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
 | 500 | 22.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
 | 501 | 22.933763683699 | [current certificate](../n501.cert) |
-| 502 | 22.942809041609 | [certificate](n502.cert) |
+| 502 | 22.942402035201 | [current certificate](../n502.cert) |
 | 503 | 22.957558542542 | [current certificate](../n503.cert) |
 | 504 | 22.970562748504 | [certificate](n504.cert) |
 | 505 | 22.972317735354 | [current certificate](../n505.cert) |
@@ -1107,16 +1107,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 542 | 23.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
 | 543 | 23.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
 | 544 | 23.828427124775 | [certificate](n544.cert) |
-| 545 | 23.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 546 | 23.933763683699 | [current certificate](../n546.cert) |
-| 547 | 23.942809041643 | [current certificate](../n547.cert) |
-| 548 | 23.957558542543 | [current certificate](../n548.cert) |
-| 549 | 23.961513018469 | [certificate](n550.cert) (deletion) |
+| 545 | 23.889722420681 | [current certificate](../n545.cert) |
+| 546 | 23.889722420681 | [current certificate](../n546.cert) |
+| 547 | 23.906371163646 | [current certificate](../n547.cert) |
+| 548 | 23.957455469976 | [current certificate](../n548.cert) |
+| 549 | 23.957455469976 | [current certificate](../n549.cert) |
 | 550 | 23.961513018469 | [certificate](n550.cert) |
 | 551 | 23.966898919633 | [current certificate](../n551.cert) |
 | 552 | 23.966901721108 | [certificate](n552.cert) |
 | 553 | 23.981588093282 | [current certificate](../n553.cert) |
-| 554 | 23.993653790591 | [current certificate](../n554.cert) |
+| 554 | 23.993580713561 | [current certificate](../n554.cert) |
 | 555 | 23.993653790591 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert) |
 | 556 | 24.000000000000 | grid |
 | 557 | 24.000000000000 | grid |
@@ -1154,18 +1154,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 589 | 24.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
 | 590 | 24.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
 | 591 | 24.828427124775 | [certificate](n591.cert) |
-| 592 | 24.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 593 | 24.899494936641 | [certificate](n594.cert) (deletion) |
+| 592 | 24.889722420681 | [current certificate](../n592.cert) |
+| 593 | 24.889722420681 | [current certificate](../n593.cert) |
 | 594 | 24.899494936641 | [certificate](n594.cert) |
 | 595 | 24.949747468335 | [current certificate](../n595.cert) |
 | 596 | 24.949747468335 | [certificate](n596.cert) |
 | 597 | 24.961513018469 | [certificate](n597.cert) |
-| 598 | 24.962916747309 | [current certificate](../n598.cert) |
+| 598 | 24.962908839930 | [current certificate](../n598.cert) |
 | 599 | 24.966901721108 | [certificate](n599.cert) |
 | 600 | 24.981585347399 | [current certificate](../n600.cert) |
 | 601 | 24.989482347414 | [certificate](n601.cert) |
-| 602 | 24.993653790591 | [current certificate](../n602.cert) |
-| 603 | 24.995268064197 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert) |
+| 602 | 24.993580715986 | [current certificate](../n602.cert) |
+| 603 | 24.994263342387 | [current certificate](../n603.cert) |
 | 604 | 25.000000000000 | grid |
 | 605 | 25.000000000000 | grid |
 | 606 | 25.000000000000 | grid |
@@ -1203,8 +1203,8 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 638 | 25.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
 | 639 | 25.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
 | 640 | 25.828427124775 | [certificate](n640.cert) |
-| 641 | 25.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 642 | 25.899494936641 | [certificate](n643.cert) (deletion) |
+| 641 | 25.889564291814 | [current certificate](../n641.cert) |
+| 642 | 25.889722420681 | [current certificate](../n642.cert) |
 | 643 | 25.899494936641 | [certificate](n643.cert) |
 | 644 | 25.899494936642 | [certificate](n644.cert) |
 | 645 | 25.949747468335 | [certificate](n645.cert) |
@@ -1212,11 +1212,11 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 647 | 25.953248543199 | [current certificate](../n647.cert) |
 | 648 | 25.966901721108 | [certificate](n648.cert) |
 | 649 | 25.976974088403 | [certificate](n649.cert) |
-| 650 | 25.982429027496 | [current certificate](../n650.cert) |
+| 650 | 25.982428402604 | [current certificate](../n650.cert) |
 | 651 | 25.983790120159 | [current certificate](../n651.cert) |
-| 652 | 25.994469543497 | [current certificate](../n652.cert) |
+| 652 | 25.994256215430 | [current certificate](../n652.cert) |
 | 653 | 25.994469543497 | [current certificate](../n653.cert) |
-| 654 | 25.996103908965 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0654.cert) |
+| 654 | 25.995905846673 | [current certificate](../n654.cert) |
 | 655 | 26.000000000000 | grid |
 | 656 | 26.000000000000 | grid |
 | 657 | 26.000000000000 | grid |
@@ -1255,20 +1255,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 690 | 26.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
 | 691 | 26.828427124775 | [certificate](n691.cert) |
 | 692 | 26.828427124777 | [certificate](n692.cert) |
-| 693 | 26.899494936641 | [certificate](n694.cert) (deletion) |
+| 693 | 26.889722420681 | [current certificate](../n693.cert) |
 | 694 | 26.899494936641 | [certificate](n694.cert) |
 | 695 | 26.899494936642 | [certificate](n695.cert) |
 | 696 | 26.949747468335 | [certificate](n696.cert) |
 | 697 | 26.949747468336 | [certificate](n697.cert) |
 | 698 | 26.949747468338 | [certificate](n698.cert) |
 | 699 | 26.949747468415 | [certificate](n699.cert) |
-| 700 | 26.972996848621 | [current certificate](../n700.cert) |
-| 701 | 26.975561031531 | [current certificate](../n701.cert) |
+| 700 | 26.972954520906 | [current certificate](../n700.cert) |
+| 701 | 26.975560060840 | [current certificate](../n701.cert) |
 | 702 | 26.977494114977 | [current certificate](../n702.cert) |
 | 703 | 26.987493360751 | [current certificate](../n703.cert) |
 | 704 | 26.994469543497 | [current certificate](../n704.cert) |
-| 705 | 26.996103908965 | [current certificate](../n705.cert) |
-| 706 | 26.998712100405 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0706.cert) |
+| 705 | 26.995905846673 | [current certificate](../n705.cert) |
+| 706 | 26.998639495676 | [current certificate](../n706.cert) |
 | 707 | 27.000000000000 | grid |
 | 708 | 27.000000000000 | grid |
 | 709 | 27.000000000000 | grid |
@@ -1315,14 +1315,14 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 750 | 27.927909095101 | [current certificate](../n750.cert) |
 | 751 | 27.935028842545 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
 | 752 | 27.935028842545 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 753 | 27.936842811648 | [current certificate](../n753.cert) |
+| 753 | 27.935538484638 | [current certificate](../n753.cert) |
 | 754 | 27.937423518013 | [current certificate](../n754.cert) |
-| 755 | 27.951635349895 | [current certificate](../n755.cert) |
-| 756 | 27.983489205831 | [current certificate](../n756.cert) |
+| 755 | 27.951593396552 | [current certificate](../n755.cert) |
+| 756 | 27.982602664098 | [current certificate](../n756.cert) |
 | 757 | 27.989936967966 | [current certificate](../n757.cert) |
-| 758 | 27.994973756311 | [current certificate](../n758.cert) |
-| 759 | 27.995946347749 | [current certificate](../n759.cert) |
-| 760 | 27.995949340329 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert) |
+| 758 | 27.993798579000 | [current certificate](../n758.cert) |
+| 759 | 27.993798579000 | [current certificate](../n759.cert) |
+| 760 | 27.995946706541 | [current certificate](../n760.cert) |
 | 761 | 28.000000000000 | grid |
 | 762 | 28.000000000000 | grid |
 | 763 | 28.000000000000 | grid |
@@ -1366,20 +1366,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 801 | 28.828427124795 | [certificate](n801.cert) |
 | 802 | 28.828427124817 | [certificate](n802.cert) |
 | 803 | 28.899494936642 | [certificate](n803.cert) |
-| 804 | 28.915928305844 | [current certificate](../n804.cert) |
-| 805 | 28.916476090926 | [current certificate](../n805.cert) |
-| 806 | 28.921843662228 | [current certificate](../n806.cert) |
-| 807 | 28.933881004714 | [certificate](n808.cert) (deletion) |
+| 804 | 28.911312576594 | [current certificate](../n804.cert) |
+| 805 | 28.911312576594 | [current certificate](../n805.cert) |
+| 806 | 28.921462680479 | [current certificate](../n806.cert) |
+| 807 | 28.924702911083 | [current certificate](../n807.cert) |
 | 808 | 28.933881004714 | [certificate](n808.cert) |
-| 809 | 28.937423518015 | [current certificate](../n809.cert) |
+| 809 | 28.937423314202 | [current certificate](../n809.cert) |
 | 810 | 28.951463124704 | [certificate](n810.cert) |
-| 811 | 28.982462261975 | [current certificate](../n811.cert) |
-| 812 | 28.982462261975 | [current certificate](../n812.cert) |
-| 813 | 28.989935237439 | [current certificate](../n813.cert) |
-| 814 | 28.995946347758 | [current certificate](../n814.cert) |
+| 811 | 28.981360068210 | [current certificate](../n811.cert) |
+| 812 | 28.981360068210 | [current certificate](../n812.cert) |
+| 813 | 28.989934397793 | [current certificate](../n813.cert) |
+| 814 | 28.993798579000 | [current certificate](../n814.cert) |
 | 815 | 28.995946384109 | [current certificate](../n815.cert) |
-| 816 | 28.998352177961 | [current certificate](../n816.cert) |
-| 817 | 28.998352177961 | [current certificate](../n817.cert) |
+| 816 | 28.998219025338 | [current certificate](../n816.cert) |
+| 817 | 28.998234675372 | [current certificate](../n817.cert) |
 | 818 | 29.000000000000 | grid |
 | 819 | 29.000000000000 | grid |
 | 820 | 29.000000000000 | grid |
@@ -1425,18 +1425,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 860 | 29.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 861 | 29.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 862 | 29.899494936647 | [certificate](n862.cert) |
-| 863 | 29.921843659464 | [current certificate](../n863.cert) |
-| 864 | 29.932742598598 | [current certificate](../n864.cert) |
-| 865 | 29.932742598598 | [current certificate](../n865.cert) |
+| 863 | 29.921462677966 | [current certificate](../n863.cert) |
+| 864 | 29.924702911083 | [current certificate](../n864.cert) |
+| 865 | 29.932623425046 | [current certificate](../n865.cert) |
 | 866 | 29.935764472087 | [current certificate](../n866.cert) |
-| 867 | 29.950265025802 | [current certificate](../n867.cert) |
-| 868 | 29.982119729132 | [current certificate](../n868.cert) |
-| 869 | 29.982462261984 | [current certificate](../n869.cert) |
-| 870 | 29.985969207342 | [current certificate](../n870.cert) |
+| 867 | 29.950105216770 | [current certificate](../n867.cert) |
+| 868 | 29.981359990606 | [current certificate](../n868.cert) |
+| 869 | 29.981360065447 | [current certificate](../n869.cert) |
+| 870 | 29.985524292952 | [current certificate](../n870.cert) |
 | 871 | 29.986798495028 | [current certificate](../n871.cert) |
-| 872 | 29.995946384118 | [current certificate](../n872.cert) |
-| 873 | 29.998242686046 | [current certificate](../n873.cert) |
-| 874 | 29.998242686046 | [current certificate](../n874.cert) |
+| 872 | 29.995946381399 | [current certificate](../n872.cert) |
+| 873 | 29.998171180951 | [current certificate](../n873.cert) |
+| 874 | 29.998171180951 | [current certificate](../n874.cert) |
 | 875 | 29.998783733108 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0875.cert) |
 | 876 | 30.000000000000 | grid |
 | 877 | 30.000000000000 | grid |
@@ -1481,21 +1481,21 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 916 | 30.798989873257 | [certificate](n916.cert) |
 | 917 | 30.828427124795 | [certificate](n917.cert) |
 | 918 | 30.828427124807 | [current certificate](../n918.cert) |
-| 919 | 30.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
+| 919 | 30.849232404954 | [current certificate](../n919.cert) |
 | 920 | 30.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 921 | 30.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
 | 922 | 30.899494936660 | [current certificate](../n922.cert) |
-| 923 | 30.932644308698 | [current certificate](../n923.cert) |
-| 924 | 30.932742598607 | [current certificate](../n924.cert) |
+| 923 | 30.924702911083 | [current certificate](../n923.cert) |
+| 924 | 30.932577553094 | [current certificate](../n924.cert) |
 | 925 | 30.935764472087 | [current certificate](../n925.cert) |
 | 926 | 30.949634321517 | [current certificate](../n926.cert) |
-| 927 | 30.976993727283 | [current certificate](../n927.cert) |
-| 928 | 30.976993727283 | [current certificate](../n928.cert) |
+| 927 | 30.976949083864 | [current certificate](../n927.cert) |
+| 928 | 30.976949083864 | [current certificate](../n928.cert) |
 | 929 | 30.978235012084 | [current certificate](../n929.cert) |
-| 930 | 30.982010362324 | [current certificate](../n930.cert) |
-| 931 | 30.989936243547 | [current certificate](../n931.cert) |
-| 932 | 30.993904118222 | [current certificate](../n932.cert) |
-| 933 | 30.995336946282 | [current certificate](../n933.cert) |
+| 930 | 30.981543197185 | [current certificate](../n930.cert) |
+| 931 | 30.989934734721 | [current certificate](../n931.cert) |
+| 932 | 30.993891653207 | [current certificate](../n932.cert) |
+| 933 | 30.995293256848 | [current certificate](../n933.cert) |
 | 934 | 30.995336946282 | [current certificate](../n934.cert) |
 | 935 | 30.995336946282 | [current certificate](../n935.cert) |
 | 936 | 31.000000000000 | grid |
@@ -1551,16 +1551,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | 986 | 31.920310216821 | [certificate](n986.cert) |
 | 987 | 31.949634321517 | [current certificate](../n987.cert) |
 | 988 | 31.949747468406 | [certificate](n988.cert) |
-| 989 | 31.976993727283 | [current certificate](../n989.cert) |
-| 990 | 31.978235012084 | [current certificate](../n990.cert) |
-| 991 | 31.982010362324 | [current certificate](../n991.cert) |
-| 992 | 31.985130163599 | [current certificate](../n992.cert) |
-| 993 | 31.985130163599 | [current certificate](../n993.cert) |
-| 994 | 31.995336946282 | [current certificate](../n994.cert) |
-| 995 | 31.995336946282 | [current certificate](../n995.cert) |
-| 996 | 31.995336946282 | [current certificate](../n996.cert) |
-| 997 | 31.998349747355 | [current certificate](../n997.cert) |
-| 998 | 31.998349747355 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0998.cert) |
+| 989 | 31.976125363479 | [current certificate](../n989.cert) |
+| 990 | 31.978044872634 | [current certificate](../n990.cert) |
+| 991 | 31.981535631408 | [current certificate](../n991.cert) |
+| 992 | 31.984841090107 | [current certificate](../n992.cert) |
+| 993 | 31.984841090107 | [current certificate](../n993.cert) |
+| 994 | 31.993865896560 | [current certificate](../n994.cert) |
+| 995 | 31.994784549711 | [current certificate](../n995.cert) |
+| 996 | 31.994784549711 | [current certificate](../n996.cert) |
+| 997 | 31.998300669675 | [current certificate](../n997.cert) |
+| 998 | 31.998301912120 | [current certificate](../n998.cert) |
 | 999 | 32.000000000000 | grid |
 | 1000 | 32.000000000000 | grid |
 | 1001 | 32.000000000000 | grid |

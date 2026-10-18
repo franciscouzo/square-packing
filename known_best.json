@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T20:25:00Z",
+  "generated": "2026-10-18T05:29:19Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -11,7 +11,7 @@
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "14a9af8be4a8b8a8328c3eb6b486a2e553380193"
+      "commit": "5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
@@ -4929,8 +4929,8 @@
         },
         {
           "source": "evand",
-          "credit": "Ryan Xu (ry-xu)",
-          "request": "https://github.com/jlevy/squares/issues/432",
+          "credit": "Evan Daniel (evand)",
+          "request": "https://github.com/jlevy/squares/issues/606",
           "ours": "n146.txt"
         }
       ],
@@ -5397,8 +5397,8 @@
       "also_found_by": [
         {
           "source": "evand",
-          "credit": "Evan Daniel",
-          "request": "https://github.com/jlevy/squares/issues/399",
+          "credit": "Evan Daniel (new local minimum from Daniil Ostashev's n=155 seed)",
+          "request": "https://github.com/jlevy/squares/issues/669",
           "ours": "n155.txt"
         },
         {
@@ -5409,7 +5409,7 @@
         },
         {
           "source": "evand",
-          "credit": "Daniil Ostashev (dostashev), refined by Evan Daniel (evand)",
+          "credit": "Evan Daniel (evand)",
           "request": "https://github.com/jlevy/squares/issues/669",
           "ours": "n155_s12.952425406961.txt"
         },
@@ -6079,7 +6079,7 @@
         {
           "source": "evand",
           "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
+          "request": "https://github.com/jlevy/squares/issues/422",
           "ours": "n179.txt"
         },
         {
@@ -6131,12 +6131,6 @@
       "register": 13.916993522477833,
       "register_text": "13916993522477832483558124720393/1000000000000000000000000000000",
       "also_found_by": [
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n180.txt"
-        },
         {
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
@@ -6806,7 +6800,7 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 14.80864441630906,
+      "own": 14.808644367212981,
       "own_status": "best known",
       "seed": "n204.txt"
     },
@@ -7069,12 +7063,6 @@
           "ours": "n209.txt"
         },
         {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n209.txt"
-        },
-        {
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
           "request": "https://github.com/jlevy/squares/issues/470",
@@ -7175,7 +7163,7 @@
         "side": "7496774813149710519467765230441/500000000000000000000000000000",
         "side_decimal": 14.993549626299421,
         "source": "evand",
-        "credit": "Daniil Ostashev",
+        "credit": "Francisco Couzo",
         "request": "https://jlevy.github.io/squares/cases/211.html",
         "certificate": "evand/search/regularize/lists/certs/n-211.cert.gz",
         "sha256": "a52bd91e650c3f911303261a3bfc44f20f41e2f957112517e65b3dbbd27e153b",
@@ -7455,24 +7443,26 @@
       "seed": "n228.txt"
     },
     "229": {
-      "side": 15.650174756948212,
+      "side": 15.650161513895553,
       "source": "reviewed-submission",
       "register": 15.65685424949238,
       "register_text": "10 + 4 \u221a2",
       "external": {
-        "side": "156501747569482131747919637148801852719869637315233948984618327625011520667543259632677498716011131748832131668750692746335433269145213277034738380207139541/10000000000000000000000000000001737366297119815888250696550926607660931327350731575578989919015034082413286101971092035771621296900000000000000000000000000",
-        "side_decimal": 15.650174756948212,
+        "side": "7825080756947776580756939951343/500000000000000000000000000000",
+        "side_decimal": 15.650161513895553,
         "source": "reviewed-submission",
-        "credit": "Joost de Winter",
-        "request": "https://github.com/jlevy/squares/issues/668",
+        "credit": "Evan Daniel; start: Francisco Couzo, after Joost de Winter",
+        "request": "https://github.com/jlevy/squares/issues/674#issuecomment-6244298663",
         "certificate": "certificates/best/n229.cert",
-        "sha256": "34ddede798ec3bc6ff9e94fd4c12ee12207946dd43435001e8ac9e9aacdde419",
-        "certificate_url": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n229/n229_record.cert",
+        "sha256": "1a35a7806b6cc01b232d5c634efdbe789c7df979cec6ab28d6ab283ac2b47e23",
+        "certificate_url": "https://github.com/evand/square-packing/blob/00e68dfbe1d29ab5dbab1cddfb8f6ca19d5470db/search/packer/candidates/s229_v2.cert",
         "pending": true
       },
-      "seed": "n229.txt",
-      "own": 15.650174740257427,
-      "own_status": "best known"
+      "register_found_by": [],
+      "register_improved_by": [],
+      "own": 15.650161513897281,
+      "own_status": "tied (within 1e-10)",
+      "seed": "n229.txt"
     },
     "230": {
       "side": 15.682926829268293,
@@ -7978,8 +7968,8 @@
       "also_found_by": [
         {
           "source": "evand",
-          "credit": "Evan Daniel",
-          "request": "https://github.com/jlevy/squares/issues/399",
+          "credit": "Nate Chaoweeraprasit (SQUISH), refined by Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/659",
           "ours": "n236.txt"
         }
       ],
@@ -7987,8 +7977,8 @@
         "side": "7930967195303679308621899285697/500000000000000000000000000000",
         "side_decimal": 15.861934390607358,
         "source": "evand",
-        "credit": "Evan Daniel",
-        "request": "https://github.com/jlevy/squares/issues/399",
+        "credit": "Nate Chaoweeraprasit (SQUISH), refined by Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/659",
         "certificate": "evand/search/packer/candidates/s236_bm3c_regularized.cert",
         "sha256": "abae0c5240f986373a4c49f860004ba3b187495579b4f88d41bfec0d9015a546",
         "pending": true
@@ -8008,12 +7998,6 @@
       "register": 15.902603638259597,
       "register_text": "7951301819129798440089572127137/500000000000000000000000000000",
       "also_found_by": [
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n237.txt"
-        },
         {
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
@@ -8051,12 +8035,6 @@
           "source": "squish",
           "credit": "Nate Chaoweeraprasit (SQUISH)",
           "request": "https://github.com/jlevy/squares/issues/500",
-          "ours": "n238.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
           "ours": "n238.txt"
         },
         {
@@ -8126,12 +8104,6 @@
           "source": "squish",
           "credit": "Nate Chaoweeraprasit (SQUISH)",
           "request": "https://github.com/jlevy/squares/issues/500",
-          "ours": "n239.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
           "ours": "n239.txt"
         },
         {
@@ -8651,8 +8623,8 @@
         },
         {
           "source": "evand",
-          "credit": "PingYou Ltd (BuddenPing)",
-          "request": "https://github.com/jlevy/squares/issues/567",
+          "credit": "Ryan Xu (ry-xu)",
+          "request": "https://github.com/jlevy/squares/issues/432",
           "ours": "n261.txt"
         },
         {
@@ -8665,12 +8637,6 @@
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
           "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n261.txt"
-        },
-        {
-          "source": "ry-xu",
-          "credit": "Ryan Xu",
-          "request": "https://github.com/jlevy/squares/issues/432",
           "ours": "n261.txt"
         }
       ],
@@ -8964,7 +8930,7 @@
         {
           "source": "evand",
           "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
+          "request": "https://github.com/jlevy/squares/issues/481",
           "ours": "n263.txt"
         }
       ],
@@ -11551,7 +11517,7 @@
         "sha256": "293eb22a57044452905f8b80f4000f05d18b6b33743ad3b84af90c56346714e4",
         "pending": true
       },
-      "own": 20.982817421754064,
+      "own": 20.982817268346334,
       "own_status": "best known"
     },
     "422": {
@@ -11569,7 +11535,7 @@
         "sha256": "97832c44c4b15b87771da3dddbceb3c686535ee8748f7e68c8121a124008c5f8",
         "pending": true
       },
-      "own": 20.984021832958597,
+      "own": 20.983607310151534,
       "own_status": "best known"
     },
     "460": {
@@ -11587,7 +11553,7 @@
         "sha256": "3b2c3916e21079ba171cead7b7de2d65535e74b4560d48dc1e5c058c3a894d6d",
         "pending": true
       },
-      "own": 21.95765194367981,
+      "own": 21.95755854252612,
       "own_status": "best known"
     },
     "463": {
@@ -11605,7 +11571,7 @@
         "sha256": "6740ef0a765277491971955beb09c6188febe4f39343cd3b59f859cae51bdfcb",
         "pending": true
       },
-      "own": 21.98402183295882,
+      "own": 21.983605908160243,
       "own_status": "best known"
     },
     "464": {
@@ -11635,7 +11601,7 @@
         }
       ],
       "seed": "n464.txt",
-      "own": 21.988813017163615,
+      "own": 21.988035588857308,
       "own_status": "best known"
     },
     "507": {
@@ -11779,7 +11745,7 @@
         "sha256": "0a6077d8119d5a61927411a426ef9c8b59af015de09ed2b5188c5be246696579",
         "pending": true
       },
-      "own": 27.9949737562835,
+      "own": 27.993798579004945,
       "own_status": "best known"
     },
     "813": {
@@ -11797,7 +11763,7 @@
         "sha256": "8d40e5245310e0138975481996693428a4b4a746544527484bec2bbcfeadbafb",
         "pending": true
       },
-      "own": 28.989935237410613,
+      "own": 28.989934397764348,
       "own_status": "best known"
     },
     "814": {
@@ -11815,7 +11781,7 @@
         "sha256": "d0706af82df33710e85d9e0c62b9d07e2929bfd25bfece748f0f6021240f0914",
         "pending": true
       },
-      "own": 28.995946347729394,
+      "own": 28.99379857900516,
       "own_status": "best known"
     },
     "871": {
@@ -11851,7 +11817,7 @@
         "sha256": "70db1803759ae335b796f05c7609421db39ef754336935fdf8aaa84b90d8017d",
         "pending": true
       },
-      "own": 30.989936243516347,
+      "own": 30.989934734706267,
       "own_status": "best known"
     },
     "994": {
@@ -11869,7 +11835,7 @@
         "sha256": "aef770c71d1d8884c1937fd168ce71de9f18b5d7484723c9408f628d1e2050c2",
         "pending": true
       },
-      "own": 31.99533694628733,
+      "own": 31.993865896565417,
       "own_status": "best known"
     },
     "327": {
@@ -12056,7 +12022,7 @@
         "pending": true
       },
       "seed": "n603.txt",
-      "own": 24.99526806407743,
+      "own": 24.994263342362846,
       "own_status": "best known"
     },
     "654": {
@@ -12074,8 +12040,8 @@
         "pending": true
       },
       "seed": "n654.txt",
-      "own": 25.99610390893134,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.995905846647037,
+      "own_status": "best known"
     },
     "706": {
       "side": 26.998712100404344,
@@ -12092,7 +12058,7 @@
         "pending": true
       },
       "seed": "n706.txt",
-      "own": 26.998712099433593,
+      "own": 26.99863949564985,
       "own_status": "best known"
     },
     "760": {
@@ -12110,7 +12076,7 @@
         "pending": true
       },
       "seed": "n760.txt",
-      "own": 27.995949339633306,
+      "own": 27.995946706513976,
       "own_status": "best known"
     },
     "817": {
@@ -12128,7 +12094,7 @@
         "pending": true
       },
       "seed": "n817.txt",
-      "own": 28.99835217793205,
+      "own": 28.99823467534392,
       "own_status": "best known"
     },
     "875": {
@@ -12182,7 +12148,7 @@
         "pending": true
       },
       "seed": "n998.txt",
-      "own": 31.998349747022186,
+      "own": 31.998301912088532,
       "own_status": "best known"
     }
   },
@@ -12197,7 +12163,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n339.cert",
         "sha256": "c09a12a5242f7ac759a4ef30c1d64fb813cef4419344c3c9459af30cf2a7801c",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n339.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n339.cert",
         "checked": "2026-10-13T14:45:57Z"
       },
       "certificates": [
@@ -12208,7 +12174,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n339.cert",
           "sha256": "c09a12a5242f7ac759a4ef30c1d64fb813cef4419344c3c9459af30cf2a7801c",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n339.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n339.cert",
           "checked": "2026-10-13T14:45:57Z"
         }
       ],
@@ -12225,7 +12191,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
         "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/hunt3_n343.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/hunt3_n343.cert",
         "checked": "2026-10-10T19:07:33Z",
         "same_as_ours": "n343.txt"
       },
@@ -12237,7 +12203,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
           "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/hunt3_n343.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/hunt3_n343.cert",
           "checked": "2026-10-10T19:07:33Z",
           "same_as_ours": "n343.txt"
         },
@@ -12265,7 +12231,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
         "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/hunt3_n344.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/hunt3_n344.cert",
         "checked": "2026-10-10T19:07:34Z"
       },
       "certificates": [
@@ -12276,7 +12242,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n344.cert",
           "sha256": "54bb6b6696b96ccf6a30db313ee4e62240fe17c070624fd916b59b483f7b20cc",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/hunt3_n344.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/hunt3_n344.cert",
           "checked": "2026-10-10T19:07:34Z"
         },
         {
@@ -12303,7 +12269,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n364.cert",
         "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n364.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n364.cert",
         "checked": "2026-10-13T14:45:58Z",
         "same_as_ours": "n364_s19.583782203955.txt"
       },
@@ -12315,7 +12281,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n364.cert",
           "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n364.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n364.cert",
           "checked": "2026-10-13T14:45:58Z",
           "same_as_ours": "n364_s19.583782203955.txt"
         }
@@ -12333,7 +12299,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n365.cert",
         "sha256": "2d03e6bfd6993488adbf5d851d5b77feb0cd9a5dbe722f690932abe096d1e8ed",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n365.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n365.cert",
         "checked": "2026-10-14T07:06:09Z",
         "same_as_ours": "n365.txt"
       },
@@ -12345,7 +12311,7 @@
           "request": "https://github.com/jlevy/squares/issues/596",
           "certificate": "evand/search/packer/candidates/fresh_n365.cert",
           "sha256": "2d03e6bfd6993488adbf5d851d5b77feb0cd9a5dbe722f690932abe096d1e8ed",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n365.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n365.cert",
           "checked": "2026-10-14T07:06:09Z",
           "same_as_ours": "n365.txt"
         }
@@ -12363,7 +12329,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n370.cert",
         "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n370.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n370.cert",
         "checked": "2026-10-14T07:06:10Z"
       },
       "certificates": [
@@ -12374,7 +12340,7 @@
           "request": "https://github.com/jlevy/squares/issues/596",
           "certificate": "evand/search/packer/candidates/fresh_n370.cert",
           "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n370.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n370.cert",
           "checked": "2026-10-14T07:06:10Z"
         }
       ],
@@ -12391,7 +12357,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n375.cert",
         "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n375.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n375.cert",
         "checked": "2026-10-13T14:45:56Z",
         "same_as_ours": "n375.txt"
       },
@@ -12403,7 +12369,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n375.cert",
           "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/comp2_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/comp2_n375.cert",
           "checked": "2026-10-13T14:45:56Z",
           "same_as_ours": "n375.txt"
         },
@@ -12414,7 +12380,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
           "certificate": "evand/search/packer/candidates/big1_n375.cert",
           "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/big1_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/big1_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.906981767294.txt"
         },
@@ -12425,7 +12391,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
           "certificate": "evand/search/packer/candidates/polish_n375.cert",
           "sha256": "fa92e2b602f87b5fcd2c7d0973cfba3ba64046fdd9aec5ed1292dd29a231bc8a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/polish_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/polish_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.907024202150.txt"
         }
@@ -12542,7 +12508,7 @@
           "checked": "2026-10-12T21:09:54Z"
         }
       ],
-      "own": 20.982817421754064,
+      "own": 20.982817268346334,
       "own_status": "best known"
     },
     "422": {
@@ -12570,7 +12536,7 @@
           "checked": "2026-10-13T00:15:51Z"
         }
       ],
-      "own": 20.984021832958597,
+      "own": 20.983607310151534,
       "own_status": "best known"
     },
     "460": {
@@ -12583,7 +12549,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n460.cert",
         "sha256": "3b2c3916e21079ba171cead7b7de2d65535e74b4560d48dc1e5c058c3a894d6d",
-        "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n460.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n460.cert",
         "checked": "2026-10-14T07:06:11Z"
       },
       "certificates": [
@@ -12594,11 +12560,11 @@
           "request": "https://github.com/jlevy/squares/issues/596",
           "certificate": "evand/search/packer/candidates/fresh_n460.cert",
           "sha256": "3b2c3916e21079ba171cead7b7de2d65535e74b4560d48dc1e5c058c3a894d6d",
-          "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/packer/candidates/fresh_n460.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/5ca0dc3ae7a4eebce16838bf41bedc2ce7e98241/search/packer/candidates/fresh_n460.cert",
           "checked": "2026-10-14T07:06:11Z"
         }
       ],
-      "own": 21.95765194367981,
+      "own": 21.95755854252612,
       "own_status": "best known"
     },
     "463": {
@@ -12626,7 +12592,7 @@
           "checked": "2026-10-12T21:09:56Z"
         }
       ],
-      "own": 21.98402183295882,
+      "own": 21.983605908160243,
       "own_status": "best known"
     },
     "464": {
@@ -12656,7 +12622,7 @@
         }
       ],
       "seed": "n464.txt",
-      "own": 21.988813017163615,
+      "own": 21.988035588857308,
       "own_status": "best known"
     },
     "507": {
@@ -12880,7 +12846,7 @@
           "checked": "2026-10-13T00:15:56Z"
         }
       ],
-      "own": 27.9949737562835,
+      "own": 27.993798579004945,
       "own_status": "best known"
     },
     "813": {
@@ -12908,7 +12874,7 @@
           "checked": "2026-10-15T00:22:18Z"
         }
       ],
-      "own": 28.989935237410613,
+      "own": 28.989934397764348,
       "own_status": "best known"
     },
     "814": {
@@ -12936,7 +12902,7 @@
           "checked": "2026-10-13T00:15:59Z"
         }
       ],
-      "own": 28.995946347729394,
+      "own": 28.99379857900516,
       "own_status": "best known"
     },
     "871": {
@@ -12992,7 +12958,7 @@
           "checked": "2026-10-15T00:22:24Z"
         }
       ],
-      "own": 30.989936243516347,
+      "own": 30.989934734706267,
       "own_status": "best known"
     },
     "994": {
@@ -13020,7 +12986,7 @@
           "checked": "2026-10-15T00:22:27Z"
         }
       ],
-      "own": 31.99533694628733,
+      "own": 31.993865896565417,
       "own_status": "best known"
     },
     "327": {
@@ -13207,7 +13173,7 @@
         "pending": true
       },
       "seed": "n603.txt",
-      "own": 24.99526806407743,
+      "own": 24.994263342362846,
       "own_status": "best known"
     },
     "654": {
@@ -13225,8 +13191,8 @@
         "pending": true
       },
       "seed": "n654.txt",
-      "own": 25.99610390893134,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.995905846647037,
+      "own_status": "best known"
     },
     "706": {
       "side": 26.998712100404344,
@@ -13243,7 +13209,7 @@
         "pending": true
       },
       "seed": "n706.txt",
-      "own": 26.998712099433593,
+      "own": 26.99863949564985,
       "own_status": "best known"
     },
     "760": {
@@ -13261,7 +13227,7 @@
         "pending": true
       },
       "seed": "n760.txt",
-      "own": 27.995949339633306,
+      "own": 27.995946706513976,
       "own_status": "best known"
     },
     "817": {
@@ -13279,7 +13245,7 @@
         "pending": true
       },
       "seed": "n817.txt",
-      "own": 28.99835217793205,
+      "own": 28.99823467534392,
       "own_status": "best known"
     },
     "875": {
@@ -13333,7 +13299,7 @@
         "pending": true
       },
       "seed": "n998.txt",
-      "own": 31.998349747022186,
+      "own": 31.998301912088532,
       "own_status": "best known"
     }
   },
@@ -16333,8 +16299,8 @@
       "also_found_by": [
         {
           "source": "evand",
-          "credit": "Evan Daniel",
-          "request": "https://github.com/jlevy/squares/issues/399",
+          "credit": "Evan Daniel (new local minimum from Daniil Ostashev's n=155 seed)",
+          "request": "https://github.com/jlevy/squares/issues/669",
           "ours": "n155.txt"
         },
         {
@@ -16345,7 +16311,7 @@
         },
         {
           "source": "evand",
-          "credit": "Daniil Ostashev (dostashev), refined by Evan Daniel (evand)",
+          "credit": "Evan Daniel (evand)",
           "request": "https://github.com/jlevy/squares/issues/669",
           "ours": "n155_s12.952425406961.txt"
         },
@@ -16714,7 +16680,7 @@
         {
           "source": "evand",
           "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
+          "request": "https://github.com/jlevy/squares/issues/422",
           "ours": "n179.txt"
         },
         {
@@ -16766,12 +16732,6 @@
       "register": 13.916993522477833,
       "register_text": "13916993522477832483558124720393/1000000000000000000000000000000",
       "also_found_by": [
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n180.txt"
-        },
         {
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
@@ -17376,12 +17336,6 @@
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
           "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n209.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
           "ours": "n209.txt"
         },
         {
@@ -18042,12 +17996,6 @@
           "ours": "n238.txt"
         },
         {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n238.txt"
-        },
-        {
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
           "request": "https://github.com/jlevy/squares/issues/593",
@@ -18114,12 +18062,6 @@
           "source": "squish",
           "credit": "Nate Chaoweeraprasit (SQUISH)",
           "request": "https://github.com/jlevy/squares/issues/500",
-          "ours": "n239.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
           "ours": "n239.txt"
         },
         {
@@ -18494,8 +18436,8 @@
         },
         {
           "source": "evand",
-          "credit": "PingYou Ltd (BuddenPing)",
-          "request": "https://github.com/jlevy/squares/issues/567",
+          "credit": "Ryan Xu (ry-xu)",
+          "request": "https://github.com/jlevy/squares/issues/432",
           "ours": "n261.txt"
         },
         {
@@ -18508,12 +18450,6 @@
           "source": "mishapolk",
           "credit": "Mykhailo Polkovskyi (Mishapolk)",
           "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n261.txt"
-        },
-        {
-          "source": "ry-xu",
-          "credit": "Ryan Xu",
-          "request": "https://github.com/jlevy/squares/issues/432",
           "ours": "n261.txt"
         }
       ],
@@ -18703,7 +18639,7 @@
         {
           "source": "evand",
           "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
+          "request": "https://github.com/jlevy/squares/issues/481",
           "ours": "n263.txt"
         }
       ],
@@ -22722,7 +22658,7 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 14.80864441630906,
+      "own": 14.808644367212981,
       "own_status": "best known",
       "seed": "n204.txt"
     },
@@ -22760,24 +22696,26 @@
       "seed": "n205.txt"
     },
     "229": {
-      "side": 15.650174756948212,
+      "side": 15.650161513895553,
       "source": "reviewed-submission",
       "register": 15.65685424949238,
       "register_text": "10 + 4 \u221a2",
       "external": {
-        "side": "156501747569482131747919637148801852719869637315233948984618327625011520667543259632677498716011131748832131668750692746335433269145213277034738380207139541/10000000000000000000000000000001737366297119815888250696550926607660931327350731575578989919015034082413286101971092035771621296900000000000000000000000000",
-        "side_decimal": 15.650174756948212,
+        "side": "7825080756947776580756939951343/500000000000000000000000000000",
+        "side_decimal": 15.650161513895553,
         "source": "reviewed-submission",
-        "credit": "Joost de Winter",
-        "request": "https://github.com/jlevy/squares/issues/668",
+        "credit": "Evan Daniel; start: Francisco Couzo, after Joost de Winter",
+        "request": "https://github.com/jlevy/squares/issues/674#issuecomment-6244298663",
         "certificate": "certificates/best/n229.cert",
-        "sha256": "34ddede798ec3bc6ff9e94fd4c12ee12207946dd43435001e8ac9e9aacdde419",
-        "certificate_url": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n229/n229_record.cert",
+        "sha256": "1a35a7806b6cc01b232d5c634efdbe789c7df979cec6ab28d6ab283ac2b47e23",
+        "certificate_url": "https://github.com/evand/square-packing/blob/00e68dfbe1d29ab5dbab1cddfb8f6ca19d5470db/search/packer/candidates/s229_v2.cert",
         "pending": true
       },
-      "seed": "n229.txt",
-      "own": 15.650174740257427,
-      "own_status": "best known"
+      "register_found_by": [],
+      "register_improved_by": [],
+      "own": 15.650161513897281,
+      "own_status": "tied (within 1e-10)",
+      "seed": "n229.txt"
     },
     "234": {
       "side": 15.822875655532295,
@@ -23700,7 +23638,9 @@
           "checked": "2026-10-13T00:15:52Z"
         }
       ],
-      "seed": "n464.txt"
+      "seed": "n464.txt",
+      "own": 21.988035588857308,
+      "own_status": "best known"
     },
     "509": {
       "side": 22.99432803643798,
@@ -23716,7 +23656,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
         "pending": true
       },
-      "seed": "n509.txt"
+      "seed": "n509.txt",
+      "own": 22.99432803644241,
+      "own_status": "tied (within 1e-10)"
     },
     "555": {
       "side": 23.993653790590937,
@@ -23732,7 +23674,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert",
         "pending": true
       },
-      "seed": "n555.txt"
+      "seed": "n555.txt",
+      "own": 23.993653790595477,
+      "own_status": "tied (within 1e-10)"
     },
     "603": {
       "side": 24.995268064196132,
@@ -23748,7 +23692,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert",
         "pending": true
       },
-      "seed": "n603.txt"
+      "seed": "n603.txt",
+      "own": 24.994263342362846,
+      "own_status": "best known"
     },
     "654": {
       "side": 25.99610390896455,
@@ -23764,7 +23710,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0654.cert",
         "pending": true
       },
-      "seed": "n654.txt"
+      "seed": "n654.txt",
+      "own": 25.995905846647037,
+      "own_status": "best known"
     },
     "706": {
       "side": 26.998712100404344,
@@ -23780,7 +23728,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0706.cert",
         "pending": true
       },
-      "seed": "n706.txt"
+      "seed": "n706.txt",
+      "own": 26.99863949564985,
+      "own_status": "best known"
     },
     "760": {
       "side": 27.995949340328725,
@@ -23796,7 +23746,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
         "pending": true
       },
-      "seed": "n760.txt"
+      "seed": "n760.txt",
+      "own": 27.995946706513976,
+      "own_status": "best known"
     },
     "817": {
       "side": 28.998488480774906,
@@ -23812,7 +23764,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0817.cert",
         "pending": true
       },
-      "seed": "n817.txt"
+      "seed": "n817.txt",
+      "own": 28.99823467534392,
+      "own_status": "best known"
     },
     "875": {
       "side": 29.998783733107928,
@@ -23828,7 +23782,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0875.cert",
         "pending": true
       },
-      "seed": "n875.txt"
+      "seed": "n875.txt",
+      "own": 29.99878373311382,
+      "own_status": "tied (within 1e-10)"
     },
     "935": {
       "side": 30.99595585483392,
@@ -23844,7 +23800,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
         "pending": true
       },
-      "seed": "n935.txt"
+      "seed": "n935.txt",
+      "own": 30.995336946287125,
+      "own_status": "best known"
     },
     "998": {
       "side": 31.99834974735456,
@@ -23860,7 +23818,9 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0998.cert",
         "pending": true
       },
-      "seed": "n998.txt"
+      "seed": "n998.txt",
+      "own": 31.998301912088532,
+      "own_status": "best known"
     }
   },
   "reviewed_submissions": {
@@ -31194,6 +31154,17 @@
         "sha256": "34ddede798ec3bc6ff9e94fd4c12ee12207946dd43435001e8ac9e9aacdde419",
         "certificate_url": "https://github.com/JoostdeWinter/square-packing/blob/c95c4938f068ed44a1819ef973e770ec241aa567/n229/n229_record.cert",
         "pending": true
+      },
+      {
+        "side": "7825080756947776580756939951343/500000000000000000000000000000",
+        "side_decimal": 15.650161513895553,
+        "source": "reviewed-submission",
+        "credit": "Evan Daniel; start: Francisco Couzo, after Joost de Winter",
+        "request": "https://github.com/jlevy/squares/issues/674#issuecomment-6244298663",
+        "certificate": "certificates/best/n229.cert",
+        "sha256": "1a35a7806b6cc01b232d5c634efdbe789c7df979cec6ab28d6ab283ac2b47e23",
+        "certificate_url": "https://github.com/evand/square-packing/blob/00e68dfbe1d29ab5dbab1cddfb8f6ca19d5470db/search/packer/candidates/s229_v2.cert",
+        "pending": true
       }
     ],
     "230": [
@@ -34985,6 +34956,17 @@
       849
     ],
     "latest_main_checked": "6a3a7d8fe53975c07a184ef5d2703b9a2fc31cc5",
-    "latest_main_seed_changes": 0
+    "latest_main_seed_changes": 0,
+    "publication_history_review": {
+      "generated": "2026-10-17T22:29:29.904694+00:00",
+      "main": "804eff369193b698d497a9c06847059eb9de0470",
+      "report": "RECORD_PROVENANCE.md",
+      "data": "record_provenance.json",
+      "issues": 122,
+      "PRs": 511,
+      "comments": 1105,
+      "new_records": 0,
+      "matching_geometry_note": "also_found_by is a geometry-match inventory, not evidence of independent discovery or priority."
+    }
   }
 }
