@@ -86,6 +86,7 @@ REGISTER = "https://raw.githubusercontent.com/jlevy/squares/{}/packing/frontier/
 # Registration requests by certificate, where a source has filed more than one.
 REQUEST_BY_PATH = {"evand/search/packer/candidates/hunt1_": "https://github.com/jlevy/squares/issues/465",
                    "evand/search/packer/candidates/hunt3_": "https://github.com/jlevy/squares/issues/489",
+                   "evand/search/packer/candidates/s183_h183b": "https://github.com/jlevy/squares/issues/680",
                    "evand/search/packer/candidates/tt_n154": "https://github.com/jlevy/squares/issues/552",
                    "evand/search/packer/candidates/fresh_n": "https://github.com/jlevy/squares/issues/596",
                    "evand/search/packer/candidates/big1_n375.": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
@@ -142,6 +143,8 @@ def credit_for(source, path):
         return 'Ryan Xu, refined by Mishapolk'
     if str(path).startswith('mishapolk/certificates/square-258.cert'):
         return 'Nate Chaoweeraprasit (SQUISH), refined by Mishapolk'
+    if str(path).startswith('evand/search/packer/candidates/s183_h183b'):
+        return 'Evan Daniel; start: Francisco Couzo'
     if str(path).startswith('evand/search/packer/candidates/tt_n154'):
         return 'Evan Daniel (from Francisco Couzo\'s n=155 seed)'
     if str(path).startswith('evand/search/packer/candidates/hunt3_n34'):

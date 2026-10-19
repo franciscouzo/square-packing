@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T22:01:02.865718+00:00",
+  "generated": "2026-10-19T14:28:39.252602+00:00",
   "max_n": 1024,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -3180,17 +3180,19 @@
     },
     "183": {
       "verified": {
-        "bound": "14",
-        "source": "integer square grid",
-        "status": "verified construction",
-        "credit": "square grid",
-        "rounded_up": "14.000000000000"
+        "bound": "13999580178736252502081470897571/1000000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/680",
+        "status": "exact certificate verified; adoption pending",
+        "credit": "Evan Daniel; start: Francisco Couzo",
+        "sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5",
+        "rounded_up": "13.999580178737"
       },
       "reported": {
-        "bound": "14",
-        "source": "integer square grid",
-        "status": "verified construction",
-        "credit": "square grid"
+        "bound": "13999580178736252502081470897571/1000000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/680",
+        "status": "exact certificate verified; adoption pending",
+        "credit": "Evan Daniel; start: Francisco Couzo",
+        "sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5"
       }
     },
     "184": {

@@ -2,7 +2,7 @@
 
 The complete index covers every n=1..1024. Exact certificate headers and algebraic proofs are authoritative; displayed sides are rounded upward to 12 decimal places.
 
-This directory retains **542 finite rational witnesses**. Original construction and certificate credits, source submissions, parent witnesses and byte hashes are in [manifest.json](manifest.json). The machine, repository, issue and PR review is recorded in [bound_sources.json](../../bound_sources.json).
+This directory retains **543 finite rational witnesses**. Original construction and certificate credits, source submissions, parent witnesses and byte hashes are in [manifest.json](manifest.json). The machine, repository, issue and PR review is recorded in [bound_sources.json](../../bound_sources.json).
 
 Replay the finite witnesses from the repository root using Python 3 and its standard library:
 
@@ -98,6 +98,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [180](n180.cert) | 13.916993522478 | PingYou Ltd (BuddenPing) |
 | [181](n181.cert) | 13.950819531023 | PingYou Ltd (BuddenPing) |
 | [182](n182.cert) | 13.974090713122 | PingYou Ltd (BuddenPing) |
+| [183](n183.cert) | 13.999580178737 | Evan Daniel; start: Francisco Couzo |
 | [197](n197.cert) | 14.535533905933 | PingYou Ltd (BuddenPing) |
 | [198](n198.cert) | 14.571428571429 | PingYou Ltd (BuddenPing) |
 | [199](n199.cert) | 14.617572173593 | PingYou Ltd (BuddenPing) |

@@ -191,7 +191,7 @@ The table above compares with the catalogue as fetched in September. Against the
 
 <!-- expanded-search-results -->
 
-Recorded packings also cover n=325–998. The derived reference bounds remain the frozen L-border/grid comparisons. Published bounds come from the verified sources in `known_best.json`; their values below are rounded upward. Reviewed published comparisons cover 41 of these 362 counts as of 2026-10-18. A dash means no published comparison was established in the reviewed sources. Source revisions and certificate links are recorded in [known_best.json](known_best.json).
+Recorded packings also cover n=325–998. The derived reference bounds remain the frozen L-border/grid comparisons. Published bounds come from the verified sources in `known_best.json`; their values below are rounded upward. Reviewed published comparisons cover 41 of these 362 counts as of 2026-10-19. A dash means no published comparison was established in the reviewed sources. Source revisions and certificate links are recorded in [known_best.json](known_best.json).
 
 | n | derived reference bound | found here (numerical) | improvement over reference | verified published bound | published source | standing |
 |---|---|---|---|---|---|---|

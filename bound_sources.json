@@ -2170,5 +2170,225 @@
     ],
     "outward_rounding_and_monotonicity_checked": true,
     "exact_reported_precision_corrections": []
+  },
+  "record_check_20261019_1430": {
+    "captured": "2026-10-19T14:30:06.993444+00:00",
+    "comparison_commit": "7b6c87e129cf80b5ff9847b90b47fd30b4563c54",
+    "native_search": {
+      "coordinator_jobs_completed": 2583,
+      "counts_searched": 205,
+      "count_range": [
+        68,
+        319
+      ],
+      "improvements": 0,
+      "window": "2026-10-18T23:19:02Z to 2026-10-19T14:07Z"
+    },
+    "new_public_witnesses": 1,
+    "direct_counts": [
+      183
+    ],
+    "changed_bound_counts": [
+      183
+    ],
+    "changed_lower_bound_counts": [
+      108
+    ],
+    "public_witnesses": {
+      "183": {
+        "side": "13999580178736252502081470897571/1000000000000000000000000000000",
+        "rounded_up": "13.999580178737",
+        "previous_upper": "14 (integer square grid)",
+        "credit": "Evan Daniel; start: Francisco Couzo",
+        "request": "https://github.com/jlevy/squares/issues/680",
+        "source_url": "https://github.com/evand/square-packing/blob/3a9948c781be668b1547cc2bf64a0d1e614f9bca/search/packer/candidates/s183_h183b.cert",
+        "sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5",
+        "retained": "certificates/best/n183.cert",
+        "exact_routes": [
+          "jlevy/squares rational corner verifier",
+          "verify_bound_certificate.py exact separating axes (closed and strict)"
+        ],
+        "upstream_status": "replayed and reviewed upstream; registration prepared, not yet on main"
+      }
+    },
+    "lower_bounds": {
+      "108": {
+        "bound": "531/50",
+        "result": "T-216",
+        "tier": "V3/C3",
+        "source": "https://github.com/jlevy/squares/blob/0ee05f4f3d0863f75c1036757839985e75655677/packing/frontier/n-108.md"
+      }
+    },
+    "sources": {
+      "squish": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
+      "ry-xu": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
+      "evand": "3a9948c781be668b1547cc2bf64a0d1e614f9bca",
+      "sidg2k1": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
+      "mishapolk": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "snakefang": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
+      "ebdeleeuw": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
+      "dostashev": "b909e1b74cda50906e12b4373e010ddee39e47e4",
+      "buddenping": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
+      "rbarnett": "52cf1cc7ba006731ef76818267216c87bb63281e",
+      "register": "0ee05f4f3d0863f75c1036757839985e75655677"
+    },
+    "github": {
+      "captured": "2026-10-19T14:30:06.993444+00:00",
+      "main": "f3d5da7bd77d931c915db7e9393f9ebff75a85ac",
+      "previous_main": "804eff369193b698d497a9c06847059eb9de0470",
+      "threads": [
+        {
+          "number": 678,
+          "title": "204-998: registration request",
+          "updated": "2026-10-19T14:22:50Z"
+        },
+        {
+          "number": 665,
+          "title": "feat(houses): adopt T-174 at 37 rational counts and regularize each (think-3mry)",
+          "updated": "2026-10-19T14:22:00Z"
+        },
+        {
+          "number": 680,
+          "title": "s(183) \u2264 13.999580178737: registration request (first 183 below the grid)",
+          "updated": "2026-10-19T13:54:01Z"
+        },
+        {
+          "number": 603,
+          "title": "s(n\u00b2 \u2212 n + 1) < n for every n \u2265 15, and the F(n) excess (Kevin Fang): tracking an unreported result",
+          "updated": "2026-10-19T13:53:59Z"
+        },
+        {
+          "number": 578,
+          "title": "feat: person profiles, linked news and reviewed attribution (supersedes #490)",
+          "updated": "2026-10-19T13:01:07Z"
+        },
+        {
+          "number": 683,
+          "title": "test: Wait for header readiness before checking rule diagnostics",
+          "updated": "2026-10-19T12:59:32Z"
+        },
+        {
+          "number": 407,
+          "title": "fix: Assure Darwin libproc RSS with native SDK and CI controls",
+          "updated": "2026-10-19T12:09:35Z"
+        },
+        {
+          "number": 446,
+          "title": "Seven fine-net measure certificates: lower bounds for n = 19, 20, 26, 27, 28, 29, 31 (after T-102 to T-111)",
+          "updated": "2026-10-19T10:42:43Z"
+        },
+        {
+          "number": 671,
+          "title": "research(#446): retain 18 fine-net lower bounds and adopt n108",
+          "updated": "2026-10-19T10:25:28Z"
+        },
+        {
+          "number": 679,
+          "title": "fix: enable canonical Rust multiplication by default",
+          "updated": "2026-10-19T08:56:47Z"
+        },
+        {
+          "number": 682,
+          "title": "fix: validate complete release chains in atomic deliveries",
+          "updated": "2026-10-19T07:32:52Z"
+        },
+        {
+          "number": 681,
+          "title": "process(policy): authorize reviewed autonomous merges",
+          "updated": "2026-10-19T07:25:19Z"
+        },
+        {
+          "number": 622,
+          "title": "data: submit a tighter exact N29 packing certificate",
+          "updated": "2026-10-19T07:19:34Z"
+        },
+        {
+          "number": 675,
+          "title": "204-998: registration request",
+          "updated": "2026-10-19T06:57:56Z"
+        },
+        {
+          "number": 674,
+          "title": "s(229) \u2264 15.650163254859: registration request",
+          "updated": "2026-10-19T06:57:55Z"
+        },
+        {
+          "number": 673,
+          "title": "Credit correction request: s(146) and s(308) found_by",
+          "updated": "2026-10-19T06:57:53Z"
+        },
+        {
+          "number": 672,
+          "title": "227, 229, 330-996: registration request",
+          "updated": "2026-10-19T06:57:51Z"
+        },
+        {
+          "number": 670,
+          "title": "204-993: registration request",
+          "updated": "2026-10-19T06:57:50Z"
+        },
+        {
+          "number": 669,
+          "title": "s(155) \u2264 12.952260944651: registration request",
+          "updated": "2026-10-19T06:57:48Z"
+        },
+        {
+          "number": 668,
+          "title": "Improved upper bounds for n = 227, 229, 260: registration request",
+          "updated": "2026-10-19T06:57:47Z"
+        },
+        {
+          "number": 666,
+          "title": "s(n) < \u2308\u221an\u2309 at 18 counts from n = 509 to 1568, and s(464) \u2264 21.98881: registration request",
+          "updated": "2026-10-19T06:57:45Z"
+        },
+        {
+          "number": 664,
+          "title": "s(271) \u2264 16.948947733714: registration request",
+          "updated": "2026-10-19T06:57:43Z"
+        },
+        {
+          "number": 659,
+          "title": "s(236) \u2264 15.861934390608: registration request",
+          "updated": "2026-10-19T06:57:42Z"
+        },
+        {
+          "number": 537,
+          "title": "Take Valid7 in the Lean kernel (evand/square-packing 060c1a1) as evidence for T-064",
+          "updated": "2026-10-19T06:57:40Z"
+        },
+        {
+          "number": 667,
+          "title": "records(intake): the 17 October sweep, stages 0 and 1: #659, #664, #446's 18 lower bounds, six watch reads (think-e2sz)",
+          "updated": "2026-10-19T06:30:11Z"
+        },
+        {
+          "number": 676,
+          "title": "research: register six reported bounds from October intake",
+          "updated": "2026-10-19T06:22:15Z"
+        },
+        {
+          "number": 661,
+          "title": "records(#622): PingYou Ltd's N29 certificate, replayed on both exact routes and registered as T-195 (think-30n2)",
+          "updated": "2026-10-19T06:22:15Z"
+        },
+        {
+          "number": 403,
+          "title": "feat: preserve exact polynomials through native source adoption",
+          "updated": "2026-10-18T23:28:25Z"
+        }
+      ],
+      "open_PRs": 10,
+      "register_compared": "0ee05f4f3d0863f75c1036757839985e75655677",
+      "later_main_check": {
+        "main": "f3d5da7bd77d931c915db7e9393f9ebff75a85ac",
+        "merged": "jlevy/squares#665 (T-174 adopted at 37 counts)",
+        "changed_register_rows": 37,
+        "rows_below_this_repository": 0,
+        "note": "Each changed register upper equals the retained exact bound here, except n155 where ours is smaller."
+      }
+    },
+    "generated": "2026-10-19T14:30:06.993444+00:00",
+    "previous_commit": "7b6c87e129cf80b5ff9847b90b47fd30b4563c54"
   }
 }

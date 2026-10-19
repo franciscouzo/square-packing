@@ -1,6 +1,6 @@
 {
   "scope": "1<=n<=1024",
-  "generated": "2026-10-18T22:00:15.551472+00:00",
+  "generated": "2026-10-19T14:28:31.703110+00:00",
   "first_checker": "https://github.com/jlevy/squares/blob/37e6757ed4c51a1d93f2f999814c2a5efbe2a223/packing/src/sqpack/verify.py",
   "second_checker": "verify_bound_certificate.py",
   "second_checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
@@ -2699,6 +2699,38 @@
         "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
         "contract": "exact closed-container feasibility, with separate strict verdict",
         "original_evand_receipt": null
+      }
+    },
+    "183": {
+      "kind": "certificate",
+      "bound": "13999580178736252502081470897571/1000000000000000000000000000000",
+      "source_n": 183,
+      "certificate": "certificates/best/n183.cert",
+      "certificate_sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5",
+      "credit": "Evan Daniel; start: Francisco Couzo",
+      "provenance": {
+        "category": "reviewed public submission",
+        "source_url": "https://github.com/evand/square-packing/blob/3a9948c781be668b1547cc2bf64a0d1e614f9bca/search/packer/candidates/s183_h183b.cert",
+        "request": "https://github.com/jlevy/squares/issues/680",
+        "construction_credit": [
+          "Francisco Couzo (s(182) register witness, start)"
+        ]
+      },
+      "verification": {
+        "valid": true,
+        "pairs_tested": 2429,
+        "side": "13999580178736252502081470897571/1000000000000000000000000000000",
+        "n": 183
+      },
+      "strict_verification": {
+        "valid": true,
+        "closed_valid": true,
+        "sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5",
+        "candidate_pairs": 2429,
+        "near_pairs": 424,
+        "checker": "verify_bound_certificate.py",
+        "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+        "contract": "exact closed-container feasibility, with separate strict verdict"
       }
     },
     "197": {
