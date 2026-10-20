@@ -1,13 +1,24 @@
 {
   "n": 259,
   "packing": "n259.txt",
-  "packing_sha256": "8678a3dcd48ecacdecf82a4d5669c01bbf3677893ed3c538e89b0ed01fde7ae4",
+  "packing_sha256": "50f48ba41e11c22c588f1b38c2b646502770c2e2f2f2d662b4e7f2596a37bfdf",
   "certificate": "certificates/n259.cert",
-  "certificate_sha256": "17a9cb4ac4f72021c112e70e5c378bf29de49fc2eff5df24e6f2aac2cdc00af0",
-  "rational_side": "4147844536374424539900215795867/250000000000000000000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "6f4bdc6dc41647035adae1a87ec93e800ed365d6901f89ef75b80cdcf8e85adc",
+  "rational_side": "18907505182852544055466875224973108622236774449054156138563462157869436677010543373785802236558055395010330876249557360878964517855050133027843490860697134911137459935693070813672614388734381608942833599876138117960594374687105929040603825567217026475335560353669083047040415407060217517/1139598230903040400412205030911189415514440979756747895174049339999315142596009335369035683328058364445657959270298091180498586055114033957638749760610372225169205222580281174315644106739848666568411839296934870271121249867327660361250324906024953647535769808701675303428780097105074116",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "PingYou Ltd (BuddenPing)"
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "6f4bdc6dc41647035adae1a87ec93e800ed365d6901f89ef75b80cdcf8e85adc",
+    "source_n": 259,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "construction_credit": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

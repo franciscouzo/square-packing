@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-18T22:01:29.349172+00:00",
-  "scope": "1<=n<=1024",
+  "scope": "1<=n<=10000",
   "machines": {
     "CT104": {
       "captured": "2026-10-14T23:28:13.907626+00:00",
@@ -2390,5 +2390,87 @@
     },
     "generated": "2026-10-19T14:30:06.993444+00:00",
     "previous_commit": "7b6c87e129cf80b5ff9847b90b47fd30b4563c54"
+  },
+  "record_installation_20261019": {
+    "generated": "2026-10-19T22:08:44.857263+00:00",
+    "audit_summary": {
+      "checked_local_UTC_minus_3": "2026-10-19T18:59:14-03:00",
+      "comparison_commit": "d09edd7518637a2824c2885aecdafac8223cd278",
+      "comparison_range": [
+        1,
+        10000
+      ],
+      "native_new_counts": 0,
+      "web_new_counts": 8,
+      "web_counts": [
+        547,
+        597,
+        749,
+        750,
+        751,
+        805,
+        809,
+        925
+      ],
+      "public_competitive_counts": 99,
+      "public_source": "https://github.com/jlevy/squares/issues/686",
+      "large_new_counts": 72,
+      "large_range": [
+        1061,
+        9913
+      ],
+      "new_direct_source_improvements": 179,
+      "earlier_unlanded_precision_counts": [
+        509
+      ],
+      "verified_source_witnesses_including_precision": 180,
+      "all_improved_counts_with_constructions": 1189,
+      "all_improved_below_1024": 115,
+      "all_improved_through_1024": 115,
+      "comparison_classical_closure_states": 58990,
+      "new_construction_states": 18527,
+      "all_pass_both_exact_geometry_routes": true,
+      "public_gains_under_1e_minus_7": [
+        810
+      ],
+      "checks_are_relative_to_retained_sources_not_a_worldwide_priority_claim": true,
+      "committed": false,
+      "pushed": false,
+      "records_installed": false
+    },
+    "direct_witnesses": 659,
+    "construction_states": 124353,
+    "installed_previews": 451,
+    "registry": "certified_bounds.json",
+    "maximum_n": 10000
+  },
+  "public_reconciliation_20261020": {
+    "generated": "2026-10-20T22:26:37.947276+00:00",
+    "audit": "experiments/registration-20261020/public-update",
+    "coverage": {
+      "generated": "2026-10-20T21:20:05.314268+00:00",
+      "max_n": 10000,
+      "external_certificates": {
+        "squish": 58,
+        "ry-xu": 25,
+        "evand": 385,
+        "mishapolk": 100,
+        "sidg2k1": 14,
+        "snakefang": 55,
+        "ebdeleeuw": 1,
+        "dostashev": 12,
+        "buddenping": 7,
+        "rbarnett": 2
+      },
+      "prior_main_PR_witnesses": 687,
+      "open_threads": 74,
+      "open_PRs": 7,
+      "extracted_upper_reports": 554,
+      "public_finite_sources": 522,
+      "retained_finite_sources": 856,
+      "active_packings": 518,
+      "superseded_active_packings": 3,
+      "rounding_tolerance": "1/10000000000"
+    }
   }
 }

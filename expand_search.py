@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 PUBLISHED_MAX = 324
-SEARCH_MAX = 400
+SEARCH_MAX = 1024
 
 
 def catalogue(root):

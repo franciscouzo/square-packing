@@ -1,17 +1,21 @@
 {
   "n": 985,
   "packing": "n985.txt",
-  "packing_sha256": "bc32abd517e5cbf72ba1eeb66f15b7ee6b8fa977b845883b90ef1353ab922663",
+  "packing_sha256": "b993f7ae12f4a84d3311003d5de1ce12380ada0d0a5eeb3208f6037c71e640e6",
   "certificate": "certificates/n985.cert",
-  "certificate_sha256": "dd31156199a344c1bc0a8b4b3474c70fd9ccf79b7272f6e31c010ecf7b076d5e",
-  "rational_side": "11426130727112718888633018357/357958010103500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "d732921777517a6544725727bae9732e3fd38e40742e5df8003f3ab745bf8533",
+  "rational_side": "151772453123382777232691846593/4754729891171500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "d480175fe1d2838326360de3fbbb2123e7c666d854d636d47498caca24092017",
+    "source_n": 986,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": []
     },
-    "seed_credit": "Francisco Couzo"
+    "construction": null,
+    "deleted_squares": 1
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

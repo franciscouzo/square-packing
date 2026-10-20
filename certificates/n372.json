@@ -1,28 +1,30 @@
 {
   "n": 372,
   "packing": "n372.txt",
-  "packing_sha256": "706c8d71c78c25a6b117eb527f4da6b3803df976e8fad6e7779273a5a16aeb5b",
+  "packing_sha256": "7bdd745d96a2e17ddf99ec52827a482c9e4e9ee123430e0379bcdfe1edbd1cae",
   "certificate": "certificates/n372.cert",
-  "certificate_sha256": "61a0f1998b0348abfdcbb24ebc889cf7ee133d485e0fe33f21956f0cdc689908",
-  "rational_side": "97708841915802039604872306491/4929095233870500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "75ec58f8703e9ea10bb495bf8d562062871725272f3338da2e5614cb1f618721",
+  "rational_side": "17883009298919530533553200179/902140012864500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "search_job": {
-      "id": 23584,
-      "method": "hop",
-      "source": "n372.txt",
-      "source_sha256": "422695325897e9b15d247081a969a8b83a7243fbe611d835130c09b5a01617d4",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n372.txt",
-        "source_sha256": "51d41ec5c75c0b007752cec71753e2a109f188fceaa0503879435c0de8102f47",
-        "source_n": 372,
-        "source_side": 19.822875655778795,
-        "layers": 0,
-        "deleted": 0,
-        "side": 19.822875655778795
-      }
-    }
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "d500b46c6bad15967033ee4bf5b207d8afb6d8073272d407b22e8e8d450e380a",
+    "source_n": 335,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": []
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 335,
+      "source_bound": "16980869286055030533553200179/902140012864500000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 372,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

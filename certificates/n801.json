@@ -1,16 +1,45 @@
 {
   "n": 801,
   "packing": "n801.txt",
-  "packing_sha256": "5868ec09dd374eb7d49e6d56ec8ec3e88f0cd4fbd638963d87e06490a1e7cff6",
+  "packing_sha256": "a7041e81ab7f353ae5db6df9288cd560f90118b62e3e142cdf1511279fe7f028",
   "certificate": "certificates/n801.cert",
-  "certificate_sha256": "e0ed505f10e817a35399379379b32ce6febf14e1be7b9e934f9de42bfcf181bb",
-  "rational_side": "191986249295847725044724609797244341557303835406191583/6659615818244270287604996613709448416500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "27b72c177e25c9272fb4227ea93fbb2b2332f9fcca9b1f8d65ce3b0fcff68a80",
+  "rational_side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
-  },
-  "dilation": "1+1e-12"
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679",
+    "source_n": 803,
+    "source_provenance": {
+      "n": 803,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679.cert",
+      "certificate_sha256": "bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:94404dd326c8bb3978228174f99ff449",
+      "public_credit": "franciscouzo",
+      "created": 1792489477.1740124,
+      "submission_id": "94404dd326c8bb3978228174f99ff449",
+      "record": {
+        "n": 803,
+        "side": 28.82758522238407,
+        "previous": 28.827586279434172,
+        "previous_holder": "this project",
+        "rational_side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+        "float_side": 28.827585222356202,
+        "method": "fq",
+        "received": "20261020T094435Z",
+        "seed": "volunteer",
+        "sha256": "1d0d0cb8a5663f721b02d46b5bc37d5aa38e4822179f07430624a26a77b934db"
+      },
+      "rounded_up": "28.827585222385",
+      "previous": "28.888425229259",
+      "gain": 0.06084000687433147,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261020T094435Z"
+    },
+    "construction": null,
+    "deleted_squares": 2
+  }
 }

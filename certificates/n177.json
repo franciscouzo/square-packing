@@ -1,17 +1,24 @@
 {
   "n": 177,
   "packing": "n177.txt",
-  "packing_sha256": "37b4a1e142d44b5a4f9cad81f27b7d0df98981e4f1b2ae459ad2fa9011e4c7fd",
+  "packing_sha256": "df55d362717a758edb7dd0d9638e15db97329c6376e83b91a910e420d5fc0541",
   "certificate": "certificates/n177.cert",
-  "certificate_sha256": "522383966164b4b0a708bd4e68908f2630f87f5ba8f4476f3b6745b039ba84d4",
-  "rational_side": "13822979734169448600231882896281/1000000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "ff6e36e549c2834c698ee36bdf44f3de96628a46ed2f9f7f2474ea9e084e0788",
+  "rational_side": "906288644933428839187234514220243685066471687136133101661113998922232749134855447389198224880725900572238375406120930105396223448142709234526047329361944735973893636616734447188577405463193284143/65563913306849902516157965465262476215998173698659741184875633460858533981974659257376162080491423150440892379673726334122849290747737166756097048597718054578082282568276704388473785050625798149",
+  "kind": "verified source certificate",
   "origin": {
-    "search_job": {
-      "id": 10892,
-      "method": "hop",
-      "source": "n177.txt",
-      "source_sha256": "9c2b3998488862765f480e0c1d28422ce8313d5b9fb928f2e7616412ea3c03b7"
-    }
-  }
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "ff6e36e549c2834c698ee36bdf44f3de96628a46ed2f9f7f2474ea9e084e0788",
+    "source_n": 177,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "construction_credit": [
+        "Francisco Couzo"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

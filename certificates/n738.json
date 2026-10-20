@@ -1,16 +1,39 @@
 {
   "n": 738,
   "packing": "n738.txt",
-  "packing_sha256": "c95bcdc560a54847e3b87a5aad7980cf375d9bedc3ff8604d0e98faa49037b1f",
+  "packing_sha256": "7ee71cb6682fba14c474e82ddd94468a3ea76f26314cf7efc3fcaf85914f6d93",
   "certificate": "certificates/n738.cert",
-  "certificate_sha256": "5ab9913f08dd0198329db846e9078df0114a6db230a0ad18091bf67acb38c44f",
-  "rational_side": "9752364885046990727013113371392034379085630259442213221775038173523/351980629448293652471501153519806294482936524715011500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "9b583be69ebba99b433648ed7dfe00151519db55173afa2ba288ea5e87e2d40e",
+  "rational_side": "3899428617980742003687845719/140737488355328000000000000",
+  "kind": "verified source certificate",
   "origin": {
+    "seed_credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+    "source_certificate_sha256": "bc412a821cc1f0aa3c2dad54060e1be7100627b850cf24712b5bec55c95eee76",
+    "source_n": 493,
+    "source_provenance": {
+      "category": "retained exact G\u00f6bel construction",
+      "source_url": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "original_credits": {
+        "exact_construction": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "witness_provenance": {}
+      },
+      "request": null
+    },
     "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
+      "kind": "square tiling and L-border",
+      "source_n": 493,
+      "source_bound": "3195741176204102003687845719/140737488355328000000000000",
+      "tiles_per_side": 1,
+      "layers": 5,
+      "capacity": 738,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

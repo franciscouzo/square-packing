@@ -1,53 +1,37 @@
 {
   "n": 968,
   "packing": "n968.txt",
-  "packing_sha256": "a6cfc9d55fa182294b393c925c1ae55ff652768c08070d75bb7ad66750435140",
+  "packing_sha256": "2152e2179952427e675ee896b7ad9475782f079f723116b77ecdecc8d3663761",
   "certificate": "certificates/n968.cert",
-  "certificate_sha256": "59501e89dd2c0f6c620dcf46832735c279fb44a414b29e172ab73748e14869f1",
-  "rational_side": "438060011228515215812579917/13844198648174000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "a78ea5c374a4cde10ebb992e6dd86a58306616225a9da0b0b87eb48964d2964f",
+  "rational_side": "2226617346943696511114408689/70368744177664000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "parent_n": 736,
-      "parent_certificate_sha256": "05f6312deb795b37614737f6413f7077e7cc735fc5ed7895a1393fde5966e0db",
-      "tiles": 1,
-      "layers": 4,
-      "strict_scale": "1+1e-24"
-    },
-    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
-    "seed_certificate": {
-      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
-      "certificate": "certificates/parents/efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd.cert",
-      "certificate_sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd",
-      "bound": "2085879858588368511114408689/70368744177664000000000000",
-      "source_n": 849,
-      "source": "verified Friedman off-centre construction",
-      "sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd",
-      "side": "2085879858588368511114408689/70368744177664000000000000",
-      "request": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py"
-    },
-    "search_job": {
-      "id": 104249,
-      "method": "slp",
-      "source": "records/n848.txt",
-      "source_origin": "constructed",
-      "source_sha256": "9443c253b12c4f864a3d069167dceb3865de46ad20e6841939f4b905ff0f8ce6",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "records/n848.txt",
-        "source_sha256": "94cbb9617b2b60e4a27e8345d44b03bcbed4c4a968b49406ed30265eb2295e37",
-        "source_n": 848,
-        "source_side": 29.642135623771136,
-        "layers": 2,
-        "deleted": 0,
-        "side": 31.642135623775136
+    "seed_credit": "Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+    "source_certificate_sha256": "18722238af2f6f1e0b2f2d813cffdfcf51998eb6992f54083e99336fc7671265",
+    "source_n": 848,
+    "source_provenance": {
+      "category": "native search",
+      "packing_sha256": "94cbb9617b2b60e4a27e8345d44b03bcbed4c4a968b49406ed30265eb2295e37",
+      "source_credit": {
+        "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+        "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+        "source_n": 849,
+        "deleted_squares": 1,
+        "source_certificate_sha256": "efd40c3e5b91fe7967fbc0fa338a01bca8d8ad5e7a9972c54c1fcd95f66b0bfd"
       }
     },
-    "seed_reference": {
-      "seed": "records/n848.txt",
-      "sha256": "94cbb9617b2b60e4a27e8345d44b03bcbed4c4a968b49406ed30265eb2295e37",
-      "deleted_squares": 1
-    }
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 848,
+      "source_bound": "2085879858588368511114408689/70368744177664000000000000",
+      "tiles_per_side": 1,
+      "layers": 2,
+      "capacity": 968,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

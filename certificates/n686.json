@@ -1,16 +1,39 @@
 {
   "n": 686,
   "packing": "n686.txt",
-  "packing_sha256": "3e55d438748e9c1a4138c16bbd4dc2caca502586663efc31b414df3d3891b124",
+  "packing_sha256": "855cf7e7dc140930a7023482221425960075230a1860c25fa524f17c6da1b534",
   "certificate": "certificates/n686.cert",
-  "certificate_sha256": "a4a762c7769f20969bb1ad8e1c3c21f1aa233dbd4695d94ef8b0a402c1d878fa",
-  "rational_side": "33333778452708838150793780669/1248123906709500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "ae44794fd1021f79706a6c5402c3ce49220846e45196fdab5ae10b986c317a78",
+  "rational_side": "3758691129625753478664556433/140737488355328000000000000",
+  "kind": "verified source certificate",
   "origin": {
+    "seed_credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+    "source_certificate_sha256": "5cf8724d88a8693feb69dfee8698d3c998cfe04aae0b09374044734e8bb5d67d",
+    "source_n": 586,
+    "source_provenance": {
+      "category": "retained exact G\u00f6bel construction",
+      "source_url": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "original_credits": {
+        "exact_construction": {
+          "rational": "24",
+          "sqrt2": "1/2",
+          "expression": "24 + 1/2*sqrt(2)"
+        },
+        "witness_provenance": {}
+      },
+      "request": null
+    },
     "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
+      "kind": "square tiling and L-border",
+      "source_n": 586,
+      "source_bound": "3477216152915097478664556433/140737488355328000000000000",
+      "tiles_per_side": 1,
+      "layers": 2,
+      "capacity": 686,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

@@ -1,20 +1,30 @@
 {
   "n": 408,
   "packing": "n408.txt",
-  "packing_sha256": "d086824de14932fcb038fcda2cc1aaf3c0e2c2a19ea23b039416be90a81c87f6",
+  "packing_sha256": "a435be8c0dc188d0b26ad43220d5417fde5db641dd64c65fc4a3ac068bc60ac5",
   "certificate": "certificates/n408.cert",
-  "certificate_sha256": "a500c15d8d41ad61fb559cc6fc4bbf5ccb8cd4ab941fe8aa0b06ae4ca52c2ff4",
-  "rational_side": "20397676380299414589692090087/985056801793500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "8c6e9b26c0991946c531f899f5b8c45fd90b52aa074b9e7846c3498c0d7eaa18",
+  "rational_side": "414142135623730950488016887242103941421356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "0590b3e7dfac68ac685443a687e9d41e",
-      "n": 408,
-      "side": 20.707106781210314,
-      "method": "fq",
-      "received": "20261014T032424Z",
-      "original_packing_sha256": "dbb7b07384ab1f3b3d838104240d8442379f90ccfea4d9be69b314c00ea34b7d"
-    }
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "f2cb93f70863093ba7131da73f458315da72a04effd923b62a062944d37ec34f",
+    "source_n": 369,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": []
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 369,
+      "source_bound": "394142135623730950488016887242103941421356237309504880168872421/20000000000000000000000000000000000000000000000000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 408,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

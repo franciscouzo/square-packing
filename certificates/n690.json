@@ -1,37 +1,32 @@
 {
   "n": 690,
   "packing": "n690.txt",
-  "packing_sha256": "a1583ebb0de09fc2f621c867247a4ed2ec53523ba4f40a25bf4bfb6e31d747fe",
+  "packing_sha256": "a0413a04eddc9d368cfad690e328c1f4d5ff3d74bb2cc8c46d02320dab5169b3",
   "certificate": "certificates/n690.cert",
-  "certificate_sha256": "48a31b368d9bf0be1e6eba80c03905739565d7d31ef88b0f4599107e71da54e7",
-  "rational_side": "38861047524148617497690379/1449297754736600000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "51c86819bf5c2f9a0efd129e0c0e3650fa60587c9015fc2b1b12a31ef43db84c",
+  "rational_side": "377369398764289274403421837/14073748835532800000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "e2e6cf06f818e60c1db4bfa2e93ad639",
-      "n": 690,
-      "side": 26.82842712477742,
-      "method": "fq",
-      "received": "20261014T092430Z",
-      "original_packing_sha256": "ddbf6c83cf0ca11f04e9279a473b05210274403f7c9702a58c62b41c4c6ff6b0"
+    "seed_credit": "Erich Friedman (off-centre extension of Frits G\u00f6bel\u2019s construction)",
+    "source_certificate_sha256": "5f1b138aeb60df37420f6bcf549747afa10a5725268d8a91fef27ba06dd821e7",
+    "source_n": 543,
+    "source_provenance": {
+      "category": "verified Friedman off-centre construction",
+      "source_url": "https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py",
+      "original_credits": {},
+      "request": null
     },
-    "search_job": {
-      "id": 105075,
-      "method": "hop",
-      "source": "n590.txt",
-      "source_origin": "constructed",
-      "source_sha256": "3ee598c47a1620b35d5e98375d55d3056c1097f6a096161a3c8048b6fd696c43",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n590.txt",
-        "source_sha256": "283a26fbd06885a02b0467521c4c9889ce36e4f8073e3f1ecac160736b08cdd4",
-        "source_n": 590,
-        "source_side": 24.813708498999194,
-        "layers": 2,
-        "deleted": 0,
-        "side": 26.813708499003194
-      }
-    }
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 543,
+      "source_bound": "335148152257690874403421837/14073748835532800000000000",
+      "tiles_per_side": 1,
+      "layers": 3,
+      "capacity": 690,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

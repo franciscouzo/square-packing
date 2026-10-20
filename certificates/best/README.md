@@ -1,42 +1,75 @@
 # Verified upper-bound witnesses
 
-The complete index covers every n=1..1024. Exact certificate headers and algebraic proofs are authoritative; displayed sides are rounded upward to 12 decimal places.
+The complete index covers every n=1..10000. The 856 finite source witnesses below support the exact construction index. The best reviewed public bounds, including reports without local geometry, are recorded separately in [public_bounds.json](../../public_bounds.json).
 
-This directory retains **543 finite rational witnesses**. Original construction and certificate credits, source submissions, parent witnesses and byte hashes are in [manifest.json](manifest.json). The machine, repository, issue and PR review is recorded in [bound_sources.json](../../bound_sources.json).
+Source, construction and certificate credits are retained in manifest.json. Superseded source bytes remain under ../parents/ and in dated audit archives. A retained source witness is not a claim that its own count remains a record.
 
-Replay the finite witnesses from the repository root using Python 3 and its standard library:
-
-```sh
-python3 verify_bound_certificate.py certificates/best/*.cert
-```
-
-The default contract is containment in a closed square with disjoint square interiors. `--strict` also requires open-container containment and disjoint closed squares. Both verdicts are retained. New or changed witness bytes were checked using the jlevy/squares exact rational corner verifier and the separate centre/projection verifier in this repository. Earlier receipts are reused only for identical certificate bytes. Both implementations share the rational half-angle representation, separating-axis geometry and conservative spatial prefilters.
-
-The complete index also preserves exact Göbel square/strip and Friedman off-centre bounds, their repeated L borders, and deletion. These established constructions retain their original credits. A border extends (m,s) to (m+2 floor(s)+1,s+1). The integer grid at n=1024 has exact side 32; area proves optimality there.
-
-| n / certificate | Certified upper, rounded up | Certificate provider / source credit |
+| n / certificate | Certified upper, rounded up | Source credit |
 |---:|---:|---|
+| [1](n1.cert) | 1.000000000000 | Original construction authors in the case record |
+| [2](n2.cert) | 2.000000000000 | Original construction authors in the case record |
+| [3](n3.cert) | 2.000000000000 | Original construction authors in the case record |
+| [4](n4.cert) | 2.000000000000 | Original authors credited in the linked source packet |
 | [5](n5.cert) | 2.707106781187 | PingYou Ltd (BuddenPing) |
+| [6](n6.cert) | 3.000000000000 | Michael Kearney, Peter Shiu |
+| [7](n7.cert) | 3.000000000000 | Original construction authors in the case record |
+| [8](n8.cert) | 3.000000000000 | Original construction authors in the case record |
+| [9](n9.cert) | 3.000000000000 | Original construction authors in the case record |
 | [10](n10.cert) | 3.707106781187 | PingYou Ltd (BuddenPing) |
 | [11](n11.cert) | 3.877083590023 | PingYou Ltd (BuddenPing) |
+| [12](n12.cert) | 4.000000000000 | Original construction authors in the case record |
+| [13](n13.cert) | 4.000000000000 | Wolfram Bentz |
+| [14](n14.cert) | 4.000000000000 | Original construction authors in the case record |
+| [15](n15.cert) | 4.000000000000 | Original construction authors in the case record |
+| [16](n16.cert) | 4.000000000000 | Original construction authors in the case record |
 | [17](n17.cert) | 4.675530093605 | PingYou Ltd (BuddenPing) |
 | [18](n18.cert) | 4.822875655533 | PingYou Ltd (BuddenPing) |
 | [19](n19.cert) | 4.885618083165 | PingYou Ltd (BuddenPing) |
+| [20](n20.cert) | 5.000000000000 | Original construction authors in the case record |
+| [21](n21.cert) | 5.000000000000 | Original construction authors in the case record |
+| [22](n22.cert) | 5.000000000000 | Wolfram Bentz |
+| [23](n23.cert) | 5.000000000000 | Hiroshi Nagamochi |
+| [24](n24.cert) | 5.000000000000 | Erich Friedman |
+| [25](n25.cert) | 5.000000000000 | Original construction authors in the case record |
 | [26](n26.cert) | 5.621320343560 | PingYou Ltd (BuddenPing) |
 | [27](n27.cert) | 5.707106781187 | PingYou Ltd (BuddenPing) |
 | [28](n28.cert) | 5.824444616675 | PingYou Ltd (BuddenPing) |
 | [29](n29.cert) | 5.933833462677 | Thomas Schadt and David Ellsworth; exact certificate refinement by PingYou Ltd |
+| [30](n30.cert) | 6.000000000000 | Original construction authors in the case record |
+| [31](n31.cert) | 6.000000000000 | Original construction authors in the case record |
+| [32](n32.cert) | 6.000000000000 | Original construction authors in the case record |
+| [33](n33.cert) | 6.000000000000 | Wolfram Bentz |
+| [34](n34.cert) | 6.000000000000 | Hiroshi Nagamochi |
+| [35](n35.cert) | 6.000000000000 | Erich Friedman |
+| [36](n36.cert) | 6.000000000000 | Original construction authors in the case record |
 | [37](n37.cert) | 6.598619609245 | PingYou Ltd (BuddenPing) |
 | [38](n38.cert) | 6.707106781187 | PingYou Ltd (BuddenPing) |
 | [39](n39.cert) | 6.810722083069 | PingYou Ltd (BuddenPing) |
 | [40](n40.cert) | 6.828427124747 | PingYou Ltd (BuddenPing) |
 | [41](n41.cert) | 6.926693094469 | PingYou Ltd (BuddenPing) |
+| [42](n42.cert) | 7.000000000000 | Original construction authors in the case record |
+| [43](n43.cert) | 7.000000000000 | Original construction authors in the case record |
+| [44](n44.cert) | 7.000000000000 | Original construction authors in the case record |
+| [45](n45.cert) | 7.000000000000 | Original construction authors in the case record |
+| [46](n46.cert) | 7.000000000000 | Wolfram Bentz |
+| [47](n47.cert) | 7.000000000000 | Original construction authors in the case record |
+| [48](n48.cert) | 7.000000000000 | Original construction authors in the case record |
+| [49](n49.cert) | 7.000000000000 | Original construction authors in the case record |
 | [50](n50.cert) | 7.571428571429 | PingYou Ltd (BuddenPing) |
 | [51](n51.cert) | 7.690355937289 | PingYou Ltd (BuddenPing) |
 | [52](n52.cert) | 7.707106781187 | PingYou Ltd (BuddenPing) |
 | [53](n53.cert) | 7.822875655533 | PingYou Ltd (BuddenPing) |
 | [54](n54.cert) | 7.846667192844 | PingYou Ltd (BuddenPing) |
 | [55](n55.cert) | 7.945771007504 | PingYou Ltd (BuddenPing) |
+| [56](n56.cert) | 8.000000000000 | Original construction authors in the case record |
+| [57](n57.cert) | 8.000000000000 | Original construction authors in the case record |
+| [58](n58.cert) | 8.000000000000 | Original construction authors in the case record |
+| [59](n59.cert) | 8.000000000000 | Original construction authors in the case record |
+| [60](n60.cert) | 8.000000000000 | Original construction authors in the case record |
+| [61](n61.cert) | 8.000000000000 | Original construction authors in the case record |
+| [62](n62.cert) | 8.000000000000 | Original construction authors in the case record |
+| [63](n63.cert) | 8.000000000000 | Original construction authors in the case record |
+| [64](n64.cert) | 8.000000000000 | Original construction authors in the case record |
 | [65](n65.cert) | 8.535533905933 | PingYou Ltd (BuddenPing) |
 | [66](n66.cert) | 8.656854249493 | PingYou Ltd (BuddenPing) |
 | [67](n67.cert) | 8.707106781187 | PingYou Ltd (BuddenPing) |
@@ -44,6 +77,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [69](n69.cert) | 8.827194655730 | PingYou Ltd (BuddenPing) |
 | [70](n70.cert) | 8.880960371556 | PingYou Ltd (BuddenPing) |
 | [71](n71.cert) | 8.944071557571 | PingYou Ltd (BuddenPing) |
+| [72](n72.cert) | 9.000000000000 | Original construction authors in the case record |
+| [73](n73.cert) | 9.000000000000 | Original construction authors in the case record |
+| [74](n74.cert) | 9.000000000000 | Original construction authors in the case record |
+| [75](n75.cert) | 9.000000000000 | Original construction authors in the case record |
+| [76](n76.cert) | 9.000000000000 | Original construction authors in the case record |
+| [77](n77.cert) | 9.000000000000 | Original construction authors in the case record |
+| [78](n78.cert) | 9.000000000000 | Original construction authors in the case record |
+| [79](n79.cert) | 9.000000000000 | Original construction authors in the case record |
+| [80](n80.cert) | 9.000000000000 | Original construction authors in the case record |
+| [81](n81.cert) | 9.000000000000 | Original construction authors in the case record |
 | [82](n82.cert) | 9.535533905933 | PingYou Ltd (BuddenPing) |
 | [83](n83.cert) | 9.634757648632 | PingYou Ltd (BuddenPing) |
 | [84](n84.cert) | 9.697934799015 | PingYou Ltd (BuddenPing) |
@@ -52,6 +95,17 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [87](n87.cert) | 9.838815269949 | PingYou Ltd (BuddenPing) |
 | [88](n88.cert) | 9.882451030482 | PingYou Ltd (BuddenPing) |
 | [89](n89.cert) | 9.949747468306 | PingYou Ltd (BuddenPing) |
+| [90](n90.cert) | 10.000000000000 | Original construction authors in the case record |
+| [91](n91.cert) | 10.000000000000 | Original construction authors in the case record |
+| [92](n92.cert) | 10.000000000000 | Original construction authors in the case record |
+| [93](n93.cert) | 10.000000000000 | Original construction authors in the case record |
+| [94](n94.cert) | 10.000000000000 | Original construction authors in the case record |
+| [95](n95.cert) | 10.000000000000 | Original construction authors in the case record |
+| [96](n96.cert) | 10.000000000000 | Original construction authors in the case record |
+| [97](n97.cert) | 10.000000000000 | Original construction authors in the case record |
+| [98](n98.cert) | 10.000000000000 | Original construction authors in the case record |
+| [99](n99.cert) | 10.000000000000 | Original construction authors in the case record |
+| [100](n100.cert) | 10.000000000000 | Original construction authors in the case record |
 | [101](n101.cert) | 10.535533905933 | PingYou Ltd (BuddenPing) |
 | [102](n102.cert) | 10.605828696432 | PingYou Ltd (BuddenPing) |
 | [103](n103.cert) | 10.679232047362 | PingYou Ltd (BuddenPing) |
@@ -62,6 +116,17 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [108](n108.cert) | 10.904821012321 | PingYou Ltd (BuddenPing) |
 | [109](n109.cert) | 10.949747468306 | PingYou Ltd (BuddenPing) |
 | [110](n110.cert) | 10.996783396632 | PingYou Ltd (BuddenPing) |
+| [111](n111.cert) | 11.000000000000 | Original construction authors in the case record |
+| [112](n112.cert) | 11.000000000000 | Original construction authors in the case record |
+| [113](n113.cert) | 11.000000000000 | Original construction authors in the case record |
+| [114](n114.cert) | 11.000000000000 | Original construction authors in the case record |
+| [115](n115.cert) | 11.000000000000 | Original construction authors in the case record |
+| [116](n116.cert) | 11.000000000000 | Original construction authors in the case record |
+| [117](n117.cert) | 11.000000000000 | Original construction authors in the case record |
+| [118](n118.cert) | 11.000000000000 | Original construction authors in the case record |
+| [119](n119.cert) | 11.000000000000 | Original construction authors in the case record |
+| [120](n120.cert) | 11.000000000000 | Original construction authors in the case record |
+| [121](n121.cert) | 11.000000000000 | Original construction authors in the case record |
 | [122](n122.cert) | 11.535533905933 | PingYou Ltd (BuddenPing) |
 | [123](n123.cert) | 11.591378145498 | PingYou Ltd (BuddenPing) |
 | [124](n124.cert) | 11.656854249493 | PingYou Ltd (BuddenPing) |
@@ -73,6 +138,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [130](n130.cert) | 11.904483032516 | PingYou Ltd (BuddenPing) |
 | [131](n131.cert) | 11.949659588036 | PingYou Ltd (BuddenPing) |
 | [132](n132.cert) | 11.985680198846 | PingYou Ltd (BuddenPing) |
+| [133](n133.cert) | 12.000000000000 | Original construction authors in the case record |
+| [134](n134.cert) | 12.000000000000 | Original construction authors in the case record |
+| [135](n135.cert) | 12.000000000000 | Original construction authors in the case record |
+| [136](n136.cert) | 12.000000000000 | Original construction authors in the case record |
+| [137](n137.cert) | 12.000000000000 | Original construction authors in the case record |
+| [138](n138.cert) | 12.000000000000 | Original construction authors in the case record |
+| [139](n139.cert) | 12.000000000000 | Original construction authors in the case record |
+| [140](n140.cert) | 12.000000000000 | Original construction authors in the case record |
+| [141](n141.cert) | 12.000000000000 | Original construction authors in the case record |
+| [142](n142.cert) | 12.000000000000 | Original construction authors in the case record |
+| [143](n143.cert) | 12.000000000000 | Original construction authors in the case record |
+| [144](n144.cert) | 12.000000000000 | Original construction authors in the case record |
 | [145](n145.cert) | 12.535533905933 | PingYou Ltd (BuddenPing) |
 | [146](n146.cert) | 12.583782190152 | Evan Daniel |
 | [147](n147.cert) | 12.656854249493 | PingYou Ltd (BuddenPing) |
@@ -82,9 +159,22 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [151](n151.cert) | 12.822875655533 | PingYou Ltd (BuddenPing) |
 | [152](n152.cert) | 12.830718800977 | PingYou Ltd (BuddenPing) |
 | [153](n153.cert) | 12.870013850405 | Mykhailo Polkovskyi (Mishapolk) |
-| [154](n154.cert) | 12.921206577133 | Mykhailo Polkovskyi (Mishapolk) |
+| [154](n154.cert) | 12.921100940762 | Evan Daniel |
 | [155](n155.cert) | 12.952260944651 | Evan Daniel |
 | [156](n156.cert) | 12.979165853835 | Mykhailo Polkovskyi (Mishapolk) |
+| [157](n157.cert) | 13.000000000000 | Original construction authors in the case record |
+| [158](n158.cert) | 13.000000000000 | Original construction authors in the case record |
+| [159](n159.cert) | 13.000000000000 | Original construction authors in the case record |
+| [160](n160.cert) | 13.000000000000 | Original construction authors in the case record |
+| [161](n161.cert) | 13.000000000000 | Original construction authors in the case record |
+| [162](n162.cert) | 13.000000000000 | Original construction authors in the case record |
+| [163](n163.cert) | 13.000000000000 | Original construction authors in the case record |
+| [164](n164.cert) | 13.000000000000 | Original construction authors in the case record |
+| [165](n165.cert) | 13.000000000000 | Original construction authors in the case record |
+| [166](n166.cert) | 13.000000000000 | Original construction authors in the case record |
+| [167](n167.cert) | 13.000000000000 | Original construction authors in the case record |
+| [168](n168.cert) | 13.000000000000 | Original construction authors in the case record |
+| [169](n169.cert) | 13.000000000000 | Original construction authors in the case record |
 | [170](n170.cert) | 13.535533905933 | PingYou Ltd (BuddenPing) |
 | [171](n171.cert) | 13.571428571429 | PingYou Ltd (BuddenPing) |
 | [172](n172.cert) | 13.618988956900 | PingYou Ltd (BuddenPing) |
@@ -99,6 +189,19 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [181](n181.cert) | 13.950819531023 | PingYou Ltd (BuddenPing) |
 | [182](n182.cert) | 13.974090713122 | PingYou Ltd (BuddenPing) |
 | [183](n183.cert) | 13.999580178737 | Evan Daniel; start: Francisco Couzo |
+| [184](n184.cert) | 14.000000000000 | Original construction authors in the case record |
+| [185](n185.cert) | 14.000000000000 | Original construction authors in the case record |
+| [186](n186.cert) | 14.000000000000 | Original construction authors in the case record |
+| [187](n187.cert) | 14.000000000000 | Original construction authors in the case record |
+| [188](n188.cert) | 14.000000000000 | Original construction authors in the case record |
+| [189](n189.cert) | 14.000000000000 | Original construction authors in the case record |
+| [190](n190.cert) | 14.000000000000 | Original construction authors in the case record |
+| [191](n191.cert) | 14.000000000000 | Original construction authors in the case record |
+| [192](n192.cert) | 14.000000000000 | Original construction authors in the case record |
+| [193](n193.cert) | 14.000000000000 | Original construction authors in the case record |
+| [194](n194.cert) | 14.000000000000 | Original construction authors in the case record |
+| [195](n195.cert) | 14.000000000000 | Original construction authors in the case record |
+| [196](n196.cert) | 14.000000000000 | Original construction authors in the case record |
 | [197](n197.cert) | 14.535533905933 | PingYou Ltd (BuddenPing) |
 | [198](n198.cert) | 14.571428571429 | PingYou Ltd (BuddenPing) |
 | [199](n199.cert) | 14.617572173593 | PingYou Ltd (BuddenPing) |
@@ -106,7 +209,7 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [201](n201.cert) | 14.707106781187 | PingYou Ltd (BuddenPing) |
 | [202](n202.cert) | 14.727922061358 | PingYou Ltd (BuddenPing) |
 | [203](n203.cert) | 14.778174593053 | PingYou Ltd (BuddenPing) |
-| [204](n204.cert) | 14.808642841982 | Francisco Couzo; seed/construction: Mykhailo Polkovskyi (Mishapolk) |
+| [204](n204.cert) | 14.808642840592 | Francisco Couzo; regularized certificate supplied by Evan Daniel |
 | [205](n205.cert) | 14.824451146125 | PingYou Ltd (BuddenPing) |
 | [206](n206.cert) | 14.860158663392 | PingYou Ltd (BuddenPing) |
 | [207](n207.cert) | 14.880960371556 | Mykhailo Polkovskyi (Mishapolk) |
@@ -114,10 +217,24 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [209](n209.cert) | 14.946223226447 | PingYou Ltd (BuddenPing) |
 | [210](n210.cert) | 14.973001116588 | PingYou Ltd (BuddenPing) |
 | [211](n211.cert) | 14.993549626300 | Francisco Couzo |
+| [212](n212.cert) | 15.000000000000 | Original construction authors in the case record |
+| [213](n213.cert) | 15.000000000000 | Original construction authors in the case record |
+| [214](n214.cert) | 15.000000000000 | Original construction authors in the case record |
+| [215](n215.cert) | 15.000000000000 | Original construction authors in the case record |
+| [216](n216.cert) | 15.000000000000 | Original construction authors in the case record |
+| [217](n217.cert) | 15.000000000000 | Original construction authors in the case record |
+| [218](n218.cert) | 15.000000000000 | Original construction authors in the case record |
+| [219](n219.cert) | 15.000000000000 | Original construction authors in the case record |
+| [220](n220.cert) | 15.000000000000 | Original construction authors in the case record |
+| [221](n221.cert) | 15.000000000000 | Original construction authors in the case record |
+| [222](n222.cert) | 15.000000000000 | Original construction authors in the case record |
+| [223](n223.cert) | 15.000000000000 | Original construction authors in the case record |
+| [224](n224.cert) | 15.000000000000 | Original construction authors in the case record |
+| [225](n225.cert) | 15.000000000000 | Original construction authors in the case record |
 | [226](n226.cert) | 15.535533905933 | PingYou Ltd (BuddenPing) |
-| [227](n227.cert) | 15.563625652343 | Francisco Couzo; retained seed/construction credit: Joost de Winter (JoostdeWinter) |
+| [227](n227.cert) | 15.563625652326 | Francisco Couzo (franciscouzo) |
 | [228](n228.cert) | 15.604601475730 | PingYou Ltd (BuddenPing) |
-| [229](n229.cert) | 15.650161513896 | Evan Daniel; start: Francisco Couzo, after Joost de Winter |
+| [229](n229.cert) | 15.650161513877 | Evan Daniel (evand) |
 | [230](n230.cert) | 15.682926829269 | PingYou Ltd (BuddenPing) |
 | [231](n231.cert) | 15.707106781187 | PingYou Ltd (BuddenPing) |
 | [232](n232.cert) | 15.764174317487 | Mykhailo Polkovskyi (Mishapolk) |
@@ -130,10 +247,25 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [239](n239.cert) | 15.948443327301 | PingYou Ltd (BuddenPing) |
 | [240](n240.cert) | 15.969685337531 | PingYou Ltd (BuddenPing) |
 | [241](n241.cert) | 15.987117095151 | Francisco Couzo |
+| [242](n242.cert) | 16.000000000000 | Original construction authors in the case record |
+| [243](n243.cert) | 16.000000000000 | Original construction authors in the case record |
+| [244](n244.cert) | 16.000000000000 | Original construction authors in the case record |
+| [245](n245.cert) | 16.000000000000 | Original construction authors in the case record |
+| [246](n246.cert) | 16.000000000000 | Original construction authors in the case record |
+| [247](n247.cert) | 16.000000000000 | Original construction authors in the case record |
+| [248](n248.cert) | 16.000000000000 | Original construction authors in the case record |
+| [249](n249.cert) | 16.000000000000 | Original construction authors in the case record |
+| [250](n250.cert) | 16.000000000000 | Original construction authors in the case record |
+| [251](n251.cert) | 16.000000000000 | Original construction authors in the case record |
+| [252](n252.cert) | 16.000000000000 | Original construction authors in the case record |
+| [253](n253.cert) | 16.000000000000 | Original construction authors in the case record |
+| [254](n254.cert) | 16.000000000000 | Original construction authors in the case record |
+| [255](n255.cert) | 16.000000000000 | Original construction authors in the case record |
+| [256](n256.cert) | 16.000000000000 | Original construction authors in the case record |
 | [257](n257.cert) | 16.535533905933 | PingYou Ltd (BuddenPing) |
 | [258](n258.cert) | 16.563448002134 | PingYou Ltd (BuddenPing) |
 | [259](n259.cert) | 16.591378145498 | PingYou Ltd (BuddenPing) |
-| [260](n260.cert) | 16.645753250545 | Francisco Couzo; seed/construction: Joost de Winter (JoostdeWinter) |
+| [260](n260.cert) | 16.645753250520 | Francisco Couzo (franciscouzo) |
 | [261](n261.cert) | 16.678779875343 | BuddenPing |
 | [262](n262.cert) | 16.707106781187 | PingYou Ltd (BuddenPing) |
 | [263](n263.cert) | 16.733166007900 | PingYou Ltd (BuddenPing) |
@@ -143,10 +275,26 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [267](n267.cert) | 16.838815269949 | PingYou Ltd (BuddenPing) |
 | [268](n268.cert) | 16.878814821007 | PingYou Ltd (BuddenPing) |
 | [269](n269.cert) | 16.901513582190 | PingYou Ltd (BuddenPing) |
-| [270](n270.cert) | 16.928196993330 | PingYou Ltd (BuddenPing) |
+| [270](n270.cert) | 16.928162252197 | Evan Daniel; ultimate start: Nate Chaoweeraprasit (SQUISH), refined by PingYou Ltd |
 | [271](n271.cert) | 16.948947733714 | Evan Daniel |
 | [272](n272.cert) | 16.965586474838 | PingYou Ltd (BuddenPing) |
 | [273](n273.cert) | 16.983925962651 | PingYou Ltd (BuddenPing) |
+| [274](n274.cert) | 17.000000000000 | Original construction authors in the case record |
+| [275](n275.cert) | 17.000000000000 | Original construction authors in the case record |
+| [276](n276.cert) | 17.000000000000 | Original construction authors in the case record |
+| [277](n277.cert) | 17.000000000000 | Original construction authors in the case record |
+| [278](n278.cert) | 17.000000000000 | Original construction authors in the case record |
+| [279](n279.cert) | 17.000000000000 | Original construction authors in the case record |
+| [280](n280.cert) | 17.000000000000 | Original construction authors in the case record |
+| [281](n281.cert) | 17.000000000000 | Original construction authors in the case record |
+| [282](n282.cert) | 17.000000000000 | Original construction authors in the case record |
+| [283](n283.cert) | 17.000000000000 | Original construction authors in the case record |
+| [284](n284.cert) | 17.000000000000 | Original construction authors in the case record |
+| [285](n285.cert) | 17.000000000000 | Original construction authors in the case record |
+| [286](n286.cert) | 17.000000000000 | Original construction authors in the case record |
+| [287](n287.cert) | 17.000000000000 | Original construction authors in the case record |
+| [288](n288.cert) | 17.000000000000 | Original construction authors in the case record |
+| [289](n289.cert) | 17.000000000000 | Original construction authors in the case record |
 | [290](n290.cert) | 17.535533905933 | PingYou Ltd (BuddenPing) |
 | [291](n291.cert) | 17.535533905933 | PingYou Ltd (BuddenPing) |
 | [292](n292.cert) | 17.591378145498 | PingYou Ltd (BuddenPing) |
@@ -165,13 +313,29 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [305](n305.cert) | 17.950466482138 | PingYou Ltd (BuddenPing) |
 | [306](n306.cert) | 17.963433717492 | PingYou Ltd (BuddenPing) |
 | [307](n307.cert) | 17.980862784055 | PingYou Ltd (BuddenPing) |
-| [308](n308.cert) | 17.998269879527 | PingYou Ltd (BuddenPing) |
+| [308](n308.cert) | 17.997149121271 | Evan Daniel |
+| [309](n309.cert) | 18.000000000000 | Original construction authors in the case record |
+| [310](n310.cert) | 18.000000000000 | Original construction authors in the case record |
+| [311](n311.cert) | 18.000000000000 | Original construction authors in the case record |
+| [312](n312.cert) | 18.000000000000 | Original construction authors in the case record |
+| [313](n313.cert) | 18.000000000000 | Original construction authors in the case record |
+| [314](n314.cert) | 18.000000000000 | Original construction authors in the case record |
+| [315](n315.cert) | 18.000000000000 | Original construction authors in the case record |
+| [316](n316.cert) | 18.000000000000 | Original construction authors in the case record |
+| [317](n317.cert) | 18.000000000000 | Original construction authors in the case record |
+| [318](n318.cert) | 18.000000000000 | Original construction authors in the case record |
+| [319](n319.cert) | 18.000000000000 | Original construction authors in the case record |
+| [320](n320.cert) | 18.000000000000 | Original construction authors in the case record |
+| [321](n321.cert) | 18.000000000000 | Original construction authors in the case record |
+| [322](n322.cert) | 18.000000000000 | Original construction authors in the case record |
+| [323](n323.cert) | 18.000000000000 | Original construction authors in the case record |
+| [324](n324.cert) | 18.000000000000 | Original construction authors in the case record |
 | [325](n325.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
 | [326](n326.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
 | [327](n327.cert) | 18.591378145498 | Francisco Couzo |
-| [328](n328.cert) | 18.634146341464 | PingYou Ltd (BuddenPing) |
+| [328](n328.cert) | 18.614376892295 | Darius Muglich, with original seed and construction credits in source provenance |
 | [329](n329.cert) | 18.656854249493 | PingYou Ltd (BuddenPing) |
-| [330](n330.cert) | 18.692697855726 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [330](n330.cert) | 18.692672444468 | Darius Muglich, with original seed and construction credits in source provenance |
 | [331](n331.cert) | 18.707106781187 | PingYou Ltd (BuddenPing) |
 | [332](n332.cert) | 18.740417287544 | PingYou Ltd (BuddenPing) |
 | [333](n333.cert) | 18.778174593053 | PingYou Ltd (BuddenPing) |
@@ -180,16 +344,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [336](n336.cert) | 18.825571499862 | Francisco Couzo |
 | [337](n337.cert) | 18.858391767637 | Francisco Couzo |
 | [338](n338.cert) | 18.906332809853 | Francisco Couzo |
-| [339](n339.cert) | 18.911307592083 | Francisco Couzo |
+| [339](n339.cert) | 18.907351471179 | Darius Muglich, with original seed and construction credits in source provenance |
 | [340](n340.cert) | 18.939649632892 | Francisco Couzo |
 | [341](n341.cert) | 18.951882408720 | Francisco Couzo |
 | [342](n342.cert) | 18.964706723173 | Francisco Couzo |
-| [343](n343.cert) | 18.978232204823 | Francisco Couzo; seed/construction: Evan Daniel (after Kevin Fang) |
-| [344](n344.cert) | 18.993724691804 | Francisco Couzo |
+| [343](n343.cert) | 18.977682482405 | Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo |
+| [344](n344.cert) | 18.992727809366 | Darius Muglich, with original seed and construction credits in source provenance |
 | [362](n362.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
 | [363](n363.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
 | [364](n364.cert) | 19.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
-| [365](n365.cert) | 19.621320343560 | Evan Daniel |
+| [365](n365.cert) | 19.614376892315 | Darius Muglich, with original seed and construction credits in source provenance |
 | [366](n366.cert) | 19.656854249493 | PingYou Ltd (BuddenPing) |
 | [367](n367.cert) | 19.692388155448 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [368](n368.cert) | 19.692388155448 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
@@ -201,16 +365,16 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [374](n374.cert) | 19.832356217033 | Francisco Couzo |
 | [375](n375.cert) | 19.882451030482 | Evan Daniel |
 | [376](n376.cert) | 19.899494936612 | Francisco Couzo |
-| [377](n377.cert) | 19.925720814331 | Francisco Couzo |
-| [378](n378.cert) | 19.942505611659 | Francisco Couzo |
-| [379](n379.cert) | 19.953014213942 | Francisco Couzo |
-| [380](n380.cert) | 19.961601762402 | Francisco Couzo |
-| [381](n381.cert) | 19.974740439431 | Francisco Couzo |
+| [377](n377.cert) | 19.925471653975 | Darius Muglich, with original seed and construction credits in source provenance |
+| [378](n378.cert) | 19.942018855985 | Darius Muglich, with original seed and construction credits in source provenance |
+| [379](n379.cert) | 19.950889681504 | Darius Muglich, with original seed and construction credits in source provenance |
+| [380](n380.cert) | 19.961350023836 | Darius Muglich, with original seed and construction credits in source provenance |
+| [381](n381.cert) | 19.974739840484 | Darius Muglich, with original seed and construction credits in source provenance |
 | [382](n382.cert) | 19.987621153966 | Francisco Couzo; seed/construction: Kevin Fang (TheSnakeFang) |
 | [401](n401.cert) | 20.535533905933 | PingYou Ltd (BuddenPing) |
 | [402](n402.cert) | 20.535533905933 | PingYou Ltd (BuddenPing) |
 | [403](n403.cert) | 20.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
-| [404](n404.cert) | 20.621320343560 | Evan Daniel |
+| [404](n404.cert) | 20.614376892316 | Darius Muglich, with original seed and construction credits in source provenance |
 | [405](n405.cert) | 20.656854249493 | PingYou Ltd (BuddenPing) |
 | [406](n406.cert) | 20.692388155450 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [407](n407.cert) | 20.692388155451 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
@@ -218,17 +382,17 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [409](n409.cert) | 20.767428349966 | Francisco Couzo |
 | [410](n410.cert) | 20.778174593076 | Francisco Couzo |
 | [411](n411.cert) | 20.822875655557 | Francisco Couzo |
-| [412](n412.cert) | 20.823062082838 | Francisco Couzo |
+| [412](n412.cert) | 20.822995415462 | Darius Muglich, with original seed and construction credits in source provenance |
 | [413](n413.cert) | 20.831663365378 | Francisco Couzo |
 | [414](n414.cert) | 20.882451030482 | Evan Daniel |
 | [415](n415.cert) | 20.899494936612 | Francisco Couzo |
 | [416](n416.cert) | 20.899494936636 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [417](n417.cert) | 20.942505611684 | Francisco Couzo |
-| [418](n418.cert) | 20.942828529884 | Francisco Couzo |
-| [419](n419.cert) | 20.959713421191 | Francisco Couzo |
-| [420](n420.cert) | 20.974164562587 | Francisco Couzo |
-| [421](n421.cert) | 20.981525640927 | Francisco Couzo |
-| [422](n422.cert) | 20.983607201006 | Francisco Couzo |
+| [417](n417.cert) | 20.934672165249 | Darius Muglich, with original seed and construction credits in source provenance |
+| [418](n418.cert) | 20.939184128265 | Darius Muglich, with original seed and construction credits in source provenance |
+| [419](n419.cert) | 20.957804836275 | Darius Muglich, with original seed and construction credits in source provenance |
+| [420](n420.cert) | 20.966588191191 | Darius Muglich, with original seed and construction credits in source provenance |
+| [421](n421.cert) | 20.976371064795 | Darius Muglich, with original seed and construction credits in source provenance |
+| [422](n422.cert) | 20.983575254586 | Darius Muglich, with original seed and construction credits in source provenance |
 | [442](n442.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
 | [443](n443.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
 | [444](n444.cert) | 21.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
@@ -240,18 +404,18 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [450](n450.cert) | 21.767428349966 | Francisco Couzo |
 | [451](n451.cert) | 21.778174593076 | Francisco Couzo |
 | [452](n452.cert) | 21.778174593086 | Francisco Couzo |
-| [453](n453.cert) | 21.823014758318 | Francisco Couzo |
+| [453](n453.cert) | 21.822995415464 | Darius Muglich, with original seed and construction credits in source provenance |
 | [454](n454.cert) | 21.828427124844 | Francisco Couzo |
 | [455](n455.cert) | 21.882183551471 | Francisco Couzo |
 | [456](n456.cert) | 21.882183551471 | Francisco Couzo |
 | [457](n457.cert) | 21.899494936637 | Francisco Couzo |
 | [458](n458.cert) | 21.903778442820 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [459](n459.cert) | 21.942365250364 | Francisco Couzo |
-| [460](n460.cert) | 21.957558542548 | Francisco Couzo |
-| [461](n461.cert) | 21.971318847922 | Francisco Couzo |
-| [462](n462.cert) | 21.974888792980 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [463](n463.cert) | 21.983603993953 | Francisco Couzo |
-| [464](n464.cert) | 21.987753655547 | Francisco Couzo; seed/construction: Joost de Winter |
+| [459](n459.cert) | 21.937227864890 | Darius Muglich, with original seed and construction credits in source provenance |
+| [460](n460.cert) | 21.950987688000 | Darius Muglich, with original seed and construction credits in source provenance |
+| [461](n461.cert) | 21.966193114437 | Darius Muglich, with original seed and construction credits in source provenance |
+| [462](n462.cert) | 21.966193114415 | Darius Muglich, with original seed and construction credits in source provenance |
+| [463](n463.cert) | 21.973675720478 | Darius Muglich, with original seed and construction credits in source provenance |
+| [464](n464.cert) | 21.986268532629 | Darius Muglich, with original seed and construction credits in source provenance |
 | [485](n485.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [486](n486.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [487](n487.cert) | 22.583782190178 | Francisco Couzo |
@@ -263,20 +427,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [493](n493.cert) | 22.707106781213 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [494](n494.cert) | 22.778174593076 | Francisco Couzo |
 | [495](n495.cert) | 22.778174593079 | Francisco Couzo |
-| [496](n496.cert) | 22.823014758318 | Francisco Couzo |
+| [496](n496.cert) | 22.822875655559 | Francisco Couzo |
 | [497](n497.cert) | 22.823104027272 | Francisco Couzo |
 | [498](n498.cert) | 22.828427124827 | Francisco Couzo |
 | [499](n499.cert) | 22.882183551471 | Francisco Couzo |
 | [500](n500.cert) | 22.899494936637 | Francisco Couzo |
 | [501](n501.cert) | 22.903778442820 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [502](n502.cert) | 22.942219237446 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: franciscouzo |
-| [503](n503.cert) | 22.957558542542 | Francisco Couzo |
-| [504](n504.cert) | 22.970562748504 | Francisco Couzo |
-| [505](n505.cert) | 22.971592368271 | Francisco Couzo |
-| [506](n506.cert) | 22.973102824304 | Francisco Couzo |
+| [502](n502.cert) | 22.933356445086 | Francisco Couzo |
+| [503](n503.cert) | 22.944667600408 | Darius Muglich, with original seed and construction credits in source provenance |
+| [504](n504.cert) | 22.962118925864 | Darius Muglich, with original seed and construction credits in source provenance |
+| [505](n505.cert) | 22.964182800913 | Francisco Couzo |
+| [506](n506.cert) | 22.972145072004 | Darius Muglich, with original seed and construction credits in source provenance |
 | [507](n507.cert) | 22.973697163680 | Francisco Couzo |
-| [508](n508.cert) | 22.987759965313 | Francisco Couzo |
-| [509](n509.cert) | 22.994328036438 | Joost de Winter |
+| [508](n508.cert) | 22.983309379056 | Darius Muglich, with original seed and construction credits in source provenance |
+| [509](n509.cert) | 22.994328035944 | Francisco Couzo |
 | [530](n530.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
 | [531](n531.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
 | [532](n532.cert) | 23.583782190178 | Francisco Couzo |
@@ -294,14 +458,14 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [544](n544.cert) | 23.828427124775 | Francisco Couzo |
 | [545](n545.cert) | 23.889010439313 | Francisco Couzo |
 | [546](n546.cert) | 23.889010439304 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [547](n547.cert) | 23.906371163646 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [548](n548.cert) | 23.956345132949 | Francisco Couzo |
+| [547](n547.cert) | 23.902471234885 | Francisco Couzo |
+| [548](n548.cert) | 23.944667600432 | Darius Muglich, with original seed and construction credits in source provenance |
 | [549](n549.cert) | 23.956345132949 | Francisco Couzo |
-| [550](n550.cert) | 23.961513018469 | Francisco Couzo |
-| [551](n551.cert) | 23.966898919633 | Francisco Couzo |
-| [552](n552.cert) | 23.966901721108 | Francisco Couzo |
-| [553](n553.cert) | 23.980727660940 | Francisco Couzo; seed/construction: franciscouzo |
-| [554](n554.cert) | 23.993524047733 | Francisco Couzo |
+| [550](n550.cert) | 23.960681444798 | Francisco Couzo |
+| [551](n551.cert) | 23.965801641975 | Darius Muglich, with original seed and construction credits in source provenance |
+| [552](n552.cert) | 23.966628823346 | Darius Muglich, with original seed and construction credits in source provenance |
+| [553](n553.cert) | 23.979786600216 | Darius Muglich, with original seed and construction credits in source provenance |
+| [554](n554.cert) | 23.986315054038 | Darius Muglich, with original seed and construction credits in source provenance |
 | [555](n555.cert) | 23.993580713561 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
 | [577](n577.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
 | [578](n578.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
@@ -321,15 +485,15 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [592](n592.cert) | 24.888988759404 | Francisco Couzo |
 | [593](n593.cert) | 24.888988761769 | Francisco Couzo |
 | [594](n594.cert) | 24.899494936641 | Francisco Couzo |
-| [595](n595.cert) | 24.949747468335 | Francisco Couzo |
+| [595](n595.cert) | 24.944667600433 | Darius Muglich, with original seed and construction credits in source provenance |
 | [596](n596.cert) | 24.949747468335 | Francisco Couzo |
-| [597](n597.cert) | 24.961502766154 | Francisco Couzo |
-| [598](n598.cert) | 24.961502766154 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [599](n599.cert) | 24.966901721108 | Francisco Couzo |
-| [600](n600.cert) | 24.980727660940 | Francisco Couzo; seed/construction: franciscouzo |
-| [601](n601.cert) | 24.987983019378 | Francisco Couzo |
-| [602](n602.cert) | 24.993580713561 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [603](n603.cert) | 24.994263342387 | Francisco Couzo; seed/construction: Joost de Winter |
+| [597](n597.cert) | 24.954199965619 | Francisco Couzo |
+| [598](n598.cert) | 24.955802919715 | Francisco Couzo |
+| [599](n599.cert) | 24.962832858736 | Darius Muglich, with original seed and construction credits in source provenance |
+| [600](n600.cert) | 24.979786600241 | Darius Muglich, with original seed and construction credits in source provenance |
+| [601](n601.cert) | 24.986315054063 | Darius Muglich, with original seed and construction credits in source provenance |
+| [602](n602.cert) | 24.990355569405 | Darius Muglich, with original seed and construction credits in source provenance |
+| [603](n603.cert) | 24.990355569380 | Darius Muglich, with original seed and construction credits in source provenance |
 | [626](n626.cert) | 25.520815280201 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [627](n627.cert) | 25.535533905933 | PingYou Ltd (BuddenPing) |
 | [628](n628.cert) | 25.583782190178 | Francisco Couzo |
@@ -351,14 +515,14 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [644](n644.cert) | 25.899494936642 | Francisco Couzo |
 | [645](n645.cert) | 25.949747468335 | Francisco Couzo |
 | [646](n646.cert) | 25.949747468336 | Francisco Couzo |
-| [647](n647.cert) | 25.953248543199 | Francisco Couzo |
-| [648](n648.cert) | 25.966901721108 | Francisco Couzo |
-| [649](n649.cert) | 25.976974088403 | Francisco Couzo |
-| [650](n650.cert) | 25.982275449119 | Francisco Couzo |
-| [651](n651.cert) | 25.983790120159 | Francisco Couzo |
-| [652](n652.cert) | 25.994256214773 | Francisco Couzo; seed/construction: Joost de Winter |
-| [653](n653.cert) | 25.994414202392 | Francisco Couzo; seed/construction: Joost de Winter |
-| [654](n654.cert) | 25.995888235804 | Francisco Couzo; seed/construction: Joost de Winter |
+| [647](n647.cert) | 25.949897942499 | Darius Muglich, with original seed and construction credits in source provenance |
+| [648](n648.cert) | 25.961052856925 | Darius Muglich, with original seed and construction credits in source provenance |
+| [649](n649.cert) | 25.974939166892 | Darius Muglich, with original seed and construction credits in source provenance |
+| [650](n650.cert) | 25.974939166866 | Darius Muglich, with original seed and construction credits in source provenance |
+| [651](n651.cert) | 25.982878838107 | Darius Muglich, with original seed and construction credits in source provenance |
+| [652](n652.cert) | 25.990355569406 | Darius Muglich, with original seed and construction credits in source provenance |
+| [653](n653.cert) | 25.994280496464 | Francisco Couzo |
+| [654](n654.cert) | 25.994867334133 | Darius Muglich, with original seed and construction credits in source provenance |
 | [677](n677.cert) | 26.520815280213 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [678](n678.cert) | 26.535533905933 | PingYou Ltd (BuddenPing) |
 | [679](n679.cert) | 26.583782190178 | Francisco Couzo |
@@ -382,13 +546,13 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [697](n697.cert) | 26.949747468336 | Francisco Couzo |
 | [698](n698.cert) | 26.949747468338 | Francisco Couzo |
 | [699](n699.cert) | 26.949747468415 | Francisco Couzo |
-| [700](n700.cert) | 26.972679052192 | Francisco Couzo |
-| [701](n701.cert) | 26.975549413717 | Francisco Couzo |
-| [702](n702.cert) | 26.977494114977 | Francisco Couzo |
-| [703](n703.cert) | 26.987459573204 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [704](n704.cert) | 26.994256369878 | Francisco Couzo |
-| [705](n705.cert) | 26.994256369878 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; seed/construction: Joost de Winter |
-| [706](n706.cert) | 26.998542133963 | Francisco Couzo; seed/construction: Joost de Winter |
+| [700](n700.cert) | 26.963730153904 | Darius Muglich, with original seed and construction credits in source provenance |
+| [701](n701.cert) | 26.971171145179 | Darius Muglich, with original seed and construction credits in source provenance |
+| [702](n702.cert) | 26.976479789213 | Francisco Couzo |
+| [703](n703.cert) | 26.981389201597 | Darius Muglich, with original seed and construction credits in source provenance |
+| [704](n704.cert) | 26.987139500917 | Darius Muglich, with original seed and construction credits in source provenance |
+| [705](n705.cert) | 26.990473400223 | Darius Muglich, with original seed and construction credits in source provenance |
+| [706](n706.cert) | 26.997919093470 | Darius Muglich, with original seed and construction credits in source provenance |
 | [730](n730.cert) | 27.520815280206 | Francisco Couzo |
 | [731](n731.cert) | 27.535533905933 | PingYou Ltd (BuddenPing) |
 | [732](n732.cert) | 27.583782190178 | Francisco Couzo |
@@ -406,20 +570,20 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [744](n744.cert) | 27.798989873256 | Francisco Couzo |
 | [745](n745.cert) | 27.828427124777 | Francisco Couzo |
 | [746](n746.cert) | 27.828427124795 | Francisco Couzo |
-| [747](n747.cert) | 27.899494936641 | Francisco Couzo |
+| [747](n747.cert) | 27.888425229258 | Francisco Couzo |
 | [748](n748.cert) | 27.899494936642 | Francisco Couzo |
-| [749](n749.cert) | 27.911194713730 | Francisco Couzo |
-| [750](n750.cert) | 27.927909095101 | Francisco Couzo |
-| [751](n751.cert) | 27.932448900769 | Francisco Couzo |
+| [749](n749.cert) | 27.888577106564 | Francisco Couzo |
+| [750](n750.cert) | 27.911387175496 | Francisco Couzo |
+| [751](n751.cert) | 27.914175785603 | Francisco Couzo |
 | [752](n752.cert) | 27.932449886404 | Francisco Couzo |
 | [753](n753.cert) | 27.932449886404 | Francisco Couzo |
 | [754](n754.cert) | 27.937423317053 | Francisco Couzo |
-| [755](n755.cert) | 27.951504031492 | Francisco Couzo |
-| [756](n756.cert) | 27.982602664098 | Francisco Couzo |
-| [757](n757.cert) | 27.989936967966 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [758](n758.cert) | 27.993798579000 | Francisco Couzo |
-| [759](n759.cert) | 27.993798579000 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [760](n760.cert) | 27.995022162160 | Francisco Couzo; seed/construction: Joost de Winter |
+| [755](n755.cert) | 27.951463061398 | Darius Muglich, with original seed and construction credits in source provenance |
+| [756](n756.cert) | 27.976914446492 | Darius Muglich, with original seed and construction credits in source provenance |
+| [757](n757.cert) | 27.976914446464 | Darius Muglich, with original seed and construction credits in source provenance |
+| [758](n758.cert) | 27.984283608421 | Darius Muglich, with original seed and construction credits in source provenance |
+| [759](n759.cert) | 27.988569233274 | Darius Muglich, with original seed and construction credits in source provenance |
+| [760](n760.cert) | 27.992923233307 | Darius Muglich, with original seed and construction credits in source provenance |
 | [785](n785.cert) | 28.520815280214 | Francisco Couzo |
 | [786](n786.cert) | 28.535533905933 | PingYou Ltd (BuddenPing) |
 | [787](n787.cert) | 28.583782190178 | Francisco Couzo |
@@ -438,21 +602,21 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [800](n800.cert) | 28.798989873257 | Francisco Couzo |
 | [801](n801.cert) | 28.828427124795 | Francisco Couzo |
 | [802](n802.cert) | 28.828427124817 | Francisco Couzo |
-| [803](n803.cert) | 28.899494936642 | Francisco Couzo |
+| [803](n803.cert) | 28.827585222385 | Francisco Couzo |
 | [804](n804.cert) | 28.909246527138 | Francisco Couzo |
-| [805](n805.cert) | 28.909665866810 | Francisco Couzo |
+| [805](n805.cert) | 28.906213920353 | Francisco Couzo |
 | [806](n806.cert) | 28.919759255285 | Francisco Couzo |
 | [807](n807.cert) | 28.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [808](n808.cert) | 28.932449886404 | Francisco Couzo |
-| [809](n809.cert) | 28.937423314202 | Francisco Couzo |
-| [810](n810.cert) | 28.951463124704 | Francisco Couzo |
-| [811](n811.cert) | 28.981360068210 | Francisco Couzo |
-| [812](n812.cert) | 28.981360068210 | Francisco Couzo |
-| [813](n813.cert) | 28.989934397793 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [814](n814.cert) | 28.993798579000 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [815](n815.cert) | 28.995022162160 | Francisco Couzo; seed/construction: Joost de Winter |
-| [816](n816.cert) | 28.998219025338 | Francisco Couzo |
-| [817](n817.cert) | 28.998234675372 | Francisco Couzo; seed/construction: Joost de Winter |
+| [808](n808.cert) | 28.931498747933 | Francisco Couzo |
+| [809](n809.cert) | 28.933954694456 | Francisco Couzo |
+| [810](n810.cert) | 28.951463061401 | Darius Muglich, with original seed and construction credits in source provenance |
+| [811](n811.cert) | 28.974848874210 | Darius Muglich, with original seed and construction credits in source provenance |
+| [812](n812.cert) | 28.976914446493 | Darius Muglich, with original seed and construction credits in source provenance |
+| [813](n813.cert) | 28.981594177185 | Darius Muglich, with original seed and construction credits in source provenance |
+| [814](n814.cert) | 28.981594177156 | Darius Muglich, with original seed and construction credits in source provenance |
+| [815](n815.cert) | 28.992261716554 | Francisco Couzo |
+| [816](n816.cert) | 28.995944538693 | Darius Muglich, with original seed and construction credits in source provenance |
+| [817](n817.cert) | 28.997492020607 | Darius Muglich, with original seed and construction credits in source provenance |
 | [842](n842.cert) | 29.520815280218 | Francisco Couzo |
 | [843](n843.cert) | 29.535533905933 | PingYou Ltd (BuddenPing) |
 | [844](n844.cert) | 29.583782190178 | Francisco Couzo |
@@ -474,19 +638,19 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [860](n860.cert) | 29.849242405007 | Francisco Couzo |
 | [861](n861.cert) | 29.849242404953 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [862](n862.cert) | 29.899494936647 | Francisco Couzo |
-| [863](n863.cert) | 29.916419307447 | Francisco Couzo |
+| [863](n863.cert) | 29.903757099932 | Francisco Couzo |
 | [864](n864.cert) | 29.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [865](n865.cert) | 29.932449886402 | Francisco Couzo |
 | [866](n866.cert) | 29.935764472087 | Francisco Couzo |
-| [867](n867.cert) | 29.949688481977 | Francisco Couzo |
-| [868](n868.cert) | 29.977390686090 | Francisco Couzo |
-| [869](n869.cert) | 29.981360065447 | Francisco Couzo |
-| [870](n870.cert) | 29.985424855417 | Francisco Couzo |
-| [871](n871.cert) | 29.986798495028 | Francisco Couzo |
-| [872](n872.cert) | 29.995022162160 | Francisco Couzo; seed/construction: Joost de Winter |
-| [873](n873.cert) | 29.996375057644 | Francisco Couzo |
-| [874](n874.cert) | 29.996375057644 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [875](n875.cert) | 29.998783733108 | Joost de Winter |
+| [867](n867.cert) | 29.942880105421 | Francisco Couzo (web refinement); earlier source credits retained in provenance |
+| [868](n868.cert) | 29.974562439898 | Darius Muglich, with original seed and construction credits in source provenance |
+| [869](n869.cert) | 29.974936836674 | Darius Muglich, with original seed and construction credits in source provenance |
+| [870](n870.cert) | 29.981594177186 | Darius Muglich, with original seed and construction credits in source provenance |
+| [871](n871.cert) | 29.981594177186 | Darius Muglich, with original seed and construction credits in source provenance |
+| [872](n872.cert) | 29.992623086321 | Darius Muglich, with original seed and construction credits in source provenance |
+| [873](n873.cert) | 29.992265777039 | Francisco Couzo |
+| [874](n874.cert) | 29.992883399226 | Darius Muglich, with original seed and construction credits in source provenance |
+| [875](n875.cert) | 29.996974281852 | Darius Muglich, with original seed and construction credits in source provenance |
 | [901](n901.cert) | 30.520815280221 | Francisco Couzo |
 | [902](n902.cert) | 30.535533905933 | PingYou Ltd (BuddenPing) |
 | [903](n903.cert) | 30.583782190178 | Francisco Couzo |
@@ -511,17 +675,17 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [922](n922.cert) | 30.899494936660 | Francisco Couzo |
 | [923](n923.cert) | 30.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
 | [924](n924.cert) | 30.932449886402 | Francisco Couzo |
-| [925](n925.cert) | 30.935764472087 | Francisco Couzo |
+| [925](n925.cert) | 30.934351116933 | Francisco Couzo |
 | [926](n926.cert) | 30.945612117331 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [927](n927.cert) | 30.975475685281 | Francisco Couzo |
-| [928](n928.cert) | 30.975475685281 | Francisco Couzo |
-| [929](n929.cert) | 30.978235012084 | Francisco Couzo |
-| [930](n930.cert) | 30.981535303483 | Francisco Couzo |
+| [927](n927.cert) | 30.969979227502 | Darius Muglich, with original seed and construction credits in source provenance |
+| [928](n928.cert) | 30.974936836705 | Darius Muglich, with original seed and construction credits in source provenance |
+| [929](n929.cert) | 30.975405698330 | Darius Muglich, with original seed and construction credits in source provenance |
+| [930](n930.cert) | 30.977403109933 | Darius Muglich, with original seed and construction credits in source provenance |
 | [931](n931.cert) | 30.989934734721 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
-| [932](n932.cert) | 30.993891653207 | Francisco Couzo; seed/construction: Joost de Winter |
-| [933](n933.cert) | 30.994238714880 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
-| [934](n934.cert) | 30.995302140806 | Francisco Couzo; seed/construction: Joost de Winter |
-| [935](n935.cert) | 30.995336946282 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
+| [932](n932.cert) | 30.992623086322 | Darius Muglich, with original seed and construction credits in source provenance |
+| [933](n933.cert) | 30.992883399257 | Darius Muglich, with original seed and construction credits in source provenance |
+| [934](n934.cert) | 30.994174058188 | Darius Muglich, with original seed and construction credits in source provenance |
+| [935](n935.cert) | 30.994174058157 | Darius Muglich, with original seed and construction credits in source provenance |
 | [962](n962.cert) | 31.520815280221 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [963](n963.cert) | 31.535533905933 | PingYou Ltd (BuddenPing) |
 | [964](n964.cert) | 31.556349186141 | Frits Göbel; family formulas generalized by David Ellsworth |
@@ -547,1044 +711,154 @@ The complete index also preserves exact Göbel square/strip and Friedman off-cen
 | [984](n984.cert) | 31.914115712696 | Francisco Couzo |
 | [985](n985.cert) | 31.920310216858 | Francisco Couzo |
 | [986](n986.cert) | 31.920310216821 | Francisco Couzo |
-| [987](n987.cert) | 31.944662519483 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [987](n987.cert) | 31.943300874462 | Francisco Couzo |
 | [988](n988.cert) | 31.949747468406 | Francisco Couzo |
-| [989](n989.cert) | 31.975475685281 | Francisco Couzo |
-| [990](n990.cert) | 31.977918827720 | Francisco Couzo |
-| [991](n991.cert) | 31.981485095638 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [992](n992.cert) | 31.984796372085 | Francisco Couzo |
-| [993](n993.cert) | 31.984841090107 | Francisco Couzo |
-| [994](n994.cert) | 31.993645614627 | Francisco Couzo |
-| [995](n995.cert) | 31.994784549711 | Francisco Couzo |
-| [996](n996.cert) | 31.994784549711 | Francisco Couzo |
-| [997](n997.cert) | 31.998300669675 | Francisco Couzo |
-| [998](n998.cert) | 31.998301106112 | Francisco Couzo; seed/construction: Joost de Winter |
-
-## Complete catalogue
-
-| n | Verified upper, rounded up | Witness |
-|---:|---:|---|
-| 1 | 1.000000000000 | grid |
-| 2 | 2.000000000000 | grid |
-| 3 | 2.000000000000 | grid |
-| 4 | 2.000000000000 | grid |
-| 5 | 2.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 6 | 3.000000000000 | grid |
-| 7 | 3.000000000000 | grid |
-| 8 | 3.000000000000 | grid |
-| 9 | 3.000000000000 | grid |
-| 10 | 3.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 11 | 3.877083590023 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 12 | 4.000000000000 | grid |
-| 13 | 4.000000000000 | grid |
-| 14 | 4.000000000000 | grid |
-| 15 | 4.000000000000 | grid |
-| 16 | 4.000000000000 | grid |
-| 17 | 4.675530093605 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 18 | 4.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 19 | 4.885618083165 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 20 | 5.000000000000 | grid |
-| 21 | 5.000000000000 | grid |
-| 22 | 5.000000000000 | grid |
-| 23 | 5.000000000000 | grid |
-| 24 | 5.000000000000 | grid |
-| 25 | 5.000000000000 | grid |
-| 26 | 5.621320343560 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 27 | 5.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 28 | 5.824444616675 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 29 | 5.933833462677 | [source](https://github.com/jlevy/squares/blob/ad28cc7845ebe08d9a894f61fd1ab45cc604cfd7/packing/resources/web/pingyou-pr622-certificate-2026-10-15/facts/n-029.yaml.gz) |
-| 30 | 6.000000000000 | grid |
-| 31 | 6.000000000000 | grid |
-| 32 | 6.000000000000 | grid |
-| 33 | 6.000000000000 | grid |
-| 34 | 6.000000000000 | grid |
-| 35 | 6.000000000000 | grid |
-| 36 | 6.000000000000 | grid |
-| 37 | 6.598619609245 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 38 | 6.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 39 | 6.810722083069 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 40 | 6.828427124747 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 41 | 6.926693094469 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 42 | 7.000000000000 | grid |
-| 43 | 7.000000000000 | grid |
-| 44 | 7.000000000000 | grid |
-| 45 | 7.000000000000 | grid |
-| 46 | 7.000000000000 | grid |
-| 47 | 7.000000000000 | grid |
-| 48 | 7.000000000000 | grid |
-| 49 | 7.000000000000 | grid |
-| 50 | 7.571428571429 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 51 | 7.690355937289 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 52 | 7.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 53 | 7.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 54 | 7.846667192844 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 55 | 7.945771007504 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 56 | 8.000000000000 | grid |
-| 57 | 8.000000000000 | grid |
-| 58 | 8.000000000000 | grid |
-| 59 | 8.000000000000 | grid |
-| 60 | 8.000000000000 | grid |
-| 61 | 8.000000000000 | grid |
-| 62 | 8.000000000000 | grid |
-| 63 | 8.000000000000 | grid |
-| 64 | 8.000000000000 | grid |
-| 65 | 8.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 66 | 8.656854249493 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 67 | 8.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 68 | 8.798795237219 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 69 | 8.827194655730 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 70 | 8.880960371556 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 71 | 8.944071557571 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 72 | 9.000000000000 | grid |
-| 73 | 9.000000000000 | grid |
-| 74 | 9.000000000000 | grid |
-| 75 | 9.000000000000 | grid |
-| 76 | 9.000000000000 | grid |
-| 77 | 9.000000000000 | grid |
-| 78 | 9.000000000000 | grid |
-| 79 | 9.000000000000 | grid |
-| 80 | 9.000000000000 | grid |
-| 81 | 9.000000000000 | grid |
-| 82 | 9.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 83 | 9.634757648632 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 84 | 9.697934799015 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 85 | 9.742640687120 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 86 | 9.820535407497 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 87 | 9.838815269949 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 88 | 9.882451030482 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 89 | 9.949747468306 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 90 | 10.000000000000 | grid |
-| 91 | 10.000000000000 | grid |
-| 92 | 10.000000000000 | grid |
-| 93 | 10.000000000000 | grid |
-| 94 | 10.000000000000 | grid |
-| 95 | 10.000000000000 | grid |
-| 96 | 10.000000000000 | grid |
-| 97 | 10.000000000000 | grid |
-| 98 | 10.000000000000 | grid |
-| 99 | 10.000000000000 | grid |
-| 100 | 10.000000000000 | grid |
-| 101 | 10.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 102 | 10.605828696432 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 103 | 10.679232047362 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 104 | 10.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 105 | 10.789303783749 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 106 | 10.822908044133 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 107 | 10.846667192844 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 108 | 10.904821012321 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 109 | 10.949747468306 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 110 | 10.996783396632 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 111 | 11.000000000000 | grid |
-| 112 | 11.000000000000 | grid |
-| 113 | 11.000000000000 | grid |
-| 114 | 11.000000000000 | grid |
-| 115 | 11.000000000000 | grid |
-| 116 | 11.000000000000 | grid |
-| 117 | 11.000000000000 | grid |
-| 118 | 11.000000000000 | grid |
-| 119 | 11.000000000000 | grid |
-| 120 | 11.000000000000 | grid |
-| 121 | 11.000000000000 | grid |
-| 122 | 11.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 123 | 11.591378145498 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 124 | 11.656854249493 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 125 | 11.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 126 | 11.742640687120 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 127 | 11.810878787590 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 128 | 11.825091968214 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 129 | 11.870013850405 | [certificate](n129.cert) |
-| 130 | 11.904483032516 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 131 | 11.949659588036 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 132 | 11.985680198846 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 133 | 12.000000000000 | grid |
-| 134 | 12.000000000000 | grid |
-| 135 | 12.000000000000 | grid |
-| 136 | 12.000000000000 | grid |
-| 137 | 12.000000000000 | grid |
-| 138 | 12.000000000000 | grid |
-| 139 | 12.000000000000 | grid |
-| 140 | 12.000000000000 | grid |
-| 141 | 12.000000000000 | grid |
-| 142 | 12.000000000000 | grid |
-| 143 | 12.000000000000 | grid |
-| 144 | 12.000000000000 | grid |
-| 145 | 12.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 146 | 12.583782190152 | [source](https://github.com/jlevy/squares/issues/399) |
-| 147 | 12.656854249493 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 148 | 12.656854249493 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 149 | 12.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 150 | 12.778174593053 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 151 | 12.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 152 | 12.830718800977 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 153 | 12.870013850405 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-exact-153-302-2026-10-13-v1) |
-| 154 | 12.921206577133 | [certificate](n154.cert) |
-| 155 | 12.952260944651 | [source](https://github.com/evand/square-packing/blob/59326b8/search/packer/candidates/s155_ex2.cert) |
-| 156 | 12.979165853835 | [certificate](n156.cert) |
-| 157 | 13.000000000000 | grid |
-| 158 | 13.000000000000 | grid |
-| 159 | 13.000000000000 | grid |
-| 160 | 13.000000000000 | grid |
-| 161 | 13.000000000000 | grid |
-| 162 | 13.000000000000 | grid |
-| 163 | 13.000000000000 | grid |
-| 164 | 13.000000000000 | grid |
-| 165 | 13.000000000000 | grid |
-| 166 | 13.000000000000 | grid |
-| 167 | 13.000000000000 | grid |
-| 168 | 13.000000000000 | grid |
-| 169 | 13.000000000000 | grid |
-| 170 | 13.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 171 | 13.571428571429 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 172 | 13.618988956900 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 173 | 13.656854249493 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 174 | 13.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 175 | 13.764174317487 | [certificate](n175.cert) |
-| 176 | 13.795872318437 | [certificate](n176.cert) |
-| 177 | 13.822979734170 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 178 | 13.846667192844 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 179 | 13.883795490511 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 180 | 13.916993522478 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 181 | 13.950819531023 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 182 | 13.974090713122 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 183 | 14.000000000000 | grid |
-| 184 | 14.000000000000 | grid |
-| 185 | 14.000000000000 | grid |
-| 186 | 14.000000000000 | grid |
-| 187 | 14.000000000000 | grid |
-| 188 | 14.000000000000 | grid |
-| 189 | 14.000000000000 | grid |
-| 190 | 14.000000000000 | grid |
-| 191 | 14.000000000000 | grid |
-| 192 | 14.000000000000 | grid |
-| 193 | 14.000000000000 | grid |
-| 194 | 14.000000000000 | grid |
-| 195 | 14.000000000000 | grid |
-| 196 | 14.000000000000 | grid |
-| 197 | 14.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 198 | 14.571428571429 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 199 | 14.617572173593 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 200 | 14.656854249493 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 201 | 14.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 202 | 14.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 203 | 14.778174593053 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 204 | 14.808642841982 | [current certificate](../n204.cert) |
-| 205 | 14.824451146125 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 206 | 14.860158663392 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 207 | 14.880960371556 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 208 | 14.924518772030 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 209 | 14.946223226447 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 210 | 14.973001116588 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 211 | 14.993549626300 | [source](https://jlevy.github.io/squares/cases/211.html) |
-| 212 | 15.000000000000 | grid |
-| 213 | 15.000000000000 | grid |
-| 214 | 15.000000000000 | grid |
-| 215 | 15.000000000000 | grid |
-| 216 | 15.000000000000 | grid |
-| 217 | 15.000000000000 | grid |
-| 218 | 15.000000000000 | grid |
-| 219 | 15.000000000000 | grid |
-| 220 | 15.000000000000 | grid |
-| 221 | 15.000000000000 | grid |
-| 222 | 15.000000000000 | grid |
-| 223 | 15.000000000000 | grid |
-| 224 | 15.000000000000 | grid |
-| 225 | 15.000000000000 | grid |
-| 226 | 15.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 227 | 15.563625652343 | [current certificate](../n227.cert) |
-| 228 | 15.604601475730 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 229 | 15.650161513896 | [source](https://github.com/evand/square-packing/blob/00e68dfbe1d29ab5dbab1cddfb8f6ca19d5470db/search/packer/candidates/s229_v2.cert) |
-| 230 | 15.682926829269 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 231 | 15.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 232 | 15.764174317487 | [certificate](n232.cert) |
-| 233 | 15.778174593053 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 234 | 15.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 235 | 15.826605633429 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 236 | 15.861934390608 | [source](https://github.com/jlevy/squares/issues/659) |
-| 237 | 15.902603638260 | [current certificate](../n237.cert) |
-| 238 | 15.924106785322 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 239 | 15.948443327301 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 240 | 15.969685337531 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 241 | 15.987117095151 | [current certificate](../n241.cert) |
-| 242 | 16.000000000000 | grid |
-| 243 | 16.000000000000 | grid |
-| 244 | 16.000000000000 | grid |
-| 245 | 16.000000000000 | grid |
-| 246 | 16.000000000000 | grid |
-| 247 | 16.000000000000 | grid |
-| 248 | 16.000000000000 | grid |
-| 249 | 16.000000000000 | grid |
-| 250 | 16.000000000000 | grid |
-| 251 | 16.000000000000 | grid |
-| 252 | 16.000000000000 | grid |
-| 253 | 16.000000000000 | grid |
-| 254 | 16.000000000000 | grid |
-| 255 | 16.000000000000 | grid |
-| 256 | 16.000000000000 | grid |
-| 257 | 16.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 258 | 16.563448002134 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 259 | 16.591378145498 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 260 | 16.645753250545 | [current certificate](../n260.cert) |
-| 261 | 16.678779875343 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 262 | 16.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 263 | 16.733166007900 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 264 | 16.774735132388 | [certificate](n264.cert) |
-| 265 | 16.778174593053 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 266 | 16.823028750757 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 267 | 16.838815269949 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 268 | 16.878814821007 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 269 | 16.901513582190 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 270 | 16.928196993330 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 271 | 16.948947733714 | [source](https://github.com/evand/square-packing/blob/757b40b/search/packer/candidates/s271_ex1.cert) |
-| 272 | 16.965586474838 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 273 | 16.983925962651 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 274 | 17.000000000000 | grid |
-| 275 | 17.000000000000 | grid |
-| 276 | 17.000000000000 | grid |
-| 277 | 17.000000000000 | grid |
-| 278 | 17.000000000000 | grid |
-| 279 | 17.000000000000 | grid |
-| 280 | 17.000000000000 | grid |
-| 281 | 17.000000000000 | grid |
-| 282 | 17.000000000000 | grid |
-| 283 | 17.000000000000 | grid |
-| 284 | 17.000000000000 | grid |
-| 285 | 17.000000000000 | grid |
-| 286 | 17.000000000000 | grid |
-| 287 | 17.000000000000 | grid |
-| 288 | 17.000000000000 | grid |
-| 289 | 17.000000000000 | grid |
-| 290 | 17.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 291 | 17.535533905933 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 292 | 17.591378145498 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 293 | 17.634146341464 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 294 | 17.656854249493 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 295 | 17.704232790737 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 296 | 17.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 297 | 17.740417287544 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 298 | 17.778174593053 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 299 | 17.822875655533 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1) |
-| 300 | 17.824123388479 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 301 | 17.846667192844 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 302 | 17.870013850405 | [certificate](n302.cert) |
-| 303 | 17.909958291070 | [certificate](n303.cert) |
-| 304 | 17.929427758076 | [certificate](n304.cert) |
-| 305 | 17.950466482138 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 306 | 17.963433717492 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 307 | 17.980862784055 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 308 | 17.998269879527 | [source](https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2) |
-| 309 | 18.000000000000 | grid |
-| 310 | 18.000000000000 | grid |
-| 311 | 18.000000000000 | grid |
-| 312 | 18.000000000000 | grid |
-| 313 | 18.000000000000 | grid |
-| 314 | 18.000000000000 | grid |
-| 315 | 18.000000000000 | grid |
-| 316 | 18.000000000000 | grid |
-| 317 | 18.000000000000 | grid |
-| 318 | 18.000000000000 | grid |
-| 319 | 18.000000000000 | grid |
-| 320 | 18.000000000000 | grid |
-| 321 | 18.000000000000 | grid |
-| 322 | 18.000000000000 | grid |
-| 323 | 18.000000000000 | grid |
-| 324 | 18.000000000000 | grid |
-| 325 | 18.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 326 | 18.535533905933 | [certificate](n326.cert) |
-| 327 | 18.591378145498 | [certificate](n327.cert) |
-| 328 | 18.634146341464 | [certificate](n328.cert) |
-| 329 | 18.656854249493 | [certificate](n329.cert) |
-| 330 | 18.692697855726 | [current certificate](../n330.cert) |
-| 331 | 18.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 332 | 18.740417287544 | [certificate](n332.cert) |
-| 333 | 18.778174593053 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 334 | 18.822875655533 | [certificate](n334.cert) |
-| 335 | 18.822875655562 | [current certificate](../n335.cert) |
-| 336 | 18.825571499862 | [current certificate](../n336.cert) |
-| 337 | 18.858391767637 | [current certificate](../n337.cert) |
-| 338 | 18.906332809853 | [current certificate](../n338.cert) |
-| 339 | 18.911307592083 | [current certificate](../n339.cert) |
-| 340 | 18.939649632892 | [current certificate](../n340.cert) |
-| 341 | 18.951882408720 | [current certificate](../n341.cert) |
-| 342 | 18.964706723173 | [certificate](n342.cert) |
-| 343 | 18.978232204823 | [current certificate](../n343.cert) |
-| 344 | 18.993724691804 | [current certificate](../n344.cert) |
-| 345 | 19.000000000000 | grid |
-| 346 | 19.000000000000 | grid |
-| 347 | 19.000000000000 | grid |
-| 348 | 19.000000000000 | grid |
-| 349 | 19.000000000000 | grid |
-| 350 | 19.000000000000 | grid |
-| 351 | 19.000000000000 | grid |
-| 352 | 19.000000000000 | grid |
-| 353 | 19.000000000000 | grid |
-| 354 | 19.000000000000 | grid |
-| 355 | 19.000000000000 | grid |
-| 356 | 19.000000000000 | grid |
-| 357 | 19.000000000000 | grid |
-| 358 | 19.000000000000 | grid |
-| 359 | 19.000000000000 | grid |
-| 360 | 19.000000000000 | grid |
-| 361 | 19.000000000000 | grid |
-| 362 | 19.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 363 | 19.535533905933 | [certificate](n363.cert) |
-| 364 | 19.583782190152 | [current certificate](../n364.cert) |
-| 365 | 19.621320343560 | [current certificate](../n365.cert) |
-| 366 | 19.656854249493 | [certificate](n366.cert) |
-| 367 | 19.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 368 | 19.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 369 | 19.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 370 | 19.767428349965 | [current certificate](../n370.cert) |
-| 371 | 19.822875655533 | [certificate](n371.cert) |
-| 372 | 19.822875655562 | [certificate](n372.cert) |
-| 373 | 19.823062082838 | [current certificate](../n373.cert) |
-| 374 | 19.832356217033 | [current certificate](../n374.cert) |
-| 375 | 19.882451030482 | [current certificate](../n375.cert) |
-| 376 | 19.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 377 | 19.925720814331 | [current certificate](../n377.cert) |
-| 378 | 19.942505611659 | [current certificate](../n378.cert) |
-| 379 | 19.953014213942 | [current certificate](../n379.cert) |
-| 380 | 19.961601762402 | [current certificate](../n380.cert) |
-| 381 | 19.974740439431 | [certificate](n381.cert) |
-| 382 | 19.987621153966 | [current certificate](../n382.cert) |
-| 383 | 20.000000000000 | grid |
-| 384 | 20.000000000000 | grid |
-| 385 | 20.000000000000 | grid |
-| 386 | 20.000000000000 | grid |
-| 387 | 20.000000000000 | grid |
-| 388 | 20.000000000000 | grid |
-| 389 | 20.000000000000 | grid |
-| 390 | 20.000000000000 | grid |
-| 391 | 20.000000000000 | grid |
-| 392 | 20.000000000000 | grid |
-| 393 | 20.000000000000 | grid |
-| 394 | 20.000000000000 | grid |
-| 395 | 20.000000000000 | grid |
-| 396 | 20.000000000000 | grid |
-| 397 | 20.000000000000 | grid |
-| 398 | 20.000000000000 | grid |
-| 399 | 20.000000000000 | grid |
-| 400 | 20.000000000000 | grid |
-| 401 | 20.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 402 | 20.535533905933 | [certificate](n402.cert) |
-| 403 | 20.583782190152 | [current certificate](../n403.cert) |
-| 404 | 20.621320343560 | [certificate](n404.cert) |
-| 405 | 20.656854249493 | [certificate](n405.cert) |
-| 406 | 20.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 407 | 20.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 408 | 20.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 409 | 20.767428349966 | [certificate](n409.cert) |
-| 410 | 20.778174593076 | [certificate](n410.cert) |
-| 411 | 20.822875655557 | [certificate](n411.cert) |
-| 412 | 20.823062082838 | [certificate](n412.cert) |
-| 413 | 20.831663365378 | [certificate](n413.cert) |
-| 414 | 20.882451030482 | [certificate](n414.cert) |
-| 415 | 20.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 416 | 20.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 417 | 20.942505611684 | [current certificate](../n417.cert) |
-| 418 | 20.942828529884 | [current certificate](../n418.cert) |
-| 419 | 20.959713421191 | [current certificate](../n419.cert) |
-| 420 | 20.974164562587 | [current certificate](../n420.cert) |
-| 421 | 20.981525640927 | [current certificate](../n421.cert) |
-| 422 | 20.983607201006 | [current certificate](../n422.cert) |
-| 423 | 21.000000000000 | grid |
-| 424 | 21.000000000000 | grid |
-| 425 | 21.000000000000 | grid |
-| 426 | 21.000000000000 | grid |
-| 427 | 21.000000000000 | grid |
-| 428 | 21.000000000000 | grid |
-| 429 | 21.000000000000 | grid |
-| 430 | 21.000000000000 | grid |
-| 431 | 21.000000000000 | grid |
-| 432 | 21.000000000000 | grid |
-| 433 | 21.000000000000 | grid |
-| 434 | 21.000000000000 | grid |
-| 435 | 21.000000000000 | grid |
-| 436 | 21.000000000000 | grid |
-| 437 | 21.000000000000 | grid |
-| 438 | 21.000000000000 | grid |
-| 439 | 21.000000000000 | grid |
-| 440 | 21.000000000000 | grid |
-| 441 | 21.000000000000 | grid |
-| 442 | 21.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 443 | 21.535533905933 | [certificate](n443.cert) |
-| 444 | 21.583782190152 | [current certificate](../n444.cert) |
-| 445 | 21.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 446 | 21.656854249493 | [certificate](n446.cert) |
-| 447 | 21.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 448 | 21.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 449 | 21.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 450 | 21.767428349966 | [certificate](n450.cert) |
-| 451 | 21.778174593076 | [certificate](n451.cert) |
-| 452 | 21.778174593086 | [current certificate](../n452.cert) |
-| 453 | 21.823014758318 | [certificate](n453.cert) |
-| 454 | 21.828427124844 | [certificate](n454.cert) |
-| 455 | 21.882183551471 | [current certificate](../n455.cert) |
-| 456 | 21.882183551471 | [current certificate](../n456.cert) |
-| 457 | 21.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 458 | 21.903778442820 | [current certificate](../n458.cert) |
-| 459 | 21.942365250364 | [current certificate](../n459.cert) |
-| 460 | 21.957558542548 | [current certificate](../n460.cert) |
-| 461 | 21.971318847922 | [current certificate](../n461.cert) |
-| 462 | 21.974888792980 | [current certificate](../n462.cert) |
-| 463 | 21.983603993953 | [current certificate](../n463.cert) |
-| 464 | 21.987753655547 | [current certificate](../n464.cert) |
-| 465 | 22.000000000000 | grid |
-| 466 | 22.000000000000 | grid |
-| 467 | 22.000000000000 | grid |
-| 468 | 22.000000000000 | grid |
-| 469 | 22.000000000000 | grid |
-| 470 | 22.000000000000 | grid |
-| 471 | 22.000000000000 | grid |
-| 472 | 22.000000000000 | grid |
-| 473 | 22.000000000000 | grid |
-| 474 | 22.000000000000 | grid |
-| 475 | 22.000000000000 | grid |
-| 476 | 22.000000000000 | grid |
-| 477 | 22.000000000000 | grid |
-| 478 | 22.000000000000 | grid |
-| 479 | 22.000000000000 | grid |
-| 480 | 22.000000000000 | grid |
-| 481 | 22.000000000000 | grid |
-| 482 | 22.000000000000 | grid |
-| 483 | 22.000000000000 | grid |
-| 484 | 22.000000000000 | grid |
-| 485 | 22.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 486 | 22.535533905933 | [certificate](n486.cert) |
-| 487 | 22.583782190178 | [certificate](n487.cert) |
-| 488 | 22.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 489 | 22.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 490 | 22.656854249519 | [certificate](n490.cert) |
-| 491 | 22.692388155426 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 492 | 22.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 493 | 22.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 494 | 22.778174593076 | [certificate](n494.cert) |
-| 495 | 22.778174593079 | [certificate](n495.cert) |
-| 496 | 22.823014758318 | [certificate](n496.cert) |
-| 497 | 22.823104027272 | [current certificate](../n497.cert) |
-| 498 | 22.828427124827 | [certificate](n498.cert) |
-| 499 | 22.882183551471 | [current certificate](../n499.cert) |
-| 500 | 22.899494936612 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 501 | 22.903778442820 | [current certificate](../n501.cert) |
-| 502 | 22.942219237446 | [current certificate](../n502.cert) |
-| 503 | 22.957558542542 | [current certificate](../n503.cert) |
-| 504 | 22.970562748504 | [certificate](n504.cert) |
-| 505 | 22.971592368271 | [current certificate](../n505.cert) |
-| 506 | 22.973102824304 | [certificate](n506.cert) |
-| 507 | 22.973697163680 | [current certificate](../n507.cert) |
-| 508 | 22.987759965313 | [certificate](n508.cert) |
-| 509 | 22.994328036438 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert) |
-| 510 | 23.000000000000 | grid |
-| 511 | 23.000000000000 | grid |
-| 512 | 23.000000000000 | grid |
-| 513 | 23.000000000000 | grid |
-| 514 | 23.000000000000 | grid |
-| 515 | 23.000000000000 | grid |
-| 516 | 23.000000000000 | grid |
-| 517 | 23.000000000000 | grid |
-| 518 | 23.000000000000 | grid |
-| 519 | 23.000000000000 | grid |
-| 520 | 23.000000000000 | grid |
-| 521 | 23.000000000000 | grid |
-| 522 | 23.000000000000 | grid |
-| 523 | 23.000000000000 | grid |
-| 524 | 23.000000000000 | grid |
-| 525 | 23.000000000000 | grid |
-| 526 | 23.000000000000 | grid |
-| 527 | 23.000000000000 | grid |
-| 528 | 23.000000000000 | grid |
-| 529 | 23.000000000000 | grid |
-| 530 | 23.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 531 | 23.535533905933 | [certificate](n531.cert) |
-| 532 | 23.583782190178 | [certificate](n532.cert) |
-| 533 | 23.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 534 | 23.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 535 | 23.656854249519 | [certificate](n535.cert) |
-| 536 | 23.677669529701 | [current certificate](../n536.cert) |
-| 537 | 23.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 538 | 23.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 539 | 23.778174593076 | [certificate](n539.cert) |
-| 540 | 23.778174593079 | [certificate](n540.cert) |
-| 541 | 23.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 542 | 23.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 543 | 23.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 544 | 23.828427124775 | [certificate](n544.cert) |
-| 545 | 23.889010439304 | [certificate](n546.cert) (deletion) |
-| 546 | 23.889010439304 | [current certificate](../n546.cert) |
-| 547 | 23.906371163646 | [current certificate](../n547.cert) |
-| 548 | 23.956345132949 | [current certificate](../n548.cert) |
-| 549 | 23.956345132949 | [current certificate](../n549.cert) |
-| 550 | 23.961513018469 | [certificate](n550.cert) |
-| 551 | 23.966898919633 | [current certificate](../n551.cert) |
-| 552 | 23.966901721108 | [certificate](n552.cert) |
-| 553 | 23.980727660940 | [current certificate](../n553.cert) |
-| 554 | 23.993524047733 | [current certificate](../n554.cert) |
-| 555 | 23.993580713561 | [current certificate](../n555.cert) |
-| 556 | 24.000000000000 | grid |
-| 557 | 24.000000000000 | grid |
-| 558 | 24.000000000000 | grid |
-| 559 | 24.000000000000 | grid |
-| 560 | 24.000000000000 | grid |
-| 561 | 24.000000000000 | grid |
-| 562 | 24.000000000000 | grid |
-| 563 | 24.000000000000 | grid |
-| 564 | 24.000000000000 | grid |
-| 565 | 24.000000000000 | grid |
-| 566 | 24.000000000000 | grid |
-| 567 | 24.000000000000 | grid |
-| 568 | 24.000000000000 | grid |
-| 569 | 24.000000000000 | grid |
-| 570 | 24.000000000000 | grid |
-| 571 | 24.000000000000 | grid |
-| 572 | 24.000000000000 | grid |
-| 573 | 24.000000000000 | grid |
-| 574 | 24.000000000000 | grid |
-| 575 | 24.000000000000 | grid |
-| 576 | 24.000000000000 | grid |
-| 577 | 24.535533905933 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 578 | 24.535533905933 | [certificate](n578.cert) |
-| 579 | 24.583782190178 | [certificate](n579.cert) |
-| 580 | 24.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 581 | 24.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 582 | 24.656854249519 | [certificate](n582.cert) |
-| 583 | 24.677669529693 | [certificate](n584.cert) (deletion) |
-| 584 | 24.677669529693 | [certificate](n584.cert) |
-| 585 | 24.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 586 | 24.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 587 | 24.778174593079 | [certificate](n587.cert) |
-| 588 | 24.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 589 | 24.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 590 | 24.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 591 | 24.828427124775 | [certificate](n591.cert) |
-| 592 | 24.888988759404 | [current certificate](../n592.cert) |
-| 593 | 24.888988761769 | [current certificate](../n593.cert) |
-| 594 | 24.899494936641 | [certificate](n594.cert) |
-| 595 | 24.949747468335 | [current certificate](../n595.cert) |
-| 596 | 24.949747468335 | [certificate](n596.cert) |
-| 597 | 24.961502766154 | [current certificate](../n597.cert) |
-| 598 | 24.961502766154 | [current certificate](../n598.cert) |
-| 599 | 24.966901721108 | [certificate](n599.cert) |
-| 600 | 24.980727660940 | [current certificate](../n600.cert) |
-| 601 | 24.987983019378 | [current certificate](../n601.cert) |
-| 602 | 24.993580713561 | [current certificate](../n602.cert) |
-| 603 | 24.994263342387 | [current certificate](../n603.cert) |
-| 604 | 25.000000000000 | grid |
-| 605 | 25.000000000000 | grid |
-| 606 | 25.000000000000 | grid |
-| 607 | 25.000000000000 | grid |
-| 608 | 25.000000000000 | grid |
-| 609 | 25.000000000000 | grid |
-| 610 | 25.000000000000 | grid |
-| 611 | 25.000000000000 | grid |
-| 612 | 25.000000000000 | grid |
-| 613 | 25.000000000000 | grid |
-| 614 | 25.000000000000 | grid |
-| 615 | 25.000000000000 | grid |
-| 616 | 25.000000000000 | grid |
-| 617 | 25.000000000000 | grid |
-| 618 | 25.000000000000 | grid |
-| 619 | 25.000000000000 | grid |
-| 620 | 25.000000000000 | grid |
-| 621 | 25.000000000000 | grid |
-| 622 | 25.000000000000 | grid |
-| 623 | 25.000000000000 | grid |
-| 624 | 25.000000000000 | grid |
-| 625 | 25.000000000000 | grid |
-| 626 | 25.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 627 | 25.535533905933 | [certificate](n627.cert) |
-| 628 | 25.583782190178 | [certificate](n628.cert) |
-| 629 | 25.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 630 | 25.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 631 | 25.656854249519 | [certificate](n631.cert) |
-| 632 | 25.677669529693 | [certificate](n633.cert) (deletion) |
-| 633 | 25.677669529693 | [certificate](n633.cert) |
-| 634 | 25.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 635 | 25.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 636 | 25.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 637 | 25.778174593082 | [certificate](n637.cert) |
-| 638 | 25.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 639 | 25.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 640 | 25.828427124775 | [certificate](n640.cert) |
-| 641 | 25.881306220594 | [certificate](n642.cert) (deletion) |
-| 642 | 25.881306220594 | [current certificate](../n642.cert) |
-| 643 | 25.899494936641 | [certificate](n643.cert) |
-| 644 | 25.899494936642 | [certificate](n644.cert) |
-| 645 | 25.949747468335 | [certificate](n645.cert) |
-| 646 | 25.949747468336 | [certificate](n646.cert) |
-| 647 | 25.953248543199 | [current certificate](../n647.cert) |
-| 648 | 25.966901721108 | [certificate](n648.cert) |
-| 649 | 25.976974088403 | [certificate](n649.cert) |
-| 650 | 25.982275449119 | [current certificate](../n650.cert) |
-| 651 | 25.983790120159 | [current certificate](../n651.cert) |
-| 652 | 25.994256214773 | [current certificate](../n652.cert) |
-| 653 | 25.994414202392 | [current certificate](../n653.cert) |
-| 654 | 25.995888235804 | [current certificate](../n654.cert) |
-| 655 | 26.000000000000 | grid |
-| 656 | 26.000000000000 | grid |
-| 657 | 26.000000000000 | grid |
-| 658 | 26.000000000000 | grid |
-| 659 | 26.000000000000 | grid |
-| 660 | 26.000000000000 | grid |
-| 661 | 26.000000000000 | grid |
-| 662 | 26.000000000000 | grid |
-| 663 | 26.000000000000 | grid |
-| 664 | 26.000000000000 | grid |
-| 665 | 26.000000000000 | grid |
-| 666 | 26.000000000000 | grid |
-| 667 | 26.000000000000 | grid |
-| 668 | 26.000000000000 | grid |
-| 669 | 26.000000000000 | grid |
-| 670 | 26.000000000000 | grid |
-| 671 | 26.000000000000 | grid |
-| 672 | 26.000000000000 | grid |
-| 673 | 26.000000000000 | grid |
-| 674 | 26.000000000000 | grid |
-| 675 | 26.000000000000 | grid |
-| 676 | 26.000000000000 | grid |
-| 677 | 26.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 678 | 26.535533905933 | [certificate](n678.cert) |
-| 679 | 26.583782190178 | [certificate](n679.cert) |
-| 680 | 26.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 681 | 26.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 682 | 26.656854249519 | [certificate](n682.cert) |
-| 683 | 26.677669529693 | [certificate](n684.cert) (deletion) |
-| 684 | 26.677669529693 | [certificate](n684.cert) |
-| 685 | 26.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 686 | 26.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 687 | 26.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 688 | 26.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 689 | 26.778174593084 | [certificate](n689.cert) |
-| 690 | 26.813708498985 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 691 | 26.828427124775 | [certificate](n691.cert) |
-| 692 | 26.828427124777 | [certificate](n692.cert) |
-| 693 | 26.881306218365 | [current certificate](../n693.cert) |
-| 694 | 26.899494936641 | [certificate](n694.cert) |
-| 695 | 26.899494936642 | [certificate](n695.cert) |
-| 696 | 26.949747468335 | [certificate](n696.cert) |
-| 697 | 26.949747468336 | [certificate](n697.cert) |
-| 698 | 26.949747468338 | [certificate](n698.cert) |
-| 699 | 26.949747468415 | [certificate](n699.cert) |
-| 700 | 26.972679052192 | [current certificate](../n700.cert) |
-| 701 | 26.975549413717 | [current certificate](../n701.cert) |
-| 702 | 26.977494114977 | [current certificate](../n702.cert) |
-| 703 | 26.987459573204 | [current certificate](../n703.cert) |
-| 704 | 26.994256369878 | [current certificate](../n704.cert) |
-| 705 | 26.994256369878 | [current certificate](../n705.cert) |
-| 706 | 26.998542133963 | [current certificate](../n706.cert) |
-| 707 | 27.000000000000 | grid |
-| 708 | 27.000000000000 | grid |
-| 709 | 27.000000000000 | grid |
-| 710 | 27.000000000000 | grid |
-| 711 | 27.000000000000 | grid |
-| 712 | 27.000000000000 | grid |
-| 713 | 27.000000000000 | grid |
-| 714 | 27.000000000000 | grid |
-| 715 | 27.000000000000 | grid |
-| 716 | 27.000000000000 | grid |
-| 717 | 27.000000000000 | grid |
-| 718 | 27.000000000000 | grid |
-| 719 | 27.000000000000 | grid |
-| 720 | 27.000000000000 | grid |
-| 721 | 27.000000000000 | grid |
-| 722 | 27.000000000000 | grid |
-| 723 | 27.000000000000 | grid |
-| 724 | 27.000000000000 | grid |
-| 725 | 27.000000000000 | grid |
-| 726 | 27.000000000000 | grid |
-| 727 | 27.000000000000 | grid |
-| 728 | 27.000000000000 | grid |
-| 729 | 27.000000000000 | grid |
-| 730 | 27.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 731 | 27.535533905933 | [certificate](n731.cert) |
-| 732 | 27.583782190178 | [certificate](n732.cert) |
-| 733 | 27.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 734 | 27.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 735 | 27.656854249519 | [current certificate](../n735.cert) |
-| 736 | 27.656854249525 | [certificate](n736.cert) |
-| 737 | 27.677669529693 | [certificate](n737.cert) |
-| 738 | 27.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 739 | 27.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 740 | 27.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 741 | 27.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 742 | 27.778174593084 | [certificate](n742.cert) |
-| 743 | 27.798989873256 | [certificate](n744.cert) (deletion) |
-| 744 | 27.798989873256 | [certificate](n744.cert) |
-| 745 | 27.828427124777 | [certificate](n745.cert) |
-| 746 | 27.828427124795 | [certificate](n746.cert) |
-| 747 | 27.899494936641 | [certificate](n747.cert) |
-| 748 | 27.899494936642 | [certificate](n748.cert) |
-| 749 | 27.911194713730 | [current certificate](../n749.cert) |
-| 750 | 27.927909095101 | [current certificate](../n750.cert) |
-| 751 | 27.932448900769 | [current certificate](../n751.cert) |
-| 752 | 27.932449886404 | [current certificate](../n752.cert) |
-| 753 | 27.932449886404 | [current certificate](../n753.cert) |
-| 754 | 27.937423317053 | [current certificate](../n754.cert) |
-| 755 | 27.951504031492 | [current certificate](../n755.cert) |
-| 756 | 27.982602664098 | [current certificate](../n756.cert) |
-| 757 | 27.989936967966 | [current certificate](../n757.cert) |
-| 758 | 27.993798579000 | [current certificate](../n758.cert) |
-| 759 | 27.993798579000 | [current certificate](../n759.cert) |
-| 760 | 27.995022162160 | [current certificate](../n760.cert) |
-| 761 | 28.000000000000 | grid |
-| 762 | 28.000000000000 | grid |
-| 763 | 28.000000000000 | grid |
-| 764 | 28.000000000000 | grid |
-| 765 | 28.000000000000 | grid |
-| 766 | 28.000000000000 | grid |
-| 767 | 28.000000000000 | grid |
-| 768 | 28.000000000000 | grid |
-| 769 | 28.000000000000 | grid |
-| 770 | 28.000000000000 | grid |
-| 771 | 28.000000000000 | grid |
-| 772 | 28.000000000000 | grid |
-| 773 | 28.000000000000 | grid |
-| 774 | 28.000000000000 | grid |
-| 775 | 28.000000000000 | grid |
-| 776 | 28.000000000000 | grid |
-| 777 | 28.000000000000 | grid |
-| 778 | 28.000000000000 | grid |
-| 779 | 28.000000000000 | grid |
-| 780 | 28.000000000000 | grid |
-| 781 | 28.000000000000 | grid |
-| 782 | 28.000000000000 | grid |
-| 783 | 28.000000000000 | grid |
-| 784 | 28.000000000000 | grid |
-| 785 | 28.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 786 | 28.535533905933 | [certificate](n786.cert) |
-| 787 | 28.583782190178 | [certificate](n787.cert) |
-| 788 | 28.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 789 | 28.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 790 | 28.656854249519 | [certificate](n790.cert) |
-| 791 | 28.656854249525 | [certificate](n791.cert) |
-| 792 | 28.656854249526 | [certificate](n792.cert) |
-| 793 | 28.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 794 | 28.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 795 | 28.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 796 | 28.727922061358 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 797 | 28.778174593084 | [certificate](n797.cert) |
-| 798 | 28.798989873256 | [certificate](n799.cert) (deletion) |
-| 799 | 28.798989873256 | [certificate](n799.cert) |
-| 800 | 28.798989873257 | [certificate](n800.cert) |
-| 801 | 28.828427124795 | [certificate](n801.cert) |
-| 802 | 28.828427124817 | [certificate](n802.cert) |
-| 803 | 28.899494936642 | [certificate](n803.cert) |
-| 804 | 28.909246527138 | [current certificate](../n804.cert) |
-| 805 | 28.909665866810 | [current certificate](../n805.cert) |
-| 806 | 28.919759255285 | [current certificate](../n806.cert) |
-| 807 | 28.924702911083 | [current certificate](../n807.cert) |
-| 808 | 28.932449886404 | [current certificate](../n808.cert) |
-| 809 | 28.937423314202 | [current certificate](../n809.cert) |
-| 810 | 28.951463124704 | [certificate](n810.cert) |
-| 811 | 28.981360068210 | [current certificate](../n811.cert) |
-| 812 | 28.981360068210 | [current certificate](../n812.cert) |
-| 813 | 28.989934397793 | [current certificate](../n813.cert) |
-| 814 | 28.993798579000 | [current certificate](../n814.cert) |
-| 815 | 28.995022162160 | [current certificate](../n815.cert) |
-| 816 | 28.998219025338 | [current certificate](../n816.cert) |
-| 817 | 28.998234675372 | [current certificate](../n817.cert) |
-| 818 | 29.000000000000 | grid |
-| 819 | 29.000000000000 | grid |
-| 820 | 29.000000000000 | grid |
-| 821 | 29.000000000000 | grid |
-| 822 | 29.000000000000 | grid |
-| 823 | 29.000000000000 | grid |
-| 824 | 29.000000000000 | grid |
-| 825 | 29.000000000000 | grid |
-| 826 | 29.000000000000 | grid |
-| 827 | 29.000000000000 | grid |
-| 828 | 29.000000000000 | grid |
-| 829 | 29.000000000000 | grid |
-| 830 | 29.000000000000 | grid |
-| 831 | 29.000000000000 | grid |
-| 832 | 29.000000000000 | grid |
-| 833 | 29.000000000000 | grid |
-| 834 | 29.000000000000 | grid |
-| 835 | 29.000000000000 | grid |
-| 836 | 29.000000000000 | grid |
-| 837 | 29.000000000000 | grid |
-| 838 | 29.000000000000 | grid |
-| 839 | 29.000000000000 | grid |
-| 840 | 29.000000000000 | grid |
-| 841 | 29.000000000000 | grid |
-| 842 | 29.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 843 | 29.535533905933 | [certificate](n843.cert) |
-| 844 | 29.583782190178 | [certificate](n844.cert) |
-| 845 | 29.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 846 | 29.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 847 | 29.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 848 | 29.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 849 | 29.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) |
-| 850 | 29.656854249528 | [certificate](n850.cert) |
-| 851 | 29.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 852 | 29.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 853 | 29.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 854 | 29.778174593084 | [certificate](n854.cert) |
-| 855 | 29.798989873256 | [certificate](n856.cert) (deletion) |
-| 856 | 29.798989873256 | [certificate](n856.cert) |
-| 857 | 29.798989873257 | [certificate](n857.cert) |
-| 858 | 29.828427124795 | [current certificate](../n858.cert) |
-| 859 | 29.828427124807 | [certificate](n859.cert) |
-| 860 | 29.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 861 | 29.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 862 | 29.899494936647 | [certificate](n862.cert) |
-| 863 | 29.916419307447 | [current certificate](../n863.cert) |
-| 864 | 29.924702911083 | [current certificate](../n864.cert) |
-| 865 | 29.932449886402 | [current certificate](../n865.cert) |
-| 866 | 29.935764472087 | [current certificate](../n866.cert) |
-| 867 | 29.949688481977 | [current certificate](../n867.cert) |
-| 868 | 29.977390686090 | [current certificate](../n868.cert) |
-| 869 | 29.981360065447 | [current certificate](../n869.cert) |
-| 870 | 29.985424855417 | [current certificate](../n870.cert) |
-| 871 | 29.986798495028 | [current certificate](../n871.cert) |
-| 872 | 29.995022162160 | [current certificate](../n872.cert) |
-| 873 | 29.996375057644 | [current certificate](../n873.cert) |
-| 874 | 29.996375057644 | [current certificate](../n874.cert) |
-| 875 | 29.998783733108 | [source](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0875.cert) |
-| 876 | 30.000000000000 | grid |
-| 877 | 30.000000000000 | grid |
-| 878 | 30.000000000000 | grid |
-| 879 | 30.000000000000 | grid |
-| 880 | 30.000000000000 | grid |
-| 881 | 30.000000000000 | grid |
-| 882 | 30.000000000000 | grid |
-| 883 | 30.000000000000 | grid |
-| 884 | 30.000000000000 | grid |
-| 885 | 30.000000000000 | grid |
-| 886 | 30.000000000000 | grid |
-| 887 | 30.000000000000 | grid |
-| 888 | 30.000000000000 | grid |
-| 889 | 30.000000000000 | grid |
-| 890 | 30.000000000000 | grid |
-| 891 | 30.000000000000 | grid |
-| 892 | 30.000000000000 | grid |
-| 893 | 30.000000000000 | grid |
-| 894 | 30.000000000000 | grid |
-| 895 | 30.000000000000 | grid |
-| 896 | 30.000000000000 | grid |
-| 897 | 30.000000000000 | grid |
-| 898 | 30.000000000000 | grid |
-| 899 | 30.000000000000 | grid |
-| 900 | 30.000000000000 | grid |
-| 901 | 30.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 902 | 30.535533905933 | [certificate](n902.cert) |
-| 903 | 30.583782190178 | [certificate](n903.cert) |
-| 904 | 30.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 905 | 30.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 906 | 30.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 907 | 30.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 908 | 30.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 909 | 30.656854249528 | [certificate](n909.cert) |
-| 910 | 30.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 911 | 30.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 912 | 30.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) + L borders |
-| 913 | 30.778174593084 | [certificate](n913.cert) |
-| 914 | 30.778174593089 | [certificate](n914.cert) |
-| 915 | 30.798989873256 | [certificate](n915.cert) |
-| 916 | 30.798989873257 | [certificate](n916.cert) |
-| 917 | 30.828427124795 | [certificate](n917.cert) |
-| 918 | 30.828427124807 | [current certificate](../n918.cert) |
-| 919 | 30.844931419278 | [current certificate](../n919.cert) |
-| 920 | 30.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 921 | 30.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 922 | 30.899494936660 | [current certificate](../n922.cert) |
-| 923 | 30.924702911083 | [current certificate](../n923.cert) |
-| 924 | 30.932449886402 | [current certificate](../n924.cert) |
-| 925 | 30.935764472087 | [current certificate](../n925.cert) |
-| 926 | 30.945612117331 | [current certificate](../n926.cert) |
-| 927 | 30.975475685281 | [current certificate](../n927.cert) |
-| 928 | 30.975475685281 | [current certificate](../n928.cert) |
-| 929 | 30.978235012084 | [current certificate](../n929.cert) |
-| 930 | 30.981535303483 | [current certificate](../n930.cert) |
-| 931 | 30.989934734721 | [current certificate](../n931.cert) |
-| 932 | 30.993891653207 | [current certificate](../n932.cert) |
-| 933 | 30.994238714880 | [current certificate](../n933.cert) |
-| 934 | 30.995302140806 | [current certificate](../n934.cert) |
-| 935 | 30.995336946282 | [current certificate](../n935.cert) |
-| 936 | 31.000000000000 | grid |
-| 937 | 31.000000000000 | grid |
-| 938 | 31.000000000000 | grid |
-| 939 | 31.000000000000 | grid |
-| 940 | 31.000000000000 | grid |
-| 941 | 31.000000000000 | grid |
-| 942 | 31.000000000000 | grid |
-| 943 | 31.000000000000 | grid |
-| 944 | 31.000000000000 | grid |
-| 945 | 31.000000000000 | grid |
-| 946 | 31.000000000000 | grid |
-| 947 | 31.000000000000 | grid |
-| 948 | 31.000000000000 | grid |
-| 949 | 31.000000000000 | grid |
-| 950 | 31.000000000000 | grid |
-| 951 | 31.000000000000 | grid |
-| 952 | 31.000000000000 | grid |
-| 953 | 31.000000000000 | grid |
-| 954 | 31.000000000000 | grid |
-| 955 | 31.000000000000 | grid |
-| 956 | 31.000000000000 | grid |
-| 957 | 31.000000000000 | grid |
-| 958 | 31.000000000000 | grid |
-| 959 | 31.000000000000 | grid |
-| 960 | 31.000000000000 | grid |
-| 961 | 31.000000000000 | grid |
-| 962 | 31.520815280172 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 963 | 31.535533905933 | [certificate](n963.cert) |
-| 964 | 31.556349186105 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) |
-| 965 | 31.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 966 | 31.606601717799 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 967 | 31.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 968 | 31.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 969 | 31.642135623731 | [source](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/cases/gobel_offcentre/packing.py) + L borders |
-| 970 | 31.656854249528 | [certificate](n970.cert) |
-| 971 | 31.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 972 | 31.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 973 | 31.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 974 | 31.707106781187 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) |
-| 975 | 31.778174593089 | [certificate](n975.cert) |
-| 976 | 31.778174593090 | [certificate](n976.cert) |
-| 977 | 31.798989873257 | [certificate](n977.cert) |
-| 978 | 31.828427124795 | [certificate](n978.cert) |
-| 979 | 31.828427124802 | [certificate](n980.cert) (deletion) |
-| 980 | 31.828427124802 | [certificate](n980.cert) |
-| 981 | 31.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 982 | 31.849242404918 | [source](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) + L borders |
-| 983 | 31.899494936650 | [certificate](n983.cert) |
-| 984 | 31.914115712696 | [current certificate](../n984.cert) |
-| 985 | 31.920310216821 | [certificate](n986.cert) (deletion) |
-| 986 | 31.920310216821 | [certificate](n986.cert) |
-| 987 | 31.944662519483 | [current certificate](../n987.cert) |
-| 988 | 31.949747468406 | [certificate](n988.cert) |
-| 989 | 31.975475685281 | [current certificate](../n989.cert) |
-| 990 | 31.977918827720 | [current certificate](../n990.cert) |
-| 991 | 31.981485095638 | [current certificate](../n991.cert) |
-| 992 | 31.984796372085 | [current certificate](../n992.cert) |
-| 993 | 31.984841090107 | [current certificate](../n993.cert) |
-| 994 | 31.993645614627 | [current certificate](../n994.cert) |
-| 995 | 31.994784549711 | [current certificate](../n995.cert) |
-| 996 | 31.994784549711 | [current certificate](../n996.cert) |
-| 997 | 31.998300669675 | [current certificate](../n997.cert) |
-| 998 | 31.998301106112 | [current certificate](../n998.cert) |
-| 999 | 32.000000000000 | grid |
-| 1000 | 32.000000000000 | grid |
-| 1001 | 32.000000000000 | grid |
-| 1002 | 32.000000000000 | grid |
-| 1003 | 32.000000000000 | grid |
-| 1004 | 32.000000000000 | grid |
-| 1005 | 32.000000000000 | grid |
-| 1006 | 32.000000000000 | grid |
-| 1007 | 32.000000000000 | grid |
-| 1008 | 32.000000000000 | grid |
-| 1009 | 32.000000000000 | grid |
-| 1010 | 32.000000000000 | grid |
-| 1011 | 32.000000000000 | grid |
-| 1012 | 32.000000000000 | grid |
-| 1013 | 32.000000000000 | grid |
-| 1014 | 32.000000000000 | grid |
-| 1015 | 32.000000000000 | grid |
-| 1016 | 32.000000000000 | grid |
-| 1017 | 32.000000000000 | grid |
-| 1018 | 32.000000000000 | grid |
-| 1019 | 32.000000000000 | grid |
-| 1020 | 32.000000000000 | grid |
-| 1021 | 32.000000000000 | grid |
-| 1022 | 32.000000000000 | grid |
-| 1023 | 32.000000000000 | grid |
-| 1024 | 32.000000000000 | grid |
+| [989](n989.cert) | 31.974936836706 | Darius Muglich, with original seed and construction credits in source provenance |
+| [990](n990.cert) | 31.975405698333 | Darius Muglich, with original seed and construction credits in source provenance |
+| [991](n991.cert) | 31.977403109965 | Darius Muglich, with original seed and construction credits in source provenance |
+| [992](n992.cert) | 31.977815424177 | Darius Muglich, with original seed and construction credits in source provenance |
+| [993](n993.cert) | 31.983895593655 | Darius Muglich, with original seed and construction credits in source provenance |
+| [994](n994.cert) | 31.992852783190 | Francisco Couzo |
+| [995](n995.cert) | 31.993696413074 | Francisco Couzo |
+| [996](n996.cert) | 31.994174058189 | Darius Muglich, with original seed and construction credits in source provenance |
+| [997](n997.cert) | 31.996875920327 | Darius Muglich, with original seed and construction credits in source provenance |
+| [998](n998.cert) | 31.996875920295 | Darius Muglich, with original seed and construction credits in source provenance |
+| [1058](n1058.cert) | 32.999256308447 | Kevin Fang (TheSnakeFang) |
+| [1061](n1061.cert) | 32.995954738136 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1125](n1125.cert) | 33.999309855163 | Kevin Fang (TheSnakeFang) |
+| [1128](n1128.cert) | 33.998294117981 | Joost de Winter |
+| [1193](n1193.cert) | 34.999256308447 | Kevin Fang (TheSnakeFang) |
+| [1196](n1196.cert) | 34.998294118334 | Joost de Winter |
+| [1263](n1263.cert) | 35.993549626549 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1266](n1266.cert) | 35.996046403807 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1335](n1335.cert) | 36.990072025463 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1339](n1339.cert) | 36.997865205268 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1409](n1409.cert) | 37.999309855163 | Kevin Fang (TheSnakeFang) |
+| [1413](n1413.cert) | 37.999315487115 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1485](n1485.cert) | 38.995489275431 | Kevin Fang (TheSnakeFang) |
+| [1486](n1486.cert) | 38.999950000000 | Kevin Fang and credited original pieces |
+| [1489](n1489.cert) | 38.997599735618 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1563](n1563.cert) | 39.997220361783 | Kevin Fang (TheSnakeFang) |
+| [1564](n1564.cert) | 39.992727809619 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1568](n1568.cert) | 39.999336624698 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1642](n1642.cert) | 40.988287236851 | Kevin Fang (TheSnakeFang) |
+| [1644](n1644.cert) | 40.994328036200 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1648](n1648.cert) | 40.999321109325 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1724](n1724.cert) | 41.996141230022 | Kevin Fang (TheSnakeFang) |
+| [1726](n1726.cert) | 41.999950000000 | Kevin Fang and credited original pieces |
+| [1727](n1727.cert) | 41.999256219691 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1729](n1729.cert) | 41.999336624748 | Francisco Couzo (assembly/refinement); original piece credits below |
+| [1808](n1808.cert) | 42.997220361783 | Kevin Fang (TheSnakeFang) |
+| [1810](n1810.cert) | 42.999950000000 | Kevin Fang and credited original pieces |
+| [1811](n1811.cert) | 42.997550241724 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1812](n1812.cert) | 42.997600183876 | Francisco Couzo (assembly/refinement); original piece credits below |
+| [1894](n1894.cert) | 43.999256308447 | Kevin Fang (TheSnakeFang) |
+| [1896](n1896.cert) | 43.999950000000 | Kevin Fang and credited original pieces |
+| [1897](n1897.cert) | 43.994328036204 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1899](n1899.cert) | 43.999336623227 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [1982](n1982.cert) | 44.999256308447 | Kevin Fang (TheSnakeFang) |
+| [1983](n1983.cert) | 44.999950000000 | Kevin Fang and credited original pieces |
+| [1986](n1986.cert) | 44.997600183879 | Francisco Couzo (assembly/refinement); original piece credits below |
+| [2072](n2072.cert) | 45.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2073](n2073.cert) | 45.999950000000 | Kevin Fang and credited original pieces |
+| [2076](n2076.cert) | 45.997550240009 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2164](n2164.cert) | 46.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2165](n2165.cert) | 46.999950000000 | Kevin Fang and credited original pieces |
+| [2168](n2168.cert) | 46.994867334396 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2259](n2259.cert) | 47.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2262](n2262.cert) | 47.997550817674 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2263](n2263.cert) | 47.999256231755 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2355](n2355.cert) | 48.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2356](n2356.cert) | 48.999950000000 | Kevin Fang and credited original pieces |
+| [2358](n2358.cert) | 48.995949339886 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2359](n2359.cert) | 48.997550269630 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2454](n2454.cert) | 49.999309855163 | Kevin Fang (TheSnakeFang) |
+| [2457](n2457.cert) | 49.996875920562 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2554](n2554.cert) | 50.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2557](n2557.cert) | 50.996974282121 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2656](n2656.cert) | 51.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2659](n2659.cert) | 51.994174058427 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2760](n2760.cert) | 52.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2764](n2764.cert) | 52.996875920566 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2866](n2866.cert) | 53.999309855163 | Kevin Fang (TheSnakeFang) |
+| [2870](n2870.cert) | 53.997865205474 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [2974](n2974.cert) | 54.999256308447 | Kevin Fang (TheSnakeFang) |
+| [2975](n2975.cert) | 54.999950000000 | Kevin Fang and credited original pieces |
+| [2978](n2978.cert) | 54.997865205476 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3084](n3084.cert) | 55.999256308447 | Kevin Fang (TheSnakeFang) |
+| [3085](n3085.cert) | 55.999950000000 | Kevin Fang and credited original pieces |
+| [3088](n3088.cert) | 55.997600152266 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3089](n3089.cert) | 55.999336626356 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3196](n3196.cert) | 56.997550817418 | Kevin Fang (TheSnakeFang) |
+| [3197](n3197.cert) | 56.999950000000 | Kevin Fang and credited original pieces |
+| [3201](n3201.cert) | 56.999336625014 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3310](n3310.cert) | 57.997220361783 | Kevin Fang (TheSnakeFang) |
+| [3311](n3311.cert) | 57.999950000000 | Kevin Fang and credited original pieces |
+| [3315](n3315.cert) | 57.997865205479 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3426](n3426.cert) | 58.995489275431 | Kevin Fang (TheSnakeFang) |
+| [3427](n3427.cert) | 58.999950000000 | Kevin Fang and credited original pieces |
+| [3431](n3431.cert) | 58.999336623410 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3544](n3544.cert) | 59.997220361783 | Kevin Fang (TheSnakeFang) |
+| [3546](n3546.cert) | 59.999950000000 | Kevin Fang and credited original pieces |
+| [3549](n3549.cert) | 59.997600152271 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3664](n3664.cert) | 60.997220361783 | Kevin Fang (TheSnakeFang) |
+| [3666](n3666.cert) | 60.999950000000 | Kevin Fang and credited original pieces |
+| [3669](n3669.cert) | 60.999336622351 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3670](n3670.cert) | 60.999336626362 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3785](n3785.cert) | 61.996141230022 | Kevin Fang (TheSnakeFang) |
+| [3788](n3788.cert) | 61.999950000000 | Kevin Fang and credited original pieces |
+| [3791](n3791.cert) | 61.999336625020 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3792](n3792.cert) | 61.999336625020 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3909](n3909.cert) | 62.997220361783 | Kevin Fang (TheSnakeFang) |
+| [3912](n3912.cert) | 62.999950000000 | Kevin Fang and credited original pieces |
+| [3914](n3914.cert) | 62.999336625023 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [3915](n3915.cert) | 62.999336625023 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4035](n4035.cert) | 63.997220361783 | Kevin Fang (TheSnakeFang) |
+| [4038](n4038.cert) | 63.999950000000 | Kevin Fang and credited original pieces |
+| [4040](n4040.cert) | 63.997600184152 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4168](n4168.cert) | 64.999256232549 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4169](n4169.cert) | 64.999336626619 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4298](n4298.cert) | 65.997550817909 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4430](n4430.cert) | 66.997550243025 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4564](n4564.cert) | 67.994867334626 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4701](n4701.cert) | 68.999256219267 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4839](n4839.cert) | 69.997550252215 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [4979](n4979.cert) | 70.996875920791 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5121](n5121.cert) | 71.996974282350 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5122](n5122.cert) | 71.999336626575 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5266](n5266.cert) | 72.999336625233 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5412](n5412.cert) | 73.996875920795 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5560](n5560.cert) | 74.997865205700 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5710](n5710.cert) | 75.997865205701 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5862](n5862.cert) | 76.997600152491 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [5863](n5863.cert) | 76.999336626581 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6017](n6017.cert) | 77.999336625239 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6173](n6173.cert) | 78.997865205705 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6331](n6331.cert) | 79.999336623635 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6491](n6491.cert) | 80.997600152496 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6653](n6653.cert) | 81.999336622664 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6654](n6654.cert) | 81.999336626587 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6817](n6817.cert) | 82.999336625245 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6818](n6818.cert) | 82.999336625245 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6982](n6982.cert) | 83.999336625248 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [6983](n6983.cert) | 83.999336625248 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7150](n7150.cert) | 84.997600184377 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7320](n7320.cert) | 85.999256308750 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7321](n7321.cert) | 85.999336626844 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7492](n7492.cert) | 86.997550817938 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7666](n7666.cert) | 87.997865205915 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7667](n7667.cert) | 87.999336626795 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [7843](n7843.cert) | 88.999336625453 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8021](n8021.cert) | 89.999256219591 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8201](n8201.cert) | 90.997550817744 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8383](n8383.cert) | 91.996875921021 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8567](n8567.cert) | 92.997865205921 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8568](n8568.cert) | 92.999336626801 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8754](n8754.cert) | 93.999336625459 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [8942](n8942.cert) | 94.996875921025 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9132](n9132.cert) | 95.997865205925 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9324](n9324.cert) | 96.997865205926 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9518](n9518.cert) | 97.997600152717 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9519](n9519.cert) | 97.999336626807 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9715](n9715.cert) | 98.999336625465 | Francisco Couzo (assembly/refinement); source construction credits retained below |
+| [9913](n9913.cert) | 99.997865205930 | Francisco Couzo (assembly/refinement); source construction credits retained below |

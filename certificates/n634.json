@@ -1,16 +1,39 @@
 {
   "n": 634,
   "packing": "n634.txt",
-  "packing_sha256": "affcfc77e59fc4de4ca4513bb5c2e2b040ae0441951d5d81ae77dcd545af9197",
+  "packing_sha256": "053dd5f397d4163b62d3d360707ec39981d016e9696552b11ce26014e26351db",
   "certificate": "certificates/n634.cert",
-  "certificate_sha256": "e9cf6e459aaa5eab9f33f3d11be247f4f7950f4009b7f66671ce3144683c287a",
-  "rational_side": "125168223562838596001516982815859663936832571035351151702004875411874396021567723067712465999/4869012473011280632511153155564372296668965655963981068742475665561593308524500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "b88c68cde5a6e9de8bdc2bf4bf932c19b9dda54b1bafeecb796183b483b353c4",
+  "rational_side": "3617953641270086003687845719/140737488355328000000000000",
+  "kind": "verified source certificate",
   "origin": {
+    "seed_credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+    "source_certificate_sha256": "bc412a821cc1f0aa3c2dad54060e1be7100627b850cf24712b5bec55c95eee76",
+    "source_n": 493,
+    "source_provenance": {
+      "category": "retained exact G\u00f6bel construction",
+      "source_url": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html",
+      "original_credits": {
+        "exact_construction": {
+          "rational": "22",
+          "sqrt2": "1/2",
+          "expression": "22 + 1/2*sqrt(2)"
+        },
+        "witness_provenance": {}
+      },
+      "request": null
+    },
     "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
+      "kind": "square tiling and L-border",
+      "source_n": 493,
+      "source_bound": "3195741176204102003687845719/140737488355328000000000000",
+      "tiles_per_side": 1,
+      "layers": 3,
+      "capacity": 634,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

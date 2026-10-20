@@ -86,7 +86,13 @@ REGISTER = "https://raw.githubusercontent.com/jlevy/squares/{}/packing/frontier/
 # Registration requests by certificate, where a source has filed more than one.
 REQUEST_BY_PATH = {"evand/search/packer/candidates/hunt1_": "https://github.com/jlevy/squares/issues/465",
                    "evand/search/packer/candidates/hunt3_": "https://github.com/jlevy/squares/issues/489",
+                   "evand/search/packer/candidates/s155_ex2": "https://github.com/jlevy/squares/issues/669",
+                   "evand/search/packer/candidates/s271_ex1": "https://github.com/jlevy/squares/issues/664",
+                   "evand/search/packer/candidates/s236_bm3c": "https://github.com/jlevy/squares/issues/659",
+                   "evand/search/packer/candidates/s229": "https://github.com/jlevy/squares/issues/674",
                    "evand/search/packer/candidates/s183_h183b": "https://github.com/jlevy/squares/issues/680",
+                   "evand/search/packer/candidates/s154_sw": "https://github.com/jlevy/squares/issues/694",
+                   "evand/search/packer/candidates/s308_d308": "https://github.com/jlevy/squares/issues/689",
                    "evand/search/packer/candidates/tt_n154": "https://github.com/jlevy/squares/issues/552",
                    "evand/search/packer/candidates/fresh_n": "https://github.com/jlevy/squares/issues/596",
                    "evand/search/packer/candidates/big1_n375.": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
@@ -143,6 +149,14 @@ def credit_for(source, path):
         return 'Ryan Xu, refined by Mishapolk'
     if str(path).startswith('mishapolk/certificates/square-258.cert'):
         return 'Nate Chaoweeraprasit (SQUISH), refined by Mishapolk'
+    if str(path).startswith('evand/search/packer/candidates/s155_ex2'):
+        return 'Evan Daniel (new local minimum from Daniil Ostashev\'s n=155 seed)'
+    if str(path).startswith('evand/search/packer/candidates/s271_ex1'):
+        return 'Nate Chaoweeraprasit (SQUISH), refined by Francisco Couzo and Evan Daniel'
+    if str(path).startswith('evand/search/packer/candidates/s236_bm3c'):
+        return 'Nate Chaoweeraprasit (SQUISH), refined by Evan Daniel'
+    if str(path).startswith('evand/search/packer/candidates/s229'):
+        return 'Evan Daniel (from Francisco Couzo\'s refinement of Joost de Winter)'
     if str(path).startswith('evand/search/packer/candidates/s183_h183b'):
         return 'Evan Daniel; start: Francisco Couzo'
     if str(path).startswith('evand/search/packer/candidates/tt_n154'):
@@ -586,6 +600,7 @@ def main():
         write_pose(tmp, side, squares)
         tmp.replace(target)
     retained = {ROOT/e["seed"] for e in reviewed.values() if e.get("seed")}
+    retained.update(ROOT/path for path in previous.get("reference_seed_review", {}).get("alternative_seeds", []))
     for stale in list(SEEDS.glob("n[0-9]*.txt"))+list((SEEDS/"old").glob("*.txt")):
         if stale not in wanted and stale not in retained:
             stale.unlink()
@@ -597,7 +612,7 @@ def main():
                 "entries": entries,
                 "published_above_324": reviewed_publications(found, cache, commits, credit_for, request_for, max_n=a.max_n),
                 "reviewed_comparisons": reviewed}
-    for field in ("reviewed_submissions", "bounds_max_n"):
+    for field in ("reviewed_submissions", "bounds_max_n", "reference_seed_review", "installed_bounds", "public_comparisons", "public_reconciliation"):
         if field in previous:
             manifest[field] = previous[field]
     for n, entry in reviewed.items():

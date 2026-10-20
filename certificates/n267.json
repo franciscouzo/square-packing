@@ -1,27 +1,25 @@
 {
   "n": 267,
   "packing": "n267.txt",
-  "packing_sha256": "4518cd5da4a7280b6b53dbc12e16d825aa54dba78d9109487a714c45555a09c2",
+  "packing_sha256": "a091ee56a2886d90b898fa58dcc656d48237a95304f8233ebc13622d4087fad7",
   "certificate": "certificates/n267.cert",
-  "certificate_sha256": "711814d2d7ca078dc1b8b0256240867a53eec24f8025fd3ba257aaab57dd4e12",
-  "rational_side": "4209703817487065565108620335551/250000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "6c89aadff6a46b00b058fe3cacfae96250294da11c1e1a765544bfa0baa25158",
+  "rational_side": "2405831741238427835575830183414653566109665947317277701185012039460867248827698726544955433584428652871319190591113632845060035088768288929736496996581608950044352820334231689876932005377309951441/142874169154408677241474314008763111190577911529142696020201529661424466443739201298737701430250296004349251940654786408725001950368288929736496996581608950044352820334231689876932005377309951441",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Ryan Xu",
-    "seed_certificate": {
-      "source": "ry-xu",
-      "certificate": "ry-xu/certificates/n267/n267.cert.json",
-      "sha256": "f226635e43bae7017b95dad7e7140c3c9051c516e6b7c8d55ad7c244eeffa88d",
-      "request": "https://github.com/jlevy/squares/issues/432",
-      "side": "168388319611168388319611/10000000000000000000000"
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "6c89aadff6a46b00b058fe3cacfae96250294da11c1e1a765544bfa0baa25158",
+    "source_n": 267,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "seed_credit": "Ryan Xu",
+      "construction_credit": [
+        "ry-xu"
+      ]
     },
-    "search_job": {
-      "id": 75538,
-      "method": "ellsworth_cycle",
-      "source": "n267.txt",
-      "source_origin": "own",
-      "source_sha256": "a688b8a67e4c29b1ca750bb534fff769fdf4ae82942966d13701baadb9168810",
-      "constructed_seed": null
-    }
-  }
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

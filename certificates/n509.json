@@ -1,22 +1,37 @@
 {
   "n": 509,
   "packing": "n509.txt",
-  "packing_sha256": "98809bb3ba8b11f672e3f9e571cc10ca47df76a1ec9d928f54842831b6601e40",
+  "packing_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
   "certificate": "certificates/n509.cert",
-  "certificate_sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd",
-  "rational_side": "229943280364379812353527908255755274821759/10000000000000000000000000000000000000000",
+  "certificate_sha256": "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6",
+  "rational_side": "315885140426547210405639997811392339541043/13737524311768234970671984516000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Joost de Winter",
-    "category": "reviewed public submission",
-    "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
-    "request": "https://github.com/jlevy/squares/issues/666",
-    "construction_credit": [
-      "Arslanov, Mustafin and Shangitbayev (four-block method)"
-    ],
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6",
     "source_n": 509,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd"
+    "source_provenance": {
+      "category": "earlier precision refinement",
+      "source_url": "/root/square-packing/experiments/dewinter-methods-20261018/native/n509_2_32114fe5d55d.cert",
+      "source_provenance": null,
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": "32114fe5d55da9430a2d7851765788c46d9ba67b4bbb343cb89a718a416be301",
+      "previous_seed_credit": {
+        "seed_credit": "Joost de Winter",
+        "category": "reviewed public submission",
+        "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
+        "request": "https://github.com/jlevy/squares/issues/666",
+        "construction_credit": [
+          "Arslanov, Mustafin and Shangitbayev (four-block method)"
+        ],
+        "source_n": 509,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd"
+      }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

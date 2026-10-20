@@ -1,0 +1,185 @@
+{
+  "n": 9132,
+  "packing": "n9132.txt",
+  "packing_sha256": "4415f111a3124259399855adbce2d526433247da1adf3d48b9280aabaa02623f",
+  "certificate": "certificates/n9132.cert",
+  "certificate_sha256": "d012a0ee81654423e6db7893b3356bef66114638fcedacce3c82e881437b3bdb",
+  "rational_side": "9865731417494914993288914410965370629610965273/102770320947575000001027703209475750000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+    "source_certificate_sha256": "d012a0ee81654423e6db7893b3356bef66114638fcedacce3c82e881437b3bdb",
+    "source_n": 9132,
+    "source_provenance": {
+      "category": "Desktopo >1024",
+      "source_url": null,
+      "source_provenance": null,
+      "construction": {
+        "n": 9132,
+        "kind": "recursive staircase",
+        "integer_side": 96,
+        "index": 0,
+        "initial_estimate": 95.99786520577979,
+        "components": [
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/fang-r18x17_n0290.cert",
+            "sha256": "5a62861f97f470c147fe53cfc701efbb163d23b77a0d1d407275eb8ca8362436",
+            "n": 290,
+            "width": 17.99755081741707,
+            "height": 16.997550817134744,
+            "copies": 1
+          },
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/fang-r22x21_n0443.cert",
+            "sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+            "n": 443,
+            "width": 21.990560384075724,
+            "height": 20.990560383885597,
+            "copies": 2
+          },
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/joost-n1339.cert",
+            "sha256": "5801aea03fb59583d16dfc9fe9d98e187379e4391b53f6d0a533c594b5e5e678",
+            "n": 1339,
+            "width": 36.99786520517979,
+            "height": 36.99786520461947,
+            "copies": 1
+          },
+          {
+            "source": "grid 21x37",
+            "sha256": null,
+            "n": 777,
+            "width": 21.0,
+            "height": 37.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 36x21",
+            "sha256": null,
+            "n": 756,
+            "width": 36.0,
+            "height": 21.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 21x58",
+            "sha256": null,
+            "n": 1218,
+            "width": 21.0,
+            "height": 58.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 57x21",
+            "sha256": null,
+            "n": 1197,
+            "width": 57.0,
+            "height": 21.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 17x79",
+            "sha256": null,
+            "n": 1343,
+            "width": 17.0,
+            "height": 79.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 78x17",
+            "sha256": null,
+            "n": 1326,
+            "width": 78.0,
+            "height": 17.0,
+            "copies": 1
+          }
+        ]
+      },
+      "original_seed_credit": null,
+      "source_packing_sha256": "8c38c121f073b9cd58dfbe0684b2be8af8330fa1161fd14473cb4fc975fe5722",
+      "source_pieces": [
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/fang-r18x17_n0290.cert",
+          "sha256": "5a62861f97f470c147fe53cfc701efbb163d23b77a0d1d407275eb8ca8362436",
+          "n": 290,
+          "width": 17.99755081741707,
+          "height": 16.997550817134744,
+          "copies": 1,
+          "credit": "Kevin Fang; original piece credits retained by provider",
+          "source_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/0e9be7961773aa78b879c4ee6ba584a67e2e5513/rectangles/r18x17_n0290/r18x17_n0290.cert"
+        },
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/fang-r22x21_n0443.cert",
+          "sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+          "n": 443,
+          "width": 21.990560384075724,
+          "height": 20.990560383885597,
+          "copies": 2,
+          "credit": "Kevin Fang; original piece credits retained by provider",
+          "source_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/0e9be7961773aa78b879c4ee6ba584a67e2e5513/rectangles/r22x21_n0443/r22x21_n0443.cert"
+        },
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/joost-n1339.cert",
+          "sha256": "5801aea03fb59583d16dfc9fe9d98e187379e4391b53f6d0a533c594b5e5e678",
+          "n": 1339,
+          "width": 36.99786520517979,
+          "height": 36.99786520461947,
+          "copies": 1,
+          "credit": "Joost de Winter",
+          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/19f7412d7f33ff430b9bfa2f0b4482b711a97526/square-packing-above-324/n1339.cert"
+        },
+        {
+          "source": "grid 21x37",
+          "sha256": null,
+          "n": 777,
+          "width": 21.0,
+          "height": 37.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 36x21",
+          "sha256": null,
+          "n": 756,
+          "width": 36.0,
+          "height": 21.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 21x58",
+          "sha256": null,
+          "n": 1218,
+          "width": 21.0,
+          "height": 58.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 57x21",
+          "sha256": null,
+          "n": 1197,
+          "width": 57.0,
+          "height": 21.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 17x79",
+          "sha256": null,
+          "n": 1343,
+          "width": 17.0,
+          "height": 79.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 78x17",
+          "sha256": null,
+          "n": 1326,
+          "width": 78.0,
+          "height": 17.0,
+          "copies": 1
+        }
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

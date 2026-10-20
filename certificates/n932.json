@@ -1,39 +1,54 @@
 {
   "n": 932,
   "packing": "n932.txt",
-  "packing_sha256": "e4655e6e86da203d3d1bebffcc1032476452677f37ae9b0680bf84b5c34a962d",
+  "packing_sha256": "05e3932b2af6a62b63b348ea86c003eb63eeb73d1fe5f0222222781f70ed5ee3",
   "certificate": "certificates/n932.cert",
-  "certificate_sha256": "1e8533d3c4c5fef6b16b4c85219e92c29c358fa23dac4ebcc735625bd756adb5",
-  "rational_side": "2284166491158076917932751/73697311609520000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "72d47579b33c832ff09084a4a00fb946409a1d19f629546dad84d65820a9bc07",
+  "rational_side": "150795746312163324291827241701/4865592835225500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Joost de Winter",
-    "category": "reviewed public submission",
-    "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
-    "request": "https://github.com/jlevy/squares/issues/666",
-    "construction_credit": [
-      "Arslanov, Mustafin and Shangitbayev (four-block method)"
-    ],
-    "source_n": 935,
-    "deleted_squares": 3,
-    "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0",
-    "search_job": {
-      "id": 108295,
-      "method": "hop",
-      "source": "n932.txt",
-      "source_origin": "constructed",
-      "source_sha256": "b62c766987ee1b300f29f6d154e05af9ab572092b5f86887513485571a7a7533",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n932.txt",
-        "source_sha256": "ad9012dece4a77b281e4fd285a7aef434866a300673ef9e269c88845ca3be7ca",
-        "source_n": 932,
-        "source_side": 30.993904117921705,
-        "layers": 0,
-        "deleted": 0,
-        "side": 30.993904117921705
-      }
-    }
-  },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "152692d74134d477ecd02fca5357536c4b1891ed881c8cda43bc584bddbafa13",
+    "source_n": 873,
+    "source_provenance": {
+      "n": 873,
+      "side": "145930153476937824291827241701/4865592835225500000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/152692d74134d477ecd02fca5357536c4b1891ed881c8cda43bc584bddbafa13.cert",
+      "certificate_sha256": "152692d74134d477ecd02fca5357536c4b1891ed881c8cda43bc584bddbafa13",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:81928516a71626f5b58b3352cc3434bb",
+      "rounded_up": "29.992265777039",
+      "public_credit": "franciscouzo",
+      "created": 1792478338.7140095,
+      "submission_id": "81928516a71626f5b58b3352cc3434bb",
+      "record": {
+        "n": 873,
+        "side": 29.99226577703857,
+        "previous": 29.992494642079492,
+        "previous_holder": "this project",
+        "rational_side": "145930153476937824291827241701/4865592835225500000000000000",
+        "float_side": 29.992265777009575,
+        "method": "fq",
+        "received": "20261020T063855Z",
+        "seed": "volunteer",
+        "sha256": "810f74b8190df4749ca1e807eb7a33968825043878b551868930fcbfe9a6139a"
+      },
+      "previous": "29.992623086291",
+      "gain": 0.00035730925164372294,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261020T063855Z"
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 873,
+      "source_bound": "145930153476937824291827241701/4865592835225500000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 932,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
+  }
 }

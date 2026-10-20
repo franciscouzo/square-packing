@@ -1,13 +1,24 @@
 {
   "n": 266,
   "packing": "n266.txt",
-  "packing_sha256": "a525b11ee2c94cfc4588941f6a178c359a5b7ffc3d114221ed2a66b7db667493",
+  "packing_sha256": "2a128fcebbc76363781759d6fd482ba653b7312f399586e0994fe9007eddca42",
   "certificate": "certificates/n266.cert",
-  "certificate_sha256": "a680a802a242152f7d845be148094a5096fc38b48e2b060e78dc3e3a906d1636",
-  "rational_side": "8411514375378237985354391855627/500000000000000000000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "e40f23fc7c38fa5d16c5925a243da3e72ce5cbdb3b07a6adc3af176c0f9399f9",
+  "rational_side": "2942929066612371392310360495618585415806109637262247191959217812751616631269460920002824199668884095277095165007788978273235145608800415463790427114179363151798038663279842787706815589373281165597442633331675712579863761396574377178055478596455260761086806956170008852263194657835908025/174934556090563514266755953804744504986935912157531868373230269426906232616155805833679920639205708636285210990057317796169932292415312332850179761165311351015932340855248898429908490939494391987800704562362030794831802014211612453741855376080679060694547914196716925129053341832479996",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "PingYou Ltd (BuddenPing)"
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "e40f23fc7c38fa5d16c5925a243da3e72ce5cbdb3b07a6adc3af176c0f9399f9",
+    "source_n": 266,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "construction_credit": [
+        "Evan Daniel"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

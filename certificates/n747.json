@@ -1,20 +1,45 @@
 {
   "n": 747,
   "packing": "n747.txt",
-  "packing_sha256": "779facc47f5a060937ce8e7c99be586206bd85b84c04b633a8a9488025707919",
+  "packing_sha256": "a6b3bd49cad8cd715735d73845de83ff2dc5601ea4786f74d105cb2df795564b",
   "certificate": "certificates/n747.cert",
-  "certificate_sha256": "f54c0a2913b38c7c51a67b5f68fc4c5ecfdb1a3bf0e8183c6a9c7e4da91ed290",
-  "rational_side": "3509522623542633982588271759/125791618504500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "6e000f6a78e197e731c39fdb95a75d0d828eee274daf0012fe9245c5de8f7580",
+  "rational_side": "12073827572813791760153483431/432933285890500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "label": "elimination from n=748",
-      "kind": "derived",
-      "source_n": 748,
-      "source": "039501cbe06fb2c26b1f88401fd8b02a8bda4055fb0612f748e11b1e4369a4aa",
-      "tiles": 1,
-      "layers": 0
-    }
-  },
-  "dilation": "1+1e-12"
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "6e000f6a78e197e731c39fdb95a75d0d828eee274daf0012fe9245c5de8f7580",
+    "source_n": 747,
+    "source_provenance": {
+      "n": 747,
+      "side": "12073827572813791760153483431/432933285890500000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/6e000f6a78e197e731c39fdb95a75d0d828eee274daf0012fe9245c5de8f7580.cert",
+      "certificate_sha256": "6e000f6a78e197e731c39fdb95a75d0d828eee274daf0012fe9245c5de8f7580",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:7c7dacd2f4a4180ca8f7f14dd97b8e01",
+      "rounded_up": "27.888425229258",
+      "public_credit": "franciscouzo",
+      "created": 1792455846.9960139,
+      "submission_id": "7c7dacd2f4a4180ca8f7f14dd97b8e01",
+      "record": {
+        "n": 747,
+        "side": 27.888425229257088,
+        "previous": 27.88849599911264,
+        "previous_holder": "this project",
+        "rational_side": "12073827572813791760153483431/432933285890500000000000000",
+        "float_side": 27.888425229230197,
+        "method": "fq",
+        "received": "20261020T002405Z",
+        "seed": "volunteer",
+        "sha256": "2e090d678b0f0e4da60585bcc2a0302ccc197080452a4a63ac753d103ed6dc3a"
+      },
+      "previous": "27.888577106564",
+      "gain": 0.00015187730643632857,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261020T002405Z"
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
 }

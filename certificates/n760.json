@@ -1,41 +1,152 @@
 {
   "n": 760,
   "packing": "n760.txt",
-  "packing_sha256": "47ff62dc97483ef9ed6cd2b9a8eaa936163e69a83b85389a1c53485f17ed82be",
+  "packing_sha256": "1df25eaf1b9b5634d716547a794e4f015d0a5bc21205cd79abeb7c8f6947dee0",
   "certificate": "certificates/n760.cert",
-  "certificate_sha256": "ede397f11939046a9ee6a3c7452686c01d1aeedc67a7245d76e1e66a5a8240a4",
-  "rational_side": "408551784921914958055273607/14593729647914000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060",
+  "rational_side": "13996461616653189461616639193/500000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Joost de Winter",
-    "category": "reviewed public submission",
-    "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
-    "request": "https://github.com/jlevy/squares/issues/666",
-    "construction_credit": [
-      "Arslanov, Mustafin and Shangitbayev (four-block method)"
-    ],
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060",
     "source_n": 760,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
-    "search_job": {
-      "id": 109329,
-      "method": "fq",
-      "source": "n760.txt",
-      "source_origin": "constructed",
-      "source_sha256": "f3a78a13244c43807c2a2f22c3610c5ddd988487cb72fd903922af2c55b4b0d2",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n760.txt",
-        "source_sha256": "bf489f7b1dd10476d0718e006edafcf1080c851347561b49a0a468d79dec2f11",
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 760,
+        "certificate": {
+          "valid": true,
+          "n": 760,
+          "side": "13996461616653189461616639193/500000000000000000000000000",
+          "side_float": 27.992923233306378,
+          "sha256": "1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "13996497984364847497984350851/500000000000000000000000000",
+        "source_sha256": "b9a75deea27df3cee51e53e794cf8e1f30bdbfb6fe7da967d3c33abad7341dbb",
+        "closed_reference": "13996497984364847497984350851/500000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "1202118318648555302758859296469153428107464600387417917868647162153605160326561746637403584926058595077049667461786365926406717375373193183031/42943539806438234210418482856746307739622262401767605310117467449526528549867659912266518649000000000000000000000000000000000000000000000000",
+        "source_ray_crop": "463035685375768884724978772917282997598183005995405134238506907999852177283825808317717232761453214500005900152915197174420960263804155049444451031613680105573443566430682233447403130452626527/16541130302967729858400036146009164761467080961088109032239900633078150708161721018323165099680416461397690761685256684337053045908997578249546588585926439406213181773331000000000000000000000",
+        "native_candidate_side": "13996461616653189461616639193/500000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 2.598350401273244,
+        "producing_job": {
+          "id": "productive-frontier8-r1-760-210101-current-pm",
+          "n": 760,
+          "seed": 210101,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier8-r1-760-210101-current-pm",
+            "n": 760,
+            "seed": 210101,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "13996461616653189461616639193/500000000000000000000000000",
+            "sha256": "1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060",
+            "certificate": "certificates/1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060.cert",
+            "source": "native-sources/1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060.txt",
+            "source_sha256": "0e86249853906a4b06b4df0cacba68e7fb4cfa3e51219cc1cc2042789ef077b2"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier8-r1-760-210101-current-pm",
+              "n": 760,
+              "seed": 210101,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 760,
+              "side": "13996461616653189461616639193/500000000000000000000000000",
+              "side_float": 27.992923233306378,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "1f88fa399b702b0f8c8104f40f7f38a280313e554c7d676a8865c505d0e22060",
+              "pair_count": 288420,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 760 closed unit squares pairwise disjoint inside the open box of side 27.992923233306377995 (1804 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier8-r1-760-210101-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier8-r1-760-210101-current-pm/run/search/b00000.txt",
+            "native_source_sha256": "0e86249853906a4b06b4df0cacba68e7fb4cfa3e51219cc1cc2042789ef077b2",
+            "anchor_sha256": "b9a75deea27df3cee51e53e794cf8e1f30bdbfb6fe7da967d3c33abad7341dbb",
+            "reference": "13996497984364847497984350851/500000000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.019345,
+            "cap": 900.0,
+            "wall": 902.246652319096,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Joost de Winter",
+        "category": "reviewed public submission",
+        "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
+        "request": "https://github.com/jlevy/squares/issues/666",
+        "construction_credit": [
+          "Arslanov, Mustafin and Shangitbayev (four-block method)"
+        ],
         "source_n": 760,
-        "source_side": 27.995946706513976,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 27.995946706513976
+        "deleted_squares": 0,
+        "source_certificate_sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
+        "search_job": {
+          "id": 109329,
+          "method": "fq",
+          "source": "n760.txt",
+          "source_origin": "constructed",
+          "source_sha256": "f3a78a13244c43807c2a2f22c3610c5ddd988487cb72fd903922af2c55b4b0d2",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n760.txt",
+            "source_sha256": "bf489f7b1dd10476d0718e006edafcf1080c851347561b49a0a468d79dec2f11",
+            "source_n": 760,
+            "source_side": 27.995946706513976,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 27.995946706513976
+          }
+        }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

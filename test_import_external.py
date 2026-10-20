@@ -26,7 +26,12 @@ class ExternalImport(unittest.TestCase):
             seed.write_text('existing reviewed seed')
             reviewed = {'5': {'side': float(reviewed_side), 'source': 'catalogue',
                         'seed': 'external/seeds/n5.txt', 'external': {'side': str(reviewed_side)}}}
-            (root/'known_best.json').write_text(json.dumps({'reviewed_comparisons': reviewed}))
+            alternative=seeds/'old/n5_jlevy-reviewed.txt'
+            alternative.parent.mkdir();alternative.write_text('verified alternative basin')
+            reference_review={'jlevy_main':'fixture','alternative_seeds':[str(alternative.relative_to(root))]}
+            (root/'known_best.json').write_text(json.dumps({'reviewed_comparisons': reviewed,
+                'reference_seed_review':reference_review,
+                'public_comparisons':{'5':{'side':2.7,'source':'public catalogue'}}}))
             digest = hashlib.sha256(source.read_bytes()).hexdigest()
             (seeds/'verified.json').write_text(json.dumps({digest: {'valid': True}}))
             squares = [(Fraction(0), Fraction(0), Fraction(0))]*5
@@ -43,7 +48,11 @@ class ExternalImport(unittest.TestCase):
                  patch.object(importer, 'write_pose', side_effect=write_seed), \
                  patch('sys.argv', ['import_external.py','--offline']), redirect_stdout(io.StringIO()):
                 importer.main()
-            return json.loads((root/'known_best.json').read_text()), seed.read_text()
+            known=json.loads((root/'known_best.json').read_text())
+            self.assertTrue(alternative.exists())
+            self.assertEqual(known['reference_seed_review'],reference_review)
+            self.assertEqual(known['public_comparisons']['5']['side'],2.7)
+            return known, seed.read_text()
 
     def test_reviewed_bound_keeps_its_better_seed(self):
         known, seed = self.refresh(Fraction('2.95'), Fraction('2.9'))

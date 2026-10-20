@@ -1,42 +1,153 @@
 {
   "n": 463,
   "packing": "n463.txt",
-  "packing_sha256": "d874e34b476c5782a399e4aaa1205e7e2a13bedc061c93ce68aebc3dc0de3b46",
+  "packing_sha256": "d1a45e509727c08a2108c09021b2c818b97496993f989e28694733000d49e43a",
   "certificate": "certificates/n463.cert",
-  "certificate_sha256": "9c47a758b698e47b4986c18417aa919f29a7fa5e4ec6597e717e871c0342abf3",
-  "rational_side": "53187317556573267909093233/2419408463289500000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
+  "rational_side": "5493418930119400418930113907/250000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "construction": {
-      "kind": "L-border",
-      "source_n": 422,
-      "layers": 1,
-      "parent_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-      "capacity": 463
-    },
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
     "source_n": 463,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "326b72e91b3dc35bc03ef7846ad1f06a23ea44af712dbaeedfbc35ddb8db3d2b",
-    "search_job": {
-      "id": 110119,
-      "method": "hop",
-      "source": "n463.txt",
-      "source_origin": "constructed",
-      "source_sha256": "3c608ab6c782e9ea6af91eef3880def1facca884c8b018efc7d46b015dddbc0b",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n463.txt",
-        "source_sha256": "d762cf94be6ae44c19f3f5e3a8b5babe667723491b953c3056a33f171baf6f18",
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 463,
+        "certificate": {
+          "valid": true,
+          "n": 463,
+          "side": "5493418930119400418930113907/250000000000000000000000000",
+          "side_float": 21.9736757204776,
+          "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "67284870938946612390676256334593627137001799282802145998748094929894440189396082094036016442011490920165441392906114782352828641224005508642833/3060732673417985479851992946342397440989426302189561175183390969949719617978607387190170950337800000000000000000000000000000000000000000000000",
+        "source_sha256": "a6612248a57cd4825bf51627d0136b311ab5ca93c985a1ce9688282bca4d73c7",
+        "closed_reference": "67284870938946612390676256334593627137001799282802145998748094929894440189396082094036016442011490920165441392906114782352828641224005508642833/3060732673417985479851992946342397440989426302189561175183390969949719617978607387190170950337800000000000000000000000000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "6728487093894661239131453979305207258949484321971500721016053589607145058696491315093166521444153568038336148787635715249320207224810043646636128641224005508642833/306073267341798547985199294634239744098942630218956117518339096994971961797860738719017095033780000000000000000000000000000000000000000000000000000000000000000000",
+        "source_ray_crop": "2625751061029486935408991501279855876903331163159334332631734173175835254395417625335511819791741031418264145978575405251126197128972734891804717443876824061921646726779655042110496337686951167/119443226279745507173736239645313464513309735375351017422651935863619723112787004444762786922329515752939913144925964897089482704643532569248261314400319536833471482795990600000000000000000000",
+        "native_candidate_side": "5493418930119400418930113907/250000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 436.00427616537286,
+        "producing_job": {
+          "id": "productive-frontier13-r1-463-227101-current-pm",
+          "n": 463,
+          "seed": 227101,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier13-r1-463-227101-current-pm",
+            "n": 463,
+            "seed": 227101,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "5493418930119400418930113907/250000000000000000000000000",
+            "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
+            "certificate": "certificates/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.cert",
+            "source": "native-sources/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.txt",
+            "source_sha256": "e3f97e580faecac6656b07dcaf6a38c1f26b87ce4293a44324357d456ef5eedd"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier13-r1-463-227101-current-pm",
+              "n": 463,
+              "seed": 227101,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 463,
+              "side": "5493418930119400418930113907/250000000000000000000000000",
+              "side_float": 21.9736757204776,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
+              "pair_count": 106953,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 463 closed unit squares pairwise disjoint inside the open box of side 21.973675720477601203 (1092 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier13-r1-463-227101-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier13-r1-463-227101-current-pm/run/search/b00048.txt",
+            "native_source_sha256": "e3f97e580faecac6656b07dcaf6a38c1f26b87ce4293a44324357d456ef5eedd",
+            "anchor_sha256": "a6612248a57cd4825bf51627d0136b311ab5ca93c985a1ce9688282bca4d73c7",
+            "reference": "67284870938946612390676256334593627137001799282802145998748094929894440189396082094036016442011490920165441392906114782352828641224005508642833/3060732673417985479851992946342397440989426302189561175183390969949719617978607387190170950337800000000000000000000000000000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.0574340000001,
+            "cap": 900.0,
+            "wall": 900.2635541420896,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Francisco Couzo",
+        "construction": {
+          "kind": "L-border",
+          "source_n": 422,
+          "layers": 1,
+          "parent_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+          "capacity": 463
+        },
         "source_n": 463,
-        "source_side": 21.98360434467399,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 21.98360434467399
+        "deleted_squares": 0,
+        "source_certificate_sha256": "326b72e91b3dc35bc03ef7846ad1f06a23ea44af712dbaeedfbc35ddb8db3d2b",
+        "search_job": {
+          "id": 110119,
+          "method": "hop",
+          "source": "n463.txt",
+          "source_origin": "constructed",
+          "source_sha256": "3c608ab6c782e9ea6af91eef3880def1facca884c8b018efc7d46b015dddbc0b",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n463.txt",
+            "source_sha256": "d762cf94be6ae44c19f3f5e3a8b5babe667723491b953c3056a33f171baf6f18",
+            "source_n": 463,
+            "source_side": 21.98360434467399,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 21.98360434467399
+          }
+        }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

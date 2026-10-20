@@ -15,6 +15,7 @@ from gobel_bounds import catalogue as gobel_catalogue, exact_value
 from friedman_bounds import catalogue as friedman_catalogue
 from construction_bounds import l_border_catalogue
 from lower_bounds import approximation
+from certificate_constructions import derive
 
 ROOT = Path(__file__).resolve().parent
 
@@ -42,15 +43,27 @@ def certified_catalogue():
                           if line.strip() and not line.lstrip().startswith('#'))
             checked[certificate] = (digest, int(header[0]), Fraction(header[1]))
         digest, source_n, bound = checked[certificate]
-        if (digest != item['certificate_sha256'] or not n <= source_n
-                or source_n != item['source_n'] or bound != Fraction(item['bound'])
-                or not item['verification']['valid']):
+        construction = item.get('construction')
+        if construction:
+            if construction.get('checker_sha256') != hashlib.sha256((ROOT/'certificate_constructions.py').read_bytes()).hexdigest():
+                raise ValueError(f'Construction checker binding is invalid at n={n}')
+            capacity, derived = derive(source_n, bound, construction['tiles_per_side'], construction['layers'])
+            valid = (capacity == item['source_n'] and n <= capacity
+                     and derived == Fraction(item['bound'])
+                     and source_n == construction['source_n']
+                     and bound == Fraction(construction['source_bound']))
+        else:
+            valid = n <= source_n and source_n == item['source_n'] and bound == Fraction(item['bound'])
+        if (digest != item['certificate_sha256'] or not valid or not item['verification']['valid']):
             raise ValueError(f'Certificate binding or verification is invalid at n={n}')
         entries[key] = {'bound': item['bound'], 'source': item['certificate'],
-                        'source_n': source_n, 'deleted_squares': source_n-n,
+                        'source_n': item['source_n'], 'deleted_squares': item['source_n']-n,
                         'status': 'exact certificate verified' if source_n == n
                                   else 'verified by deletion from an exact certificate',
                         'credit': item['credit'], 'sha256': digest}
+        if construction:
+            entries[key].update(construction=construction,
+                status='exact tiling/L-border construction from a verified certificate')
     return entries
 
 
@@ -61,8 +74,10 @@ def scalar(bound):
         return approximation(bound)
 
 
-def render(max_n=1024):
+def render(max_n=None):
     known = json.loads((ROOT/'known_best.json').read_text())
+    if max_n is None:
+        max_n = known.get('bounds_max_n', 1024)
     references = {int(line.split()[0]): line.split()[1] for line in (ROOT/'records.txt').read_text().splitlines()
                   if line.strip() and not line.startswith('#')}
     certificates = {int(path.stem[1:]): json.loads(path.read_text())
@@ -71,12 +86,45 @@ def render(max_n=1024):
     gobel = gobel_catalogue(max_n, root=ROOT)
     friedman = friedman_catalogue(max_n, root=ROOT)
     classical = l_border_catalogue([gobel, friedman], max_n)
+    if max_n > 1024:
+        # Universal published constructions apply beyond the individually
+        # replayed catalogue. Keep their verification origin explicit.
+        from gobel_bounds import candidates as gobel_candidates, SOURCES
+        from friedman_bounds import candidates as friedman_candidates
+        general = {}
+        for row in [*gobel_candidates(max_n), *friedman_candidates(max_n)]:
+            if row['n'] <= 1024:
+                continue
+            side = row['side']
+            source = SOURCES.get(row['family'], 'https://kingbird.myphotos.cc/packing/squares_in_squares.html')
+            value = {'bound':str(side.enclosure()[1]), 'exact_bound':side.record(),
+                'source':source, 'source_n':row['n'], 'deleted_squares':0,
+                'credit':'Frits Göbel / Erich Friedman; generalized catalogue by David Ellsworth',
+                'status':'published exact construction formula',
+                'verification_origin':'Universal published construction; this instance was not geometrically replayed here',
+                'family':row['family'], 'a':row['a'], 'b':row['b']}
+            old = general.get(str(row['n']))
+            if old is None or side < exact_value(old):
+                general[str(row['n'])] = value
+        for key, value in l_border_catalogue([general], max_n).items():
+            if key not in classical or exact_value(value) < exact_value(classical[key]):
+                classical[key] = value
+    reference_path = ROOT/'record_reference_bounds.json'
+    reviewed = json.loads(reference_path.read_text()).get('entries', {}) if reference_path.exists() else {}
+    public_path = ROOT/'public_bounds.json'
+    public = json.loads(public_path.read_text()).get('entries', {}) if public_path.exists() else {}
     entries = {}
     for n in range(1, max_n+1):
         grid = {'bound': str(math.isqrt(n-1)+1), 'source': 'integer square grid',
                 'status': 'verified construction', 'credit': 'square grid'}
         verified = [grid]
         reported = [dict(grid)]
+        if str(n) in public:
+            reported.append(dict(public[str(n)], status='reviewed public upper bound'))
+        if str(n) in reviewed:
+            reference = reviewed[str(n)]
+            reported.append({'bound':reference['bound'], 'source':'record_reference_bounds.json',
+                'status':'reviewed reference upper bound', 'origin':reference.get('origin')})
         if n in references:
             reported.append({'bound': references[n], 'source': 'records.txt',
                              'status': 'frozen catalogue/derived reference comparison'})

@@ -1,5 +1,7 @@
 # Record provenance and publication order
 
+**October 20 reconciliation.** The current upper-bound index covers n=1..10000 after comparison with the registry and open issues/PRs. Superseded local claims at 154 and 308 are archived; the tighter public certificate for 204 preserves Francisco Couzo's original record credit and Evan Daniel's certificate credit. See the [reconciliation report](certificates/review-20261020/README.md). The publication-order review below retains its dated scope.
+
 **October 18 intake update.** The current bound matrix and linked certificates include the verified October 18 intakes. The dated publication-order review below retains its historical scope. Later refinements do not transfer the discovery credit of their starting constructions.
 
 Reviewed 17 October 2026. **No additional upper bound was found to import:** the records and pending precision supplements checked here are already retained. This review corrects source citations and records publication order; it changes no packing geometry or numerical bound.

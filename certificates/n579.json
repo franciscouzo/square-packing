@@ -1,20 +1,50 @@
 {
   "n": 579,
   "packing": "n579.txt",
-  "packing_sha256": "4b05c0534dbbc355d392aac2c2367d84b742684060b31c56d313e162d2336cec",
+  "packing_sha256": "96044a6e060ddb21d67b2a39fc560677cdcbab7bfb018ab8fa86e629ce24313f",
   "certificate": "certificates/n579.cert",
-  "certificate_sha256": "e229eca0fdb1073282ff9a621daa755bc34f002892c2c2b7a4061a140ce685a8",
-  "rational_side": "108247880776446103463994618111/4403223228180500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "e531d03fc626918510b26aae4316bf1fd0d4f9890c5b2736f4ca8644917ed3e2",
+  "rational_side": "24583782190151860342362508597077/1000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "parent_n": 487,
-      "parent_certificate_sha256": "d8c8f4bf88e731ffe659ca720e15ae55eb245fba814228ee97f9d722185f1b67",
-      "tiles": 1,
-      "layers": 2,
-      "strict_scale": "1+1e-24"
+    "seed_credit": "Francisco Couzo; seed/construction: Evan Daniel",
+    "source_certificate_sha256": "d73f8a651e80b9f9d704a8c29cf10bc758f29496cafe8b24eb92e700ef9a277f",
+    "source_n": 364,
+    "source_provenance": {
+      "category": "native search",
+      "packing_sha256": "b7bfde6bfc4cf7ee3beff843b35d66240bbe94c06895454f4b5dedd1fc85fa5a",
+      "source_credit": {
+        "seed_credit": "Evan Daniel",
+        "search_job": {
+          "id": 102265,
+          "method": "fq",
+          "source": "n364.txt",
+          "source_origin": "constructed",
+          "source_sha256": "69f5993b37892677380cc368ca274c344aa60acf141f924938f3afb811d3c51a",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n364.txt",
+            "source_sha256": "de646398d28978b8c1922bbaa11858f1f2e51234b7e79ed9695000c35226417e",
+            "source_n": 364,
+            "source_side": 19.583782203954577,
+            "layers": 0,
+            "deleted": 0,
+            "side": 19.583782203954577
+          }
+        }
+      }
     },
-    "seed_credit": "Francisco Couzo"
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 364,
+      "source_bound": "19583782190151860342362508597077/1000000000000000000000000000000",
+      "tiles_per_side": 1,
+      "layers": 5,
+      "capacity": 579,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

@@ -47,8 +47,12 @@ def reviewed_publications(found, verified, sources, credit_for, request_for, max
 
 
 def comparison_entry(known, n):
-    return (known.get('published_above_324', {}).get(str(n))
-            or known.get('entries', {}).get(str(n)))
+    current=(known.get('published_above_324', {}).get(str(n))
+             or known.get('entries', {}).get(str(n)))
+    reviewed=known.get('public_comparisons', {}).get(str(n))
+    if reviewed and (not current or reviewed['side']<current['side']-1e-10):
+        return reviewed
+    return current
 
 
 def rounded_up(value, places=12):
@@ -97,10 +101,10 @@ def render(rows, known):
     upper = max([400, *[int(row.split('|')[1]) for row in rows]])
     return (MARKER+f'\n\nRecorded packings also cover n=325–{upper}. The derived reference bounds '
             'remain the frozen L-border/grid comparisons. Published bounds '
-            'come from the verified sources in `known_best.json`; their values below '
+            'come from the reviewed sources in `known_best.json`; their values below '
             'are rounded upward.'+coverage+' A dash means no published comparison '
             'was established in the reviewed sources. Source revisions and certificate links '
             'are recorded in [known_best.json](known_best.json).\n\n'
             '| n | derived reference bound | found here (numerical) | improvement over reference | '
-            'verified published bound | published source | standing |\n'
+            'reviewed public bound | published source | standing |\n'
             '|---|---|---|---|---|---|---|\n'+'\n'.join(table)+'\n\n'+END_MARKER)

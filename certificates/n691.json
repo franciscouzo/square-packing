@@ -1,16 +1,30 @@
 {
   "n": 691,
   "packing": "n691.txt",
-  "packing_sha256": "f0b8c5bb6e22d82f12fea8c9733ec1312095e4aeae943314d276be8bc26277e9",
+  "packing_sha256": "4903b4dbe93583723dcc9bef8bdc0e14221f9f1a16fb1ad640bc827fc4925dc4",
   "certificate": "certificates/n691.cert",
-  "certificate_sha256": "ff65c5c304b41096e2a4d021b7c155cf7631662aa10e148da362e3892796904c",
-  "rational_side": "157311270020339390260911908702747024441056472441289810270712599689007499422610439471327700137/5863603903748371782684551025009698258508481781582359663736592210247639547368500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "d7a4d319548675ae647432bbc8708c5fff2481d027ae9ccf429fca54b083a429",
+  "rational_side": "119575898459751006574210087623/4457059592186500000000000000",
+  "kind": "verified source certificate",
   "origin": {
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "4b7c03ace26b350ac37c962afeecdb92c67528bb8f08ec01a4814e8c8c9a25be",
+    "source_n": 544,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": []
+    },
     "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
+      "kind": "square tiling and L-border",
+      "source_n": 544,
+      "source_bound": "106204719683191506574210087623/4457059592186500000000000000",
+      "tiles_per_side": 1,
+      "layers": 3,
+      "capacity": 691,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

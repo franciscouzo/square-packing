@@ -1,16 +1,21 @@
 {
   "n": 692,
   "packing": "n692.txt",
-  "packing_sha256": "e6d3b71cc4bf5e83515ed1b57e6c280c2a83f48685fe27b142ec1aa9f4930d1d",
+  "packing_sha256": "fa6767ff0d0458d87182b525409d7fe65a331832807a3796a98e4b5a757f46c9",
   "certificate": "certificates/n692.cert",
-  "certificate_sha256": "d208d5324859610bb08603760c2a658bf938c79144a5453270bb19fc92dd1da5",
-  "rational_side": "1356552252007396145791290500759882645735410893925471027/50563987433850000000000000505639874338500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "5b3df740a8925a8d3e34d08a31e73b1e756feb8e1e1912c54637fe30400f4f8c",
+  "rational_side": "2170773985187235613928386751798607816255275226080305609/80913203561700000000000000809132035617000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "label": "parametric construction",
-      "kind": "construction"
-    }
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "5b3df740a8925a8d3e34d08a31e73b1e756feb8e1e1912c54637fe30400f4f8c",
+    "source_n": 692,
+    "source_provenance": {
+      "category": "ct105 task",
+      "construction_credit": []
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

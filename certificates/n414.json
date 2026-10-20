@@ -1,20 +1,33 @@
 {
   "n": 414,
   "packing": "n414.txt",
-  "packing_sha256": "a847106e2c623f9ccb53364e46d72849a7bb2aa23a9684bd3b62d06dca19da5d",
+  "packing_sha256": "3131199bec36c7b0f1959040b0299c2d3e59bbf0b19d62e9f3b7935b15b1d7d8",
   "certificate": "certificates/n414.cert",
-  "certificate_sha256": "aa006ef51577e6978c3d78c2774857a9d7a3d3e31c46f1353a6fcce905d15f19",
-  "rational_side": "3202888641857981325199761/153377045500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "010f01df97d46b7f2f703492776ed70dcb1fbb3487c69fa4ca93da2dd16fb92e",
+  "rational_side": "20882451030481246819527281665997/1000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "d0998eea1f067e87afce35542dc301df",
-      "n": 414,
-      "side": 20.88245103050555,
-      "method": "fq",
-      "received": "20261014T105627Z",
-      "original_packing_sha256": "43281bd2ef76ef08e4167d2b611b985e01697a9392b1836bf0deb85a4eb85800"
-    }
+    "seed_credit": "Evan Daniel",
+    "source_certificate_sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
+    "source_n": 375,
+    "source_provenance": {
+      "category": "evand",
+      "source_revision": "0f37f49fa521f411d8e35c82f746e679b3447e46",
+      "certificate_url": "https://github.com/evand/square-packing/blob/0f37f49fa521f411d8e35c82f746e679b3447e46/search/packer/candidates/comp2_n375.cert",
+      "request": "https://github.com/jlevy/squares/issues/399",
+      "construction_credit": []
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 375,
+      "source_bound": "19882451030481246819527281665997/1000000000000000000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 414,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

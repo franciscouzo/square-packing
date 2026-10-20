@@ -1,39 +1,111 @@
 {
   "n": 603,
   "packing": "n603.txt",
-  "packing_sha256": "9586e941d572425b3bcfb9f99d6053cdb6f0ccff566ce2e68723cbf1fde7d443",
+  "packing_sha256": "5fdbeadd94d8001f2f37949671769b09459c6788986a65927de09f34102be329",
   "certificate": "certificates/n603.cert",
-  "certificate_sha256": "8ef10277c5ffc49622d24e11241fff83b55b6354d1cb2ebb6f5ca6143fdb8040",
-  "rational_side": "219851865381198055772358779/8796093022208000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "33b950bf5ac8d44e6fb21cc75e6f57346eeedd9cd9a1f2fe4da95fce685c7d5a",
+  "rational_side": "1249517778468986517778467737/50000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Joost de Winter",
-    "category": "reviewed public submission",
-    "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert",
-    "request": "https://github.com/jlevy/squares/issues/666",
-    "construction_credit": [
-      "Arslanov, Mustafin and Shangitbayev (four-block method)"
-    ],
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "33b950bf5ac8d44e6fb21cc75e6f57346eeedd9cd9a1f2fe4da95fce685c7d5a",
     "source_n": 603,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "4b4c635e5c0a00c20cb865120e76c40e3abdfef32a369ebf6511cbc03b1eaaa8",
-    "search_job": {
-      "id": 107649,
-      "method": "fq",
-      "source": "n603.txt",
-      "source_origin": "constructed",
-      "source_sha256": "43c45c49f614afd51d300ab31faf9c59d0865e70e4a4fe84b8d9873326cc6e2b",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n603.txt",
-        "source_sha256": "43c45c49f614afd51d300ab31faf9c59d0865e70e4a4fe84b8d9873326cc6e2b",
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 603,
+        "certificate": {
+          "valid": true,
+          "n": 603,
+          "side": "1249517778468986517778467737/50000000000000000000000000",
+          "side_float": 24.99035556937973,
+          "sha256": "33b950bf5ac8d44e6fb21cc75e6f57346eeedd9cd9a1f2fe4da95fce685c7d5a",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "6247592060163170592060156923/250000000000000000000000000",
+        "source_sha256": "e2e80386e17da91f6308018045d3dab8f65d502e44674c4c7c7ac33e1363e933",
+        "closed_reference": "6247592060163170592060156923/250000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "7809490075203495214104632718161110877375810243377985368035122146557320047870680727906755974975338110978762069360539706661794850377209646108581/312499999999999812500000000000172861356012099334075855298564491064442738683425227680403048340250000000000000000000000000000000000000000000000",
+        "source_ray_crop": "25938255429301995223750031551547224041230032225603131702161117418079546053389241319084086422973742377527000261996471865885578861249673734113860565440318496131631/1037930100891522822752845469885011844435743922479143597588516065175616814339116007558614696230182272931143850066078678178510333284433939010700000000000000000000",
+        "native_candidate_side": "1249517778468986517778467737/50000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 0.5070465250818028,
+        "producing_job": {
+          "id": "productive-frontier6-r1-603-203101-current-pm",
+          "n": 603,
+          "seed": 203101,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier6-r1-603-203101-current-pm",
+            "n": 603,
+            "seed": 203101,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "1249517778468986517778467737/50000000000000000000000000",
+            "sha256": "33b950bf5ac8d44e6fb21cc75e6f57346eeedd9cd9a1f2fe4da95fce685c7d5a",
+            "certificate": "certificates/33fc8a2abbe18100b061fc062c11c327d2ae45ab7520bc7630b52e1e86a02a8e.cert",
+            "source": "attempts/productive-frontier6-r1-603-203101-current-pm/run/harvest/12-52.txt",
+            "source_sha256": "33fc8a2abbe18100b061fc062c11c327d2ae45ab7520bc7630b52e1e86a02a8e"
+          },
+          "reference": "6247592060163170592060156923/250000000000000000000000000",
+          "classification": "Exact project-envelope improvement; current public comparison and worldwide priority unresolved"
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Joost de Winter",
+        "category": "reviewed public submission",
+        "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0603.cert",
+        "request": "https://github.com/jlevy/squares/issues/666",
+        "construction_credit": [
+          "Arslanov, Mustafin and Shangitbayev (four-block method)"
+        ],
         "source_n": 603,
-        "source_side": 24.99526806407743,
-        "layers": 0,
-        "deleted": 0,
-        "side": 24.99526806407743
+        "deleted_squares": 0,
+        "source_certificate_sha256": "4b4c635e5c0a00c20cb865120e76c40e3abdfef32a369ebf6511cbc03b1eaaa8",
+        "search_job": {
+          "id": 107649,
+          "method": "fq",
+          "source": "n603.txt",
+          "source_origin": "constructed",
+          "source_sha256": "43c45c49f614afd51d300ab31faf9c59d0865e70e4a4fe84b8d9873326cc6e2b",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n603.txt",
+            "source_sha256": "43c45c49f614afd51d300ab31faf9c59d0865e70e4a4fe84b8d9873326cc6e2b",
+            "source_n": 603,
+            "source_side": 24.99526806407743,
+            "layers": 0,
+            "deleted": 0,
+            "side": 24.99526806407743
+          }
+        }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

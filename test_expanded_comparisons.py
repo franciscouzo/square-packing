@@ -33,6 +33,12 @@ class ExpandedComparisonTests(unittest.TestCase):
         for value in ('18.99999999995', '19.00000000005'):
             self.assertEqual(external_comparison(value, entry)[2], 'tied (within 1e-10)')
 
+    def test_reviewed_public_construction_overrides_an_older_certificate(self):
+        old=certificate(343,'18.99');current=certificate(343,'18.98')
+        known={'published_above_324':{'343':old},'public_comparisons':{'343':current}}
+        self.assertEqual(comparison_entry(known,343),current)
+        self.assertIn('superseded',external_comparison('18.985',comparison_entry(known,343))[2])
+
     def test_absent_source_remains_a_reference_comparison(self):
         self.assertEqual(external_comparison('19.9', None), ('—', '—', 'reference comparison only'))
         rows = ['| 375 | 19.93125509556197 | **19.902353152174** | 2.890e-02 |']

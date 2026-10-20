@@ -1,40 +1,45 @@
 {
   "n": 995,
   "packing": "n995.txt",
-  "packing_sha256": "89728073114c09444181f5fc9e2fa24c90953c0c2b54391ef329d823ec3e1bb2",
+  "packing_sha256": "d33bf862e20ca1a72a72dcfbf07f3f8897e1f99c329ab0e954dc20ac67deffe2",
   "certificate": "certificates/n995.cert",
-  "certificate_sha256": "fa2bc7a981447d7c957ae623b35dfbe5080ec28c13ddedc30e69bcffe4393d3b",
-  "rational_side": "48316274805450161450921103/1510129712871800000000000",
+  "certificate_sha256": "e9e2762a7c0e80fd673035c135b0992d7bef09c245df28183950f66de2660c3c",
+  "rational_side": "386736709089352929754857685915166817464624679766371404851380373153/12087903319959022098778275120879033199590220987782750000000000000",
   "kind": "verified source certificate",
   "origin": {
     "seed_credit": "Francisco Couzo",
-    "construction": {
-      "kind": "L-border",
-      "source_n": 935,
-      "layers": 1,
-      "parent_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
-      "capacity": 996
+    "source_certificate_sha256": "e9e2762a7c0e80fd673035c135b0992d7bef09c245df28183950f66de2660c3c",
+    "source_n": 995,
+    "source_provenance": {
+      "n": 995,
+      "side": "386736709089352929754857685915166817464624679766371404851380373153/12087903319959022098778275120879033199590220987782750000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/e9e2762a7c0e80fd673035c135b0992d7bef09c245df28183950f66de2660c3c.cert",
+      "certificate_sha256": "e9e2762a7c0e80fd673035c135b0992d7bef09c245df28183950f66de2660c3c",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:8d72fd2e6185d7cbd1da280c374c2993",
+      "public_credit": "franciscouzo",
+      "created": 1792502671.2000132,
+      "submission_id": "8d72fd2e6185d7cbd1da280c374c2993",
+      "record": {
+        "n": 995,
+        "side": 31.993696413073557,
+        "previous": 31.99417405815615,
+        "previous_holder": "this repository; source credit in certificate metadata",
+        "rational_side": "386736709089352929754857685915166817464624679766371404851380373153/12087903319959022098778275120879033199590220987782750000000000000",
+        "float_side": 31.9936964130425,
+        "method": "fq",
+        "received": "20261020T132430Z",
+        "seed": "campaign",
+        "sha256": "2803295283ecf5512f49b16c126e93bb5253e9b21ec2a6767183e41ea4ed0d70"
+      },
+      "rounded_up": "31.993696413074",
+      "previous": "31.994174058157",
+      "gain": 0.000477645082592253,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261020T132430Z"
     },
-    "source_n": 996,
-    "deleted_squares": 1,
-    "source_certificate_sha256": "8cb4c818a9e32bd5255b6ed4611a9780d303062b8e94480df4bb131f2fa02c3d",
-    "search_job": {
-      "id": 108421,
-      "method": "fq",
-      "source": "n935.txt",
-      "source_origin": "constructed",
-      "source_sha256": "f65f8f2d1931c67d2ca41336759cc3f784713b690ad06e19dcee84caec9334d1",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n935.txt",
-        "source_sha256": "bdf622cde830f7ea1b56c2a5ba333975a7bdcccbb27b1104c6136610522ac49b",
-        "source_n": 935,
-        "source_side": 30.995336946287125,
-        "layers": 1,
-        "deleted": 0,
-        "side": 31.995336946289125
-      }
-    }
-  },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+    "construction": null,
+    "deleted_squares": 0
+  }
 }

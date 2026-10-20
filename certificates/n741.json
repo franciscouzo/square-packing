@@ -1,20 +1,39 @@
 {
   "n": 741,
   "packing": "n741.txt",
-  "packing_sha256": "c5f89e7deeb816629110e0003262caea73462f58dec8ff95811af593e3591791",
+  "packing_sha256": "82b8d0d2d3ffedd42b8568ed5c328464c82c612958516e7c402c3c8f99281264",
   "certificate": "certificates/n741.cert",
-  "certificate_sha256": "078ecb9822c725fe751e0e7f023d827b2373a4e3e2cb7d46d6cbebd2cf2b68d9",
-  "rational_side": "8911222180536090484127511291/321380814645500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "86bc64a64ff837559295c84b768c72634f6a068a782102964ce2fefb63a76090",
+  "rational_side": "390235810823214688313151787/14073748835532800000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "parent_n": 688,
-      "parent_certificate_sha256": "e1ca47d295dc85d099e879ffea6c4672ed89c268f108903a87277fb292389855",
-      "tiles": 1,
-      "layers": 1,
-      "strict_scale": "1+1e-24"
+    "seed_credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+    "source_certificate_sha256": "d7abe1d0b18bf4e589f039b4dd520219e4fe2aa268ec3f67ae8555e40ccae70a",
+    "source_n": 688,
+    "source_provenance": {
+      "category": "retained exact G\u00f6bel construction",
+      "source_url": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "original_credits": {
+        "exact_construction": {
+          "rational": "14",
+          "sqrt2": "9",
+          "expression": "14 + 9*sqrt(2)"
+        },
+        "witness_provenance": {}
+      },
+      "request": null
     },
-    "seed_credit": "this project"
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 688,
+      "source_bound": "376162061987681888313151787/14073748835532800000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 741,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

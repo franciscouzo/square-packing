@@ -1,21 +1,192 @@
 {
   "n": 552,
   "packing": "n552.txt",
-  "packing_sha256": "ee4b1ad62e53d86d9aa636c6119fb594612844816c2f3e3a9789fee8b63fc93a",
+  "packing_sha256": "42590fceb5a9e5ffa4e3e6fb55849ac44c02c96c66bb5e8f02f37c6f81463d95",
   "certificate": "certificates/n552.cert",
-  "certificate_sha256": "5e245b3ec86b373a52bd5ddfc07b675bf886cb3282cb8c80376f05f0c4399cfa",
-  "rational_side": "19547490601845983518239123437/815603569843500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+  "rational_side": "5991657205836294657205830303/250000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "construction": {
-      "label": "L-border from n=507",
-      "kind": "derived",
-      "source_n": 507,
-      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
-      "tiles": 1,
-      "layers": 1
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+    "source_n": 552,
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 552,
+        "side": "5991657205836294657205830303/250000000000000000000000000",
+        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+        "origin": "inventory-20261016",
+        "record": {
+          "family": "squares_in_square",
+          "n": 552,
+          "kind": "direct",
+          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+          "gain_ppm": 11.386443077793796,
+          "campaign": "assembly-frontier-20261015",
+          "source_row": {
+            "attempt": "square-552-101911",
+            "kind": "explore",
+            "arm": null,
+            "n": 552,
+            "side": "5991657205836294657205830303/250000000000000000000000000",
+            "score": 23.96662882334518,
+            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+            "reference_gain_ppm": 11.386443077793798,
+            "candidate_flag": true,
+            "source": "attempts/square-552-101911/run/search/b00001.txt",
+            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+            "checks": [
+              "rational separating axes",
+              "rational polygon intersection"
+            ],
+            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+            "review_gain_ppm": 11.386443077793796,
+            "display_side_upper": "23.966628823346",
+            "fresh_public_certificate": {
+              "n": 552,
+              "side": "30196219962790438826417548913/1259913371956500000000000000",
+              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ]
+            },
+            "producing_operator": "aswap",
+            "replayed_at": 1792097405.2585638,
+            "status": "provisional candidate, not recognized world record"
+          },
+          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+          "has_direct_search_improvement": true,
+          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+          "retained_geometry_sha256_verified": true,
+          "witness_directory": "witnesses/square-552",
+          "geometry_file": "witnesses/square-552/geometry.cert",
+          "display_objective": "23.966628823346",
+          "axis_aligned_within_0_01_degree": 385,
+          "diagram": "diagrams/square-552.svg"
+        },
+        "qualification": {
+          "n": 552,
+          "private": {
+            "n": 552,
+            "side": "5991657205836294657205830303/250000000000000000000000000",
+            "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+            "origin": "inventory-20261016",
+            "record": {
+              "family": "squares_in_square",
+              "n": 552,
+              "kind": "direct",
+              "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+              "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+              "gain_ppm": 11.386443077793796,
+              "campaign": "assembly-frontier-20261015",
+              "source_row": {
+                "attempt": "square-552-101911",
+                "kind": "explore",
+                "arm": null,
+                "n": 552,
+                "side": "5991657205836294657205830303/250000000000000000000000000",
+                "score": 23.96662882334518,
+                "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                "reference_gain_ppm": 11.386443077793798,
+                "candidate_flag": true,
+                "source": "attempts/square-552-101911/run/search/b00001.txt",
+                "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "checks": [
+                  "rational separating axes",
+                  "rational polygon intersection"
+                ],
+                "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                "review_gain_ppm": 11.386443077793796,
+                "display_side_upper": "23.966628823346",
+                "fresh_public_certificate": {
+                  "n": 552,
+                  "side": "30196219962790438826417548913/1259913371956500000000000000",
+                  "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                  "checks": [
+                    "rational separating axes",
+                    "rational polygon intersection"
+                  ]
+                },
+                "producing_operator": "aswap",
+                "replayed_at": 1792097405.2585638,
+                "status": "provisional candidate, not recognized world record"
+              },
+              "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+              "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+              "has_direct_search_improvement": true,
+              "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+              "retained_geometry_sha256_verified": true,
+              "witness_directory": "witnesses/square-552",
+              "geometry_file": "witnesses/square-552/geometry.cert",
+              "display_objective": "23.966628823346",
+              "axis_aligned_within_0_01_degree": 385,
+              "diagram": "diagrams/square-552.svg"
+            }
+          },
+          "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+          "public_entry": {
+            "bound": "30196219962790438826417548913/1259913371956500000000000000",
+            "source": "certificates/best/n552.cert",
+            "source_n": 552,
+            "deleted_squares": 0,
+            "status": "exact certificate verified",
+            "credit": "Francisco Couzo",
+            "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+            "rounded_up": "23.966901721108"
+          },
+          "public_label": "verified",
+          "status": "below-current-catalogue",
+          "strictly_below": true,
+          "exceeds_1e_8_absolute_gain": true,
+          "gain_ppm": 11.386572730356042,
+          "exact_public_hash_matches_retained": false,
+          "private_geometry_verified": true,
+          "private_geometry_file": "private-certificates/n552.cert",
+          "public_receipt": {
+            "n": 552,
+            "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+            "path": "public-certificates/n552.cert",
+            "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+            "bytes": 69301,
+            "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+            "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+          },
+          "public_binding_matches": true,
+          "public_geometry_verified": true,
+          "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+          "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+          "public_bound_matches_certificate": true,
+          "verified_public_status": "below-verified-public-witness",
+          "verified_public_gain_ppm": 11.386572730356042
+        },
+        "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "construction": {
+          "label": "L-border from n=507",
+          "kind": "derived",
+          "source_n": 507,
+          "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+          "tiles": 1,
+          "layers": 1
+        },
+        "seed_credit": "Francisco Couzo"
+      }
     },
-    "seed_credit": "Francisco Couzo"
+    "construction": null,
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

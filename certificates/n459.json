@@ -1,39 +1,161 @@
 {
   "n": 459,
   "packing": "n459.txt",
-  "packing_sha256": "dcdb5f15bba0431cd3bbdae164f3d8b92ab1585db88a4a8aef3a1bfbdc1939dd",
+  "packing_sha256": "2f653c520b0e459107267b77b85f52d5947834c74485ef5720e0cabaa6b3e1af",
   "certificate": "certificates/n459.cert",
-  "certificate_sha256": "c0fd0fa2de705ca170da1c35ef270efc28cc653e269fc1b6181d0edfa0a74a52",
-  "rational_side": "288953132032662784399822541/13168732209846000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+  "rational_side": "21937227864889784227864867847/1000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "70003a98890993ec062f5d78bba05907",
-      "n": 459,
-      "side": 21.94665437409726,
-      "method": "hop",
-      "received": "20261014T151544Z",
-      "original_packing_sha256": "9d8d9995baddad437b4bfa6d51d809771c8887a5ff5154697921ab4707bc9cc5"
-    },
-    "search_job": {
-      "id": 110111,
-      "method": "hop",
-      "source": "n459.txt",
-      "source_origin": "constructed",
-      "source_sha256": "25b72d79dfd3f21a3fee34ce89c7d92cb4026c3d87b0d7f76640524377aa8c2f",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n459.txt",
-        "source_sha256": "746a747a879f8d1509624f24168f534c473b426531a516d9842612506a9c6896",
-        "source_n": 459,
-        "source_side": 21.94242348325161,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 21.94242348325161
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+    "source_n": 459,
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 459,
+        "side": "21937227864889784227864867847/1000000000000000000000000000",
+        "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+        "origin": "structured-terminal.json/candidates",
+        "record": {
+          "attempt": "production-459-106103",
+          "kind": "explore",
+          "arm": "baseline",
+          "cohort": "production",
+          "n": 459,
+          "side": "21937227864889784227864867847/1000000000000000000000000000",
+          "score": 21.937227864889785,
+          "reference": "21943506753802456506753781513/1000000000000000000000000000",
+          "reference_gain_ppm": 286.1388101327172,
+          "candidate_flag": true,
+          "source": "attempts/production-459-106103/run/search/b00180.txt",
+          "certificate": "certificates/production-459-106103/6a3f3fec41cc3712.cert",
+          "certificate_sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ],
+          "packet": "candidate-ledger/square-packets/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+          "review_reference": "182662756386894423940836933183211467789359/8323034266329167696573367000000000000000",
+          "review_gain_ppm": 429.5191898863398,
+          "public_reference": "182662756386894423940836933183211467789359/8323034266329167696573367000000000000000",
+          "campaign_reference": "21943506753802456506753781513/1000000000000000000000000000",
+          "public_gain_ppm": 429.5191898863398,
+          "progress_gain_ppm": 286.1388101327172,
+          "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+        },
+        "qualification": {
+          "n": 459,
+          "private": {
+            "n": 459,
+            "side": "21937227864889784227864867847/1000000000000000000000000000",
+            "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+            "origin": "structured-terminal.json/candidates",
+            "record": {
+              "attempt": "production-459-106103",
+              "kind": "explore",
+              "arm": "baseline",
+              "cohort": "production",
+              "n": 459,
+              "side": "21937227864889784227864867847/1000000000000000000000000000",
+              "score": 21.937227864889785,
+              "reference": "21943506753802456506753781513/1000000000000000000000000000",
+              "reference_gain_ppm": 286.1388101327172,
+              "candidate_flag": true,
+              "source": "attempts/production-459-106103/run/search/b00180.txt",
+              "certificate": "certificates/production-459-106103/6a3f3fec41cc3712.cert",
+              "certificate_sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "packet": "candidate-ledger/square-packets/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
+              "review_reference": "182662756386894423940836933183211467789359/8323034266329167696573367000000000000000",
+              "review_gain_ppm": 429.5191898863398,
+              "public_reference": "182662756386894423940836933183211467789359/8323034266329167696573367000000000000000",
+              "campaign_reference": "21943506753802456506753781513/1000000000000000000000000000",
+              "public_gain_ppm": 429.5191898863398,
+              "progress_gain_ppm": 286.1388101327172,
+              "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+            }
+          },
+          "public_bound": "412430838140282635914314183/18794923825706000000000000",
+          "public_entry": {
+            "bound": "412430838140282635914314183/18794923825706000000000000",
+            "source": "certificates/n459.cert",
+            "status": "exact certificate verified",
+            "credit": "this repository; source credit in certificate metadata",
+            "sha256": "aa9735350a8c3f6848e2f4d2371a149a3c8056042c711f77a500a6c7c80aa16f",
+            "rounded_up": "21.943735551416"
+          },
+          "public_label": "verified",
+          "status": "below-current-catalogue",
+          "strictly_below": true,
+          "exceeds_1e_8_absolute_gain": true,
+          "gain_ppm": 296.65035916811394,
+          "exact_public_hash_matches_retained": false,
+          "private_geometry_verified": true,
+          "private_geometry_file": "private-certificates/n459.cert",
+          "public_receipt": {
+            "n": 459,
+            "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/n459.cert",
+            "path": "public-certificates/n459.cert",
+            "sha256": "aa9735350a8c3f6848e2f4d2371a149a3c8056042c711f77a500a6c7c80aa16f",
+            "bytes": 50311,
+            "retrieved_at": "2026-10-17T18:25:29.138246+00:00",
+            "cache_copy_from": "/study/qualification-r1/public-certificates/n459.cert"
+          },
+          "public_binding_matches": true,
+          "raw_public_geometry_verified": false,
+          "raw_verification_error": "AssertionError('separating-axis route rejected')",
+          "public_geometry_verified": true,
+          "public_certificate_side": "412430838140695066752454465635914314183/18794923825706000000000000000000000000",
+          "public_verification": "Both exact routes accept disclosed1e-12 homothetic clearance",
+          "public_clearance_scale": "1000000000001/1000000000000",
+          "padded_public_geometry": "padded-public-certificates/n459.cert",
+          "padded_public_sha256": "a7b7f8ca80f6e594a375e5aa5b7ae9f6f7b573526c73fe2960c97e0095eb94ab",
+          "public_bound_matches_certificate": true,
+          "verified_public_status": "below-verified-public-witness",
+          "verified_public_gain_ppm": 296.6503601684106
+        },
+        "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "web_seed": {
+          "id": "70003a98890993ec062f5d78bba05907",
+          "n": 459,
+          "side": 21.94665437409726,
+          "method": "hop",
+          "received": "20261014T151544Z",
+          "original_packing_sha256": "9d8d9995baddad437b4bfa6d51d809771c8887a5ff5154697921ab4707bc9cc5"
+        },
+        "search_job": {
+          "id": 110111,
+          "method": "hop",
+          "source": "n459.txt",
+          "source_origin": "constructed",
+          "source_sha256": "25b72d79dfd3f21a3fee34ce89c7d92cb4026c3d87b0d7f76640524377aa8c2f",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n459.txt",
+            "source_sha256": "746a747a879f8d1509624f24168f534c473b426531a516d9842612506a9c6896",
+            "source_n": 459,
+            "source_side": 21.94242348325161,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 21.94242348325161
+          }
+        }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

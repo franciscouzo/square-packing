@@ -1,56 +1,129 @@
 {
   "n": 759,
   "packing": "n759.txt",
-  "packing_sha256": "3661d76a093750ed53955cad55be2f7d29f9d0431c3914d45f36a93c7475af97",
+  "packing_sha256": "ca7c080cbdef706ed8c4d6d8d0707a53203a18bf27637d4f94a2cbe84a99de91",
   "certificate": "certificates/n759.cert",
-  "certificate_sha256": "8e75e9e459afeaa303bda9c1461a3319a6071731034d4bfcc4f4048eb38270fd",
-  "rational_side": "84210616360195291938304712784230719530822279501296809650532690001591/3008188264359686175261079580081882643596861752610795500000000000000",
+  "certificate_sha256": "8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f",
+  "rational_side": "1399428461663672428461662273/50000000000000000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
-    "category": "reviewed public submission",
-    "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
-    "request": "https://github.com/jlevy/squares/issues/666",
-    "construction_credit": [
-      "Arslanov, Mustafin and Shangitbayev (four-block method)"
-    ],
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f",
     "source_n": 759,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "8e75e9e459afeaa303bda9c1461a3319a6071731034d4bfcc4f4048eb38270fd",
-    "search_job": {
-      "id": 106583,
-      "method": "slp",
-      "source": "n759.txt",
-      "source_origin": "constructed",
-      "source_sha256": "eba75e17b0b3a82ed13c655bba8c7ecf5effedc2a103490f70a67cebf53ade0a",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n759.txt",
-        "source_sha256": "eba75e17b0b3a82ed13c655bba8c7ecf5effedc2a103490f70a67cebf53ade0a",
-        "source_n": 759,
-        "source_side": 27.995949339633306,
-        "layers": 0,
-        "deleted": 0,
-        "side": 27.995949339633306
-      }
-    },
-    "web_seed": {
-      "category": "CT105 web submission",
-      "source_certificate_sha256": "8e75e9e459afeaa303bda9c1461a3319a6071731034d4bfcc4f4048eb38270fd",
-      "submission_id": "b201ec72ea23a1064443461e53487c62",
-      "method": "fq",
-      "received": "20261017T233155Z",
-      "previous_source_credit": {
-        "seed_credit": "Joost de Winter",
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 759,
+        "certificate": {
+          "valid": true,
+          "n": 759,
+          "side": "1399428461663672428461662273/50000000000000000000000000",
+          "side_float": 27.98856923327345,
+          "sha256": "8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "2798857353894481857353891683/100000000000000000000000000",
+        "source_sha256": "93b19522d1b89c881f16bd3bc7e0cb414ea0be4a27d8463f1cafe640fa32b16e",
+        "closed_reference": "2798857353894481857353891683/100000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "6997143384735887855765039938213598278976961695117690374638796824865845795837473478237030647416246978680321697772441537707425179018498821806717309/249999999999999475000000000000586452350574101438767453713362485867164186045107196719771341164704500000000000000000000000000000000000000000000000",
+        "source_ray_crop": "30924833873154516962969132606275992538731506385734823139159835683364831839946023370236576565566893292615581771574471328420385099026881183533612086716273093456248387064511370644038167306978216036963/1104909252704902127736185992713857742325268234389186029654739557402353275716632901293588977316235864222154847299879841224041707729069775640192115184064846325931190741631631705312500000000000000000",
+        "native_candidate_side": "1399428461663672428461662273/50000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 0.15383678008397889,
+        "producing_job": {
+          "id": "productive-frontier13-r1-759-227137-current-pm",
+          "n": 759,
+          "seed": 227137,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier13-r1-759-227137-current-pm",
+            "n": 759,
+            "seed": 227137,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "1399428461663672428461662273/50000000000000000000000000",
+            "sha256": "8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f",
+            "certificate": "certificates/8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f.cert",
+            "source": "native-sources/8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f.txt",
+            "source_sha256": "c93889039139adf4691719b70323b240e042c9d18a13996449de4618d659fb98"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier13-r1-759-227137-current-pm",
+              "n": 759,
+              "seed": 227137,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 759,
+              "side": "1399428461663672428461662273/50000000000000000000000000",
+              "side_float": 27.98856923327345,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "8aad97e660f5b7354a74c40f398233af9483bff2e166be7dadee9532fae84e8f",
+              "pair_count": 287661,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 759 closed unit squares pairwise disjoint inside the open box of side 27.988569233273448589 (1821 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier13-r1-759-227137-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier13-r1-759-227137-current-pm/run/harvest/12-31.txt",
+            "native_source_sha256": "c93889039139adf4691719b70323b240e042c9d18a13996449de4618d659fb98",
+            "anchor_sha256": "93b19522d1b89c881f16bd3bc7e0cb414ea0be4a27d8463f1cafe640fa32b16e",
+            "reference": "2798857353894481857353891683/100000000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.051166,
+            "cap": 900.0,
+            "wall": 903.697388052009,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
         "category": "reviewed public submission",
         "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
         "request": "https://github.com/jlevy/squares/issues/666",
         "construction_credit": [
           "Arslanov, Mustafin and Shangitbayev (four-block method)"
         ],
-        "source_n": 760,
-        "deleted_squares": 1,
-        "source_certificate_sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
+        "source_n": 759,
+        "deleted_squares": 0,
+        "source_certificate_sha256": "8e75e9e459afeaa303bda9c1461a3319a6071731034d4bfcc4f4048eb38270fd",
         "search_job": {
           "id": 106583,
           "method": "slp",
@@ -67,9 +140,47 @@
             "deleted": 0,
             "side": 27.995949339633306
           }
+        },
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "8e75e9e459afeaa303bda9c1461a3319a6071731034d4bfcc4f4048eb38270fd",
+          "submission_id": "b201ec72ea23a1064443461e53487c62",
+          "method": "fq",
+          "received": "20261017T233155Z",
+          "previous_source_credit": {
+            "seed_credit": "Joost de Winter",
+            "category": "reviewed public submission",
+            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0760.cert",
+            "request": "https://github.com/jlevy/squares/issues/666",
+            "construction_credit": [
+              "Arslanov, Mustafin and Shangitbayev (four-block method)"
+            ],
+            "source_n": 760,
+            "deleted_squares": 1,
+            "source_certificate_sha256": "3bb79d624fd015ad1086ea15f84bacebf1f6f6d13948cf57c3c666c8d050348f",
+            "search_job": {
+              "id": 106583,
+              "method": "slp",
+              "source": "n759.txt",
+              "source_origin": "constructed",
+              "source_sha256": "eba75e17b0b3a82ed13c655bba8c7ecf5effedc2a103490f70a67cebf53ade0a",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n759.txt",
+                "source_sha256": "eba75e17b0b3a82ed13c655bba8c7ecf5effedc2a103490f70a67cebf53ade0a",
+                "source_n": 759,
+                "source_side": 27.995949339633306,
+                "layers": 0,
+                "deleted": 0,
+                "side": 27.995949339633306
+              }
+            }
+          }
         }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

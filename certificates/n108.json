@@ -1,27 +1,25 @@
 {
   "n": 108,
   "packing": "n108.txt",
-  "packing_sha256": "7d8234d423f05eeadbaf591f447e86cee5d6f4fa397ebf6553685c8315afc7c6",
+  "packing_sha256": "de7ceac3d4b90739ca0041f264b5138a87b4f6ac2790278fe438a11bb3b288a8",
   "certificate": "certificates/n108.cert",
-  "certificate_sha256": "528741a37ad0ae6ddd4c08d6d6efa72a29700bd95fde137b44c987f18d44d69e",
-  "rational_side": "5452410506160178214527814352111/500000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "7637937f6e6ae2242ea579021ae00b846d3aae3708a7bc3496cd18901bdf52ca",
+  "rational_side": "784486179677573581991671750502627647690849586315837067524969581719432573131816575701996805775810683190356963481048249437688278531515088276722668684203536782312550970389724710204791776796466633913283058017708370027620419738095784643318869869830251266633372895467029627071662430818071267/71939390732892786308108684741508629641699074976010803840294931177844619752318328260334740244990201471845694327319816922121412586841233786246385477865838612662698183807605944712358552400692382953629903438860750830990483480097357305500507667288338480599543227312734648617526189636189266",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Ryan Xu",
-    "seed_certificate": {
-      "source": "ry-xu",
-      "certificate": "ry-xu/certificates/n108/n108.cert.json",
-      "sha256": "852f580f762df5845bc46cd6c41c02010dbbf3616d090175d7dbe12eeedc98df",
-      "request": "https://github.com/jlevy/squares/issues/432",
-      "side": "109048247851109048247851/10000000000000000000000"
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "7637937f6e6ae2242ea579021ae00b846d3aae3708a7bc3496cd18901bdf52ca",
+    "source_n": 108,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "seed_credit": "Ryan Xu",
+      "construction_credit": [
+        "ry-xu"
+      ]
     },
-    "search_job": {
-      "id": 71930,
-      "method": "hop",
-      "source": "external/seeds/n108.txt",
-      "source_origin": "external",
-      "source_sha256": "b003938fc5c14fb58b454a90245a7e1f5db6a164be83bf865b568de05d5e83b8",
-      "constructed_seed": null
-    }
-  }
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

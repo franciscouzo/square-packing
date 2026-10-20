@@ -1,20 +1,39 @@
 {
   "n": 965,
   "packing": "n965.txt",
-  "packing_sha256": "50ee7cbc42a436e1a8eefb618d740af1da99d36de2f3b102350af2dd18ba3024",
+  "packing_sha256": "a9bf6502b6c4390ed2fed32ec941d553e3584ce5283b3f173a21f539202f7199",
   "certificate": "certificates/n965.cert",
-  "certificate_sha256": "1fd7917b061573e4476b4417ba3ad9bb9025fa330be6d14e63dcc1b693e594ec",
-  "rational_side": "84040959204598637308614842207/2658968526728500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "61660cca3b92c05a46aff2e505183c911eb8a4d3e997cd31d64bfd5d537b8d2b",
+  "rational_side": "2224116870606801060684651047/70368744177664000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "cbfc05f75951a044b33d58796d5397d0",
-      "n": 965,
-      "side": 31.606601717841073,
-      "method": "fq",
-      "received": "20261014T020350Z",
-      "original_packing_sha256": "b51e83cb0f56e8c044711757384123aeb5dc5713ba96153e1ca58a5c83905d06"
-    }
+    "seed_credit": "Frits G\u00f6bel; family formulas generalized by David Ellsworth",
+    "source_certificate_sha256": "793e0fca4c0f4a88ee253fc3e217c23e5d08646439eaeb15e757af6924c1faed",
+    "source_n": 445,
+    "source_provenance": {
+      "category": "retained exact G\u00f6bel construction",
+      "source_url": "https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html",
+      "original_credits": {
+        "exact_construction": {
+          "rational": "11",
+          "sqrt2": "15/2",
+          "expression": "11 + 15/2*sqrt(2)"
+        },
+        "witness_provenance": {}
+      },
+      "request": null
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 445,
+      "source_bound": "1520429428830161060684651047/70368744177664000000000000",
+      "tiles_per_side": 1,
+      "layers": 10,
+      "capacity": 965,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

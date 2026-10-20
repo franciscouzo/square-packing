@@ -1,27 +1,25 @@
 {
   "n": 305,
   "packing": "n305.txt",
-  "packing_sha256": "543c0e41ff93d8ed3ea1512f1a10feb1ea99a263dde72fb748136efc1f1f4cc5",
+  "packing_sha256": "f807d353a3bddd5e5291c9da493384c47a4bef9d76980c17530a3c1d56d36e50",
   "certificate": "certificates/n305.cert",
-  "certificate_sha256": "a5fe5e365a242972e36c7c79a1d20184949d3fb1c6b3cda3af8e6cb192fd752a",
-  "rational_side": "3590093296427542454697714045223/200000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "d0d3201be6001ca52f9b1e54734647684daf8e0fc7e8c1af931c9121480876c6",
+  "rational_side": "5075214038532902759371592290078408870017346957602287262172766706454147791540394605953822036939733129120861187725453972041360942424104203021460948659022305490296812331647895000857188294044070686438062696590068338424433342026680726827967553685/282734381503855937784205806039691664769238038597957044391765543746020100262581810681212006764795876895185165980903490505488821844369014523635495652832541382088019543078863349589571944725969676127191086263004697885802500015480214284723754506",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Nate Chaoweeraprasit (SQUISH)",
-    "seed_certificate": {
-      "source": "squish",
-      "certificate": "squish/squish-submission-2026-10-11/n305/n305.cert.json",
-      "sha256": "95a291460f3c128a9c80c1ba571c4d8118293f36860f38d5d55775636da80d33",
-      "request": "https://github.com/jlevy/squares/issues/500",
-      "side": "176574386584524522718242075735181894343653439251445905894414633471908824717084407/9836714596766635588546138051753839920746733217534271639970138607199828771763358"
+    "seed_credit": "PingYou Ltd (BuddenPing)",
+    "source_certificate_sha256": "d0d3201be6001ca52f9b1e54734647684daf8e0fc7e8c1af931c9121480876c6",
+    "source_n": 305,
+    "source_provenance": {
+      "category": "native",
+      "request": "https://github.com/jlevy/squares/pull/574",
+      "seed_credit": "Nate Chaoweeraprasit (SQUISH)",
+      "construction_credit": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ]
     },
-    "search_job": {
-      "id": 85023,
-      "method": "ellsworth_cycle",
-      "source": "external/seeds/n305.txt",
-      "source_origin": "external",
-      "source_sha256": "a3e6481817a741bb7b91707cd91cd281fed12e6da66f5798b8a275e234c706a4",
-      "constructed_seed": null
-    }
-  }
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

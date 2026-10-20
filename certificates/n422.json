@@ -1,49 +1,158 @@
 {
   "n": 422,
   "packing": "n422.txt",
-  "packing_sha256": "0fcda66ba00279f4d2f601c321e199271f4d81d395c41bdb7acc1494c531d740",
+  "packing_sha256": "6fd205bdeae8769e551e7507054a599102ef9158098afafe371d1c05a127bfb5",
   "certificate": "certificates/n422.cert",
-  "certificate_sha256": "86bb323da4b24dcbc1ae7482281711ed105c87390866839ef846bdde1c8c6c7f",
-  "rational_side": "1455846724442536653097027/69380193333620000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "5204bba7b46197ee93d68199d4107ad36223425b6906d8e96266c7348aa7795a",
+  "rational_side": "20983575254585010575254564027/1000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
-    "web_seed": {
-      "category": "CT105 web submission",
-      "source_certificate_sha256": "96725d9fd73020f85c629c7dc22ec87d13fe8223bc9f7176a045211c11ad3c42",
-      "submission_id": "27c90a59272e5110e925a94ae110a642",
-      "method": "fq",
-      "received": "20261018T045712Z",
-      "previous_source_credit": {
-        "seed_credit": "Francisco Couzo",
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "5204bba7b46197ee93d68199d4107ad36223425b6906d8e96266c7348aa7795a",
+    "source_n": 422,
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 422,
+        "certificate": {
+          "valid": true,
+          "n": 422,
+          "side": "20983575254585010575254564027/1000000000000000000000000000",
+          "side_float": 20.98357525458501,
+          "sha256": "5204bba7b46197ee93d68199d4107ad36223425b6906d8e96266c7348aa7795a",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "2140140392632648552419019680481493307050883533128269051/101991061927550000000000001019910619275500000000000000",
+        "source_sha256": "d7c4273a20cb4598b85851ef7e252f9fc105b223d16d734da0e44ad989060ad6",
+        "closed_reference": "2140140392632648552419019680481493307050883533128269051/101991061927550000000000001019910619275500000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "428028078526529669691659445861563958107050090312169086614101762986614061/20398212385510000000000000203982123855100000000000000000000000000000000",
+        "source_ray_crop": "2389765083689232137664023948806237470661721131631593451492853198686519/113887238184073880708279945035413876840738807082799438965414950000000",
+        "native_candidate_side": "20983575254585010575254564027/1000000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 1.527650180664205,
+        "producing_job": {
+          "id": "small-tau-search3-r1-422-226101-small-tau",
+          "n": 422,
+          "seed": 226101,
+          "arm": "small-tau",
+          "policy": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "small-tau-search3-r1-422-226101-small-tau",
+            "n": 422,
+            "seed": 226101,
+            "arm": "small-tau",
+            "policy": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "20983575254585010575254564027/1000000000000000000000000000",
+            "sha256": "5204bba7b46197ee93d68199d4107ad36223425b6906d8e96266c7348aa7795a",
+            "certificate": "certificates/26b051296aaf3b377f9d99811760905feb8596c8ba97c6d53ee70606045dc986.cert",
+            "source": "attempts/small-tau-search3-r1-422-226101-small-tau/run/search/b00064.txt",
+            "source_sha256": "26b051296aaf3b377f9d99811760905feb8596c8ba97c6d53ee70606045dc986"
+          },
+          "reference": "2140140392632648552419019680481493307050883533128269051/101991061927550000000000001019910619275500000000000000",
+          "classification": "Exact project-envelope improvement; current public comparison and worldwide priority unresolved"
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existingnative/grid/focuspolicy with initialelasticLPmargin1e-3,unchangedLPandNewton,pre-rejectioncapture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
         "web_seed": {
           "category": "CT105 web submission",
-          "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-          "submission_id": "ee093e5e07a0488193dabf5665dbf297",
-          "method": "hop",
-          "received": "20261015T002832Z",
-          "seed_credit": "Francisco Couzo",
-          "prior_retained_witness": {
-            "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
-            "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-            "source_credit": {
+          "source_certificate_sha256": "96725d9fd73020f85c629c7dc22ec87d13fe8223bc9f7176a045211c11ad3c42",
+          "submission_id": "27c90a59272e5110e925a94ae110a642",
+          "method": "fq",
+          "received": "20261018T045712Z",
+          "previous_source_credit": {
+            "seed_credit": "Francisco Couzo",
+            "web_seed": {
+              "category": "CT105 web submission",
+              "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+              "submission_id": "ee093e5e07a0488193dabf5665dbf297",
+              "method": "hop",
+              "received": "20261015T002832Z",
               "seed_credit": "Francisco Couzo",
-              "web_seed": {
-                "category": "CT105 web submission",
-                "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-                "submission_id": "ee093e5e07a0488193dabf5665dbf297",
-                "method": "hop",
-                "received": "20261015T002832Z"
-              },
-              "source_n": 422,
-              "deleted_squares": 0,
-              "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+              "prior_retained_witness": {
+                "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
+                "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+                "source_credit": {
+                  "seed_credit": "Francisco Couzo",
+                  "web_seed": {
+                    "category": "CT105 web submission",
+                    "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+                    "submission_id": "ee093e5e07a0488193dabf5665dbf297",
+                    "method": "hop",
+                    "received": "20261015T002832Z"
+                  },
+                  "source_n": 422,
+                  "deleted_squares": 0,
+                  "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+                }
+              }
+            },
+            "source_n": 422,
+            "deleted_squares": 0,
+            "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+            "prior_retained_witness": {
+              "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
+              "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+              "source_credit": {
+                "seed_credit": "Francisco Couzo",
+                "web_seed": {
+                  "category": "CT105 web submission",
+                  "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+                  "submission_id": "ee093e5e07a0488193dabf5665dbf297",
+                  "method": "hop",
+                  "received": "20261015T002832Z"
+                },
+                "source_n": 422,
+                "deleted_squares": 0,
+                "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
+              }
+            },
+            "search_job": {
+              "id": 107295,
+              "method": "hop",
+              "source": "n422.txt",
+              "source_origin": "constructed",
+              "source_sha256": "fb65d33214ee7b47ab3e5bbf0e42fa52e5c894cac59e7263f2fe76308f584a72",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n422.txt",
+                "source_sha256": "fb65d33214ee7b47ab3e5bbf0e42fa52e5c894cac59e7263f2fe76308f584a72",
+                "source_n": 422,
+                "source_side": 20.984021832958597,
+                "layers": 0,
+                "deleted": 0,
+                "side": 20.984021832958597
+              }
             }
           }
         },
         "source_n": 422,
         "deleted_squares": 0,
-        "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
+        "source_certificate_sha256": "96725d9fd73020f85c629c7dc22ec87d13fe8223bc9f7176a045211c11ad3c42",
         "prior_retained_witness": {
           "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
           "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
@@ -62,63 +171,28 @@
           }
         },
         "search_job": {
-          "id": 107295,
-          "method": "hop",
+          "id": 108667,
+          "method": "fq",
           "source": "n422.txt",
           "source_origin": "constructed",
-          "source_sha256": "fb65d33214ee7b47ab3e5bbf0e42fa52e5c894cac59e7263f2fe76308f584a72",
+          "source_sha256": "14acc3e7962911cc62d25c9d4c105a003573d9bee2c39daa513d069821cae05c",
           "constructed_seed": {
             "construction": "L-border and deletion",
             "source": "n422.txt",
-            "source_sha256": "fb65d33214ee7b47ab3e5bbf0e42fa52e5c894cac59e7263f2fe76308f584a72",
+            "source_sha256": "14acc3e7962911cc62d25c9d4c105a003573d9bee2c39daa513d069821cae05c",
             "source_n": 422,
-            "source_side": 20.984021832958597,
+            "source_side": 20.983607310151534,
             "layers": 0,
             "deleted": 0,
-            "side": 20.984021832958597
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 20.983607310151534
           }
         }
       }
     },
-    "source_n": 422,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "96725d9fd73020f85c629c7dc22ec87d13fe8223bc9f7176a045211c11ad3c42",
-    "prior_retained_witness": {
-      "certificate": "certificates/parents/237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08.cert",
-      "certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-      "source_credit": {
-        "seed_credit": "Francisco Couzo",
-        "web_seed": {
-          "category": "CT105 web submission",
-          "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08",
-          "submission_id": "ee093e5e07a0488193dabf5665dbf297",
-          "method": "hop",
-          "received": "20261015T002832Z"
-        },
-        "source_n": 422,
-        "deleted_squares": 0,
-        "source_certificate_sha256": "237b7176cc7a4f643c69a0f6cce90d5c24207679ff2e2255dc31d92382354c08"
-      }
-    },
-    "search_job": {
-      "id": 108667,
-      "method": "fq",
-      "source": "n422.txt",
-      "source_origin": "constructed",
-      "source_sha256": "14acc3e7962911cc62d25c9d4c105a003573d9bee2c39daa513d069821cae05c",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n422.txt",
-        "source_sha256": "14acc3e7962911cc62d25c9d4c105a003573d9bee2c39daa513d069821cae05c",
-        "source_n": 422,
-        "source_side": 20.983607310151534,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 20.983607310151534
-      }
-    }
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

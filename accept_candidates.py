@@ -17,6 +17,8 @@ import shutil
 import subprocess
 import tempfile
 
+from expand_search import SEARCH_MAX
+
 
 BIN = Path(__file__).resolve().parent / "target/release/sqpack"
 EXTERNAL_MARGIN = Fraction(1, 10**7)
@@ -74,11 +76,27 @@ def known_best(n):
     verified external certificate), or None. Since 2026-10-08 a candidate must
     beat it as well as our own packing: improving one of our superseded
     packings is not a result."""
+    bounds = []
     path = ROOT/"known_best.json"
-    if not path.exists():
-        return None
-    entry = json.loads(path.read_text())["entries"].get(str(n))
-    return Fraction(entry["side"]) if entry else None
+    if path.exists():
+        entry = json.loads(path.read_text())["entries"].get(str(n))
+        if entry:
+            bounds.append(Fraction(str(entry["side"])))
+    # The complete verified index also retains constructions absent from the
+    # register import, including exact Göbel families above the old range.
+    path = ROOT/"upper_bounds.json"
+    if path.exists():
+        entry = json.loads(path.read_text())["entries"].get(str(n), {})
+        for kind in ('verified', 'reported'):
+            candidate = entry.get(kind)
+            if candidate:
+                try:
+                    bounds.append(Fraction(candidate["bound"]))
+                except ValueError:
+                    # Algebraic public expressions remain in the reported
+                    # lane; the verified lane retains its rational enclosure.
+                    pass
+    return min(bounds) if bounds else None
 
 
 def accept(path, records):
@@ -107,7 +125,7 @@ def accept(path, records):
         certificate["known_best_elsewhere"] = {"side": str(elsewhere), "table": "known_best.json",
                                                "table_sha256": hashlib.sha256((ROOT/"known_best.json").read_bytes()).hexdigest()}
     reference_manifest = ROOT/"expanded_reference_bounds.json"
-    if 325 <= n <= 400 and reference_manifest.exists():
+    if 325 <= n <= SEARCH_MAX and reference_manifest.exists():
         entry = json.loads(reference_manifest.read_text())["entries"][str(n)]
         certificate["reference"] = {
             "kind": "derived reference upper bound, not a published-record comparison",

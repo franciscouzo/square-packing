@@ -1,48 +1,120 @@
 {
   "n": 874,
   "packing": "n874.txt",
-  "packing_sha256": "294b9c50b8cc5ab19cfe89d0ec548b09abe153dcb43c03448010681a2a1b41cc",
+  "packing_sha256": "20d96f2289e567f8cf0f40ad89978c8f3d657eb7d4ca09d3e5288d55d5d04cdf",
   "certificate": "certificates/n874.cert",
-  "certificate_sha256": "b6e888cd952cf16d8a23a15e5c9d7f831f9bac66dd1c62a52fd8e043e6c42599",
-  "rational_side": "7994231915393978258329036847/266506599548500000000000000",
+  "certificate_sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+  "rational_side": "937277606225800277606224863/31250000000000000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
-    "construction": {
-      "kind": "L-border",
-      "source_n": 817,
-      "layers": 1,
-      "parent_certificate_sha256": "afcf3145cc6856c31177b1b01d7178211adee69d38a268af8710df648ed81c5e",
-      "capacity": 874
-    },
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
     "source_n": 874,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "b6e888cd952cf16d8a23a15e5c9d7f831f9bac66dd1c62a52fd8e043e6c42599",
-    "search_job": {
-      "id": 108181,
-      "method": "slp",
-      "source": "n817.txt",
-      "source_origin": "constructed",
-      "source_sha256": "971e24e1acd63e15d4621d4c66c6d477b78a5fe0d3d2cf4b4e60a5c37b97f93d",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n817.txt",
-        "source_sha256": "2ae4dc6aaee9650f1931270e8cb41196ec6ed46a72476ce1000a664ef14823e7",
-        "source_n": 817,
-        "source_side": 28.99823467534392,
-        "layers": 1,
-        "deleted": 0,
-        "side": 29.99823467534592
-      }
-    },
-    "web_seed": {
-      "category": "CT105 web submission",
-      "source_certificate_sha256": "b6e888cd952cf16d8a23a15e5c9d7f831f9bac66dd1c62a52fd8e043e6c42599",
-      "submission_id": "60acb804c85004fd385b8b5d605195eb",
-      "method": "fq",
-      "received": "20261018T123052Z",
-      "previous_source_credit": {
-        "seed_credit": "Joost de Winter",
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 874,
+        "certificate": {
+          "valid": true,
+          "n": 874,
+          "side": "937277606225800277606224863/31250000000000000000000000",
+          "side_float": 29.992883399225608,
+          "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "2399533924652296053636155543102229385667541214811482510352370556678488438153890068652962094869478971466606819975573579634492422749452480778703311/79999999999999976000000000000008376401142255589765713623259148655347861620753863938528467112161000000000000000000000000000000000000000000000000",
+        "source_sha256": "5a29e0b5b35bb8dc9258c47e74018aea9df96982de332f02d66bd7ae5d415212",
+        "closed_reference": "2399533924652296053636155543102229385667541214811482510352370556678488438153890068652962094869478971466606819975573579634492422749452480778703311/79999999999999976000000000000008376401142255589765713623259148655347861620753863938528467112161000000000000000000000000000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "239953392465229605365935088234875234612841789401913994285135406707382965358270096808379300920551771514446123989104109212255234379591943267504823522749452480778703311/7999999999999997600000000000000837640114225558976571362325914865534786162075386393852846711216100000000000000000000000000000000000000000000000000000000000000000000",
+        "source_ray_crop": "150621025689182998574926079533121377453289841056245186575268336734066282404006384606821058557005032403564091959819276459631722624146038135195323517089500528733825589833/5021676056067761901372966233204129117164301497362153185021870596105952933391989508113981157857004799910715096364136386163815835839493979142153552100000000000000000000",
+        "native_candidate_side": "937277606225800277606224863/31250000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 43.03217236306493,
+        "producing_job": {
+          "id": "productive-frontier13-r1-874-227137-current-pm",
+          "n": 874,
+          "seed": 227137,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier13-r1-874-227137-current-pm",
+            "n": 874,
+            "seed": 227137,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "937277606225800277606224863/31250000000000000000000000",
+            "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+            "certificate": "certificates/a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486.cert",
+            "source": "native-sources/a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486.txt",
+            "source_sha256": "e449da90feb5f8752b2924b23b4b030c29432b1fbca40552c3f49eddf027fa97"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier13-r1-874-227137-current-pm",
+              "n": 874,
+              "seed": 227137,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 874,
+              "side": "937277606225800277606224863/31250000000000000000000000",
+              "side_float": 29.992883399225608,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+              "pair_count": 381501,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 874 closed unit squares pairwise disjoint inside the open box of side 29.992883399225608088 (2086 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier13-r1-874-227137-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier13-r1-874-227137-current-pm/run/harvest/12-12.txt",
+            "native_source_sha256": "e449da90feb5f8752b2924b23b4b030c29432b1fbca40552c3f49eddf027fa97",
+            "anchor_sha256": "5a29e0b5b35bb8dc9258c47e74018aea9df96982de332f02d66bd7ae5d415212",
+            "reference": "2399533924652296053636155543102229385667541214811482510352370556678488438153890068652962094869478971466606819975573579634492422749452480778703311/79999999999999976000000000000008376401142255589765713623259148655347861620753863938528467112161000000000000000000000000000000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.105501,
+            "cap": 900.0,
+            "wall": 904.4998577779625,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
         "construction": {
           "kind": "L-border",
           "source_n": 817,
@@ -52,7 +124,7 @@
         },
         "source_n": 874,
         "deleted_squares": 0,
-        "source_certificate_sha256": "7d8f2abb63688b8372860652b13f317047bee9e94d9101f2ebe7093134ecf151",
+        "source_certificate_sha256": "b6e888cd952cf16d8a23a15e5c9d7f831f9bac66dd1c62a52fd8e043e6c42599",
         "search_job": {
           "id": 108181,
           "method": "slp",
@@ -69,9 +141,48 @@
             "deleted": 0,
             "side": 29.99823467534592
           }
+        },
+        "web_seed": {
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "b6e888cd952cf16d8a23a15e5c9d7f831f9bac66dd1c62a52fd8e043e6c42599",
+          "submission_id": "60acb804c85004fd385b8b5d605195eb",
+          "method": "fq",
+          "received": "20261018T123052Z",
+          "previous_source_credit": {
+            "seed_credit": "Joost de Winter",
+            "construction": {
+              "kind": "L-border",
+              "source_n": 817,
+              "layers": 1,
+              "parent_certificate_sha256": "afcf3145cc6856c31177b1b01d7178211adee69d38a268af8710df648ed81c5e",
+              "capacity": 874
+            },
+            "source_n": 874,
+            "deleted_squares": 0,
+            "source_certificate_sha256": "7d8f2abb63688b8372860652b13f317047bee9e94d9101f2ebe7093134ecf151",
+            "search_job": {
+              "id": 108181,
+              "method": "slp",
+              "source": "n817.txt",
+              "source_origin": "constructed",
+              "source_sha256": "971e24e1acd63e15d4621d4c66c6d477b78a5fe0d3d2cf4b4e60a5c37b97f93d",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n817.txt",
+                "source_sha256": "2ae4dc6aaee9650f1931270e8cb41196ec6ed46a72476ce1000a664ef14823e7",
+                "source_n": 817,
+                "source_side": 28.99823467534392,
+                "layers": 1,
+                "deleted": 0,
+                "side": 29.99823467534592
+              }
+            }
+          }
         }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

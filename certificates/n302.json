@@ -1,27 +1,26 @@
 {
   "n": 302,
   "packing": "n302.txt",
-  "packing_sha256": "3f5ab361e32e44ea29280a5c8a40cc508af04f1a51de4e1bca1991a0db972ef0",
+  "packing_sha256": "53b5a478cddb033d260ff19c8b22aa64906f57b78aefffaea7d2609adb471e52",
   "certificate": "certificates/n302.cert",
-  "certificate_sha256": "834837d0693624c4c0f1460e32e10507d8b72aec2833bfe79fa09bcba0de60b9",
-  "rational_side": "3574002770080892868927770707857/200000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "2c8e85dc388b9debc1f5b58784dfd06ba1cb22ef1d09c3314885eecdaef2e7c4",
+  "rational_side": "893500692520223217223007670039029699948384116213961/50000000000000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "BuddenPing",
-    "seed_certificate": {
-      "source": "buddenping",
-      "certificate": "buddenping/n302.cert.json",
-      "sha256": "fc57b683ccd411660bb5d5f9758fb2ac013733220bf525936d73f2a11fd8d2cd",
-      "request": "https://github.com/jlevy/squares/issues/503",
-      "side": "1787027538273375975382555057/100000000000000000000000000"
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+    "source_certificate_sha256": "2c8e85dc388b9debc1f5b58784dfd06ba1cb22ef1d09c3314885eecdaef2e7c4",
+    "source_n": 302,
+    "source_provenance": {
+      "category": "mishapolk",
+      "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n302.cert",
+      "request": "https://github.com/jlevy/squares/issues/593",
+      "construction_credit": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ]
     },
-    "search_job": {
-      "id": 92620,
-      "method": "hop",
-      "source": "external/seeds/n302.txt",
-      "source_origin": "external",
-      "source_sha256": "244c7c312ae9a473c99ee802ca40ec0a1d1908f57492297d2db14c2df7257461",
-      "constructed_seed": null
-    }
-  }
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

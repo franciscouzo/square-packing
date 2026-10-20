@@ -1,567 +1,319 @@
 # Record square packings
 
-Current record packings of `n` unit squares in a square of side `s`. Superseded
-packings are retained in Git history and as private search seeds. The first table
-compares against the [Friedman/Ellsworth catalogue](https://kingbird.myphotos.cc/packing/squares_in_squares.html)
-(fetched 2026-09-25).
+Current arrangements and refinements credited to Francisco Couzo for packing
+`n` unit squares in a square of side `s`. The table uses the reviewed public
+registry, issues, PRs and construction bounds to select the records still held.
 
-[Upper bounds](upper_bounds.json) and [lower bounds](lower_bounds.json) cover every
-count through n=1024. Exact certificate bounds, frozen reference comparisons,
+[Upper bounds](upper_bounds.json) cover every count through n=10000;
+[lower bounds](lower_bounds.json) cover every count through n=1024.
+The [reviewed public bounds](public_bounds.json) include the registry, open issues,
+PRs and construction consequences. The [20 October reconciliation](certificates/review-20261020/README.md)
+records the comparison and archived claims.
+Exact certificate bounds, frozen reference comparisons,
 and reported lower-bound or optimality claims retain their source and verification
 status. The [closed-form lower-bound parameters](lower_bound_families.json) can be
 evaluated with `lower_bounds.py`; evaluating the formula does not replay its proof.
 
-The tables include imported packings and refinements of other authors' work.
-“Found here” labels retained numerical results; it does not assign construction
-or discovery credit. The [publication-order and attribution review](RECORD_PROVENANCE.md)
-separates construction, refinement and certificate credit, with
+The [publication-order and attribution review](RECORD_PROVENANCE.md) separates
+construction, refinement and certificate credit, with
 [source metadata for every count through 1024](record_provenance.json).
+Tighter certification preserves the original arrangement credit. Imported and
+superseded packings remain available in the full catalogue and search archives.
 
-| n | previous best known | found here | improvement |
-|---|---|---|---|
-| 51 | 7.70079923541701 | **7.690355937290** | 1.044e-02 |
-| 68 | 8.7987961402601 | **8.798795237220** | 9.030e-07 |
-| 70 | 8.88166675700900 | **8.880960371557** | 7.064e-04 |
-| 84 | 9.70710678118654 | **9.697934799017** | 9.172e-03 |
-| 86 | 9.82287565553229 | **9.820535407499** | 2.340e-03 |
-| 88 | 9.88815305375857 | **9.882451030483** | 5.702e-03 |
-| 102 | 10.61138794077522 | **10.605828696434** | 5.559e-03 |
-| 103 | 10.70378195534367 | **10.679232047363** | 2.455e-02 |
-| 105 | 10.80761933330707 | **10.789303783750** | 1.832e-02 |
-| 106 | 10.82297973416944 | **10.822908044135** | 7.169e-05 |
-| 108 | 10.92591939016138 | **10.904821012322** | 2.110e-02 |
-| 110 | 10.99679327401957 | **10.996783396634** | 9.877e-06 |
-| 123 | 11.60139979378801 | **11.591378145500** | 1.002e-02 |
-| 126 | 11.77473513240654 | **11.742640687121** | 3.209e-02 |
-| 127 | 11.82287565553229 | **11.810878787591** | 1.200e-02 |
-| 129 | 11.88130621809000 | **11.870013850407** | 1.129e-02 |
-| 130 | 11.91119052015898 | **11.904483032518** | 6.707e-03 |
-| 131 | 11.95652543280926 | **11.949659588038** | 6.866e-03 |
-| 132 | 11.99137344423646 | **11.985680198848** | 5.693e-03 |
-| 146 | 12.60090777851301 | **12.583782190154** | 1.713e-02 |
-| 152 | 12.83095954472600 | **12.830718800979** | 2.407e-04 |
-| 153 | 12.88166675700900 | **12.870013850407** | 1.165e-02 |
-| 154 | 12.93166712962655 | **12.921206577135** | 1.046e-02 |
-| 155 | 12.95844711161529 | **12.952260944653** | 6.186e-03 |
-| 156 | 12.98208376048414 | **12.979165853837** | 2.918e-03 |
-| 172 | 13.61898898660160 | **13.618988956902** | 2.970e-08 |
-| 175 | 13.77817459305202 | **13.764174317489** | 1.400e-02 |
-| 176 | 13.82287565553229 | **13.795872318439** | 2.700e-02 |
-| 177 | 13.82302875075647 | **13.822979734172** | 4.902e-05 |
-| 179 | 13.89534106997649 | **13.883795490513** | 1.155e-02 |
-| 180 | 13.93508705291129 | **13.916993522480** | 1.809e-02 |
-| 181 | 13.95690672341755 | **13.950819531026** | 6.087e-03 |
-| 182 | 13.97419105332569 | **13.974090713124** | 1.003e-04 |
-| 199 | 14.61898898660160 | **14.617572173596** | 1.417e-03 |
-| 204 | 14.82287565553229 | **14.808642840600** | 1.423e-02 |
-| 206 | 14.87221902560728 | **14.860158663395** | 1.206e-02 |
-| 207 | 14.89395494255333 | **14.880960371558** | 1.299e-02 |
-| 208 | 14.93776656277905 | **14.924518772032** | 1.325e-02 |
-| 209 | 14.95861500087481 | **14.946223226449** | 1.239e-02 |
-| 210 | 14.97413341886404 | **14.973001116590** | 1.132e-03 |
-| 211 | 15 | **14.993549626302** | 6.450e-03 |
-| 227 | 15.57106781186547 | **15.563625652346** | 7.442e-03 |
-| 228 | 15.60902282132495 | **15.604601475733** | 4.421e-03 |
-| 229 | 15.65685424949238 | **15.650161513897** | 6.693e-03 |
-| 232 | 15.77817459305202 | **15.764174317490** | 1.400e-02 |
-| 236 | 15.87607539315201 | **15.861934390610** | 1.414e-02 |
-| 237 | 15.91421356237309 | **15.902603638263** | 1.161e-02 |
-| 238 | 15.93965520031394 | **15.924106785325** | 1.555e-02 |
-| 239 | 15.95635358406308 | **15.948443327304** | 7.910e-03 |
-| 240 | 15.97556282833087 | **15.969685337534** | 5.877e-03 |
-| 241 | 15.99080517810520 | **15.987117095153** | 3.688e-03 |
-| 258 | 16.57106781186547 | **16.563448002137** | 7.620e-03 |
-| 259 | 16.60257141234448 | **16.591378145501** | 1.119e-02 |
-| 260 | 16.65685424949238 | **16.645753250529** | 1.110e-02 |
-| 261 | 16.68292682926829 | **16.678779875346** | 4.147e-03 |
-| 263 | 16.74264068711928 | **16.733166007903** | 9.475e-03 |
-| 264 | 16.77817459305202 | **16.774735132391** | 3.439e-03 |
-| 266 | 16.82306208283780 | **16.823028750760** | 3.333e-05 |
-| 267 | 16.84666719284348 | **16.838815269951** | 7.852e-03 |
-| 268 | 16.87931143465371 | **16.878814821010** | 4.966e-04 |
-| 269 | 16.90596764828402 | **16.901513582192** | 4.454e-03 |
-| 270 | 16.94062059800744 | **16.928196993332** | 1.242e-02 |
-| 271 | 16.95499909412532 | **16.948947733717** | 6.051e-03 |
-| 272 | 16.96971602419903 | **16.965586474841** | 4.130e-03 |
-| 273 | 16.98820725030513 | **16.983925962654** | 4.281e-03 |
-| 292 | 17.60257141234448 | **17.591378145501** | 1.119e-02 |
-| 295 | 17.70710678118654 | **17.704232790739** | 2.874e-03 |
-| 297 | 17.74106074604732 | **17.740417287547** | 6.435e-04 |
-| 301 | 17.86889155557430 | **17.846667192847** | 2.222e-02 |
-| 302 | 17.88674602860566 | **17.870013850408** | 1.673e-02 |
-| 303 | 17.93125509556197 | **17.909958291073** | 2.130e-02 |
-| 304 | 17.94910783564662 | **17.929427758079** | 1.968e-02 |
-| 305 | 17.96066201401205 | **17.950466482141** | 1.020e-02 |
-| 306 | 17.96913960675661 | **17.963433717495** | 5.706e-03 |
-| 307 | 17.98272201579610 | **17.980862784058** | 1.859e-03 |
-| 308 | 18 | **17.998269879530** | 1.730e-03 |
+<!-- current-records -->
 
-![n = 126](n126.svg)
-![n = 176](n176.svg)
-![n = 103](n103.svg)
-![n = 301](n301.svg)
-![n = 303](n303.svg)
+## Current records
 
-<!-- current-status -->
+Reviewed 2026-10-20: **283 counts** — 16 registered, 60 published, and 207 improvements over the reviewed public bound.
 
-## Standing against the current register
+Each n opens its packing. Certified sides and public comparisons are rounded upward to 12 decimal places. A difference within `1e-10` is treated as rounding; such a tie is listed only when record credit is retained here. Construction, seed and certificate credits are linked for each packing.
 
-The table above compares with the catalogue as fetched in September. Against the [jlevy/squares register](https://jlevy.github.io/squares/) and verified pending submissions by others (`known_best.json`, refreshed 2026-10-18): 3 best known, 73 tied.
+| n | certified side s | reviewed public bound | standing | credits |
+|---:|---:|---:|---|---|
+| [68](n68.svg) | [8.798795237219](certificates/n68.cert) | [8.798795237219](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n68.json) |
+| [106](n106.svg) | [10.822908044133](certificates/n106.cert) | [10.822908044133](https://github.com/jlevy/squares/issues/593) | Registered | [credits](certificates/n106.json) |
+| [110](n110.svg) | [10.996783396632](certificates/n110.cert) | [10.996783396632](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n110.json) |
+| [152](n152.svg) | [12.830718800977](certificates/n152.cert) | [12.830718800977](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n152.json) |
+| [172](n172.svg) | [13.618988956900](certificates/n172.cert) | [13.618988956900](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n172.json) |
+| [177](n177.svg) | [13.822979734170](certificates/n177.cert) | [13.822979734170](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n177.json) |
+| [182](n182.svg) | [13.974090713122](certificates/n182.cert) | [13.974090713122](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n182.json) |
+| [204](n204.svg) | [14.808642840592](certificates/n204.cert) | [14.808642840592](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-204.cert.gz) | Published | [credits](certificates/n204.json) |
+| [206](n206.svg) | [14.860158663392](certificates/n206.cert) | [14.860158663392](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n206.json) |
+| [210](n210.svg) | [14.973001116588](certificates/n210.cert) | [14.973001116588](https://github.com/jlevy/squares/issues/593) | Registered | [credits](certificates/n210.json) |
+| [211](n211.svg) | [14.993549626300](certificates/n211.cert) | [14.993549626300](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-211.cert.gz) | Published | [credits](certificates/n211.json) |
+| [227](n227.svg) | [15.563625652343](certificates/n227.cert) | [15.563625652326](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-227.cert.gz) | Published | [credits](certificates/n227.json) |
+| [228](n228.svg) | [15.604601475730](certificates/n228.cert) | [15.604601475730](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n228.json) |
+| [237](n237.svg) | [15.902603638260](certificates/n237.cert) | [15.902603638260](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-237.cert.gz) | Published | [credits](certificates/n237.json) |
+| [240](n240.svg) | [15.969685337531](certificates/n240.cert) | [15.969685337531](https://github.com/jlevy/squares/issues/593) | Registered | [credits](certificates/n240.json) |
+| [241](n241.svg) | [15.987117095151](certificates/n241.cert) | [15.987117095151](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-241.cert.gz) | Published | [credits](certificates/n241.json) |
+| [260](n260.svg) | [16.645753250545](certificates/n260.cert) | [16.645753250520](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz) | Published | [credits](certificates/n260.json) |
+| [268](n268.svg) | [16.878814821007](certificates/n268.cert) | [16.878814821007](https://github.com/jlevy/squares/issues/593) | Registered | [credits](certificates/n268.json) |
+| [273](n273.svg) | [16.983925962651](certificates/n273.cert) | [16.983925962651](https://github.com/jlevy/squares/issues/593) | Registered | [credits](certificates/n273.json) |
+| [297](n297.svg) | [17.740417287544](certificates/n297.cert) | [17.740417287544](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n297.json) |
+| [301](n301.svg) | [17.846667192844](certificates/n301.cert) | [17.846667192844](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n301.json) |
+| [306](n306.svg) | [17.963433717492](certificates/n306.cert) | [17.963433717492](https://github.com/jlevy/squares/pull/574) | Registered | [credits](certificates/n306.json) |
+| [335](n335.svg) | [18.822875655562](certificates/n335.cert) | [18.824123388479](https://github.com/jlevy/squares/blob/f8d547728c7761f78f29cf52c8974e1eba04ad4d/packing/frontier/STATUS.md) | Improvement over public bound | [credits](certificates/n335.json) |
+| [336](n336.svg) | [18.825571499862](certificates/n336.cert) | [18.846667192844](https://github.com/jlevy/squares/pull/574) | Improvement over public bound | [credits](certificates/n336.json) |
+| [337](n337.svg) | [18.858391767637](certificates/n337.cert) | [18.870013850405](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n337.json) |
+| [338](n338.svg) | [18.906332809853](certificates/n338.cert) | [18.906436500552](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/resources/web/couzo-certificates-2026-10-11/source/certificates/n338.cert) | Improvement over public bound | [credits](certificates/n338.json) |
+| [340](n340.svg) | [18.939649632892](certificates/n340.cert) | [18.939701150684](https://github.com/jlevy/squares/blob/c593e2bfd0a5da50d0d69a93b6897722a54ddb82/packing/resources/web/couzo-certificates-2026-10-10/source/certificates/n340.cert) | Improvement over public bound | [credits](certificates/n340.json) |
+| [341](n341.svg) | [18.951882408720](certificates/n341.cert) | [18.963433717492](https://github.com/jlevy/squares/pull/574) | Improvement over public bound | [credits](certificates/n341.json) |
+| [342](n342.svg) | [18.964706723173](certificates/n342.cert) | [18.964706723173](https://github.com/jlevy/squares/issues/607) | Published | [credits](certificates/n342.json) |
+| [364](n364.svg) | [19.583782190152](certificates/n364.cert) | [19.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n364.json) |
+| [370](n370.svg) | [19.767428349965](certificates/n370.cert) | [19.767428349965](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n370.json) |
+| [373](n373.svg) | [19.823062082838](certificates/n373.cert) | [19.846667192844](https://github.com/jlevy/squares/pull/574) | Improvement over public bound | [credits](certificates/n373.json) |
+| [374](n374.svg) | [19.832356217033](certificates/n374.cert) | [19.870013850405](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n374.json) |
+| [382](n382.svg) | [19.987621153966](certificates/n382.cert) | [19.987621153966](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n382.json) |
+| [403](n403.svg) | [20.583782190152](certificates/n403.cert) | [20.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n403.json) |
+| [409](n409.svg) | [20.767428349965](certificates/n409.cert) | [20.767428349965](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n409.json) |
+| [410](n410.svg) | [20.778174593076](certificates/n410.cert) | [20.822875655533](https://kingbird.myphotos.cc/packing/squares_in_squares.html) | Improvement over public bound | [credits](certificates/n410.json) |
+| [413](n413.svg) | [20.831663365378](certificates/n413.cert) | [20.870013850405](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n413.json) |
+| [444](n444.svg) | [21.583782190152](certificates/n444.cert) | [21.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n444.json) |
+| [450](n450.svg) | [21.767428349965](certificates/n450.cert) | [21.767428349965](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n450.json) |
+| [451](n451.svg) | [21.778174593076](certificates/n451.cert) | [21.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n451.json) |
+| [452](n452.svg) | [21.778174593086](certificates/n452.cert) | [21.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n452.json) |
+| [454](n454.svg) | [21.828427124844](certificates/n454.cert) | [21.870013850405](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n454.json) |
+| [455](n455.svg) | [21.882183551471](certificates/n455.cert) | [21.882183551471](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n455.json) |
+| [456](n456.svg) | [21.882183551471](certificates/n456.cert) | [21.882183551471](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n456.json) |
+| [458](n458.svg) | [21.903778442820](certificates/n458.cert) | [21.903778442820](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n458.json) |
+| [487](n487.svg) | [22.583782190152](certificates/n487.cert) | [22.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n487.json) |
+| [490](n490.svg) | [22.656854249519](certificates/n490.cert) | 22.692388155426 | Improvement over public bound | [credits](certificates/n490.json) |
+| [494](n494.svg) | [22.778174593076](certificates/n494.cert) | [22.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n494.json) |
+| [495](n495.svg) | [22.778174593079](certificates/n495.cert) | [22.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n495.json) |
+| [496](n496.svg) | [22.822875655559](certificates/n496.cert) | [22.822875659410](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n496.json) |
+| [497](n497.svg) | [22.823104027272](certificates/n497.cert) | [22.823104027272](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n497.json) |
+| [498](n498.svg) | [22.828427124827](certificates/n498.cert) | [22.882183551471](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n498.json) |
+| [499](n499.svg) | [22.882183551471](certificates/n499.cert) | [22.882183551471](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n499.json) |
+| [501](n501.svg) | [22.903778442820](certificates/n501.cert) | [22.903778442820](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n501.json) |
+| [502](n502.svg) | [22.933356445086](certificates/n502.cert) | [22.934445598629](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n502.json) |
+| [505](n505.svg) | [22.964182800913](certificates/n505.cert) | [22.964253709990](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n505.json) |
+| [507](n507.svg) | [22.973697163680](certificates/n507.cert) | [22.973697163680](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n507.json) |
+| [509](n509.svg) | [22.994328035944](certificates/n509.cert) | [22.994328036438](https://github.com/jlevy/squares/issues/666) | Improvement over public bound | [credits](certificates/n509.json) |
+| [532](n532.svg) | [23.583782190152](certificates/n532.cert) | [23.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n532.json) |
+| [535](n535.svg) | [23.656854249519](certificates/n535.cert) | [23.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n535.json) |
+| [536](n536.svg) | [23.677669529701](certificates/n536.cert) | [23.677669529701](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n536.json) |
+| [539](n539.svg) | [23.778174593076](certificates/n539.cert) | [23.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n539.json) |
+| [540](n540.svg) | [23.778174593079](certificates/n540.cert) | [23.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n540.json) |
+| [544](n544.svg) | [23.828427124775](certificates/n544.cert) | [23.882183551471](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n544.json) |
+| [545](n545.svg) | [23.889010439304](certificates/n545.cert) | [23.889010439304](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n545.json) |
+| [546](n546.svg) | [23.889010439304](certificates/n546.cert) | [23.889010439304](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n546.json) |
+| [547](n547.svg) | [23.902471234885](certificates/n547.cert) | [23.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n547.json) |
+| [549](n549.svg) | [23.956345132949](certificates/n549.cert) | [23.956345132949](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n549.json) |
+| [550](n550.svg) | [23.960681444798](certificates/n550.cert) | [23.961058656836](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n550.json) |
+| [555](n555.svg) | [23.993580713561](certificates/n555.cert) | [23.993580713561](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n555.json) |
+| [579](n579.svg) | [24.583782190152](certificates/n579.cert) | [24.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n579.json) |
+| [582](n582.svg) | [24.656854249519](certificates/n582.cert) | [24.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n582.json) |
+| [583](n583.svg) | [24.677669529693](certificates/n583.cert) | [24.677669529701](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n583.json) |
+| [584](n584.svg) | [24.677669529693](certificates/n584.cert) | 24.707106781187 | Improvement over public bound | [credits](certificates/n584.json) |
+| [587](n587.svg) | [24.778174593079](certificates/n587.cert) | [24.778174593086](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n587.json) |
+| [591](n591.svg) | [24.828427124775](certificates/n591.cert) | [24.882183551471](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n591.json) |
+| [592](n592.svg) | [24.888988759404](certificates/n592.cert) | [24.888988759404](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n592.json) |
+| [593](n593.svg) | [24.888988761769](certificates/n593.cert) | [24.888988761769](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n593.json) |
+| [594](n594.svg) | [24.899494936641](certificates/n594.cert) | [24.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n594.json) |
+| [596](n596.svg) | [24.949747468335](certificates/n596.cert) | [24.956345132949](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n596.json) |
+| [597](n597.svg) | [24.954199965619](certificates/n597.cert) | [24.958141573308](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n597.json) |
+| [598](n598.svg) | [24.955802919715](certificates/n598.cert) | [24.958220677836](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n598.json) |
+| [628](n628.svg) | [25.583782190152](certificates/n628.cert) | [25.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n628.json) |
+| [631](n631.svg) | [25.656854249519](certificates/n631.cert) | [25.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n631.json) |
+| [632](n632.svg) | [25.677669529693](certificates/n632.cert) | [25.677669529701](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n632.json) |
+| [633](n633.svg) | [25.677669529693](certificates/n633.cert) | 25.707106781187 | Improvement over public bound | [credits](certificates/n633.json) |
+| [637](n637.svg) | [25.778174593082](certificates/n637.cert) | 25.813708498985 | Improvement over public bound | [credits](certificates/n637.json) |
+| [640](n640.svg) | [25.828427124775](certificates/n640.cert) | [25.881306220594](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n640.json) |
+| [641](n641.svg) | [25.881306220594](certificates/n641.cert) | [25.881306220594](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n641.json) |
+| [642](n642.svg) | [25.881306220594](certificates/n642.cert) | [25.881306220594](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n642.json) |
+| [643](n643.svg) | [25.899494936641](certificates/n643.cert) | [25.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n643.json) |
+| [644](n644.svg) | [25.899494936642](certificates/n644.cert) | [25.944667600408](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n644.json) |
+| [645](n645.svg) | [25.949747468335](certificates/n645.cert) | [25.949897942499](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n645.json) |
+| [646](n646.svg) | [25.949747468336](certificates/n646.cert) | [25.949897942499](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n646.json) |
+| [653](n653.svg) | [25.994280496464](certificates/n653.cert) | [25.994414202392](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n653.json) |
+| [679](n679.svg) | [26.583782190152](certificates/n679.cert) | [26.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n679.json) |
+| [682](n682.svg) | [26.656854249519](certificates/n682.cert) | [26.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n682.json) |
+| [683](n683.svg) | [26.677669529693](certificates/n683.cert) | [26.677669529701](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n683.json) |
+| [684](n684.svg) | [26.677669529693](certificates/n684.cert) | 26.707106781187 | Improvement over public bound | [credits](certificates/n684.json) |
+| [689](n689.svg) | [26.778174593084](certificates/n689.cert) | 26.813708498985 | Improvement over public bound | [credits](certificates/n689.json) |
+| [691](n691.svg) | [26.828427124775](certificates/n691.cert) | [26.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n691.json) |
+| [692](n692.svg) | [26.828427124777](certificates/n692.cert) | [26.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n692.json) |
+| [693](n693.svg) | [26.881306218365](certificates/n693.cert) | [26.881306218365](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n693.json) |
+| [694](n694.svg) | [26.899494936641](certificates/n694.cert) | [26.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n694.json) |
+| [695](n695.svg) | [26.899494936642](certificates/n695.cert) | [26.944667600408](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n695.json) |
+| [696](n696.svg) | [26.949747468335](certificates/n696.cert) | [26.949897942499](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n696.json) |
+| [697](n697.svg) | [26.949747468336](certificates/n697.cert) | [26.949897942499](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n697.json) |
+| [698](n698.svg) | [26.949747468338](certificates/n698.cert) | [26.949897942499](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n698.json) |
+| [699](n699.svg) | [26.949747468415](certificates/n699.cert) | [26.961052856925](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n699.json) |
+| [702](n702.svg) | [26.976479789213](certificates/n702.cert) | [26.976692903976](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n702.json) |
+| [732](n732.svg) | [27.583782190152](certificates/n732.cert) | [27.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n732.json) |
+| [735](n735.svg) | [27.656854249519](certificates/n735.cert) | [27.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n735.json) |
+| [736](n736.svg) | [27.656854249525](certificates/n736.cert) | [27.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n736.json) |
+| [737](n737.svg) | [27.677669529693](certificates/n737.cert) | 27.707106781187 | Improvement over public bound | [credits](certificates/n737.json) |
+| [742](n742.svg) | [27.778174593084](certificates/n742.cert) | 27.813708498985 | Improvement over public bound | [credits](certificates/n742.json) |
+| [743](n743.svg) | [27.798989873256](certificates/n743.cert) | 27.813708498985 | Improvement over public bound | [credits](certificates/n743.json) |
+| [744](n744.svg) | [27.798989873256](certificates/n744.cert) | [27.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n744.json) |
+| [745](n745.svg) | [27.828427124777](certificates/n745.cert) | [27.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n745.json) |
+| [746](n746.svg) | [27.828427124795](certificates/n746.cert) | [27.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n746.json) |
+| [747](n747.svg) | [27.888425229258](certificates/n747.cert) | [27.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n747.json) |
+| [748](n748.svg) | [27.888577106564](certificates/n748.cert) | [27.911194713730](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n748.json) |
+| [749](n749.svg) | [27.888577106564](certificates/n749.cert) | [27.911194713730](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n749.json) |
+| [750](n750.svg) | [27.911387175496](certificates/n750.cert) | [27.927909095101](https://github.com/jlevy/squares/issues/672) | Improvement over public bound | [credits](certificates/n750.json) |
+| [751](n751.svg) | [27.914175785603](certificates/n751.cert) | [27.932448900769](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n751.json) |
+| [752](n752.svg) | [27.932449886404](certificates/n752.cert) | [27.932449886404](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n752.json) |
+| [753](n753.svg) | [27.932449886404](certificates/n753.cert) | [27.932449886404](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n753.json) |
+| [754](n754.svg) | [27.937423317053](certificates/n754.cert) | [27.937423317053](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n754.json) |
+| [787](n787.svg) | [28.583782190152](certificates/n787.cert) | [28.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n787.json) |
+| [790](n790.svg) | [28.656854249519](certificates/n790.cert) | [28.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n790.json) |
+| [791](n791.svg) | [28.656854249525](certificates/n791.cert) | [28.677669529701](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n791.json) |
+| [792](n792.svg) | [28.656854249526](certificates/n792.cert) | 28.707106781187 | Improvement over public bound | [credits](certificates/n792.json) |
+| [797](n797.svg) | [28.778174593084](certificates/n797.cert) | 28.813708498985 | Improvement over public bound | [credits](certificates/n797.json) |
+| [798](n798.svg) | [28.798989873256](certificates/n798.cert) | 28.813708498985 | Improvement over public bound | [credits](certificates/n798.json) |
+| [799](n799.svg) | [28.798989873256](certificates/n799.cert) | [28.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n799.json) |
+| [800](n800.svg) | [28.798989873257](certificates/n800.cert) | [28.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n800.json) |
+| [801](n801.svg) | [28.827585222385](certificates/n801.cert) | [28.881306218365](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n801.json) |
+| [802](n802.svg) | [28.827585222385](certificates/n802.cert) | [28.906371163646](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n802.json) |
+| [803](n803.svg) | [28.827585222385](certificates/n803.cert) | [28.909246527138](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n803.json) |
+| [804](n804.svg) | [28.888577106564](certificates/n804.cert) | [28.909246527138](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n804.json) |
+| [805](n805.svg) | [28.906213920353](certificates/n805.cert) | [28.909665866810](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n805.json) |
+| [806](n806.svg) | [28.914175785603](certificates/n806.cert) | [28.919759255285](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n806.json) |
+| [807](n807.svg) | [28.924702911083](certificates/n807.cert) | [28.924702911083](https://github.com/jlevy/squares/issues/675) | Published | [credits](certificates/n807.json) |
+| [808](n808.svg) | [28.931498747933](certificates/n808.cert) | [28.932449886404](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n808.json) |
+| [809](n809.svg) | [28.933954694456](certificates/n809.cert) | [28.937423314202](https://github.com/jlevy/squares/issues/675) | Improvement over public bound | [credits](certificates/n809.json) |
+| [815](n815.svg) | [28.992261716554](certificates/n815.cert) | [28.992923233307](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n815.json) |
+| [844](n844.svg) | [29.583782190152](certificates/n844.cert) | [29.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n844.json) |
+| [850](n850.svg) | [29.656854249528](certificates/n850.cert) | 29.707106781187 | Improvement over public bound | [credits](certificates/n850.json) |
+| [854](n854.svg) | [29.778174593084](certificates/n854.cert) | 29.813708498985 | Improvement over public bound | [credits](certificates/n854.json) |
+| [855](n855.svg) | [29.798989873256](certificates/n855.cert) | 29.813708498985 | Improvement over public bound | [credits](certificates/n855.json) |
+| [856](n856.svg) | [29.798989873256](certificates/n856.cert) | 29.849242404918 | Improvement over public bound | [credits](certificates/n856.json) |
+| [857](n857.svg) | [29.798989873257](certificates/n857.cert) | 29.849242404918 | Improvement over public bound | [credits](certificates/n857.json) |
+| [858](n858.svg) | [29.827585222385](certificates/n858.cert) | 29.849242404918 | Improvement over public bound | [credits](certificates/n858.json) |
+| [859](n859.svg) | [29.827585222385](certificates/n859.cert) | 29.849242404918 | Improvement over public bound | [credits](certificates/n859.json) |
+| [860](n860.svg) | [29.827585222385](certificates/n860.cert) | 29.849242404918 | Improvement over public bound | [credits](certificates/n860.json) |
+| [862](n862.svg) | [29.899494936647](certificates/n862.cert) | [29.909665866810](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n862.json) |
+| [863](n863.svg) | [29.903757099932](certificates/n863.cert) | [29.916419307447](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n863.json) |
+| [864](n864.svg) | [29.924702911083](certificates/n864.cert) | [29.924702911083](https://github.com/jlevy/squares/issues/675) | Published | [credits](certificates/n864.json) |
+| [865](n865.svg) | [29.931498747933](certificates/n865.cert) | [29.932449886402](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n865.json) |
+| [866](n866.svg) | [29.933954694456](certificates/n866.cert) | [29.935764472087](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n866.json) |
+| [867](n867.svg) | [29.942880105421](certificates/n867.cert) | [29.949688481977](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n867.json) |
+| [872](n872.svg) | [29.992261716554](certificates/n872.cert) | [29.992623086291](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n872.json) |
+| [873](n873.svg) | [29.992265777039](certificates/n873.cert) | [29.992623086291](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n873.json) |
+| [903](n903.svg) | [30.583782190152](certificates/n903.cert) | [30.583782190152](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n903.json) |
+| [909](n909.svg) | [30.656854249528](certificates/n909.cert) | 30.707106781187 | Improvement over public bound | [credits](certificates/n909.json) |
+| [913](n913.svg) | [30.778174593084](certificates/n913.cert) | 30.813708498985 | Improvement over public bound | [credits](certificates/n913.json) |
+| [914](n914.svg) | [30.778174593089](certificates/n914.cert) | 30.813708498985 | Improvement over public bound | [credits](certificates/n914.json) |
+| [915](n915.svg) | [30.798989873256](certificates/n915.cert) | [30.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n915.json) |
+| [916](n916.svg) | [30.798989873257](certificates/n916.cert) | [30.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n916.json) |
+| [917](n917.svg) | [30.827585222385](certificates/n917.cert) | [30.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n917.json) |
+| [918](n918.svg) | [30.827585222385](certificates/n918.cert) | [30.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n918.json) |
+| [919](n919.svg) | [30.827585222385](certificates/n919.cert) | [30.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n919.json) |
+| [922](n922.svg) | [30.899494936660](certificates/n922.cert) | [30.899494936660](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n922.json) |
+| [923](n923.svg) | [30.924702911083](certificates/n923.cert) | [30.924702911083](https://github.com/jlevy/squares/issues/675) | Published | [credits](certificates/n923.json) |
+| [924](n924.svg) | [30.931498747933](certificates/n924.cert) | [30.932449886402](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n924.json) |
+| [925](n925.svg) | [30.933954694456](certificates/n925.cert) | [30.935764472087](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n925.json) |
+| [926](n926.svg) | [30.942880105421](certificates/n926.cert) | [30.945612117331](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n926.json) |
+| [931](n931.svg) | [30.989934734721](certificates/n931.cert) | [30.989934734721](https://github.com/jlevy/squares/issues/675) | Published | [credits](certificates/n931.json) |
+| [932](n932.svg) | [30.992265777039](certificates/n932.cert) | [30.992623086291](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n932.json) |
+| [970](n970.svg) | [31.656854249528](certificates/n970.cert) | 31.707106781187 | Improvement over public bound | [credits](certificates/n970.json) |
+| [975](n975.svg) | [31.778174593089](certificates/n975.cert) | 31.813708498985 | Improvement over public bound | [credits](certificates/n975.json) |
+| [976](n976.svg) | [31.778174593090](certificates/n976.cert) | [31.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n976.json) |
+| [977](n977.svg) | [31.798989873257](certificates/n977.cert) | [31.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n977.json) |
+| [978](n978.svg) | [31.827585222385](certificates/n978.cert) | [31.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n978.json) |
+| [979](n979.svg) | [31.827585222385](certificates/n979.cert) | [31.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n979.json) |
+| [980](n980.svg) | [31.827585222385](certificates/n980.cert) | [31.844931419278](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n980.json) |
+| [983](n983.svg) | [31.899494936650](certificates/n983.cert) | [31.899494936660](https://github.com/jlevy/squares/issues/670) | Published | [credits](certificates/n983.json) |
+| [984](n984.svg) | [31.914115712696](certificates/n984.cert) | [31.914115712696](https://github.com/jlevy/squares/issues/678) | Published | [credits](certificates/n984.json) |
+| [985](n985.svg) | [31.920310216821](certificates/n985.cert) | [31.932449886402](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n985.json) |
+| [986](n986.svg) | [31.920310216821](certificates/n986.cert) | [31.935764472087](https://github.com/jlevy/squares/issues/670) | Improvement over public bound | [credits](certificates/n986.json) |
+| [987](n987.svg) | [31.942880105421](certificates/n987.cert) | [31.944662519483](https://github.com/jlevy/squares/issues/678) | Improvement over public bound | [credits](certificates/n987.json) |
+| [988](n988.svg) | [31.949747468406](certificates/n988.cert) | [31.969979227502](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n988.json) |
+| [994](n994.svg) | [31.992852783190](certificates/n994.cert) | [31.992883399226](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n994.json) |
+| [995](n995.svg) | [31.993696413074](certificates/n995.cert) | [31.994174058157](https://github.com/jlevy/squares/issues/686) | Improvement over public bound | [credits](certificates/n995.json) |
+| [1061](n1061.svg) | [32.995954738136](certificates/n1061.cert) | 32.996048342114 | Improvement over public bound | [credits](certificates/n1061.json) |
+| [1263](n1263.svg) | [35.993549626549](certificates/n1263.cert) | 35.996046404219 | Improvement over public bound | [credits](certificates/n1263.json) |
+| [1266](n1266.svg) | [35.996046403807](certificates/n1266.cert) | [35.996046404219](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/19f7412d7f33ff430b9bfa2f0b4482b711a97526/square-packing-above-324/n1266.cert) | Improvement over public bound | [credits](certificates/n1266.json) |
+| [1335](n1335.svg) | [36.990072025463](certificates/n1335.cert) | [36.995489275431](https://github.com/TheSnakeFang/squarepack-certs/blob/9ffba0f3a84b38f0c92790c1d3089f979ef53f0b/composites/n037_j3_1335.cert) | Improvement over public bound | [credits](certificates/n1335.json) |
+| [1339](n1339.svg) | [36.997865205268](certificates/n1339.cert) | [36.997865207179](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/19f7412d7f33ff430b9bfa2f0b4482b711a97526/square-packing-above-324/n1339.cert) | Improvement over public bound | [credits](certificates/n1339.json) |
+| [1413](n1413.svg) | [37.999315487115](certificates/n1413.cert) | 37.999463832123 | Improvement over public bound | [credits](certificates/n1413.json) |
+| [1489](n1489.svg) | [38.997599735618](certificates/n1489.cert) | 38.997600184483 | Improvement over public bound | [credits](certificates/n1489.json) |
+| [1564](n1564.svg) | [39.992727809619](certificates/n1564.cert) | 39.997600184483 | Improvement over public bound | [credits](certificates/n1564.json) |
+| [1568](n1568.svg) | [39.999336624698](certificates/n1568.cert) | [39.999336626159](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/19f7412d7f33ff430b9bfa2f0b4482b711a97526/square-packing-above-324/n1568.cert) | Improvement over public bound | [credits](certificates/n1568.json) |
+| [1644](n1644.svg) | [40.994328036200](certificates/n1644.cert) | 40.997600184483 | Improvement over public bound | [credits](certificates/n1644.json) |
+| [1648](n1648.svg) | [40.999321109325](certificates/n1648.cert) | 41.000000000000 | Improvement over public bound | [credits](certificates/n1648.json) |
+| [1727](n1727.svg) | [41.999256219691](certificates/n1727.cert) | 41.999336626159 | Improvement over public bound | [credits](certificates/n1727.json) |
+| [1729](n1729.svg) | [41.999321109325](certificates/n1729.cert) | 42.000000000000 | Improvement over public bound | [credits](certificates/n1729.json) |
+| [1811](n1811.svg) | [42.997550241724](certificates/n1811.cert) | [42.999336626159](https://github.com/JoostdeWinter/joostdewinter.github.io/blob/19f7412d7f33ff430b9bfa2f0b4482b711a97526/square-packing-above-324/n1568.cert) | Improvement over public bound | [credits](certificates/n1811.json) |
+| [1812](n1812.svg) | [42.997600183876](certificates/n1812.cert) | 43.000000000000 | Improvement over public bound | [credits](certificates/n1812.json) |
+| [1897](n1897.svg) | [43.994328036204](certificates/n1897.cert) | 44.000000000000 | Improvement over public bound | [credits](certificates/n1897.json) |
+| [1899](n1899.svg) | [43.999336623227](certificates/n1899.cert) | 44.000000000000 | Improvement over public bound | [credits](certificates/n1899.json) |
+| [1986](n1986.svg) | [44.997600183879](certificates/n1986.cert) | 45.000000000000 | Improvement over public bound | [credits](certificates/n1986.json) |
+| [2076](n2076.svg) | [45.997550240009](certificates/n2076.cert) | 46.000000000000 | Improvement over public bound | [credits](certificates/n2076.json) |
+| [2168](n2168.svg) | [46.994867334396](certificates/n2168.cert) | 47.000000000000 | Improvement over public bound | [credits](certificates/n2168.json) |
+| [2262](n2262.svg) | [47.997550817674](certificates/n2262.cert) | 48.000000000000 | Improvement over public bound | [credits](certificates/n2262.json) |
+| [2263](n2263.svg) | [47.999256231755](certificates/n2263.cert) | 48.000000000000 | Improvement over public bound | [credits](certificates/n2263.json) |
+| [2358](n2358.svg) | [48.995949339886](certificates/n2358.cert) | 49.000000000000 | Improvement over public bound | [credits](certificates/n2358.json) |
+| [2359](n2359.svg) | [48.997550269630](certificates/n2359.cert) | 49.000000000000 | Improvement over public bound | [credits](certificates/n2359.json) |
+| [2457](n2457.svg) | [49.996875920562](certificates/n2457.cert) | 50.000000000000 | Improvement over public bound | [credits](certificates/n2457.json) |
+| [2557](n2557.svg) | [50.996974282121](certificates/n2557.cert) | 51.000000000000 | Improvement over public bound | [credits](certificates/n2557.json) |
+| [2659](n2659.svg) | [51.994174058427](certificates/n2659.cert) | 52.000000000000 | Improvement over public bound | [credits](certificates/n2659.json) |
+| [2764](n2764.svg) | [52.996875920566](certificates/n2764.cert) | 53.000000000000 | Improvement over public bound | [credits](certificates/n2764.json) |
+| [2870](n2870.svg) | [53.997865205474](certificates/n2870.cert) | 54.000000000000 | Improvement over public bound | [credits](certificates/n2870.json) |
+| [2978](n2978.svg) | [54.997865205476](certificates/n2978.cert) | 55.000000000000 | Improvement over public bound | [credits](certificates/n2978.json) |
+| [3088](n3088.svg) | [55.997600152266](certificates/n3088.cert) | 56.000000000000 | Improvement over public bound | [credits](certificates/n3088.json) |
+| [3089](n3089.svg) | [55.999336626356](certificates/n3089.cert) | 56.000000000000 | Improvement over public bound | [credits](certificates/n3089.json) |
+| [3201](n3201.svg) | [56.999336625014](certificates/n3201.cert) | 57.000000000000 | Improvement over public bound | [credits](certificates/n3201.json) |
+| [3315](n3315.svg) | [57.997865205479](certificates/n3315.cert) | 58.000000000000 | Improvement over public bound | [credits](certificates/n3315.json) |
+| [3431](n3431.svg) | [58.999336623410](certificates/n3431.cert) | 59.000000000000 | Improvement over public bound | [credits](certificates/n3431.json) |
+| [3549](n3549.svg) | [59.997600152271](certificates/n3549.cert) | 60.000000000000 | Improvement over public bound | [credits](certificates/n3549.json) |
+| [3669](n3669.svg) | [60.999336622351](certificates/n3669.cert) | 61.000000000000 | Improvement over public bound | [credits](certificates/n3669.json) |
+| [3670](n3670.svg) | [60.999336626362](certificates/n3670.cert) | 61.000000000000 | Improvement over public bound | [credits](certificates/n3670.json) |
+| [3791](n3791.svg) | [61.999336625020](certificates/n3791.cert) | 62.000000000000 | Improvement over public bound | [credits](certificates/n3791.json) |
+| [3792](n3792.svg) | [61.999336625020](certificates/n3792.cert) | 62.000000000000 | Improvement over public bound | [credits](certificates/n3792.json) |
+| [3914](n3914.svg) | [62.999336625020](certificates/n3914.cert) | 63.000000000000 | Improvement over public bound | [credits](certificates/n3914.json) |
+| [3915](n3915.svg) | [62.999336625020](certificates/n3915.cert) | 63.000000000000 | Improvement over public bound | [credits](certificates/n3915.json) |
+| [4040](n4040.svg) | [63.997600184152](certificates/n4040.cert) | 64.000000000000 | Improvement over public bound | [credits](certificates/n4040.json) |
+| [4168](n4168.svg) | [64.999256232549](certificates/n4168.cert) | 65.000000000000 | Improvement over public bound | [credits](certificates/n4168.json) |
+| [4169](n4169.svg) | [64.999336626619](certificates/n4169.cert) | 65.000000000000 | Improvement over public bound | [credits](certificates/n4169.json) |
+| [4298](n4298.svg) | [65.997550817909](certificates/n4298.cert) | 66.000000000000 | Improvement over public bound | [credits](certificates/n4298.json) |
+| [4430](n4430.svg) | [66.997550243025](certificates/n4430.cert) | 67.000000000000 | Improvement over public bound | [credits](certificates/n4430.json) |
+| [4564](n4564.svg) | [67.994867334626](certificates/n4564.cert) | 68.000000000000 | Improvement over public bound | [credits](certificates/n4564.json) |
+| [4701](n4701.svg) | [68.999256219267](certificates/n4701.cert) | 69.000000000000 | Improvement over public bound | [credits](certificates/n4701.json) |
+| [4839](n4839.svg) | [69.997550252215](certificates/n4839.cert) | 70.000000000000 | Improvement over public bound | [credits](certificates/n4839.json) |
+| [4979](n4979.svg) | [70.996875920791](certificates/n4979.cert) | 71.000000000000 | Improvement over public bound | [credits](certificates/n4979.json) |
+| [5121](n5121.svg) | [71.996974282350](certificates/n5121.cert) | 72.000000000000 | Improvement over public bound | [credits](certificates/n5121.json) |
+| [5122](n5122.svg) | [71.999336626575](certificates/n5122.cert) | 72.000000000000 | Improvement over public bound | [credits](certificates/n5122.json) |
+| [5266](n5266.svg) | [72.999336625233](certificates/n5266.cert) | 73.000000000000 | Improvement over public bound | [credits](certificates/n5266.json) |
+| [5412](n5412.svg) | [73.996875920795](certificates/n5412.cert) | 74.000000000000 | Improvement over public bound | [credits](certificates/n5412.json) |
+| [5560](n5560.svg) | [74.997865205700](certificates/n5560.cert) | 75.000000000000 | Improvement over public bound | [credits](certificates/n5560.json) |
+| [5710](n5710.svg) | [75.997865205701](certificates/n5710.cert) | 76.000000000000 | Improvement over public bound | [credits](certificates/n5710.json) |
+| [5862](n5862.svg) | [76.997600152491](certificates/n5862.cert) | 77.000000000000 | Improvement over public bound | [credits](certificates/n5862.json) |
+| [5863](n5863.svg) | [76.999336626581](certificates/n5863.cert) | 77.000000000000 | Improvement over public bound | [credits](certificates/n5863.json) |
+| [6017](n6017.svg) | [77.999336625239](certificates/n6017.cert) | 78.000000000000 | Improvement over public bound | [credits](certificates/n6017.json) |
+| [6173](n6173.svg) | [78.997865205705](certificates/n6173.cert) | 79.000000000000 | Improvement over public bound | [credits](certificates/n6173.json) |
+| [6331](n6331.svg) | [79.999336623635](certificates/n6331.cert) | 80.000000000000 | Improvement over public bound | [credits](certificates/n6331.json) |
+| [6491](n6491.svg) | [80.997600152496](certificates/n6491.cert) | 81.000000000000 | Improvement over public bound | [credits](certificates/n6491.json) |
+| [6653](n6653.svg) | [81.999336622664](certificates/n6653.cert) | 82.000000000000 | Improvement over public bound | [credits](certificates/n6653.json) |
+| [6654](n6654.svg) | [81.999336626587](certificates/n6654.cert) | 82.000000000000 | Improvement over public bound | [credits](certificates/n6654.json) |
+| [6817](n6817.svg) | [82.999336625245](certificates/n6817.cert) | 83.000000000000 | Improvement over public bound | [credits](certificates/n6817.json) |
+| [6818](n6818.svg) | [82.999336625245](certificates/n6818.cert) | 83.000000000000 | Improvement over public bound | [credits](certificates/n6818.json) |
+| [6982](n6982.svg) | [83.999336625245](certificates/n6982.cert) | 84.000000000000 | Improvement over public bound | [credits](certificates/n6982.json) |
+| [6983](n6983.svg) | [83.999336625245](certificates/n6983.cert) | 84.000000000000 | Improvement over public bound | [credits](certificates/n6983.json) |
+| [7150](n7150.svg) | [84.997600184377](certificates/n7150.cert) | 85.000000000000 | Improvement over public bound | [credits](certificates/n7150.json) |
+| [7320](n7320.svg) | [85.999256308750](certificates/n7320.cert) | 86.000000000000 | Improvement over public bound | [credits](certificates/n7320.json) |
+| [7321](n7321.svg) | [85.999336626844](certificates/n7321.cert) | 86.000000000000 | Improvement over public bound | [credits](certificates/n7321.json) |
+| [7492](n7492.svg) | [86.997550817938](certificates/n7492.cert) | 87.000000000000 | Improvement over public bound | [credits](certificates/n7492.json) |
+| [7666](n7666.svg) | [87.997865205915](certificates/n7666.cert) | 88.000000000000 | Improvement over public bound | [credits](certificates/n7666.json) |
+| [7667](n7667.svg) | [87.999336626795](certificates/n7667.cert) | 88.000000000000 | Improvement over public bound | [credits](certificates/n7667.json) |
+| [7843](n7843.svg) | [88.999336625453](certificates/n7843.cert) | 89.000000000000 | Improvement over public bound | [credits](certificates/n7843.json) |
+| [8021](n8021.svg) | [89.999256219591](certificates/n8021.cert) | 90.000000000000 | Improvement over public bound | [credits](certificates/n8021.json) |
+| [8201](n8201.svg) | [90.997550817744](certificates/n8201.cert) | 91.000000000000 | Improvement over public bound | [credits](certificates/n8201.json) |
+| [8383](n8383.svg) | [91.996875921021](certificates/n8383.cert) | 92.000000000000 | Improvement over public bound | [credits](certificates/n8383.json) |
+| [8567](n8567.svg) | [92.997865205921](certificates/n8567.cert) | 93.000000000000 | Improvement over public bound | [credits](certificates/n8567.json) |
+| [8568](n8568.svg) | [92.999336626801](certificates/n8568.cert) | 93.000000000000 | Improvement over public bound | [credits](certificates/n8568.json) |
+| [8754](n8754.svg) | [93.999336625459](certificates/n8754.cert) | 94.000000000000 | Improvement over public bound | [credits](certificates/n8754.json) |
+| [8942](n8942.svg) | [94.996875921025](certificates/n8942.cert) | 95.000000000000 | Improvement over public bound | [credits](certificates/n8942.json) |
+| [9132](n9132.svg) | [95.997865205925](certificates/n9132.cert) | 96.000000000000 | Improvement over public bound | [credits](certificates/n9132.json) |
+| [9324](n9324.svg) | [96.997865205926](certificates/n9324.cert) | 97.000000000000 | Improvement over public bound | [credits](certificates/n9324.json) |
+| [9518](n9518.svg) | [97.997600152717](certificates/n9518.cert) | 98.000000000000 | Improvement over public bound | [credits](certificates/n9518.json) |
+| [9519](n9519.svg) | [97.999336626807](certificates/n9519.cert) | 98.000000000000 | Improvement over public bound | [credits](certificates/n9519.json) |
+| [9715](n9715.svg) | [98.999336625465](certificates/n9715.cert) | 99.000000000000 | Improvement over public bound | [credits](certificates/n9715.json) |
+| [9913](n9913.svg) | [99.997865205930](certificates/n9913.cert) | 100.000000000000 | Improvement over public bound | [credits](certificates/n9913.json) |
 
-| n | found here | best known elsewhere | source | status |
-|---|---|---|---|---|
-| 51 | 7.690355937290 (seeded from PingYou Ltd (BuddenPing)) | 7.690355937288 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 68 | 8.798795237220 | 8.798795237218 | register | tied (rounding) |
-| 70 | 8.880960371557 (seeded from PingYou Ltd (BuddenPing)) | 8.880960371556 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593), [#483](https://github.com/jlevy/squares/issues/483)) |
-| 84 | 9.697934799017 (seeded from Ryan Xu) | 9.697934799015 | register | tied (rounding) (same packing also in [#470](https://github.com/jlevy/squares/issues/470)) |
-| 86 | 9.820535407499 (seeded from Ryan Xu) | 9.820535407497 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 88 | 9.882451030483 (seeded from PingYou Ltd (BuddenPing)) | 9.882451030481 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 102 | 10.605828696434 (seeded from PingYou Ltd (BuddenPing)) | 10.605828696432 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 103 | 10.679232047363 (seeded from PingYou Ltd (BuddenPing)) | 10.679232047361 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 105 | 10.789303783750 (seeded from Ryan Xu) | 10.789303783748 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 106 | 10.822908044135 | 10.822908044133 | register | tied (rounding) |
-| 108 | 10.904821012322 (seeded from Ryan Xu) | 10.904821012320 | register | tied (rounding) (same packing also in [#451](https://github.com/jlevy/squares/issues/451), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 110 | 10.996783396634 | 10.996783396632 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
-| 123 | 11.591378145500 (seeded from PingYou Ltd (BuddenPing)) | 11.591378145498 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 126 | 11.742640687121 (seeded from PingYou Ltd (BuddenPing)) | 11.742640687119 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 127 | 11.810878787591 (seeded from Ryan Xu) | 11.810878787589 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
-| 129 | 11.870013850407 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 11.870013850404 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#562](https://github.com/jlevy/squares/issues/562)) |
-| 130 | 11.904483032518 (seeded from PingYou Ltd (BuddenPing)) | 11.904483032516 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#438](https://github.com/jlevy/squares/issues/438), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 131 | 11.949659588038 (seeded from PingYou Ltd (BuddenPing)) | 11.949659588036 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 132 | 11.985680198848 (seeded from PingYou Ltd (BuddenPing)) | 11.985680198846 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 146 | 12.583782190154 (seeded from Evan Daniel) | 12.583782190152 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#606](https://github.com/jlevy/squares/issues/606)) |
-| 152 | 12.830718800979 | 12.830718800977 | register | tied (rounding) |
-| 153 | 12.870013850407 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 12.870013850404 | register | tied (rounding) |
-| 154 | 12.921206577135 (seeded from Evan Daniel (from Francisco Couzo's n=155 seed)) | 12.921206577133 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 155 | 12.952260944653 (seeded from Evan Daniel) | 12.952260944651 | [Evan Daniel](https://github.com/jlevy/squares/issues/669) (pending) | tied (rounding) (same packing also in [#669](https://github.com/jlevy/squares/issues/669), [#465](https://github.com/jlevy/squares/issues/465)) |
-| 156 | 12.979165853837 (seeded from Daniil Ostashev) | 12.979165853834 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 172 | 13.618988956902 | 13.618988956899 | register | tied (rounding) |
-| 175 | 13.764174317489 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 13.764174317487 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#528](https://github.com/jlevy/squares/issues/528)) |
-| 176 | 13.795872318439 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 13.795872318436 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#575](https://github.com/jlevy/squares/issues/575)) |
-| 177 | 13.822979734172 | 13.822979734169 | register | tied (rounding) |
-| 179 | 13.883795490513 (seeded from PingYou Ltd (BuddenPing)) | 13.883795490511 | register | tied (rounding) (same packing also in [#422](https://github.com/jlevy/squares/issues/422), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 180 | 13.916993522480 (seeded from Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1) | 13.916993522478 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
-| 181 | 13.950819531026 (seeded from PingYou Ltd (BuddenPing)) | 13.950819531023 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 182 | 13.974090713124 | 13.974090713121 | register | tied (rounding) |
-| 199 | 14.617572173596 (seeded from PingYou Ltd (BuddenPing)) | 14.617572173593 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 204 | 14.808642840600 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 14.808663234387 | register | **best known** |
-| 206 | 14.860158663395 | 14.860158663392 | register | tied (rounding) |
-| 207 | 14.880960371558 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 14.880960371556 | [PingYou Ltd (exact certificate refinement)](https://github.com/jlevy/squares/pull/574) (pending) | tied (rounding) |
-| 208 | 14.924518772032 | 14.924518772029 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#438](https://github.com/jlevy/squares/issues/438), [#422](https://github.com/jlevy/squares/issues/422), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 209 | 14.946223226449 (seeded from Nate Chaoweeraprasit (SQUISH)) | 14.946223226446 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 210 | 14.973001116590 | 14.973001116588 | register | tied (rounding) |
-| 211 | 14.993549626302 (seeded from Daniil Ostashev) | 14.993549626299 | register | tied (rounding) |
-| 227 | 15.563625652346 (seeded from Joost de Winter (JoostdeWinter)) | 15.563796687061 | [Joost de Winter (JoostdeWinter)](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
-| 228 | 15.604601475733 | 15.604601475730 | register | tied (rounding) |
-| 229 | 15.650161513897 (seeded from Evan Daniel; start: Francisco Couzo, after Joost de Winter) | 15.650161513896 | [Evan Daniel; start: Francisco Couzo, after Joost de Winter](https://github.com/jlevy/squares/issues/674#issuecomment-6244298663) (pending) | tied (rounding) |
-| 232 | 15.764174317490 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 15.764174317487 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 236 | 15.861934390610 (seeded from Evan Daniel) | 15.861934390607 | [Nate Chaoweeraprasit (SQUISH), refined by Evan Daniel](https://github.com/jlevy/squares/issues/659) (pending) | tied (rounding) (same packing also in [#659](https://github.com/jlevy/squares/issues/659)) |
-| 237 | 15.902603638263 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 15.902603638260 | register | tied (rounding) |
-| 238 | 15.924106785325 (seeded from PingYou Ltd (BuddenPing)) | 15.924106785321 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 239 | 15.948443327304 (seeded from PingYou Ltd (BuddenPing)) | 15.948443327301 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 240 | 15.969685337534 | 15.969685337531 | register | tied (rounding) |
-| 241 | 15.987117095153 (seeded from Daniil Ostashev) | 15.987117095150 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593)) |
-| 258 | 16.563448002137 (seeded from PingYou Ltd (BuddenPing)) | 16.563448002134 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401)) |
-| 259 | 16.591378145501 (seeded from PingYou Ltd (BuddenPing)) | 16.591378145498 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481)) |
-| 260 | 16.645753250529 (seeded from Joost de Winter (JoostdeWinter)) | 16.645778786062 | [Joost de Winter (JoostdeWinter)](https://github.com/jlevy/squares/issues/668) (pending) | **best known** |
-| 261 | 16.678779875346 (seeded from BuddenPing) | 16.678779875343 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#432](https://github.com/jlevy/squares/issues/432), [#505](https://github.com/jlevy/squares/issues/505), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 263 | 16.733166007903 (seeded from PingYou Ltd (BuddenPing)) | 16.733166007899 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481)) |
-| 264 | 16.774735132391 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 16.774735132388 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#528](https://github.com/jlevy/squares/issues/528)) |
-| 266 | 16.823028750760 (seeded from PingYou Ltd (BuddenPing)) | 16.823028750756 | register | tied (rounding) (same packing also in [#399](https://github.com/jlevy/squares/issues/399), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 267 | 16.838815269951 (seeded from Ryan Xu) | 16.838815269948 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 268 | 16.878814821010 | 16.878814821007 | register | tied (rounding) |
-| 269 | 16.901513582192 (seeded from PingYou Ltd (BuddenPing)) | 16.901513582189 | register | tied (rounding) (same packing also in [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 270 | 16.928196993332 (seeded from PingYou Ltd (BuddenPing)) | 16.928196993329 | register | tied (rounding) (same packing also in [#500](https://github.com/jlevy/squares/issues/500), [#401](https://github.com/jlevy/squares/issues/401), [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 271 | 16.948947733717 (seeded from Evan Daniel) | 16.948947733714 | [Evan Daniel](https://github.com/jlevy/squares/issues/664) (pending) | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 272 | 16.965586474841 (seeded from PingYou Ltd (BuddenPing)) | 16.965586474838 | register | tied (rounding) (same packing also in [#503](https://github.com/jlevy/squares/issues/503), [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401), [#500](https://github.com/jlevy/squares/issues/500)) |
-| 273 | 16.983925962654 | 16.983925962650 | register | tied (rounding) |
-| 292 | 17.591378145501 (seeded from PingYou Ltd (BuddenPing)) | 17.591378145498 | register | tied (rounding) |
-| 295 | 17.704232790739 (seeded from PingYou Ltd (BuddenPing)) | 17.704232790736 | register | tied (rounding) (same packing also in [#432](https://github.com/jlevy/squares/issues/432), [#593](https://github.com/jlevy/squares/issues/593)) |
-| 297 | 17.740417287547 | 17.740417287544 | register | tied (rounding) |
-| 301 | 17.846667192847 | 17.846667192843 | register | tied (rounding) |
-| 302 | 17.870013850408 (seeded from BuddenPing) | 17.870013850404 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 303 | 17.909958291073 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 17.909958291070 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#562](https://github.com/jlevy/squares/issues/562)) |
-| 304 | 17.929427758079 (seeded from Mykhailo Polkovskyi (Mishapolk)) | 17.929427758075 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470), [#575](https://github.com/jlevy/squares/issues/575)) |
-| 305 | 17.950466482141 (seeded from Nate Chaoweeraprasit (SQUISH)) | 17.950466482138 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401)) |
-| 306 | 17.963433717495 | 17.963433717491 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#470](https://github.com/jlevy/squares/issues/470)) |
-| 307 | 17.980862784058 (seeded from PingYou Ltd (BuddenPing)) | 17.980862784055 | register | tied (rounding) (same packing also in [#481](https://github.com/jlevy/squares/issues/481), [#593](https://github.com/jlevy/squares/issues/593), [#401](https://github.com/jlevy/squares/issues/401)) |
-| 308 | 17.998269879530 (seeded from PingYou Ltd (BuddenPing)) | 17.998269879526 | register | tied (rounding) (same packing also in [#593](https://github.com/jlevy/squares/issues/593), [#489](https://github.com/jlevy/squares/issues/489)) |
+The [complete bound catalogue](certificates/best/README.md) covers n=1–10000 and retains 856 finite source witnesses, including imported packings and classical constructions. Historical improvements and search seeds remain in the repository with their provenance.
 
-<!-- /current-status -->
-
-<!-- expanded-search-results -->
-
-Recorded packings also cover n=325–998. The derived reference bounds remain the frozen L-border/grid comparisons. Published bounds come from the verified sources in `known_best.json`; their values below are rounded upward. Reviewed published comparisons cover 41 of these 362 counts as of 2026-10-19. A dash means no published comparison was established in the reviewed sources. Source revisions and certificate links are recorded in [known_best.json](known_best.json).
-
-| n | derived reference bound | found here (numerical) | improvement over reference | verified published bound | published source | standing |
-|---|---|---|---|---|---|---|
-| 327 | 18.60257141234448 | **18.591378145501** | 1.119e-02 | 18.591378145498 | [Nate Chaoweeraprasit (SQUISH), L-border extension](https://github.com/jlevy/squares/issues/481) | tied (within 1e-10) |
-| 330 | 18.70710678118654 | **18.692697855729** | 1.441e-02 | — | — | reference comparison only |
-| 332 | 18.74106074604732 | **18.740417287547** | 6.435e-04 | — | — | reference comparison only |
-| 335 | 18.82412338847854 | **18.822875655544** | 1.248e-03 | — | — | reference comparison only |
-| 336 | 18.86889155557430 | **18.825571499865** | 4.332e-02 | — | — | reference comparison only |
-| 337 | 18.88674602860566 | **18.858391767640** | 2.835e-02 | — | — | reference comparison only |
-| 338 | 18.93125509556197 | **18.906332809856** | 2.492e-02 | — | — | reference comparison only |
-| 339 | 18.94910783564662 | **18.911307592086** | 3.780e-02 | 18.926898900357 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) | **smaller than reviewed published bound** |
-| 340 | 18.96066201401205 | **18.939649632895** | 2.101e-02 | — | — | reference comparison only |
-| 341 | 18.96913960675661 | **18.951882408724** | 1.726e-02 | — | — | reference comparison only |
-| 342 | 18.98272201579610 | **18.964706723176** | 1.802e-02 | — | — | reference comparison only |
-| 343 | 19 | **18.978232204804** | 2.177e-02 | 18.978232523636 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | **smaller than reviewed published bound** |
-| 344 | 19 | **18.993724691807** | 6.275e-03 | 18.994450514278 | [Evan Daniel (after Kevin Fang)](https://github.com/jlevy/squares/issues/489) | **smaller than reviewed published bound** |
-| 364 | 19.60257141234448 | **19.583782190156** | 1.879e-02 | 19.583782203951 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) | **smaller than reviewed published bound** |
-| 365 | 19.63414634146341 | **19.621320343563** | 1.283e-02 | 19.621320343560 | [Evan Daniel](https://github.com/jlevy/squares/issues/596) | tied (within 1e-10) |
-| 367 | 19.70710678118654 | **19.692388155451** | 1.472e-02 | — | — | reference comparison only |
-| 368 | 19.70710678118654 | **19.692388155451** | 1.472e-02 | — | — | reference comparison only |
-| 369 | 19.74106074604732 | **19.707106781190** | 3.395e-02 | 19.707106781187 | [Frits Göbel](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_strips.html) | tied (within 1e-10) |
-| 370 | 19.77817459305202 | **19.767428349968** | 1.075e-02 | 19.767730746255 | [Evan Daniel](https://github.com/jlevy/squares/issues/596) | **smaller than reviewed published bound** |
-| 372 | 19.82412338847854 | **19.822875655617** | 1.248e-03 | — | — | reference comparison only |
-| 373 | 19.86889155557430 | **19.823062082842** | 4.583e-02 | — | — | reference comparison only |
-| 374 | 19.88674602860566 | **19.832356217037** | 5.439e-02 | — | — | reference comparison only |
-| 375 | 19.93125509556197 | **19.882451030485** | 4.880e-02 | 19.882451030482 | [Evan Daniel](https://github.com/jlevy/squares/issues/399) | tied (within 1e-10) |
-| 376 | 19.94910783564662 | **19.899494936615** | 4.961e-02 | 19.899494936612 | [Frits Göbel](https://kingbird.myphotos.cc/packing/squares_in_squares__G%C3%B6bel_squares.html) | tied (within 1e-10) |
-| 377 | 19.96066201401205 | **19.925720814334** | 3.494e-02 | — | — | reference comparison only |
-| 378 | 19.96913960675661 | **19.942505611662** | 2.663e-02 | — | — | reference comparison only |
-| 379 | 19.98272201579610 | **19.953014213752** | 2.971e-02 | — | — | reference comparison only |
-| 380 | 20 | **19.961601762406** | 3.840e-02 | 19.976775433975 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 381 | 20 | **19.974740439416** | 2.526e-02 | 19.976969740406 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 382 | 20 | **19.987621153969** | 1.238e-02 | 19.989479729400 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 403 | 20.60257141234448 | **20.583782190156** | 1.879e-02 | — | — | reference comparison only |
-| 404 | 20.63414634146341 | **20.621320343564** | 1.283e-02 | — | — | reference comparison only |
-| 406 | 20.70710678118654 | **20.692388155430** | 1.472e-02 | — | — | reference comparison only |
-| 407 | 20.70710678118654 | **20.692388155431** | 1.472e-02 | — | — | reference comparison only |
-| 408 | 20.74106074604732 | **20.707106781195** | 3.395e-02 | — | — | reference comparison only |
-| 409 | 20.77817459305202 | **20.767428349970** | 1.075e-02 | — | — | reference comparison only |
-| 410 | 20.82287565553229 | **20.778174593060** | 4.470e-02 | — | — | reference comparison only |
-| 411 | 20.82412338847854 | **20.822875655540** | 1.248e-03 | — | — | reference comparison only |
-| 412 | 20.86889155557430 | **20.823062082842** | 4.583e-02 | — | — | reference comparison only |
-| 413 | 20.88674602860566 | **20.831663365362** | 5.508e-02 | — | — | reference comparison only |
-| 414 | 20.93125509556197 | **20.882451030490** | 4.880e-02 | — | — | reference comparison only |
-| 415 | 20.94910783564662 | **20.899494936654** | 4.961e-02 | — | — | reference comparison only |
-| 416 | 20.96066201401205 | **20.899494936634** | 6.117e-02 | — | — | reference comparison only |
-| 417 | 20.96913960675661 | **20.942505611664** | 2.663e-02 | — | — | reference comparison only |
-| 418 | 20.98272201579610 | **20.942828529684** | 3.989e-02 | — | — | reference comparison only |
-| 419 | 21 | **20.959713421171** | 4.029e-02 | — | — | reference comparison only |
-| 420 | 21 | **20.974164562591** | 2.584e-02 | — | — | reference comparison only |
-| 421 | 21 | **20.981525640907** | 1.847e-02 | 20.986150316948 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 422 | 21 | **20.983607199008** | 1.639e-02 | 20.988436524096 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 444 | 21.60257141234448 | **21.583782190156** | 1.879e-02 | — | — | reference comparison only |
-| 445 | 21.63414634146341 | **21.606601717810** | 2.754e-02 | — | — | reference comparison only |
-| 447 | 21.70710678118654 | **21.692388155436** | 1.472e-02 | — | — | reference comparison only |
-| 448 | 21.70710678118654 | **21.692388155437** | 1.472e-02 | — | — | reference comparison only |
-| 449 | 21.74106074604732 | **21.707106781195** | 3.395e-02 | — | — | reference comparison only |
-| 450 | 21.77817459305202 | **21.767428349970** | 1.075e-02 | — | — | reference comparison only |
-| 451 | 21.82287565553229 | **21.778174593060** | 4.470e-02 | — | — | reference comparison only |
-| 452 | 21.82412338847854 | **21.778174593065** | 4.595e-02 | — | — | reference comparison only |
-| 453 | 21.86889155557430 | **21.823014758300** | 4.588e-02 | — | — | reference comparison only |
-| 454 | 21.88674602860566 | **21.828427124827** | 5.832e-02 | — | — | reference comparison only |
-| 455 | 21.93125509556197 | **21.882183551475** | 4.907e-02 | — | — | reference comparison only |
-| 456 | 21.94910783564662 | **21.882183551475** | 6.692e-02 | — | — | reference comparison only |
-| 457 | 21.96066201401205 | **21.899494936620** | 6.117e-02 | — | — | reference comparison only |
-| 458 | 21.96913960675661 | **21.903778442824** | 6.536e-02 | — | — | reference comparison only |
-| 459 | 21.98272201579610 | **21.942365250342** | 4.036e-02 | — | — | reference comparison only |
-| 460 | 22 | **21.957558542526** | 4.244e-02 | 21.959969683021 | [Evan Daniel](https://github.com/jlevy/squares/issues/596) | **smaller than reviewed published bound** |
-| 461 | 22 | **21.971318847900** | 2.868e-02 | — | — | reference comparison only |
-| 462 | 22 | **21.974888792984** | 2.511e-02 | — | — | reference comparison only |
-| 463 | 22 | **21.983603993932** | 1.640e-02 | 21.986880406197 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 464 | 22 | **21.987753655526** | 1.225e-02 | 21.988813022694 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 487 | 22.60257141234448 | **22.583782190161** | 1.879e-02 | — | — | reference comparison only |
-| 488 | 22.63414634146341 | **22.606601717831** | 2.754e-02 | — | — | reference comparison only |
-| 489 | 22.65685424949238 | **22.606601717827** | 5.025e-02 | — | — | reference comparison only |
-| 490 | 22.70710678118654 | **22.656854249501** | 5.025e-02 | — | — | reference comparison only |
-| 491 | 22.70710678118654 | **22.692388155439** | 1.472e-02 | — | — | reference comparison only |
-| 492 | 22.74106074604732 | **22.707106781231** | 3.395e-02 | — | — | reference comparison only |
-| 493 | 22.77817459305202 | **22.707106781209** | 7.107e-02 | — | — | reference comparison only |
-| 494 | 22.82287565553229 | **22.778174593061** | 4.470e-02 | — | — | reference comparison only |
-| 495 | 22.82412338847854 | **22.778174593061** | 4.595e-02 | — | — | reference comparison only |
-| 496 | 22.86889155557430 | **22.823014758321** | 4.588e-02 | — | — | reference comparison only |
-| 497 | 22.88674602860566 | **22.823104027276** | 6.364e-02 | — | — | reference comparison only |
-| 498 | 22.93125509556197 | **22.828427124809** | 1.028e-01 | — | — | reference comparison only |
-| 499 | 22.94910783564662 | **22.882183551475** | 6.692e-02 | — | — | reference comparison only |
-| 500 | 22.96066201401205 | **22.899494936639** | 6.117e-02 | — | — | reference comparison only |
-| 501 | 22.96913960675661 | **22.903778442824** | 6.536e-02 | — | — | reference comparison only |
-| 502 | 22.98272201579610 | **22.942219237424** | 4.050e-02 | — | — | reference comparison only |
-| 503 | 23 | **22.957558542520** | 4.244e-02 | — | — | reference comparison only |
-| 504 | 23 | **22.970562748486** | 2.944e-02 | — | — | reference comparison only |
-| 505 | 23 | **22.971592368248** | 2.841e-02 | — | — | reference comparison only |
-| 506 | 23 | **22.973102824286** | 2.690e-02 | — | — | reference comparison only |
-| 507 | 23 | **22.973697163657** | 2.630e-02 | 22.997807183349 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 508 | 23 | **22.987759965295** | 1.224e-02 | 22.994733849703 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 509 | 23 | **22.994328036442** | 5.672e-03 | 22.994328036438 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | tied (within 1e-10) |
-| 532 | 23.60257141234448 | **23.583782190182** | 1.879e-02 | — | — | reference comparison only |
-| 533 | 23.63414634146341 | **23.606601717847** | 2.754e-02 | — | — | reference comparison only |
-| 534 | 23.65685424949238 | **23.606601717808** | 5.025e-02 | — | — | reference comparison only |
-| 535 | 23.70710678118654 | **23.656854249502** | 5.025e-02 | — | — | reference comparison only |
-| 536 | 23.70710678118654 | **23.677669529677** | 2.944e-02 | — | — | reference comparison only |
-| 537 | 23.74106074604732 | **23.707106781250** | 3.395e-02 | — | — | reference comparison only |
-| 538 | 23.77817459305202 | **23.707106781227** | 7.107e-02 | — | — | reference comparison only |
-| 539 | 23.82287565553229 | **23.778174593068** | 4.470e-02 | — | — | reference comparison only |
-| 540 | 23.82412338847854 | **23.778174593061** | 4.595e-02 | — | — | reference comparison only |
-| 541 | 23.86889155557430 | **23.813708499017** | 5.518e-02 | — | — | reference comparison only |
-| 542 | 23.88674602860566 | **23.813708499017** | 7.304e-02 | — | — | reference comparison only |
-| 543 | 23.93125509556197 | **23.813708499017** | 1.175e-01 | — | — | reference comparison only |
-| 544 | 23.94910783564662 | **23.828427124756** | 1.207e-01 | — | — | reference comparison only |
-| 545 | 23.96066201401205 | **23.889010439290** | 7.165e-02 | — | — | reference comparison only |
-| 546 | 23.96913960675661 | **23.889010439308** | 8.013e-02 | — | — | reference comparison only |
-| 547 | 23.98272201579610 | **23.906371163650** | 7.635e-02 | — | — | reference comparison only |
-| 548 | 24 | **23.956345132953** | 4.365e-02 | — | — | reference comparison only |
-| 549 | 24 | **23.956345132926** | 4.365e-02 | — | — | reference comparison only |
-| 550 | 24 | **23.961513018473** | 3.849e-02 | — | — | reference comparison only |
-| 551 | 24 | **23.966898919609** | 3.310e-02 | — | — | reference comparison only |
-| 552 | 24 | **23.966901721112** | 3.310e-02 | — | — | reference comparison only |
-| 553 | 24 | **23.980727660916** | 1.927e-02 | 23.998811020145 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 554 | 24 | **23.993524047710** | 6.476e-03 | — | — | reference comparison only |
-| 555 | 24 | **23.993580713537** | 6.419e-03 | 23.993653790591 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 579 | 24.60257141234448 | **24.583782190183** | 1.879e-02 | — | — | reference comparison only |
-| 580 | 24.63414634146341 | **24.606601717819** | 2.754e-02 | — | — | reference comparison only |
-| 581 | 24.65685424949238 | **24.606601717808** | 5.025e-02 | — | — | reference comparison only |
-| 582 | 24.70710678118654 | **24.656854249502** | 5.025e-02 | — | — | reference comparison only |
-| 583 | 24.70710678118654 | **24.677669529673** | 2.944e-02 | — | — | reference comparison only |
-| 584 | 24.74106074604732 | **24.677669529673** | 6.339e-02 | — | — | reference comparison only |
-| 585 | 24.77817459305202 | **24.707106781243** | 7.107e-02 | — | — | reference comparison only |
-| 586 | 24.82287565553229 | **24.707106781211** | 1.158e-01 | — | — | reference comparison only |
-| 587 | 24.82412338847854 | **24.778174593062** | 4.595e-02 | — | — | reference comparison only |
-| 588 | 24.86889155557430 | **24.813708498993** | 5.518e-02 | — | — | reference comparison only |
-| 589 | 24.88674602860566 | **24.813708498994** | 7.304e-02 | — | — | reference comparison only |
-| 590 | 24.93125509556197 | **24.813708498999** | 1.175e-01 | — | — | reference comparison only |
-| 591 | 24.94910783564662 | **24.828427124756** | 1.207e-01 | — | — | reference comparison only |
-| 592 | 24.96066201401205 | **24.888988759379** | 7.167e-02 | — | — | reference comparison only |
-| 593 | 24.96913960675661 | **24.888988759379** | 8.015e-02 | — | — | reference comparison only |
-| 594 | 24.98272201579610 | **24.899494936621** | 8.323e-02 | — | — | reference comparison only |
-| 595 | 25 | **24.949747468340** | 5.025e-02 | — | — | reference comparison only |
-| 596 | 25 | **24.949747468316** | 5.025e-02 | — | — | reference comparison only |
-| 597 | 25 | **24.961502766158** | 3.850e-02 | — | — | reference comparison only |
-| 598 | 25 | **24.961502766158** | 3.850e-02 | — | — | reference comparison only |
-| 599 | 25 | **24.966901721112** | 3.310e-02 | — | — | reference comparison only |
-| 600 | 25 | **24.980727660944** | 1.927e-02 | — | — | reference comparison only |
-| 601 | 25 | **24.987983019354** | 1.202e-02 | 24.998914572428 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 602 | 25 | **24.993580713565** | 6.419e-03 | — | — | reference comparison only |
-| 603 | 25 | **24.994263342363** | 5.737e-03 | 24.995268064197 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 628 | 25.60257141234448 | **25.583782190183** | 1.879e-02 | — | — | reference comparison only |
-| 629 | 25.63414634146341 | **25.606601717900** | 2.754e-02 | — | — | reference comparison only |
-| 630 | 25.65685424949238 | **25.606601717808** | 5.025e-02 | — | — | reference comparison only |
-| 631 | 25.70710678118654 | **25.656854249503** | 5.025e-02 | — | — | reference comparison only |
-| 632 | 25.70710678118654 | **25.677669529674** | 2.944e-02 | — | — | reference comparison only |
-| 633 | 25.74106074604732 | **25.677669529674** | 6.339e-02 | — | — | reference comparison only |
-| 634 | 25.77817459305202 | **25.707106781205** | 7.107e-02 | — | — | reference comparison only |
-| 635 | 25.82287565553229 | **25.707106781212** | 1.158e-01 | — | — | reference comparison only |
-| 636 | 25.82412338847854 | **25.727922061369** | 9.620e-02 | — | — | reference comparison only |
-| 637 | 25.86889155557430 | **25.778174593062** | 9.072e-02 | — | — | reference comparison only |
-| 638 | 25.88674602860566 | **25.813708498997** | 7.304e-02 | — | — | reference comparison only |
-| 639 | 25.93125509556197 | **25.813708499000** | 1.175e-01 | — | — | reference comparison only |
-| 640 | 25.94910783564662 | **25.828427124756** | 1.207e-01 | — | — | reference comparison only |
-| 641 | 25.96066201401205 | **25.881306218110** | 7.936e-02 | — | — | reference comparison only |
-| 642 | 25.96913960675661 | **25.881306218105** | 8.783e-02 | — | — | reference comparison only |
-| 643 | 25.98272201579610 | **25.899494936647** | 8.323e-02 | — | — | reference comparison only |
-| 644 | 26 | **25.899494936622** | 1.005e-01 | — | — | reference comparison only |
-| 645 | 26 | **25.949747468316** | 5.025e-02 | — | — | reference comparison only |
-| 646 | 26 | **25.949747468316** | 5.025e-02 | — | — | reference comparison only |
-| 647 | 26 | **25.953248543173** | 4.675e-02 | — | — | reference comparison only |
-| 648 | 26 | **25.966901721112** | 3.310e-02 | — | — | reference comparison only |
-| 649 | 26 | **25.976974088407** | 2.303e-02 | — | — | reference comparison only |
-| 650 | 26 | **25.982275446601** | 1.772e-02 | — | — | reference comparison only |
-| 651 | 26 | **25.983790117660** | 1.621e-02 | 25.991547815275 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 652 | 26 | **25.994256214748** | 5.744e-03 | — | — | reference comparison only |
-| 653 | 26 | **25.994414202142** | 5.586e-03 | — | — | reference comparison only |
-| 654 | 26 | **25.995888235779** | 4.112e-03 | 25.996103908965 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 677 | 26.53553390593273 | **26.520815280187** | 1.472e-02 | — | — | reference comparison only |
-| 679 | 26.60257141234448 | **26.583782190183** | 1.879e-02 | — | — | reference comparison only |
-| 680 | 26.63414634146341 | **26.606601717855** | 2.754e-02 | — | — | reference comparison only |
-| 681 | 26.65685424949238 | **26.606601717833** | 5.025e-02 | — | — | reference comparison only |
-| 682 | 26.70710678118654 | **26.656854249503** | 5.025e-02 | — | — | reference comparison only |
-| 683 | 26.70710678118654 | **26.677669529674** | 2.944e-02 | — | — | reference comparison only |
-| 684 | 26.74106074604732 | **26.677669529674** | 6.339e-02 | — | — | reference comparison only |
-| 685 | 26.77817459305202 | **26.707106781198** | 7.107e-02 | — | — | reference comparison only |
-| 686 | 26.82287565553229 | **26.707106781214** | 1.158e-01 | — | — | reference comparison only |
-| 687 | 26.82412338847854 | **26.727922061389** | 9.620e-02 | — | — | reference comparison only |
-| 688 | 26.86889155557430 | **26.727922061398** | 1.410e-01 | — | — | reference comparison only |
-| 689 | 26.88674602860566 | **26.778174593063** | 1.086e-01 | — | — | reference comparison only |
-| 690 | 26.93125509556197 | **26.813708499008** | 1.175e-01 | — | — | reference comparison only |
-| 691 | 26.94910783564662 | **26.828427124763** | 1.207e-01 | — | — | reference comparison only |
-| 692 | 26.96066201401205 | **26.828427124755** | 1.322e-01 | — | — | reference comparison only |
-| 693 | 26.96913960675661 | **26.881306218106** | 8.783e-02 | — | — | reference comparison only |
-| 694 | 26.98272201579610 | **26.899494936622** | 8.323e-02 | — | — | reference comparison only |
-| 695 | 27 | **26.899494936622** | 1.005e-01 | — | — | reference comparison only |
-| 696 | 27 | **26.949747468372** | 5.025e-02 | — | — | reference comparison only |
-| 697 | 27 | **26.949747468316** | 5.025e-02 | — | — | reference comparison only |
-| 698 | 27 | **26.949747468316** | 5.025e-02 | — | — | reference comparison only |
-| 699 | 27 | **26.949747468394** | 5.025e-02 | — | — | reference comparison only |
-| 700 | 27 | **26.972679052165** | 2.732e-02 | — | — | reference comparison only |
-| 701 | 27 | **26.975549411101** | 2.445e-02 | — | — | reference comparison only |
-| 702 | 27 | **26.977494114951** | 2.251e-02 | — | — | reference comparison only |
-| 703 | 27 | **26.987459573177** | 1.254e-02 | 26.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 704 | 27 | **26.994256369883** | 5.744e-03 | — | — | reference comparison only |
-| 705 | 27 | **26.994256369883** | 5.744e-03 | — | — | reference comparison only |
-| 706 | 27 | **26.998542133936** | 1.458e-03 | 26.998712100405 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 730 | 27.53553390593273 | **27.520815280179** | 1.472e-02 | — | — | reference comparison only |
-| 732 | 27.60257141234448 | **27.583782190183** | 1.879e-02 | — | — | reference comparison only |
-| 733 | 27.63414634146341 | **27.606601717828** | 2.754e-02 | — | — | reference comparison only |
-| 734 | 27.65685424949238 | **27.606601717809** | 5.025e-02 | — | — | reference comparison only |
-| 735 | 27.70710678118654 | **27.656854249524** | 5.025e-02 | — | — | reference comparison only |
-| 736 | 27.70710678118654 | **27.656854249503** | 5.025e-02 | — | — | reference comparison only |
-| 737 | 27.74106074604732 | **27.677669529675** | 6.339e-02 | — | — | reference comparison only |
-| 738 | 27.77817459305202 | **27.707106781199** | 7.107e-02 | — | — | reference comparison only |
-| 739 | 27.82287565553229 | **27.707106781213** | 1.158e-01 | — | — | reference comparison only |
-| 740 | 27.82412338847854 | **27.707106781217** | 1.170e-01 | — | — | reference comparison only |
-| 741 | 27.86889155557430 | **27.727922061424** | 1.410e-01 | — | — | reference comparison only |
-| 742 | 27.88674602860566 | **27.778174593063** | 1.086e-01 | — | — | reference comparison only |
-| 743 | 27.93125509556197 | **27.798989873261** | 1.323e-01 | — | — | reference comparison only |
-| 744 | 27.94910783564662 | **27.798989873234** | 1.501e-01 | — | — | reference comparison only |
-| 745 | 27.96066201401205 | **27.828427124784** | 1.322e-01 | — | — | reference comparison only |
-| 746 | 27.96913960675661 | **27.828427124773** | 1.407e-01 | — | — | reference comparison only |
-| 747 | 27.98272201579610 | **27.899494936650** | 8.323e-02 | — | — | reference comparison only |
-| 748 | 28 | **27.899494936623** | 1.005e-01 | — | — | reference comparison only |
-| 749 | 28 | **27.911194713703** | 8.881e-02 | — | — | reference comparison only |
-| 750 | 28 | **27.927909092408** | 7.209e-02 | — | — | reference comparison only |
-| 751 | 28 | **27.932448900742** | 6.755e-02 | — | — | reference comparison only |
-| 752 | 28 | **27.932449886409** | 6.755e-02 | — | — | reference comparison only |
-| 753 | 28 | **27.932449886376** | 6.755e-02 | — | — | reference comparison only |
-| 754 | 28 | **27.937423314359** | 6.258e-02 | — | — | reference comparison only |
-| 755 | 28 | **27.951504031465** | 4.850e-02 | — | — | reference comparison only |
-| 756 | 28 | **27.982602664070** | 1.740e-02 | — | — | reference comparison only |
-| 757 | 28 | **27.989936967938** | 1.006e-02 | 27.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 758 | 28 | **27.993798579005** | 6.201e-03 | 27.996346242824 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 759 | 28 | **27.993798579005** | 6.201e-03 | — | — | reference comparison only |
-| 760 | 28 | **27.995022162132** | 4.978e-03 | 27.995949340329 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 785 | 28.53553390593273 | **28.520815280186** | 1.472e-02 | — | — | reference comparison only |
-| 787 | 28.60257141234448 | **28.583782190183** | 1.879e-02 | — | — | reference comparison only |
-| 788 | 28.63414634146341 | **28.606601717843** | 2.754e-02 | — | — | reference comparison only |
-| 789 | 28.65685424949238 | **28.606601717868** | 5.025e-02 | — | — | reference comparison only |
-| 790 | 28.70710678118654 | **28.656854249504** | 5.025e-02 | — | — | reference comparison only |
-| 791 | 28.70710678118654 | **28.656854249504** | 5.025e-02 | — | — | reference comparison only |
-| 792 | 28.74106074604732 | **28.656854249504** | 8.421e-02 | — | — | reference comparison only |
-| 793 | 28.77817459305202 | **28.707106781203** | 7.107e-02 | — | — | reference comparison only |
-| 794 | 28.82287565553229 | **28.707106781216** | 1.158e-01 | — | — | reference comparison only |
-| 795 | 28.82412338847854 | **28.707106781230** | 1.170e-01 | — | — | reference comparison only |
-| 796 | 28.86889155557430 | **28.727922061371** | 1.410e-01 | — | — | reference comparison only |
-| 797 | 28.88674602860566 | **28.778174593063** | 1.086e-01 | — | — | reference comparison only |
-| 798 | 28.93125509556197 | **28.798989873263** | 1.323e-01 | — | — | reference comparison only |
-| 799 | 28.94910783564662 | **28.798989873263** | 1.501e-01 | — | — | reference comparison only |
-| 800 | 28.96066201401205 | **28.798989873235** | 1.617e-01 | — | — | reference comparison only |
-| 801 | 28.96913960675661 | **28.828427124836** | 1.407e-01 | — | — | reference comparison only |
-| 802 | 28.98272201579610 | **28.828427124794** | 1.543e-01 | — | — | reference comparison only |
-| 803 | 29 | **28.899494936623** | 1.005e-01 | — | — | reference comparison only |
-| 804 | 29 | **28.909246527109** | 9.075e-02 | — | — | reference comparison only |
-| 805 | 29 | **28.909665866781** | 9.033e-02 | — | — | reference comparison only |
-| 806 | 29 | **28.919759255257** | 8.024e-02 | — | — | reference comparison only |
-| 807 | 29 | **28.924702911088** | 7.530e-02 | — | — | reference comparison only |
-| 808 | 29 | **28.932449886409** | 6.755e-02 | — | — | reference comparison only |
-| 809 | 29 | **28.937423313922** | 6.258e-02 | — | — | reference comparison only |
-| 810 | 29 | **28.951463124681** | 4.854e-02 | — | — | reference comparison only |
-| 811 | 29 | **28.981360068215** | 1.864e-02 | — | — | reference comparison only |
-| 812 | 29 | **28.981360065411** | 1.864e-02 | — | — | reference comparison only |
-| 813 | 29 | **28.989934397764** | 1.007e-02 | 28.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 814 | 29 | **28.993798579005** | 6.201e-03 | 28.999873603983 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/484) | **smaller than reviewed published bound** |
-| 815 | 29 | **28.995022162165** | 4.978e-03 | — | — | reference comparison only |
-| 816 | 29 | **28.998219025310** | 1.781e-03 | — | — | reference comparison only |
-| 817 | 29 | **28.998234675344** | 1.765e-03 | 28.998488480775 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 842 | 29.53553390593273 | **29.520815280189** | 1.472e-02 | — | — | reference comparison only |
-| 844 | 29.60257141234448 | **29.583782190184** | 1.879e-02 | — | — | reference comparison only |
-| 845 | 29.63414634146341 | **29.606601717813** | 2.754e-02 | — | — | reference comparison only |
-| 846 | 29.65685424949238 | **29.606601717811** | 5.025e-02 | — | — | reference comparison only |
-| 847 | 29.70710678118654 | **29.642135623771** | 6.497e-02 | — | — | reference comparison only |
-| 848 | 29.70710678118654 | **29.642135623771** | 6.497e-02 | — | — | reference comparison only |
-| 849 | 29.74106074604732 | **29.642135623771** | 9.893e-02 | — | — | reference comparison only |
-| 850 | 29.77817459305202 | **29.656854249504** | 1.213e-01 | — | — | reference comparison only |
-| 851 | 29.82287565553229 | **29.707106781213** | 1.158e-01 | — | — | reference comparison only |
-| 852 | 29.82412338847854 | **29.707106781227** | 1.170e-01 | — | — | reference comparison only |
-| 853 | 29.86889155557430 | **29.707106781211** | 1.618e-01 | — | — | reference comparison only |
-| 854 | 29.88674602860566 | **29.778174593064** | 1.086e-01 | — | — | reference comparison only |
-| 855 | 29.93125509556197 | **29.798989873264** | 1.323e-01 | — | — | reference comparison only |
-| 856 | 29.94910783564662 | **29.798989873235** | 1.501e-01 | — | — | reference comparison only |
-| 857 | 29.96066201401205 | **29.798989873263** | 1.617e-01 | — | — | reference comparison only |
-| 858 | 29.96913960675661 | **29.828427124800** | 1.407e-01 | — | — | reference comparison only |
-| 859 | 29.98272201579610 | **29.828427124783** | 1.543e-01 | — | — | reference comparison only |
-| 860 | 30 | **29.849242404983** | 1.508e-01 | — | — | reference comparison only |
-| 861 | 30 | **29.849242404930** | 1.508e-01 | — | — | reference comparison only |
-| 862 | 30 | **29.899494936623** | 1.005e-01 | — | — | reference comparison only |
-| 863 | 30 | **29.916419307158** | 8.358e-02 | — | — | reference comparison only |
-| 864 | 30 | **29.924702911088** | 7.530e-02 | — | — | reference comparison only |
-| 865 | 30 | **29.932449886372** | 6.755e-02 | — | — | reference comparison only |
-| 866 | 30 | **29.935764472092** | 6.424e-02 | — | — | reference comparison only |
-| 867 | 30 | **29.949688481948** | 5.031e-02 | — | — | reference comparison only |
-| 868 | 30 | **29.977390686096** | 2.261e-02 | — | — | reference comparison only |
-| 869 | 30 | **29.981360065417** | 1.864e-02 | — | — | reference comparison only |
-| 870 | 30 | **29.985424855388** | 1.458e-02 | — | — | reference comparison only |
-| 871 | 30 | **29.986798494999** | 1.320e-02 | 29.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 872 | 30 | **29.995022162165** | 4.978e-03 | — | — | reference comparison only |
-| 873 | 30 | **29.996375057649** | 3.625e-03 | — | — | reference comparison only |
-| 874 | 30 | **29.996375057649** | 3.625e-03 | — | — | reference comparison only |
-| 875 | 30 | **29.998783733114** | 1.216e-03 | 29.998783733108 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | tied (within 1e-10) |
-| 901 | 30.53553390593273 | **30.520815280191** | 1.472e-02 | — | — | reference comparison only |
-| 903 | 30.60257141234448 | **30.583782190184** | 1.879e-02 | — | — | reference comparison only |
-| 904 | 30.63414634146341 | **30.606601717828** | 2.754e-02 | — | — | reference comparison only |
-| 905 | 30.65685424949238 | **30.606601717811** | 5.025e-02 | — | — | reference comparison only |
-| 906 | 30.70710678118654 | **30.642135623779** | 6.497e-02 | — | — | reference comparison only |
-| 907 | 30.70710678118654 | **30.642135623779** | 6.497e-02 | — | — | reference comparison only |
-| 908 | 30.74106074604732 | **30.642135623749** | 9.893e-02 | — | — | reference comparison only |
-| 909 | 30.77817459305202 | **30.656854249505** | 1.213e-01 | — | — | reference comparison only |
-| 910 | 30.82287565553229 | **30.707106781201** | 1.158e-01 | — | — | reference comparison only |
-| 911 | 30.82412338847854 | **30.707106781227** | 1.170e-01 | — | — | reference comparison only |
-| 912 | 30.86889155557430 | **30.707106781232** | 1.618e-01 | — | — | reference comparison only |
-| 913 | 30.88674602860566 | **30.778174593064** | 1.086e-01 | — | — | reference comparison only |
-| 914 | 30.93125509556197 | **30.778174593064** | 1.531e-01 | — | — | reference comparison only |
-| 915 | 30.94910783564662 | **30.798989873262** | 1.501e-01 | — | — | reference comparison only |
-| 916 | 30.96066201401205 | **30.798989873263** | 1.617e-01 | — | — | reference comparison only |
-| 917 | 30.96913960675661 | **30.828427124814** | 1.407e-01 | — | — | reference comparison only |
-| 918 | 30.98272201579610 | **30.828427124812** | 1.543e-01 | — | — | reference comparison only |
-| 919 | 31 | **30.844931419248** | 1.551e-01 | — | — | reference comparison only |
-| 920 | 31 | **30.849242404939** | 1.508e-01 | — | — | reference comparison only |
-| 921 | 31 | **30.849242404979** | 1.508e-01 | — | — | reference comparison only |
-| 922 | 31 | **30.899494936630** | 1.005e-01 | — | — | reference comparison only |
-| 923 | 31 | **30.924702911089** | 7.530e-02 | — | — | reference comparison only |
-| 924 | 31 | **30.932449886407** | 6.755e-02 | — | — | reference comparison only |
-| 925 | 31 | **30.935764472093** | 6.424e-02 | — | — | reference comparison only |
-| 926 | 31 | **30.945612117337** | 5.439e-02 | — | — | reference comparison only |
-| 927 | 31 | **30.975475685286** | 2.452e-02 | — | — | reference comparison only |
-| 928 | 31 | **30.975475685250** | 2.452e-02 | — | — | reference comparison only |
-| 929 | 31 | **30.978235012054** | 2.176e-02 | — | — | reference comparison only |
-| 930 | 31 | **30.981535303453** | 1.846e-02 | — | — | reference comparison only |
-| 931 | 31 | **30.989934734706** | 1.007e-02 | 30.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 932 | 31 | **30.993891650207** | 6.108e-03 | — | — | reference comparison only |
-| 933 | 31 | **30.994238714885** | 5.761e-03 | — | — | reference comparison only |
-| 934 | 31 | **30.995302140775** | 4.698e-03 | — | — | reference comparison only |
-| 935 | 31 | **30.995336946287** | 4.663e-03 | 30.995955854834 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-| 962 | 31.53553390593273 | **31.520815280190** | 1.472e-02 | — | — | reference comparison only |
-| 964 | 31.60257141234448 | **31.556349186118** | 4.622e-02 | — | — | reference comparison only |
-| 965 | 31.63414634146341 | **31.606601717817** | 2.754e-02 | — | — | reference comparison only |
-| 966 | 31.65685424949238 | **31.606601717811** | 5.025e-02 | — | — | reference comparison only |
-| 967 | 31.70710678118654 | **31.642135623781** | 6.497e-02 | — | — | reference comparison only |
-| 968 | 31.70710678118654 | **31.642135623781** | 6.497e-02 | — | — | reference comparison only |
-| 969 | 31.74106074604732 | **31.642135623781** | 9.893e-02 | — | — | reference comparison only |
-| 970 | 31.77817459305202 | **31.656854249533** | 1.213e-01 | — | — | reference comparison only |
-| 971 | 31.82287565553229 | **31.707106781223** | 1.158e-01 | — | — | reference comparison only |
-| 972 | 31.82412338847854 | **31.707106781223** | 1.170e-01 | — | — | reference comparison only |
-| 973 | 31.86889155557430 | **31.707106781257** | 1.618e-01 | — | — | reference comparison only |
-| 974 | 31.88674602860566 | **31.707106781202** | 1.796e-01 | — | — | reference comparison only |
-| 975 | 31.93125509556197 | **31.778174593095** | 1.531e-01 | — | — | reference comparison only |
-| 976 | 31.94910783564662 | **31.778174593065** | 1.709e-01 | — | — | reference comparison only |
-| 977 | 31.96066201401205 | **31.798989873236** | 1.617e-01 | — | — | reference comparison only |
-| 978 | 31.96913960675661 | **31.828427124822** | 1.407e-01 | — | — | reference comparison only |
-| 979 | 31.98272201579610 | **31.828427124808** | 1.543e-01 | — | — | reference comparison only |
-| 980 | 32 | **31.828427124777** | 1.716e-01 | — | — | reference comparison only |
-| 981 | 32 | **31.849242404959** | 1.508e-01 | — | — | reference comparison only |
-| 982 | 32 | **31.849242405009** | 1.508e-01 | — | — | reference comparison only |
-| 983 | 32 | **31.899494936624** | 1.005e-01 | — | — | reference comparison only |
-| 984 | 32 | **31.914115712702** | 8.588e-02 | — | — | reference comparison only |
-| 985 | 32 | **31.920310216827** | 7.969e-02 | — | — | reference comparison only |
-| 986 | 32 | **31.920310216796** | 7.969e-02 | — | — | reference comparison only |
-| 987 | 32 | **31.944662519489** | 5.534e-02 | — | — | reference comparison only |
-| 988 | 32 | **31.949747468380** | 5.025e-02 | — | — | reference comparison only |
-| 989 | 32 | **31.975475685286** | 2.452e-02 | — | — | reference comparison only |
-| 990 | 32 | **31.977918827689** | 2.208e-02 | — | — | reference comparison only |
-| 991 | 32 | **31.981485095644** | 1.851e-02 | — | — | reference comparison only |
-| 992 | 32 | **31.984796372054** | 1.520e-02 | — | — | reference comparison only |
-| 993 | 32 | **31.984841090075** | 1.516e-02 | — | — | reference comparison only |
-| 994 | 32 | **31.993645614596** | 6.354e-03 | 31.999256308447 | [Kevin Fang (TheSnakeFang)](https://github.com/jlevy/squares/issues/603) | **smaller than reviewed published bound** |
-| 995 | 32 | **31.994784549717** | 5.215e-03 | — | — | reference comparison only |
-| 996 | 32 | **31.994784549401** | 5.215e-03 | — | — | reference comparison only |
-| 997 | 32 | **31.998300669644** | 1.699e-03 | — | — | reference comparison only |
-| 998 | 32 | **31.998301106081** | 1.699e-03 | 31.998349747355 | [Joost de Winter](https://github.com/jlevy/squares/issues/666) | **smaller than reviewed published bound** |
-
-<!-- /expanded-search-results -->
-
-<!-- complete-bound-catalogue -->
-
-The [complete verified upper-bound catalogue](certificates/best/README.md) covers every n=1..1024, using 542 retained finite witnesses, exact Göbel/Friedman constructions, L borders, deletion and grids. The [durable witness registry](certified_bounds.json) retains bound sources across comparison imports. [Source coverage](bound_sources.json) records the machine, repository, issue and PR review. Repository previews include credited adopted witnesses; the manifest distinguishes their original providers from native and browser refinements.
-
-<!-- /complete-bound-catalogue -->
+<!-- /current-records -->

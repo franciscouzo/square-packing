@@ -1,20 +1,140 @@
 {
   "n": 453,
   "packing": "n453.txt",
-  "packing_sha256": "2becb04986c20aca3b04adad2cb53ecc47d687f6d27fb8b6450742e76f9c0e9e",
+  "packing_sha256": "927fd14db9d1a751d2097085fc303a8a32ed951ea37c7c71e858787ad3469022",
   "certificate": "certificates/n453.cert",
-  "certificate_sha256": "68a1a114bdb8a224ef8547d54f04da6173a5e8ce13e19c36ae93953644001843",
-  "rational_side": "102264259577770337557839215709/4686073886229500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "0d805344bc52b3d87e4fb7bccf388634e269643cf1770481c5bac16cbbf5dd33",
+  "rational_side": "2182299541546189299541544107/100000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "48654f44890a2ae4a73932d20d4b8b04",
-      "n": 453,
-      "side": 21.823014758317115,
-      "method": "fq",
-      "received": "20261014T154634Z",
-      "original_packing_sha256": "bd98a1a1560f6af9ab92ae8b366b7b8616ad68589f2993a2023ca7cf1ff5af70"
-    }
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c",
+    "source_n": 412,
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 412,
+        "certificate": {
+          "valid": true,
+          "n": 412,
+          "side": "2082299541546189299541544107/100000000000000000000000000",
+          "side_float": 20.822995415461893,
+          "sha256": "e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "1041150283910459127428377571422068673770483674303083374840018386867552172273403777175149913233192104733416279694979544059063379185261409483341/49999999999999885000000000003482447613685203038248358214065950756087910286277094090330160561000000000000000000000000000000000000000000000000",
+        "source_sha256": "6ca19b7532ec69b4b3d07bde5cb8d8f55d7866f3b47f1d667e8ff00cb8c5e637",
+        "closed_reference": "1041150283910459127428377571422068673770483674303083374840018386867552172273403777175149913233192104733416279694979544059063379185261409483341/49999999999999885000000000003482447613685203038248358214065950756087910286277094090330160561000000000000000000000000000000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "104115028391045912743828907426117326152696535409061047497586588401886334928003120298264478828550855380232251923830489981580657499826730492393163379185261409483341/4999999999999988500000000000348244761368520303824835821406595075608791028627709409033016056100000000000000000000000000000000000000000000000000000000000000000000",
+        "source_ray_crop": "6370702169036754888314327226220784986258307378457400677673508331002732909744783096194841770343858961382723351600813728215233643244647132190863541544699351643207899087204720649530153343372871/305945369630810228692439489800975483060067281289423324990884287296603405226897773622906566145883029651521073398409905853070725086868847377756479591181126992200222683124000000000000000000000",
+        "native_candidate_side": "2082299541546189299541544107/100000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Material native geometry improvement",
+        "project_gain_ppm": 0.4928564374473027,
+        "producing_job": {
+          "id": "productive-frontier13-r1-412-227101-current-pm",
+          "n": 412,
+          "seed": 227101,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier13-r1-412-227101-current-pm",
+            "n": 412,
+            "seed": 227101,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "2082299541546189299541544107/100000000000000000000000000",
+            "sha256": "e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c",
+            "certificate": "certificates/e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c.cert",
+            "source": "native-sources/e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c.txt",
+            "source_sha256": "dca3d8f74ec7710c660588683e971b8d410f46d16010d23230e3321e48a16d68"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier13-r1-412-227101-current-pm",
+              "n": 412,
+              "seed": 227101,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 412,
+              "side": "2082299541546189299541544107/100000000000000000000000000",
+              "side_float": 20.822995415461893,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "e55a9d14491d3ff6bdf0efab0baaf0a19b62a05a2997e3c5ab94586aa7072e0c",
+              "pair_count": 84666,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 412 closed unit squares pairwise disjoint inside the open box of side 20.822995415461893032 (899 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier13-r1-412-227101-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier13-r1-412-227101-current-pm/run/search/b00003.txt",
+            "native_source_sha256": "dca3d8f74ec7710c660588683e971b8d410f46d16010d23230e3321e48a16d68",
+            "anchor_sha256": "6ca19b7532ec69b4b3d07bde5cb8d8f55d7866f3b47f1d667e8ff00cb8c5e637",
+            "reference": "1041150283910459127428377571422068673770483674303083374840018386867552172273403777175149913233192104733416279694979544059063379185261409483341/49999999999999885000000000003482447613685203038248358214065950756087910286277094090330160561000000000000000000000000000000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.080497,
+            "cap": 900.0,
+            "wall": 903.0148024049122,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "construction": {
+          "parent_n": 373,
+          "parent_certificate_sha256": "494742aa3408d8a34ebbdfe5811fe017bfebdd8430e8c3c840f7fdb13e2d43da",
+          "tiles": 1,
+          "layers": 1,
+          "strict_scale": "1+1e-24"
+        },
+        "seed_credit": "Francisco Couzo"
+      }
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 412,
+      "source_bound": "2082299541546189299541544107/100000000000000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 453,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

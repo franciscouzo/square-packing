@@ -1,39 +1,64 @@
 {
   "n": 867,
   "packing": "n867.txt",
-  "packing_sha256": "36f85a8f7f9f203d598c86ef78c23a8e854b43b63d4511b86393bf527ccf892d",
+  "packing_sha256": "b63cd02547315b8e9e6160b665455c6ba3c0f4ce663097d68897d19f9240626b",
   "certificate": "certificates/n867.cert",
-  "certificate_sha256": "c1fa89eada6b28b9217f27a8d13e77e424355170ac8130efac087ed505754344",
-  "rational_side": "5366107054571286936341061/179170713505100000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "bf2e0c6d1684c22ab97005446a595b0c0aac41f73cf04400513504bdb9334fd2",
+  "rational_side": "4098244706665771649689654343/136868754516500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "8c9b6fbe7473d2fab19fbd998a203605",
+    "seed_credit": "Francisco Couzo (web refinement); earlier source credits retained in provenance",
+    "source_certificate_sha256": "bf2e0c6d1684c22ab97005446a595b0c0aac41f73cf04400513504bdb9334fd2",
+    "source_n": 867,
+    "source_provenance": {
       "n": 867,
-      "side": 29.95086721689936,
-      "method": "hop",
-      "received": "20261014T110205Z",
-      "original_packing_sha256": "8866219556f84b9eab0b487734698972be35cca277a9fc35288771bb95d6e15a"
-    },
-    "search_job": {
-      "id": 109539,
-      "method": "fq",
-      "source": "n867.txt",
-      "source_origin": "constructed",
-      "source_sha256": "b1484d76bbf28e43ff4c163c166afb82f7222b96a75c2259033a31f0e391328b",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n867.txt",
-        "source_sha256": "d8a994d7095c17e08557709bea6f4cde9209b749e86376b8ee370d4df8e4b8ee",
-        "source_n": 867,
-        "source_side": 29.950105216740326,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 29.950105216740326
+      "side": "4098244706665771649689654343/136868754516500000000000000",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:2ebe90e1bf00c6e28a1d69e75d25bd21",
+      "certificate_sha256": "bf2e0c6d1684c22ab97005446a595b0c0aac41f73cf04400513504bdb9334fd2",
+      "record": {
+        "attribution": "franciscouzo",
+        "dilation": "1+1e-12",
+        "float_side": 29.942880105391424,
+        "method": "fq",
+        "n": 867,
+        "previous": 29.94292909395968,
+        "previous_holder": "this project",
+        "rational_side": "4098244706665771649689654343/136868754516500000000000000",
+        "received": "20261020T212244Z",
+        "seed": "volunteer",
+        "sha256": "c2032db2312df9d2d073e2d18e564be0510bb6a9a4745bd5b11b9d1ed2e8ae1c",
+        "side": 29.942880105420365
+      },
+      "received": "20261020T212244Z",
+      "previous_source_provenance": {
+        "n": 867,
+        "side": "51402937868793981236681888668307082420712238085267920862027699891661/1716697044150012044373133067166970441500120443731330500000000000000",
+        "certificate": "/root/square-packing/experiments/public-reconcile-20261020-2110/certificates/d543b4d63847a731ff0562915ad82e17d43cf024dc8e0a7163c9792098e3dcf3.cert",
+        "certificate_sha256": "d543b4d63847a731ff0562915ad82e17d43cf024dc8e0a7163c9792098e3dcf3",
+        "category": "web",
+        "source": "/var/lib/square-packing/database.sqlite3:record:053794674007ba398cc92a3bae3288db",
+        "public_credit": "franciscouzo",
+        "created": 1792530337.4330118,
+        "submission_id": "053794674007ba398cc92a3bae3288db",
+        "record": {
+          "n": 867,
+          "side": 29.94292909395968,
+          "previous": 29.94552765793754,
+          "previous_holder": "this project",
+          "rational_side": "51402937868793981236681888668307082420712238085267920862027699891661/1716697044150012044373133067166970441500120443731330500000000000000",
+          "float_side": 29.94292909393069,
+          "method": "fq",
+          "received": "20261020T210535Z",
+          "seed": "volunteer",
+          "sha256": "0de4f434467dd3bff9d57fac44d383345e464ba65e13064f75291cd4242f0f8f"
+        },
+        "rounded_up": "29.942929093960",
+        "source_url": null,
+        "received": "20261020T210535Z"
       }
-    }
-  },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
 }

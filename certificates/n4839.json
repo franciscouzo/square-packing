@@ -1,0 +1,162 @@
+{
+  "n": 4839,
+  "packing": "n4839.txt",
+  "packing_sha256": "bcc8b02f8b59247c14e0748ce5f5411e9a26555af9f9ec4379aac238ec9ca512",
+  "certificate": "certificates/n4839.cert",
+  "certificate_sha256": "d0e1d8105e309df34f89e38ea3dea75ac1d6060b6c1c6853f3ec8948e17ce3cb",
+  "rational_side": "120908228810017505243798476902557645294661024627063650865567/1727320861578185453400474108282500927721570304000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+    "source_certificate_sha256": "d0e1d8105e309df34f89e38ea3dea75ac1d6060b6c1c6853f3ec8948e17ce3cb",
+    "source_n": 4839,
+    "source_provenance": {
+      "n": 4839,
+      "side": "120908228810017505243798476902557645294661024627063650865567/1727320861578185453400474108282500927721570304000000000000",
+      "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial3/work-0-77-n4839/fq-in.txt",
+      "category": "Desktopo >1024",
+      "sha256": "3f7ddd34b1ef556e473bac71f93eee445492f1f9f8429ac5f380550c447ed67b",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/d0e1d8105e309df34f89e38ea3dea75ac1d6060b6c1c6853f3ec8948e17ce3cb.cert",
+      "certificate_sha256": "d0e1d8105e309df34f89e38ea3dea75ac1d6060b6c1c6853f3ec8948e17ce3cb",
+      "packing": "/root/square-packing/experiments/records-check-20261020-0640/poses/n4839.txt",
+      "packing_sha256": "d49f16f91cf593d1e6bb9d937669b6b9c2487518ca9b3187bb78e2b63b8d4709",
+      "rounded_up": "69.997550252215",
+      "previous": "69.998349747499",
+      "gain": 0.0007994952844548808,
+      "precision_refinement": false,
+      "construction": {
+        "n": 4839,
+        "kind": "recursive staircase",
+        "integer_side": 70,
+        "index": 1,
+        "initial_estimate": 69.99755081781707,
+        "components": [
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/fang-r22x21_n0443.cert",
+            "sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+            "n": 443,
+            "width": 21.990560384075724,
+            "height": 20.990560383885597,
+            "copies": 1
+          },
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/fang-r18x17_n0290.cert",
+            "sha256": "5a62861f97f470c147fe53cfc701efbb163d23b77a0d1d407275eb8ca8362436",
+            "n": 290,
+            "width": 17.99755081741707,
+            "height": 16.997550817134744,
+            "copies": 1
+          },
+          {
+            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/installed-n998.cert",
+            "sha256": "327fc1d4401cfefb49a2874f5e683b1edc45172faa7280356b254560c661d274",
+            "n": 998,
+            "width": 31.996875920292673,
+            "height": 31.996875920292673,
+            "copies": 1
+          },
+          {
+            "source": "grid 17x32",
+            "sha256": null,
+            "n": 544,
+            "width": 17.0,
+            "height": 32.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 31x17",
+            "sha256": null,
+            "n": 527,
+            "width": 31.0,
+            "height": 17.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 21x49",
+            "sha256": null,
+            "n": 1029,
+            "width": 21.0,
+            "height": 49.0,
+            "copies": 1
+          },
+          {
+            "source": "grid 48x21",
+            "sha256": null,
+            "n": 1008,
+            "width": 48.0,
+            "height": 21.0,
+            "copies": 1
+          }
+        ]
+      },
+      "source_manifest_sha256": "b1f5155466e7156f6eb89c3f2228cb6989670081cfe10980f058274cb49f6334",
+      "source_url": null,
+      "source_pieces": [
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/fang-r22x21_n0443.cert",
+          "sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+          "n": 443,
+          "width": 21.990560384075724,
+          "height": 20.990560383885597,
+          "copies": 1,
+          "credit": "Kevin Fang; original piece credits retained by provider",
+          "source_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/0e9be7961773aa78b879c4ee6ba584a67e2e5513/rectangles/r22x21_n0443/r22x21_n0443.cert"
+        },
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/fang-r18x17_n0290.cert",
+          "sha256": "5a62861f97f470c147fe53cfc701efbb163d23b77a0d1d407275eb8ca8362436",
+          "n": 290,
+          "width": 17.99755081741707,
+          "height": 16.997550817134744,
+          "copies": 1,
+          "credit": "Kevin Fang; original piece credits retained by provider",
+          "source_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/0e9be7961773aa78b879c4ee6ba584a67e2e5513/rectangles/r18x17_n0290/r18x17_n0290.cert"
+        },
+        {
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources-installed/installed-n998.cert",
+          "sha256": "327fc1d4401cfefb49a2874f5e683b1edc45172faa7280356b254560c661d274",
+          "n": 998,
+          "width": 31.996875920292673,
+          "height": 31.996875920292673,
+          "copies": 1,
+          "credit": "Darius Muglich, with original seed and construction credits in source provenance",
+          "source_url": "https://github.com/jlevy/squares/issues/686"
+        },
+        {
+          "source": "grid 17x32",
+          "sha256": null,
+          "n": 544,
+          "width": 17.0,
+          "height": 32.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 31x17",
+          "sha256": null,
+          "n": 527,
+          "width": 31.0,
+          "height": 17.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 21x49",
+          "sha256": null,
+          "n": 1029,
+          "width": 21.0,
+          "height": 49.0,
+          "copies": 1
+        },
+        {
+          "source": "grid 48x21",
+          "sha256": null,
+          "n": 1008,
+          "width": 48.0,
+          "height": 21.0,
+          "copies": 1
+        }
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
+}

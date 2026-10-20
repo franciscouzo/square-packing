@@ -1,20 +1,21 @@
 {
   "n": 544,
   "packing": "n544.txt",
-  "packing_sha256": "5f2207cb7e22c0fd1c063c0ed48d9737e1b41b59697b5a9c9c892a50ff76938d",
+  "packing_sha256": "2427bf270bcdd2dea47f4ef0596e1b067512d32b6db08dd3c347b15a7c274561",
   "certificate": "certificates/n544.cert",
-  "certificate_sha256": "f230f8957664d20ac2c1362c3b9ff95fb63f0a02b1a2ad4f6c423af7ecba8e98",
-  "rational_side": "105247308199061589261749539931/4416880209840500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "4b7c03ace26b350ac37c962afeecdb92c67528bb8f08ec01a4814e8c8c9a25be",
+  "rational_side": "106204719683191506574210087623/4457059592186500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "b7ec4d193e986be281f76fd871993a69",
-      "n": 544,
-      "side": 23.828427124774127,
-      "method": "fq",
-      "received": "20261014T040411Z",
-      "original_packing_sha256": "a333ab04b3a891860e46910b64c4d2c0de189df4da1b37750f5cbad9960a55a9"
-    }
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "4b7c03ace26b350ac37c962afeecdb92c67528bb8f08ec01a4814e8c8c9a25be",
+    "source_n": 544,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": []
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "dilation": "1+1e-12"
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

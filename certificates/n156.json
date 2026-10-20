@@ -1,27 +1,26 @@
 {
   "n": 156,
   "packing": "n156.txt",
-  "packing_sha256": "15c9460d7385d8bcac6ff787c12a5892f4cae89939b70d04c5f117a6b06deed7",
+  "packing_sha256": "3f4009b26daef585e470883f6021470429cf32d9b4d047111ee1fe476fd0a977",
   "certificate": "certificates/n156.cert",
-  "certificate_sha256": "1b4dfa721e3289c9f55f6920fe10360b75eb56dd03b366c281ddabf2dbf24dd2",
-  "rational_side": "12979165853834276453965882038847/1000000000000000000000000000000",
-  "kind": "exact optimum",
+  "certificate_sha256": "4b39ed76d3265fe62ebb5707ff373872c9d6a86726aec205d6054001c165d32a",
+  "rational_side": "648958292691713822691804519015415761935309055406679/50000000000000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Daniil Ostashev",
-    "seed_certificate": {
-      "source": "dostashev",
-      "certificate": "dostashev/records/n0156.sqcert",
-      "sha256": "694dcbf9f20ddb1ef19678fcbf7905736658834b0f2b31312d6d67380ca2534a",
-      "request": "https://github.com/jlevy/squares/issues/501",
-      "side": "8111982883527766297069290937797918339306619994848173142743008111982883527766297069290937797918339306619994848173142743/625000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+    "source_certificate_sha256": "4b39ed76d3265fe62ebb5707ff373872c9d6a86726aec205d6054001c165d32a",
+    "source_n": 156,
+    "source_provenance": {
+      "category": "mishapolk",
+      "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/square-156.cert",
+      "request": "https://github.com/jlevy/squares/issues/470",
+      "construction_credit": [
+        "Daniil Ostashev"
+      ]
     },
-    "search_job": {
-      "id": 89888,
-      "method": "hop",
-      "source": "external/seeds/n156.txt",
-      "source_origin": "external",
-      "source_sha256": "a455de39f83a089e9317fca19734aa966eb89f4676f431f6cdcd9ffef9395975",
-      "constructed_seed": null
-    }
-  }
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

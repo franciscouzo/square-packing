@@ -1,13 +1,26 @@
 {
   "n": 129,
   "packing": "n129.txt",
-  "packing_sha256": "b0218590ba455cc1174eb539e63df72d1bbb71d099a22bb56e7727c254a2062d",
+  "packing_sha256": "9b650113d5410f1d579646c3c65b174eecd35321272e176b64fe1664374edc5c",
   "certificate": "certificates/n129.cert",
-  "certificate_sha256": "24ea8fe356e3d00ce7a3a0c9805890e25a2dcd3cb625c9168ac33ac7907cb25c",
-  "rational_side": "2374002770080892868915770707857/200000000000000000000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "38cc69fc07a7b6a129a86babe1a0fd99d3778779413adfa4aeeb201bda1a1b19",
+  "rational_side": "593500692520223217223007670039029699948354116213961/50000000000000000000000000000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Mykhailo Polkovskyi (Mishapolk)"
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+    "source_certificate_sha256": "38cc69fc07a7b6a129a86babe1a0fd99d3778779413adfa4aeeb201bda1a1b19",
+    "source_n": 129,
+    "source_provenance": {
+      "category": "mishapolk",
+      "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n129.cert",
+      "request": "https://github.com/jlevy/squares/issues/593",
+      "construction_credit": [
+        "ry-xu"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

@@ -1,21 +1,45 @@
 {
   "n": 550,
   "packing": "n550.txt",
-  "packing_sha256": "fb6a9b0c359f8906c60e26885b613625ddaf445064fe1efa466e8d36d466d80a",
+  "packing_sha256": "8ee256992877047fb0344be7a42855c4b0f6f8acadb3f879420253a169756899",
   "certificate": "certificates/n550.cert",
-  "certificate_sha256": "117fbd7df817b88fd9bf0222e724ed8500492152b3eb9a11c0ce5c46fec4c4ae",
-  "rational_side": "52854434533518653040755715559/2205805388529500000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "b9b230cca4569b0e426e5db369c2c764a57a0abac683dc229ff390b3363e4c70",
+  "rational_side": "76600101155237659586681314611/3196908290430500000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "id": "4136b4e5a8084b9aae71f4d1202bf326",
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "b9b230cca4569b0e426e5db369c2c764a57a0abac683dc229ff390b3363e4c70",
+    "source_n": 550,
+    "source_provenance": {
       "n": 550,
-      "side": 23.96155416164116,
-      "method": "fq",
-      "received": "20261014T063228Z",
-      "original_packing_sha256": "62793afd05938278939598196c8c2ed61a8a0e2774cb8f7d0f7da117178d669f"
+      "side": "76600101155237659586681314611/3196908290430500000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/b9b230cca4569b0e426e5db369c2c764a57a0abac683dc229ff390b3363e4c70.cert",
+      "certificate_sha256": "b9b230cca4569b0e426e5db369c2c764a57a0abac683dc229ff390b3363e4c70",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:ba970edce171d9dec9b5a27c4d75c87e",
+      "rounded_up": "23.960681444798",
+      "public_credit": "franciscouzo",
+      "created": 1792452195.528996,
+      "submission_id": "ba970edce171d9dec9b5a27c4d75c87e",
+      "record": {
+        "n": 550,
+        "side": 23.960681444797586,
+        "previous": 23.961058656835014,
+        "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
+        "rational_side": "76600101155237659586681314611/3196908290430500000000000000",
+        "float_side": 23.960681444774625,
+        "method": "fq",
+        "received": "20261019T232312Z",
+        "seed": "campaign",
+        "sha256": "3eaa0c7172c0cc1b50cb6a91541fd8fd08be5bb6ee7c7de3c8881889149b0517"
+      },
+      "previous": "23.961058656836",
+      "gain": 0.0003772120374281289,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261019T232312Z"
     },
-    "seed_credit": "Francisco Couzo"
-  },
-  "dilation": "1+1e-12"
+    "construction": null,
+    "deleted_squares": 0
+  }
 }

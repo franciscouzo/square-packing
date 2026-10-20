@@ -1,39 +1,150 @@
 {
   "n": 703,
   "packing": "n703.txt",
-  "packing_sha256": "7659edc94baf89ad20d52eb074bbe53a5a06d2050f83dbca753128efe850c04a",
+  "packing_sha256": "f03073e84b14c0444ba22f53cdcec2ee2b3179b76b1b5ee0953308562c8a8a92",
   "certificate": "certificates/n703.cert",
-  "certificate_sha256": "2c22ac8cb4b4e5956ea88dd8ee58969da47b2ac150cce78a283e76f9fcecf8e2",
-  "rational_side": "437011695505241818556083163/16193139421658000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0",
+  "rational_side": "13490694600798007694600784517/500000000000000000000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
-    "construction": {
-      "parent_n": 29,
-      "parent_certificate_sha256": "b484ee938e1e8e0707b6ddacda481a5579abeb285e60dbd63688eb62f72155b2",
-      "rectangle": "r22x21_n0443",
-      "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
-      "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
-    },
-    "search_job": {
-      "id": 110589,
-      "method": "hop",
-      "source": "n703.txt",
-      "source_origin": "constructed",
-      "source_sha256": "0bf5e6146da464bd176c19d3641259d9eeecabcf467b947a1023581d5eed790f",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n703.txt",
-        "source_sha256": "9783c1a293ff30cdff9f06a66c355dd644606a73ea2b5877b5cb6f2c7146222c",
-        "source_n": 703,
-        "source_side": 26.987493360724134,
-        "layers": 0,
-        "deleted": 0,
-        "border_corners": [],
-        "border_layout": "single-corner",
-        "side": 26.987493360724134
+    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+    "source_certificate_sha256": "63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0",
+    "source_n": 703,
+    "source_provenance": {
+      "category": "public submission",
+      "source_url": "https://github.com/jlevy/squares/issues/686",
+      "source_provenance": {
+        "n": 703,
+        "certificate": {
+          "valid": true,
+          "n": 703,
+          "side": "13490694600798007694600784517/500000000000000000000000000",
+          "side_float": 26.981389201596016,
+          "sha256": "63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0",
+          "checks": [
+            "rational separating axes",
+            "rational polygon intersection"
+          ]
+        },
+        "source_side": "33726738367302726738367269/1250000000000000000000000",
+        "source_sha256": "811636c76005cf49879ef8f9c0ac3e82cef6850057c269943afad4b9285ccc11",
+        "closed_reference": "33726738367302726738367269/1250000000000000000000000",
+        "public_inventory_commit": "c6da0fc7524d667bf3d224559724ba9b60762e60",
+        "source_axis_crop": "21585112554031571563134184124764121216460980664319204118673145560125819644295984050838426288657733384839694998875128157670599889909869167573997/799999999999999200000000000000447764011422555864222328236802369895666051919697993169829679129000000000000000000000000000000000000000000000000",
+        "source_ray_crop": "31107913246766440558268032240586441799098660902171689628031662354806945760449826388167004969108507792613950911793267145508532233873302642031498346610355122467040762426558466633421007557933760693/1152939580551830787594331116796630743890793232006007748478371574985284622809707540886683832010901289124660638429012088013470101947849328811134688013832080622541829856387676000000000000000000000",
+        "native_candidate_side": "13490694600798007694600784517/500000000000000000000000000",
+        "beats_source_only_tightening": true,
+        "classification": "Precision-size native refinement",
+        "project_gain_ppm": 0.05530649867032133,
+        "producing_job": {
+          "id": "productive-frontier13-r1-703-227101-current-pm",
+          "n": 703,
+          "seed": 227101,
+          "arm": "current-pm",
+          "backend": "current",
+          "cpu": 900,
+          "track": "productive-followup",
+          "elite_share": 0.35
+        },
+        "native_record": {
+          "job": {
+            "id": "productive-frontier13-r1-703-227101-current-pm",
+            "n": 703,
+            "seed": 227101,
+            "arm": "current-pm",
+            "backend": "current",
+            "cpu": 900,
+            "track": "productive-followup",
+            "elite_share": 0.35
+          },
+          "record": {
+            "side": "13490694600798007694600784517/500000000000000000000000000",
+            "sha256": "63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0",
+            "certificate": "certificates/63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0.cert",
+            "source": "native-sources/63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0.txt",
+            "source_sha256": "424d6e697401267d5a26a957b9d2666a7c30c9ea64bd90281b500f0298744513"
+          },
+          "original_early_record": {
+            "job": {
+              "id": "productive-frontier13-r1-703-227101-current-pm",
+              "n": 703,
+              "seed": 227101,
+              "arm": "current-pm",
+              "backend": "current",
+              "cpu": 900,
+              "track": "productive-followup",
+              "elite_share": 0.35
+            },
+            "certificate": {
+              "valid": true,
+              "n": 703,
+              "side": "13490694600798007694600784517/500000000000000000000000000",
+              "side_float": 26.981389201596016,
+              "dilation": "1000000000001/1000000000000",
+              "sha256": "63faa441e3129ac36a5029b99e9f8e5fbba3cdcf5116910ad0b3f312b7cfd7f0",
+              "pair_count": 246753,
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ],
+              "log": "VALID: 703 closed unit squares pairwise disjoint inside the open box of side 26.981389201596016392 (1776 close pairs checked)\n"
+            },
+            "geometry": "early-candidates-r1/productive-frontier13-r1-703-227101-current-pm/geometry.cert",
+            "native_source": "attempts/productive-frontier13-r1-703-227101-current-pm/run/search/b00004.txt",
+            "native_source_sha256": "424d6e697401267d5a26a957b9d2666a7c30c9ea64bd90281b500f0298744513",
+            "anchor_sha256": "811636c76005cf49879ef8f9c0ac3e82cef6850057c269943afad4b9285ccc11",
+            "reference": "33726738367302726738367269/1250000000000000000000000",
+            "beats_frozen_reference": true,
+            "scope": "Early dual-exact custody only. Source-only tightening, full main audit and refreshed worldwide/public comparison pending."
+          },
+          "producing_budget": {
+            "status": "cpu_cap",
+            "returncode": -15,
+            "cpu": 899.030694,
+            "cap": 900.0,
+            "wall": 904.2414053510875,
+            "eligible": true
+          }
+        },
+        "recognition": "unconfirmed",
+        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
+        "new_problem_case": false
+      },
+      "construction": null,
+      "original_seed_credit": null,
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
+        "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
+        "construction": {
+          "parent_n": 29,
+          "parent_certificate_sha256": "b484ee938e1e8e0707b6ddacda481a5579abeb285e60dbd63688eb62f72155b2",
+          "rectangle": "r22x21_n0443",
+          "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+          "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+        },
+        "search_job": {
+          "id": 110589,
+          "method": "hop",
+          "source": "n703.txt",
+          "source_origin": "constructed",
+          "source_sha256": "0bf5e6146da464bd176c19d3641259d9eeecabcf467b947a1023581d5eed790f",
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n703.txt",
+            "source_sha256": "9783c1a293ff30cdff9f06a66c355dd644606a73ea2b5877b5cb6f2c7146222c",
+            "source_n": 703,
+            "source_side": 26.987493360724134,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 26.987493360724134
+          }
+        }
       }
-    }
+    },
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

@@ -1,0 +1,2675 @@
+{
+  "bd0ae28cf37cff7f7dc4447901434fb69ee3cef8a7780e69d4d9a5950c4b7149": {
+    "first": {
+      "n": 496,
+      "side": "4728252156315104130234035188140867288112126327730093939/207171621476346038271504245788572991344500000000000000",
+      "valid": true,
+      "pairs_tested": 7130,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 496,
+      "side": "4728252156315104130234035188140867288112126327730093939/207171621476346038271504245788572991344500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 7130,
+      "near_pairs": 1064,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "70bb582de06e4d11d5f830439cf5f9fa17d41230214b1027d65624d414edb534": {
+    "first": {
+      "n": 502,
+      "side": "180050874746661023830829330614152017552782948257834778547846724113/7851047672755579397755650078510476727555793977556500000000000000",
+      "valid": true,
+      "pairs_tested": 7278,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 502,
+      "side": "180050874746661023830829330614152017552782948257834778547846724113/7851047672755579397755650078510476727555793977556500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 7278,
+      "near_pairs": 1169,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2": {
+    "first": {
+      "n": 505,
+      "side": "21097041348205130185414401299/918693320424500000000000000",
+      "valid": true,
+      "pairs_tested": 7349,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 505,
+      "side": "21097041348205130185414401299/918693320424500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 7349,
+      "near_pairs": 1252,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 7482,
+      "side": "315885140426547210405639997811392339541043/13737524311768234970671984516000000000000",
+      "n": 509
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6",
+      "candidate_pairs": 7482,
+      "near_pairs": 1192,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "491ae378def0b6883f98241d341ed95f8df0fa2c2795995c436ae52b4708fe32": {
+    "first": {
+      "n": 547,
+      "side": "1562972598885144549318230772250369155266997480863697829751460997637/65389581835541230021218459784031620999315504186318500000000000000",
+      "valid": true,
+      "pairs_tested": 8108,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 547,
+      "side": "1562972598885144549318230772250369155266997480863697829751460997637/65389581835541230021218459784031620999315504186318500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 8108,
+      "near_pairs": 1430,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "b9b230cca4569b0e426e5db369c2c764a57a0abac683dc229ff390b3363e4c70": {
+    "first": {
+      "n": 550,
+      "side": "76600101155237659586681314611/3196908290430500000000000000",
+      "valid": true,
+      "pairs_tested": 8190,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 550,
+      "side": "76600101155237659586681314611/3196908290430500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 8190,
+      "near_pairs": 1241,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "992c12d0fa01d8315c4ca52bba8571d41166aacb18e9555dd0a9899f18b617e0": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 8791,
+      "side": "28637022224163233583431157045612145251100405459550954549605539075179520339800271241907223/1147583263082743146057650848623417285156533235056422173033408883444105986500000000000000",
+      "n": 597
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "992c12d0fa01d8315c4ca52bba8571d41166aacb18e9555dd0a9899f18b617e0",
+      "candidate_pairs": 8791,
+      "near_pairs": 1630,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": true
+    }
+  },
+  "1a5ff34471303b101262107f6ab2c345bb5cb84dcab7472cb563faecc61b51a9": {
+    "first": {
+      "n": 598,
+      "side": "227554781458474481781160909581060932872395693328438389/9118311367922811032804350182259047569500000000000000",
+      "valid": true,
+      "pairs_tested": 8826,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 598,
+      "side": "227554781458474481781160909581060932872395693328438389/9118311367922811032804350182259047569500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 8826,
+      "near_pairs": 1353,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "edf94b38c489e68dad8d3d5bf378e927d6677d9ec8ef0a9098391ec113fd338a": {
+    "first": {
+      "n": 653,
+      "side": "54157004879824766222195038109955477975897962221950376100538299531203/2083420038773291657996122670834200387732916579961226500000000000000",
+      "valid": true,
+      "pairs_tested": 9946,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 653,
+      "side": "54157004879824766222195038109955477975897962221950376100538299531203/2083420038773291657996122670834200387732916579961226500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 9946,
+      "near_pairs": 1769,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "6d62c34b8ba7f1201b0939b3f5c9c208b268723ff5f72ef53ecc672c018f46ae": {
+    "first": {
+      "n": 702,
+      "side": "288647632281802443187681875175349434432525557006164991/10699973997245831118921991269333850070500000000000000",
+      "valid": true,
+      "pairs_tested": 10559,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 702,
+      "side": "288647632281802443187681875175349434432525557006164991/10699973997245831118921991269333850070500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 10559,
+      "near_pairs": 1891,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "6e000f6a78e197e731c39fdb95a75d0d828eee274daf0012fe9245c5de8f7580": {
+    "first": {
+      "n": 747,
+      "side": "12073827572813791760153483431/432933285890500000000000000",
+      "valid": true,
+      "pairs_tested": 11308,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 747,
+      "side": "12073827572813791760153483431/432933285890500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 11308,
+      "near_pairs": 1652,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "84af631328b28f9e267f5a65ef652d49dd3de76f2117b50247de828918863cb0": {
+    "first": {
+      "n": 748,
+      "side": "130364130157940949015784984609/4674463299429500000000000000",
+      "valid": true,
+      "pairs_tested": 11339,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 748,
+      "side": "130364130157940949015784984609/4674463299429500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 11339,
+      "near_pairs": 1873,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "180b5d144ef91ae1ebb078533e4bbfadf1ebbecceac9a616cefca96b0ab894b0": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 11361,
+      "side": "130364130157940949015784984609/4674463299429500000000000000",
+      "n": 749
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "180b5d144ef91ae1ebb078533e4bbfadf1ebbecceac9a616cefca96b0ab894b0",
+      "candidate_pairs": 11361,
+      "near_pairs": 1877,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": true
+    }
+  },
+  "58e54bb09ac7cdfde316058562afc76cdfe41f193996bee1fce82e4badd4da41": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 11407,
+      "side": "2598746588288349144425378324119461203898341991129025495522072670579/93107038068315045349011064730622435979663271013439500000000000000",
+      "n": 750
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "58e54bb09ac7cdfde316058562afc76cdfe41f193996bee1fce82e4badd4da41",
+      "candidate_pairs": 11407,
+      "near_pairs": 1831,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": true
+    }
+  },
+  "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f": {
+    "first": {
+      "n": 751,
+      "side": "37683976423149836682175231709/1349994236354500000000000000",
+      "valid": true,
+      "pairs_tested": 11425,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 751,
+      "side": "37683976423149836682175231709/1349994236354500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 11425,
+      "near_pairs": 1668,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "27b72c177e25c9272fb4227ea93fbb2b2332f9fcca9b1f8d65ce3b0fcff68a80": {
+    "first": {
+      "n": 801,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 12020,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 801,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12020,
+      "near_pairs": 1740,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "3bc0e67b5ab0d573abe358d767fcbd938c233ea63c8e6a5cd0b9ed5a8d07e615": {
+    "first": {
+      "n": 802,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 12042,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 802,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12042,
+      "near_pairs": 1742,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679": {
+    "first": {
+      "n": 803,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 12057,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 803,
+      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12057,
+      "near_pairs": 1745,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "307e1a956cc07a2ca23d04557bc6548d89e49368db4a7acf4a51720c900a3108": {
+    "first": {
+      "n": 804,
+      "side": "135038593457370449015784984609/4674463299429500000000000000",
+      "valid": true,
+      "pairs_tested": 12097,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 804,
+      "side": "135038593457370449015784984609/4674463299429500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 12097,
+      "near_pairs": 2034,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "191cd2b1a0d94ca085bba607b7fa252b27e46dcdad7f0238adf53e4a0600655b": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 12111,
+      "side": "4439973321856536861649210825795930083404226609860013981/153599268797026097051644096887424473615500000000000000",
+      "n": 805
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "191cd2b1a0d94ca085bba607b7fa252b27e46dcdad7f0238adf53e4a0600655b",
+      "candidate_pairs": 12111,
+      "near_pairs": 2198,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": true
+    }
+  },
+  "354a1614453b7631a608d42545deb09baa3ce8a6490f75f80486a71ed70e6b0c": {
+    "first": {
+      "n": 806,
+      "side": "39033970659504336682175231709/1349994236354500000000000000",
+      "valid": true,
+      "pairs_tested": 12163,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 806,
+      "side": "39033970659504336682175231709/1349994236354500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 12163,
+      "near_pairs": 1825,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "0b9634bc136988aa628c0816e169839ba07ccd7191778f16c671f0f27c46043f": {
+    "first": {
+      "n": 808,
+      "side": "12113555080424187918502527389138845601201251313721807390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "pairs_tested": 12223,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 808,
+      "side": "12113555080424187918502527389138845601201251313721807390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12223,
+      "near_pairs": 1970,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "9f9d3c89bf3f8f7e6bb8803571e6e7583d3b2524692755bf7015fdb38be41352": {
+    "first": {
+      "n": 809,
+      "side": "139341281307276285073506888673/4815839479211500000000000000",
+      "valid": true,
+      "pairs_tested": 12240,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 809,
+      "side": "139341281307276285073506888673/4815839479211500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12240,
+      "near_pairs": 1895,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "ad415e1e6b99d6edf12ac5f880406b053b01eaeca3c7da713ed6e1f6d742a5dc": {
+    "first": {
+      "n": 815,
+      "side": "2693806663943726077815226267/92914678071000000000000000",
+      "valid": true,
+      "pairs_tested": 12442,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 815,
+      "side": "2693806663943726077815226267/92914678071000000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 12442,
+      "near_pairs": 1897,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "cf8be140caf373ff5f18a91b8aaea82337e441c1cfdbaf47353f301fa42b72ce": {
+    "first": {
+      "n": 858,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13095,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 858,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13095,
+      "near_pairs": 1903,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "63248cd069ad37240cc6769abb0036e4684283f01c1ed18da9966c573f40fc6a": {
+    "first": {
+      "n": 859,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13115,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 859,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13115,
+      "near_pairs": 1906,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "36d34a6a67d400cc09311a5ad70438f29ab8067bfc897050814f9ae2ad53199a": {
+    "first": {
+      "n": 860,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13136,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 860,
+      "side": "10330433008842977781582337808274037958322395503829578220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13136,
+      "near_pairs": 1909,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c9b5cc826d10ce7b79f7ddbaea2e6b28e01a2080da480188d2f16a76cf4d9df5": {
+    "first": {
+      "n": 863,
+      "side": "1467922695489468976818081660409787002393383157591397569/49088236323750491757413442688065741409500000000000000",
+      "valid": true,
+      "pairs_tested": 13237,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 863,
+      "side": "1467922695489468976818081660409787002393383157591397569/49088236323750491757413442688065741409500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 13237,
+      "near_pairs": 2285,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "97676c633d60ccb6e23ef77b0867b55e1f71107bfa92f67fa4cdbadde90fb9a8": {
+    "first": {
+      "n": 865,
+      "side": "12532252887474018835852168943325823671699560487218222890985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "pairs_tested": 13304,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 865,
+      "side": "12532252887474018835852168943325823671699560487218222890985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13304,
+      "near_pairs": 2134,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c565f23797dfccb6e95508fae151cf39ef884f01f1ba99091b99ce0f0dfc2fad": {
+    "first": {
+      "n": 866,
+      "side": "144157120786487785073506888673/4815839479211500000000000000",
+      "valid": true,
+      "pairs_tested": 13319,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 866,
+      "side": "144157120786487785073506888673/4815839479211500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13319,
+      "near_pairs": 2059,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "bf2e0c6d1684c22ab97005446a595b0c0aac41f73cf04400513504bdb9334fd2": {
+    "first": {
+      "n": 867,
+      "side": "4098244706665771649689654343/136868754516500000000000000",
+      "valid": true,
+      "pairs_tested": 13339,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 867,
+      "side": "4098244706665771649689654343/136868754516500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 13339,
+      "near_pairs": 2070,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "7a976b7fa0cd17235c46ce2f335b933e1798d4896d4337debf79cf76a8e3f7ff": {
+    "first": {
+      "n": 872,
+      "side": "2786721342014726077815226267/92914678071000000000000000",
+      "valid": true,
+      "pairs_tested": 13519,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 872,
+      "side": "2786721342014726077815226267/92914678071000000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13519,
+      "near_pairs": 2059,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "152692d74134d477ecd02fca5357536c4b1891ed881c8cda43bc584bddbafa13": {
+    "first": {
+      "n": 873,
+      "side": "145930153476937824291827241701/4865592835225500000000000000",
+      "valid": true,
+      "pairs_tested": 13556,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 873,
+      "side": "145930153476937824291827241701/4865592835225500000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 13556,
+      "near_pairs": 2079,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "e31804ab3860640637c401d82d814afc0eec5228846d905095496fe18441bc50": {
+    "first": {
+      "n": 917,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13908,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 917,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13908,
+      "near_pairs": 2130,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "4d41347d862e6b56fbff6d311587224a04331aaa7b8ba8de41be5bfe7eb59b56": {
+    "first": {
+      "n": 918,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13921,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 918,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13921,
+      "near_pairs": 2133,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c2728f46dea398746af98fb9175186d3c42d71a807a91582978925f352cba727": {
+    "first": {
+      "n": 919,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 13931,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 919,
+      "side": "10676771236755927263359236461737420237451890321598564720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 13931,
+      "near_pairs": 2135,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "caad83c98e35aa94b3c340e5ef4699c2d5bb0b1f3beed4933b747955765b8625": {
+    "first": {
+      "n": 924,
+      "side": "12950950694523849753201810497512801742197869660714638390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "pairs_tested": 14100,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 924,
+      "side": "12950950694523849753201810497512801742197869660714638390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 14100,
+      "near_pairs": 2360,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "59168185a0b4ea47d5e0298361190a4d8a5d6596d34758edc38beb975ea9a4d6": {
+    "first": {
+      "n": 925,
+      "side": "148972960265699285073506888673/4815839479211500000000000000",
+      "valid": true,
+      "pairs_tested": 14116,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 925,
+      "side": "148972960265699285073506888673/4815839479211500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 14116,
+      "near_pairs": 2285,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "770e4e8feb79c147059a6d26ead408c6c84626664266606df0b70958397cf96f": {
+    "first": {
+      "n": 926,
+      "side": "4235113461182271649689654343/136868754516500000000000000",
+      "valid": true,
+      "pairs_tested": 14128,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 926,
+      "side": "4235113461182271649689654343/136868754516500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 14128,
+      "near_pairs": 2239,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "72d47579b33c832ff09084a4a00fb946409a1d19f629546dad84d65820a9bc07": {
+    "first": {
+      "n": 932,
+      "side": "150795746312163324291827241701/4865592835225500000000000000",
+      "valid": true,
+      "pairs_tested": 14341,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 932,
+      "side": "150795746312163324291827241701/4865592835225500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 14341,
+      "near_pairs": 2245,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "a05b7d0a11288e4e4ae9b2b5a9d8706665327ec03d64a8205096566740391c80": {
+    "first": {
+      "n": 978,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 15059,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 978,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 15059,
+      "near_pairs": 2364,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "17b4614786c81eb3ca43425814651ebeaf46d0d3793a7c55b1ea6b800e0c83d4": {
+    "first": {
+      "n": 979,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 15075,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 979,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 15075,
+      "near_pairs": 2367,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "0a5705abb024edb2daa05fd6bb5752a26a34e57d32e34151f0a8af81e6552391": {
+    "first": {
+      "n": 980,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "pairs_tested": 15092,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 980,
+      "side": "11023109464668876745136135115200802516581385139367551220001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 15092,
+      "near_pairs": 2369,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "1448ebd2b6e79055cd8e59402f984cced22b9e28f44f5b49ba76fea5c481a1a7": {
+    "first": {
+      "n": 987,
+      "side": "4371982215698771649689654343/136868754516500000000000000",
+      "valid": true,
+      "pairs_tested": 15287,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 987,
+      "side": "4371982215698771649689654343/136868754516500000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 15287,
+      "near_pairs": 2473,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "5f251ffea9cd52499d4c9abb4ae3a7d7cbef8891270f0660c3849f6ad4fff9b8": {
+    "first": {
+      "n": 994,
+      "side": "75025731405148544851468129176806535243608103436800497/2345077880787500000000000023450778807875000000000000",
+      "valid": true,
+      "pairs_tested": 15507,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 994,
+      "side": "75025731405148544851468129176806535243608103436800497/2345077880787500000000000023450778807875000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 15507,
+      "near_pairs": 2355,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "e9e2762a7c0e80fd673035c135b0992d7bef09c245df28183950f66de2660c3c": {
+    "first": {
+      "n": 995,
+      "side": "386736709089352929754857685915166817464624679766371404851380373153/12087903319959022098778275120879033199590220987782750000000000000",
+      "valid": true,
+      "pairs_tested": 15562,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 995,
+      "side": "386736709089352929754857685915166817464624679766371404851380373153/12087903319959022098778275120879033199590220987782750000000000000",
+      "valid": true,
+      "strict_valid": true,
+      "wall_margin_sign": 1,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 15562,
+      "near_pairs": 2335,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c13a94795adac1f2f397aeea8b45de5c64878a9bef09849842a242ff8c0b3c78": {
+    "first": {
+      "n": 1061,
+      "side": "82146354562160256765907529/2489588654551600000000000",
+      "valid": true,
+      "pairs_tested": 16520,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1061,
+      "side": "82146354562160256765907529/2489588654551600000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 16520,
+      "near_pairs": 2509,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "083b78a7986c143fbf29a4eebf1aa4c6686184574e0c41b11d488f6d231db02f": {
+    "first": {
+      "n": 1263,
+      "side": "554745114254692332766208171/15412348045982000000000000",
+      "valid": true,
+      "pairs_tested": 19941,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1263,
+      "side": "554745114254692332766208171/15412348045982000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 19941,
+      "near_pairs": 2938,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "a053b1e0ec1789a937a06aa4244d37547d105a9b81a0ce3cbc3901738d775932": {
+    "first": {
+      "n": 1266,
+      "side": "7154126068419701653805424823963748218039263/198747550999465681895967823754000000000000",
+      "valid": true,
+      "pairs_tested": 20097,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1266,
+      "side": "7154126068419701653805424823963748218039263/198747550999465681895967823754000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 20097,
+      "near_pairs": 3052,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "ca738797bb61bf8edf8e88f348ed289c578643a58e1a7103c4dab67a14f5b223": {
+    "first": {
+      "n": 1335,
+      "side": "69180562063073403153103677/1870246752032600000000000",
+      "valid": true,
+      "pairs_tested": 20939,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1335,
+      "side": "69180562063073403153103677/1870246752032600000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 20939,
+      "near_pairs": 3039,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "81df805acd8638e1aa76dae35c2cc21257444d97ba345f01b74ff5a2ccacc9fe": {
+    "first": {
+      "n": 1339,
+      "side": "247766578754686340078410594673928318675693220397772935889853173650099414015041/6696780405573488981509794157808108624275049063537523737344606208000000000000",
+      "valid": true,
+      "pairs_tested": 21142,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1339,
+      "side": "247766578754686340078410594673928318675693220397772935889853173650099414015041/6696780405573488981509794157808108624275049063537523737344606208000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 21142,
+      "near_pairs": 3234,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299": {
+    "first": {
+      "n": 1413,
+      "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+      "valid": true,
+      "pairs_tested": 22550,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1413,
+      "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 22550,
+      "near_pairs": 3307,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "0189695cde3c1cf19fae7848c2cc6b20651081505612495f4b74319aa401e851": {
+    "first": {
+      "n": 1489,
+      "side": "2129694834888432657321383/54610920911200000000000",
+      "valid": true,
+      "pairs_tested": 23621,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1489,
+      "side": "2129694834888432657321383/54610920911200000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 23621,
+      "near_pairs": 3706,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "65e95000b3f31106615d6d60828fefa14ea430e2657f027c2d922737c5074f84": {
+    "first": {
+      "n": 1564,
+      "side": "494695208722337325579646357/12369629075498000000000000",
+      "valid": true,
+      "pairs_tested": 24975,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1564,
+      "side": "494695208722337325579646357/12369629075498000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 24975,
+      "near_pairs": 3625,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "5e786548000274ca08eef177af07faa79b70c29196864e1d8b157cbb3eb0bb88": {
+    "first": {
+      "n": 1568,
+      "side": "213802133319945456991340859/5345141978878000000000000",
+      "valid": true,
+      "pairs_tested": 25179,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1568,
+      "side": "213802133319945456991340859/5345141978878000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 25179,
+      "near_pairs": 3775,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "d310deecc9367defcd06fbc464678bd31e249c46932ac5f5196e3a614472251a": {
+    "first": {
+      "n": 1644,
+      "side": "267869369679550112995233896606435682852293146424193858931/6534303219777424245133636395915561258439803000000000000",
+      "valid": true,
+      "pairs_tested": 26081,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1644,
+      "side": "267869369679550112995233896606435682852293146424193858931/6534303219777424245133636395915561258439803000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 26081,
+      "near_pairs": 3686,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "05147ab084176f7e440f6982b705f61fae54bd0be08b94c048c19c77423337c4": {
+    "first": {
+      "n": 1648,
+      "side": "786583033768860397764049323/19185269718770000000000000",
+      "valid": true,
+      "pairs_tested": 26294,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1648,
+      "side": "786583033768860397764049323/19185269718770000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 26294,
+      "near_pairs": 3867,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "b1034c7d8b668d1e5b7b779cf7508deb11955426655861b691bc655a52aaa9ef": {
+    "first": {
+      "n": 1727,
+      "side": "8028228727215227214059234717696347487035828233622565537877/191151688144690910209663158762616511915159747000000000000",
+      "valid": true,
+      "pairs_tested": 27739,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1727,
+      "side": "8028228727215227214059234717696347487035828233622565537877/191151688144690910209663158762616511915159747000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 27739,
+      "near_pairs": 3914,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c50b35a96f60d7205fe8988be535e38fb6a2282baac35934f4dee36c28cc6cdd": {
+    "first": {
+      "n": 1729,
+      "side": "805768303487630397764049323/19185269718770000000000000",
+      "valid": true,
+      "pairs_tested": 27862,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1729,
+      "side": "805768303487630397764049323/19185269718770000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 27862,
+      "near_pairs": 4091,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "350a59699a1cc3c0af90414411e1fb89a247e36d5c121a4245e3a4b7b90670af": {
+    "first": {
+      "n": 1811,
+      "side": "26690023882286124942107676633076597119801989844698792987461/620733593710348110512795920177407651091556010000000000000",
+      "valid": true,
+      "pairs_tested": 28899,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1811,
+      "side": "26690023882286124942107676633076597119801989844698792987461/620733593710348110512795920177407651091556010000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 28899,
+      "near_pairs": 4081,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "1e44fc204930db7c733bddf8dce3899249eb0e2573514394ba3b6c70b74504e6": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 28938,
+      "side": "787528855106674213208378207/18315646727698000000000000",
+      "n": 1812
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "1e44fc204930db7c733bddf8dce3899249eb0e2573514394ba3b6c70b74504e6",
+      "candidate_pairs": 28938,
+      "near_pairs": 4241,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "7676c6a4d056706ba3a3cd6740affff2c5880ebb6f483c8b33f7565d03d95d62": {
+    "first": {
+      "n": 1897,
+      "side": "331740599915561200068789439/7540531125798000000000000",
+      "valid": true,
+      "pairs_tested": 30567,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1897,
+      "side": "331740599915561200068789439/7540531125798000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 30567,
+      "near_pairs": 4314,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "8853c28c411e4bf1df8cbd61172b53f0671f630838206de3c976d89e88232a4d": {
+    "first": {
+      "n": 1899,
+      "side": "517924629878249153438091073/11771191786670000000000000",
+      "valid": true,
+      "pairs_tested": 30695,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 1899,
+      "side": "517924629878249153438091073/11771191786670000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 30695,
+      "near_pairs": 4495,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "5f048fc21d41f5851c0724cb5f4e90a55acd3e49928cd7df15a1a6e6f1c498c2": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 31821,
+      "side": "47869529575182805705518307/1063824056829000000000000",
+      "n": 1986
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "5f048fc21d41f5851c0724cb5f4e90a55acd3e49928cd7df15a1a6e6f1c498c2",
+      "candidate_pairs": 31821,
+      "near_pairs": 4593,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "47ec4dede18be997c58413cf2e76f143e5017513eece2b04bf82c704bcb18e7a": {
+    "first": {
+      "n": 2076,
+      "side": "29130830406233127489905240398774884295278107346819466218439/633312649352684127964061139516880492261539840000000000000",
+      "valid": true,
+      "pairs_tested": 33578,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2076,
+      "side": "29130830406233127489905240398774884295278107346819466218439/633312649352684127964061139516880492261539840000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 33578,
+      "near_pairs": 4686,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "389b5306fe3479e5172ff904c15ad47e47d69121b9becdbbf106e1ecb97b3886": {
+    "first": {
+      "n": 2168,
+      "side": "485970212882858629291831901/10340921050482000000000000",
+      "valid": true,
+      "pairs_tested": 34874,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2168,
+      "side": "485970212882858629291831901/10340921050482000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 34874,
+      "near_pairs": 5000,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "409707eebd0473b6386044f0f9afce6002379b3a52b21ad961349e0e29392ffe": {
+    "first": {
+      "n": 2262,
+      "side": "28903861660108101667148741/602194511338800000000000",
+      "valid": true,
+      "pairs_tested": 36728,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "409707eebd0473b6386044f0f9afce6002379b3a52b21ad961349e0e29392ffe",
+      "candidate_pairs": 36728,
+      "near_pairs": 5093,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "e6604ba6fbd6eb368baf4c2c2cdda3eeb44696385c51f817a1d2c329927afc8a": {
+    "first": {
+      "n": 2263,
+      "side": "649797673839677260012532327/13537661306714000000000000",
+      "valid": true,
+      "pairs_tested": 36764,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2263,
+      "side": "649797673839677260012532327/13537661306714000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 36764,
+      "near_pairs": 5117,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "97142f9944f480a473a42f0c33964a17f0626722ac6d980f3a3e47ca9a91c58d": {
+    "first": {
+      "n": 2358,
+      "side": "439566629382975595140202211/8971489180334000000000000",
+      "valid": true,
+      "pairs_tested": 38040,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "97142f9944f480a473a42f0c33964a17f0626722ac6d980f3a3e47ca9a91c58d",
+      "candidate_pairs": 38040,
+      "near_pairs": 5418,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "9c69c6a5b0a05a9e9475731f596b674b5ea6cf2a3e3515a18c5bd84fab9c6164": {
+    "first": {
+      "n": 2359,
+      "side": "252280942751164369822816412209811129246428818461896133435439/5148848082462948672066472024902262050820758314000000000000",
+      "valid": true,
+      "pairs_tested": 38086,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2359,
+      "side": "252280942751164369822816412209811129246428818461896133435439/5148848082462948672066472024902262050820758314000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 38086,
+      "near_pairs": 5284,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "4916e015b2f152d82d6bed91fe0aea01d4be9dec5903b346251ad709080fdf30": {
+    "first": {
+      "n": 2457,
+      "side": "47403191045297921848067456069760873204118644616208199371/948123061141172228752481842343372813286553020000000000",
+      "valid": true,
+      "pairs_tested": 40015,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2457,
+      "side": "47403191045297921848067456069760873204118644616208199371/948123061141172228752481842343372813286553020000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 40015,
+      "near_pairs": 5501,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "aedae7f5273d1d6bb60774cc489fd3c2e9c391e20e1e19b3b6b1160bb0d9a727": {
+    "first": {
+      "n": 2557,
+      "side": "444225155674270514341710309/8710813963526000000000000",
+      "valid": true,
+      "pairs_tested": 41407,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2557,
+      "side": "444225155674270514341710309/8710813963526000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 41407,
+      "near_pairs": 5820,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "72ce4008d7b48b4364dc485def4773fd7bd031a9f20be54a7e9fe8166afab253": {
+    "first": {
+      "n": 2659,
+      "side": "918580395445051913408477249/17666986966902000000000000",
+      "valid": true,
+      "pairs_tested": 43415,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2659,
+      "side": "918580395445051913408477249/17666986966902000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 43415,
+      "near_pairs": 6064,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "e798eb68b6e589fc8509510f32f9cd2ee8ea7b77587ddc8674a9f4f28179750c": {
+    "first": {
+      "n": 2764,
+      "side": "599653832101133338941898339/11314890202206000000000000",
+      "valid": true,
+      "pairs_tested": 44903,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 2764,
+      "side": "599653832101133338941898339/11314890202206000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 44903,
+      "near_pairs": 6237,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "3391b03326a6b7af8322de8def739b3451b902f6679fda33a960a942153de03f": {
+    "first": {
+      "n": 2870,
+      "side": "1562299578488314128723900719610098333669610083/28932617475587500000289326174755875000000000",
+      "valid": true,
+      "pairs_tested": 47025,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "3391b03326a6b7af8322de8def739b3451b902f6679fda33a960a942153de03f",
+      "candidate_pairs": 47025,
+      "near_pairs": 6544,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "4cff9fb6b1ca390a07236559c39b57543dced6d2610138443eb30e3a59a84b3b": {
+    "first": {
+      "n": 2978,
+      "side": "107797741468317741208858992364546611377064545553/1960035013460600000019600350134606000000000000",
+      "valid": true,
+      "pairs_tested": 48547,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "4cff9fb6b1ca390a07236559c39b57543dced6d2610138443eb30e3a59a84b3b",
+      "candidate_pairs": 48547,
+      "near_pairs": 6774,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "06c3d328ed560e1647c19328d219212cb0b2b97a44eecf2062efdc2626557f5f": {
+    "first": {
+      "n": 3088,
+      "side": "43758733474036577294030963/781439443030600000000000",
+      "valid": true,
+      "pairs_tested": 50716,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "06c3d328ed560e1647c19328d219212cb0b2b97a44eecf2062efdc2626557f5f",
+      "candidate_pairs": 50716,
+      "near_pairs": 6912,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "0d0d557e0c1990cff3b0ee5597efbf11a479b4fdf7bb5da878d1a3b07e0c5884": {
+    "first": {
+      "n": 3089,
+      "side": "456390519770337240592516009/8149927253880000000000000",
+      "valid": true,
+      "pairs_tested": 50774,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "0d0d557e0c1990cff3b0ee5597efbf11a479b4fdf7bb5da878d1a3b07e0c5884",
+      "candidate_pairs": 50774,
+      "near_pairs": 7012,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "40f26d54283e01bd28729d693810f800097d1cc93b0d5734991b85652018ae48": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 52349,
+      "side": "1138293720129233323422445217/19970297682898000000000000",
+      "n": 3201
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "40f26d54283e01bd28729d693810f800097d1cc93b0d5734991b85652018ae48",
+      "candidate_pairs": 52349,
+      "near_pairs": 7131,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "eaf2a697b6633b990f7ddf65e1715162f4d9efa7d240a14fbf9b12b33f92ebc5": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 54566,
+      "side": "44329788404447498936945552835750218654535749783/764334829349200000007643348293492000000000000",
+      "n": 3315
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "eaf2a697b6633b990f7ddf65e1715162f4d9efa7d240a14fbf9b12b33f92ebc5",
+      "candidate_pairs": 54566,
+      "near_pairs": 7569,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "1ea57daed14931fed535b116af5ec0fd791b95b57660e91b5056eb4ed6d6ab09": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 56171,
+      "side": "1131207285579769034065160939/19173220417718000000000000",
+      "n": 3431
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "1ea57daed14931fed535b116af5ec0fd791b95b57660e91b5056eb4ed6d6ab09",
+      "candidate_pairs": 56171,
+      "near_pairs": 7713,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "4c5b0d1715f3d97e3f459a683447f8d25fd4398a45f380b039ce7166dd007fe2": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 58537,
+      "side": "618010126159712709545392687/10300580766418000000000000",
+      "n": 3549
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "4c5b0d1715f3d97e3f459a683447f8d25fd4398a45f380b039ce7166dd007fe2",
+      "candidate_pairs": 58537,
+      "near_pairs": 7969,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "46efc1f0da3c39bdc4609e440a3798629e1fde969bbda7326ab7f69deacc81fa": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 60240,
+      "side": "2302774931713169309271598305742155741328756975526527939/37750819258408726606246691639410404927273800000000000",
+      "n": 3669
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "46efc1f0da3c39bdc4609e440a3798629e1fde969bbda7326ab7f69deacc81fa",
+      "candidate_pairs": 60240,
+      "near_pairs": 8443,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "02b47c1e1efe08549719a54efb74f8f03f4197cdf1afb2f24879602526a015ba": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 60281,
+      "side": "183291248669172086441423433/3004807245558800000000000",
+      "n": 3670
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "02b47c1e1efe08549719a54efb74f8f03f4197cdf1afb2f24879602526a015ba",
+      "candidate_pairs": 60281,
+      "near_pairs": 8347,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "ab0d2b43167dcff559b9447adc17025c4f0daef024a0c9b68d97f81a869c5222": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 62635,
+      "side": "16647375619360967907783921/268508931314000000000000",
+      "n": 3791
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "ab0d2b43167dcff559b9447adc17025c4f0daef024a0c9b68d97f81a869c5222",
+      "candidate_pairs": 62635,
+      "near_pairs": 8440,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "91f7653f6ce902fecdf086e14cf88be1b7feb7e324554835653c513a693a1875": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 62669,
+      "side": "16647375619360967907783921/268508931314000000000000",
+      "n": 3792
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "91f7653f6ce902fecdf086e14cf88be1b7feb7e324554835653c513a693a1875",
+      "candidate_pairs": 62669,
+      "near_pairs": 8486,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "d0d76b0db8c377f1d36f634ba612c90faccab230991f6f57899ea4c41def293f": {
+    "first": {
+      "n": 3914,
+      "side": "16915884550674967907783921/268508931314000000000000",
+      "valid": true,
+      "pairs_tested": 64352,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 3914,
+      "side": "16915884550674967907783921/268508931314000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 64352,
+      "near_pairs": 8793,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "7a3d6b9f17f6167c500a875b086b6d156698c44cb0efdef2aee6f7e968444583": {
+    "first": {
+      "n": 3915,
+      "side": "16915884550674967907783921/268508931314000000000000",
+      "valid": true,
+      "pairs_tested": 64386,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 3915,
+      "side": "16915884550674967907783921/268508931314000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 64386,
+      "near_pairs": 8839,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "40162a284c81d7eb876082a5093e0b9e776cb98575422e74ffb1bcb9af4ae4e4": {
+    "first": {
+      "n": 4040,
+      "side": "173511127845320599914809879/2711213035270800000000000",
+      "valid": true,
+      "pairs_tested": 66814,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "40162a284c81d7eb876082a5093e0b9e776cb98575422e74ffb1bcb9af4ae4e4",
+      "candidate_pairs": 66814,
+      "near_pairs": 9020,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "7825d5b5de55b241a450534fa79afd12fe4017fc10753f6b16574d4c2a33d929": {
+    "first": {
+      "n": 4168,
+      "side": "3729788233335631310328887/57382014034000000000000",
+      "valid": true,
+      "pairs_tested": 68649,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4168,
+      "side": "3729788233335631310328887/57382014034000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 68649,
+      "near_pairs": 9241,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "543fc3d27ca2cf0f9d6f3d318cc6e5583ca8dad073e820050d163c1da5ce2816": {
+    "first": {
+      "n": 4169,
+      "side": "115520763604878743502949499/1777260655266000000000000",
+      "valid": true,
+      "pairs_tested": 68715,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "543fc3d27ca2cf0f9d6f3d318cc6e5583ca8dad073e820050d163c1da5ce2816",
+      "candidate_pairs": 68715,
+      "near_pairs": 9346,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "1e7ba47a41c76f317090f02309475f0de49b8a39a1397d25075f2213e4625b50": {
+    "first": {
+      "n": 4298,
+      "side": "126432322999444716610651929/1915712347391200000000000",
+      "valid": true,
+      "pairs_tested": 71217,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4298,
+      "side": "126432322999444716610651929/1915712347391200000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 71217,
+      "near_pairs": 9388,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "cebf53e683c4f57122bc56160558e760b39f9b7ddb843980b40201114ed8bc5c": {
+    "first": {
+      "n": 4430,
+      "side": "209136601175925015045231997/3121555943722000000000000",
+      "valid": true,
+      "pairs_tested": 73076,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4430,
+      "side": "209136601175925015045231997/3121555943722000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 73076,
+      "near_pairs": 9825,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "3b58e10fee6048f303f22d7063d89caebfad64ba2a6335870e7778361196c92e": {
+    "first": {
+      "n": 4564,
+      "side": "750180016749740147124912359/11032891836642000000000000",
+      "valid": true,
+      "pairs_tested": 75747,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4564,
+      "side": "750180016749740147124912359/11032891836642000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 75747,
+      "near_pairs": 10151,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "2f68f378cdc77f25089cfaa216ae4e024a5c0b0af021b7bb06aa7bb4ea62bae9": {
+    "first": {
+      "n": 4701,
+      "side": "294504398156394757784167948884668665074553701042901008803/4268225692470045092528403740792512589607661800000000000",
+      "valid": true,
+      "pairs_tested": 77720,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "2f68f378cdc77f25089cfaa216ae4e024a5c0b0af021b7bb06aa7bb4ea62bae9",
+      "candidate_pairs": 77720,
+      "near_pairs": 10443,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "d0e1d8105e309df34f89e38ea3dea75ac1d6060b6c1c6853f3ec8948e17ce3cb": {
+    "first": {
+      "n": 4839,
+      "side": "120908228810017505243798476902557645294661024627063650865567/1727320861578185453400474108282500927721570304000000000000",
+      "valid": true,
+      "pairs_tested": 80439,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4839,
+      "side": "120908228810017505243798476902557645294661024627063650865567/1727320861578185453400474108282500927721570304000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 80439,
+      "near_pairs": 10659,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "507c507e51df4fa648ed78b65f20f054156ee6d4a02aaf80d96624af28842e8b": {
+    "first": {
+      "n": 4979,
+      "side": "773207155894667316435057719/10890720836186000000000000",
+      "valid": true,
+      "pairs_tested": 82410,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 4979,
+      "side": "773207155894667316435057719/10890720836186000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 82410,
+      "near_pairs": 10903,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "db4bbdad0e07be7ffc4459649efaeea969138909e9e9e1443bc419f3b6f4c865": {
+    "first": {
+      "n": 5121,
+      "side": "1259952336566771452263137087/17500073428442000000000000",
+      "valid": true,
+      "pairs_tested": 85242,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 5121,
+      "side": "1259952336566771452263137087/17500073428442000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 85242,
+      "near_pairs": 11306,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "c0b152f34a543d02c309a495ce3a8cfd9c2da0e42702b49dff12756c8f0aab4b": {
+    "first": {
+      "n": 5122,
+      "side": "1125478138808662846353967007/15631784840546000000000000",
+      "valid": true,
+      "pairs_tested": 85337,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "c0b152f34a543d02c309a495ce3a8cfd9c2da0e42702b49dff12756c8f0aab4b",
+      "candidate_pairs": 85337,
+      "near_pairs": 11251,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "14c186adba0d5e6b1e3a29d8e4e19f823bbd347984357af01251249c2ab4ddd6": {
+    "first": {
+      "n": 5266,
+      "side": "288993103827497634258210421/3958845616791600000000000",
+      "valid": true,
+      "pairs_tested": 87376,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "14c186adba0d5e6b1e3a29d8e4e19f823bbd347984357af01251249c2ab4ddd6",
+      "candidate_pairs": 87376,
+      "near_pairs": 11434,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "cc1cc82fd8d90d9572ff4c42928a4520c303f8f6aa78462966eec6a2501218ad": {
+    "first": {
+      "n": 5412,
+      "side": "130176680790419017462185849/1759218604441600000000000",
+      "valid": true,
+      "pairs_tested": 90221,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 5412,
+      "side": "130176680790419017462185849/1759218604441600000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 90221,
+      "near_pairs": 11891,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "acd17196c349de8dab9ba38431263ea41fb4f2619de2426d8d645938acfcdf6a": {
+    "first": {
+      "n": 5560,
+      "side": "17120994522506221350755919380975891927080975723/228286424894200000002282864248942000000000000",
+      "valid": true,
+      "pairs_tested": 92352,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "acd17196c349de8dab9ba38431263ea41fb4f2619de2426d8d645938acfcdf6a",
+      "candidate_pairs": 92352,
+      "near_pairs": 12281,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "edbeefa2ad816a01a790252b37e4ff1664b5d159061a0525d00b6da8fa35d9f8": {
+    "first": {
+      "n": 5710,
+      "side": "2018759153866019765343361057872687634286639791/26563366594600000000265633665946000000000000",
+      "valid": true,
+      "pairs_tested": 95331,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "edbeefa2ad816a01a790252b37e4ff1664b5d159061a0525d00b6da8fa35d9f8",
+      "candidate_pairs": 95331,
+      "near_pairs": 12595,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "42bbfde8549371cf9ee3a1d0e4537e9e39d5faadd3360772305a400104fc6de1": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 97509,
+      "side": "14027706483929345522799539/182183684376500000000000",
+      "n": 5862
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "42bbfde8549371cf9ee3a1d0e4537e9e39d5faadd3360772305a400104fc6de1",
+      "candidate_pairs": 97509,
+      "near_pairs": 12817,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "bf725b631e83562fbbb9341911e90ad4d1e6dfda166885478929a14e11cb19ce": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 97560,
+      "side": "328782238640089512302650127/4269935989638000000000000",
+      "n": 5863
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "bf725b631e83562fbbb9341911e90ad4d1e6dfda166885478929a14e11cb19ce",
+      "candidate_pairs": 97560,
+      "near_pairs": 12916,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "1a5a16fe9c33efa582e5cb2b2d62e919caa93c0581fe894964784f1b87beeff9": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 100604,
+      "side": "1521648522157327140041853379/19508480302446000000000000",
+      "n": 6017
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "1a5a16fe9c33efa582e5cb2b2d62e919caa93c0581fe894964784f1b87beeff9",
+      "candidate_pairs": 100604,
+      "near_pairs": 13119,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "ae184b12ac9ca08f8e0217591d861e50a23c544caba1953e94d331771f60bec1": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 102809,
+      "side": "6531982663622097853093264271043697492971043633/82685559244080000000826855592440800000000000",
+      "n": 6173
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "ae184b12ac9ca08f8e0217591d861e50a23c544caba1953e94d331771f60bec1",
+      "candidate_pairs": 102809,
+      "near_pairs": 13642,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "c255042edda07b1e29f0c348c4f276d2a1727a59b6bf35af0b5d8ec1423f5ad4": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 105937,
+      "side": "243932405033951483224686359/3049180347351600000000000",
+      "n": 6331
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "c255042edda07b1e29f0c348c4f276d2a1727a59b6bf35af0b5d8ec1423f5ad4",
+      "candidate_pairs": 105937,
+      "near_pairs": 13869,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "f4db8bc8e90f3f66c85f25a8ccfe6248833876dfb642ffdc7255f8ce269592c9": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 108246,
+      "side": "299365285843246669308613013/3695977229938000000000000",
+      "n": 6491
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "f4db8bc8e90f3f66c85f25a8ccfe6248833876dfb642ffdc7255f8ce269592c9",
+      "candidate_pairs": 108246,
+      "near_pairs": 14210,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "e0106eee98b7d64cfa51b1ef3cf0b46a5de8d483ade3c411e8c085991fa352cd": {
+    "first": {
+      "n": 6653,
+      "side": "1471241358649382299245708411/17942112939518000000000000",
+      "valid": true,
+      "pairs_tested": 111458,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 6653,
+      "side": "1471241358649382299245708411/17942112939518000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 111458,
+      "near_pairs": 14849,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "eb6fb1f8e6df4d947351d04c4d6957c7d607e8add59b13714dc106a88a8905cd": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 111510,
+      "side": "272112074511208993607731747/3318466779193200000000000",
+      "n": 6654
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "eb6fb1f8e6df4d947351d04c4d6957c7d607e8add59b13714dc106a88a8905cd",
+      "candidate_pairs": 111510,
+      "near_pairs": 14671,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "7b5773486db5aeade9a573ee747d4acc021350d0ac76a7b0d3c5a9a1a36d38f2": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 113805,
+      "side": "18251747143430231844817857/219902325555200000000000",
+      "n": 6817
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "7b5773486db5aeade9a573ee747d4acc021350d0ac76a7b0d3c5a9a1a36d38f2",
+      "candidate_pairs": 113805,
+      "near_pairs": 14848,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "85e4be8ce6590c3841f96b85f18c015c87d809171b3666ac22fa16d40757e033": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 113839,
+      "side": "18251747143430231844817857/219902325555200000000000",
+      "n": 6818
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "85e4be8ce6590c3841f96b85f18c015c87d809171b3666ac22fa16d40757e033",
+      "candidate_pairs": 113839,
+      "near_pairs": 14894,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "0127579ac43641255fd0ccefab9b8e9169c05b1f98322327d1deafe4ca3b35ef": {
+    "first": {
+      "n": 6982,
+      "side": "18471649468985431844817857/219902325555200000000000",
+      "valid": true,
+      "pairs_tested": 117095,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 6982,
+      "side": "18471649468985431844817857/219902325555200000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 117095,
+      "near_pairs": 15327,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "d5217fd8401a9adb0382bc4114060f608bc416dda2c9a513f5b22ad6205139bd": {
+    "first": {
+      "n": 6983,
+      "side": "18471649468985431844817857/219902325555200000000000",
+      "valid": true,
+      "pairs_tested": 117129,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 6983,
+      "side": "18471649468985431844817857/219902325555200000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 0,
+      "candidate_pairs": 117129,
+      "near_pairs": 15373,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "f171ca36c3b940552da0ddf3c90b76e6fbba14e77e74524c638ebb5c1a41b989": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 119431,
+      "side": "51065039123948519723283332250538619871486231311/600782128121008908838143775651826000000000000",
+      "n": 7150
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "f171ca36c3b940552da0ddf3c90b76e6fbba14e77e74524c638ebb5c1a41b989",
+      "candidate_pairs": 119431,
+      "near_pairs": 15597,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "e78a1d2860210fc8a8937ed2ed316fbc307f59a7966f3e98457809be66449b3f": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 122878,
+      "side": "763414233873575537247412231/8876986460590000000000000",
+      "n": 7320
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "e78a1d2860210fc8a8937ed2ed316fbc307f59a7966f3e98457809be66449b3f",
+      "candidate_pairs": 122878,
+      "near_pairs": 15773,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "e683cc5c14dcfda2160a98fd80159784a7a02a9251eb9d3f802290f5c883a3a1": {
+    "first": {
+      "valid": true,
+      "pairs_tested": 122910,
+      "side": "7018036876166536431166727/81605709432600000000000",
+      "n": 7321
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "e683cc5c14dcfda2160a98fd80159784a7a02a9251eb9d3f802290f5c883a3a1",
+      "candidate_pairs": 122910,
+      "near_pairs": 16006,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "Python Fraction",
+      "strict_valid": false
+    }
+  },
+  "a13a6043029718fbaddeaaa9b95f0cdc5b997d30d505b4036f864696f6851ba5": {
+    "first": {
+      "n": 7492,
+      "side": "245945241204111118204823053/2827036380815000000000000",
+      "valid": true,
+      "pairs_tested": 125276,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 7492,
+      "side": "245945241204111118204823053/2827036380815000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 125276,
+      "near_pairs": 16134,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "23a316ce109f5ae401ee462bcb3d0168254c60eaf2752ec47f4b2f7ac7c57e6f": {
+    "first": {
+      "n": 7666,
+      "side": "34590033449948724765456434653522872969553522531/393078097622120000003930780976221200000000000",
+      "valid": true,
+      "pairs_tested": 128792,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "23a316ce109f5ae401ee462bcb3d0168254c60eaf2752ec47f4b2f7ac7c57e6f",
+      "candidate_pairs": 128792,
+      "near_pairs": 16570,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "6d03673c00470bddaaef16c320fa7ff913c3fc8b1197c671a54ecbe3972e97fa": {
+    "first": {
+      "n": 7667,
+      "side": "759135822199423509213734351/8626608464322000000000000",
+      "valid": true,
+      "pairs_tested": 128860,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "6d03673c00470bddaaef16c320fa7ff913c3fc8b1197c671a54ecbe3972e97fa",
+      "candidate_pairs": 128860,
+      "near_pairs": 16514,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "f3cd8b3043aa3cf5191b9e74861ab5c4ff8743db168f8af87e4957c25d5b4b11": {
+    "first": {
+      "n": 7843,
+      "side": "1740425299799963869813591369/19555486206874000000000000",
+      "valid": true,
+      "pairs_tested": 131363,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "f3cd8b3043aa3cf5191b9e74861ab5c4ff8743db168f8af87e4957c25d5b4b11",
+      "candidate_pairs": 131363,
+      "near_pairs": 16761,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "751f1c7b0862d862d71f8529a2769f041a43731c3a11a4f7876cf15a427ab2a9": {
+    "first": {
+      "n": 8021,
+      "side": "117283440142653980280038009/1303160104529000000000000",
+      "valid": true,
+      "pairs_tested": 134885,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 8021,
+      "side": "117283440142653980280038009/1303160104529000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 134885,
+      "near_pairs": 17530,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "8714316e40d444e649d031d24fdadd8723770edea9fc0e01cbc9792836f37183": {
+    "first": {
+      "n": 8201,
+      "side": "441090268932457242992659543/4847276272478000000000000",
+      "valid": true,
+      "pairs_tested": 137415,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 8201,
+      "side": "441090268932457242992659543/4847276272478000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 137415,
+      "near_pairs": 17692,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "829779a205d8fa629a76cad16f3c703323fcd400ba68e985e1f820eb9840b26e": {
+    "first": {
+      "n": 8383,
+      "side": "427202749341126206797129344118228332805377740515637779583/4643665831738487371386735186904291624563826500000000000",
+      "valid": true,
+      "pairs_tested": 141066,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 8383,
+      "side": "427202749341126206797129344118228332805377740515637779583/4643665831738487371386735186904291624563826500000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 141066,
+      "near_pairs": 18069,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "47b0659e98c20eaddf2fa0a11e9aa028b80d6e1c9adae08cd075a3a8ffb05728": {
+    "first": {
+      "n": 8567,
+      "side": "16360357464360836621810143256038990844356038829/175921860444160000001759218604441600000000000",
+      "valid": true,
+      "pairs_tested": 143721,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "47b0659e98c20eaddf2fa0a11e9aa028b80d6e1c9adae08cd075a3a8ffb05728",
+      "candidate_pairs": 143721,
+      "near_pairs": 18527,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "4769307cf90e387a243d077eb3ce376443c9a7d6d8fe196508fec6f7f52a5b80": {
+    "first": {
+      "n": 8568,
+      "side": "229782634416596811835776819/2470798639550500000000000",
+      "valid": true,
+      "pairs_tested": 143787,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "4769307cf90e387a243d077eb3ce376443c9a7d6d8fe196508fec6f7f52a5b80",
+      "candidate_pairs": 143787,
+      "near_pairs": 18499,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "35d19f349874ffbb96675ebf87ad2e5cb728a9298b682f7549e6ed1017ac5b82": {
+    "first": {
+      "n": 8754,
+      "side": "569379561288228322289165023/6057272122642000000000000",
+      "valid": true,
+      "pairs_tested": 147487,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "35d19f349874ffbb96675ebf87ad2e5cb728a9298b682f7549e6ed1017ac5b82",
+      "candidate_pairs": 147487,
+      "near_pairs": 18766,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "1942aac3eaeb3b6283164312ef1404b9ca2a8b63cd5277f873e1ff1fabe83744": {
+    "first": {
+      "n": 8942,
+      "side": "303424903580540230852190247/3194051389993000000000000",
+      "valid": true,
+      "pairs_tested": 150112,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "n": 8942,
+      "side": "303424903580540230852190247/3194051389993000000000000",
+      "valid": true,
+      "strict_valid": false,
+      "wall_margin_sign": 0,
+      "pair_margin_sign": 1,
+      "candidate_pairs": 150112,
+      "near_pairs": 19309,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    }
+  },
+  "d012a0ee81654423e6db7893b3356bef66114638fcedacce3c82e881437b3bdb": {
+    "first": {
+      "n": 9132,
+      "side": "9865731417494914993288914410965370629610965273/102770320947575000001027703209475750000000000",
+      "valid": true,
+      "pairs_tested": 153956,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "d012a0ee81654423e6db7893b3356bef66114638fcedacce3c82e881437b3bdb",
+      "candidate_pairs": 153956,
+      "near_pairs": 19782,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "ba5cea52fe6bb91bb9b15dd13c9b9394297485d2b3898d3b6fe79484320e6a96": {
+    "first": {
+      "n": 9324,
+      "side": "17171174066180196778835145577570810941477570641/177026309081400000001770263090814000000000000",
+      "valid": true,
+      "pairs_tested": 156696,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "ba5cea52fe6bb91bb9b15dd13c9b9394297485d2b3898d3b6fe79484320e6a96",
+      "candidate_pairs": 156696,
+      "near_pairs": 20180,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "b13022bda9efe5c8a384caab0c32bc37e2975490b7e5e6aaa9e609ee6f13a0b8": {
+    "first": {
+      "n": 9518,
+      "side": "718832191134276496989148883/7335201984682000000000000",
+      "valid": true,
+      "pairs_tested": 160587,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "b13022bda9efe5c8a384caab0c32bc37e2975490b7e5e6aaa9e609ee6f13a0b8",
+      "candidate_pairs": 160587,
+      "near_pairs": 20486,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "b53da5e6084ae32c9874c0365e7ddcd36bb45552f3228f194ca85598ad3c6837": {
+    "first": {
+      "n": 9519,
+      "side": "1828646549465382986764485343/18659784978230000000000000",
+      "valid": true,
+      "pairs_tested": 160645,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "b53da5e6084ae32c9874c0365e7ddcd36bb45552f3228f194ca85598ad3c6837",
+      "candidate_pairs": 160645,
+      "near_pairs": 20584,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "bfb4acdce08dff9883fb34067584f8a794dd4320b8e8336b0b9ff4e6ad815eaf": {
+    "first": {
+      "n": 9715,
+      "side": "6866129848242546774536551/69355311684750000000000",
+      "valid": true,
+      "pairs_tested": 163438,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "bfb4acdce08dff9883fb34067584f8a794dd4320b8e8336b0b9ff4e6ad815eaf",
+      "candidate_pairs": 163438,
+      "near_pairs": 20871,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  },
+  "6d72deb78003206ffb655e378ec7ff40a610695bc34eff5b0f285fbb529e766d": {
+    "first": {
+      "n": 9913,
+      "side": "183571976140896212114115030871896304362171894487/1835758951082200000018357589510822000000000000",
+      "valid": true,
+      "pairs_tested": 167377,
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+    },
+    "second": {
+      "valid": true,
+      "closed_valid": true,
+      "sha256": "6d72deb78003206ffb655e378ec7ff40a610695bc34eff5b0f285fbb529e766d",
+      "candidate_pairs": 167377,
+      "near_pairs": 21479,
+      "checker": "verify_bound_certificate.py",
+      "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+      "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2",
+      "strict_valid": false
+    }
+  }
+}

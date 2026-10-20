@@ -8,6 +8,7 @@ import unittest
 from unittest.mock import patch
 
 import regen_bounds
+import certificate_constructions
 from gobel_bounds import generate as generate_gobel, exact_value, Q2
 
 
@@ -55,6 +56,60 @@ class RetainedCertifiedBounds(unittest.TestCase):
             certificate.write_text(certificate.read_text()+'# changed\n')
             with patch.object(regen_bounds,'ROOT',root),self.assertRaises(ValueError):
                 regen_bounds.render(max_n=6)
+
+    def test_exact_recipe_is_bound_to_parent_capacity_and_checker(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory); self.fixture(root)
+            checker=(root/'certificate_constructions.py')
+            checker.write_bytes(Path(certificate_constructions.__file__).read_bytes())
+            path=root/'certified_bounds.json'; data=json.loads(path.read_text())
+            parent=data['entries']['5']
+            recipe=dict(parent,kind='construction',source_n=43,bound='38/5',
+                construction={'source_n':5,'source_bound':'14/5',
+                    'tiles_per_side':2,'layers':2,
+                    'checker_sha256':hashlib.sha256(checker.read_bytes()).hexdigest()})
+            # Tiling gives 20 in side 28/5; two L borders add 11+13.
+            recipe['source_n']=44
+            data['entries']['43']=recipe; path.write_text(json.dumps(data))
+            with patch.object(regen_bounds,'ROOT',root):
+                self.assertEqual(regen_bounds.certified_catalogue()['43']['bound'],'38/5')
+            for field,value in [('source_n',43),('bound','37/5')]:
+                invalid=json.loads(json.dumps(data));invalid['entries']['43'][field]=value
+                path.write_text(json.dumps(invalid))
+                with patch.object(regen_bounds,'ROOT',root),self.assertRaises(ValueError):
+                    regen_bounds.certified_catalogue()
+            path.write_text(json.dumps(data));checker.write_text('# changed\n')
+            with patch.object(regen_bounds,'ROOT',root),self.assertRaises(ValueError):
+                regen_bounds.certified_catalogue()
+
+    def test_default_range_preserves_configured_large_count_coverage(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory); self.fixture(root)
+            (root/'known_best.json').write_text(json.dumps({'entries':{},'bounds_max_n':1050}))
+            with patch.object(regen_bounds,'ROOT',root):
+                result=regen_bounds.render()
+            self.assertEqual(result['max_n'],1050)
+            self.assertEqual(len(result['entries']),1050)
+
+    def test_reviewed_public_bound_survives_import_without_promoting_geometry(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);self.fixture(root)
+            public={'entries':{'5':{'bound':'27/10','source':'https://example.test/claim',
+                                      'credit':'public source'}}}
+            (root/'public_bounds.json').write_text(json.dumps(public))
+            with patch.object(regen_bounds,'ROOT',root):result=regen_bounds.render(max_n=6)
+            self.assertEqual(result['entries']['5']['reported']['bound'],'27/10')
+            self.assertEqual(result['entries']['5']['reported']['credit'],'public source')
+            self.assertEqual(result['entries']['5']['verified']['bound'],'14/5')
+            self.assertEqual(result['entries']['6']['verified']['bound'],'3')
+
+    def test_expanded_rational_tiling_and_border_is_geometrically_valid(self):
+        from verify_bound_certificate import verify
+        rows,side=certificate_constructions.expand([(Fraction(1,2),Fraction(1,2),Fraction(0))],Fraction(1),2,2)
+        self.assertEqual(len(rows),16)
+        self.assertEqual(side,4)
+        result=verify(len(rows),side,[(x,y,Fraction(1),Fraction(0)) for x,y,t in rows])
+        self.assertTrue(result['valid'])
 
     def test_exact_algebraic_comparison_beats_a_smaller_rational_enclosure(self):
         with tempfile.TemporaryDirectory() as directory:

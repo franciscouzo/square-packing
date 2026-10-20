@@ -1,28 +1,77 @@
 {
   "n": 597,
   "packing": "n597.txt",
-  "packing_sha256": "0b035d4231656200174cfcbc9775737a4795bb304b2c41a86a86b19670275947",
+  "packing_sha256": "2b95323d9433cb44db62e76064ba87038d705e6b138c341b34810fd5d4a46ae1",
   "certificate": "certificates/n597.cert",
-  "certificate_sha256": "38e9f33594a9ebec8e3579f29ea589d0d003c35e6caa38d51ece7f483ed6d750",
-  "rational_side": "864076787732322991281275702394604108327695296435857391/34616376899550000000000000346163768995500000000000000",
+  "certificate_sha256": "992c12d0fa01d8315c4ca52bba8571d41166aacb18e9555dd0a9899f18b617e0",
+  "rational_side": "28637022224163233583431157045612145251100405459550954549605539075179520339800271241907223/1147583263082743146057650848623417285156533235056422173033408883444105986500000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "web_seed": {
-      "category": "CT105 web submission",
-      "source_certificate_sha256": "b6de88228dbb62a7c3546b3e1a30364468ad0b9cd03745d9e6eb20d771a7d85b",
-      "submission_id": "a308e76557d369ade36e4a2853403b89",
-      "method": "ellsworth",
-      "received": "20261018T115216Z",
-      "previous_source_credit": {
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "992c12d0fa01d8315c4ca52bba8571d41166aacb18e9555dd0a9899f18b617e0",
+    "source_n": 597,
+    "source_provenance": {
+      "category": "web",
+      "source_url": "/var/lib/square-packing/database.sqlite3",
+      "source_provenance": null,
+      "construction": null,
+      "original_seed_credit": {
+        "n": 597,
+        "side": 24.954199965618045,
+        "previous": 24.954343639685856,
+        "previous_holder": "this project",
+        "rational_side": "28637022224163233583431157045612145251100405459550954549605539075179520339800271241907223/1147583263082743146057650848623417285156533235056422173033408883444105986500000000000000",
+        "float_side": 24.95419996559409,
+        "method": "hop",
+        "received": "20261019T213845Z",
+        "seed": "volunteer",
+        "sha256": "d1da87dc097152e632b23da05c0cb4da599ffbd19e5d0d99b5732ee3fc255872"
+      },
+      "source_packing_sha256": null,
+      "previous_seed_credit": {
         "web_seed": {
-          "id": "696e280df93dc95f62b2a6ee2c3ec20a",
-          "n": 598,
-          "side": 24.967683695018977,
-          "method": "fq",
-          "received": "20261014T105301Z",
-          "original_packing_sha256": "2bc87e7e965d3f5b3e35f3d245047da30a9a5897bb6283a1012e2e7cc0f39396"
+          "category": "CT105 web submission",
+          "source_certificate_sha256": "b6de88228dbb62a7c3546b3e1a30364468ad0b9cd03745d9e6eb20d771a7d85b",
+          "submission_id": "a308e76557d369ade36e4a2853403b89",
+          "method": "ellsworth",
+          "received": "20261018T115216Z",
+          "previous_source_credit": {
+            "web_seed": {
+              "id": "696e280df93dc95f62b2a6ee2c3ec20a",
+              "n": 598,
+              "side": 24.967683695018977,
+              "method": "fq",
+              "received": "20261014T105301Z",
+              "original_packing_sha256": "2bc87e7e965d3f5b3e35f3d245047da30a9a5897bb6283a1012e2e7cc0f39396"
+            },
+            "seed_credit": "Francisco Couzo",
+            "construction": {
+              "parent_n": 552,
+              "parent_certificate_sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+              "tiles": 1,
+              "layers": 1,
+              "strict_scale": "1+1e-24"
+            },
+            "search_job": {
+              "id": 107639,
+              "method": "hop",
+              "source": "n598.txt",
+              "source_origin": "constructed",
+              "source_sha256": "cdeb2ce32c7711fd53cccad45bfa756d2a492b3216e28e8288ed61d1d6b16805",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n598.txt",
+                "source_sha256": "f44ff33f17c8253643f61def54ac671c082982ce663eef239013c72ad2673633",
+                "source_n": 598,
+                "source_side": 24.96291674728495,
+                "layers": 0,
+                "deleted": 0,
+                "side": 24.96291674728495
+              }
+            }
+          }
         },
-        "seed_credit": "Francisco Couzo",
+        "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
         "construction": {
           "parent_n": 552,
           "parent_certificate_sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
@@ -46,37 +95,14 @@
             "deleted": 0,
             "side": 24.96291674728495
           }
-        }
-      }
-    },
-    "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
-    "construction": {
-      "parent_n": 552,
-      "parent_certificate_sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
-      "tiles": 1,
-      "layers": 1,
-      "strict_scale": "1+1e-24"
-    },
-    "search_job": {
-      "id": 107639,
-      "method": "hop",
-      "source": "n598.txt",
-      "source_origin": "constructed",
-      "source_sha256": "cdeb2ce32c7711fd53cccad45bfa756d2a492b3216e28e8288ed61d1d6b16805",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
-        "source": "n598.txt",
-        "source_sha256": "f44ff33f17c8253643f61def54ac671c082982ce663eef239013c72ad2673633",
+        },
         "source_n": 598,
-        "source_side": 24.96291674728495,
-        "layers": 0,
-        "deleted": 0,
-        "side": 24.96291674728495
+        "deleted_squares": 1,
+        "source_certificate_sha256": "b6de88228dbb62a7c3546b3e1a30364468ad0b9cd03745d9e6eb20d771a7d85b"
       }
     },
-    "source_n": 598,
-    "deleted_squares": 1,
-    "source_certificate_sha256": "b6de88228dbb62a7c3546b3e1a30364468ad0b9cd03745d9e6eb20d771a7d85b"
+    "construction": null,
+    "deleted_squares": 0
   },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

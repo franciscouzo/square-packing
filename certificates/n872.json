@@ -1,23 +1,54 @@
 {
   "n": 872,
   "packing": "n872.txt",
-  "packing_sha256": "d0bd6ef6014c9caad1a134761cba3a9038a5f1f6090324f4b7cc441fe8dc20ec",
+  "packing_sha256": "aefe58b85be5793f990cb1f5bcbe794b8899b140ceabda2d054387eb3ff7146d",
   "certificate": "certificates/n872.cert",
-  "certificate_sha256": "e4ecc7cd40f3c1e704baccf40f7011fad83b25476dcca9283ad9fc31192441d7",
-  "rational_side": "437739244217742958055273607/14593729647914000000000000",
+  "certificate_sha256": "7a976b7fa0cd17235c46ce2f335b933e1798d4896d4337debf79cf76a8e3f7ff",
+  "rational_side": "2786721342014726077815226267/92914678071000000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; seed/construction: Joost de Winter",
-    "construction": {
-      "kind": "L-border",
-      "source_n": 760,
-      "layers": 2,
-      "parent_certificate_sha256": "ede397f11939046a9ee6a3c7452686c01d1aeedc67a7245d76e1e66a5a8240a4",
-      "capacity": 872
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "ad415e1e6b99d6edf12ac5f880406b053b01eaeca3c7da713ed6e1f6d742a5dc",
+    "source_n": 815,
+    "source_provenance": {
+      "n": 815,
+      "side": "2693806663943726077815226267/92914678071000000000000000",
+      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/ad415e1e6b99d6edf12ac5f880406b053b01eaeca3c7da713ed6e1f6d742a5dc.cert",
+      "certificate_sha256": "ad415e1e6b99d6edf12ac5f880406b053b01eaeca3c7da713ed6e1f6d742a5dc",
+      "category": "web",
+      "source": "/var/lib/square-packing/database.sqlite3:record:95d769ab04b8a74c209461bf8194cbf1",
+      "public_credit": "franciscouzo",
+      "created": 1792488396.4059858,
+      "submission_id": "95d769ab04b8a74c209461bf8194cbf1",
+      "record": {
+        "n": 815,
+        "side": 28.992261716553283,
+        "previous": 28.992262287653936,
+        "previous_holder": "this project",
+        "rational_side": "2693806663943726077815226267/92914678071000000000000000",
+        "float_side": 28.99226171652529,
+        "method": "fq",
+        "received": "20261020T092635Z",
+        "seed": "volunteer",
+        "sha256": "539a6099e735c964bce70ff118875573d1a5fabe47b49169950e09b63e44d86e"
+      },
+      "rounded_up": "28.992261716554",
+      "previous": "28.992923233307",
+      "gain": 0.0006615167530966104,
+      "precision_refinement": false,
+      "source_url": null,
+      "received": "20261020T092635Z"
     },
-    "source_n": 872,
-    "deleted_squares": 0,
-    "source_certificate_sha256": "e4ecc7cd40f3c1e704baccf40f7011fad83b25476dcca9283ad9fc31192441d7"
-  },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 815,
+      "source_bound": "2693806663943726077815226267/92914678071000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 872,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
+  }
 }
