@@ -1,0 +1,35 @@
+{
+  "n": 343,
+  "packing": "n343.txt",
+  "packing_sha256": "405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb",
+  "certificate": "certificates/n343.cert",
+  "certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+  "rational_side": "3993049794861220561760624561/210408851936750000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+    "source_n": 343,
+    "source_provenance": {
+      "category": "CT105 web submission",
+      "audit_source": "web search",
+      "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+      "audit_origin": {
+        "created": 1792606563.7930021,
+        "name": "franciscouzo",
+        "method": "fq"
+      },
+      "prior_source_credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "reviewed public submission",
+        "source_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
+        "request": "https://github.com/jlevy/squares/issues/702",
+        "received": "2026-10-20",
+        "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo"
+      },
+      "verified_audit": "experiments/record-check-20261021"
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
+}

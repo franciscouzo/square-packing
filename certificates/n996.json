@@ -1,137 +1,399 @@
 {
   "n": 996,
   "packing": "n996.txt",
-  "packing_sha256": "53d5e53745e72d00da968283f11f3c309bae144611d183dc7947c62e1a6234f7",
+  "packing_sha256": "5f46bfd417a99caaeaf79546993e7c2398b6497fab84a2e8edf6e8ae3834c589",
   "certificate": "certificates/n996.cert",
-  "certificate_sha256": "1f464958976072c2989a6e26f579b7ff8f712b12e129beb112d79ccfd3a45f63",
-  "rational_side": "31994174058156151174058125157/1000000000000000000000000000",
+  "certificate_sha256": "6d53402f49c64afe75998b7fb685c7e80e0ca8f2027041609048bb58bf5b9462",
+  "rational_side": "364144082419956597581812320221003025625991073/11381588487762324508318941042596000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
-    "source_certificate_sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
-    "source_n": 935,
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "6d53402f49c64afe75998b7fb685c7e80e0ca8f2027041609048bb58bf5b9462",
+    "source_n": 996,
     "source_provenance": {
-      "category": "public submission",
-      "source_url": "https://github.com/jlevy/squares/issues/686",
-      "source_provenance": {
-        "n": 935,
-        "certificate": {
-          "valid": true,
-          "n": 935,
-          "side": "30994174058156151174058125157/1000000000000000000000000000",
-          "side_float": 30.99417405815615,
-          "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
-          "checks": [
-            "rational separating axes",
-            "rational polygon intersection"
-          ]
-        },
-        "source_side": "15497112154901826112154886329/500000000000000000000000000",
-        "source_sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
-        "closed_reference": "15497112154901826112154886329/500000000000000000000000000",
-        "public_inventory_commit": "af8cb7959aead318c0cf5e9f873de3caa763f77a",
-        "source_axis_crop": "154971121549012230020713438741108179440850594629106870228690987401187929412992332249774906633063184583105003520267035856646761571910564451863583706555512739922671550927760259/5000000000000000000000000000009212011546124802435952376113533844679837242480235382839340791310984451243037206629901994000004500000000000000000000000000000000000000000000000",
-        "source_ray_crop": "247543651951818729584514281084505567919538401457386441648369309563662854709200926222181393679638935713444832988715619818101162541242853586566077130191434770239597911775593795928175026259160490426750666645159084613139905246916029/7986767130475241522375594698114420908617483565151187014319263401836370019223206819629060068561439086353632895001770046823731125751205721601568449663753284993673578239754858576819382776960635411790527325579375000000000000000000",
-        "native_candidate_side": "30994174058156151174058125157/1000000000000000000000000000",
-        "beats_source_only_tightening": true,
-        "classification": "Material native geometry improvement",
-        "project_gain_ppm": 1.6213255886980629,
-        "producing_job": {
-          "id": "incident-policy-r1-935-187149-current-pm",
-          "n": 935,
-          "seed": 187149,
-          "arm": "current-pm",
-          "backend": "current",
-          "cpu": 900,
-          "track": "incident-response-confirmation",
-          "elite_share": 0.35
-        },
-        "native_record": {
-          "job": {
-            "id": "incident-policy-r1-935-187149-current-pm",
-            "n": 935,
-            "seed": 187149,
-            "arm": "current-pm",
-            "backend": "current",
-            "cpu": 900,
-            "track": "incident-response-confirmation",
-            "elite_share": 0.35
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "6d53402f49c64afe75998b7fb685c7e80e0ca8f2027041609048bb58bf5b9462",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n996.txt",
+        "packing_sha256": "988bf4894980d66f3f3f26911ec065896caac46f6205fdc3aded7fe8147b91d3",
+        "search_job": {
+          "id": 119530,
+          "n": 996,
+          "seed": 925119530,
+          "method": "hop",
+          "variant": true,
+          "radius": 0.003,
+          "iterations": 1000,
+          "hop_seconds": 240,
+          "slp_seconds": 120,
+          "source": "n996.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
           },
-          "record": {
+          "pool_size": 8,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n996.txt",
+            "source_sha256": "b70edb0fdb28c89958eb60f8a83d9ec88dbcea41f61c043e35a507bbdc64e75a",
+            "source_n": 996,
+            "source_side": 31.99413900209508,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 31.99413900209508
+          },
+          "source_sha256": "ee81c5a275192e10b123651faa188c2421882d9a2908a16e9a8cc62f38377b5a",
+          "allocation": "general",
+          "worker_slot": 2,
+          "host": "fran@192.168.0.200",
+          "started": 1792608127.6486835,
+          "worker_details": {
+            "translations": true,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+            "pool_size": 8,
+            "actual_method": "hop",
+            "fq_finish": {},
+            "winner": "incumbent",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 31.99413900210748,
+                "after": 31.994135336305455
+              },
+              {
+                "name": "n996_0",
+                "before": 31.994387957396587,
+                "after": 31.994387957402786
+              },
+              {
+                "name": "n996_1",
+                "before": 31.99444046074965,
+                "after": 31.994440460755854
+              },
+              {
+                "name": "n996_2",
+                "before": 31.99448629516069,
+                "after": 31.994486295166894
+              },
+              {
+                "name": "n996_3",
+                "before": 31.994522496054632,
+                "after": 31.99452249606083
+              },
+              {
+                "name": "n996_4",
+                "before": 31.994541135122258,
+                "after": 31.99454113512846
+              },
+              {
+                "name": "n996_5",
+                "before": 31.994551383042285,
+                "after": 31.99455138304849
+              },
+              {
+                "name": "n996_6",
+                "before": 31.9945650581756,
+                "after": 31.9945650581818
+              },
+              {
+                "name": "n996_7",
+                "before": 31.994572085299087,
+                "after": 31.994572085305286
+              }
+            ]
+          }
+        }
+      },
+      "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+      "prior_source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/jlevy/squares/issues/686",
+        "source_provenance": {
+          "n": 996,
+          "parent_n": 935,
+          "side": "31994174058188145348116281308174058125157/1000000000000000000000000000000000000000",
+          "layers": 1,
+          "full_count": 996,
+          "deleted": 0,
+          "previous_side": "15997112154917823224309788155112154886329/500000000000000000000000000000000000000",
+          "previously_registered": true,
+          "parent": {
+            "n": 935,
             "side": "30994174058156151174058125157/1000000000000000000000000000",
             "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
-            "certificate": "certificates/2b828037fd62c3121dd1cdb722a0b8e4aa5683ad53babe7d19e393f41d9891a0.cert",
-            "source": "attempts/incident-policy-r1-935-187149-current-pm/run/search/b00002.txt",
-            "source_sha256": "2b828037fd62c3121dd1cdb722a0b8e4aa5683ad53babe7d19e393f41d9891a0"
+            "geometry": "witnesses/square-935/geometry.cert"
           },
-          "reference": "15497112154901826112154886329/500000000000000000000000000",
-          "classification": "Exact project-envelope improvement; current public comparison and worldwide priority unresolved"
+          "certificate": {
+            "valid": true,
+            "n": 996,
+            "side": "31994174058188145348116281308174058125157/1000000000000000000000000000000000000000",
+            "side_float": 31.994174058188147,
+            "sha256": "08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223",
+            "checks": [
+              "rational separating axes",
+              "rational polygon intersection"
+            ]
+          },
+          "previous_provenance": {
+            "n": 996,
+            "parent_n": 935,
+            "side": "15997112154917823224309788155112154886329/500000000000000000000000000000000000000",
+            "layers": 1,
+            "full_count": 996,
+            "deleted": 0,
+            "previous_side": "31994228883656595457767218208228883593607/1000000000000000000000000000000000000000",
+            "previously_registered": true,
+            "parent": {
+              "n": 935,
+              "side": "15497112154901826112154886329/500000000000000000000000000",
+              "sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
+              "geometry": "witnesses/square-935/geometry.cert"
+            },
+            "certificate": {
+              "valid": true,
+              "n": 996,
+              "side": "15997112154917823224309788155112154886329/500000000000000000000000000000000000000",
+              "side_float": 31.994224309835648,
+              "sha256": "134c998d2d99da1eb34fd2864445e54fab0d91ddf053ad9ecf24fe6a05464c76",
+              "checks": [
+                "rational separating axes",
+                "rational polygon intersection"
+              ]
+            },
+            "previous_provenance": {
+              "n": 996,
+              "parent_n": 935,
+              "side": "31994228883656595457767218208228883593607/1000000000000000000000000000000000000000",
+              "layers": 1,
+              "full_count": 996,
+              "deleted": 0,
+              "previous_side": "399930269989826360539978465430269989039/12500000000000000000000000000000000000",
+              "previously_registered": true,
+              "parent": {
+                "n": 935,
+                "side": "30994228883624601228883593607/1000000000000000000000000000",
+                "sha256": "8320acc613933715378472a4c3403b80037a71fcef49a3e6e52fd6bb6a35bab6",
+                "geometry": "witnesses/square-935/geometry.cert"
+              },
+              "certificate": {
+                "valid": true,
+                "n": 996,
+                "side": "31994228883656595457767218208228883593607/1000000000000000000000000000000000000000",
+                "side_float": 31.994228883656596,
+                "sha256": "a23077c2aa3895f15884231fbcf382d1a2439c564fb8b7341e62b5a3cf6f56f3",
+                "checks": [
+                  "rational separating axes",
+                  "rational polygon intersection"
+                ]
+              },
+              "previous_provenance": {
+                "n": 996,
+                "parent_n": 935,
+                "side": "399930269989826360539978465430269989039/12500000000000000000000000000000000000",
+                "layers": 1,
+                "full_count": 996,
+                "deleted": 0,
+                "previous_side": "399934380359718368760718249434380358931/12500000000000000000000000000000000000",
+                "previously_registered": true,
+                "parent": {
+                  "n": 935,
+                  "side": "387430269989426430269989039/12500000000000000000000000",
+                  "sha256": "e9f2fd7dae2c750096e22cf944a946e06d413223fd4ef5cca945e21cdd3c874f",
+                  "geometry": "witnesses/square-935/geometry.cert"
+                },
+                "certificate": {
+                  "valid": true,
+                  "n": 996,
+                  "side": "399930269989826360539978465430269989039/12500000000000000000000000000000000000",
+                  "side_float": 31.994421599186108,
+                  "sha256": "8407c081f689cd75b14c882b51689c5c91c8c84f8b7419cf364ef54afc3d0e2c",
+                  "checks": [
+                    "rational separating axes",
+                    "rational polygon intersection"
+                  ]
+                },
+                "previous_provenance": {
+                  "n": 996,
+                  "parent_n": 935,
+                  "side": "399934380359718368760718249434380358931/12500000000000000000000000000000000000",
+                  "layers": 1,
+                  "full_count": 996,
+                  "deleted": 0,
+                  "previous_side": "77974320914860356574551007824936555605789566629152741086050230455057538280674420781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+                  "previously_registered": false,
+                  "parent": {
+                    "n": 935,
+                    "side": "387434380359318434380358931/12500000000000000000000000",
+                    "sha256": "a41956235b1bed4b55a49087c939416dbc366dd0e07bb819ff5f8d761545d56a",
+                    "geometry": "witnesses/square-935/geometry.cert"
+                  },
+                  "certificate": {
+                    "valid": true,
+                    "n": 996,
+                    "side": "399934380359718368760718249434380358931/12500000000000000000000000000000000000",
+                    "side_float": 31.99475042877747,
+                    "sha256": "0bbcf0cd49b7e90e60604f2fe678d7314be7ba8f0d34c5ebd4b4bc862601996d",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ]
+                  },
+                  "previous_provenance": null,
+                  "classification": "Dependent exact deletion/border consequence",
+                  "recognition": "unconfirmed"
+                },
+                "classification": "Dependent exact deletion/border consequence",
+                "recognition": "unconfirmed"
+              },
+              "classification": "Dependent exact deletion/border consequence",
+              "recognition": "unfrontier2"
+            },
+            "classification": "Dependent exact deletion/border consequence",
+            "recognition": "unconfirmed"
+          },
+          "classification": "Dependent exact deletion/border consequence",
+          "recognition": "unconfirmed"
         },
-        "recognition": "unconfirmed",
-        "method_credit": "Existing upstream native policy with pre-rejection candidate capture",
-        "new_problem_case": false
-      },
-      "construction": null,
-      "original_seed_credit": null,
-      "source_packing_sha256": null,
-      "previous_seed_credit": {
-        "seed_credit": "Joost de Winter",
-        "web_seed": {
-          "category": "CT105 web submission",
-          "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
-          "submission_id": "d6a9855d390396d427e936559bda68fb",
-          "method": "fq",
-          "received": "20261017T192709Z",
-          "seed_credit": "Joost de Winter",
-          "prior_retained_witness": {
-            "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
-            "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
-            "source_credit": {
-              "seed_credit": "Joost de Winter",
-              "category": "reviewed public submission",
-              "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
-              "request": "https://github.com/jlevy/squares/issues/666",
-              "construction_credit": [
-                "Arslanov, Mustafin and Shangitbayev (four-block method)"
-              ],
+        "construction": null,
+        "original_seed_credit": null,
+        "source_packing_sha256": null,
+        "previous_seed_credit": {
+          "seed_credit": "Francisco Couzo",
+          "construction": {
+            "kind": "L-border",
+            "source_n": 935,
+            "layers": 1,
+            "parent_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+            "capacity": 996
+          },
+          "source_n": 996,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "af6452069cf4227c62c06ddc3e29f6783aaef580d0dc77818960bce8ed39afb8",
+          "search_job": {
+            "id": 108421,
+            "method": "fq",
+            "source": "n935.txt",
+            "source_origin": "constructed",
+            "source_sha256": "f65f8f2d1931c67d2ca41336759cc3f784713b690ad06e19dcee84caec9334d1",
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n935.txt",
+              "source_sha256": "bdf622cde830f7ea1b56c2a5ba333975a7bdcccbb27b1104c6136610522ac49b",
               "source_n": 935,
-              "deleted_squares": 0,
-              "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+              "source_side": 30.995336946287125,
+              "layers": 1,
+              "deleted": 0,
+              "side": 31.995336946289125
             }
           }
         },
-        "source_n": 935,
-        "deleted_squares": 0,
-        "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
-        "prior_retained_witness": {
-          "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
-          "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
-          "source_credit": {
-            "seed_credit": "Joost de Winter",
-            "category": "reviewed public submission",
-            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
-            "request": "https://github.com/jlevy/squares/issues/666",
-            "construction_credit": [
-              "Arslanov, Mustafin and Shangitbayev (four-block method)"
-            ],
-            "source_n": 935,
-            "deleted_squares": 0,
-            "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
-          }
+        "received": "2026-10-19T20:43:04Z"
+      },
+      "verified_audit": "experiments/record-check-20261021",
+      "search_job": {
+        "id": 119530,
+        "n": 996,
+        "seed": 925119530,
+        "method": "hop",
+        "variant": true,
+        "radius": 0.003,
+        "iterations": 1000,
+        "hop_seconds": 240,
+        "slp_seconds": 120,
+        "source": "n996.txt",
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 8,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "n996.txt",
+          "source_sha256": "b70edb0fdb28c89958eb60f8a83d9ec88dbcea41f61c043e35a507bbdc64e75a",
+          "source_n": 996,
+          "source_side": 31.99413900209508,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 31.99413900209508
+        },
+        "source_sha256": "ee81c5a275192e10b123651faa188c2421882d9a2908a16e9a8cc62f38377b5a",
+        "allocation": "general",
+        "worker_slot": 2,
+        "host": "fran@192.168.0.200",
+        "started": 1792608127.6486835,
+        "worker_details": {
+          "translations": true,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+          "pool_size": 8,
+          "actual_method": "hop",
+          "fq_finish": {},
+          "winner": "incumbent",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 31.99413900210748,
+              "after": 31.994135336305455
+            },
+            {
+              "name": "n996_0",
+              "before": 31.994387957396587,
+              "after": 31.994387957402786
+            },
+            {
+              "name": "n996_1",
+              "before": 31.99444046074965,
+              "after": 31.994440460755854
+            },
+            {
+              "name": "n996_2",
+              "before": 31.99448629516069,
+              "after": 31.994486295166894
+            },
+            {
+              "name": "n996_3",
+              "before": 31.994522496054632,
+              "after": 31.99452249606083
+            },
+            {
+              "name": "n996_4",
+              "before": 31.994541135122258,
+              "after": 31.99454113512846
+            },
+            {
+              "name": "n996_5",
+              "before": 31.994551383042285,
+              "after": 31.99455138304849
+            },
+            {
+              "name": "n996_6",
+              "before": 31.9945650581756,
+              "after": 31.9945650581818
+            },
+            {
+              "name": "n996_7",
+              "before": 31.994572085299087,
+              "after": 31.994572085305286
+            }
+          ]
         }
       }
     },
-    "construction": {
-      "kind": "square tiling and L-border",
-      "source_n": 935,
-      "source_bound": "30994174058156151174058125157/1000000000000000000000000000",
-      "tiles_per_side": 1,
-      "layers": 1,
-      "capacity": 996,
-      "checker": "certificate_constructions.py",
-      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
-    },
+    "construction": null,
     "deleted_squares": 0
-  },
-  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+  }
 }

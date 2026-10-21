@@ -1,37 +1,178 @@
 {
   "n": 931,
   "packing": "n931.txt",
-  "packing_sha256": "0003d5abed364aceaad9ebd956fae4722dbe80ef6ee6560898ad91b3aa23169a",
+  "packing_sha256": "1ef6821a2e128c6e6aa4ffea08b8f7f942b4e6f43e29cb986b65dd5074186a37",
   "certificate": "certificates/n931.cert",
-  "certificate_sha256": "4d43bcfe4341dae5dfee6c06fef0229541aa57558b26ac7ff86951bd360a83cc",
-  "rational_side": "4401087808502412355794737/142016685294000000000000",
-  "kind": "rational witness",
+  "certificate_sha256": "7bef0a40c4e71fc1bfd08b047e16c2b4102bfb36d472617dcdaead0ea72dc99e",
+  "rational_side": "97707112181770354246132333/3152866049342800000000000",
+  "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
-    "construction": {
-      "parent_n": 89,
-      "parent_certificate_sha256": "cf68fcb32c0af1cd95bef0dd6062f2451e6d119b1bb650b747929b18399f4628",
-      "rectangle": "r22x21_n0443",
-      "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
-      "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
-    },
-    "search_job": {
-      "id": 108293,
-      "method": "slp",
-      "source": "n931.txt",
-      "source_origin": "constructed",
-      "source_sha256": "557baaa465c1484a17ec75fe8fdbb1e8b53881fe59e8fb823c9216686fbc1278",
-      "constructed_seed": {
-        "construction": "L-border and deletion",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "7bef0a40c4e71fc1bfd08b047e16c2b4102bfb36d472617dcdaead0ea72dc99e",
+    "source_n": 931,
+    "source_provenance": {
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "7bef0a40c4e71fc1bfd08b047e16c2b4102bfb36d472617dcdaead0ea72dc99e",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n931.txt",
+        "packing_sha256": "2daad5d951626d3ae93e5cb41f5064c0796f619c6c5055c4d3abf8dc4a95b92c",
+        "search_job": {
+          "id": 118484,
+          "n": 931,
+          "seed": 925118484,
+          "method": "fq",
+          "variant": false,
+          "radius": 0.01,
+          "iterations": 1000,
+          "hop_seconds": 360,
+          "slp_seconds": 120,
+          "source": "n931.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
+          },
+          "pool_size": 8,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n931.txt",
+            "source_sha256": "0003d5abed364aceaad9ebd956fae4722dbe80ef6ee6560898ad91b3aa23169a",
+            "source_n": 931,
+            "source_side": 30.989934734706267,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 30.989934734706267
+          },
+          "source_sha256": "c8a1e247eda53304ee1a35d9a9e9ea79fcf9ef6a85a89d7ab1fbae0c7e45d693",
+          "allocation": "general",
+          "worker_slot": 10,
+          "host": "fran@192.168.0.200",
+          "started": 1792582153.4514832,
+          "worker_details": {
+            "translations": true,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+            "pool_size": 8,
+            "actual_method": "fq",
+            "external_method": "fq",
+            "seed_squares": 931,
+            "proposals": 2,
+            "accepted": 0,
+            "best": 30.989934734706267,
+            "start": 30.989934734706267,
+            "fq_finish": {},
+            "winner": "incumbent",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 30.98993473471827,
+                "after": 30.98993444458016
+              }
+            ]
+          }
+        }
+      },
+      "prior_source_credit": "Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
+      "prior_source_provenance": {
+        "category": "native search",
+        "packing_sha256": "0003d5abed364aceaad9ebd956fae4722dbe80ef6ee6560898ad91b3aa23169a",
+        "source_credit": {
+          "seed_credit": "Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input)",
+          "construction": {
+            "parent_n": 89,
+            "parent_certificate_sha256": "cf68fcb32c0af1cd95bef0dd6062f2451e6d119b1bb650b747929b18399f4628",
+            "rectangle": "r22x21_n0443",
+            "rectangle_sha256": "db13813740cd979cfcdb071a6a252239df85936748b93f1ac4234e8c3f096d3c",
+            "source_revision": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+          },
+          "search_job": {
+            "id": 108293,
+            "method": "slp",
+            "source": "n931.txt",
+            "source_origin": "constructed",
+            "source_sha256": "557baaa465c1484a17ec75fe8fdbb1e8b53881fe59e8fb823c9216686fbc1278",
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n931.txt",
+              "source_sha256": "ea9402ecbe06717f9b6cc2a6d7f9028403200535791d74e2051576042a9a0a53",
+              "source_n": 931,
+              "source_side": 30.989936243516347,
+              "layers": 0,
+              "deleted": 0,
+              "side": 30.989936243516347
+            }
+          }
+        }
+      },
+      "verified_audit": "experiments/record-check-20261021",
+      "search_job": {
+        "id": 118484,
+        "n": 931,
+        "seed": 925118484,
+        "method": "fq",
+        "variant": false,
+        "radius": 0.01,
+        "iterations": 1000,
+        "hop_seconds": 360,
+        "slp_seconds": 120,
         "source": "n931.txt",
-        "source_sha256": "ea9402ecbe06717f9b6cc2a6d7f9028403200535791d74e2051576042a9a0a53",
-        "source_n": 931,
-        "source_side": 30.989936243516347,
-        "layers": 0,
-        "deleted": 0,
-        "side": 30.989936243516347
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 8,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "n931.txt",
+          "source_sha256": "0003d5abed364aceaad9ebd956fae4722dbe80ef6ee6560898ad91b3aa23169a",
+          "source_n": 931,
+          "source_side": 30.989934734706267,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 30.989934734706267
+        },
+        "source_sha256": "c8a1e247eda53304ee1a35d9a9e9ea79fcf9ef6a85a89d7ab1fbae0c7e45d693",
+        "allocation": "general",
+        "worker_slot": 10,
+        "host": "fran@192.168.0.200",
+        "started": 1792582153.4514832,
+        "worker_details": {
+          "translations": true,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+          "pool_size": 8,
+          "actual_method": "fq",
+          "external_method": "fq",
+          "seed_squares": 931,
+          "proposals": 2,
+          "accepted": 0,
+          "best": 30.989934734706267,
+          "start": 30.989934734706267,
+          "fq_finish": {},
+          "winner": "incumbent",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 30.98993473471827,
+              "after": 30.98993444458016
+            }
+          ]
+        }
       }
-    }
-  },
-  "preview_note": "Certificate geometry is authoritative; the decimal preview is separately checked."
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
 }

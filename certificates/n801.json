@@ -1,45 +1,170 @@
 {
   "n": 801,
   "packing": "n801.txt",
-  "packing_sha256": "a7041e81ab7f353ae5db6df9288cd560f90118b62e3e142cdf1511279fe7f028",
+  "packing_sha256": "c29c188e55c4aa137b2865eb42f9420e38822dfc33863f936e4f6df3317db34f",
   "certificate": "certificates/n801.cert",
-  "certificate_sha256": "27b72c177e25c9272fb4227ea93fbb2b2332f9fcca9b1f8d65ce3b0fcff68a80",
-  "rational_side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
+  "certificate_sha256": "b83448ac7c365cc0e64948b833fcbc29839309a36436d584baddcd27308a388f",
+  "rational_side": "979992148528341507246437/33997075969372000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679",
-    "source_n": 803,
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "b83448ac7c365cc0e64948b833fcbc29839309a36436d584baddcd27308a388f",
+    "source_n": 801,
     "source_provenance": {
-      "n": 803,
-      "side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
-      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679.cert",
-      "certificate_sha256": "bce46ab3609c28c96f400f72a02b4c3c8efa43f6576d1928415d90e0a4501679",
-      "category": "web",
-      "source": "/var/lib/square-packing/database.sqlite3:record:94404dd326c8bb3978228174f99ff449",
-      "public_credit": "franciscouzo",
-      "created": 1792489477.1740124,
-      "submission_id": "94404dd326c8bb3978228174f99ff449",
-      "record": {
-        "n": 803,
-        "side": 28.82758522238407,
-        "previous": 28.827586279434172,
-        "previous_holder": "this project",
-        "rational_side": "9984094780930028299805439154810655679192900686060591720001170484223/346338227912949481776898653463382279129494817768986500000000000000",
-        "float_side": 28.827585222356202,
-        "method": "fq",
-        "received": "20261020T094435Z",
-        "seed": "volunteer",
-        "sha256": "1d0d0cb8a5663f721b02d46b5bc37d5aa38e4822179f07430624a26a77b934db"
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "b83448ac7c365cc0e64948b833fcbc29839309a36436d584baddcd27308a388f",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n801.txt",
+        "packing_sha256": "dd391300fadf6981a9eb4e148f9a6752083a641d44552b89626d4b86b17901fe",
+        "search_job": {
+          "id": 119178,
+          "n": 801,
+          "seed": 925119178,
+          "method": "gpu",
+          "variant": true,
+          "radius": 0.001,
+          "iterations": 1000,
+          "hop_seconds": 240,
+          "slp_seconds": 120,
+          "source": "n801.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
+          },
+          "pool_size": 0,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n801.txt",
+            "source_sha256": "861521ded55e562775a9294240145c3843690ed682596be9b5da4cdf7a093019",
+            "source_n": 801,
+            "source_side": 28.826040696972818,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 28.826040696972818
+          },
+          "source_sha256": "5338a0b80fc45bc045d70ca09bba430b3093e2e5cdf77102793c9daa4ff4f11e",
+          "allocation": "general",
+          "worker_slot": 10,
+          "host": "fran@192.168.0.200",
+          "started": 1792599632.1729534,
+          "worker_details": {
+            "translations": true,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+            "pool_size": 0,
+            "gpu_parameters": {
+              "blocks": 512,
+              "sweeps": 5000,
+              "keep": 8,
+              "perturb": 0.003,
+              "temp": 0.0002,
+              "mu0": 1000,
+              "mu1": 10000000,
+              "seed": 925119178
+            },
+            "gpu_binary_sha256": "648786fec0b895bdff07003f9e8b167f4cc560070f7d390e0e96113b03e9cb17",
+            "gpu_fallback": "Command '['/home/fran/sqpack-forever/sa_large', '--in', '/home/fran/sqpack-forever/work/job-119178-napd09fn/seed.txt', '--out', '/home/fran/sqpack-forever/work/job-119178-napd09fn/gpu', '--blocks', '512', '--sweeps', '5000', '--keep', '8', '--perturb', '0.003', '--temp', '0.0002', '--mu0', '1000', '--mu1', '10000000', '--seed', '925119178']' returned non-zero exit status 1.",
+            "actual_method": "hop",
+            "fq_finish": {},
+            "winner": "incumbent",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 28.8258702342553,
+                "after": 28.825777526179543
+              }
+            ]
+          }
+        }
       },
-      "rounded_up": "28.827585222385",
-      "previous": "28.888425229259",
-      "gain": 0.06084000687433147,
-      "precision_refinement": false,
-      "source_url": null,
-      "received": "20261020T094435Z"
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "derived exact",
+        "construction_credit": [],
+        "construction": {
+          "parent_n": 746,
+          "parent_certificate_sha256": "da7c19ced14c4a8fa9cacaf1936ecf9092950c6b631fbc5d43386ce6a4026850",
+          "tiles": 1,
+          "layers": 1,
+          "strict_scale": "1+1e-24"
+        }
+      },
+      "verified_audit": "experiments/record-check-20261021",
+      "search_job": {
+        "id": 119178,
+        "n": 801,
+        "seed": 925119178,
+        "method": "gpu",
+        "variant": true,
+        "radius": 0.001,
+        "iterations": 1000,
+        "hop_seconds": 240,
+        "slp_seconds": 120,
+        "source": "n801.txt",
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 0,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "n801.txt",
+          "source_sha256": "861521ded55e562775a9294240145c3843690ed682596be9b5da4cdf7a093019",
+          "source_n": 801,
+          "source_side": 28.826040696972818,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 28.826040696972818
+        },
+        "source_sha256": "5338a0b80fc45bc045d70ca09bba430b3093e2e5cdf77102793c9daa4ff4f11e",
+        "allocation": "general",
+        "worker_slot": 10,
+        "host": "fran@192.168.0.200",
+        "started": 1792599632.1729534,
+        "worker_details": {
+          "translations": true,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+          "pool_size": 0,
+          "gpu_parameters": {
+            "blocks": 512,
+            "sweeps": 5000,
+            "keep": 8,
+            "perturb": 0.003,
+            "temp": 0.0002,
+            "mu0": 1000,
+            "mu1": 10000000,
+            "seed": 925119178
+          },
+          "gpu_binary_sha256": "648786fec0b895bdff07003f9e8b167f4cc560070f7d390e0e96113b03e9cb17",
+          "gpu_fallback": "Command '['/home/fran/sqpack-forever/sa_large', '--in', '/home/fran/sqpack-forever/work/job-119178-napd09fn/seed.txt', '--out', '/home/fran/sqpack-forever/work/job-119178-napd09fn/gpu', '--blocks', '512', '--sweeps', '5000', '--keep', '8', '--perturb', '0.003', '--temp', '0.0002', '--mu0', '1000', '--mu1', '10000000', '--seed', '925119178']' returned non-zero exit status 1.",
+          "actual_method": "hop",
+          "fq_finish": {},
+          "winner": "incumbent",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 28.8258702342553,
+              "after": 28.825777526179543
+            }
+          ]
+        }
+      }
     },
     "construction": null,
-    "deleted_squares": 2
+    "deleted_squares": 0
   }
 }

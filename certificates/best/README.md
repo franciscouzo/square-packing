@@ -1,8 +1,8 @@
 # Verified upper-bound witnesses
 
-The complete index covers every n=1..10000. The 856 finite source witnesses below support the exact construction index. The best reviewed public bounds, including reports without local geometry, are recorded separately in [public_bounds.json](../../public_bounds.json).
+The complete bound index covers n=1..10000 using 857 finite source witnesses. The reviewed public comparison remains separate in [public_bounds.json](../../public_bounds.json).
 
-Source, construction and certificate credits are retained in manifest.json. Superseded source bytes remain under ../parents/ and in dated audit archives. A retained source witness is not a claim that its own count remains a record.
+Source, construction, seed and certificate credits are retained in [manifest.json](manifest.json). Superseded witness bytes remain under ../parents/. Retaining a source witness does not claim that its own count is still a record.
 
 | n / certificate | Certified upper, rounded up | Source credit |
 |---:|---:|---|
@@ -333,7 +333,7 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [325](n325.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
 | [326](n326.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
 | [327](n327.cert) | 18.591378145498 | Francisco Couzo |
-| [328](n328.cert) | 18.614376892295 | Darius Muglich, with original seed and construction credits in source provenance |
+| [328](n328.cert) | 18.614368938513 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [329](n329.cert) | 18.656854249493 | PingYou Ltd (BuddenPing) |
 | [330](n330.cert) | 18.692672444468 | Darius Muglich, with original seed and construction credits in source provenance |
 | [331](n331.cert) | 18.707106781187 | PingYou Ltd (BuddenPing) |
@@ -348,7 +348,7 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [340](n340.cert) | 18.939649632892 | Francisco Couzo |
 | [341](n341.cert) | 18.951882408720 | Francisco Couzo |
 | [342](n342.cert) | 18.964706723173 | Francisco Couzo |
-| [343](n343.cert) | 18.977682482405 | Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo |
+| [343](n343.cert) | 18.977575126267 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [344](n344.cert) | 18.992727809366 | Darius Muglich, with original seed and construction credits in source provenance |
 | [362](n362.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
 | [363](n363.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
@@ -387,7 +387,7 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [414](n414.cert) | 20.882451030482 | Evan Daniel |
 | [415](n415.cert) | 20.899494936612 | Francisco Couzo |
 | [416](n416.cert) | 20.899494936636 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [417](n417.cert) | 20.934672165249 | Darius Muglich, with original seed and construction credits in source provenance |
+| [417](n417.cert) | 20.933672777441 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [418](n418.cert) | 20.939184128265 | Darius Muglich, with original seed and construction credits in source provenance |
 | [419](n419.cert) | 20.957804836275 | Darius Muglich, with original seed and construction credits in source provenance |
 | [420](n420.cert) | 20.966588191191 | Darius Muglich, with original seed and construction credits in source provenance |
@@ -406,15 +406,15 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [452](n452.cert) | 21.778174593086 | Francisco Couzo |
 | [453](n453.cert) | 21.822995415464 | Darius Muglich, with original seed and construction credits in source provenance |
 | [454](n454.cert) | 21.828427124844 | Francisco Couzo |
-| [455](n455.cert) | 21.882183551471 | Francisco Couzo |
-| [456](n456.cert) | 21.882183551471 | Francisco Couzo |
+| [455](n455.cert) | 21.848427413955 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [456](n456.cert) | 21.881307463869 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [457](n457.cert) | 21.899494936637 | Francisco Couzo |
-| [458](n458.cert) | 21.903778442820 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [459](n459.cert) | 21.937227864890 | Darius Muglich, with original seed and construction credits in source provenance |
+| [458](n458.cert) | 21.903616797192 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [459](n459.cert) | 21.937022304151 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [460](n460.cert) | 21.950987688000 | Darius Muglich, with original seed and construction credits in source provenance |
-| [461](n461.cert) | 21.966193114437 | Darius Muglich, with original seed and construction credits in source provenance |
+| [461](n461.cert) | 21.964134608334 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [462](n462.cert) | 21.966193114415 | Darius Muglich, with original seed and construction credits in source provenance |
-| [463](n463.cert) | 21.973675720478 | Darius Muglich, with original seed and construction credits in source provenance |
+| [463](n463.cert) | 21.971254044975 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [464](n464.cert) | 21.986268532629 | Darius Muglich, with original seed and construction credits in source provenance |
 | [485](n485.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [486](n486.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
@@ -428,19 +428,19 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [494](n494.cert) | 22.778174593076 | Francisco Couzo |
 | [495](n495.cert) | 22.778174593079 | Francisco Couzo |
 | [496](n496.cert) | 22.822875655559 | Francisco Couzo |
-| [497](n497.cert) | 22.823104027272 | Francisco Couzo |
+| [497](n497.cert) | 22.823102656285 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [498](n498.cert) | 22.828427124827 | Francisco Couzo |
-| [499](n499.cert) | 22.882183551471 | Francisco Couzo |
-| [500](n500.cert) | 22.899494936637 | Francisco Couzo |
-| [501](n501.cert) | 22.903778442820 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [502](n502.cert) | 22.933356445086 | Francisco Couzo |
-| [503](n503.cert) | 22.944667600408 | Darius Muglich, with original seed and construction credits in source provenance |
-| [504](n504.cert) | 22.962118925864 | Darius Muglich, with original seed and construction credits in source provenance |
+| [499](n499.cert) | 22.881306218323 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [500](n500.cert) | 22.893954634268 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [501](n501.cert) | 22.887841512273 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [502](n502.cert) | 22.933269925480 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [503](n503.cert) | 22.943933771540 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [504](n504.cert) | 22.961828398888 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [505](n505.cert) | 22.964182800913 | Francisco Couzo |
-| [506](n506.cert) | 22.972145072004 | Darius Muglich, with original seed and construction credits in source provenance |
+| [506](n506.cert) | 22.971293440837 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [507](n507.cert) | 22.973697163680 | Francisco Couzo |
 | [508](n508.cert) | 22.983309379056 | Darius Muglich, with original seed and construction credits in source provenance |
-| [509](n509.cert) | 22.994328035944 | Francisco Couzo |
+| [509](n509.cert) | 22.993588501431 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [530](n530.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
 | [531](n531.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
 | [532](n532.cert) | 23.583782190178 | Francisco Couzo |
@@ -456,16 +456,16 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [542](n542.cert) | 23.813708499013 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [543](n543.cert) | 23.813708499013 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [544](n544.cert) | 23.828427124775 | Francisco Couzo |
-| [545](n545.cert) | 23.889010439313 | Francisco Couzo |
+| [545](n545.cert) | 23.883414761903 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [546](n546.cert) | 23.889010439304 | Francisco Couzo; retained seed/construction credit: Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [547](n547.cert) | 23.902471234885 | Francisco Couzo |
-| [548](n548.cert) | 23.944667600432 | Darius Muglich, with original seed and construction credits in source provenance |
-| [549](n549.cert) | 23.956345132949 | Francisco Couzo |
+| [547](n547.cert) | 23.898819144794 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [548](n548.cert) | 23.944667458057 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [549](n549.cert) | 23.955501804754 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [550](n550.cert) | 23.960681444798 | Francisco Couzo |
 | [551](n551.cert) | 23.965801641975 | Darius Muglich, with original seed and construction credits in source provenance |
 | [552](n552.cert) | 23.966628823346 | Darius Muglich, with original seed and construction credits in source provenance |
-| [553](n553.cert) | 23.979786600216 | Darius Muglich, with original seed and construction credits in source provenance |
-| [554](n554.cert) | 23.986315054038 | Darius Muglich, with original seed and construction credits in source provenance |
+| [553](n553.cert) | 23.979452392567 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [554](n554.cert) | 23.986307325908 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [555](n555.cert) | 23.993580713561 | Francisco Couzo; retained seed/construction credit: Joost de Winter |
 | [577](n577.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
 | [578](n578.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
@@ -483,16 +483,16 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [590](n590.cert) | 24.813708499238 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [591](n591.cert) | 24.828427124775 | Francisco Couzo |
 | [592](n592.cert) | 24.888988759404 | Francisco Couzo |
-| [593](n593.cert) | 24.888988761769 | Francisco Couzo |
+| [593](n593.cert) | 24.888194348858 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [594](n594.cert) | 24.899494936641 | Francisco Couzo |
-| [595](n595.cert) | 24.944667600433 | Darius Muglich, with original seed and construction credits in source provenance |
+| [595](n595.cert) | 24.944667457844 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [596](n596.cert) | 24.949747468335 | Francisco Couzo |
-| [597](n597.cert) | 24.954199965619 | Francisco Couzo |
-| [598](n598.cert) | 24.955802919715 | Francisco Couzo |
-| [599](n599.cert) | 24.962832858736 | Darius Muglich, with original seed and construction credits in source provenance |
-| [600](n600.cert) | 24.979786600241 | Darius Muglich, with original seed and construction credits in source provenance |
-| [601](n601.cert) | 24.986315054063 | Darius Muglich, with original seed and construction credits in source provenance |
-| [602](n602.cert) | 24.990355569405 | Darius Muglich, with original seed and construction credits in source provenance |
+| [597](n597.cert) | 24.950690418637 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [598](n598.cert) | 24.954250129268 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [599](n599.cert) | 24.959619887409 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [600](n600.cert) | 24.978172747238 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [601](n601.cert) | 24.986189080604 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [602](n602.cert) | 24.988237878425 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [603](n603.cert) | 24.990355569380 | Darius Muglich, with original seed and construction credits in source provenance |
 | [626](n626.cert) | 25.520815280201 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [627](n627.cert) | 25.535533905933 | PingYou Ltd (BuddenPing) |
@@ -515,14 +515,14 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [644](n644.cert) | 25.899494936642 | Francisco Couzo |
 | [645](n645.cert) | 25.949747468335 | Francisco Couzo |
 | [646](n646.cert) | 25.949747468336 | Francisco Couzo |
-| [647](n647.cert) | 25.949897942499 | Darius Muglich, with original seed and construction credits in source provenance |
-| [648](n648.cert) | 25.961052856925 | Darius Muglich, with original seed and construction credits in source provenance |
+| [647](n647.cert) | 25.946937290069 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [648](n648.cert) | 25.959619886978 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [649](n649.cert) | 25.974939166892 | Darius Muglich, with original seed and construction credits in source provenance |
 | [650](n650.cert) | 25.974939166866 | Darius Muglich, with original seed and construction credits in source provenance |
-| [651](n651.cert) | 25.982878838107 | Darius Muglich, with original seed and construction credits in source provenance |
-| [652](n652.cert) | 25.990355569406 | Darius Muglich, with original seed and construction credits in source provenance |
-| [653](n653.cert) | 25.994280496464 | Francisco Couzo |
-| [654](n654.cert) | 25.994867334133 | Darius Muglich, with original seed and construction credits in source provenance |
+| [651](n651.cert) | 25.981928099991 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [652](n652.cert) | 25.990044325432 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [653](n653.cert) | 25.992652721826 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [654](n654.cert) | 25.994801642508 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [677](n677.cert) | 26.520815280213 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [678](n678.cert) | 26.535533905933 | PingYou Ltd (BuddenPing) |
 | [679](n679.cert) | 26.583782190178 | Francisco Couzo |
@@ -542,16 +542,16 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [693](n693.cert) | 26.881306218365 | Francisco Couzo |
 | [694](n694.cert) | 26.899494936641 | Francisco Couzo |
 | [695](n695.cert) | 26.899494936642 | Francisco Couzo |
-| [696](n696.cert) | 26.949747468335 | Francisco Couzo |
-| [697](n697.cert) | 26.949747468336 | Francisco Couzo |
+| [696](n696.cert) | 26.948030808681 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [697](n697.cert) | 26.947115393493 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [698](n698.cert) | 26.949747468338 | Francisco Couzo |
 | [699](n699.cert) | 26.949747468415 | Francisco Couzo |
-| [700](n700.cert) | 26.963730153904 | Darius Muglich, with original seed and construction credits in source provenance |
+| [700](n700.cert) | 26.963723854128 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [701](n701.cert) | 26.971171145179 | Darius Muglich, with original seed and construction credits in source provenance |
-| [702](n702.cert) | 26.976479789213 | Francisco Couzo |
+| [702](n702.cert) | 26.976012028499 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [703](n703.cert) | 26.981389201597 | Darius Muglich, with original seed and construction credits in source provenance |
 | [704](n704.cert) | 26.987139500917 | Darius Muglich, with original seed and construction credits in source provenance |
-| [705](n705.cert) | 26.990473400223 | Darius Muglich, with original seed and construction credits in source provenance |
+| [705](n705.cert) | 26.990419622637 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [706](n706.cert) | 26.997919093470 | Darius Muglich, with original seed and construction credits in source provenance |
 | [730](n730.cert) | 27.520815280206 | Francisco Couzo |
 | [731](n731.cert) | 27.535533905933 | PingYou Ltd (BuddenPing) |
@@ -570,18 +570,18 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [744](n744.cert) | 27.798989873256 | Francisco Couzo |
 | [745](n745.cert) | 27.828427124777 | Francisco Couzo |
 | [746](n746.cert) | 27.828427124795 | Francisco Couzo |
-| [747](n747.cert) | 27.888425229258 | Francisco Couzo |
-| [748](n748.cert) | 27.899494936642 | Francisco Couzo |
-| [749](n749.cert) | 27.888577106564 | Francisco Couzo |
-| [750](n750.cert) | 27.911387175496 | Francisco Couzo |
+| [747](n747.cert) | 27.884419298373 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [748](n748.cert) | 27.884992660195 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [749](n749.cert) | 27.884019388658 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [750](n750.cert) | 27.911200800711 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [751](n751.cert) | 27.914175785603 | Francisco Couzo |
-| [752](n752.cert) | 27.932449886404 | Francisco Couzo |
+| [752](n752.cert) | 27.932396768486 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [753](n753.cert) | 27.932449886404 | Francisco Couzo |
 | [754](n754.cert) | 27.937423317053 | Francisco Couzo |
 | [755](n755.cert) | 27.951463061398 | Darius Muglich, with original seed and construction credits in source provenance |
-| [756](n756.cert) | 27.976914446492 | Darius Muglich, with original seed and construction credits in source provenance |
+| [756](n756.cert) | 27.976782251658 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [757](n757.cert) | 27.976914446464 | Darius Muglich, with original seed and construction credits in source provenance |
-| [758](n758.cert) | 27.984283608421 | Darius Muglich, with original seed and construction credits in source provenance |
+| [758](n758.cert) | 27.983731022945 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [759](n759.cert) | 27.988569233274 | Darius Muglich, with original seed and construction credits in source provenance |
 | [760](n760.cert) | 27.992923233307 | Darius Muglich, with original seed and construction credits in source provenance |
 | [785](n785.cert) | 28.520815280214 | Francisco Couzo |
@@ -600,20 +600,20 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [798](n798.cert) | 28.798989873285 | elimination from n=800 (this project) |
 | [799](n799.cert) | 28.798989873256 | Francisco Couzo |
 | [800](n800.cert) | 28.798989873257 | Francisco Couzo |
-| [801](n801.cert) | 28.828427124795 | Francisco Couzo |
-| [802](n802.cert) | 28.828427124817 | Francisco Couzo |
+| [801](n801.cert) | 28.825777528963 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [802](n802.cert) | 28.827439471389 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [803](n803.cert) | 28.827585222385 | Francisco Couzo |
-| [804](n804.cert) | 28.909246527138 | Francisco Couzo |
-| [805](n805.cert) | 28.906213920353 | Francisco Couzo |
-| [806](n806.cert) | 28.919759255285 | Francisco Couzo |
-| [807](n807.cert) | 28.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [804](n804.cert) | 28.884227534030 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [805](n805.cert) | 28.902673974184 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [806](n806.cert) | 28.902673974184 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [807](n807.cert) | 28.924694876402 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [808](n808.cert) | 28.931498747933 | Francisco Couzo |
 | [809](n809.cert) | 28.933954694456 | Francisco Couzo |
 | [810](n810.cert) | 28.951463061401 | Darius Muglich, with original seed and construction credits in source provenance |
 | [811](n811.cert) | 28.974848874210 | Darius Muglich, with original seed and construction credits in source provenance |
 | [812](n812.cert) | 28.976914446493 | Darius Muglich, with original seed and construction credits in source provenance |
-| [813](n813.cert) | 28.981594177185 | Darius Muglich, with original seed and construction credits in source provenance |
-| [814](n814.cert) | 28.981594177156 | Darius Muglich, with original seed and construction credits in source provenance |
+| [813](n813.cert) | 28.979120019579 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [814](n814.cert) | 28.981388189193 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [815](n815.cert) | 28.992261716554 | Francisco Couzo |
 | [816](n816.cert) | 28.995944538693 | Darius Muglich, with original seed and construction credits in source provenance |
 | [817](n817.cert) | 28.997492020607 | Darius Muglich, with original seed and construction credits in source provenance |
@@ -633,20 +633,20 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [855](n855.cert) | 29.798989873287 | elimination from n=856 (this project) |
 | [856](n856.cert) | 29.798989873256 | Francisco Couzo |
 | [857](n857.cert) | 29.798989873257 | Francisco Couzo |
-| [858](n858.cert) | 29.828427124795 | Francisco Couzo |
-| [859](n859.cert) | 29.828427124807 | Francisco Couzo |
+| [858](n858.cert) | 29.825571500174 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [859](n859.cert) | 29.825571500168 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [860](n860.cert) | 29.849242405007 | Francisco Couzo |
 | [861](n861.cert) | 29.849242404953 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [862](n862.cert) | 29.899494936647 | Francisco Couzo |
-| [863](n863.cert) | 29.903757099932 | Francisco Couzo |
-| [864](n864.cert) | 29.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [863](n863.cert) | 29.903593538863 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [864](n864.cert) | 29.924696516014 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [865](n865.cert) | 29.932449886402 | Francisco Couzo |
 | [866](n866.cert) | 29.935764472087 | Francisco Couzo |
-| [867](n867.cert) | 29.942880105421 | Francisco Couzo (web refinement); earlier source credits retained in provenance |
-| [868](n868.cert) | 29.974562439898 | Darius Muglich, with original seed and construction credits in source provenance |
-| [869](n869.cert) | 29.974936836674 | Darius Muglich, with original seed and construction credits in source provenance |
+| [867](n867.cert) | 29.942070418091 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [868](n868.cert) | 29.974553547719 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [869](n869.cert) | 29.974935743865 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [870](n870.cert) | 29.981594177186 | Darius Muglich, with original seed and construction credits in source provenance |
-| [871](n871.cert) | 29.981594177186 | Darius Muglich, with original seed and construction credits in source provenance |
+| [871](n871.cert) | 29.981295638373 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [872](n872.cert) | 29.992623086321 | Darius Muglich, with original seed and construction credits in source provenance |
 | [873](n873.cert) | 29.992265777039 | Francisco Couzo |
 | [874](n874.cert) | 29.992883399226 | Darius Muglich, with original seed and construction credits in source provenance |
@@ -668,20 +668,20 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [915](n915.cert) | 30.798989873256 | Francisco Couzo |
 | [916](n916.cert) | 30.798989873257 | Francisco Couzo |
 | [917](n917.cert) | 30.828427124795 | Francisco Couzo |
-| [918](n918.cert) | 30.828427124807 | Francisco Couzo |
+| [918](n918.cert) | 30.825571499902 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [919](n919.cert) | 30.844931419278 | Francisco Couzo |
 | [920](n920.cert) | 30.849242404954 | Francisco Couzo |
 | [921](n921.cert) | 30.849242404954 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [922](n922.cert) | 30.899494936660 | Francisco Couzo |
-| [923](n923.cert) | 30.924702911083 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
+| [923](n923.cert) | 30.924701326889 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [924](n924.cert) | 30.932449886402 | Francisco Couzo |
 | [925](n925.cert) | 30.934351116933 | Francisco Couzo |
-| [926](n926.cert) | 30.945612117331 | Francisco Couzo; retained seed/construction credit: Francisco Couzo |
-| [927](n927.cert) | 30.969979227502 | Darius Muglich, with original seed and construction credits in source provenance |
-| [928](n928.cert) | 30.974936836705 | Darius Muglich, with original seed and construction credits in source provenance |
+| [926](n926.cert) | 30.942878247848 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [927](n927.cert) | 30.969443226806 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [928](n928.cert) | 30.974935654060 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [929](n929.cert) | 30.975405698330 | Darius Muglich, with original seed and construction credits in source provenance |
 | [930](n930.cert) | 30.977403109933 | Darius Muglich, with original seed and construction credits in source provenance |
-| [931](n931.cert) | 30.989934734721 | Francisco Couzo; seed/construction: Kevin Fang (rectangle and gluing); PingYou Ltd (BuddenPing) (square input) |
+| [931](n931.cert) | 30.989934444611 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [932](n932.cert) | 30.992623086322 | Darius Muglich, with original seed and construction credits in source provenance |
 | [933](n933.cert) | 30.992883399257 | Darius Muglich, with original seed and construction credits in source provenance |
 | [934](n934.cert) | 30.994174058188 | Darius Muglich, with original seed and construction credits in source provenance |
@@ -702,8 +702,8 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [975](n975.cert) | 31.778174593089 | Francisco Couzo |
 | [976](n976.cert) | 31.778174593090 | Francisco Couzo |
 | [977](n977.cert) | 31.798989873257 | Francisco Couzo |
-| [978](n978.cert) | 31.828427124795 | Francisco Couzo |
-| [979](n979.cert) | 31.828427124833 | Francisco Couzo |
+| [978](n978.cert) | 31.825090165865 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [979](n979.cert) | 31.825090165859 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [980](n980.cert) | 31.828427124802 | Francisco Couzo |
 | [981](n981.cert) | 31.849242404954 | Francisco Couzo |
 | [982](n982.cert) | 31.849242405004 | Francisco Couzo |
@@ -711,16 +711,16 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [984](n984.cert) | 31.914115712696 | Francisco Couzo |
 | [985](n985.cert) | 31.920310216858 | Francisco Couzo |
 | [986](n986.cert) | 31.920310216821 | Francisco Couzo |
-| [987](n987.cert) | 31.943300874462 | Francisco Couzo |
+| [987](n987.cert) | 31.941797078452 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [988](n988.cert) | 31.949747468406 | Francisco Couzo |
-| [989](n989.cert) | 31.974936836706 | Darius Muglich, with original seed and construction credits in source provenance |
+| [989](n989.cert) | 31.974181306003 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [990](n990.cert) | 31.975405698333 | Darius Muglich, with original seed and construction credits in source provenance |
 | [991](n991.cert) | 31.977403109965 | Darius Muglich, with original seed and construction credits in source provenance |
 | [992](n992.cert) | 31.977815424177 | Darius Muglich, with original seed and construction credits in source provenance |
 | [993](n993.cert) | 31.983895593655 | Darius Muglich, with original seed and construction credits in source provenance |
-| [994](n994.cert) | 31.992852783190 | Francisco Couzo |
+| [994](n994.cert) | 31.992271544010 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [995](n995.cert) | 31.993696413074 | Francisco Couzo |
-| [996](n996.cert) | 31.994174058189 | Darius Muglich, with original seed and construction credits in source provenance |
+| [996](n996.cert) | 31.994135336337 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [997](n997.cert) | 31.996875920327 | Darius Muglich, with original seed and construction credits in source provenance |
 | [998](n998.cert) | 31.996875920295 | Darius Muglich, with original seed and construction credits in source provenance |
 | [1058](n1058.cert) | 32.999256308447 | Kevin Fang (TheSnakeFang) |
@@ -759,6 +759,7 @@ Source, construction and certificate credits are retained in manifest.json. Supe
 | [1982](n1982.cert) | 44.999256308447 | Kevin Fang (TheSnakeFang) |
 | [1983](n1983.cert) | 44.999950000000 | Kevin Fang and credited original pieces |
 | [1986](n1986.cert) | 44.997600183879 | Francisco Couzo (assembly/refinement); original piece credits below |
+| [2043](n2043.cert) | 45.695704158830 | Francisco Couzo (refinement); source packing from David Ellsworth's catalogue |
 | [2072](n2072.cert) | 45.999256308447 | Kevin Fang (TheSnakeFang) |
 | [2073](n2073.cert) | 45.999950000000 | Kevin Fang and credited original pieces |
 | [2076](n2076.cert) | 45.997550240009 | Francisco Couzo (assembly/refinement); source construction credits retained below |

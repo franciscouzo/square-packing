@@ -1,37 +1,191 @@
 {
   "n": 509,
   "packing": "n509.txt",
-  "packing_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
+  "packing_sha256": "08c8dd62933053f144dfa9970092658a867bd14ad1de48a7c45d64424ea18d7f",
   "certificate": "certificates/n509.cert",
-  "certificate_sha256": "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6",
-  "rational_side": "315885140426547210405639997811392339541043/13737524311768234970671984516000000000000",
+  "certificate_sha256": "67d98af3bd47faab84dabf64c1176c410c879f13a81a682d7c25067aa11f1847",
+  "rational_side": "153591402585753911653464403/6679749121204000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "ac95ad35d3251df40d772775793fc333efac1c9d529711a15255332df8829fc6",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "67d98af3bd47faab84dabf64c1176c410c879f13a81a682d7c25067aa11f1847",
     "source_n": 509,
     "source_provenance": {
-      "category": "earlier precision refinement",
-      "source_url": "/root/square-packing/experiments/dewinter-methods-20261018/native/n509_2_32114fe5d55d.cert",
-      "source_provenance": null,
-      "construction": null,
-      "original_seed_credit": null,
-      "source_packing_sha256": "32114fe5d55da9430a2d7851765788c46d9ba67b4bbb343cb89a718a416be301",
-      "previous_seed_credit": {
-        "seed_credit": "Joost de Winter",
-        "category": "reviewed public submission",
-        "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
-        "request": "https://github.com/jlevy/squares/issues/666",
-        "construction_credit": [
-          "Arslanov, Mustafin and Shangitbayev (four-block method)"
-        ],
-        "source_n": 509,
-        "deleted_squares": 0,
-        "source_certificate_sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd"
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "67d98af3bd47faab84dabf64c1176c410c879f13a81a682d7c25067aa11f1847",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n509.txt",
+        "packing_sha256": "86321f61757730dc5ece32e2a7e169587f863984e7d98b42f8d7fe05ecc30cf0",
+        "search_job": {
+          "id": 118619,
+          "n": 509,
+          "seed": 925118619,
+          "method": "fq",
+          "variant": true,
+          "radius": 0.003,
+          "iterations": 1000,
+          "hop_seconds": 360,
+          "slp_seconds": 120,
+          "source": "n509.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
+          },
+          "pool_size": 8,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "n509.txt",
+            "source_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
+            "source_n": 509,
+            "source_side": 22.99432803594784,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 22.99432803594784
+          },
+          "source_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
+          "allocation": "general",
+          "worker_slot": 10,
+          "host": "fran@192.168.0.200",
+          "started": 1792585515.1314306,
+          "worker_details": {
+            "translations": false,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+            "pool_size": 8,
+            "actual_method": "fq",
+            "external_method": "fq",
+            "seed_squares": 509,
+            "proposals": 6,
+            "accepted": 4,
+            "best": 22.993588501399483,
+            "start": 22.99432803594784,
+            "fq_finish": {
+              "fq_best": 22.993588501399476
+            },
+            "winner": "fq_best+fq",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 22.994328035956602,
+                "after": 22.994328035960983
+              },
+              {
+                "name": "fq_best",
+                "before": 22.993588501403682,
+                "after": 22.993588501408084
+              },
+              {
+                "name": "fq_best+fq",
+                "before": 22.993588501403675,
+                "after": 22.993588501408077
+              }
+            ]
+          }
+        }
+      },
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "earlier precision refinement",
+        "source_url": "/root/square-packing/experiments/dewinter-methods-20261018/native/n509_2_32114fe5d55d.cert",
+        "source_provenance": null,
+        "construction": null,
+        "original_seed_credit": null,
+        "source_packing_sha256": "32114fe5d55da9430a2d7851765788c46d9ba67b4bbb343cb89a718a416be301",
+        "previous_seed_credit": {
+          "seed_credit": "Joost de Winter",
+          "category": "reviewed public submission",
+          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0509.cert",
+          "request": "https://github.com/jlevy/squares/issues/666",
+          "construction_credit": [
+            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+          ],
+          "source_n": 509,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "914170ab2228a12f49b85fe182da305f061388d25e9c43f76aee82d55b569ecd"
+        }
+      },
+      "verified_audit": "experiments/record-check-20261021",
+      "search_job": {
+        "id": 118619,
+        "n": 509,
+        "seed": 925118619,
+        "method": "fq",
+        "variant": true,
+        "radius": 0.003,
+        "iterations": 1000,
+        "hop_seconds": 360,
+        "slp_seconds": 120,
+        "source": "n509.txt",
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 8,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "n509.txt",
+          "source_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
+          "source_n": 509,
+          "source_side": 22.99432803594784,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 22.99432803594784
+        },
+        "source_sha256": "db5924aa3fe2338f7ac00b2818525d33960fc0837df2663a666dba558a8837d9",
+        "allocation": "general",
+        "worker_slot": 10,
+        "host": "fran@192.168.0.200",
+        "started": 1792585515.1314306,
+        "worker_details": {
+          "translations": false,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+          "pool_size": 8,
+          "actual_method": "fq",
+          "external_method": "fq",
+          "seed_squares": 509,
+          "proposals": 6,
+          "accepted": 4,
+          "best": 22.993588501399483,
+          "start": 22.99432803594784,
+          "fq_finish": {
+            "fq_best": 22.993588501399476
+          },
+          "winner": "fq_best+fq",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 22.994328035956602,
+              "after": 22.994328035960983
+            },
+            {
+              "name": "fq_best",
+              "before": 22.993588501403682,
+              "after": 22.993588501408084
+            },
+            {
+              "name": "fq_best+fq",
+              "before": 22.993588501403675,
+              "after": 22.993588501408077
+            }
+          ]
+        }
       }
     },
     "construction": null,
     "deleted_squares": 0
-  },
-  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+  }
 }

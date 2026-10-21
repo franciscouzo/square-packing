@@ -1,59 +1,55 @@
 {
   "n": 365,
   "packing": "n365.txt",
-  "packing_sha256": "78b611a4abeb6e04e57e5ed336e9b8d6e28849ce91d3c05f99559649241ed292",
+  "packing_sha256": "579c431cfa678ef1bb70a435dc610589304fe507737af6370a6c6707dfd20bb1",
   "certificate": "certificates/n365.cert",
-  "certificate_sha256": "770086fffb24517500f2b2081e9e23b02f9c22ecfcf42d8ce8c27eebf080c7e6",
-  "rational_side": "19614376892294787376892276173/1000000000000000000000000000",
+  "certificate_sha256": "e6065d773c4a9404d1a569dbcbc17430e355da52a0bd00fa43c126545def0b21",
+  "rational_side": "6313786260836320001431856772233400466612381222496592793/321895967218167241377443521489582290271500000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
-    "source_certificate_sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "d8af8c4ed0777b1835bfc425a5cc9d22aff40ea996b718c4404a99249751d4a3",
     "source_n": 328,
     "source_provenance": {
-      "category": "public submission",
-      "source_url": "https://github.com/jlevy/squares/issues/686",
-      "source_provenance": {
-        "n": 328,
-        "certificate": {
-          "valid": true,
+      "category": "CT105 web submission",
+      "audit_source": "web search",
+      "source_certificate_sha256": "d8af8c4ed0777b1835bfc425a5cc9d22aff40ea996b718c4404a99249751d4a3",
+      "audit_origin": {
+        "created": 1792608312.988986,
+        "name": "franciscouzo",
+        "method": "fq"
+      },
+      "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+      "prior_source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/jlevy/squares/issues/686",
+        "source_provenance": {
           "n": 328,
-          "side": "18614376892294787376892276173/1000000000000000000000000000",
-          "side_float": 18.614376892294786,
-          "dilation": "1000000000001/1000000000000",
-          "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-          "pair_count": 53628,
-          "checks": [
-            "rational separating axes",
-            "rational polygon intersection"
-          ],
-          "log": "VALID: 328 closed unit squares pairwise disjoint inside the open box of side 18.614376892294785648 (760 close pairs checked)\n"
-        },
-        "source_side": "18614396497182911396497164297/1000000000000000000000000000",
-        "source_sha256": "cea2e8b61ed7cf9c22d19c20631133d291a6019aa22ae463fc81e3e7af50b35e",
-        "public_bound": "54039024390243902439024444282926829268292682926829268292682926829268292682926829808682926829268244902439564780487804878001/2900000000000000000000000000000000000000000000000000000000000000000000000000000028999999999999980000000000000000000000000",
-        "public_verified_side": "54039024390243902439024444282926829268292682926829268292682926829268292682926829808682926829268244902439564780487804878001/2900000000000000000000000000000000000000000000000000000000000000000000000000000028999999999999980000000000000000000000000",
-        "public_source": "https://github.com/franciscouzo/square-packing/tree/23aff0c6f992271e1ad13a148d44f392c4b386c0",
-        "source_axis_crop": "372287929943633460931107162490158835353111188622454311228560151325211783319688325564486190293452783709733326950361026979985051956786722468536663/19999999999999966000000000000030094100285563895769688006025331916055477117106355506520194317070250000000000000000000000000000000000000000000000",
-        "source_ray_crop": "10100942901421722431667285188109449914356713996764380353810897737534142909932698276868839970511896227798799859462134818571829250728692297537332973969840818812914030445315157356491041310049889984159/542641439004620044671946909862389868431292482876291550296927152898658955654572657636863404729845720050954954488093190709742266905914392199056624729884737111761398915523027361500000000000000000000",
-        "beats_current_reference": true,
-        "beats_source_only_tightening": true,
-        "method_credit": "Screened large single-square rotation plus current native explorer; winning arm landmark-uniform; trained328 evidence,330 transfer ties",
-        "producing_job": {
-          "id": "matched-r3-328-179713-landmark-uniform",
-          "n": 328,
-          "seed": 179713,
-          "arm": "landmark-uniform",
-          "backend": "current",
-          "cpu": 98.40796499999999,
-          "track": "trained",
-          "elite_share": 0.35,
-          "counterpart_control_id": "matched-r2-328-179713-landmark-screen",
-          "counterpart_actual_cpu": 99.15796499999999
-        },
-        "project_gain_ppm": 1.0532121616241064,
-        "origin": {
-          "job": {
+          "certificate": {
+            "valid": true,
+            "n": 328,
+            "side": "18614376892294787376892276173/1000000000000000000000000000",
+            "side_float": 18.614376892294786,
+            "dilation": "1000000000001/1000000000000",
+            "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
+            "pair_count": 53628,
+            "checks": [
+              "rational separating axes",
+              "rational polygon intersection"
+            ],
+            "log": "VALID: 328 closed unit squares pairwise disjoint inside the open box of side 18.614376892294785648 (760 close pairs checked)\n"
+          },
+          "source_side": "18614396497182911396497164297/1000000000000000000000000000",
+          "source_sha256": "cea2e8b61ed7cf9c22d19c20631133d291a6019aa22ae463fc81e3e7af50b35e",
+          "public_bound": "54039024390243902439024444282926829268292682926829268292682926829268292682926829808682926829268244902439564780487804878001/2900000000000000000000000000000000000000000000000000000000000000000000000000000028999999999999980000000000000000000000000",
+          "public_verified_side": "54039024390243902439024444282926829268292682926829268292682926829268292682926829808682926829268244902439564780487804878001/2900000000000000000000000000000000000000000000000000000000000000000000000000000028999999999999980000000000000000000000000",
+          "public_source": "https://github.com/franciscouzo/square-packing/tree/23aff0c6f992271e1ad13a148d44f392c4b386c0",
+          "source_axis_crop": "372287929943633460931107162490158835353111188622454311228560151325211783319688325564486190293452783709733326950361026979985051956786722468536663/19999999999999966000000000000030094100285563895769688006025331916055477117106355506520194317070250000000000000000000000000000000000000000000000",
+          "source_ray_crop": "10100942901421722431667285188109449914356713996764380353810897737534142909932698276868839970511896227798799859462134818571829250728692297537332973969840818812914030445315157356491041310049889984159/542641439004620044671946909862389868431292482876291550296927152898658955654572657636863404729845720050954954488093190709742266905914392199056624729884737111761398915523027361500000000000000000000",
+          "beats_current_reference": true,
+          "beats_source_only_tightening": true,
+          "method_credit": "Screened large single-square rotation plus current native explorer; winning arm landmark-uniform; trained328 evidence,330 transfer ties",
+          "producing_job": {
             "id": "matched-r3-328-179713-landmark-uniform",
             "n": 328,
             "seed": 179713,
@@ -65,26 +61,43 @@
             "counterpart_control_id": "matched-r2-328-179713-landmark-screen",
             "counterpart_actual_cpu": 99.15796499999999
           },
-          "record": {
-            "side": "18614376892294787376892276173/1000000000000000000000000000",
-            "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-            "certificate": "certificates/eeeb8ff6c7fd20703f12a898df99169a812ae0e14f9a189db8b3dac92fab1c0f.cert",
-            "source": "attempts/matched-r3-328-179713-landmark-uniform/run/search/b00000.txt",
-            "source_sha256": "eeeb8ff6c7fd20703f12a898df99169a812ae0e14f9a189db8b3dac92fab1c0f"
+          "project_gain_ppm": 1.0532121616241064,
+          "origin": {
+            "job": {
+              "id": "matched-r3-328-179713-landmark-uniform",
+              "n": 328,
+              "seed": 179713,
+              "arm": "landmark-uniform",
+              "backend": "current",
+              "cpu": 98.40796499999999,
+              "track": "trained",
+              "elite_share": 0.35,
+              "counterpart_control_id": "matched-r2-328-179713-landmark-screen",
+              "counterpart_actual_cpu": 99.15796499999999
+            },
+            "record": {
+              "side": "18614376892294787376892276173/1000000000000000000000000000",
+              "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
+              "certificate": "certificates/eeeb8ff6c7fd20703f12a898df99169a812ae0e14f9a189db8b3dac92fab1c0f.cert",
+              "source": "attempts/matched-r3-328-179713-landmark-uniform/run/search/b00000.txt",
+              "source_sha256": "eeeb8ff6c7fd20703f12a898df99169a812ae0e14f9a189db8b3dac92fab1c0f"
+            },
+            "reference": "4653600821789374600821784721/250000000000000000000000000",
+            "classification": "Exact project-envelope improvement; current public comparison and worldwide priority unresolved"
           },
-          "reference": "4653600821789374600821784721/250000000000000000000000000",
-          "classification": "Exact project-envelope improvement; current public comparison and worldwide priority unresolved"
+          "scope": "Exact candidate and mechanism PoC. Matched actual-CPU evidence supports the trained328 case;330 transfer ties, broader superiority remains unproved; worldwide priority unconfirmed."
         },
-        "scope": "Exact candidate and mechanism PoC. Matched actual-CPU evidence supports the trained328 case;330 transfer ties, broader superiority remains unproved; worldwide priority unconfirmed."
+        "construction": null,
+        "original_seed_credit": null,
+        "source_packing_sha256": null,
+        "received": "2026-10-19T20:43:04Z"
       },
-      "construction": null,
-      "original_seed_credit": null,
-      "source_packing_sha256": null
+      "verified_audit": "experiments/record-check-20261021"
     },
     "construction": {
       "kind": "square tiling and L-border",
       "source_n": 328,
-      "source_bound": "18614376892294787376892276173/1000000000000000000000000000",
+      "source_bound": "5991890293618152760054413250743818176340881222496592793/321895967218167241377443521489582290271500000000000000",
       "tiles_per_side": 1,
       "layers": 1,
       "capacity": 365,
@@ -92,6 +105,5 @@
       "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
     },
     "deleted_squares": 0
-  },
-  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+  }
 }

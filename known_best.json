@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T22:26:37.947276+00:00",
+  "generated": "2026-10-21T19:41:31Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -11,7 +11,7 @@
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "1d2bb82035af4b7eb4658488543e46b67d1099ca"
+      "commit": "88385abc95ab25d520302282d1946cbb07bc9cf3"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
@@ -43,7 +43,7 @@
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
-      "commit": "f8d547728c7761f78f29cf52c8974e1eba04ad4d"
+      "commit": "7eeab1f5e3161cfd7aa62f7e685f9e1952d4fad8"
     }
   },
   "note": "Best known upper bounds: the register's reported value or a verified, published certificate. Third-party packings are credited to their authors and are used here only as comparison bounds and search seeds.",
@@ -546,9 +546,7 @@
       "register_found_by": [
         "Ryan Xu"
       ],
-      "register_improved_by": [],
-      "own": 7.6903559372884915,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "52": {
       "side": 7.707106781186548,
@@ -742,9 +740,7 @@
       "register_improved_by": [
         "Seth Rehwaldt",
         "PingYou Ltd"
-      ],
-      "own": 8.798795237218284,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "69": {
       "side": 8.82719465572973,
@@ -793,9 +789,7 @@
       ],
       "register_improved_by": [
         "Evan Daniel"
-      ],
-      "own": 8.88096037155558,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "71": {
       "side": 8.94407155757031,
@@ -938,8 +932,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 9.697934799014922,
-      "own_status": "tied (within 1e-10)",
       "seed": "n84.txt"
     },
     "85": {
@@ -1001,8 +993,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 9.820535407496742,
-      "own_status": "tied (within 1e-10)",
       "seed": "n86.txt"
     },
     "87": {
@@ -1057,12 +1047,10 @@
       "register_improved_by": [
         "Siddharth Gupta"
       ],
-      "own": 9.882451030481247,
-      "own_status": "tied (within 1e-10)",
       "seed": "n88.txt"
     },
     "89": {
-      "side": 9.949747468305834,
+      "side": 9.949747468305832,
       "source": "register",
       "register": 9.949747468305834,
       "register_text": "5 + (7/2)\u221a2",
@@ -1196,8 +1184,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 10.605828696431578,
-      "own_status": "tied (within 1e-10)",
       "seed": "n102.txt"
     },
     "103": {
@@ -1232,9 +1218,7 @@
         "Mishapolk",
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 10.679232047361307,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "104": {
       "side": 10.707106781186548,
@@ -1295,8 +1279,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 10.789303783748158,
-      "own_status": "tied (within 1e-10)",
       "seed": "n105.txt"
     },
     "106": {
@@ -1317,9 +1299,7 @@
       ],
       "register_improved_by": [
         "Evan Daniel"
-      ],
-      "own": 10.822908044132847,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "107": {
       "side": 10.846667192843489,
@@ -1380,12 +1360,10 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 10.904821012320356,
-      "own_status": "tied (within 1e-10)",
       "seed": "n108.txt"
     },
     "109": {
-      "side": 10.949747468305834,
+      "side": 10.949747468305832,
       "source": "register",
       "register": 10.949747468305834,
       "register_text": "6 + (7/2)\u221a2",
@@ -1420,9 +1398,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 10.996783396631592,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "111": {
       "side": 11.0,
@@ -1542,8 +1518,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 11.591378145497698,
-      "own_status": "tied (within 1e-10)",
       "seed": "n123.txt"
     },
     "124": {
@@ -1615,8 +1589,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 11.742640687119286,
-      "own_status": "tied (within 1e-10)",
       "seed": "n126.txt"
     },
     "127": {
@@ -1649,8 +1621,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 11.81087878758918,
-      "own_status": "tied (within 1e-10)",
       "seed": "n127.txt"
     },
     "128": {
@@ -1712,8 +1682,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 11.870013850404465,
-      "own_status": "tied (within 1e-10)",
       "seed": "n129.txt"
     },
     "130": {
@@ -1764,8 +1732,6 @@
         "Siddharth Gupta",
         "PingYou Ltd"
       ],
-      "own": 11.904483032515786,
-      "own_status": "tied (within 1e-10)",
       "seed": "n130.txt"
     },
     "131": {
@@ -1809,8 +1775,6 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 11.94965958803586,
-      "own_status": "tied (within 1e-10)",
       "seed": "n131.txt"
     },
     "132": {
@@ -1848,8 +1812,6 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 11.98568019884581,
-      "own_status": "tied (within 1e-10)",
       "seed": "n132.txt"
     },
     "133": {
@@ -1973,9 +1935,7 @@
       "register_found_by": [
         "Evan Daniel"
       ],
-      "register_improved_by": [],
-      "own": 12.58378219015186,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "147": {
       "side": 12.65685424949238,
@@ -2080,15 +2040,13 @@
       ],
       "register_improved_by": [
         "Evan Daniel"
-      ],
-      "own": 12.83071880097661,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "153": {
-      "side": 12.87001385040448,
-      "source": "register",
-      "register": 12.87001385040448,
-      "register_text": "20109396641257/1562500000000",
+      "side": 12.870013850404465,
+      "source": "reviewed-submission",
+      "register": 12.870013850407044,
+      "register_text": "6435006925203522001385040447/500000000000000000000000000",
       "external": {
         "side": "2227165943340851555850028218564587062402806308930562285754229021180157993819698968124828297191573633317265573135202056999017368623126213661241118759346151458110516514889392065514477485051741489715625043479032590094350138109468667334111808369146511567708187594817151085658793971522088079247654521198728007371003263315517472620043909537862437447108683615454731602549012139195281809691091362176225901349495764274555288109217942929652581650515668627425520845741489203598264021149741315502655659328362299187196274542985158547580988772408519619752864568042449057645019869077157861589208434919691816834786834181/173050780615194029904652040729440828598331328398510256156040510967527155684947505612045465842284319202916835602379195248093768475318735976132778351137430164727978193108913947653612126596664685176804574524012464629014378143300114733617955756596099180348351570000221221642724751322371417136202725138214743883961846012143642910467151913503017927211889062053371845938677737278264878493054858480807459536725664125012515004539292890730703280842647617140936639038725078119366528069480543321059676749902946083700759068672000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "side_decimal": 12.870013850404465,
@@ -2098,7 +2056,7 @@
         "certificate": "n153/geometry.json",
         "certificate_url": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-exact-153-302-2026-10-13-v1",
         "sha256": "b15616db97d7fd22757a5bdecbe41aa98c730861b4910c8bcc26899617e03c08",
-        "pending": false,
+        "pending": true,
         "verification": "full exact algebraic replay; explicit defining polynomial coefficients added without changing geometry",
         "verifier_sha256": "076ac46a8edf9d0aaf4a30d8ecf673c8117a59ea659c832d01129a035fbf163e",
         "release": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-exact-153-302-2026-10-13-v1",
@@ -2126,29 +2084,13 @@
           ]
         }
       },
-      "seed": "n153.txt",
-      "own": 12.870013850404465,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n153.txt"
     },
     "154": {
       "side": 12.921100940761681,
-      "source": "evand",
-      "register": 12.921206577132631,
-      "register_text": "646060328856631552497101463610355043240689434277149/50000000000000000000000000000000000000000000000000",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n154.txt"
-        },
-        {
-          "source": "mishapolk",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n154.txt"
-        }
-      ],
+      "source": "register",
+      "register": 12.921100940761681,
+      "register_text": "1615137617595210068732072760947/125000000000000000000000000000",
       "external": {
         "side": "1615137617595210068732072760947/125000000000000000000000000000",
         "side_decimal": 12.921100940761681,
@@ -2157,15 +2099,8 @@
         "request": "https://github.com/jlevy/squares/issues/694",
         "certificate": "evand/search/packer/candidates/s154_sw.cert",
         "sha256": "c2242dcda1ae3d4c9d580af14ed9adf425780320d94846c3c96f5c3ee486d78d",
-        "pending": true
+        "pending": false
       },
-      "register_found_by": [
-        "Evan Daniel"
-      ],
-      "register_improved_by": [
-        "Francisco Couzo",
-        "Mishapolk"
-      ],
       "seed": "external/seeds/n154.txt"
     },
     "155": {
@@ -2219,8 +2154,6 @@
         "Evan Daniel"
       ],
       "register_improved_by": [],
-      "own": 12.952260944650565,
-      "own_status": "tied (within 1e-10)",
       "seed": "n155.txt"
     },
     "156": {
@@ -2260,8 +2193,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 12.979165853834276,
-      "own_status": "tied (within 1e-10)",
       "seed": "n156.txt"
     },
     "157": {
@@ -2395,9 +2326,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 13.618988956899399,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "173": {
       "side": 13.65685424949238,
@@ -2475,8 +2404,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 13.764174317486596,
-      "own_status": "tied (within 1e-10)",
       "seed": "n175.txt"
     },
     "176": {
@@ -2521,8 +2448,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 13.795872318436407,
-      "own_status": "tied (within 1e-10)",
       "seed": "n176.txt"
     },
     "177": {
@@ -2546,8 +2471,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 13.822979734169449,
-      "own_status": "tied (within 1e-10)",
       "seed": "n177.txt"
     },
     "178": {
@@ -2603,8 +2526,6 @@
         "Siddharth Gupta",
         "PingYou Ltd"
       ],
-      "own": 13.883795490510899,
-      "own_status": "tied (within 1e-10)",
       "seed": "n179.txt"
     },
     "180": {
@@ -2644,8 +2565,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 13.916993522477833,
-      "own_status": "tied (within 1e-10)",
       "seed": "n180.txt"
     },
     "181": {
@@ -2678,9 +2597,7 @@
       ],
       "register_improved_by": [
         "PingYou Ltd"
-      ],
-      "own": 13.950819531022924,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "182": {
       "side": 13.97409071312144,
@@ -2701,9 +2618,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 13.97409071312144,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "183": {
       "side": 13.999580178736252,
@@ -2869,8 +2784,6 @@
       "register_improved_by": [
         "Siddharth Gupta"
       ],
-      "own": 14.617572173592807,
-      "own_status": "tied (within 1e-10)",
       "seed": "n199.txt"
     },
     "200": {
@@ -2908,7 +2821,7 @@
       "seed": "external/seeds/n201.txt"
     },
     "202": {
-      "side": 14.727922061357857,
+      "side": 14.727922061357855,
       "source": "register",
       "register": 14.727922061357857,
       "register_text": "2 + 9 \u221a2",
@@ -2942,8 +2855,8 @@
       "seed": "external/seeds/n203.txt"
     },
     "204": {
-      "side": 14.808642840591494,
-      "source": "evand",
+      "side": 14.808663234386957,
+      "source": "register",
       "register": 14.808663234386957,
       "register_text": "740433161719347828316145172430104761481126338872178671530915993369069066972891707484286255665843382616078162213/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "also_found_by": [
@@ -2966,25 +2879,13 @@
           "ours": "n204_s14.808663234390.txt"
         }
       ],
-      "external": {
-        "side": "14808642840591493923068442871459/1000000000000000000000000000000",
-        "side_decimal": 14.808642840591494,
-        "source": "evand",
-        "credit": "Francisco Couzo (franciscouzo)",
-        "request": "https://github.com/jlevy/squares/issues/678",
-        "certificate": "evand/search/regularize/lists/certs/n-204.cert.gz",
-        "sha256": "69e00fd0869aa0bc35e189abeedac70af53a3b0c224acdee8751a5b6c31b002f",
-        "pending": true
-      },
       "register_found_by": [
         "Daniil Ostashev"
       ],
       "register_improved_by": [
         "PingYou Ltd",
         "Mishapolk"
-      ],
-      "own": 14.808642840591494,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "205": {
       "side": 14.82445114612408,
@@ -3025,15 +2926,13 @@
         "Evan Daniel",
         "PingYou Ltd"
       ],
-      "own": 14.860158663391903,
-      "own_status": "tied (within 1e-10)",
       "seed": "n206.txt"
     },
     "207": {
       "side": 14.88096037155558,
       "source": "reviewed-submission",
-      "register": 14.880960371558,
-      "register_text": "7440480185779/500000000000",
+      "register": 14.880960373043676,
+      "register_text": "148809603730436756319360591381170501178639/10000000000000000000000000000000000000000",
       "external": {
         "side": "615922507744673507413236741101641458549316469088092193644346830053222457279370613119268094282211176083202045394133367971465891881627597778955296164460643848812084800969940750874369151484142618298622517557955429104233920371665386860421044199920263840944022916176213401028522737983954211326537629033089256570274158087544712134388745388045912132667073111392991661866558741690121137054307074641034233476970233305996175679766341814938107339379043575302279938341368504382062537190742889188205846359273452383444146616876517706427968065519382468867257824263045452928472082530907674513787109426595837933183773676192087656008615517754297320194425928896060010016536551693657559218099412740954492825368141042890568936035689548571100887303617304201108051546964808044919511586578454282531325182132629405168269709754814411373778398869973221448754404522637/41389970295330348641787200302482003956214668844592975884797583084812532931451729082479278675643410956828698236230193515864928181805985376774672380284610033448234792038172998960048187293027460392618462922361127595145594461412076144720167824808410037343438419723029536810764768085793642168515565526207921635402527073997791008545559503105566424398646024692458865038617818873930218557574120361012142951068496154887826389768700303477809986694763807007798972452354841623988981174917565219260554850016487446662733265966332877382443073652980926687160440676978985022226626122437766857629326982847705103054459095721262464913278934661700966289932956032789679907213489804429965637529216114112739896287068582522201428602197634674523088713196033034167793665103757297022847618102796457068468885776228460743098828364324582121974860772454657582694400000000",
         "side_decimal": 14.88096037155558,
@@ -3091,7 +2990,7 @@
         "certificate": "n207/geometry.json",
         "certificate_url": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
         "sha256": "dc69d1ed16353c603fba45da2380dfb475bf657a2b1dbcdf6e5393b4a35d33d3",
-        "pending": false,
+        "pending": true,
         "verification": "full exact algebraic certificate replay, every unit frame, wall and pair checked",
         "verifier_sha256": "076ac46a8edf9d0aaf4a30d8ecf673c8117a59ea659c832d01129a035fbf163e",
         "release": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-algebraic-refinements-2026-10-13-v1",
@@ -3125,9 +3024,7 @@
           ]
         }
       },
-      "seed": "n207.txt",
-      "own": 14.88096037155558,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n207.txt"
     },
     "208": {
       "side": 14.924518772029355,
@@ -3172,9 +3069,7 @@
       "register_improved_by": [
         "Siddharth Gupta",
         "PingYou Ltd"
-      ],
-      "own": 14.924518772029355,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "209": {
       "side": 14.94622322644645,
@@ -3212,8 +3107,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 14.94622322644645,
-      "own_status": "tied (within 1e-10)",
       "seed": "n209.txt"
     },
     "210": {
@@ -3235,9 +3128,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 14.973001116587625,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "211": {
       "side": 14.993549626299421,
@@ -3267,9 +3158,7 @@
       ],
       "register_improved_by": [
         "Francisco Couzo"
-      ],
-      "own": 14.993549626299421,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "212": {
       "side": 15.0,
@@ -3390,9 +3279,7 @@
       "register_found_by": [
         "David Ellsworth"
       ],
-      "register_improved_by": [],
-      "own": 15.563625652342727,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "228": {
       "side": 15.604601475729675,
@@ -3412,9 +3299,7 @@
       ],
       "register_improved_by": [
         "PingYou Ltd"
-      ],
-      "own": 15.604601475729675,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "229": {
       "side": 15.650161513876432,
@@ -3437,14 +3322,12 @@
         "request": "https://github.com/jlevy/squares/issues/674",
         "certificate": "evand/search/regularize/lists/certs/n-229.cert.gz",
         "sha256": "e613256d8fd143026cf3d9a4221f0a525e0ab8d1ee9a2c321033fcfd4916adcc",
-        "pending": false
+        "pending": true
       },
       "register_found_by": [
         "Evan Daniel"
       ],
-      "register_improved_by": [],
-      "own": 15.650161513895553,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "230": {
       "side": 15.682926829268293,
@@ -3516,8 +3399,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 15.764174317486596,
-      "own_status": "tied (within 1e-10)",
       "seed": "n232.txt"
     },
     "233": {
@@ -3597,9 +3478,7 @@
       "register_found_by": [
         "Evan Daniel"
       ],
-      "register_improved_by": [],
-      "own": 15.861934390607358,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "237": {
       "side": 15.902603638259597,
@@ -3630,9 +3509,7 @@
       "register_improved_by": [
         "Francisco Couzo",
         "Mishapolk"
-      ],
-      "own": 15.902603638259597,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "238": {
       "side": 15.924106785321495,
@@ -3669,8 +3546,6 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 15.924106785321495,
-      "own_status": "tied (within 1e-10)",
       "seed": "n238.txt"
     },
     "239": {
@@ -3708,8 +3583,6 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 15.9484433273005,
-      "own_status": "tied (within 1e-10)",
       "seed": "n239.txt"
     },
     "240": {
@@ -3731,9 +3604,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 15.96968533753078,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "241": {
       "side": 15.98711709515024,
@@ -3763,9 +3634,7 @@
       ],
       "register_improved_by": [
         "Francisco Couzo"
-      ],
-      "own": 15.98711709515024,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "242": {
       "side": 16.0,
@@ -3904,8 +3773,6 @@
         "Mishapolk",
         "Evan Daniel"
       ],
-      "own": 16.56344800213379,
-      "own_status": "tied (within 1e-10)",
       "seed": "n258.txt"
     },
     "259": {
@@ -3935,8 +3802,6 @@
         "Nate Chaoweeraprasit (itsnaka)"
       ],
       "register_improved_by": [],
-      "own": 16.5913781454977,
-      "own_status": "tied (within 1e-10)",
       "seed": "n259.txt"
     },
     "260": {
@@ -3957,9 +3822,7 @@
       "register_found_by": [
         "David Ellsworth"
       ],
-      "register_improved_by": [],
-      "own": 16.645753250544956,
-      "own_status": "tied (within 1e-10)"
+      "register_improved_by": []
     },
     "261": {
       "side": 16.67877987534291,
@@ -4009,8 +3872,6 @@
         "Robert Barnett",
         "PingYou Ltd"
       ],
-      "own": 16.67877987534291,
-      "own_status": "tied (within 1e-10)",
       "seed": "n261.txt"
     },
     "262": {
@@ -4060,8 +3921,6 @@
         "Evan Daniel",
         "PingYou Ltd"
       ],
-      "own": 16.733166007899378,
-      "own_status": "tied (within 1e-10)",
       "seed": "n263.txt"
     },
     "264": {
@@ -4106,8 +3965,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 16.774735132387832,
-      "own_status": "tied (within 1e-10)",
       "seed": "n264.txt"
     },
     "265": {
@@ -4160,8 +4017,6 @@
         "Evan Daniel"
       ],
       "register_improved_by": [],
-      "own": 16.823028750756475,
-      "own_status": "tied (within 1e-10)",
       "seed": "n266.txt"
     },
     "267": {
@@ -4199,8 +4054,6 @@
       "register_improved_by": [
         "Francisco Couzo"
       ],
-      "own": 16.838815269948263,
-      "own_status": "tied (within 1e-10)",
       "seed": "n267.txt"
     },
     "268": {
@@ -4222,9 +4075,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 16.878814821006763,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "269": {
       "side": 16.901513582189132,
@@ -4262,65 +4113,24 @@
         "Evan Daniel",
         "PingYou Ltd"
       ],
-      "own": 16.901513582189132,
-      "own_status": "tied (within 1e-10)",
       "seed": "n269.txt"
     },
     "270": {
       "side": 16.92816225219675,
-      "source": "evand",
-      "register": 16.928196993329017,
-      "register_text": "7319004494323184528172161548492021449751211839056595634017263122914644799152134459920283939271618346505144932651770631313147943717934425270784239112055599803419332775230108277272607131718728519377944933372884688920782543915399068600853979409597894844622032511647210415530371382987633579633987705657253510721820717371285508132131308414966835933010065024125462553128017258748191521599793450173168475664903488431474167545362427632311573297713987250233731964474990702675344945399/432355820127059191962457971091003116151735623913722157481971064954307499554872284217472678834991356079981749542149770893462918426846178859869704748764432124121479387121303896615324317405761552240044686057602633215118652922897972447425125594260627384320693622496237220947927740145193712693252873330192477040213212960830920157063156497240781891307315641410668106056526933076060817820596348372194381094611556761367482106256774474832851882119807091643699240858414838814147083028",
-      "also_found_by": [
-        {
-          "source": "squish",
-          "credit": "Nate Chaoweeraprasit (SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/500",
-          "ours": "n270.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Nate Chaoweeraprasit (itsnaka, SQUISH)",
-          "request": "https://github.com/jlevy/squares/issues/401",
-          "ours": "n270.txt"
-        },
-        {
-          "source": "mishapolk",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n270.txt"
-        },
-        {
-          "source": "mishapolk",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "request": "https://github.com/jlevy/squares/issues/470",
-          "ours": "n270.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Evan Daniel",
-          "request": "https://github.com/jlevy/squares/issues/399",
-          "ours": "n270_s16.936723023057.txt"
-        }
-      ],
+      "source": "register",
+      "register": 16.92816225219675,
+      "register_text": "16928162252196750114897964982713/1000000000000000000000000000000",
       "external": {
         "side": "16928162252196750114897964982713/1000000000000000000000000000000",
         "side_decimal": 16.92816225219675,
         "source": "evand",
-        "credit": "Evan Daniel; ultimate start: Nate Chaoweeraprasit (SQUISH), refined by PingYou Ltd",
-        "request": "https://github.com/jlevy/squares/issues/703",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s270_sw.cert",
         "sha256": "a01114af338f092232c0b7de07bfd164a636ef6355e15259c7fcb5812aa6034f",
-        "certificate_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s270_sw.cert",
-        "pending": true
+        "pending": false
       },
-      "register_found_by": [
-        "Nate Chaoweeraprasit (itsnaka)"
-      ],
-      "register_improved_by": [
-        "PingYou Ltd"
-      ],
-      "seed": "n270.txt"
+      "seed": "external/seeds/n270.txt"
     },
     "271": {
       "side": 16.94894773371366,
@@ -4358,14 +4168,9 @@
         "pending": false
       },
       "register_found_by": [
-        "Nate Chaoweeraprasit (itsnaka)"
-      ],
-      "register_improved_by": [
-        "Francisco Couzo",
         "Evan Daniel"
       ],
-      "own": 16.94894773371366,
-      "own_status": "tied (within 1e-10)",
+      "register_improved_by": [],
       "seed": "n271.txt"
     },
     "272": {
@@ -4415,8 +4220,6 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 16.96558647483767,
-      "own_status": "tied (within 1e-10)",
       "seed": "n272.txt"
     },
     "273": {
@@ -4438,9 +4241,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 16.983925962650403,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "274": {
       "side": 17.0,
@@ -4593,8 +4394,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 17.5913781454977,
-      "own_status": "tied (within 1e-10)",
       "seed": "n292.txt"
     },
     "293": {
@@ -4666,8 +4465,6 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 17.70423279073603,
-      "own_status": "tied (within 1e-10)",
       "seed": "n295.txt"
     },
     "296": {
@@ -4706,9 +4503,7 @@
       "register_improved_by": [
         "Evan Daniel",
         "PingYou Ltd"
-      ],
-      "own": 17.740417287543803,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "298": {
       "side": 17.77817459305202,
@@ -4779,9 +4574,7 @@
       ],
       "register_improved_by": [
         "Evan Daniel"
-      ],
-      "own": 17.84666719284349,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "302": {
       "side": 17.870013850404465,
@@ -4818,9 +4611,7 @@
       "register_improved_by": [
         "Francisco Couzo",
         "Mishapolk"
-      ],
-      "own": 17.870013850404465,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "303": {
       "side": 17.90995829106991,
@@ -4864,8 +4655,6 @@
         "PingYou Ltd",
         "Mishapolk"
       ],
-      "own": 17.90995829106991,
-      "own_status": "tied (within 1e-10)",
       "seed": "n303.txt"
     },
     "304": {
@@ -4908,9 +4697,7 @@
       ],
       "register_improved_by": [
         "Mishapolk"
-      ],
-      "own": 17.929427758075175,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "305": {
       "side": 17.950466482137713,
@@ -4954,8 +4741,6 @@
         "Francisco Couzo",
         "PingYou Ltd"
       ],
-      "own": 17.950466482137713,
-      "own_status": "tied (within 1e-10)",
       "seed": "n305.txt"
     },
     "306": {
@@ -4982,9 +4767,7 @@
       ],
       "register_improved_by": [
         "PingYou Ltd"
-      ],
-      "own": 17.963433717491426,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "307": {
       "side": 17.98086278405469,
@@ -5016,29 +4799,13 @@
       ],
       "register_improved_by": [
         "PingYou Ltd"
-      ],
-      "own": 17.98086278405469,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "308": {
       "side": 17.99714912127091,
-      "source": "evand",
-      "register": 17.998269879526255,
-      "register_text": "486484944075619402958786599394113716905046190676349858801201016545487463776455214403747334208494549854131938709183945959566959561057781342831994860207795438394879279094153316258529473729909147797339831135571085543032215388985266962514612170685209594643034764299619885558629692301631495394083608900643851679978292927405122989398859235525437285680818308596851118874664520719655599241000118116516554006137063217029383111566116486415004419293413627195009162640815045403972909205227506284843540508097785854029395529298103189644875528298175352830201182056556262556044778416438269264345887523747681646005465749993329337341270031601394493164680342589102057150630324839097817/27029539357503205103913999191762683610904361876268672946318330727434298842972316984638750632396314218372434332461165596878779925795357961971949049783768518516354007789250521432364048996980617859953895674015074463659799120632363961761594709367888889773973851798237934571558187524943945436550545971156436472620123108564777215068310568616596051438547147248009982720190231861535437701516334632331480337444383446376813805361895448906810487042432143999657813519773404501347076939828342042276861354127416482650983403321383260161027924613886941162015743190323542776630584737630981289110880606854425552008983560748259135650982898091962731026210636596596939547231222507557939",
-      "also_found_by": [
-        {
-          "source": "mishapolk",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "request": "https://github.com/jlevy/squares/issues/593",
-          "ours": "n308.txt"
-        },
-        {
-          "source": "evand",
-          "credit": "Evan Daniel",
-          "request": "https://github.com/jlevy/squares/issues/489",
-          "ours": "n308.txt"
-        }
-      ],
+      "source": "register",
+      "register": 17.99714912127091,
+      "register_text": "3599429824254181747030632150463/200000000000000000000000000000",
       "external": {
         "side": "3599429824254181747030632150463/200000000000000000000000000000",
         "side_decimal": 17.99714912127091,
@@ -5047,14 +4814,8 @@
         "request": "https://github.com/jlevy/squares/issues/689",
         "certificate": "evand/search/packer/candidates/s308_d308.cert",
         "sha256": "6a9c03318ee5a703313b5dcab02febbe6b520133ffea0a21ea2ecf0741c42a91",
-        "pending": true
+        "pending": false
       },
-      "register_found_by": [
-        "Evan Daniel"
-      ],
-      "register_improved_by": [
-        "PingYou Ltd"
-      ],
       "seed": "external/seeds/n308.txt"
     },
     "309": {
@@ -5167,34 +4928,26 @@
         "certificate": "certificates/best/n339.cert",
         "pending": true
       },
-      "seed": "n339.txt",
-      "own": 18.90735147117802,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n339.txt"
     },
     "343": {
       "side": 18.977682482404123,
       "source": "evand",
       "register": null,
       "register_text": null,
-      "also_found_by": [
-        {
-          "source": "evand",
-          "credit": "Evan Daniel (after Kevin Fang)",
-          "request": "https://github.com/jlevy/squares/issues/489",
-          "ours": "n343_s18.978232523639.txt"
-        }
-      ],
       "external": {
         "side": "18977682482404124568634475670459/1000000000000000000000000000000",
         "side_decimal": 18.977682482404123,
         "source": "evand",
-        "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
-        "request": "https://github.com/jlevy/squares/issues/702",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s343_sw.cert",
         "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
-        "certificate_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
         "pending": true
-      }
+      },
+      "seed": "external/seeds/n343.txt",
+      "own": 18.9775751262668,
+      "own_status": "best known"
     },
     "344": {
       "side": 18.992727809365345,
@@ -5210,9 +4963,7 @@
         "certificate": "certificates/best/n344.cert",
         "pending": true
       },
-      "seed": "n344.txt",
-      "own": 18.992727809365345,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n344.txt"
     },
     "370": {
       "side": 19.767730746254603,
@@ -5228,9 +4979,7 @@
         "certificate": "evand/search/packer/candidates/fresh_n370.cert",
         "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
         "pending": true
-      },
-      "own": 19.767428349964582,
-      "own_status": "tied (within 1e-10)"
+      }
     },
     "380": {
       "side": 19.96135002383521,
@@ -5246,9 +4995,7 @@
         "certificate": "certificates/best/n380.cert",
         "pending": true
       },
-      "seed": "n380.txt",
-      "own": 19.96135002383521,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n380.txt"
     },
     "381": {
       "side": 19.974739840483984,
@@ -5264,9 +5011,7 @@
         "certificate": "certificates/best/n381.cert",
         "pending": true
       },
-      "seed": "n381.txt",
-      "own": 19.974739840483984,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n381.txt"
     },
     "382": {
       "side": 19.989479729399672,
@@ -5282,9 +5027,7 @@
         "certificate": "snakefang/n0382/n0382.cert",
         "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
         "pending": true
-      },
-      "own": 19.98762115396551,
-      "own_status": "tied (within 1e-10)"
+      }
     },
     "421": {
       "side": 20.976371064794588,
@@ -5300,9 +5043,7 @@
         "certificate": "certificates/best/n421.cert",
         "pending": true
       },
-      "seed": "n421.txt",
-      "own": 20.976371064794588,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n421.txt"
     },
     "422": {
       "side": 20.98357525458501,
@@ -5318,9 +5059,7 @@
         "certificate": "certificates/best/n422.cert",
         "pending": true
       },
-      "seed": "n422.txt",
-      "own": 20.98357525458501,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n422.txt"
     },
     "460": {
       "side": 21.950987687999202,
@@ -5336,9 +5075,7 @@
         "certificate": "certificates/best/n460.cert",
         "pending": true
       },
-      "seed": "n460.txt",
-      "own": 21.950987687999202,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n460.txt"
     },
     "463": {
       "side": 21.9736757204776,
@@ -5351,12 +5088,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
-        "certificate": "certificates/best/n463.cert",
+        "certificate": "certificates/parents/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.cert",
         "pending": true
       },
       "seed": "n463.txt",
-      "own": 21.9736757204776,
-      "own_status": "tied (within 1e-10)"
+      "own": 21.971254044974543,
+      "own_status": "best known"
     },
     "464": {
       "side": 21.986268532628046,
@@ -5372,9 +5109,7 @@
         "certificate": "certificates/best/n464.cert",
         "pending": true
       },
-      "seed": "n464.txt",
-      "own": 21.986268532628046,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n464.txt"
     },
     "507": {
       "side": 22.997807183348822,
@@ -5390,9 +5125,7 @@
         "certificate": "snakefang/n0507/n0507.cert",
         "sha256": "a6e179c9b9a58acee9fc687ea6a71ba3e56a91435440beaa6ec0e1ded19d9ee4",
         "pending": true
-      },
-      "own": 22.973697163679237,
-      "own_status": "tied (within 1e-10)"
+      }
     },
     "508": {
       "side": 22.983309379055477,
@@ -5408,9 +5141,7 @@
         "certificate": "certificates/best/n508.cert",
         "pending": true
       },
-      "seed": "n508.txt",
-      "own": 22.983309379055477,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n508.txt"
     },
     "553": {
       "side": 23.97978660021576,
@@ -5423,12 +5154,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc",
-        "certificate": "certificates/best/n553.cert",
+        "certificate": "certificates/parents/815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc.cert",
         "pending": true
       },
       "seed": "n553.txt",
-      "own": 23.97978660021576,
-      "own_status": "tied (within 1e-10)"
+      "own": 23.97945239256688,
+      "own_status": "best known"
     },
     "601": {
       "side": 24.98631505406271,
@@ -5441,12 +5172,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525",
-        "certificate": "certificates/best/n601.cert",
+        "certificate": "certificates/parents/2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525.cert",
         "pending": true
       },
       "seed": "n601.txt",
-      "own": 24.986315054037725,
-      "own_status": "tied (within 1e-10)"
+      "own": 24.986189080603513,
+      "own_status": "best known"
     },
     "651": {
       "side": 25.982878838106426,
@@ -5459,12 +5190,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f",
-        "certificate": "certificates/best/n651.cert",
+        "certificate": "certificates/parents/c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f.cert",
         "pending": true
       },
       "seed": "n651.txt",
-      "own": 25.982878838106426,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.981928099990746,
+      "own_status": "best known"
     },
     "703": {
       "side": 26.981389201596016,
@@ -5480,9 +5211,7 @@
         "certificate": "certificates/best/n703.cert",
         "pending": true
       },
-      "seed": "n703.txt",
-      "own": 26.981389201596016,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n703.txt"
     },
     "757": {
       "side": 27.976914446463443,
@@ -5498,9 +5227,7 @@
         "certificate": "certificates/best/n757.cert",
         "pending": true
       },
-      "seed": "n757.txt",
-      "own": 27.976914446463443,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n757.txt"
     },
     "758": {
       "side": 27.984283608420537,
@@ -5513,12 +5240,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9",
-        "certificate": "certificates/best/n758.cert",
+        "certificate": "certificates/parents/4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9.cert",
         "pending": true
       },
       "seed": "n758.txt",
-      "own": 27.984283608420537,
-      "own_status": "tied (within 1e-10)"
+      "own": 27.983731022944852,
+      "own_status": "best known"
     },
     "813": {
       "side": 28.981594177184267,
@@ -5531,12 +5258,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25",
-        "certificate": "certificates/best/n813.cert",
+        "certificate": "certificates/parents/e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25.cert",
         "pending": true
       },
       "seed": "n813.txt",
-      "own": 28.981594177155287,
-      "own_status": "tied (within 1e-10)"
+      "own": 28.979120019578396,
+      "own_status": "best known"
     },
     "814": {
       "side": 28.981594177155287,
@@ -5549,12 +5276,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
-        "certificate": "certificates/best/n814.cert",
+        "certificate": "certificates/parents/c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469.cert",
         "pending": true
       },
       "seed": "n814.txt",
-      "own": 28.981594177155287,
-      "own_status": "tied (within 1e-10)"
+      "own": 28.981388189192973,
+      "own_status": "best known"
     },
     "871": {
       "side": 29.98159417718527,
@@ -5567,12 +5294,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
-        "certificate": "certificates/best/n871.cert",
+        "certificate": "certificates/parents/30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da.cert",
         "pending": true
       },
       "seed": "n871.txt",
-      "own": 29.981594177155287,
-      "own_status": "tied (within 1e-10)"
+      "own": 29.98129563837218,
+      "own_status": "best known"
     },
     "931": {
       "side": 30.99925630844625,
@@ -5589,8 +5316,8 @@
         "sha256": "70db1803759ae335b796f05c7609421db39ef754336935fdf8aaa84b90d8017d",
         "pending": true
       },
-      "own": 30.98993473472058,
-      "own_status": "tied (within 1e-10)"
+      "own": 30.989934444610146,
+      "own_status": "best known"
     },
     "994": {
       "side": 31.9928833992576,
@@ -5607,7 +5334,7 @@
         "pending": true
       },
       "seed": "n994.txt",
-      "own": 31.992852783189516,
+      "own": 31.99227154400998,
       "own_status": "best known"
     },
     "327": {
@@ -5657,9 +5384,7 @@
             "sha256": "1dbf703d6a8fc2073448bcb799e3f331abd7e39e55c219406e813892cf76892e"
           }
         }
-      ],
-      "own": 18.5913781454977,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "369": {
       "side": 19.707106781186546,
@@ -5698,9 +5423,7 @@
           "kind": "rational witness reconstructed from catalogue SVG",
           "source_sha256": "def5fadbe6e3a756c3435149b2cc4339eccf0550e331d9760b704a659f637516"
         }
-      ],
-      "own": 19.707106781186546,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "376": {
       "side": 19.899494936611664,
@@ -5739,9 +5462,7 @@
           "kind": "rational witness reconstructed from catalogue SVG",
           "source_sha256": "5f49a1f6800c936038a1c8e2a934d6450ea8b3de508550f04b07e6632e0c30dd"
         }
-      ],
-      "own": 19.899494936611664,
-      "own_status": "tied (within 1e-10)"
+      ]
     },
     "509": {
       "side": 22.99432803643798,
@@ -5758,7 +5479,7 @@
         "pending": true
       },
       "seed": "n509.txt",
-      "own": 22.99432803594346,
+      "own": 22.99358850143007,
       "own_status": "best known"
     },
     "555": {
@@ -5775,9 +5496,7 @@
         "certificate_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert",
         "pending": true
       },
-      "seed": "n555.txt",
-      "own": 23.993580713560338,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n555.txt"
     },
     "603": {
       "side": 24.99035556937973,
@@ -5793,9 +5512,7 @@
         "certificate": "certificates/best/n603.cert",
         "pending": true
       },
-      "seed": "n603.txt",
-      "own": 24.99035556937973,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n603.txt"
     },
     "654": {
       "side": 25.994867334132238,
@@ -5808,12 +5525,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894",
-        "certificate": "certificates/best/n654.cert",
+        "certificate": "certificates/parents/565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894.cert",
         "pending": true
       },
       "seed": "n654.txt",
-      "own": 25.994867334132238,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.99480164250741,
+      "own_status": "best known"
     },
     "706": {
       "side": 26.99791909346951,
@@ -5829,9 +5546,7 @@
         "certificate": "certificates/best/n706.cert",
         "pending": true
       },
-      "seed": "n706.txt",
-      "own": 26.99791909346951,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n706.txt"
     },
     "760": {
       "side": 27.992923233306378,
@@ -5847,9 +5562,7 @@
         "certificate": "certificates/best/n760.cert",
         "pending": true
       },
-      "seed": "n760.txt",
-      "own": 27.992923233306378,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n760.txt"
     },
     "817": {
       "side": 28.997492020606607,
@@ -5865,9 +5578,7 @@
         "certificate": "certificates/best/n817.cert",
         "pending": true
       },
-      "seed": "n817.txt",
-      "own": 28.997492020606607,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n817.txt"
     },
     "875": {
       "side": 29.99697428185159,
@@ -5883,9 +5594,7 @@
         "certificate": "certificates/best/n875.cert",
         "pending": true
       },
-      "seed": "n875.txt",
-      "own": 29.99697428185159,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n875.txt"
     },
     "935": {
       "side": 30.99417405815615,
@@ -5901,9 +5610,7 @@
         "certificate": "certificates/best/n935.cert",
         "pending": true
       },
-      "seed": "n935.txt",
-      "own": 30.99417405815615,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n935.txt"
     },
     "998": {
       "side": 31.996875920294038,
@@ -5919,9 +5626,7 @@
         "certificate": "certificates/best/n998.cert",
         "pending": true
       },
-      "seed": "n998.txt",
-      "own": 31.996875920294038,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n998.txt"
     },
     "328": {
       "side": 18.614376892294786,
@@ -5934,12 +5639,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-        "certificate": "certificates/best/n328.cert",
+        "certificate": "certificates/parents/5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d.cert",
         "pending": true
       },
       "seed": "n328.txt",
-      "own": 18.614376892294786,
-      "own_status": "tied (within 1e-10)"
+      "own": 18.614368938512072,
+      "own_status": "best known"
     },
     "330": {
       "side": 18.69267244446713,
@@ -5955,9 +5660,7 @@
         "certificate": "certificates/best/n330.cert",
         "pending": true
       },
-      "seed": "n330.txt",
-      "own": 18.69267244446713,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n330.txt"
     },
     "365": {
       "side": 19.6143768923144,
@@ -5974,8 +5677,8 @@
         "pending": true
       },
       "seed": "n365.txt",
-      "own": 19.614376892294786,
-      "own_status": "tied (within 1e-10)"
+      "own": 19.614368938512072,
+      "own_status": "best known"
     },
     "377": {
       "side": 19.925471653974824,
@@ -5991,9 +5694,7 @@
         "certificate": "certificates/best/n377.cert",
         "pending": true
       },
-      "seed": "n377.txt",
-      "own": 19.925471653974824,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n377.txt"
     },
     "378": {
       "side": 19.942018855984575,
@@ -6009,9 +5710,7 @@
         "certificate": "certificates/best/n378.cert",
         "pending": true
       },
-      "seed": "n378.txt",
-      "own": 19.942018855984575,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n378.txt"
     },
     "379": {
       "side": 19.95088968150344,
@@ -6027,9 +5726,7 @@
         "certificate": "certificates/best/n379.cert",
         "pending": true
       },
-      "seed": "n379.txt",
-      "own": 19.95088968150344,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n379.txt"
     },
     "404": {
       "side": 20.614376892315402,
@@ -6046,8 +5743,8 @@
         "pending": true
       },
       "seed": "n404.txt",
-      "own": 20.614376892294786,
-      "own_status": "tied (within 1e-10)"
+      "own": 20.614368938512072,
+      "own_status": "best known"
     },
     "412": {
       "side": 20.822995415461893,
@@ -6063,9 +5760,7 @@
         "certificate": "certificates/best/n412.cert",
         "pending": true
       },
-      "seed": "n412.txt",
-      "own": 20.822995415461893,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n412.txt"
     },
     "417": {
       "side": 20.934672165248003,
@@ -6078,12 +5773,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150",
-        "certificate": "certificates/best/n417.cert",
+        "certificate": "certificates/parents/4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150.cert",
         "pending": true
       },
       "seed": "n417.txt",
-      "own": 20.934672165248003,
-      "own_status": "tied (within 1e-10)"
+      "own": 20.93367277744026,
+      "own_status": "best known"
     },
     "418": {
       "side": 20.939184128264923,
@@ -6099,9 +5794,7 @@
         "certificate": "certificates/best/n418.cert",
         "pending": true
       },
-      "seed": "n418.txt",
-      "own": 20.939184128264923,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n418.txt"
     },
     "419": {
       "side": 20.95780483627471,
@@ -6117,9 +5810,7 @@
         "certificate": "certificates/best/n419.cert",
         "pending": true
       },
-      "seed": "n419.txt",
-      "own": 20.95780483627471,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n419.txt"
     },
     "420": {
       "side": 20.966588191190457,
@@ -6135,9 +5826,7 @@
         "certificate": "certificates/best/n420.cert",
         "pending": true
       },
-      "seed": "n420.txt",
-      "own": 20.966588191190457,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n420.txt"
     },
     "453": {
       "side": 21.822995415463172,
@@ -6153,9 +5842,7 @@
         "certificate": "certificates/best/n453.cert",
         "pending": true
       },
-      "seed": "n453.txt",
-      "own": 21.822995415461893,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n453.txt"
     },
     "459": {
       "side": 21.937227864889785,
@@ -6168,12 +5855,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
-        "certificate": "certificates/best/n459.cert",
+        "certificate": "certificates/parents/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67.cert",
         "pending": true
       },
       "seed": "n459.txt",
-      "own": 21.937227864889785,
-      "own_status": "tied (within 1e-10)"
+      "own": 21.93702230415018,
+      "own_status": "best known"
     },
     "461": {
       "side": 21.966193114436095,
@@ -6186,12 +5873,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982",
-        "certificate": "certificates/best/n461.cert",
+        "certificate": "certificates/parents/3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982.cert",
         "pending": true
       },
       "seed": "n461.txt",
-      "own": 21.96619311441413,
-      "own_status": "tied (within 1e-10)"
+      "own": 21.964134608333993,
+      "own_status": "best known"
     },
     "462": {
       "side": 21.96619311441413,
@@ -6207,9 +5894,7 @@
         "certificate": "certificates/best/n462.cert",
         "pending": true
       },
-      "seed": "n462.txt",
-      "own": 21.96619311441413,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n462.txt"
     },
     "496": {
       "side": 22.822875659409473,
@@ -6244,7 +5929,7 @@
         "pending": true
       },
       "seed": "n502.txt",
-      "own": 22.933356445085288,
+      "own": 22.9332699254795,
       "own_status": "best known"
     },
     "503": {
@@ -6258,12 +5943,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7",
-        "certificate": "certificates/best/n503.cert",
+        "certificate": "certificates/parents/3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7.cert",
         "pending": true
       },
       "seed": "n503.txt",
-      "own": 22.94466760040714,
-      "own_status": "tied (within 1e-10)"
+      "own": 22.94393377153996,
+      "own_status": "best known"
     },
     "504": {
       "side": 22.962118925863564,
@@ -6276,12 +5961,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2",
-        "certificate": "certificates/best/n504.cert",
+        "certificate": "certificates/parents/032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2.cert",
         "pending": true
       },
       "seed": "n504.txt",
-      "own": 22.962118925863564,
-      "own_status": "tied (within 1e-10)"
+      "own": 22.961828398887295,
+      "own_status": "best known"
     },
     "505": {
       "side": 22.964253709989816,
@@ -6312,12 +5997,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1",
-        "certificate": "certificates/best/n506.cert",
+        "certificate": "certificates/parents/b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1.cert",
         "pending": true
       },
       "seed": "n506.txt",
-      "own": 22.97214507200364,
-      "own_status": "tied (within 1e-10)"
+      "own": 22.971254044974543,
+      "own_status": "best known"
     },
     "548": {
       "side": 23.944667600431085,
@@ -6330,12 +6015,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963",
-        "certificate": "certificates/best/n548.cert",
+        "certificate": "certificates/parents/db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963.cert",
         "pending": true
       },
       "seed": "n548.txt",
-      "own": 23.94466760040714,
-      "own_status": "tied (within 1e-10)"
+      "own": 23.94393377153996,
+      "own_status": "best known"
     },
     "550": {
       "side": 23.961058656835014,
@@ -6369,9 +6054,7 @@
         "certificate": "certificates/best/n551.cert",
         "pending": true
       },
-      "seed": "n551.txt",
-      "own": 23.96580164197427,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n551.txt"
     },
     "552": {
       "side": 23.96662882334518,
@@ -6387,9 +6070,7 @@
         "certificate": "certificates/best/n552.cert",
         "pending": true
       },
-      "seed": "n552.txt",
-      "own": 23.96662882334518,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n552.txt"
     },
     "554": {
       "side": 23.986315054037725,
@@ -6402,12 +6083,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e",
-        "certificate": "certificates/best/n554.cert",
+        "certificate": "certificates/parents/578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e.cert",
         "pending": true
       },
       "seed": "n554.txt",
-      "own": 23.986315054037725,
-      "own_status": "tied (within 1e-10)"
+      "own": 23.98630732590725,
+      "own_status": "best known"
     },
     "595": {
       "side": 24.944667600432087,
@@ -6420,12 +6101,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083",
-        "certificate": "certificates/best/n595.cert",
+        "certificate": "certificates/parents/b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083.cert",
         "pending": true
       },
       "seed": "n595.txt",
-      "own": 24.94466760040714,
-      "own_status": "tied (within 1e-10)"
+      "own": 24.94393377153996,
+      "own_status": "best known"
     },
     "598": {
       "side": 24.958220677835094,
@@ -6442,7 +6123,7 @@
         "pending": true
       },
       "seed": "n598.txt",
-      "own": 24.955802919714554,
+      "own": 24.954250129267475,
       "own_status": "best known"
     },
     "599": {
@@ -6456,12 +6137,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b",
-        "certificate": "certificates/best/n599.cert",
+        "certificate": "certificates/parents/2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b.cert",
         "pending": true
       },
       "seed": "n599.txt",
-      "own": 24.962832858735975,
-      "own_status": "tied (within 1e-10)"
+      "own": 24.959619887408245,
+      "own_status": "best known"
     },
     "600": {
       "side": 24.97978660024074,
@@ -6474,12 +6155,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d",
-        "certificate": "certificates/best/n600.cert",
+        "certificate": "certificates/parents/141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d.cert",
         "pending": true
       },
       "seed": "n600.txt",
-      "own": 24.97978660021576,
-      "own_status": "tied (within 1e-10)"
+      "own": 24.978172747237135,
+      "own_status": "best known"
     },
     "602": {
       "side": 24.99035556940472,
@@ -6492,12 +6173,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27",
-        "certificate": "certificates/best/n602.cert",
+        "certificate": "certificates/parents/b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27.cert",
         "pending": true
       },
       "seed": "n602.txt",
-      "own": 24.99035556937973,
-      "own_status": "tied (within 1e-10)"
+      "own": 24.98823787842414,
+      "own_status": "best known"
     },
     "647": {
       "side": 25.949897942498914,
@@ -6510,12 +6191,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb",
-        "certificate": "certificates/best/n647.cert",
+        "certificate": "certificates/parents/b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb.cert",
         "pending": true
       },
       "seed": "n647.txt",
-      "own": 25.949897942498914,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.946937290068327,
+      "own_status": "best known"
     },
     "648": {
       "side": 25.96105285692431,
@@ -6528,12 +6209,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c",
-        "certificate": "certificates/best/n648.cert",
+        "certificate": "certificates/parents/d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c.cert",
         "pending": true
       },
       "seed": "n648.txt",
-      "own": 25.96105285692431,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.959619886977304,
+      "own_status": "best known"
     },
     "649": {
       "side": 25.974939166891584,
@@ -6549,9 +6230,7 @@
         "certificate": "certificates/best/n649.cert",
         "pending": true
       },
-      "seed": "n649.txt",
-      "own": 25.97493916686561,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n649.txt"
     },
     "650": {
       "side": 25.97493916686561,
@@ -6567,9 +6246,7 @@
         "certificate": "certificates/best/n650.cert",
         "pending": true
       },
-      "seed": "n650.txt",
-      "own": 25.97493916686561,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n650.txt"
     },
     "652": {
       "side": 25.990355569405722,
@@ -6582,12 +6259,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545",
-        "certificate": "certificates/best/n652.cert",
+        "certificate": "certificates/parents/b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545.cert",
         "pending": true
       },
       "seed": "n652.txt",
-      "own": 25.99035556937973,
-      "own_status": "tied (within 1e-10)"
+      "own": 25.990044325431295,
+      "own_status": "best known"
     },
     "700": {
       "side": 26.96373015390349,
@@ -6600,12 +6277,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d",
-        "certificate": "certificates/best/n700.cert",
+        "certificate": "certificates/parents/9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d.cert",
         "pending": true
       },
       "seed": "n700.txt",
-      "own": 26.96373015390349,
-      "own_status": "tied (within 1e-10)"
+      "own": 26.963723854127267,
+      "own_status": "best known"
     },
     "701": {
       "side": 26.971171145178353,
@@ -6621,9 +6298,7 @@
         "certificate": "certificates/best/n701.cert",
         "pending": true
       },
-      "seed": "n701.txt",
-      "own": 26.971171145178353,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n701.txt"
     },
     "702": {
       "side": 26.976692903975213,
@@ -6640,7 +6315,7 @@
         "pending": true
       },
       "seed": "n702.txt",
-      "own": 26.976479789212593,
+      "own": 26.976012028498864,
       "own_status": "best known"
     },
     "704": {
@@ -6657,9 +6332,7 @@
         "certificate": "certificates/best/n704.cert",
         "pending": true
       },
-      "seed": "n704.txt",
-      "own": 26.98713950091677,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n704.txt"
     },
     "705": {
       "side": 26.990473400222587,
@@ -6672,12 +6345,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e",
-        "certificate": "certificates/best/n705.cert",
+        "certificate": "certificates/parents/cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e.cert",
         "pending": true
       },
       "seed": "n705.txt",
-      "own": 26.990473400222587,
-      "own_status": "tied (within 1e-10)"
+      "own": 26.990419622636512,
+      "own_status": "best known"
     },
     "755": {
       "side": 27.951463061397877,
@@ -6693,9 +6366,7 @@
         "certificate": "certificates/best/n755.cert",
         "pending": true
       },
-      "seed": "n755.txt",
-      "own": 27.951463061397877,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n755.txt"
     },
     "756": {
       "side": 27.97691444649142,
@@ -6708,12 +6379,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
-        "certificate": "certificates/best/n756.cert",
+        "certificate": "certificates/parents/bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892.cert",
         "pending": true
       },
       "seed": "n756.txt",
-      "own": 27.976914446463443,
-      "own_status": "tied (within 1e-10)"
+      "own": 27.976782251657816,
+      "own_status": "best known"
     },
     "759": {
       "side": 27.98856923327345,
@@ -6729,9 +6400,7 @@
         "certificate": "certificates/best/n759.cert",
         "pending": true
       },
-      "seed": "n759.txt",
-      "own": 27.98856923327345,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n759.txt"
     },
     "810": {
       "side": 28.95146306140041,
@@ -6747,9 +6416,7 @@
         "certificate": "certificates/best/n810.cert",
         "pending": true
       },
-      "seed": "n810.txt",
-      "own": 28.951463061397877,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n810.txt"
     },
     "811": {
       "side": 28.97484887420928,
@@ -6765,9 +6432,7 @@
         "certificate": "certificates/best/n811.cert",
         "pending": true
       },
-      "seed": "n811.txt",
-      "own": 28.97484887420928,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n811.txt"
     },
     "812": {
       "side": 28.97691444649242,
@@ -6783,9 +6448,7 @@
         "certificate": "certificates/best/n812.cert",
         "pending": true
       },
-      "seed": "n812.txt",
-      "own": 28.976914446463443,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n812.txt"
     },
     "815": {
       "side": 28.99292323333537,
@@ -6819,9 +6482,7 @@
         "certificate": "certificates/best/n816.cert",
         "pending": true
       },
-      "seed": "n816.txt",
-      "own": 28.995944538692246,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n816.txt"
     },
     "868": {
       "side": 29.974562439897216,
@@ -6834,12 +6495,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec",
-        "certificate": "certificates/best/n868.cert",
+        "certificate": "certificates/parents/e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec.cert",
         "pending": true
       },
       "seed": "n868.txt",
-      "own": 29.974562439897216,
-      "own_status": "tied (within 1e-10)"
+      "own": 29.974553547718877,
+      "own_status": "best known"
     },
     "869": {
       "side": 29.974936836673074,
@@ -6852,12 +6513,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d",
-        "certificate": "certificates/best/n869.cert",
+        "certificate": "certificates/parents/df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d.cert",
         "pending": true
       },
       "seed": "n869.txt",
-      "own": 29.974936836673074,
-      "own_status": "tied (within 1e-10)"
+      "own": 29.974935743864865,
+      "own_status": "best known"
     },
     "870": {
       "side": 29.98159417718527,
@@ -6874,8 +6535,8 @@
         "pending": true
       },
       "seed": "n870.txt",
-      "own": 29.981594177155287,
-      "own_status": "tied (within 1e-10)"
+      "own": 29.979120019578396,
+      "own_status": "best known"
     },
     "872": {
       "side": 29.992623086320204,
@@ -6927,9 +6588,7 @@
         "certificate": "certificates/best/n874.cert",
         "pending": true
       },
-      "seed": "n874.txt",
-      "own": 29.992883399225608,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n874.txt"
     },
     "927": {
       "side": 30.96997922750166,
@@ -6942,12 +6601,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6",
-        "certificate": "certificates/best/n927.cert",
+        "certificate": "certificates/parents/f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6.cert",
         "pending": true
       },
       "seed": "n927.txt",
-      "own": 30.96997922750166,
-      "own_status": "tied (within 1e-10)"
+      "own": 30.96944322680504,
+      "own_status": "best known"
     },
     "928": {
       "side": 30.97493683670405,
@@ -6960,12 +6619,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8",
-        "certificate": "certificates/best/n928.cert",
+        "certificate": "certificates/parents/38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8.cert",
         "pending": true
       },
       "seed": "n928.txt",
-      "own": 30.974936836673074,
-      "own_status": "tied (within 1e-10)"
+      "own": 30.974935654059234,
+      "own_status": "best known"
     },
     "929": {
       "side": 30.975405698329705,
@@ -6981,9 +6640,7 @@
         "certificate": "certificates/best/n929.cert",
         "pending": true
       },
-      "seed": "n929.txt",
-      "own": 30.975405698329705,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n929.txt"
     },
     "930": {
       "side": 30.977403109932478,
@@ -6999,9 +6656,7 @@
         "certificate": "certificates/best/n930.cert",
         "pending": true
       },
-      "seed": "n930.txt",
-      "own": 30.977403109932478,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n930.txt"
     },
     "932": {
       "side": 30.992623086321206,
@@ -7035,9 +6690,7 @@
         "certificate": "certificates/best/n933.cert",
         "pending": true
       },
-      "seed": "n933.txt",
-      "own": 30.992883399225608,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n933.txt"
     },
     "934": {
       "side": 30.994174058187145,
@@ -7053,9 +6706,7 @@
         "certificate": "certificates/best/n934.cert",
         "pending": true
       },
-      "seed": "n934.txt",
-      "own": 30.99417405815615,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n934.txt"
     },
     "989": {
       "side": 31.97493683670505,
@@ -7068,12 +6719,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed",
-        "certificate": "certificates/best/n989.cert",
+        "certificate": "certificates/parents/1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed.cert",
         "pending": true
       },
       "seed": "n989.txt",
-      "own": 31.974936836673074,
-      "own_status": "tied (within 1e-10)"
+      "own": 31.97418130600277,
+      "own_status": "best known"
     },
     "990": {
       "side": 31.97540569833212,
@@ -7089,9 +6740,7 @@
         "certificate": "certificates/best/n990.cert",
         "pending": true
       },
-      "seed": "n990.txt",
-      "own": 31.975405698329705,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n990.txt"
     },
     "991": {
       "side": 31.977403109964456,
@@ -7107,9 +6756,7 @@
         "certificate": "certificates/best/n991.cert",
         "pending": true
       },
-      "seed": "n991.txt",
-      "own": 31.977403109932478,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n991.txt"
     },
     "992": {
       "side": 31.9778154241765,
@@ -7125,9 +6772,7 @@
         "certificate": "certificates/best/n992.cert",
         "pending": true
       },
-      "seed": "n992.txt",
-      "own": 31.9778154241765,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n992.txt"
     },
     "993": {
       "side": 31.983895593654374,
@@ -7143,9 +6788,7 @@
         "certificate": "certificates/best/n993.cert",
         "pending": true
       },
-      "seed": "n993.txt",
-      "own": 31.983895593654374,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n993.txt"
     },
     "995": {
       "side": 31.994174058188147,
@@ -7176,12 +6819,12 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223",
-        "certificate": "certificates/best/n996.cert",
+        "certificate": "certificates/parents/08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223.cert",
         "pending": true
       },
       "seed": "n996.txt",
-      "own": 31.99417405815615,
-      "own_status": "tied (within 1e-10)"
+      "own": 31.994135336336438,
+      "own_status": "best known"
     },
     "997": {
       "side": 31.996875920326033,
@@ -7197,9 +6840,7 @@
         "certificate": "certificates/best/n997.cert",
         "pending": true
       },
-      "seed": "n997.txt",
-      "own": 31.996875920294038,
-      "own_status": "tied (within 1e-10)"
+      "seed": "n997.txt"
     }
   },
   "published_above_324": {
@@ -7224,15 +6865,56 @@
       "source": "evand",
       "external": {
         "side": "18977682482404124568634475670459/1000000000000000000000000000000",
-        "side_decimal": 18.977682482404123,
         "source": "evand",
-        "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
-        "request": "https://github.com/jlevy/squares/issues/702",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s343_sw.cert",
         "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
-        "certificate_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
-        "pending": true
-      }
+        "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/s343_sw.cert",
+        "checked": "2026-10-20T23:27:30Z"
+      },
+      "certificates": [
+        {
+          "side": "18977682482404124568634475670459/1000000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "certificate": "evand/search/packer/candidates/s343_sw.cert",
+          "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/s343_sw.cert",
+          "checked": "2026-10-20T23:27:30Z"
+        },
+        {
+          "side": "18977682482404124568634475670459/1000000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "certificate": "evand/search/packer/candidates/s343_sw_regularized.cert",
+          "sha256": "f9a147750b51bfb3d24fa5469e93aeab903bad472f8d294b15250f2c3473e2b8",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/s343_sw_regularized.cert",
+          "checked": "2026-10-20T23:27:30Z"
+        },
+        {
+          "side": "18978232523635611279730512106023/1000000000000000000000000000000",
+          "source": "evand",
+          "credit": "Evan Daniel (after Kevin Fang)",
+          "request": "https://github.com/jlevy/squares/issues/489",
+          "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
+          "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/hunt3_n343.cert",
+          "checked": "2026-10-10T19:07:33Z"
+        },
+        {
+          "side": "789017423383549575129979982295456201/41538374868278621028243970633760768",
+          "source": "snakefang",
+          "credit": "Kevin Fang (TheSnakeFang)",
+          "request": "https://github.com/jlevy/squares/issues/484",
+          "certificate": "snakefang/n0343/n0343.cert",
+          "sha256": "698f11cc69271904a4c09a8debcb005e270af2840c4b8d7371ad943d046dbced",
+          "certificate_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/9ffba0f3a84b38f0c92790c1d3089f979ef53f0b/n0343/n0343.cert",
+          "checked": "2026-10-10T13:28:45Z"
+        }
+      ]
     },
     "344": {
       "side": 18.992727809365345,
@@ -7260,7 +6942,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n364.cert",
         "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-        "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/comp2_n364.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/comp2_n364.cert",
         "checked": "2026-10-13T14:45:58Z",
         "same_as_ours": "n364_s19.583782203955.txt"
       },
@@ -7272,7 +6954,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n364.cert",
           "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/comp2_n364.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/comp2_n364.cert",
           "checked": "2026-10-13T14:45:58Z",
           "same_as_ours": "n364_s19.583782203955.txt"
         }
@@ -7304,7 +6986,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n370.cert",
         "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-        "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/fresh_n370.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/fresh_n370.cert",
         "checked": "2026-10-14T07:06:10Z"
       },
       "certificates": [
@@ -7315,7 +6997,7 @@
           "request": "https://github.com/jlevy/squares/issues/596",
           "certificate": "evand/search/packer/candidates/fresh_n370.cert",
           "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-          "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/fresh_n370.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/fresh_n370.cert",
           "checked": "2026-10-14T07:06:10Z"
         }
       ]
@@ -7330,7 +7012,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n375.cert",
         "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-        "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/comp2_n375.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/comp2_n375.cert",
         "checked": "2026-10-13T14:45:56Z",
         "same_as_ours": "n375.txt"
       },
@@ -7342,7 +7024,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n375.cert",
           "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-          "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/comp2_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/comp2_n375.cert",
           "checked": "2026-10-13T14:45:56Z",
           "same_as_ours": "n375.txt"
         },
@@ -7353,7 +7035,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
           "certificate": "evand/search/packer/candidates/big1_n375.cert",
           "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-          "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/big1_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/big1_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.906981767294.txt"
         },
@@ -7364,7 +7046,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
           "certificate": "evand/search/packer/candidates/polish_n375.cert",
           "sha256": "fa92e2b602f87b5fcd2c7d0973cfba3ba64046fdd9aec5ed1292dd29a231bc8a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/packer/candidates/polish_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/88385abc95ab25d520302282d1946cbb07bc9cf3/search/packer/candidates/polish_n375.cert",
           "checked": "2026-10-10T10:55:59Z",
           "same_as_ours": "n375_s19.907024202150.txt"
         }
@@ -7487,7 +7169,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
-        "certificate": "certificates/best/n463.cert",
+        "certificate": "certificates/parents/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.cert",
         "pending": true
       },
       "seed": "n463.txt"
@@ -7561,7 +7243,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc",
-        "certificate": "certificates/best/n553.cert",
+        "certificate": "certificates/parents/815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc.cert",
         "pending": true
       },
       "seed": "n553.txt"
@@ -7577,7 +7259,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525",
-        "certificate": "certificates/best/n601.cert",
+        "certificate": "certificates/parents/2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525.cert",
         "pending": true
       },
       "seed": "n601.txt"
@@ -7593,7 +7275,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f",
-        "certificate": "certificates/best/n651.cert",
+        "certificate": "certificates/parents/c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f.cert",
         "pending": true
       },
       "seed": "n651.txt"
@@ -7641,7 +7323,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9",
-        "certificate": "certificates/best/n758.cert",
+        "certificate": "certificates/parents/4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9.cert",
         "pending": true
       },
       "seed": "n758.txt"
@@ -7657,7 +7339,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25",
-        "certificate": "certificates/best/n813.cert",
+        "certificate": "certificates/parents/e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25.cert",
         "pending": true
       },
       "seed": "n813.txt"
@@ -7673,7 +7355,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
-        "certificate": "certificates/best/n814.cert",
+        "certificate": "certificates/parents/c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469.cert",
         "pending": true
       },
       "seed": "n814.txt"
@@ -7689,7 +7371,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
-        "certificate": "certificates/best/n871.cert",
+        "certificate": "certificates/parents/30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da.cert",
         "pending": true
       },
       "seed": "n871.txt"
@@ -7926,7 +7608,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894",
-        "certificate": "certificates/best/n654.cert",
+        "certificate": "certificates/parents/565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894.cert",
         "pending": true
       },
       "seed": "n654.txt"
@@ -8038,7 +7720,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-        "certificate": "certificates/best/n328.cert",
+        "certificate": "certificates/parents/5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d.cert",
         "pending": true
       },
       "seed": "n328.txt"
@@ -8150,7 +7832,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150",
-        "certificate": "certificates/best/n417.cert",
+        "certificate": "certificates/parents/4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150.cert",
         "pending": true
       },
       "seed": "n417.txt"
@@ -8230,7 +7912,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
-        "certificate": "certificates/best/n459.cert",
+        "certificate": "certificates/parents/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67.cert",
         "pending": true
       },
       "seed": "n459.txt"
@@ -8246,7 +7928,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982",
-        "certificate": "certificates/best/n461.cert",
+        "certificate": "certificates/parents/3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982.cert",
         "pending": true
       },
       "seed": "n461.txt"
@@ -8310,7 +7992,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7",
-        "certificate": "certificates/best/n503.cert",
+        "certificate": "certificates/parents/3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7.cert",
         "pending": true
       },
       "seed": "n503.txt"
@@ -8326,7 +8008,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2",
-        "certificate": "certificates/best/n504.cert",
+        "certificate": "certificates/parents/032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2.cert",
         "pending": true
       },
       "seed": "n504.txt"
@@ -8358,7 +8040,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1",
-        "certificate": "certificates/best/n506.cert",
+        "certificate": "certificates/parents/b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1.cert",
         "pending": true
       },
       "seed": "n506.txt"
@@ -8374,7 +8056,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963",
-        "certificate": "certificates/best/n548.cert",
+        "certificate": "certificates/parents/db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963.cert",
         "pending": true
       },
       "seed": "n548.txt"
@@ -8438,7 +8120,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e",
-        "certificate": "certificates/best/n554.cert",
+        "certificate": "certificates/parents/578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e.cert",
         "pending": true
       },
       "seed": "n554.txt"
@@ -8454,7 +8136,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083",
-        "certificate": "certificates/best/n595.cert",
+        "certificate": "certificates/parents/b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083.cert",
         "pending": true
       },
       "seed": "n595.txt"
@@ -8486,7 +8168,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b",
-        "certificate": "certificates/best/n599.cert",
+        "certificate": "certificates/parents/2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b.cert",
         "pending": true
       },
       "seed": "n599.txt"
@@ -8502,7 +8184,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d",
-        "certificate": "certificates/best/n600.cert",
+        "certificate": "certificates/parents/141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d.cert",
         "pending": true
       },
       "seed": "n600.txt"
@@ -8518,7 +8200,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27",
-        "certificate": "certificates/best/n602.cert",
+        "certificate": "certificates/parents/b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27.cert",
         "pending": true
       },
       "seed": "n602.txt"
@@ -8534,7 +8216,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb",
-        "certificate": "certificates/best/n647.cert",
+        "certificate": "certificates/parents/b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb.cert",
         "pending": true
       },
       "seed": "n647.txt"
@@ -8550,7 +8232,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c",
-        "certificate": "certificates/best/n648.cert",
+        "certificate": "certificates/parents/d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c.cert",
         "pending": true
       },
       "seed": "n648.txt"
@@ -8598,7 +8280,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545",
-        "certificate": "certificates/best/n652.cert",
+        "certificate": "certificates/parents/b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545.cert",
         "pending": true
       },
       "seed": "n652.txt"
@@ -8614,7 +8296,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d",
-        "certificate": "certificates/best/n700.cert",
+        "certificate": "certificates/parents/9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d.cert",
         "pending": true
       },
       "seed": "n700.txt"
@@ -8678,7 +8360,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e",
-        "certificate": "certificates/best/n705.cert",
+        "certificate": "certificates/parents/cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e.cert",
         "pending": true
       },
       "seed": "n705.txt"
@@ -8710,7 +8392,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
-        "certificate": "certificates/best/n756.cert",
+        "certificate": "certificates/parents/bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892.cert",
         "pending": true
       },
       "seed": "n756.txt"
@@ -8822,7 +8504,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec",
-        "certificate": "certificates/best/n868.cert",
+        "certificate": "certificates/parents/e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec.cert",
         "pending": true
       },
       "seed": "n868.txt"
@@ -8838,7 +8520,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d",
-        "certificate": "certificates/best/n869.cert",
+        "certificate": "certificates/parents/df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d.cert",
         "pending": true
       },
       "seed": "n869.txt"
@@ -8918,7 +8600,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6",
-        "certificate": "certificates/best/n927.cert",
+        "certificate": "certificates/parents/f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6.cert",
         "pending": true
       },
       "seed": "n927.txt"
@@ -8934,7 +8616,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8",
-        "certificate": "certificates/best/n928.cert",
+        "certificate": "certificates/parents/38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8.cert",
         "pending": true
       },
       "seed": "n928.txt"
@@ -9030,7 +8712,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed",
-        "certificate": "certificates/best/n989.cert",
+        "certificate": "certificates/parents/1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed.cert",
         "pending": true
       },
       "seed": "n989.txt"
@@ -9126,7 +8808,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223",
-        "certificate": "certificates/best/n996.cert",
+        "certificate": "certificates/parents/08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223.cert",
         "pending": true
       },
       "seed": "n996.txt"
@@ -19536,7 +19218,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894",
-        "certificate": "certificates/best/n654.cert",
+        "certificate": "certificates/parents/565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894.cert",
         "pending": true
       },
       "seed": "n654.txt"
@@ -19648,7 +19330,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-        "certificate": "certificates/best/n328.cert",
+        "certificate": "certificates/parents/5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d.cert",
         "pending": true
       },
       "seed": "n328.txt"
@@ -19840,7 +19522,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150",
-        "certificate": "certificates/best/n417.cert",
+        "certificate": "certificates/parents/4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150.cert",
         "pending": true
       },
       "seed": "n417.txt"
@@ -19952,7 +19634,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
-        "certificate": "certificates/best/n459.cert",
+        "certificate": "certificates/parents/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67.cert",
         "pending": true
       },
       "seed": "n459.txt"
@@ -19984,7 +19666,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982",
-        "certificate": "certificates/best/n461.cert",
+        "certificate": "certificates/parents/3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982.cert",
         "pending": true
       },
       "seed": "n461.txt"
@@ -20016,7 +19698,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
-        "certificate": "certificates/best/n463.cert",
+        "certificate": "certificates/parents/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.cert",
         "pending": true
       },
       "seed": "n463.txt"
@@ -20064,7 +19746,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7",
-        "certificate": "certificates/best/n503.cert",
+        "certificate": "certificates/parents/3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7.cert",
         "pending": true
       },
       "seed": "n503.txt"
@@ -20080,7 +19762,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2",
-        "certificate": "certificates/best/n504.cert",
+        "certificate": "certificates/parents/032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2.cert",
         "pending": true
       },
       "seed": "n504.txt"
@@ -20112,7 +19794,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1",
-        "certificate": "certificates/best/n506.cert",
+        "certificate": "certificates/parents/b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1.cert",
         "pending": true
       },
       "seed": "n506.txt"
@@ -20144,7 +19826,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963",
-        "certificate": "certificates/best/n548.cert",
+        "certificate": "certificates/parents/db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963.cert",
         "pending": true
       },
       "seed": "n548.txt"
@@ -20208,7 +19890,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc",
-        "certificate": "certificates/best/n553.cert",
+        "certificate": "certificates/parents/815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc.cert",
         "pending": true
       },
       "seed": "n553.txt"
@@ -20224,7 +19906,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e",
-        "certificate": "certificates/best/n554.cert",
+        "certificate": "certificates/parents/578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e.cert",
         "pending": true
       },
       "seed": "n554.txt"
@@ -20240,7 +19922,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083",
-        "certificate": "certificates/best/n595.cert",
+        "certificate": "certificates/parents/b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083.cert",
         "pending": true
       },
       "seed": "n595.txt"
@@ -20272,7 +19954,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b",
-        "certificate": "certificates/best/n599.cert",
+        "certificate": "certificates/parents/2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b.cert",
         "pending": true
       },
       "seed": "n599.txt"
@@ -20288,7 +19970,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d",
-        "certificate": "certificates/best/n600.cert",
+        "certificate": "certificates/parents/141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d.cert",
         "pending": true
       },
       "seed": "n600.txt"
@@ -20304,7 +19986,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525",
-        "certificate": "certificates/best/n601.cert",
+        "certificate": "certificates/parents/2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525.cert",
         "pending": true
       },
       "seed": "n601.txt"
@@ -20320,7 +20002,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27",
-        "certificate": "certificates/best/n602.cert",
+        "certificate": "certificates/parents/b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27.cert",
         "pending": true
       },
       "seed": "n602.txt"
@@ -20336,7 +20018,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb",
-        "certificate": "certificates/best/n647.cert",
+        "certificate": "certificates/parents/b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb.cert",
         "pending": true
       },
       "seed": "n647.txt"
@@ -20352,7 +20034,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c",
-        "certificate": "certificates/best/n648.cert",
+        "certificate": "certificates/parents/d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c.cert",
         "pending": true
       },
       "seed": "n648.txt"
@@ -20400,7 +20082,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f",
-        "certificate": "certificates/best/n651.cert",
+        "certificate": "certificates/parents/c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f.cert",
         "pending": true
       },
       "seed": "n651.txt"
@@ -20416,7 +20098,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545",
-        "certificate": "certificates/best/n652.cert",
+        "certificate": "certificates/parents/b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545.cert",
         "pending": true
       },
       "seed": "n652.txt"
@@ -20432,7 +20114,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d",
-        "certificate": "certificates/best/n700.cert",
+        "certificate": "certificates/parents/9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d.cert",
         "pending": true
       },
       "seed": "n700.txt"
@@ -20512,7 +20194,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e",
-        "certificate": "certificates/best/n705.cert",
+        "certificate": "certificates/parents/cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e.cert",
         "pending": true
       },
       "seed": "n705.txt"
@@ -20544,7 +20226,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
-        "certificate": "certificates/best/n756.cert",
+        "certificate": "certificates/parents/bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892.cert",
         "pending": true
       },
       "seed": "n756.txt"
@@ -20576,7 +20258,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9",
-        "certificate": "certificates/best/n758.cert",
+        "certificate": "certificates/parents/4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9.cert",
         "pending": true
       },
       "seed": "n758.txt"
@@ -20656,7 +20338,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25",
-        "certificate": "certificates/best/n813.cert",
+        "certificate": "certificates/parents/e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25.cert",
         "pending": true
       },
       "seed": "n813.txt"
@@ -20672,7 +20354,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
-        "certificate": "certificates/best/n814.cert",
+        "certificate": "certificates/parents/c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469.cert",
         "pending": true
       },
       "seed": "n814.txt"
@@ -20720,7 +20402,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec",
-        "certificate": "certificates/best/n868.cert",
+        "certificate": "certificates/parents/e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec.cert",
         "pending": true
       },
       "seed": "n868.txt"
@@ -20736,7 +20418,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d",
-        "certificate": "certificates/best/n869.cert",
+        "certificate": "certificates/parents/df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d.cert",
         "pending": true
       },
       "seed": "n869.txt"
@@ -20768,7 +20450,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
-        "certificate": "certificates/best/n871.cert",
+        "certificate": "certificates/parents/30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da.cert",
         "pending": true
       },
       "seed": "n871.txt"
@@ -20832,7 +20514,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6",
-        "certificate": "certificates/best/n927.cert",
+        "certificate": "certificates/parents/f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6.cert",
         "pending": true
       },
       "seed": "n927.txt"
@@ -20848,7 +20530,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8",
-        "certificate": "certificates/best/n928.cert",
+        "certificate": "certificates/parents/38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8.cert",
         "pending": true
       },
       "seed": "n928.txt"
@@ -20944,7 +20626,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed",
-        "certificate": "certificates/best/n989.cert",
+        "certificate": "certificates/parents/1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed.cert",
         "pending": true
       },
       "seed": "n989.txt"
@@ -21056,7 +20738,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223",
-        "certificate": "certificates/best/n996.cert",
+        "certificate": "certificates/parents/08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223.cert",
         "pending": true
       },
       "seed": "n996.txt"
@@ -32123,7 +31805,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894",
-        "certificate": "certificates/best/n654.cert",
+        "certificate": "certificates/parents/565c0b6653c9de91cb68793d8d0b5a3b8d06907bf0f1769019584d7b4a399894.cert",
         "pending": true
       }
     ],
@@ -32280,7 +31962,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d",
-        "certificate": "certificates/best/n328.cert",
+        "certificate": "certificates/parents/5a3e6617708c5e9c243cb9b0ca2032d5acb37325c02bd7a7064178424408a07d.cert",
         "pending": true
       }
     ],
@@ -32436,7 +32118,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150",
-        "certificate": "certificates/best/n417.cert",
+        "certificate": "certificates/parents/4d91306022075e6ed9d9c35c264f949c40ae720dfa2aa9b5a10cb1150115d150.cert",
         "pending": true
       }
     ],
@@ -32527,7 +32209,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67",
-        "certificate": "certificates/best/n459.cert",
+        "certificate": "certificates/parents/0db9399fe5fe4f00bc5a465ee1c326d2b873d749a1fda6350dfe340044a93b67.cert",
         "pending": true
       }
     ],
@@ -32553,7 +32235,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982",
-        "certificate": "certificates/best/n461.cert",
+        "certificate": "certificates/parents/3bf82f3cf73e6b84a82aad432ce299da3e76996c48ff37e0ffdcfcdb8a38c982.cert",
         "pending": true
       }
     ],
@@ -32579,7 +32261,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd",
-        "certificate": "certificates/best/n463.cert",
+        "certificate": "certificates/parents/13674660172dccb890a4841054b8a3e3066f09841da537df67a6f6eb81b848cd.cert",
         "pending": true
       }
     ],
@@ -32618,7 +32300,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7",
-        "certificate": "certificates/best/n503.cert",
+        "certificate": "certificates/parents/3ff1342258aa0cee7fdb55a8aa24850fa02337742c2354db5a387d0218cd12d7.cert",
         "pending": true
       }
     ],
@@ -32631,7 +32313,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2",
-        "certificate": "certificates/best/n504.cert",
+        "certificate": "certificates/parents/032c51db25f6de9c8b37b6bf362289226ffee2e57cb8d5c0fa01c388f09dbfa2.cert",
         "pending": true
       }
     ],
@@ -32657,7 +32339,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1",
-        "certificate": "certificates/best/n506.cert",
+        "certificate": "certificates/parents/b49d96b9bf810c00aa163bf9b6d496510cc67621e2262082a4050f317b02c3e1.cert",
         "pending": true
       }
     ],
@@ -32683,7 +32365,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963",
-        "certificate": "certificates/best/n548.cert",
+        "certificate": "certificates/parents/db5ff76eda0aba3e5a26009a57879f83cd1da4b886a878ad160503d33d7ab963.cert",
         "pending": true
       }
     ],
@@ -32735,7 +32417,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc",
-        "certificate": "certificates/best/n553.cert",
+        "certificate": "certificates/parents/815e04c5b3b71bc5ada0907aef54ac3ae4214cf01fb12a36b3fc71f79f3c5bbc.cert",
         "pending": true
       }
     ],
@@ -32748,7 +32430,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e",
-        "certificate": "certificates/best/n554.cert",
+        "certificate": "certificates/parents/578cca65688bb11a31892f2189789612290a19de85132477b74bd9ac28116c4e.cert",
         "pending": true
       }
     ],
@@ -32761,7 +32443,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083",
-        "certificate": "certificates/best/n595.cert",
+        "certificate": "certificates/parents/b18a8661f871a6f07aa763ca3045ce3fb4d4c4efbef49e8f0217be0a7a643083.cert",
         "pending": true
       }
     ],
@@ -32787,7 +32469,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b",
-        "certificate": "certificates/best/n599.cert",
+        "certificate": "certificates/parents/2a5a84b766af738c8f238f4954dee3767d89bf808ff4faa28960709cc28c8b1b.cert",
         "pending": true
       }
     ],
@@ -32800,7 +32482,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d",
-        "certificate": "certificates/best/n600.cert",
+        "certificate": "certificates/parents/141627d958b49b26641f9a2faf731371aa240d0feae52d6acce37966f5a4058d.cert",
         "pending": true
       }
     ],
@@ -32813,7 +32495,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525",
-        "certificate": "certificates/best/n601.cert",
+        "certificate": "certificates/parents/2a30fb3b99e3dfd1b2f776fa4203b870ecea6707c107e69bf91d844e58f84525.cert",
         "pending": true
       }
     ],
@@ -32826,7 +32508,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27",
-        "certificate": "certificates/best/n602.cert",
+        "certificate": "certificates/parents/b08c1a9f824f73e3b01221d74643cd82b9ed7261eac322c4b8996ad5ff8fcb27.cert",
         "pending": true
       }
     ],
@@ -32839,7 +32521,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb",
-        "certificate": "certificates/best/n647.cert",
+        "certificate": "certificates/parents/b906780ae86fe48b169d642f65ea937464df920ce180f7530f6aed7ff1720dcb.cert",
         "pending": true
       }
     ],
@@ -32852,7 +32534,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c",
-        "certificate": "certificates/best/n648.cert",
+        "certificate": "certificates/parents/d378afbdf50cc55707e3d991162f3ef3c75d0ddd3e13fdaa5e8a75d5bb86ba5c.cert",
         "pending": true
       }
     ],
@@ -32891,7 +32573,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f",
-        "certificate": "certificates/best/n651.cert",
+        "certificate": "certificates/parents/c0154708b92c232778c7c0ea656c8d6731924479a725c5b6c3aacd177a22507f.cert",
         "pending": true
       }
     ],
@@ -32904,7 +32586,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545",
-        "certificate": "certificates/best/n652.cert",
+        "certificate": "certificates/parents/b8b8093bce6483458d516add796a300e3bca3c0fb4f8eef047eca3a8463a0545.cert",
         "pending": true
       }
     ],
@@ -32917,7 +32599,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d",
-        "certificate": "certificates/best/n700.cert",
+        "certificate": "certificates/parents/9b9abc1a680aa28007ea842f081d8ab5db3be3d653bd07b6561eac6f29ed9c2d.cert",
         "pending": true
       }
     ],
@@ -32982,7 +32664,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e",
-        "certificate": "certificates/best/n705.cert",
+        "certificate": "certificates/parents/cafd412f20f921886bf03d7356c01408cfb2c76b2619bcc3e92c2edab62e489e.cert",
         "pending": true
       }
     ],
@@ -33008,7 +32690,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
-        "certificate": "certificates/best/n756.cert",
+        "certificate": "certificates/parents/bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892.cert",
         "pending": true
       }
     ],
@@ -33034,7 +32716,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9",
-        "certificate": "certificates/best/n758.cert",
+        "certificate": "certificates/parents/4f9a141a9ff79d5e40e9dbbc6f149b960ed12aa0711fff335a65eec5fe245ec9.cert",
         "pending": true
       }
     ],
@@ -33099,7 +32781,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25",
-        "certificate": "certificates/best/n813.cert",
+        "certificate": "certificates/parents/e9e34c3309416dbd3aea329c8aa3a2c42695bab4d630761a67d2d114bd500c25.cert",
         "pending": true
       }
     ],
@@ -33112,7 +32794,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
-        "certificate": "certificates/best/n814.cert",
+        "certificate": "certificates/parents/c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469.cert",
         "pending": true
       }
     ],
@@ -33151,7 +32833,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec",
-        "certificate": "certificates/best/n868.cert",
+        "certificate": "certificates/parents/e7c9f381fad40be7371b739c2710d7d5b23766329c8a22a366e482f53413d2ec.cert",
         "pending": true
       }
     ],
@@ -33164,7 +32846,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d",
-        "certificate": "certificates/best/n869.cert",
+        "certificate": "certificates/parents/df7cc1df5a9c9fcff4e1f10b0d3a77b5edd32cf490b0d46529558fd04e61e61d.cert",
         "pending": true
       }
     ],
@@ -33190,7 +32872,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
-        "certificate": "certificates/best/n871.cert",
+        "certificate": "certificates/parents/30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da.cert",
         "pending": true
       }
     ],
@@ -33242,7 +32924,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6",
-        "certificate": "certificates/best/n927.cert",
+        "certificate": "certificates/parents/f3745ff4a860265a46298964dca5f3efc9dcfae3ee57ef5fc83d3848c0a7d5c6.cert",
         "pending": true
       }
     ],
@@ -33255,7 +32937,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8",
-        "certificate": "certificates/best/n928.cert",
+        "certificate": "certificates/parents/38fd93d15905591d427b93649ec17439b0dcb0af80c63d09f56ff9f90fefb4d8.cert",
         "pending": true
       }
     ],
@@ -33333,7 +33015,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed",
-        "certificate": "certificates/best/n989.cert",
+        "certificate": "certificates/parents/1a5449e25b09258e1f02c7e3eecdb73e17c95388accca108c336cda024e2f3ed.cert",
         "pending": true
       }
     ],
@@ -33424,7 +33106,7 @@
         "certificate_url": "https://github.com/jlevy/squares/issues/686",
         "source": "reviewed-submission",
         "sha256": "08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223",
-        "certificate": "certificates/best/n996.cert",
+        "certificate": "certificates/parents/08649e4dcd45478936ee66bcc048e281daa1a0f269498665b43195a01e108223.cert",
         "pending": true
       }
     ],
@@ -34105,11 +33787,6 @@
     "registry": "certified_bounds.json",
     "manifest": "certificates/best/manifest.json",
     "updated": "2026-10-19T22:08:44.857263+00:00"
-  },
-  "public_reconciliation": {
-    "generated": "2026-10-20T22:26:37.947276+00:00",
-    "index": "public_bounds.json",
-    "audit": "experiments/registration-20261020/public-update"
   },
   "public_comparisons": {
     "802": {
@@ -39876,5 +39553,35 @@
       },
       "public_bound_index": "public_bounds.json"
     }
+  },
+  "public_reconciliation": {
+    "generated": "2026-10-20T22:26:37.947276+00:00",
+    "index": "public_bounds.json",
+    "audit": "experiments/registration-20261020/public-update"
+  },
+  "record_landing": {
+    "generated": "2026-10-21T20:42:45.853885+00:00",
+    "audit": "experiments/land-cleanup-20261021-2040",
+    "updated_counts": [
+      459,
+      463,
+      497,
+      500,
+      501,
+      504,
+      506,
+      546,
+      593,
+      601,
+      747,
+      748,
+      749,
+      804,
+      805,
+      806,
+      863,
+      989
+    ],
+    "new_counts": []
   }
 }

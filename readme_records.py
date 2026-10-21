@@ -18,33 +18,11 @@ def our_credit(credit):
 
 
 def classification(metadata, public, registered):
-    """A tied imported witness or classical construction is not our record."""
+    """Only a strict improvement is an active record, regardless of credit."""
     ours = Q2(Fraction(metadata['rational_side']))
     other = exact_value(public)
-    if other + ROUNDING < ours:
-        return None
     if ours < other - ROUNDING:
         return 'Improvement over public bound'
-    register_bound = registered.get('register')
-    if (register_bound is not None
-            and any(our_credit(who) for who in registered.get('register_found_by') or [])
-            and not ROUNDING < abs(ours - Q2(Fraction(str(register_bound))))):
-        return 'Registered'
-    origin = metadata.get('origin', {})
-    precision = origin.get('source_provenance') or {}
-    if (precision.get('precision_only')
-            and our_credit(precision.get('original_record_credit', ''))):
-        return 'Published'
-    # Preserve native refinements of adopted witnesses when the retained seed
-    # side establishes a real gain; a search_job alone supplies no such proof.
-    seed = origin.get('seed_certificate') or {}
-    native_gain = (origin.get('search_job') and seed.get('side')
-                   and ours < Q2(Fraction(seed['side'])) - ROUNDING)
-    adopted = (origin.get('category') == 'reviewed public submission'
-               and not origin.get('web_seed') and not origin.get('refined_by')
-               and not native_gain)
-    if our_credit(public.get('credit', '')) and not adopted:
-        return 'Published'
     return None
 
 
@@ -91,15 +69,12 @@ def catalogue(root=Path('.')):
 
 
 def render(records, context):
-    counts = {status: sum(row['status'] == status for row in records.values())
-              for status in ['Registered', 'Published', 'Improvement over public bound']}
     lines = [START, '', '## Current records', '',
              f'Reviewed {context["date"]}: **{len(records)} counts** — '
-             f'{counts["Registered"]} registered, {counts["Published"]} published, and '
-             f'{counts["Improvement over public bound"]} improvements over the reviewed public bound.', '',
+             'strict improvements over the reviewed public bound.', '',
              'Each n opens its packing. Certified sides and public comparisons are rounded upward to '
              '12 decimal places. A difference within `1e-10` is treated as rounding; '
-             'such a tie is listed only when record credit is retained here. '
+             'ties and worse bounds are excluded even when earlier record credit is retained. '
              'Construction, seed and certificate credits are linked for each packing.', '',
              '| n | certified side s | reviewed public bound | standing | credits |',
              '|---:|---:|---:|---|---|']

@@ -1,0 +1,72 @@
+{
+  "n": 2043,
+  "packing": "n2043.txt",
+  "packing_sha256": "a6c43b26647f2a8c7939f818f56987987b28490b61b1a7da5330f1afd712b8fe",
+  "certificate": "certificates/n2043.cert",
+  "certificate_sha256": "42332981f239b9491859ea77ab0fe88070cc96acb690af7cfb1639d88facfcc7",
+  "rational_side": "145304373451793524547773799/3179825677852400000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (refinement); source packing from David Ellsworth's catalogue",
+    "source_certificate_sha256": "42332981f239b9491859ea77ab0fe88070cc96acb690af7cfb1639d88facfcc7",
+    "source_n": 2043,
+    "source_provenance": {
+      "category": "recovered Desktopo construction/refinement",
+      "audit_source": "Desktopo recovered candidate",
+      "source_certificate_sha256": "42332981f239b9491859ea77ab0fe88070cc96acb690af7cfb1639d88facfcc7",
+      "audit_origin": {
+        "n": 2043,
+        "side": 45.69570415878505,
+        "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial3/work-0-246-n2043/fq-in.txt",
+        "job": {},
+        "sha256": "7ad79a279feff7f190384f3fe117295579af6030ef91d33c8685a04a47a35d5a",
+        "mode": "desktopo",
+        "local_packing": "experiments/record-check-20261021/additional-n2043.txt",
+        "native_check": "n=2043 max_pair_overlap=0.000e0 bbox_side=45.695704158785 (x:[0.000e0,45.695704159] y:[0.000e0,45.695704159])",
+        "native_exit": 0
+      },
+      "prior_source_credit": null,
+      "prior_source_provenance": null,
+      "verified_audit": "experiments/record-check-20261021",
+      "source_path": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial3/work-0-246-n2043/fq-in.txt",
+      "source_url": "https://kingbird.myphotos.cc/packing/square-2043.svg",
+      "source_construction": {
+        "n": 2043,
+        "kind": "Ellsworth SVG",
+        "file": "square-2043.svg",
+        "page": "strips",
+        "url": "https://kingbird.myphotos.cc/packing/square-2043.svg",
+        "sha256": "30af649365d1cdaefef65f9282017ce7c6a4455667409deff351a0d15cccfed3"
+      },
+      "source_numerical_refinement": {
+        "before": 45.69642783942781,
+        "steps": [
+          {
+            "method": "fixed-angle centre LP",
+            "side": 45.69570415878505,
+            "accepted": true
+          },
+          {
+            "method": "SLP",
+            "side": 45.69570415879399,
+            "iterations": 0,
+            "accepted": false
+          }
+        ],
+        "fq_options": [
+          "--outer",
+          "30",
+          "--pit",
+          "80"
+        ],
+        "fq_budget_exhausted": true,
+        "after": 45.69570415879399,
+        "seconds": 60.0403449870646
+      },
+      "source_manifest": "Desktopo experiments/up-to10000-20261019/trial3/manifest.json",
+      "source_plan_index": 246
+    },
+    "construction": null,
+    "deleted_squares": 0
+  }
+}
