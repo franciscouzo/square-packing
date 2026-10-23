@@ -1,0 +1,28 @@
+{
+  "n": 1251,
+  "packing": "n1251.txt",
+  "packing_sha256": "8ec436b0a5d16f66edaada9a9326ac86f1a2175cad11f2827b549178dc4e86b4",
+  "certificate": "certificates/n1251.cert",
+  "certificate_sha256": "4560ffe928fee738304ae3353b6c8e6f76baea1cc6d1edf2fa4947cf49eb408f",
+  "rational_side": "4351308357970920431569531373548498363090971482275631871283902656963/121065483956441176793572501210654839564411767935725000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "4560ffe928fee738304ae3353b6c8e6f76baea1cc6d1edf2fa4947cf49eb408f",
+    "source_n": 1251,
+    "source_provenance": {
+      "category": "ct105 certificate",
+      "audit_source": "ct105 certificate",
+      "source_certificate_sha256": "4560ffe928fee738304ae3353b6c8e6f76baea1cc6d1edf2fa4947cf49eb408f",
+      "audit_origin": {
+        "path": "/var/lib/square-packing/accepted/d879d50ccaac6e45d097089a75f7072a.cert"
+      },
+      "prior_source_credit": null,
+      "prior_source_provenance": null,
+      "verified_audit": "experiments/record-check-20261022-0300"
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

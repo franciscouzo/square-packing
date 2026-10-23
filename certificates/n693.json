@@ -1,0 +1,73 @@
+{
+  "n": 693,
+  "packing": "n693.txt",
+  "packing_sha256": "a58ba4587ed51b04c297f14914ba794890f26137fe371cc6fe72e751217e6876",
+  "certificate": "certificates/n693.cert",
+  "certificate_sha256": "a2dd3398d2508f98353a8717738f801a5b3c6131ad0f6d6829d052037a7d5715",
+  "rational_side": "25643542933485746895884371741/953954496311400000000000000",
+  "kind": "verified public reference certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "a2dd3398d2508f98353a8717738f801a5b3c6131ad0f6d6829d052037a7d5715",
+    "source_n": 693,
+    "source_provenance": {
+      "category": "local recovered candidate",
+      "audit_source": "local recovered candidate",
+      "source_certificate_sha256": "a2dd3398d2508f98353a8717738f801a5b3c6131ad0f6d6829d052037a7d5715",
+      "audit_origin": {
+        "source": "/root/square-packing/found/by-sha256/2caa7c5e9de92873fab82ce4402b0aa00329ea049e80df2e7018bea5368f55d5.txt",
+        "job": {},
+        "packing_sha256": "211f9c985365080f675d0e5763902e3447e91c36697ed3966c15a1dd97dfb894"
+      },
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "native search",
+        "packing_sha256": "2caa7c5e9de92873fab82ce4402b0aa00329ea049e80df2e7018bea5368f55d5",
+        "source_credit": {
+          "seed_credit": "Francisco Couzo; retained seed/construction credit: Francisco Couzo",
+          "construction": {
+            "kind": "L-border",
+            "source_n": 546,
+            "layers": 3,
+            "parent_certificate_sha256": "41e48d2700924d0e786fb0e114b3848c5df23256fc5e2f2d936e17214a874bb8",
+            "capacity": 693
+          },
+          "source_n": 693,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "1152c48ef427d4020afbf0c32786cf666d3deea66aee54ab591e02fc269684df",
+          "search_job": {
+            "id": 109197,
+            "method": "fq",
+            "source": "n642.txt",
+            "source_origin": "constructed",
+            "source_sha256": "3ef8ad9fc1b2b776cf935f07c1711c3694b66e3c6263db78db00116d3ac19794",
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n642.txt",
+              "source_sha256": "ee7833bbea6fade626cd91651f3bb2e003de995aaa0ee5aac2eacb2a0a17a1d0",
+              "source_n": 642,
+              "source_side": 25.881306218105095,
+              "layers": 1,
+              "deleted": 0,
+              "border_corners": [
+                "NE"
+              ],
+              "border_layout": "single-corner",
+              "side": 26.881306218107095
+            }
+          }
+        }
+      },
+      "verified_audit": "experiments/record-check-20261022-0300"
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n642.cert",
+    "reviewed_bound": "8011253541146512421/298023223876953125"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

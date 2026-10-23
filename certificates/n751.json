@@ -1,45 +1,123 @@
 {
   "n": 751,
   "packing": "n751.txt",
-  "packing_sha256": "89186b6d120694d95563769284794c608fae6aa014d324c3f5aafdee75056786",
+  "packing_sha256": "efcab637b80ce5499f175f0c02602a07ae6598e424cf7d1e910c3324e1c5ce7d",
   "certificate": "certificates/n751.cert",
-  "certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
-  "rational_side": "37683976423149836682175231709/1349994236354500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "5542dd892a16c64859ee5e0fb9a97257fed9ab12676fb6df89234accb2144c6b",
+  "rational_side": "55151592500777362076446641148641304411/1975755757100758066003968000000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "5542dd892a16c64859ee5e0fb9a97257fed9ab12676fb6df89234accb2144c6b",
     "source_n": 751,
     "source_provenance": {
-      "n": 751,
-      "side": "37683976423149836682175231709/1349994236354500000000000000",
-      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f.cert",
-      "certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
-      "category": "web",
-      "source": "/var/lib/square-packing/database.sqlite3:record:59105bfcb0b7629b4dbf19e5a56456fb",
-      "public_credit": "franciscouzo",
-      "created": 1792508079.083012,
-      "submission_id": "59105bfcb0b7629b4dbf19e5a56456fb",
-      "record": {
-        "n": 751,
-        "side": 27.914175785602584,
-        "previous": 27.914197073340908,
-        "previous_holder": "this project",
-        "rational_side": "37683976423149836682175231709/1349994236354500000000000000",
-        "float_side": 27.914175785575672,
-        "method": "fq",
-        "received": "20261020T145437Z",
-        "seed": "volunteer",
-        "sha256": "785585f29db3741c2074d91236e93b25c8abd1c49b5d48199b769a9a65bb38bf"
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n751.cert",
+        "source_file": "certificates/0000-0999/n751.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
       },
-      "rounded_up": "27.914175785603",
-      "previous": "27.914197073341",
-      "gain": 2.1287738324144706e-05,
-      "precision_refinement": false,
-      "source_url": null,
-      "received": "20261020T145437Z"
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "37683976423149836682175231709/1349994236354500000000000000",
+        "source_n": 751,
+        "certificate": "certificates/parents/5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f.cert",
+        "certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+        "credit": "Francisco Couzo",
+        "provenance": {
+          "n": 751,
+          "side": "37683976423149836682175231709/1349994236354500000000000000",
+          "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f.cert",
+          "certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+          "category": "web",
+          "source": "/var/lib/square-packing/database.sqlite3:record:59105bfcb0b7629b4dbf19e5a56456fb",
+          "public_credit": "franciscouzo",
+          "created": 1792508079.083012,
+          "submission_id": "59105bfcb0b7629b4dbf19e5a56456fb",
+          "record": {
+            "n": 751,
+            "side": 27.914175785602584,
+            "previous": 27.914197073340908,
+            "previous_holder": "this project",
+            "rational_side": "37683976423149836682175231709/1349994236354500000000000000",
+            "float_side": 27.914175785575672,
+            "method": "fq",
+            "received": "20261020T145437Z",
+            "seed": "volunteer",
+            "sha256": "785585f29db3741c2074d91236e93b25c8abd1c49b5d48199b769a9a65bb38bf"
+          },
+          "rounded_up": "27.914175785603",
+          "previous": "27.914197073341",
+          "gain": 2.1287738324144706e-05,
+          "precision_refinement": false,
+          "source_url": null,
+          "received": "20261020T145437Z"
+        },
+        "verification": {
+          "n": 751,
+          "side": "37683976423149836682175231709/1349994236354500000000000000",
+          "valid": true,
+          "pairs_tested": 11425,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+          "candidate_pairs": 11425,
+          "near_pairs": 1668,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo",
+        "source_certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+        "source_n": 751,
+        "source_provenance": {
+          "n": 751,
+          "side": "37683976423149836682175231709/1349994236354500000000000000",
+          "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f.cert",
+          "certificate_sha256": "5531c3bec1c8498bfd462bbe8a61ebd43c2c33c2c478bfe60a96ff5c2c3c829f",
+          "category": "web",
+          "source": "/var/lib/square-packing/database.sqlite3:record:59105bfcb0b7629b4dbf19e5a56456fb",
+          "public_credit": "franciscouzo",
+          "created": 1792508079.083012,
+          "submission_id": "59105bfcb0b7629b4dbf19e5a56456fb",
+          "record": {
+            "n": 751,
+            "side": 27.914175785602584,
+            "previous": 27.914197073340908,
+            "previous_holder": "this project",
+            "rational_side": "37683976423149836682175231709/1349994236354500000000000000",
+            "float_side": 27.914175785575672,
+            "method": "fq",
+            "received": "20261020T145437Z",
+            "seed": "volunteer",
+            "sha256": "785585f29db3741c2074d91236e93b25c8abd1c49b5d48199b769a9a65bb38bf"
+          },
+          "rounded_up": "27.914175785603",
+          "previous": "27.914197073341",
+          "gain": 2.1287738324144706e-05,
+          "precision_refinement": false,
+          "source_url": null,
+          "received": "20261020T145437Z"
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n751.cert",
+    "reviewed_bound": "55151592500777362076446641148641304411/1975755757100758066003968000000000000"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

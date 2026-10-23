@@ -57,6 +57,16 @@ class RetainedCertifiedBounds(unittest.TestCase):
             with patch.object(regen_bounds,'ROOT',root),self.assertRaises(ValueError):
                 regen_bounds.render(max_n=6)
 
+    def test_imported_root_reference_preserves_the_public_contributors_credit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);certificate=self.fixture(root)
+            credit='Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained'
+            (root/'certificates/n5.json').write_text(json.dumps(dict(rational_side='14/5',
+                certificate='certificates/best/n5.cert',certificate_sha256=hashlib.sha256(certificate.read_bytes()).hexdigest(),
+                origin=dict(seed_credit=credit))))
+            with patch.object(regen_bounds,'ROOT',root):row=regen_bounds.render(max_n=6)['entries']['5']
+            self.assertEqual(row['verified']['credit'],credit)
+
     def test_exact_recipe_is_bound_to_parent_capacity_and_checker(self):
         with tempfile.TemporaryDirectory() as directory:
             root=Path(directory); self.fixture(root)
@@ -102,6 +112,21 @@ class RetainedCertifiedBounds(unittest.TestCase):
             self.assertEqual(result['entries']['5']['reported']['credit'],'public source')
             self.assertEqual(result['entries']['5']['verified']['bound'],'14/5')
             self.assertEqual(result['entries']['6']['verified']['bound'],'3')
+
+    def test_reported_lane_preserves_gains_smaller_than_float_precision(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory); self.fixture(root)
+            side=Fraction(14,5)-Fraction(1,10**40)
+            certificate=root/'certificates/best/n5.cert'
+            certificate.write_text(f'5 {side}\n'+'1/2 1/2 0\n'*5)
+            path=root/'certified_bounds.json';data=json.loads(path.read_text())
+            data['entries']['5'].update(bound=str(side),
+                certificate_sha256=hashlib.sha256(certificate.read_bytes()).hexdigest())
+            path.write_text(json.dumps(data))
+            (root/'public_bounds.json').write_text(json.dumps(dict(entries={
+                '5':dict(bound='14/5',credit='Francisco Couzo')})))
+            with patch.object(regen_bounds,'ROOT',root):result=regen_bounds.render(max_n=6)
+            self.assertEqual(Fraction(result['entries']['5']['reported']['bound']),side)
 
     def test_expanded_rational_tiling_and_border_is_geometrically_valid(self):
         from verify_bound_certificate import verify

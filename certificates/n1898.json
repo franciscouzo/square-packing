@@ -1,0 +1,61 @@
+{
+  "n": 1898,
+  "packing": "n1898.txt",
+  "packing_sha256": "7a166c3b9aa753eb4e3cedba69504919aa944d16819e7041d6c268b09a94a2f4",
+  "certificate": "certificates/n1898.cert",
+  "certificate_sha256": "643346dda50a8c4f64ed81120f8f3c4eb050321c78eb85fddba0e9afc12dad69",
+  "rational_side": "1881688907605905763867111254699862714245700769187979443427397043217963911077181034144079293727/42766369135411921538421572379861791854202716736665819521981005000835013524501000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "643346dda50a8c4f64ed81120f8f3c4eb050321c78eb85fddba0e9afc12dad69",
+    "source_n": 1898,
+    "source_provenance": {
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "99b2feb84e67667beb03847985823166",
+        "created": 1792640006.8289862,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 43.999267313244665,
+          "method": "fq",
+          "n": 1898,
+          "name": "franciscouzo",
+          "previous": 43.999336623226235,
+          "previous_holder": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+          "rational_side": "1881688907605905763867111254699862714245700769187979443427397043217963911077181034144079293727/42766369135411921538421572379861791854202716736665819521981005000835013524501000000000000000",
+          "received": "20261022T033323Z",
+          "seed": "elimination from n=1899",
+          "sha256": "50be5da69d85fc27792b74bc0e08a3e21ae5afafeff159c06ea0c782eadeeeb2",
+          "side": 43.99926731324514
+        },
+        "packing_sha256": "50be5da69d85fc27792b74bc0e08a3e21ae5afafeff159c06ea0c782eadeeeb2"
+      },
+      "previous_source": {
+        "certificate": "certificates/best/n1899.cert",
+        "certificate_sha256": "8853c28c411e4bf1df8cbd61172b53f0671f630838206de3c976d89e88232a4d",
+        "credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+        "verification": {
+          "n": 1899,
+          "side": "517924629878249153438091073/11771191786670000000000000",
+          "valid": true,
+          "pairs_tested": 30695,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "n": 1898,
+        "kind": "certificate",
+        "bound": "517924629878249153438091073/11771191786670000000000000",
+        "source_n": 1899,
+        "deleted_squares": 1,
+        "rounded_up": "43.999336623227"
+      },
+      "previous_reference": null
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

@@ -1,0 +1,153 @@
+{
+  "n": 1262,
+  "packing": "n1262.txt",
+  "packing_sha256": "f54d57cc6b84853e6a26f1b6e3eba07525b36be5dc9914891888b24eb191903c",
+  "certificate": "certificates/n1262.cert",
+  "certificate_sha256": "99d9f027823cdde55b140da8d3b931cd6b548657084b3b1023f44ccb3ad63889",
+  "rational_side": "36654717914089097637064245625507231329657926324009103107624269350043579195838401690338049493/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488",
+  "kind": "verified public reference certificate",
+  "origin": {
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "99d9f027823cdde55b140da8d3b931cd6b548657084b3b1023f44ccb3ad63889",
+    "source_n": 1262,
+    "source_provenance": {
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1262.cert",
+        "source_file": "certificates/1000-1999/n1262.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "26279131792114981061588385585274170968205600822222119669872537513253/730116866080252967679565344801168660802529676795653375000000000000",
+        "source_n": 1262,
+        "certificate": "certificates/parents/ec51041f8a4e6c21344810d16eeaa32688cb7c3680304a3ffc3ed830dc2f0e01.cert",
+        "certificate_sha256": "ec51041f8a4e6c21344810d16eeaa32688cb7c3680304a3ffc3ed830dc2f0e01",
+        "credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "web search",
+          "source_provenance": {
+            "category": "shared CT105 packing store",
+            "id": "762d8ded1e7e5a2af0f32d04726b8495",
+            "created": 1792643205.378002,
+            "record": {
+              "attribution": "franciscouzo",
+              "dilation": "1+1e-14",
+              "email_public": false,
+              "float_side": 35.99304852824227,
+              "method": "fq",
+              "n": 1262,
+              "name": "franciscouzo",
+              "previous": 35.99345781273281,
+              "previous_holder": "this project",
+              "rational_side": "26279131792114981061588385585274170968205600822222119669872537513253/730116866080252967679565344801168660802529676795653375000000000000",
+              "received": "20261022T042644Z",
+              "seed": "volunteer",
+              "sha256": "09706b6cbe41bb21817f0e5cec468cf22a4eea2ad49ee3ab4b1980a5ac8889bf",
+              "side": 35.993048528242646
+            },
+            "packing_sha256": "09706b6cbe41bb21817f0e5cec468cf22a4eea2ad49ee3ab4b1980a5ac8889bf"
+          },
+          "previous_source": {
+            "certificate": "certificates/parents/083b78a7986c143fbf29a4eebf1aa4c6686184574e0c41b11d488f6d231db02f.cert",
+            "certificate_sha256": "083b78a7986c143fbf29a4eebf1aa4c6686184574e0c41b11d488f6d231db02f",
+            "credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+            "verification": {
+              "n": 1263,
+              "side": "554745114254692332766208171/15412348045982000000000000",
+              "valid": true,
+              "pairs_tested": 19941,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "n": 1262,
+            "kind": "certificate",
+            "bound": "554745114254692332766208171/15412348045982000000000000",
+            "source_n": 1263,
+            "deleted_squares": 1,
+            "rounded_up": "35.993549626549"
+          },
+          "previous_reference": null
+        },
+        "verification": {
+          "n": 1262,
+          "side": "26279131792114981061588385585274170968205600822222119669872537513253/730116866080252967679565344801168660802529676795653375000000000000",
+          "valid": true,
+          "pairs_tested": 19920,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "ec51041f8a4e6c21344810d16eeaa32688cb7c3680304a3ffc3ed830dc2f0e01",
+          "candidate_pairs": 19920,
+          "near_pairs": 2965,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "ec51041f8a4e6c21344810d16eeaa32688cb7c3680304a3ffc3ed830dc2f0e01",
+        "source_n": 1262,
+        "source_provenance": {
+          "category": "web search",
+          "source_provenance": {
+            "category": "shared CT105 packing store",
+            "id": "762d8ded1e7e5a2af0f32d04726b8495",
+            "created": 1792643205.378002,
+            "record": {
+              "attribution": "franciscouzo",
+              "dilation": "1+1e-14",
+              "email_public": false,
+              "float_side": 35.99304852824227,
+              "method": "fq",
+              "n": 1262,
+              "name": "franciscouzo",
+              "previous": 35.99345781273281,
+              "previous_holder": "this project",
+              "rational_side": "26279131792114981061588385585274170968205600822222119669872537513253/730116866080252967679565344801168660802529676795653375000000000000",
+              "received": "20261022T042644Z",
+              "seed": "volunteer",
+              "sha256": "09706b6cbe41bb21817f0e5cec468cf22a4eea2ad49ee3ab4b1980a5ac8889bf",
+              "side": 35.993048528242646
+            },
+            "packing_sha256": "09706b6cbe41bb21817f0e5cec468cf22a4eea2ad49ee3ab4b1980a5ac8889bf"
+          },
+          "previous_source": {
+            "certificate": "certificates/parents/083b78a7986c143fbf29a4eebf1aa4c6686184574e0c41b11d488f6d231db02f.cert",
+            "certificate_sha256": "083b78a7986c143fbf29a4eebf1aa4c6686184574e0c41b11d488f6d231db02f",
+            "credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+            "verification": {
+              "n": 1263,
+              "side": "554745114254692332766208171/15412348045982000000000000",
+              "valid": true,
+              "pairs_tested": 19941,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "n": 1262,
+            "kind": "certificate",
+            "bound": "554745114254692332766208171/15412348045982000000000000",
+            "source_n": 1263,
+            "deleted_squares": 1,
+            "rounded_up": "35.993549626549"
+          },
+          "previous_reference": null
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1262.cert",
+    "reviewed_bound": "36654717914089097637064245625507231329657926324009103107624269350043579195838401690338049493/1018517988167996034077498065268488875215205837325470823073240518191708505891957850912063488"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

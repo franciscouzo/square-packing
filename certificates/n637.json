@@ -1,21 +1,252 @@
 {
   "n": 637,
   "packing": "n637.txt",
-  "packing_sha256": "c39834acdb5931b880a03720434a33d0572155b1004626fe72e3f37ac2731de5",
+  "packing_sha256": "c3a01189460196da0a560b37571db35e76d7ff7dcfe016008e47454f7b214a3d",
   "certificate": "certificates/n637.cert",
-  "certificate_sha256": "c6332d5bc44e3409a6a1422c8995954b610bb109aa672e45f2197e92e74be789",
-  "rational_side": "14218305948422917845352943573/551563722911500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "0f27da4c5d20ee5c29f7e2e3dd64f086cf0409d27270387a048f238da28be1ce",
+  "rational_side": "30482640567076593001425411969/1182498025879400000000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "c6332d5bc44e3409a6a1422c8995954b610bb109aa672e45f2197e92e74be789",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "0f27da4c5d20ee5c29f7e2e3dd64f086cf0409d27270387a048f238da28be1ce",
     "source_n": 637,
     "source_provenance": {
-      "category": "local",
-      "construction_credit": []
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "0f27da4c5d20ee5c29f7e2e3dd64f086cf0409d27270387a048f238da28be1ce",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n637.txt",
+        "packing_sha256": "36d5d9731ea83afdff9b2f42a3592601c6e06885d749a99bc203908b405427dc",
+        "search_job": {
+          "id": 120606,
+          "n": 637,
+          "seed": 925120606,
+          "method": "hop",
+          "variant": true,
+          "radius": 0.003,
+          "iterations": 1000,
+          "hop_seconds": 240,
+          "slp_seconds": 120,
+          "source": "records/n637.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
+          },
+          "pool_size": 8,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "records/n637.txt",
+            "source_sha256": "c39834acdb5931b880a03720434a33d0572155b1004626fe72e3f37ac2731de5",
+            "source_n": 637,
+            "source_side": 25.778174593086902,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 25.778174593086902
+          },
+          "source_sha256": "c39834acdb5931b880a03720434a33d0572155b1004626fe72e3f37ac2731de5",
+          "allocation": "general",
+          "worker_slot": 1,
+          "host": "fran@192.168.0.200",
+          "started": 1792635503.99315,
+          "worker_details": {
+            "translations": true,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+            "pool_size": 8,
+            "actual_method": "hop",
+            "fq_finish": {
+              "n637_0": 25.77817459305741,
+              "n637_1": 25.778174593057344
+            },
+            "winner": "n637_1+fq",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 25.77817459309682,
+                "after": 25.77817459310178
+              },
+              {
+                "name": "n637_0",
+                "before": 25.77818315097193,
+                "after": 25.77818315097689
+              },
+              {
+                "name": "n637_1",
+                "before": 25.77818405202448,
+                "after": 25.778184052029435
+              },
+              {
+                "name": "n637_2",
+                "before": 25.77820440761319,
+                "after": 25.77820440761815
+              },
+              {
+                "name": "n637_3",
+                "before": 25.778205115627294,
+                "after": 25.77820511563225
+              },
+              {
+                "name": "n637_4",
+                "before": 25.77821060116512,
+                "after": 25.778210601170077
+              },
+              {
+                "name": "n637_5",
+                "before": 25.778215936974114,
+                "after": 25.77821593697907
+              },
+              {
+                "name": "n637_6",
+                "before": 25.778219829608048,
+                "after": 25.778219829613004
+              },
+              {
+                "name": "n637_7",
+                "before": 25.778220135469542,
+                "after": 25.7782201354745
+              },
+              {
+                "name": "n637_0+fq",
+                "before": 25.77817459306216,
+                "after": 25.77817459306712
+              },
+              {
+                "name": "n637_1+fq",
+                "before": 25.778174593062097,
+                "after": 25.778174593067057
+              }
+            ]
+          }
+        }
+      },
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "local",
+        "construction_credit": []
+      },
+      "verified_audit": "experiments/record-check-20261022-0300",
+      "search_job": {
+        "id": 120606,
+        "n": 637,
+        "seed": 925120606,
+        "method": "hop",
+        "variant": true,
+        "radius": 0.003,
+        "iterations": 1000,
+        "hop_seconds": 240,
+        "slp_seconds": 120,
+        "source": "records/n637.txt",
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 8,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "records/n637.txt",
+          "source_sha256": "c39834acdb5931b880a03720434a33d0572155b1004626fe72e3f37ac2731de5",
+          "source_n": 637,
+          "source_side": 25.778174593086902,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 25.778174593086902
+        },
+        "source_sha256": "c39834acdb5931b880a03720434a33d0572155b1004626fe72e3f37ac2731de5",
+        "allocation": "general",
+        "worker_slot": 1,
+        "host": "fran@192.168.0.200",
+        "started": 1792635503.99315,
+        "worker_details": {
+          "translations": true,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+          "pool_size": 8,
+          "actual_method": "hop",
+          "fq_finish": {
+            "n637_0": 25.77817459305741,
+            "n637_1": 25.778174593057344
+          },
+          "winner": "n637_1+fq",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 25.77817459309682,
+              "after": 25.77817459310178
+            },
+            {
+              "name": "n637_0",
+              "before": 25.77818315097193,
+              "after": 25.77818315097689
+            },
+            {
+              "name": "n637_1",
+              "before": 25.77818405202448,
+              "after": 25.778184052029435
+            },
+            {
+              "name": "n637_2",
+              "before": 25.77820440761319,
+              "after": 25.77820440761815
+            },
+            {
+              "name": "n637_3",
+              "before": 25.778205115627294,
+              "after": 25.77820511563225
+            },
+            {
+              "name": "n637_4",
+              "before": 25.77821060116512,
+              "after": 25.778210601170077
+            },
+            {
+              "name": "n637_5",
+              "before": 25.778215936974114,
+              "after": 25.77821593697907
+            },
+            {
+              "name": "n637_6",
+              "before": 25.778219829608048,
+              "after": 25.778219829613004
+            },
+            {
+              "name": "n637_7",
+              "before": 25.778220135469542,
+              "after": 25.7782201354745
+            },
+            {
+              "name": "n637_0+fq",
+              "before": 25.77817459306216,
+              "after": 25.77817459306712
+            },
+            {
+              "name": "n637_1+fq",
+              "before": 25.778174593062097,
+              "after": 25.778174593067057
+            }
+          ]
+        }
+      }
     },
     "construction": null,
     "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n637.cert",
+    "reviewed_bound": "7682494697892066304/298023223876953125"
   },
   "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

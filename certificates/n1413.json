@@ -1,109 +1,251 @@
 {
   "n": 1413,
   "packing": "n1413.txt",
-  "packing_sha256": "93505f45cc9776cc059978b8edb00e4ce5b185206dba8339a74306c4dba07b53",
+  "packing_sha256": "5a79e1adafe6bc2471e852683c327a7410e863896c56503ca9846d79ae9dda13",
   "certificate": "certificates/n1413.cert",
-  "certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
-  "rational_side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "6e2275c4a86987564788eb29d813161b02e6a3abca5658ae6133492215621f04",
+  "rational_side": "452979961856212992/11920928955078125",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
-    "source_certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "6e2275c4a86987564788eb29d813161b02e6a3abca5658ae6133492215621f04",
     "source_n": 1413,
     "source_provenance": {
-      "n": 1413,
-      "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
-      "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial2/n1413_0_126_3d3ee7b9ad64.txt",
-      "category": "Desktopo >1024",
-      "sha256": "15eee0fe70460d21c258c574ab9da503d58db69a0a9a76cfbde139ded5c4293a",
-      "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299.cert",
-      "certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
-      "packing": "/root/square-packing/experiments/records-check-20261020-0640/poses/n1413.txt",
-      "packing_sha256": "2fb31bd3dcb6f5ec7bce80b13b091d9be195c6d03a4d36132049e9b676ef0a55",
-      "rounded_up": "37.999315487115",
-      "previous": "37.999336623140",
-      "gain": 2.1136025562558667e-05,
-      "precision_refinement": false,
-      "source_manifest_entry": {
-        "n": 1413,
-        "file": "n1413_0_126_3d3ee7b9ad64.txt",
-        "sha256": "3d3ee7b9ad640edb2358f208a10af6947e9df545d3d313618976e06779edd81b",
-        "side": 37.999315487040086,
-        "best_known": "37.999336623140",
-        "cycle": 0,
-        "construction": {
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1413.cert",
+        "source_file": "certificates/1000-1999/n1413.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+        "source_n": 1413,
+        "certificate": "certificates/parents/ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299.cert",
+        "certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+        "credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+        "provenance": {
           "n": 1413,
-          "kind": "recursive staircase",
-          "integer_side": 38,
-          "index": 0,
-          "initial_estimate": 37.99933662313972,
-          "components": [
+          "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial2/n1413_0_126_3d3ee7b9ad64.txt",
+          "category": "Desktopo >1024",
+          "sha256": "15eee0fe70460d21c258c574ab9da503d58db69a0a9a76cfbde139ded5c4293a",
+          "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299.cert",
+          "certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+          "packing": "/root/square-packing/experiments/records-check-20261020-0640/poses/n1413.txt",
+          "packing_sha256": "2fb31bd3dcb6f5ec7bce80b13b091d9be195c6d03a4d36132049e9b676ef0a55",
+          "rounded_up": "37.999315487115",
+          "previous": "37.999336623140",
+          "gain": 2.1136025562558667e-05,
+          "precision_refinement": false,
+          "source_manifest_entry": {
+            "n": 1413,
+            "file": "n1413_0_126_3d3ee7b9ad64.txt",
+            "sha256": "3d3ee7b9ad640edb2358f208a10af6947e9df545d3d313618976e06779edd81b",
+            "side": 37.999315487040086,
+            "best_known": "37.999336623140",
+            "cycle": 0,
+            "construction": {
+              "n": 1413,
+              "kind": "recursive staircase",
+              "integer_side": 38,
+              "index": 0,
+              "initial_estimate": 37.99933662313972,
+              "components": [
+                {
+                  "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
+                  "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+                  "n": 1413,
+                  "width": 37.99933662313972,
+                  "height": 37.99933662313972,
+                  "copies": 1
+                }
+              ]
+            },
+            "numerical_refinement": {
+              "before": 37.99933662315452,
+              "steps": [
+                {
+                  "method": "fixed-angle centre LP",
+                  "side": 37.999336623168105,
+                  "accepted": false
+                },
+                {
+                  "method": "SLP",
+                  "side": 37.999315487032675,
+                  "iterations": 1,
+                  "accepted": true
+                }
+              ],
+              "fq_budget_exhausted": true,
+              "after": 37.999315487040086,
+              "seconds": 60.02987799909897
+            },
+            "raw_seed": "raw-126-n1413.txt",
+            "raw_sha256": "d0fdb85170967cf9c1d0193a5d8b8205576b68dffa3bd04dc36c65d8ceebb5f5",
+            "requires_exact_verification": true
+          },
+          "construction": {
+            "n": 1413,
+            "kind": "recursive staircase",
+            "integer_side": 38,
+            "index": 0,
+            "initial_estimate": 37.99933662313972,
+            "components": [
+              {
+                "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
+                "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+                "n": 1413,
+                "width": 37.99933662313972,
+                "height": 37.99933662313972,
+                "copies": 1
+              }
+            ]
+          },
+          "source_manifest_sha256": "76ecd83d51893c36a2c5b4d0088c2db5cdbff132c96918dbe8ea5d287c0a3e74",
+          "source_url": null,
+          "source_pieces": [
             {
               "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
               "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
               "n": 1413,
               "width": 37.99933662313972,
               "height": 37.99933662313972,
-              "copies": 1
+              "copies": 1,
+              "credit": "Francisco Couzo (assembly/refinement); original piece credits below",
+              "source_url": "certificates/best/n1413.cert"
             }
           ]
         },
-        "numerical_refinement": {
-          "before": 37.99933662315452,
-          "steps": [
-            {
-              "method": "fixed-angle centre LP",
-              "side": 37.999336623168105,
-              "accepted": false
-            },
-            {
-              "method": "SLP",
-              "side": 37.999315487032675,
-              "iterations": 1,
-              "accepted": true
-            }
-          ],
-          "fq_budget_exhausted": true,
-          "after": 37.999315487040086,
-          "seconds": 60.02987799909897
-        },
-        "raw_seed": "raw-126-n1413.txt",
-        "raw_sha256": "d0fdb85170967cf9c1d0193a5d8b8205576b68dffa3bd04dc36c65d8ceebb5f5",
-        "requires_exact_verification": true
-      },
-      "construction": {
-        "n": 1413,
-        "kind": "recursive staircase",
-        "integer_side": 38,
-        "index": 0,
-        "initial_estimate": 37.99933662313972,
-        "components": [
-          {
-            "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
-            "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
-            "n": 1413,
-            "width": 37.99933662313972,
-            "height": 37.99933662313972,
-            "copies": 1
-          }
-        ]
-      },
-      "source_manifest_sha256": "76ecd83d51893c36a2c5b4d0088c2db5cdbff132c96918dbe8ea5d287c0a3e74",
-      "source_url": null,
-      "source_pieces": [
-        {
-          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
-          "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+        "verification": {
           "n": 1413,
-          "width": 37.99933662313972,
-          "height": 37.99933662313972,
-          "copies": 1,
-          "credit": "Francisco Couzo (assembly/refinement); original piece credits below",
-          "source_url": "certificates/best/n1413.cert"
+          "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+          "valid": true,
+          "pairs_tested": 22550,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": false,
+          "closed_valid": true,
+          "sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+          "candidate_pairs": 22550,
+          "near_pairs": 3307,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         }
-      ]
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+        "source_certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+        "source_n": 1413,
+        "source_provenance": {
+          "n": 1413,
+          "side": "8680015823225610841212421002804535039751972457966549578273/228425583775820037555361555837758200375530773000000000000",
+          "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/trial2/n1413_0_126_3d3ee7b9ad64.txt",
+          "category": "Desktopo >1024",
+          "sha256": "15eee0fe70460d21c258c574ab9da503d58db69a0a9a76cfbde139ded5c4293a",
+          "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299.cert",
+          "certificate_sha256": "ed58587407ae3039673b62aefe82af3d9f4ac97d4111084b3fcfcb848f22b299",
+          "packing": "/root/square-packing/experiments/records-check-20261020-0640/poses/n1413.txt",
+          "packing_sha256": "2fb31bd3dcb6f5ec7bce80b13b091d9be195c6d03a4d36132049e9b676ef0a55",
+          "rounded_up": "37.999315487115",
+          "previous": "37.999336623140",
+          "gain": 2.1136025562558667e-05,
+          "precision_refinement": false,
+          "source_manifest_entry": {
+            "n": 1413,
+            "file": "n1413_0_126_3d3ee7b9ad64.txt",
+            "sha256": "3d3ee7b9ad640edb2358f208a10af6947e9df545d3d313618976e06779edd81b",
+            "side": 37.999315487040086,
+            "best_known": "37.999336623140",
+            "cycle": 0,
+            "construction": {
+              "n": 1413,
+              "kind": "recursive staircase",
+              "integer_side": 38,
+              "index": 0,
+              "initial_estimate": 37.99933662313972,
+              "components": [
+                {
+                  "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
+                  "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+                  "n": 1413,
+                  "width": 37.99933662313972,
+                  "height": 37.99933662313972,
+                  "copies": 1
+                }
+              ]
+            },
+            "numerical_refinement": {
+              "before": 37.99933662315452,
+              "steps": [
+                {
+                  "method": "fixed-angle centre LP",
+                  "side": 37.999336623168105,
+                  "accepted": false
+                },
+                {
+                  "method": "SLP",
+                  "side": 37.999315487032675,
+                  "iterations": 1,
+                  "accepted": true
+                }
+              ],
+              "fq_budget_exhausted": true,
+              "after": 37.999315487040086,
+              "seconds": 60.02987799909897
+            },
+            "raw_seed": "raw-126-n1413.txt",
+            "raw_sha256": "d0fdb85170967cf9c1d0193a5d8b8205576b68dffa3bd04dc36c65d8ceebb5f5",
+            "requires_exact_verification": true
+          },
+          "construction": {
+            "n": 1413,
+            "kind": "recursive staircase",
+            "integer_side": 38,
+            "index": 0,
+            "initial_estimate": 37.99933662313972,
+            "components": [
+              {
+                "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
+                "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+                "n": 1413,
+                "width": 37.99933662313972,
+                "height": 37.99933662313972,
+                "copies": 1
+              }
+            ]
+          },
+          "source_manifest_sha256": "76ecd83d51893c36a2c5b4d0088c2db5cdbff132c96918dbe8ea5d287c0a3e74",
+          "source_url": null,
+          "source_pieces": [
+            {
+              "source": "/home/fran/sqpack-forever/experiments/up-to10000-20261019/sources/couzo-n1413.cert",
+              "sha256": "556ad01c699c05b1578a91a823ce32a3db366abf3856c78926816e46011b78e3",
+              "n": 1413,
+              "width": 37.99933662313972,
+              "height": 37.99933662313972,
+              "copies": 1,
+              "credit": "Francisco Couzo (assembly/refinement); original piece credits below",
+              "source_url": "certificates/best/n1413.cert"
+            }
+          ]
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1413.cert",
+    "reviewed_bound": "452979961856212992/11920928955078125"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

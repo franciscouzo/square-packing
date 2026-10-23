@@ -1,320 +1,935 @@
 {
   "n": 756,
   "packing": "n756.txt",
-  "packing_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+  "packing_sha256": "d7a504936aeb9a969667e6f3c7bdc9a6283cbfc80afdbf22e78c9f8b4327f3b0",
   "certificate": "certificates/n756.cert",
-  "certificate_sha256": "1ab63f1a448e3f0148bf005c724693a16aae61511488edab8daf4ad40954795f",
-  "rational_side": "26267093138502328204137511/938889000966000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "0631a596dabad554bc7a6873eccbf94c1d06765d78f9f79bd9e4796e46ca5da5",
+  "rational_side": "954009126734594678243554865477612659731/34100032946130499012138265500000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "1ab63f1a448e3f0148bf005c724693a16aae61511488edab8daf4ad40954795f",
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "0631a596dabad554bc7a6873eccbf94c1d06765d78f9f79bd9e4796e46ca5da5",
     "source_n": 756,
     "source_provenance": {
-      "category": "native search",
-      "audit_source": "Desktopo / native search",
-      "source_certificate_sha256": "1ab63f1a448e3f0148bf005c724693a16aae61511488edab8daf4ad40954795f",
-      "audit_origin": {
-        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n756.txt",
-        "packing_sha256": "5175d69a9040b4fa0367098bc46993c981c592840624f98f98f33f761e1a7cbe",
-        "search_job": {
-          "id": 119090,
-          "n": 756,
-          "seed": 925119090,
-          "method": "fq",
-          "variant": true,
-          "radius": 0.05,
-          "iterations": 1000,
-          "hop_seconds": 360,
-          "slp_seconds": 120,
-          "source": "n756.txt",
-          "source_origin": "constructed",
-          "range_group": "focus",
-          "focus_targets": {
-            "schedule": "web",
-            "counts": 560,
-            "rotation": 2159
-          },
-          "pool_size": 8,
-          "pool_gap": 0.02,
-          "constructed_seed": {
-            "construction": "L-border and deletion",
-            "source": "n756.txt",
-            "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
-            "source_n": 756,
-            "source_side": 27.976914446467628,
-            "layers": 0,
-            "deleted": 0,
-            "border_corners": [],
-            "border_layout": "single-corner",
-            "side": 27.976914446467628
-          },
-          "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
-          "allocation": "general",
-          "worker_slot": 4,
-          "host": "fran@192.168.0.200",
-          "started": 1792597059.1046283,
-          "worker_details": {
-            "translations": true,
-            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-            "pool_size": 8,
-            "actual_method": "fq",
-            "external_method": "fq",
-            "seed_squares": 756,
-            "proposals": 1,
-            "accepted": 0,
-            "best": 27.976914446467628,
-            "start": 27.976914446467628,
-            "fq_finish": {},
-            "winner": "incumbent",
-            "refinement_candidates": [
-              {
-                "name": "incumbent",
-                "before": 27.97691444647842,
-                "after": 27.976782251630915
-              }
-            ]
-          }
-        }
-      },
-      "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
-      "prior_source_provenance": {
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
         "category": "public submission",
-        "source_url": "https://github.com/jlevy/squares/issues/686",
-        "source_provenance": {
-          "n": 756,
-          "parent_n": 757,
-          "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
-          "layers": 0,
-          "full_count": 757,
-          "deleted": 1,
-          "previous_side": "1399062373115078062373113679/50000000000000000000000000",
-          "previously_registered": true,
-          "parent": {
-            "n": 757,
-            "side": "5595382889292688382889287093/200000000000000000000000000",
-            "sha256": "757f03df00b1a1495f374e8ad0b6b8d10b4e215c2ef342847dc4937c1b1592c9",
-            "geometry": "witnesses/square-757/geometry.cert"
-          },
-          "certificate": {
-            "valid": true,
-            "n": 756,
-            "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
-            "side_float": 27.97691444649142,
-            "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
-            "checks": [
-              "rational separating axes",
-              "rational polygon intersection"
-            ]
-          },
-          "previous_provenance": {
-            "n": 756,
-            "side": "1399062373115078062373113679/50000000000000000000000000",
-            "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
-            "origin": "structured-terminal.json/candidates",
-            "record": {
-              "attempt": "production-756-106103",
-              "kind": "explore",
-              "arm": "baseline",
-              "cohort": "production",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n756.cert",
+        "source_file": "certificates/0000-0999/n756.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "10614508908488042351047001743/379404208313640000000000000",
+        "source_n": 756,
+        "certificate": "certificates/parents/bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e.cert",
+        "certificate_sha256": "bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e",
+        "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "native search",
+          "audit_source": "Desktopo / native search",
+          "source_certificate_sha256": "bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e",
+          "audit_origin": {
+            "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n756.txt",
+            "packing_sha256": "383c22c4f72e4b8609df5a4edc1f1ce7463c62544e8d59253aea27464b6afc04",
+            "search_job": {
+              "id": 120459,
               "n": 756,
-              "side": "1399062373115078062373113679/50000000000000000000000000",
-              "score": 27.98124746230156,
-              "reference": "13990988021904401988021890411/500000000000000000000000000",
-              "reference_gain_ppm": 26.037528804329458,
-              "candidate_flag": true,
-              "source": "attempts/production-756-106103/run/search/b00006.txt",
-              "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
-              "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
-              "checks": [
-                "rational separating axes",
-                "rational polygon intersection"
-              ],
-              "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
-              "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
-              "review_gain_ppm": 108.4668101818234,
-              "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
-              "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
-              "public_gain_ppm": 108.4668101818234,
-              "progress_gain_ppm": 26.037528804329458,
-              "classification": "exact feasible provisional candidate; worldwide priority unestablished"
-            },
-            "qualification": {
-              "n": 756,
-              "private": {
+              "seed": 925120459,
+              "method": "fq",
+              "variant": true,
+              "radius": 0.001,
+              "iterations": 1000,
+              "hop_seconds": 360,
+              "slp_seconds": 120,
+              "source": "records/n756.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "records/n756.txt",
+                "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+                "source_n": 756,
+                "source_side": 27.976782251663213,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.976782251663213
+              },
+              "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+              "allocation": "general",
+              "worker_slot": 10,
+              "host": "fran@192.168.0.200",
+              "started": 1792631885.6835763,
+              "worker_details": {
+                "translations": false,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+                "pool_size": 8,
+                "actual_method": "fq",
+                "external_method": "fq",
+                "seed_squares": 756,
+                "proposals": 2,
+                "accepted": 0,
+                "best": 27.976782251663213,
+                "start": 27.976782251663213,
+                "fq_finish": {},
+                "winner": "incumbent",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 27.976782251674006,
+                    "after": 27.976782217748365
+                  }
+                ]
+              }
+            }
+          },
+          "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+          "prior_source_provenance": {
+            "category": "native search",
+            "audit_source": "Desktopo / native search",
+            "source_certificate_sha256": "1ab63f1a448e3f0148bf005c724693a16aae61511488edab8daf4ad40954795f",
+            "audit_origin": {
+              "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n756.txt",
+              "packing_sha256": "5175d69a9040b4fa0367098bc46993c981c592840624f98f98f33f761e1a7cbe",
+              "search_job": {
+                "id": 119090,
                 "n": 756,
-                "side": "1399062373115078062373113679/50000000000000000000000000",
-                "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
-                "origin": "structured-terminal.json/candidates",
-                "record": {
-                  "attempt": "production-756-106103",
-                  "kind": "explore",
-                  "arm": "baseline",
-                  "cohort": "production",
+                "seed": 925119090,
+                "method": "fq",
+                "variant": true,
+                "radius": 0.05,
+                "iterations": 1000,
+                "hop_seconds": 360,
+                "slp_seconds": 120,
+                "source": "n756.txt",
+                "source_origin": "constructed",
+                "range_group": "focus",
+                "focus_targets": {
+                  "schedule": "web",
+                  "counts": 560,
+                  "rotation": 2159
+                },
+                "pool_size": 8,
+                "pool_gap": 0.02,
+                "constructed_seed": {
+                  "construction": "L-border and deletion",
+                  "source": "n756.txt",
+                  "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                  "source_n": 756,
+                  "source_side": 27.976914446467628,
+                  "layers": 0,
+                  "deleted": 0,
+                  "border_corners": [],
+                  "border_layout": "single-corner",
+                  "side": 27.976914446467628
+                },
+                "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                "allocation": "general",
+                "worker_slot": 4,
+                "host": "fran@192.168.0.200",
+                "started": 1792597059.1046283,
+                "worker_details": {
+                  "translations": true,
+                  "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                  "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                  "pool_size": 8,
+                  "actual_method": "fq",
+                  "external_method": "fq",
+                  "seed_squares": 756,
+                  "proposals": 1,
+                  "accepted": 0,
+                  "best": 27.976914446467628,
+                  "start": 27.976914446467628,
+                  "fq_finish": {},
+                  "winner": "incumbent",
+                  "refinement_candidates": [
+                    {
+                      "name": "incumbent",
+                      "before": 27.97691444647842,
+                      "after": 27.976782251630915
+                    }
+                  ]
+                }
+              }
+            },
+            "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+            "prior_source_provenance": {
+              "category": "public submission",
+              "source_url": "https://github.com/jlevy/squares/issues/686",
+              "source_provenance": {
+                "n": 756,
+                "parent_n": 757,
+                "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
+                "layers": 0,
+                "full_count": 757,
+                "deleted": 1,
+                "previous_side": "1399062373115078062373113679/50000000000000000000000000",
+                "previously_registered": true,
+                "parent": {
+                  "n": 757,
+                  "side": "5595382889292688382889287093/200000000000000000000000000",
+                  "sha256": "757f03df00b1a1495f374e8ad0b6b8d10b4e215c2ef342847dc4937c1b1592c9",
+                  "geometry": "witnesses/square-757/geometry.cert"
+                },
+                "certificate": {
+                  "valid": true,
                   "n": 756,
-                  "side": "1399062373115078062373113679/50000000000000000000000000",
-                  "score": 27.98124746230156,
-                  "reference": "13990988021904401988021890411/500000000000000000000000000",
-                  "reference_gain_ppm": 26.037528804329458,
-                  "candidate_flag": true,
-                  "source": "attempts/production-756-106103/run/search/b00006.txt",
-                  "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
-                  "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                  "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
+                  "side_float": 27.97691444649142,
+                  "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
                   "checks": [
                     "rational separating axes",
                     "rational polygon intersection"
-                  ],
-                  "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
-                  "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
-                  "review_gain_ppm": 108.4668101818234,
-                  "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
-                  "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
-                  "public_gain_ppm": 108.4668101818234,
-                  "progress_gain_ppm": 26.037528804329458,
-                  "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+                  ]
+                },
+                "previous_provenance": {
+                  "n": 756,
+                  "side": "1399062373115078062373113679/50000000000000000000000000",
+                  "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                  "origin": "structured-terminal.json/candidates",
+                  "record": {
+                    "attempt": "production-756-106103",
+                    "kind": "explore",
+                    "arm": "baseline",
+                    "cohort": "production",
+                    "n": 756,
+                    "side": "1399062373115078062373113679/50000000000000000000000000",
+                    "score": 27.98124746230156,
+                    "reference": "13990988021904401988021890411/500000000000000000000000000",
+                    "reference_gain_ppm": 26.037528804329458,
+                    "candidate_flag": true,
+                    "source": "attempts/production-756-106103/run/search/b00006.txt",
+                    "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
+                    "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ],
+                    "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                    "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                    "review_gain_ppm": 108.4668101818234,
+                    "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                    "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
+                    "public_gain_ppm": 108.4668101818234,
+                    "progress_gain_ppm": 26.037528804329458,
+                    "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+                  },
+                  "qualification": {
+                    "n": 756,
+                    "private": {
+                      "n": 756,
+                      "side": "1399062373115078062373113679/50000000000000000000000000",
+                      "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                      "origin": "structured-terminal.json/candidates",
+                      "record": {
+                        "attempt": "production-756-106103",
+                        "kind": "explore",
+                        "arm": "baseline",
+                        "cohort": "production",
+                        "n": 756,
+                        "side": "1399062373115078062373113679/50000000000000000000000000",
+                        "score": 27.98124746230156,
+                        "reference": "13990988021904401988021890411/500000000000000000000000000",
+                        "reference_gain_ppm": 26.037528804329458,
+                        "candidate_flag": true,
+                        "source": "attempts/production-756-106103/run/search/b00006.txt",
+                        "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
+                        "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                        "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                        "review_gain_ppm": 108.4668101818234,
+                        "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                        "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
+                        "public_gain_ppm": 108.4668101818234,
+                        "progress_gain_ppm": 26.037528804329458,
+                        "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+                      }
+                    },
+                    "public_bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+                    "public_entry": {
+                      "bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+                      "source": "certificates/n756.cert",
+                      "status": "exact certificate verified",
+                      "credit": "this repository; source credit in certificate metadata",
+                      "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
+                      "rounded_up": "27.984237490911"
+                    },
+                    "public_label": "verified",
+                    "status": "below-current-catalogue",
+                    "strictly_below": true,
+                    "exceeds_1e_8_absolute_gain": true,
+                    "gain_ppm": 106.85830262003776,
+                    "exact_public_hash_matches_retained": false,
+                    "private_geometry_verified": true,
+                    "private_geometry_file": "private-certificates/n756.cert",
+                    "public_receipt": {
+                      "n": 756,
+                      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/n756.cert",
+                      "path": "public-certificates/n756.cert",
+                      "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
+                      "bytes": 156872,
+                      "retrieved_at": "2026-10-17T18:25:29.350694+00:00",
+                      "cache_copy_from": "/study/qualification-r1/public-certificates/n756.cert"
+                    },
+                    "public_binding_matches": true,
+                    "raw_public_geometry_verified": false,
+                    "raw_verification_error": "AssertionError('separating-axis route rejected')",
+                    "public_geometry_verified": true,
+                    "public_certificate_side": "36285204937271911752592409022508539092553718597534658648724514411/1296630110040384339266571340596454238353040000000000000000000000",
+                    "public_verification": "Both exact routes accept disclosed1e-12 homothetic clearance",
+                    "public_clearance_scale": "1000000000001/1000000000000",
+                    "padded_public_geometry": "padded-public-certificates/n756.cert",
+                    "padded_public_sha256": "020b3bd40587c0bd6abf68b80fa95cc480a3af9e1d9469304f0e15361765460a",
+                    "public_bound_matches_certificate": true,
+                    "verified_public_status": "below-verified-public-witness",
+                    "verified_public_gain_ppm": 106.85830362014462
+                  },
+                  "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                },
+                "classification": "Dependent exact deletion/border consequence",
+                "recognition": "unconfirmed"
+              },
+              "construction": null,
+              "original_seed_credit": null,
+              "source_packing_sha256": null,
+              "previous_seed_credit": {
+                "web_seed": {
+                  "id": "07660cf6d967c4e0576afbb2de2651ab",
+                  "n": 756,
+                  "side": 27.984450134762582,
+                  "method": "hop",
+                  "received": "20261014T140654Z",
+                  "original_packing_sha256": "6abd712d49de085d2257a5e3b9b52527706e110bd88aa8fdafaef3b790e0c642"
+                },
+                "seed_credit": "Francisco Couzo",
+                "search_job": {
+                  "id": 107949,
+                  "method": "hop",
+                  "source": "n756.txt",
+                  "source_origin": "constructed",
+                  "source_sha256": "73be223dcd157eea0abf9f32b967481fbf0125e0d1caf66ff357d52c2a7a60d8",
+                  "constructed_seed": {
+                    "construction": "L-border and deletion",
+                    "source": "n756.txt",
+                    "source_sha256": "73a1613b8ecbf0d37ad3727b5477e9e4dcd42a0666d189b2efafa95ddf5a12b2",
+                    "source_n": 756,
+                    "source_side": 27.983489205803494,
+                    "layers": 0,
+                    "deleted": 0,
+                    "side": 27.983489205803494
+                  }
                 }
               },
-              "public_bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
-              "public_entry": {
-                "bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
-                "source": "certificates/n756.cert",
-                "status": "exact certificate verified",
-                "credit": "this repository; source credit in certificate metadata",
-                "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
-                "rounded_up": "27.984237490911"
-              },
-              "public_label": "verified",
-              "status": "below-current-catalogue",
-              "strictly_below": true,
-              "exceeds_1e_8_absolute_gain": true,
-              "gain_ppm": 106.85830262003776,
-              "exact_public_hash_matches_retained": false,
-              "private_geometry_verified": true,
-              "private_geometry_file": "private-certificates/n756.cert",
-              "public_receipt": {
-                "n": 756,
-                "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/n756.cert",
-                "path": "public-certificates/n756.cert",
-                "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
-                "bytes": 156872,
-                "retrieved_at": "2026-10-17T18:25:29.350694+00:00",
-                "cache_copy_from": "/study/qualification-r1/public-certificates/n756.cert"
-              },
-              "public_binding_matches": true,
-              "raw_public_geometry_verified": false,
-              "raw_verification_error": "AssertionError('separating-axis route rejected')",
-              "public_geometry_verified": true,
-              "public_certificate_side": "36285204937271911752592409022508539092553718597534658648724514411/1296630110040384339266571340596454238353040000000000000000000000",
-              "public_verification": "Both exact routes accept disclosed1e-12 homothetic clearance",
-              "public_clearance_scale": "1000000000001/1000000000000",
-              "padded_public_geometry": "padded-public-certificates/n756.cert",
-              "padded_public_sha256": "020b3bd40587c0bd6abf68b80fa95cc480a3af9e1d9469304f0e15361765460a",
-              "public_bound_matches_certificate": true,
-              "verified_public_status": "below-verified-public-witness",
-              "verified_public_gain_ppm": 106.85830362014462
+              "received": "2026-10-19T20:43:04Z"
             },
-            "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+            "verified_audit": "experiments/record-check-20261021",
+            "search_job": {
+              "id": 119090,
+              "n": 756,
+              "seed": 925119090,
+              "method": "fq",
+              "variant": true,
+              "radius": 0.05,
+              "iterations": 1000,
+              "hop_seconds": 360,
+              "slp_seconds": 120,
+              "source": "n756.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n756.txt",
+                "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                "source_n": 756,
+                "source_side": 27.976914446467628,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.976914446467628
+              },
+              "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+              "allocation": "general",
+              "worker_slot": 4,
+              "host": "fran@192.168.0.200",
+              "started": 1792597059.1046283,
+              "worker_details": {
+                "translations": true,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                "pool_size": 8,
+                "actual_method": "fq",
+                "external_method": "fq",
+                "seed_squares": 756,
+                "proposals": 1,
+                "accepted": 0,
+                "best": 27.976914446467628,
+                "start": 27.976914446467628,
+                "fq_finish": {},
+                "winner": "incumbent",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 27.97691444647842,
+                    "after": 27.976782251630915
+                  }
+                ]
+              }
+            }
           },
-          "classification": "Dependent exact deletion/border consequence",
-          "recognition": "unconfirmed"
-        },
-        "construction": null,
-        "original_seed_credit": null,
-        "source_packing_sha256": null,
-        "previous_seed_credit": {
-          "web_seed": {
-            "id": "07660cf6d967c4e0576afbb2de2651ab",
-            "n": 756,
-            "side": 27.984450134762582,
-            "method": "hop",
-            "received": "20261014T140654Z",
-            "original_packing_sha256": "6abd712d49de085d2257a5e3b9b52527706e110bd88aa8fdafaef3b790e0c642"
-          },
-          "seed_credit": "Francisco Couzo",
+          "verified_audit": "experiments/record-check-20261022-0300",
           "search_job": {
-            "id": 107949,
-            "method": "hop",
-            "source": "n756.txt",
+            "id": 120459,
+            "n": 756,
+            "seed": 925120459,
+            "method": "fq",
+            "variant": true,
+            "radius": 0.001,
+            "iterations": 1000,
+            "hop_seconds": 360,
+            "slp_seconds": 120,
+            "source": "records/n756.txt",
             "source_origin": "constructed",
-            "source_sha256": "73be223dcd157eea0abf9f32b967481fbf0125e0d1caf66ff357d52c2a7a60d8",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
             "constructed_seed": {
               "construction": "L-border and deletion",
-              "source": "n756.txt",
-              "source_sha256": "73a1613b8ecbf0d37ad3727b5477e9e4dcd42a0666d189b2efafa95ddf5a12b2",
+              "source": "records/n756.txt",
+              "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
               "source_n": 756,
-              "source_side": 27.983489205803494,
+              "source_side": 27.976782251663213,
               "layers": 0,
               "deleted": 0,
-              "side": 27.983489205803494
+              "border_corners": [],
+              "border_layout": "single-corner",
+              "side": 27.976782251663213
+            },
+            "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+            "allocation": "general",
+            "worker_slot": 10,
+            "host": "fran@192.168.0.200",
+            "started": 1792631885.6835763,
+            "worker_details": {
+              "translations": false,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "fq",
+              "external_method": "fq",
+              "seed_squares": 756,
+              "proposals": 2,
+              "accepted": 0,
+              "best": 27.976782251663213,
+              "start": 27.976782251663213,
+              "fq_finish": {},
+              "winner": "incumbent",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 27.976782251674006,
+                  "after": 27.976782217748365
+                }
+              ]
             }
           }
         },
-        "received": "2026-10-19T20:43:04Z"
-      },
-      "verified_audit": "experiments/record-check-20261021",
-      "search_job": {
-        "id": 119090,
-        "n": 756,
-        "seed": 925119090,
-        "method": "fq",
-        "variant": true,
-        "radius": 0.05,
-        "iterations": 1000,
-        "hop_seconds": 360,
-        "slp_seconds": 120,
-        "source": "n756.txt",
-        "source_origin": "constructed",
-        "range_group": "focus",
-        "focus_targets": {
-          "schedule": "web",
-          "counts": 560,
-          "rotation": 2159
+        "verification": {
+          "n": 756,
+          "side": "10614508908488042351047001743/379404208313640000000000000",
+          "valid": true,
+          "pairs_tested": 11589,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         },
-        "pool_size": 8,
-        "pool_gap": 0.02,
-        "constructed_seed": {
-          "construction": "L-border and deletion",
-          "source": "n756.txt",
-          "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
-          "source_n": 756,
-          "source_side": 27.976914446467628,
-          "layers": 0,
-          "deleted": 0,
-          "border_corners": [],
-          "border_layout": "single-corner",
-          "side": 27.976914446467628
-        },
-        "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
-        "allocation": "general",
-        "worker_slot": 4,
-        "host": "fran@192.168.0.200",
-        "started": 1792597059.1046283,
-        "worker_details": {
-          "translations": true,
-          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-          "pool_size": 8,
-          "actual_method": "fq",
-          "external_method": "fq",
-          "seed_squares": 756,
-          "proposals": 1,
-          "accepted": 0,
-          "best": 27.976914446467628,
-          "start": 27.976914446467628,
-          "fq_finish": {},
-          "winner": "incumbent",
-          "refinement_candidates": [
-            {
-              "name": "incumbent",
-              "before": 27.97691444647842,
-              "after": 27.976782251630915
-            }
-          ]
+        "strict_verification": {
+          "valid": false,
+          "closed_valid": true,
+          "sha256": "bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e",
+          "candidate_pairs": 11589,
+          "near_pairs": 1891,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e",
+        "source_n": 756,
+        "source_provenance": {
+          "category": "native search",
+          "audit_source": "Desktopo / native search",
+          "source_certificate_sha256": "bc8c6659a218bdfa0d0d6e679865b090e3f6f6857c5bf12915c778356d0e105e",
+          "audit_origin": {
+            "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n756.txt",
+            "packing_sha256": "383c22c4f72e4b8609df5a4edc1f1ce7463c62544e8d59253aea27464b6afc04",
+            "search_job": {
+              "id": 120459,
+              "n": 756,
+              "seed": 925120459,
+              "method": "fq",
+              "variant": true,
+              "radius": 0.001,
+              "iterations": 1000,
+              "hop_seconds": 360,
+              "slp_seconds": 120,
+              "source": "records/n756.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "records/n756.txt",
+                "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+                "source_n": 756,
+                "source_side": 27.976782251663213,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.976782251663213
+              },
+              "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+              "allocation": "general",
+              "worker_slot": 10,
+              "host": "fran@192.168.0.200",
+              "started": 1792631885.6835763,
+              "worker_details": {
+                "translations": false,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+                "pool_size": 8,
+                "actual_method": "fq",
+                "external_method": "fq",
+                "seed_squares": 756,
+                "proposals": 2,
+                "accepted": 0,
+                "best": 27.976782251663213,
+                "start": 27.976782251663213,
+                "fq_finish": {},
+                "winner": "incumbent",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 27.976782251674006,
+                    "after": 27.976782217748365
+                  }
+                ]
+              }
+            }
+          },
+          "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+          "prior_source_provenance": {
+            "category": "native search",
+            "audit_source": "Desktopo / native search",
+            "source_certificate_sha256": "1ab63f1a448e3f0148bf005c724693a16aae61511488edab8daf4ad40954795f",
+            "audit_origin": {
+              "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n756.txt",
+              "packing_sha256": "5175d69a9040b4fa0367098bc46993c981c592840624f98f98f33f761e1a7cbe",
+              "search_job": {
+                "id": 119090,
+                "n": 756,
+                "seed": 925119090,
+                "method": "fq",
+                "variant": true,
+                "radius": 0.05,
+                "iterations": 1000,
+                "hop_seconds": 360,
+                "slp_seconds": 120,
+                "source": "n756.txt",
+                "source_origin": "constructed",
+                "range_group": "focus",
+                "focus_targets": {
+                  "schedule": "web",
+                  "counts": 560,
+                  "rotation": 2159
+                },
+                "pool_size": 8,
+                "pool_gap": 0.02,
+                "constructed_seed": {
+                  "construction": "L-border and deletion",
+                  "source": "n756.txt",
+                  "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                  "source_n": 756,
+                  "source_side": 27.976914446467628,
+                  "layers": 0,
+                  "deleted": 0,
+                  "border_corners": [],
+                  "border_layout": "single-corner",
+                  "side": 27.976914446467628
+                },
+                "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                "allocation": "general",
+                "worker_slot": 4,
+                "host": "fran@192.168.0.200",
+                "started": 1792597059.1046283,
+                "worker_details": {
+                  "translations": true,
+                  "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                  "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                  "pool_size": 8,
+                  "actual_method": "fq",
+                  "external_method": "fq",
+                  "seed_squares": 756,
+                  "proposals": 1,
+                  "accepted": 0,
+                  "best": 27.976914446467628,
+                  "start": 27.976914446467628,
+                  "fq_finish": {},
+                  "winner": "incumbent",
+                  "refinement_candidates": [
+                    {
+                      "name": "incumbent",
+                      "before": 27.97691444647842,
+                      "after": 27.976782251630915
+                    }
+                  ]
+                }
+              }
+            },
+            "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+            "prior_source_provenance": {
+              "category": "public submission",
+              "source_url": "https://github.com/jlevy/squares/issues/686",
+              "source_provenance": {
+                "n": 756,
+                "parent_n": 757,
+                "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
+                "layers": 0,
+                "full_count": 757,
+                "deleted": 1,
+                "previous_side": "1399062373115078062373113679/50000000000000000000000000",
+                "previously_registered": true,
+                "parent": {
+                  "n": 757,
+                  "side": "5595382889292688382889287093/200000000000000000000000000",
+                  "sha256": "757f03df00b1a1495f374e8ad0b6b8d10b4e215c2ef342847dc4937c1b1592c9",
+                  "geometry": "witnesses/square-757/geometry.cert"
+                },
+                "certificate": {
+                  "valid": true,
+                  "n": 756,
+                  "side": "5595382889298283765778579781382889287093/200000000000000000000000000000000000000",
+                  "side_float": 27.97691444649142,
+                  "sha256": "bfc37c515a54acf5d9dd714560bbf8b92c3b8e3512653187160f67a176cbb892",
+                  "checks": [
+                    "rational separating axes",
+                    "rational polygon intersection"
+                  ]
+                },
+                "previous_provenance": {
+                  "n": 756,
+                  "side": "1399062373115078062373113679/50000000000000000000000000",
+                  "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                  "origin": "structured-terminal.json/candidates",
+                  "record": {
+                    "attempt": "production-756-106103",
+                    "kind": "explore",
+                    "arm": "baseline",
+                    "cohort": "production",
+                    "n": 756,
+                    "side": "1399062373115078062373113679/50000000000000000000000000",
+                    "score": 27.98124746230156,
+                    "reference": "13990988021904401988021890411/500000000000000000000000000",
+                    "reference_gain_ppm": 26.037528804329458,
+                    "candidate_flag": true,
+                    "source": "attempts/production-756-106103/run/search/b00006.txt",
+                    "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
+                    "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ],
+                    "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                    "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                    "review_gain_ppm": 108.4668101818234,
+                    "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                    "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
+                    "public_gain_ppm": 108.4668101818234,
+                    "progress_gain_ppm": 26.037528804329458,
+                    "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+                  },
+                  "qualification": {
+                    "n": 756,
+                    "private": {
+                      "n": 756,
+                      "side": "1399062373115078062373113679/50000000000000000000000000",
+                      "sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                      "origin": "structured-terminal.json/candidates",
+                      "record": {
+                        "attempt": "production-756-106103",
+                        "kind": "explore",
+                        "arm": "baseline",
+                        "cohort": "production",
+                        "n": 756,
+                        "side": "1399062373115078062373113679/50000000000000000000000000",
+                        "score": 27.98124746230156,
+                        "reference": "13990988021904401988021890411/500000000000000000000000000",
+                        "reference_gain_ppm": 26.037528804329458,
+                        "candidate_flag": true,
+                        "source": "attempts/production-756-106103/run/search/b00006.txt",
+                        "certificate": "certificates/production-756-106103/5db53a3791bf777a.cert",
+                        "certificate_sha256": "e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e647d648a051311c1ce8450e428ee6130debad6205d165d6e414a677a08a2b96",
+                        "review_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                        "review_gain_ppm": 108.4668101818234,
+                        "public_reference": "2283264668047468961868168740731316636812616857605727317138396763303033091352951974952836227243/81590965974193145840347106501748699223573655927033522538099556652709206856871500000000000000",
+                        "campaign_reference": "13990988021904401988021890411/500000000000000000000000000",
+                        "public_gain_ppm": 108.4668101818234,
+                        "progress_gain_ppm": 26.037528804329458,
+                        "classification": "exact feasible provisional candidate; worldwide priority unestablished"
+                      }
+                    },
+                    "public_bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+                    "public_entry": {
+                      "bound": "362888334577293501103099389133004800075496734893868624411/12967597730513883777004979977305138837768753040000000000",
+                      "source": "certificates/n756.cert",
+                      "status": "exact certificate verified",
+                      "credit": "this repository; source credit in certificate metadata",
+                      "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
+                      "rounded_up": "27.984237490911"
+                    },
+                    "public_label": "verified",
+                    "status": "below-current-catalogue",
+                    "strictly_below": true,
+                    "exceeds_1e_8_absolute_gain": true,
+                    "gain_ppm": 106.85830262003776,
+                    "exact_public_hash_matches_retained": false,
+                    "private_geometry_verified": true,
+                    "private_geometry_file": "private-certificates/n756.cert",
+                    "public_receipt": {
+                      "n": 756,
+                      "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/n756.cert",
+                      "path": "public-certificates/n756.cert",
+                      "sha256": "e6f4e0408a4b247c36d8f040c3d819a415407b2a52b6c55a8c6d8423f6bc3353",
+                      "bytes": 156872,
+                      "retrieved_at": "2026-10-17T18:25:29.350694+00:00",
+                      "cache_copy_from": "/study/qualification-r1/public-certificates/n756.cert"
+                    },
+                    "public_binding_matches": true,
+                    "raw_public_geometry_verified": false,
+                    "raw_verification_error": "AssertionError('separating-axis route rejected')",
+                    "public_geometry_verified": true,
+                    "public_certificate_side": "36285204937271911752592409022508539092553718597534658648724514411/1296630110040384339266571340596454238353040000000000000000000000",
+                    "public_verification": "Both exact routes accept disclosed1e-12 homothetic clearance",
+                    "public_clearance_scale": "1000000000001/1000000000000",
+                    "padded_public_geometry": "padded-public-certificates/n756.cert",
+                    "padded_public_sha256": "020b3bd40587c0bd6abf68b80fa95cc480a3af9e1d9469304f0e15361765460a",
+                    "public_bound_matches_certificate": true,
+                    "verified_public_status": "below-verified-public-witness",
+                    "verified_public_gain_ppm": 106.85830362014462
+                  },
+                  "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                },
+                "classification": "Dependent exact deletion/border consequence",
+                "recognition": "unconfirmed"
+              },
+              "construction": null,
+              "original_seed_credit": null,
+              "source_packing_sha256": null,
+              "previous_seed_credit": {
+                "web_seed": {
+                  "id": "07660cf6d967c4e0576afbb2de2651ab",
+                  "n": 756,
+                  "side": 27.984450134762582,
+                  "method": "hop",
+                  "received": "20261014T140654Z",
+                  "original_packing_sha256": "6abd712d49de085d2257a5e3b9b52527706e110bd88aa8fdafaef3b790e0c642"
+                },
+                "seed_credit": "Francisco Couzo",
+                "search_job": {
+                  "id": 107949,
+                  "method": "hop",
+                  "source": "n756.txt",
+                  "source_origin": "constructed",
+                  "source_sha256": "73be223dcd157eea0abf9f32b967481fbf0125e0d1caf66ff357d52c2a7a60d8",
+                  "constructed_seed": {
+                    "construction": "L-border and deletion",
+                    "source": "n756.txt",
+                    "source_sha256": "73a1613b8ecbf0d37ad3727b5477e9e4dcd42a0666d189b2efafa95ddf5a12b2",
+                    "source_n": 756,
+                    "source_side": 27.983489205803494,
+                    "layers": 0,
+                    "deleted": 0,
+                    "side": 27.983489205803494
+                  }
+                }
+              },
+              "received": "2026-10-19T20:43:04Z"
+            },
+            "verified_audit": "experiments/record-check-20261021",
+            "search_job": {
+              "id": 119090,
+              "n": 756,
+              "seed": 925119090,
+              "method": "fq",
+              "variant": true,
+              "radius": 0.05,
+              "iterations": 1000,
+              "hop_seconds": 360,
+              "slp_seconds": 120,
+              "source": "n756.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n756.txt",
+                "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+                "source_n": 756,
+                "source_side": 27.976914446467628,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.976914446467628
+              },
+              "source_sha256": "d8b143b046026fa9dc810e5cf5b8447a9666e49346654fd32b74992d2b5295a0",
+              "allocation": "general",
+              "worker_slot": 4,
+              "host": "fran@192.168.0.200",
+              "started": 1792597059.1046283,
+              "worker_details": {
+                "translations": true,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                "pool_size": 8,
+                "actual_method": "fq",
+                "external_method": "fq",
+                "seed_squares": 756,
+                "proposals": 1,
+                "accepted": 0,
+                "best": 27.976914446467628,
+                "start": 27.976914446467628,
+                "fq_finish": {},
+                "winner": "incumbent",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 27.97691444647842,
+                    "after": 27.976782251630915
+                  }
+                ]
+              }
+            }
+          },
+          "verified_audit": "experiments/record-check-20261022-0300",
+          "search_job": {
+            "id": 120459,
+            "n": 756,
+            "seed": 925120459,
+            "method": "fq",
+            "variant": true,
+            "radius": 0.001,
+            "iterations": 1000,
+            "hop_seconds": 360,
+            "slp_seconds": 120,
+            "source": "records/n756.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "records/n756.txt",
+              "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+              "source_n": 756,
+              "source_side": 27.976782251663213,
+              "layers": 0,
+              "deleted": 0,
+              "border_corners": [],
+              "border_layout": "single-corner",
+              "side": 27.976782251663213
+            },
+            "source_sha256": "fb19f37e72788c7a6bcbed66ba17cc553097a2279b971160ba593fb38d05cb97",
+            "allocation": "general",
+            "worker_slot": 10,
+            "host": "fran@192.168.0.200",
+            "started": 1792631885.6835763,
+            "worker_details": {
+              "translations": false,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "fq",
+              "external_method": "fq",
+              "seed_squares": 756,
+              "proposals": 2,
+              "accepted": 0,
+              "best": 27.976782251663213,
+              "start": 27.976782251663213,
+              "fq_finish": {},
+              "winner": "incumbent",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 27.976782251674006,
+                  "after": 27.976782217748365
+                }
+              ]
+            }
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
       }
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n756.cert",
+    "reviewed_bound": "954009126734594678243554865477612659731/34100032946130499012138265500000000000"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

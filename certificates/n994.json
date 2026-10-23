@@ -1,186 +1,1396 @@
 {
   "n": 994,
   "packing": "n994.txt",
-  "packing_sha256": "43be78be6fbfbe3c82986f41b90ea5fb21147897fdb682a967815b0066b4f6e4",
+  "packing_sha256": "a4094450f879ae67eb95300bff9b9b989a16d5921f447211a8ff850018ed16eb",
   "certificate": "certificates/n994.cert",
-  "certificate_sha256": "cd41aeb0b9dc1e7b2bbb0531f81f364ff420e223a5ffa0545902d0c8ee21b30a",
-  "rational_side": "4611240261212280419168811/144136069077460000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "34fab9338a95128eedd7a50241399d4fab9834b008a69e048c2b5be86c56b6e7",
+  "rational_side": "9533953550774797349/298023223876953125",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "cd41aeb0b9dc1e7b2bbb0531f81f364ff420e223a5ffa0545902d0c8ee21b30a",
-    "source_n": 994,
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "7f0fb894a7c53527cbaa55399bd29677624815eea771783f9d03d2f431df31d5",
+    "source_n": 933,
     "source_provenance": {
-      "category": "native search",
-      "audit_source": "Desktopo / native search",
-      "source_certificate_sha256": "cd41aeb0b9dc1e7b2bbb0531f81f364ff420e223a5ffa0545902d0c8ee21b30a",
-      "audit_origin": {
-        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n994.txt",
-        "packing_sha256": "a0e7b0dfb3d940062c5b0ddd95dd9d53eb56ae6527321364d4dee7fc5132c94c",
-        "search_job": {
-          "id": 118507,
-          "n": 994,
-          "seed": 925118507,
-          "method": "fq",
-          "variant": true,
-          "radius": 0.02,
-          "iterations": 1000,
-          "hop_seconds": 360,
-          "slp_seconds": 120,
-          "source": "n994.txt",
-          "source_origin": "constructed",
-          "range_group": "focus",
-          "focus_targets": {
-            "schedule": "web",
-            "counts": 560,
-            "rotation": 2159
-          },
-          "pool_size": 8,
-          "pool_gap": 0.02,
-          "constructed_seed": {
-            "construction": "L-border and deletion",
-            "source": "n994.txt",
-            "source_sha256": "75b1e853002c4597322262f9501fd0f4ecbd6024db52ba64e5cdb208f344e192",
-            "source_n": 994,
-            "source_side": 31.992852783195715,
-            "layers": 0,
-            "deleted": 0,
-            "border_corners": [],
-            "border_layout": "single-corner",
-            "side": 31.992852783195715
-          },
-          "source_sha256": "75b1e853002c4597322262f9501fd0f4ecbd6024db52ba64e5cdb208f344e192",
-          "allocation": "general",
-          "worker_slot": 6,
-          "host": "fran@192.168.0.200",
-          "started": 1792582710.9682424,
-          "worker_details": {
-            "translations": false,
-            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-            "pool_size": 8,
-            "actual_method": "fq",
-            "external_method": "fq",
-            "seed_squares": 994,
-            "proposals": 3,
-            "accepted": 1,
-            "best": 31.992271540898663,
-            "start": 31.992852783195715,
-            "fq_finish": {},
-            "winner": "fq_best",
-            "refinement_candidates": [
-              {
-                "name": "incumbent",
-                "before": 31.99285278320812,
-                "after": 31.992852783214325
-              },
-              {
-                "name": "fq_best",
-                "before": 31.992271540904554,
-                "after": 31.992271540910753
-              }
-            ]
-          }
-        }
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n933.cert",
+        "source_file": "certificates/0000-0999/n933.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
       },
-      "prior_source_credit": "Francisco Couzo",
-      "prior_source_provenance": {
-        "n": 994,
-        "side": "75025731405148544851468129176806535243608103436800497/2345077880787500000000000023450778807875000000000000",
-        "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/5f251ffea9cd52499d4c9abb4ae3a7d7cbef8891270f0660c3849f6ad4fff9b8.cert",
-        "certificate_sha256": "5f251ffea9cd52499d4c9abb4ae3a7d7cbef8891270f0660c3849f6ad4fff9b8",
-        "category": "web",
-        "source": "/var/lib/square-packing/database.sqlite3:record:23795f92b9f90faef12b44868d96ea9b",
-        "rounded_up": "31.992852783190",
-        "public_credit": "franciscouzo",
-        "created": 1792471855.9329987,
-        "submission_id": "23795f92b9f90faef12b44868d96ea9b",
-        "record": {
-          "n": 994,
-          "side": 31.992852783189516,
-          "previous": 31.992883399225608,
-          "previous_holder": "this repository; source credit in certificate metadata",
-          "rational_side": "75025731405148544851468129176806535243608103436800497/2345077880787500000000000023450778807875000000000000",
-          "float_side": 31.992852783158487,
-          "method": "fq",
-          "received": "20261020T045054Z",
-          "seed": "campaign",
-          "sha256": "b663324406d5b579c2c1609ee07e9e80185169e2ff5be703246d4db5077df605"
-        },
-        "previous": "31.992883399226",
-        "gain": 3.061603609140575e-05,
-        "precision_refinement": false,
-        "source_url": null,
-        "received": "20261020T045054Z"
-      },
-      "verified_audit": "experiments/record-check-20261021",
-      "search_job": {
-        "id": 118507,
-        "n": 994,
-        "seed": 925118507,
-        "method": "fq",
-        "variant": true,
-        "radius": 0.02,
-        "iterations": 1000,
-        "hop_seconds": 360,
-        "slp_seconds": 120,
-        "source": "n994.txt",
-        "source_origin": "constructed",
-        "range_group": "focus",
-        "focus_targets": {
-          "schedule": "web",
-          "counts": 560,
-          "rotation": 2159
-        },
-        "pool_size": 8,
-        "pool_gap": 0.02,
-        "constructed_seed": {
-          "construction": "L-border and deletion",
-          "source": "n994.txt",
-          "source_sha256": "75b1e853002c4597322262f9501fd0f4ecbd6024db52ba64e5cdb208f344e192",
-          "source_n": 994,
-          "source_side": 31.992852783195715,
-          "layers": 0,
-          "deleted": 0,
-          "border_corners": [],
-          "border_layout": "single-corner",
-          "side": 31.992852783195715
-        },
-        "source_sha256": "75b1e853002c4597322262f9501fd0f4ecbd6024db52ba64e5cdb208f344e192",
-        "allocation": "general",
-        "worker_slot": 6,
-        "host": "fran@192.168.0.200",
-        "started": 1792582710.9682424,
-        "worker_details": {
-          "translations": false,
-          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-          "pool_size": 8,
-          "actual_method": "fq",
-          "external_method": "fq",
-          "seed_squares": 994,
-          "proposals": 3,
-          "accepted": 1,
-          "best": 31.992271540898663,
-          "start": 31.992852783195715,
-          "fq_finish": {},
-          "winner": "fq_best",
-          "refinement_candidates": [
-            {
-              "name": "incumbent",
-              "before": 31.99285278320812,
-              "after": 31.992852783214325
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "3645286401384199301092645584950595760269908688624788620069100371393/117620065369001670223629788676200653690016702236297875000000000000",
+        "source_n": 933,
+        "certificate": "certificates/parents/e98e7ade18ae282851ed954ae1f51eaab0cb77d84799b692ece34f2bf1f90a27.cert",
+        "certificate_sha256": "e98e7ade18ae282851ed954ae1f51eaab0cb77d84799b692ece34f2bf1f90a27",
+        "credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "web search",
+          "source_provenance": {
+            "category": "shared CT105 packing store",
+            "id": "f6b1b4048b0f33d96e32e892f05bbdf6",
+            "created": 1792646284.7720013,
+            "record": {
+              "attribution": "franciscouzo",
+              "dilation": "1+1e-14",
+              "email_public": false,
+              "float_side": 30.99204536188653,
+              "method": "fq",
+              "n": 933,
+              "name": "franciscouzo",
+              "previous": 30.992058867249877,
+              "previous_holder": "this project",
+              "rational_side": "3645286401384199301092645584950595760269908688624788620069100371393/117620065369001670223629788676200653690016702236297875000000000000",
+              "received": "20261022T051802Z",
+              "seed": "volunteer",
+              "sha256": "88c78cd9f536b3369559351fabb7d3393fa646adbfe088093ce488f782dde603",
+              "side": 30.992045361886877
             },
-            {
-              "name": "fq_best",
-              "before": 31.992271540904554,
-              "after": 31.992271540910753
+            "packing_sha256": "88c78cd9f536b3369559351fabb7d3393fa646adbfe088093ce488f782dde603"
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "275909967023017915430735080970073653663670251705694133/8902601656650000000000000089026016566500000000000000",
+            "source_n": 933,
+            "certificate": "certificates/parents/57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa.cert",
+            "certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+            "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+            "provenance": {
+              "category": "CT105 web submission",
+              "audit_source": "ct105 certificate",
+              "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "audit_origin": {
+                "path": "/var/lib/square-packing/accepted/0b4c78a3145e9039d2f9afdea085a530.cert"
+              },
+              "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+              "prior_source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/jlevy/squares/issues/686",
+                "source_provenance": {
+                  "n": 933,
+                  "parent_n": 874,
+                  "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                  "layers": 1,
+                  "full_count": 933,
+                  "deleted": 0,
+                  "previous_side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                  "previously_registered": true,
+                  "parent": {
+                    "n": 874,
+                    "side": "937277606225800277606224863/31250000000000000000000000",
+                    "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+                    "geometry": "witnesses/square-874/geometry.cert"
+                  },
+                  "certificate": {
+                    "valid": true,
+                    "n": 933,
+                    "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                    "side_float": 30.992883399256602,
+                    "sha256": "de90bdc9a91b09f02f0673e92e6096d789c4118549f95d27584d5dc86c32f6a7",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ]
+                  },
+                  "previous_provenance": {
+                    "n": 933,
+                    "parent_n": 935,
+                    "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                    "layers": 0,
+                    "full_count": 935,
+                    "deleted": 2,
+                    "previous_side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                    "previously_registered": true,
+                    "parent": {
+                      "n": 935,
+                      "side": "30994174058156151174058125157/1000000000000000000000000000",
+                      "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
+                      "geometry": "witnesses/square-935/geometry.cert"
+                    },
+                    "certificate": {
+                      "valid": true,
+                      "n": 933,
+                      "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                      "side_float": 30.994174058187145,
+                      "sha256": "21db9161ec9c020d9db845a1d30af3f020e7cf47042377915a5496c59f20f25c",
+                      "checks": [
+                        "rational separating axes",
+                        "rational polygon intersection"
+                      ]
+                    },
+                    "previous_provenance": {
+                      "n": 933,
+                      "parent_n": 935,
+                      "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                      "layers": 0,
+                      "full_count": 935,
+                      "deleted": 2,
+                      "previous_side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                      "previously_registered": true,
+                      "parent": {
+                        "n": 935,
+                        "side": "15497112154901826112154886329/500000000000000000000000000",
+                        "sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
+                        "geometry": "witnesses/square-935/geometry.cert"
+                      },
+                      "certificate": {
+                        "valid": true,
+                        "n": 933,
+                        "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                        "side_float": 30.994224309834646,
+                        "sha256": "f5a1c7da6ef7a6f4e8071b2bb65268d383ef1a82f1397f7a95ceca2e28fb3c16",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ]
+                      },
+                      "previous_provenance": {
+                        "n": 933,
+                        "parent_n": 935,
+                        "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                        "layers": 0,
+                        "full_count": 935,
+                        "deleted": 2,
+                        "previous_side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                        "previously_registered": true,
+                        "parent": {
+                          "n": 935,
+                          "side": "30994228883624601228883593607/1000000000000000000000000000",
+                          "sha256": "8320acc613933715378472a4c3403b80037a71fcef49a3e6e52fd6bb6a35bab6",
+                          "geometry": "witnesses/square-935/geometry.cert"
+                        },
+                        "certificate": {
+                          "valid": true,
+                          "n": 933,
+                          "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                          "side_float": 30.994228883655595,
+                          "sha256": "f0d484e16b78cfb27ffefbaf1d4f06cd76bebb0e4f4bf470070b5096e4401a91",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "previous_provenance": {
+                          "n": 933,
+                          "parent_n": 935,
+                          "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                          "layers": 0,
+                          "full_count": 935,
+                          "deleted": 2,
+                          "previous_side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                          "previously_registered": true,
+                          "parent": {
+                            "n": 935,
+                            "side": "387430269989426430269989039/12500000000000000000000000",
+                            "sha256": "e9f2fd7dae2c750096e22cf944a946e06d413223fd4ef5cca945e21cdd3c874f",
+                            "geometry": "witnesses/square-935/geometry.cert"
+                          },
+                          "certificate": {
+                            "valid": true,
+                            "n": 933,
+                            "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                            "side_float": 30.99442159918511,
+                            "sha256": "24a80485bc6c02c9f6533fbc243b2a781cfa759defa9f0c0281bb58434f823c8",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ]
+                          },
+                          "previous_provenance": {
+                            "n": 933,
+                            "parent_n": 935,
+                            "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                            "layers": 0,
+                            "full_count": 935,
+                            "deleted": 2,
+                            "previous_side": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+                            "previously_registered": false,
+                            "parent": {
+                              "n": 935,
+                              "side": "387434380359318434380358931/12500000000000000000000000",
+                              "sha256": "a41956235b1bed4b55a49087c939416dbc366dd0e07bb819ff5f8d761545d56a",
+                              "geometry": "witnesses/square-935/geometry.cert"
+                            },
+                            "certificate": {
+                              "valid": true,
+                              "n": 933,
+                              "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                              "side_float": 30.99475042877647,
+                              "sha256": "30b71f638ca73dc1ede63657b4867793096ec50a4be5c951760de44a7f6417a4",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "previous_provenance": null,
+                            "classification": "Dependent exact deletion/border consequence",
+                            "recognition": "unconfirmed"
+                          },
+                          "classification": "Dependent exact deletion/border consequence",
+                          "recognition": "unconfirmed"
+                        },
+                        "classification": "Dependent exact deletion/border consequence",
+                        "recognition": "unfrontier2"
+                      },
+                      "classification": "Dependent exact deletion/border consequence",
+                      "recognition": "unconfirmed"
+                    },
+                    "classification": "Dependent exact deletion/border consequence",
+                    "recognition": "unconfirmed"
+                  },
+                  "classification": "Dependent exact deletion/border consequence",
+                  "recognition": "unconfirmed"
+                },
+                "construction": null,
+                "original_seed_credit": null,
+                "source_packing_sha256": null,
+                "previous_seed_credit": {
+                  "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
+                  "web_seed": {
+                    "category": "CT105 web submission",
+                    "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                    "submission_id": "d0911e1b93df809e4ebcfec719396437",
+                    "method": "fq",
+                    "received": "20261018T173253Z",
+                    "previous_source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "web_seed": {
+                        "category": "CT105 web submission",
+                        "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                        "submission_id": "d6a9855d390396d427e936559bda68fb",
+                        "method": "fq",
+                        "received": "20261017T192709Z",
+                        "seed_credit": "Joost de Winter",
+                        "prior_retained_witness": {
+                          "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                          "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                          "source_credit": {
+                            "seed_credit": "Joost de Winter",
+                            "category": "reviewed public submission",
+                            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                            "request": "https://github.com/jlevy/squares/issues/666",
+                            "construction_credit": [
+                              "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                            ],
+                            "source_n": 935,
+                            "deleted_squares": 0,
+                            "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                          }
+                        }
+                      },
+                      "source_n": 935,
+                      "deleted_squares": 2,
+                      "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                      "prior_retained_witness": {
+                        "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                        "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                        "source_credit": {
+                          "seed_credit": "Joost de Winter",
+                          "category": "reviewed public submission",
+                          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                          "request": "https://github.com/jlevy/squares/issues/666",
+                          "construction_credit": [
+                            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                          ],
+                          "source_n": 935,
+                          "deleted_squares": 0,
+                          "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                        }
+                      },
+                      "search_job": {
+                        "id": 108297,
+                        "method": "slp",
+                        "source": "n934.txt",
+                        "source_origin": "constructed",
+                        "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                        "constructed_seed": {
+                          "construction": "L-border and deletion",
+                          "source": "n934.txt",
+                          "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                          "source_n": 934,
+                          "source_side": 30.995336946287125,
+                          "layers": 0,
+                          "deleted": 1,
+                          "side": 30.995336946287125
+                        }
+                      }
+                    }
+                  },
+                  "source_n": 933,
+                  "deleted_squares": 0,
+                  "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                  "prior_retained_witness": {
+                    "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                    "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                    "source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "category": "reviewed public submission",
+                      "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                      "request": "https://github.com/jlevy/squares/issues/666",
+                      "construction_credit": [
+                        "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                      ],
+                      "source_n": 935,
+                      "deleted_squares": 0,
+                      "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                    }
+                  },
+                  "search_job": {
+                    "id": 108297,
+                    "method": "slp",
+                    "source": "n934.txt",
+                    "source_origin": "constructed",
+                    "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                    "constructed_seed": {
+                      "construction": "L-border and deletion",
+                      "source": "n934.txt",
+                      "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                      "source_n": 934,
+                      "source_side": 30.995336946287125,
+                      "layers": 0,
+                      "deleted": 1,
+                      "side": 30.995336946287125
+                    }
+                  }
+                },
+                "received": "2026-10-19T20:43:04Z"
+              },
+              "verified_audit": "experiments/record-check-20261021-2334"
+            },
+            "verification": {
+              "n": 933,
+              "side": "275909967023017915430735080970073653663670251705694133/8902601656650000000000000089026016566500000000000000",
+              "valid": true,
+              "pairs_tested": 14364,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "candidate_pairs": 14364,
+              "near_pairs": 2224,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
             }
-          ]
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+            "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+            "source_n": 933,
+            "source_provenance": {
+              "category": "CT105 web submission",
+              "audit_source": "ct105 certificate",
+              "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "audit_origin": {
+                "path": "/var/lib/square-packing/accepted/0b4c78a3145e9039d2f9afdea085a530.cert"
+              },
+              "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+              "prior_source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/jlevy/squares/issues/686",
+                "source_provenance": {
+                  "n": 933,
+                  "parent_n": 874,
+                  "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                  "layers": 1,
+                  "full_count": 933,
+                  "deleted": 0,
+                  "previous_side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                  "previously_registered": true,
+                  "parent": {
+                    "n": 874,
+                    "side": "937277606225800277606224863/31250000000000000000000000",
+                    "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+                    "geometry": "witnesses/square-874/geometry.cert"
+                  },
+                  "certificate": {
+                    "valid": true,
+                    "n": 933,
+                    "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                    "side_float": 30.992883399256602,
+                    "sha256": "de90bdc9a91b09f02f0673e92e6096d789c4118549f95d27584d5dc86c32f6a7",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ]
+                  },
+                  "previous_provenance": {
+                    "n": 933,
+                    "parent_n": 935,
+                    "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                    "layers": 0,
+                    "full_count": 935,
+                    "deleted": 2,
+                    "previous_side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                    "previously_registered": true,
+                    "parent": {
+                      "n": 935,
+                      "side": "30994174058156151174058125157/1000000000000000000000000000",
+                      "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
+                      "geometry": "witnesses/square-935/geometry.cert"
+                    },
+                    "certificate": {
+                      "valid": true,
+                      "n": 933,
+                      "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                      "side_float": 30.994174058187145,
+                      "sha256": "21db9161ec9c020d9db845a1d30af3f020e7cf47042377915a5496c59f20f25c",
+                      "checks": [
+                        "rational separating axes",
+                        "rational polygon intersection"
+                      ]
+                    },
+                    "previous_provenance": {
+                      "n": 933,
+                      "parent_n": 935,
+                      "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                      "layers": 0,
+                      "full_count": 935,
+                      "deleted": 2,
+                      "previous_side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                      "previously_registered": true,
+                      "parent": {
+                        "n": 935,
+                        "side": "15497112154901826112154886329/500000000000000000000000000",
+                        "sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
+                        "geometry": "witnesses/square-935/geometry.cert"
+                      },
+                      "certificate": {
+                        "valid": true,
+                        "n": 933,
+                        "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                        "side_float": 30.994224309834646,
+                        "sha256": "f5a1c7da6ef7a6f4e8071b2bb65268d383ef1a82f1397f7a95ceca2e28fb3c16",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ]
+                      },
+                      "previous_provenance": {
+                        "n": 933,
+                        "parent_n": 935,
+                        "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                        "layers": 0,
+                        "full_count": 935,
+                        "deleted": 2,
+                        "previous_side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                        "previously_registered": true,
+                        "parent": {
+                          "n": 935,
+                          "side": "30994228883624601228883593607/1000000000000000000000000000",
+                          "sha256": "8320acc613933715378472a4c3403b80037a71fcef49a3e6e52fd6bb6a35bab6",
+                          "geometry": "witnesses/square-935/geometry.cert"
+                        },
+                        "certificate": {
+                          "valid": true,
+                          "n": 933,
+                          "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                          "side_float": 30.994228883655595,
+                          "sha256": "f0d484e16b78cfb27ffefbaf1d4f06cd76bebb0e4f4bf470070b5096e4401a91",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "previous_provenance": {
+                          "n": 933,
+                          "parent_n": 935,
+                          "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                          "layers": 0,
+                          "full_count": 935,
+                          "deleted": 2,
+                          "previous_side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                          "previously_registered": true,
+                          "parent": {
+                            "n": 935,
+                            "side": "387430269989426430269989039/12500000000000000000000000",
+                            "sha256": "e9f2fd7dae2c750096e22cf944a946e06d413223fd4ef5cca945e21cdd3c874f",
+                            "geometry": "witnesses/square-935/geometry.cert"
+                          },
+                          "certificate": {
+                            "valid": true,
+                            "n": 933,
+                            "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                            "side_float": 30.99442159918511,
+                            "sha256": "24a80485bc6c02c9f6533fbc243b2a781cfa759defa9f0c0281bb58434f823c8",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ]
+                          },
+                          "previous_provenance": {
+                            "n": 933,
+                            "parent_n": 935,
+                            "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                            "layers": 0,
+                            "full_count": 935,
+                            "deleted": 2,
+                            "previous_side": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+                            "previously_registered": false,
+                            "parent": {
+                              "n": 935,
+                              "side": "387434380359318434380358931/12500000000000000000000000",
+                              "sha256": "a41956235b1bed4b55a49087c939416dbc366dd0e07bb819ff5f8d761545d56a",
+                              "geometry": "witnesses/square-935/geometry.cert"
+                            },
+                            "certificate": {
+                              "valid": true,
+                              "n": 933,
+                              "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                              "side_float": 30.99475042877647,
+                              "sha256": "30b71f638ca73dc1ede63657b4867793096ec50a4be5c951760de44a7f6417a4",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "previous_provenance": null,
+                            "classification": "Dependent exact deletion/border consequence",
+                            "recognition": "unconfirmed"
+                          },
+                          "classification": "Dependent exact deletion/border consequence",
+                          "recognition": "unconfirmed"
+                        },
+                        "classification": "Dependent exact deletion/border consequence",
+                        "recognition": "unfrontier2"
+                      },
+                      "classification": "Dependent exact deletion/border consequence",
+                      "recognition": "unconfirmed"
+                    },
+                    "classification": "Dependent exact deletion/border consequence",
+                    "recognition": "unconfirmed"
+                  },
+                  "classification": "Dependent exact deletion/border consequence",
+                  "recognition": "unconfirmed"
+                },
+                "construction": null,
+                "original_seed_credit": null,
+                "source_packing_sha256": null,
+                "previous_seed_credit": {
+                  "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
+                  "web_seed": {
+                    "category": "CT105 web submission",
+                    "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                    "submission_id": "d0911e1b93df809e4ebcfec719396437",
+                    "method": "fq",
+                    "received": "20261018T173253Z",
+                    "previous_source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "web_seed": {
+                        "category": "CT105 web submission",
+                        "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                        "submission_id": "d6a9855d390396d427e936559bda68fb",
+                        "method": "fq",
+                        "received": "20261017T192709Z",
+                        "seed_credit": "Joost de Winter",
+                        "prior_retained_witness": {
+                          "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                          "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                          "source_credit": {
+                            "seed_credit": "Joost de Winter",
+                            "category": "reviewed public submission",
+                            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                            "request": "https://github.com/jlevy/squares/issues/666",
+                            "construction_credit": [
+                              "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                            ],
+                            "source_n": 935,
+                            "deleted_squares": 0,
+                            "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                          }
+                        }
+                      },
+                      "source_n": 935,
+                      "deleted_squares": 2,
+                      "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                      "prior_retained_witness": {
+                        "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                        "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                        "source_credit": {
+                          "seed_credit": "Joost de Winter",
+                          "category": "reviewed public submission",
+                          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                          "request": "https://github.com/jlevy/squares/issues/666",
+                          "construction_credit": [
+                            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                          ],
+                          "source_n": 935,
+                          "deleted_squares": 0,
+                          "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                        }
+                      },
+                      "search_job": {
+                        "id": 108297,
+                        "method": "slp",
+                        "source": "n934.txt",
+                        "source_origin": "constructed",
+                        "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                        "constructed_seed": {
+                          "construction": "L-border and deletion",
+                          "source": "n934.txt",
+                          "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                          "source_n": 934,
+                          "source_side": 30.995336946287125,
+                          "layers": 0,
+                          "deleted": 1,
+                          "side": 30.995336946287125
+                        }
+                      }
+                    }
+                  },
+                  "source_n": 933,
+                  "deleted_squares": 0,
+                  "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                  "prior_retained_witness": {
+                    "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                    "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                    "source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "category": "reviewed public submission",
+                      "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                      "request": "https://github.com/jlevy/squares/issues/666",
+                      "construction_credit": [
+                        "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                      ],
+                      "source_n": 935,
+                      "deleted_squares": 0,
+                      "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                    }
+                  },
+                  "search_job": {
+                    "id": 108297,
+                    "method": "slp",
+                    "source": "n934.txt",
+                    "source_origin": "constructed",
+                    "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                    "constructed_seed": {
+                      "construction": "L-border and deletion",
+                      "source": "n934.txt",
+                      "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                      "source_n": 934,
+                      "source_side": 30.995336946287125,
+                      "layers": 0,
+                      "deleted": 1,
+                      "side": 30.995336946287125
+                    }
+                  }
+                },
+                "received": "2026-10-19T20:43:04Z"
+              },
+              "verified_audit": "experiments/record-check-20261021-2334"
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "verification": {
+          "n": 933,
+          "side": "3645286401384199301092645584950595760269908688624788620069100371393/117620065369001670223629788676200653690016702236297875000000000000",
+          "valid": true,
+          "pairs_tested": 14365,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "e98e7ade18ae282851ed954ae1f51eaab0cb77d84799b692ece34f2bf1f90a27",
+          "candidate_pairs": 14365,
+          "near_pairs": 2224,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         }
+      },
+      "previous_reference": {
+        "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "e98e7ade18ae282851ed954ae1f51eaab0cb77d84799b692ece34f2bf1f90a27",
+        "source_n": 933,
+        "source_provenance": {
+          "category": "web search",
+          "source_provenance": {
+            "category": "shared CT105 packing store",
+            "id": "f6b1b4048b0f33d96e32e892f05bbdf6",
+            "created": 1792646284.7720013,
+            "record": {
+              "attribution": "franciscouzo",
+              "dilation": "1+1e-14",
+              "email_public": false,
+              "float_side": 30.99204536188653,
+              "method": "fq",
+              "n": 933,
+              "name": "franciscouzo",
+              "previous": 30.992058867249877,
+              "previous_holder": "this project",
+              "rational_side": "3645286401384199301092645584950595760269908688624788620069100371393/117620065369001670223629788676200653690016702236297875000000000000",
+              "received": "20261022T051802Z",
+              "seed": "volunteer",
+              "sha256": "88c78cd9f536b3369559351fabb7d3393fa646adbfe088093ce488f782dde603",
+              "side": 30.992045361886877
+            },
+            "packing_sha256": "88c78cd9f536b3369559351fabb7d3393fa646adbfe088093ce488f782dde603"
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "275909967023017915430735080970073653663670251705694133/8902601656650000000000000089026016566500000000000000",
+            "source_n": 933,
+            "certificate": "certificates/parents/57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa.cert",
+            "certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+            "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+            "provenance": {
+              "category": "CT105 web submission",
+              "audit_source": "ct105 certificate",
+              "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "audit_origin": {
+                "path": "/var/lib/square-packing/accepted/0b4c78a3145e9039d2f9afdea085a530.cert"
+              },
+              "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+              "prior_source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/jlevy/squares/issues/686",
+                "source_provenance": {
+                  "n": 933,
+                  "parent_n": 874,
+                  "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                  "layers": 1,
+                  "full_count": 933,
+                  "deleted": 0,
+                  "previous_side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                  "previously_registered": true,
+                  "parent": {
+                    "n": 874,
+                    "side": "937277606225800277606224863/31250000000000000000000000",
+                    "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+                    "geometry": "witnesses/square-874/geometry.cert"
+                  },
+                  "certificate": {
+                    "valid": true,
+                    "n": 933,
+                    "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                    "side_float": 30.992883399256602,
+                    "sha256": "de90bdc9a91b09f02f0673e92e6096d789c4118549f95d27584d5dc86c32f6a7",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ]
+                  },
+                  "previous_provenance": {
+                    "n": 933,
+                    "parent_n": 935,
+                    "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                    "layers": 0,
+                    "full_count": 935,
+                    "deleted": 2,
+                    "previous_side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                    "previously_registered": true,
+                    "parent": {
+                      "n": 935,
+                      "side": "30994174058156151174058125157/1000000000000000000000000000",
+                      "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
+                      "geometry": "witnesses/square-935/geometry.cert"
+                    },
+                    "certificate": {
+                      "valid": true,
+                      "n": 933,
+                      "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                      "side_float": 30.994174058187145,
+                      "sha256": "21db9161ec9c020d9db845a1d30af3f020e7cf47042377915a5496c59f20f25c",
+                      "checks": [
+                        "rational separating axes",
+                        "rational polygon intersection"
+                      ]
+                    },
+                    "previous_provenance": {
+                      "n": 933,
+                      "parent_n": 935,
+                      "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                      "layers": 0,
+                      "full_count": 935,
+                      "deleted": 2,
+                      "previous_side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                      "previously_registered": true,
+                      "parent": {
+                        "n": 935,
+                        "side": "15497112154901826112154886329/500000000000000000000000000",
+                        "sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
+                        "geometry": "witnesses/square-935/geometry.cert"
+                      },
+                      "certificate": {
+                        "valid": true,
+                        "n": 933,
+                        "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                        "side_float": 30.994224309834646,
+                        "sha256": "f5a1c7da6ef7a6f4e8071b2bb65268d383ef1a82f1397f7a95ceca2e28fb3c16",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ]
+                      },
+                      "previous_provenance": {
+                        "n": 933,
+                        "parent_n": 935,
+                        "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                        "layers": 0,
+                        "full_count": 935,
+                        "deleted": 2,
+                        "previous_side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                        "previously_registered": true,
+                        "parent": {
+                          "n": 935,
+                          "side": "30994228883624601228883593607/1000000000000000000000000000",
+                          "sha256": "8320acc613933715378472a4c3403b80037a71fcef49a3e6e52fd6bb6a35bab6",
+                          "geometry": "witnesses/square-935/geometry.cert"
+                        },
+                        "certificate": {
+                          "valid": true,
+                          "n": 933,
+                          "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                          "side_float": 30.994228883655595,
+                          "sha256": "f0d484e16b78cfb27ffefbaf1d4f06cd76bebb0e4f4bf470070b5096e4401a91",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "previous_provenance": {
+                          "n": 933,
+                          "parent_n": 935,
+                          "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                          "layers": 0,
+                          "full_count": 935,
+                          "deleted": 2,
+                          "previous_side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                          "previously_registered": true,
+                          "parent": {
+                            "n": 935,
+                            "side": "387430269989426430269989039/12500000000000000000000000",
+                            "sha256": "e9f2fd7dae2c750096e22cf944a946e06d413223fd4ef5cca945e21cdd3c874f",
+                            "geometry": "witnesses/square-935/geometry.cert"
+                          },
+                          "certificate": {
+                            "valid": true,
+                            "n": 933,
+                            "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                            "side_float": 30.99442159918511,
+                            "sha256": "24a80485bc6c02c9f6533fbc243b2a781cfa759defa9f0c0281bb58434f823c8",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ]
+                          },
+                          "previous_provenance": {
+                            "n": 933,
+                            "parent_n": 935,
+                            "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                            "layers": 0,
+                            "full_count": 935,
+                            "deleted": 2,
+                            "previous_side": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+                            "previously_registered": false,
+                            "parent": {
+                              "n": 935,
+                              "side": "387434380359318434380358931/12500000000000000000000000",
+                              "sha256": "a41956235b1bed4b55a49087c939416dbc366dd0e07bb819ff5f8d761545d56a",
+                              "geometry": "witnesses/square-935/geometry.cert"
+                            },
+                            "certificate": {
+                              "valid": true,
+                              "n": 933,
+                              "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                              "side_float": 30.99475042877647,
+                              "sha256": "30b71f638ca73dc1ede63657b4867793096ec50a4be5c951760de44a7f6417a4",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "previous_provenance": null,
+                            "classification": "Dependent exact deletion/border consequence",
+                            "recognition": "unconfirmed"
+                          },
+                          "classification": "Dependent exact deletion/border consequence",
+                          "recognition": "unconfirmed"
+                        },
+                        "classification": "Dependent exact deletion/border consequence",
+                        "recognition": "unfrontier2"
+                      },
+                      "classification": "Dependent exact deletion/border consequence",
+                      "recognition": "unconfirmed"
+                    },
+                    "classification": "Dependent exact deletion/border consequence",
+                    "recognition": "unconfirmed"
+                  },
+                  "classification": "Dependent exact deletion/border consequence",
+                  "recognition": "unconfirmed"
+                },
+                "construction": null,
+                "original_seed_credit": null,
+                "source_packing_sha256": null,
+                "previous_seed_credit": {
+                  "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
+                  "web_seed": {
+                    "category": "CT105 web submission",
+                    "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                    "submission_id": "d0911e1b93df809e4ebcfec719396437",
+                    "method": "fq",
+                    "received": "20261018T173253Z",
+                    "previous_source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "web_seed": {
+                        "category": "CT105 web submission",
+                        "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                        "submission_id": "d6a9855d390396d427e936559bda68fb",
+                        "method": "fq",
+                        "received": "20261017T192709Z",
+                        "seed_credit": "Joost de Winter",
+                        "prior_retained_witness": {
+                          "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                          "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                          "source_credit": {
+                            "seed_credit": "Joost de Winter",
+                            "category": "reviewed public submission",
+                            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                            "request": "https://github.com/jlevy/squares/issues/666",
+                            "construction_credit": [
+                              "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                            ],
+                            "source_n": 935,
+                            "deleted_squares": 0,
+                            "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                          }
+                        }
+                      },
+                      "source_n": 935,
+                      "deleted_squares": 2,
+                      "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                      "prior_retained_witness": {
+                        "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                        "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                        "source_credit": {
+                          "seed_credit": "Joost de Winter",
+                          "category": "reviewed public submission",
+                          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                          "request": "https://github.com/jlevy/squares/issues/666",
+                          "construction_credit": [
+                            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                          ],
+                          "source_n": 935,
+                          "deleted_squares": 0,
+                          "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                        }
+                      },
+                      "search_job": {
+                        "id": 108297,
+                        "method": "slp",
+                        "source": "n934.txt",
+                        "source_origin": "constructed",
+                        "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                        "constructed_seed": {
+                          "construction": "L-border and deletion",
+                          "source": "n934.txt",
+                          "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                          "source_n": 934,
+                          "source_side": 30.995336946287125,
+                          "layers": 0,
+                          "deleted": 1,
+                          "side": 30.995336946287125
+                        }
+                      }
+                    }
+                  },
+                  "source_n": 933,
+                  "deleted_squares": 0,
+                  "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                  "prior_retained_witness": {
+                    "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                    "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                    "source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "category": "reviewed public submission",
+                      "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                      "request": "https://github.com/jlevy/squares/issues/666",
+                      "construction_credit": [
+                        "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                      ],
+                      "source_n": 935,
+                      "deleted_squares": 0,
+                      "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                    }
+                  },
+                  "search_job": {
+                    "id": 108297,
+                    "method": "slp",
+                    "source": "n934.txt",
+                    "source_origin": "constructed",
+                    "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                    "constructed_seed": {
+                      "construction": "L-border and deletion",
+                      "source": "n934.txt",
+                      "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                      "source_n": 934,
+                      "source_side": 30.995336946287125,
+                      "layers": 0,
+                      "deleted": 1,
+                      "side": 30.995336946287125
+                    }
+                  }
+                },
+                "received": "2026-10-19T20:43:04Z"
+              },
+              "verified_audit": "experiments/record-check-20261021-2334"
+            },
+            "verification": {
+              "n": 933,
+              "side": "275909967023017915430735080970073653663670251705694133/8902601656650000000000000089026016566500000000000000",
+              "valid": true,
+              "pairs_tested": 14364,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "candidate_pairs": 14364,
+              "near_pairs": 2224,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+            "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+            "source_n": 933,
+            "source_provenance": {
+              "category": "CT105 web submission",
+              "audit_source": "ct105 certificate",
+              "source_certificate_sha256": "57b8372cb6373330edfbc256868345e0952d7ac0ab4266dc1dd6e82fd9bba1aa",
+              "audit_origin": {
+                "path": "/var/lib/square-packing/accepted/0b4c78a3145e9039d2f9afdea085a530.cert"
+              },
+              "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+              "prior_source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/jlevy/squares/issues/686",
+                "source_provenance": {
+                  "n": 933,
+                  "parent_n": 874,
+                  "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                  "layers": 1,
+                  "full_count": 933,
+                  "deleted": 0,
+                  "previous_side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                  "previously_registered": true,
+                  "parent": {
+                    "n": 874,
+                    "side": "937277606225800277606224863/31250000000000000000000000",
+                    "sha256": "a4db4ae3611f6097fa09d7b50d1d459e37d7461256afafdf11a39de7eb735486",
+                    "geometry": "witnesses/square-874/geometry.cert"
+                  },
+                  "certificate": {
+                    "valid": true,
+                    "n": 933,
+                    "side": "968527606226768805212450663277606224863/31250000000000000000000000000000000000",
+                    "side_float": 30.992883399256602,
+                    "sha256": "de90bdc9a91b09f02f0673e92e6096d789c4118549f95d27584d5dc86c32f6a7",
+                    "checks": [
+                      "rational separating axes",
+                      "rational polygon intersection"
+                    ]
+                  },
+                  "previous_provenance": {
+                    "n": 933,
+                    "parent_n": 935,
+                    "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                    "layers": 0,
+                    "full_count": 935,
+                    "deleted": 2,
+                    "previous_side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                    "previously_registered": true,
+                    "parent": {
+                      "n": 935,
+                      "side": "30994174058156151174058125157/1000000000000000000000000000",
+                      "sha256": "6aefa5942d0978a26b2cefc6bc53107e4e5261734051c13062baf5730fb8b6b5",
+                      "geometry": "witnesses/square-935/geometry.cert"
+                    },
+                    "certificate": {
+                      "valid": true,
+                      "n": 933,
+                      "side": "30994174058187145348116281308174058125157/1000000000000000000000000000000000000000",
+                      "side_float": 30.994174058187145,
+                      "sha256": "21db9161ec9c020d9db845a1d30af3f020e7cf47042377915a5496c59f20f25c",
+                      "checks": [
+                        "rational separating axes",
+                        "rational polygon intersection"
+                      ]
+                    },
+                    "previous_provenance": {
+                      "n": 933,
+                      "parent_n": 935,
+                      "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                      "layers": 0,
+                      "full_count": 935,
+                      "deleted": 2,
+                      "previous_side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                      "previously_registered": true,
+                      "parent": {
+                        "n": 935,
+                        "side": "15497112154901826112154886329/500000000000000000000000000",
+                        "sha256": "196baf7b558998c6ff6173d888b5c2961b1d0df37f70eeb9a3ffb1d094889054",
+                        "geometry": "witnesses/square-935/geometry.cert"
+                      },
+                      "certificate": {
+                        "valid": true,
+                        "n": 933,
+                        "side": "15497112154917323224309788155112154886329/500000000000000000000000000000000000000",
+                        "side_float": 30.994224309834646,
+                        "sha256": "f5a1c7da6ef7a6f4e8071b2bb65268d383ef1a82f1397f7a95ceca2e28fb3c16",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ]
+                      },
+                      "previous_provenance": {
+                        "n": 933,
+                        "parent_n": 935,
+                        "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                        "layers": 0,
+                        "full_count": 935,
+                        "deleted": 2,
+                        "previous_side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                        "previously_registered": true,
+                        "parent": {
+                          "n": 935,
+                          "side": "30994228883624601228883593607/1000000000000000000000000000",
+                          "sha256": "8320acc613933715378472a4c3403b80037a71fcef49a3e6e52fd6bb6a35bab6",
+                          "geometry": "witnesses/square-935/geometry.cert"
+                        },
+                        "certificate": {
+                          "valid": true,
+                          "n": 933,
+                          "side": "30994228883655595457767218208228883593607/1000000000000000000000000000000000000000",
+                          "side_float": 30.994228883655595,
+                          "sha256": "f0d484e16b78cfb27ffefbaf1d4f06cd76bebb0e4f4bf470070b5096e4401a91",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "previous_provenance": {
+                          "n": 933,
+                          "parent_n": 935,
+                          "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                          "layers": 0,
+                          "full_count": 935,
+                          "deleted": 2,
+                          "previous_side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                          "previously_registered": true,
+                          "parent": {
+                            "n": 935,
+                            "side": "387430269989426430269989039/12500000000000000000000000",
+                            "sha256": "e9f2fd7dae2c750096e22cf944a946e06d413223fd4ef5cca945e21cdd3c874f",
+                            "geometry": "witnesses/square-935/geometry.cert"
+                          },
+                          "certificate": {
+                            "valid": true,
+                            "n": 933,
+                            "side": "387430269989813860539978465430269989039/12500000000000000000000000000000000000",
+                            "side_float": 30.99442159918511,
+                            "sha256": "24a80485bc6c02c9f6533fbc243b2a781cfa759defa9f0c0281bb58434f823c8",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ]
+                          },
+                          "previous_provenance": {
+                            "n": 933,
+                            "parent_n": 935,
+                            "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                            "layers": 0,
+                            "full_count": 935,
+                            "deleted": 2,
+                            "previous_side": "75537268257912999556280611152759623471394522796069124607986174805842801776877920781287882693/2437052656947357018270396672176932134395043833083616478064055649214736503796500000000000000",
+                            "previously_registered": false,
+                            "parent": {
+                              "n": 935,
+                              "side": "387434380359318434380358931/12500000000000000000000000",
+                              "sha256": "a41956235b1bed4b55a49087c939416dbc366dd0e07bb819ff5f8d761545d56a",
+                              "geometry": "witnesses/square-935/geometry.cert"
+                            },
+                            "certificate": {
+                              "valid": true,
+                              "n": 933,
+                              "side": "387434380359705868760718249434380358931/12500000000000000000000000000000000000",
+                              "side_float": 30.99475042877647,
+                              "sha256": "30b71f638ca73dc1ede63657b4867793096ec50a4be5c951760de44a7f6417a4",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "previous_provenance": null,
+                            "classification": "Dependent exact deletion/border consequence",
+                            "recognition": "unconfirmed"
+                          },
+                          "classification": "Dependent exact deletion/border consequence",
+                          "recognition": "unconfirmed"
+                        },
+                        "classification": "Dependent exact deletion/border consequence",
+                        "recognition": "unfrontier2"
+                      },
+                      "classification": "Dependent exact deletion/border consequence",
+                      "recognition": "unconfirmed"
+                    },
+                    "classification": "Dependent exact deletion/border consequence",
+                    "recognition": "unconfirmed"
+                  },
+                  "classification": "Dependent exact deletion/border consequence",
+                  "recognition": "unconfirmed"
+                },
+                "construction": null,
+                "original_seed_credit": null,
+                "source_packing_sha256": null,
+                "previous_seed_credit": {
+                  "seed_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
+                  "web_seed": {
+                    "category": "CT105 web submission",
+                    "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                    "submission_id": "d0911e1b93df809e4ebcfec719396437",
+                    "method": "fq",
+                    "received": "20261018T173253Z",
+                    "previous_source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "web_seed": {
+                        "category": "CT105 web submission",
+                        "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                        "submission_id": "d6a9855d390396d427e936559bda68fb",
+                        "method": "fq",
+                        "received": "20261017T192709Z",
+                        "seed_credit": "Joost de Winter",
+                        "prior_retained_witness": {
+                          "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                          "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                          "source_credit": {
+                            "seed_credit": "Joost de Winter",
+                            "category": "reviewed public submission",
+                            "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                            "request": "https://github.com/jlevy/squares/issues/666",
+                            "construction_credit": [
+                              "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                            ],
+                            "source_n": 935,
+                            "deleted_squares": 0,
+                            "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                          }
+                        }
+                      },
+                      "source_n": 935,
+                      "deleted_squares": 2,
+                      "source_certificate_sha256": "2c8f92df1563e819011ac9b46a462fdd3ebbb973573e7e8201c3e61bc0c727ec",
+                      "prior_retained_witness": {
+                        "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                        "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                        "source_credit": {
+                          "seed_credit": "Joost de Winter",
+                          "category": "reviewed public submission",
+                          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                          "request": "https://github.com/jlevy/squares/issues/666",
+                          "construction_credit": [
+                            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                          ],
+                          "source_n": 935,
+                          "deleted_squares": 0,
+                          "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                        }
+                      },
+                      "search_job": {
+                        "id": 108297,
+                        "method": "slp",
+                        "source": "n934.txt",
+                        "source_origin": "constructed",
+                        "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                        "constructed_seed": {
+                          "construction": "L-border and deletion",
+                          "source": "n934.txt",
+                          "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                          "source_n": 934,
+                          "source_side": 30.995336946287125,
+                          "layers": 0,
+                          "deleted": 1,
+                          "side": 30.995336946287125
+                        }
+                      }
+                    }
+                  },
+                  "source_n": 933,
+                  "deleted_squares": 0,
+                  "source_certificate_sha256": "c0bb8c57011bb755c86b282deb5705eff9934e40c3995b174637241d59e61168",
+                  "prior_retained_witness": {
+                    "certificate": "certificates/parents/040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b.cert",
+                    "certificate_sha256": "040bb57a95a638d15851060dc51dc4ac9ab6b58a052d773e571fa071fc275c4b",
+                    "source_credit": {
+                      "seed_credit": "Joost de Winter",
+                      "category": "reviewed public submission",
+                      "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0935.cert",
+                      "request": "https://github.com/jlevy/squares/issues/666",
+                      "construction_credit": [
+                        "Arslanov, Mustafin and Shangitbayev (four-block method)"
+                      ],
+                      "source_n": 935,
+                      "deleted_squares": 0,
+                      "source_certificate_sha256": "954cd212be981fc39f6e1450a03964737107f7a2b5c49acfb674e606767450c0"
+                    }
+                  },
+                  "search_job": {
+                    "id": 108297,
+                    "method": "slp",
+                    "source": "n934.txt",
+                    "source_origin": "constructed",
+                    "source_sha256": "ac566d5822d391bf61e85214f9554c4a2dedef5223f191f14ab5d057da3e9126",
+                    "constructed_seed": {
+                      "construction": "L-border and deletion",
+                      "source": "n934.txt",
+                      "source_sha256": "883b92f1957395238425f451a1f7f1bf3852301b0d2d0ddf82c0915f18adcf5a",
+                      "source_n": 934,
+                      "source_side": 30.995336946287125,
+                      "layers": 0,
+                      "deleted": 1,
+                      "side": 30.995336946287125
+                    }
+                  }
+                },
+                "received": "2026-10-19T20:43:04Z"
+              },
+              "verified_audit": "experiments/record-check-20261021-2334"
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
       }
     },
-    "construction": null,
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 933,
+      "source_bound": "9235930326897844224/298023223876953125",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 994,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
     "deleted_squares": 0
-  }
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n933.cert",
+    "reviewed_bound": "9533953550774797349/298023223876953125"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

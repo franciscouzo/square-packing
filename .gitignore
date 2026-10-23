@@ -51,3 +51,9 @@ seed*.txt
 /DEVELOPMENT.md
 /LOCAL_REFINEMENT.md
 /NOTES.md
+
+# Local connection to the authoritative packing store.
+packing_store.json
+
+# Generated competition exports and local scorer reports.
+/submissions/

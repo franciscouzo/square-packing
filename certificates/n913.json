@@ -1,23 +1,35 @@
 {
   "n": 913,
   "packing": "n913.txt",
-  "packing_sha256": "f3374f0d6a478cea8ad5e324ac266cd8fe9c8577f43d4259388a6cc7d8c4dd83",
+  "packing_sha256": "43f67a1b29c8be97274e67be72a2516262aef703729dc4ea87ece588124b6b50",
   "certificate": "certificates/n913.cert",
-  "certificate_sha256": "b08121fba0d556870d1a6e17e549c50768842361c17a9afa1124e7e5136e5546",
-  "rational_side": "74204552144561404638316865519/2410947144384500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "03958d4ea2f46d7456d4f6ab9d39153d80905fd68fb6759a8a7999a5d6706c1e",
+  "rational_side": "13349107554220711805079327811/433719924287900000000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "11214083f842af2a60e14db48a936b7a26f6774ae1fb0b2305722b58c94f4858",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "0cc49e23810b277c0878d26460ce1f8cf33c232b5950d58f921b4bd1aa95c79d",
     "source_n": 689,
     "source_provenance": {
-      "category": "local",
-      "construction_credit": []
+      "category": "ct105 recovered candidate",
+      "audit_source": "ct105 recovered candidate",
+      "source_certificate_sha256": "0cc49e23810b277c0878d26460ce1f8cf33c232b5950d58f921b4bd1aa95c79d",
+      "audit_origin": {
+        "source": "/var/lib/square-packing/accepted/6b2e914eb184e5191b343add80a74c1f.txt",
+        "job": {},
+        "packing_sha256": "1efd96950d0473a8b5fbd8787b89d96b2761086d63c216cf44968f573fc6d403"
+      },
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "local",
+        "construction_credit": []
+      },
+      "verified_audit": "experiments/record-check-20261022-0300"
     },
     "construction": {
       "kind": "square tiling and L-border",
       "source_n": 689,
-      "source_bound": "64560763567023404638316865519/2410947144384500000000000000",
+      "source_bound": "11614227857069111805079327811/433719924287900000000000000",
       "tiles_per_side": 1,
       "layers": 4,
       "capacity": 913,
@@ -25,6 +37,12 @@
       "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
     },
     "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n689.cert",
+    "reviewed_bound": "9172610817277126804/298023223876953125"
   },
   "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

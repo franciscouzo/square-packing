@@ -1,18 +1,30 @@
 {
   "n": 986,
   "packing": "n986.txt",
-  "packing_sha256": "8ff689fd15caf8271232d509805acac450609056998697019e3c7f5fc15166ce",
+  "packing_sha256": "8b4e4ee58cdfd8b8c1c8e0f7b5c9c52f5bf6945c38cdb27a9b20d57e36ba69fd",
   "certificate": "certificates/n986.cert",
-  "certificate_sha256": "d480175fe1d2838326360de3fbbb2123e7c666d854d636d47498caca24092017",
-  "rational_side": "151772453123382777232691846593/4754729891171500000000000000",
+  "certificate_sha256": "62c27db337b5e9c9f0169e1d813935a776cfc07aa8a016c13bc825cd1c7c3659",
+  "rational_side": "2785254812247566979983039827/87256508264840000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "d480175fe1d2838326360de3fbbb2123e7c666d854d636d47498caca24092017",
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "62c27db337b5e9c9f0169e1d813935a776cfc07aa8a016c13bc825cd1c7c3659",
     "source_n": 986,
     "source_provenance": {
-      "category": "local",
-      "construction_credit": []
+      "category": "ct105 recovered candidate",
+      "audit_source": "ct105 recovered candidate",
+      "source_certificate_sha256": "62c27db337b5e9c9f0169e1d813935a776cfc07aa8a016c13bc825cd1c7c3659",
+      "audit_origin": {
+        "source": "/var/lib/square-packing/accepted/cd9e15e8ad28f398b9d7c77f4419c95f.txt",
+        "job": {},
+        "packing_sha256": "120a70c911f990da0976cff540a03ef68b3abdd3cbf0425250f9bd0e3a39fe50"
+      },
+      "prior_source_credit": "Francisco Couzo",
+      "prior_source_provenance": {
+        "category": "local",
+        "construction_credit": []
+      },
+      "verified_audit": "experiments/record-check-20261022-0300"
     },
     "construction": null,
     "deleted_squares": 0

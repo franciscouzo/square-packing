@@ -1,0 +1,4 @@
+# Separate environment for the published Kaggle metric; search requirements
+# remain independent. The metric uses mpf.man/exp from mpmath 1.4.
+mpmath==1.4.1
+pandas==2.2.3

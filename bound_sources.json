@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T22:01:29.349172+00:00",
+  "generated": "2026-10-21T23:49:52.483657+00:00",
   "scope": "1<=n<=10000",
   "machines": {
     "CT104": {
@@ -38,52 +38,65 @@
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
       "commit": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
-      "remote_head": "56fa71f949234b63534772b3f3b4f1320fbf2afd"
+      "remote_head": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "ry-xu": {
       "url": "https://github.com/ry-xu/square_packing.git",
       "commit": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
-      "remote_head": "9535d65d84cc33f20f4e26329f8da12bdcef216e"
+      "remote_head": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "0f37f49fa521f411d8e35c82f746e679b3447e46",
-      "remote_head": "0f37f49fa521f411d8e35c82f746e679b3447e46"
+      "commit": "7982d7a9346e29e36cab3ce075274f3023114353",
+      "remote_head": "7982d7a9346e29e36cab3ce075274f3023114353",
+      "previous_recorded_commit": "88385abc95ab25d520302282d1946cbb07bc9cf3",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
       "commit": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
-      "remote_head": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a"
+      "remote_head": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "mishapolk": {
       "url": "https://github.com/Mishapolk/square-packing-records.git",
-      "commit": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
-      "remote_head": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94"
+      "commit": "17cc220131360ef290750eb845a3544c30ccb389",
+      "remote_head": "17cc220131360ef290750eb845a3544c30ccb389",
+      "previous_recorded_commit": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "snakefang": {
       "url": "https://github.com/TheSnakeFang/squarepack-certs.git",
-      "commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
-      "remote_head": "078789a4cfd36f915f1bfbe76d742413d79b2965"
+      "commit": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
+      "remote_head": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
+      "previous_recorded_commit": "078789a4cfd36f915f1bfbe76d742413d79b2965",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "ebdeleeuw": {
       "url": "https://github.com/ebdeleeuw/square-packing-n70.git",
       "commit": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
-      "remote_head": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0"
+      "remote_head": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "dostashev": {
       "url": "https://github.com/dostashev/square-packing.git",
       "commit": "b909e1b74cda50906e12b4373e010ddee39e47e4",
-      "remote_head": "b909e1b74cda50906e12b4373e010ddee39e47e4"
+      "remote_head": "b909e1b74cda50906e12b4373e010ddee39e47e4",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "buddenping": {
       "url": "https://github.com/BuddenPing/square-packing-certificates.git",
       "commit": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
-      "remote_head": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d"
+      "remote_head": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "rbarnett": {
       "url": "https://github.com/RobertBarnettProjects/square-packing-research.git",
       "commit": "52cf1cc7ba006731ef76818267216c87bb63281e",
-      "remote_head": "52cf1cc7ba006731ef76818267216c87bb63281e"
+      "remote_head": "52cf1cc7ba006731ef76818267216c87bb63281e",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
@@ -99,17 +112,31 @@
       "url": "https://github.com/lollipoll/certified-square-packing-68.git",
       "commit": "495238e3d5a542008ff2f01a1dbbb78527cbe732",
       "remote_head": "495238e3d5a542008ff2f01a1dbbb78527cbe732"
+    },
+    "joost": {
+      "previous_recorded_commit": null,
+      "url": "https://github.com/JoostdeWinter/square-packing.git",
+      "commit": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
+      "remote_head": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
+    },
+    "joost-above324": {
+      "previous_recorded_commit": null,
+      "url": "https://github.com/JoostdeWinter/joostdewinter.github.io.git",
+      "commit": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
+      "remote_head": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
+      "reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00"
     }
   },
   "jlevy": {
     "source_revision": "9b32da04d8ca7e4972ea7db51dce3605810ea250",
-    "latest_reviewed_revision": "0dd9003e084923a14c0cd2622fec867614dda36e",
-    "latest_revision_changed_bounds": false,
+    "latest_reviewed_revision": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
+    "latest_revision_changed_bounds": true,
     "source_tree_files": 21324,
     "retained_certificate_files": 361,
     "issue_and_pr_threads_reviewed": 572,
-    "open_threads_reviewed": 73,
-    "recent_issue_comments_reviewed": 32,
+    "open_threads_reviewed": 80,
+    "recent_issue_comments_reviewed": 59,
     "pull_requests": [
       {
         "number": 608,
@@ -176,6 +203,61 @@
         "state": "open",
         "head": "8811bd763d437aaf8d75dc5d1dd4ac761a1bc39d",
         "url": "https://github.com/jlevy/squares/pull/406"
+      }
+    ],
+    "commit": "bb0c24e9f5125546316be2860bce295149ac299c",
+    "remote_head": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
+    "latest_review_audit": "experiments/update-records-20261022-2111",
+    "latest_reviewed_at_utc": "2026-10-22T22:01:56.055027+00:00",
+    "latest_open_prs_reviewed": 12,
+    "latest_changed_prs_reviewed": [
+      {
+        "number": 406,
+        "head": "9b9f77c22ca5bab94f16ac472867d700a9bccac8",
+        "title": "feat: refuse added bulk Git blobs using actual PR base",
+        "files": 14
+      },
+      {
+        "number": 737,
+        "head": "fbb2cf7532aa5d2138680ef6580f0c781dcd294c",
+        "title": "plan: Define site hierarchy and navigation menus",
+        "files": 4
+      },
+      {
+        "number": 735,
+        "head": "652a06b430155b20ad21912c3f52b842bf60f1b1",
+        "title": "process: gate every S4 and S5 result on a News item, and announce T-194",
+        "files": 13
+      },
+      {
+        "number": 733,
+        "head": "064b2bc5ab6e8c124aff329210eec5ee5417901a",
+        "title": "fix(site): unify profile presentation and GitHub link icons",
+        "files": 59
+      },
+      {
+        "number": 736,
+        "head": "313c19c1e7c7e10a3687a9c6e57084c44abd779e",
+        "title": "feat(site): home page News box opens on S5 or S4/S5 under a compact filter; Recently Added",
+        "files": 12
+      },
+      {
+        "number": 725,
+        "head": "094430444853045a3b1f6f47000865b1f429b35e",
+        "title": "records(stage 4): T-226 to T-229 at V3/C3 after the 22 October reviews; T-229 adopted at 105 and 204",
+        "files": 178
+      },
+      {
+        "number": 730,
+        "head": "ebb249107b282e61fbc74ac2df211b49acdbd7ee",
+        "title": "records(think-yfoo, think-tmwt, think-a4wq, think-om5l): Couzo's watched history at 325 to 1024 in report order",
+        "files": 444
+      },
+      {
+        "number": 731,
+        "head": "ef005f4895cd895072a6e17acaf2ad2eaf4b3ad2",
+        "title": "records(#728): Evan Daniel's s(303) as T-230, reviewed, adopted at 303 and regularized",
+        "files": 75
       }
     ]
   },
@@ -2474,97 +2556,181 @@
     }
   },
   "record_landing_20261021": {
-    "generated": "2026-10-21T20:39:36.725722+00:00",
-    "audit": "experiments/land-cleanup-20261021-2040",
+    "generated": "2026-10-22T00:00:04.378545+00:00",
+    "audit": "experiments/land-tiny-20261021",
     "coverage": {
       "max_n": 10000,
       "audits": [
         "experiments/record-check-20261021",
         "experiments/record-check-20261021-2005",
-        "experiments/record-check-20261021-2034"
+        "experiments/record-check-20261021-2334"
       ],
-      "latest_verified_capture": "2026-10-21T20:38:27.185523+00:00",
+      "latest_verified_capture": "2026-10-22T00:00:01.080612+00:00",
       "approved_counts": [
-        328,
-        343,
-        417,
-        455,
-        456,
+        545
+      ]
+    }
+  },
+  "source_hash_corrections_20261021": {
+    "n260_seed": {
+      "source": "evand",
+      "source_commit": "14a9af8be4a8b8a8328c3eb6b486a2e553380193",
+      "certificate": "search/regularize/lists/certs/n-260.cert.gz",
+      "sha256": "e90993b1c0f625d1d6c2d1ea3b5f391bfe6d98f5bc387a10863434bb9db4934e",
+      "sha256_kind": "gzip bytes",
+      "gzip_sha256": "e90993b1c0f625d1d6c2d1ea3b5f391bfe6d98f5bc387a10863434bb9db4934e",
+      "decompressed_sha256": "34b203dd126640c533f2ab88b5af8d593db8bf60a8f3d3527defd9cac85c6d40",
+      "certificate_url": "https://github.com/evand/square-packing/blob/14a9af8be4a8b8a8328c3eb6b486a2e553380193/search/regularize/lists/certs/n-260.cert.gz",
+      "construction_credit": "Joost de Winter",
+      "certificate_credit": "Evan Daniel",
+      "request": "https://github.com/jlevy/squares/issues/668"
+    },
+    "hash_policy": "Legacy sha256 fields retain their byte binding; sha256_kind states gzip or uncompressed bytes.",
+    "annotated_n260_objects": 0,
+    "annotated_other_hash_objects": 1749
+  },
+  "record_landing_20261022": {
+    "generated": "2026-10-22T03:11:26.882731+00:00",
+    "audit": "experiments/update-records-20261022-0300",
+    "coverage": {
+      "max_n": 10000,
+      "audits": [
+        "experiments/record-check-20261022-0300"
+      ],
+      "latest_verified_capture": "2026-10-22T03:11:25.474882+00:00",
+      "approved_counts": [
+        335,
+        372,
+        409,
+        422,
+        450,
+        451,
+        452,
+        454,
         458,
-        459,
         461,
-        463,
+        490,
         497,
         499,
-        500,
-        501,
-        502,
-        503,
-        504,
-        506,
-        509,
+        507,
+        536,
+        540,
         545,
-        547,
-        548,
         549,
+        551,
         553,
-        554,
-        593,
+        555,
+        582,
+        583,
+        591,
+        594,
         595,
         597,
         598,
-        599,
-        600,
-        601,
-        602,
+        632,
+        637,
+        641,
+        645,
         647,
         648,
+        650,
         651,
         652,
-        653,
-        654,
-        696,
-        697,
-        700,
-        702,
+        683,
+        689,
+        692,
+        693,
+        695,
+        698,
         705,
+        706,
+        742,
+        744,
+        745,
+        746,
         747,
         748,
         749,
         750,
         752,
         756,
-        758,
+        791,
+        797,
         801,
         802,
+        803,
         804,
         805,
-        806,
-        807,
-        813,
-        814,
-        858,
+        809,
+        810,
+        850,
         859,
         863,
-        864,
-        867,
+        866,
         868,
-        869,
         871,
-        918,
+        872,
+        913,
+        916,
+        917,
+        922,
         923,
-        926,
         927,
-        928,
-        931,
-        978,
+        970,
+        976,
         979,
-        987,
-        989,
-        994,
-        996,
-        2043
+        983,
+        984,
+        985,
+        986,
+        995,
+        1107,
+        1116,
+        1124,
+        1179,
+        1180,
+        1191,
+        1251,
+        1486,
+        1647,
+        1648,
+        1765,
+        2263,
+        2352,
+        2448,
+        2454
       ]
     }
+  },
+  "central_record_landing_20261022": {
+    "generated": "2026-10-22T18:21:04.497667+00:00",
+    "audits": [
+      "experiments/restore-held-records-20261022",
+      "experiments/land-records-20261022-final"
+    ],
+    "scope": "1<=n<=10000",
+    "source": "shared CT105 packing store and retained native witnesses"
+  },
+  "public_and_native_intake_20261022": {
+    "generated": "2026-10-22T22:01:56.055027+00:00",
+    "audits": [
+      "experiments/update-records-20261022-2111",
+      "experiments/public-intake-20261022-2145",
+      "experiments/final-native-20261022-kaggle"
+    ],
+    "github_main": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
+    "linked_repositories_reviewed": 12,
+    "verified_public_direct_sources": 369,
+    "native_direct_improvements": [
+      694,
+      866,
+      978,
+      983
+    ],
+    "improved_best_bounds": 1343,
+    "exact_public_envelope": true,
+    "claims_not_adopted": [
+      "Unverified optimality and algebraic saturation claims in upstream prose"
+    ]
   }
 }

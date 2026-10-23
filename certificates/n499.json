@@ -1,272 +1,1114 @@
 {
   "n": 499,
   "packing": "n499.txt",
-  "packing_sha256": "fbea093e21d4758c0c5b49e68971ad68436d0fcd4e8e57c445fcc05e1f17647d",
+  "packing_sha256": "fdcd54704020c8bbd5a722ee8765260636b50685118c7c2e474059bc12a2d9d2",
   "certificate": "certificates/n499.cert",
-  "certificate_sha256": "e21666adfb6a5e0c268c121f2a21191e1d5d9a4d64be907fd43085b1b269136d",
-  "rational_side": "1986515670415270886938531/86818280891000000000000",
+  "certificate_sha256": "17f52e89f78e67bc9017eb947254ccccb7a4fc1310a5255369ffa0214d1bc531",
+  "rational_side": "100567489780760470490525718763/4398046511104000000000000000",
   "kind": "verified source certificate",
   "origin": {
     "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "e21666adfb6a5e0c268c121f2a21191e1d5d9a4d64be907fd43085b1b269136d",
+    "source_certificate_sha256": "17f52e89f78e67bc9017eb947254ccccb7a4fc1310a5255369ffa0214d1bc531",
     "source_n": 499,
     "source_provenance": {
-      "category": "native search",
-      "audit_source": "Desktopo / native search",
-      "source_certificate_sha256": "e21666adfb6a5e0c268c121f2a21191e1d5d9a4d64be907fd43085b1b269136d",
-      "audit_origin": {
-        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n499.txt",
-        "packing_sha256": "f887f15f5e667f7b76600793e8ce6c9b66fd607aa46156c461b5f31f703a699d",
-        "search_job": {
-          "id": 118645,
+      "category": "Desktopo / shared store",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "3321c5f5a61d438eadfd9490d1433faa",
+        "created": 1792641230.2060156,
+        "record": {
           "n": 499,
-          "seed": 925118645,
+          "side": 22.866399781551188,
+          "rational_side": "100567489780760470490525718763/4398046511104000000000000000",
+          "dilation": "1+1e-14",
+          "float_side": 22.866399781550967,
+          "previous": 22.872219025620797,
+          "previous_holder": "this repository; source credit in certificate metadata",
+          "seed": "canonical snapshot",
           "method": "hop",
-          "variant": true,
-          "radius": 0.001,
-          "iterations": 1000,
-          "hop_seconds": 240,
-          "slp_seconds": 120,
-          "source": "n456.txt",
-          "source_origin": "constructed",
-          "range_group": "focus",
-          "focus_targets": {
-            "schedule": "web",
-            "counts": 560,
-            "rotation": 2159
-          },
-          "pool_size": 8,
-          "pool_gap": 0.02,
-          "constructed_seed": {
-            "construction": "L-border and deletion",
-            "source": "n456.txt",
-            "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
-            "source_n": 456,
-            "source_side": 21.882183551474746,
-            "layers": 1,
-            "deleted": 0,
-            "border_corners": [
-              "NE"
-            ],
-            "border_layout": "single-corner",
-            "side": 22.882183551476746
-          },
-          "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
-          "allocation": "general",
-          "worker_slot": 3,
-          "host": "fran@192.168.0.200",
-          "started": 1792586213.526104,
-          "worker_details": {
-            "translations": false,
-            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-            "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+          "attribution": "Francisco Couzo",
+          "email_public": false,
+          "received": "20261022T035350Z",
+          "sha256": "3532c97658fd56fe5c3439abcd56a637f532eb627338b742e6e66cdf0ed937e4",
+          "native_job": {
+            "allocation": "general",
+            "constructed_seed": null,
+            "focus_targets": {
+              "counts": 560,
+              "rotation": 2159,
+              "schedule": "web"
+            },
+            "hop_seconds": 360,
+            "host": "fran@192.168.0.200",
+            "id": 120804,
+            "iterations": 1000,
+            "method": "fq",
+            "n": 499,
+            "pool_gap": 0.02,
             "pool_size": 8,
-            "actual_method": "hop",
-            "fq_finish": {
-              "n499_0": 22.881306218094718,
-              "n499_1": 22.881306218094714
+            "provenance": {
+              "seed_certificate": {
+                "kind": "central immutable seed",
+                "packing_sha256": "8d9c1501fcbbe5caf12cd1866cae416d0fc00a213878af07f7602a936c1f40c6",
+                "rational_side": "22905717533478719042529397799/1001464593698600000000000000",
+                "seed_url": "/api/seeds/8d9c1501fcbbe5caf12cd1866cae416d0fc00a213878af07f7602a936c1f40c6.txt"
+              },
+              "seed_credit": "this repository; source credit in certificate metadata"
             },
-            "winner": "n499_1+fq",
-            "refinement_candidates": [
-              {
-                "name": "incumbent",
-                "before": 22.881444226593082,
-                "after": 22.881425967504967
+            "radius": 0.02,
+            "range_group": "focus",
+            "seed": 925120804,
+            "slp_seconds": 120,
+            "source": "experiments/packing-cache/seeds/8d9c1501fcbbe5caf12cd1866cae416d0fc00a213878af07f7602a936c1f40c6.txt",
+            "source_origin": "central store",
+            "source_sha256": "8d9c1501fcbbe5caf12cd1866cae416d0fc00a213878af07f7602a936c1f40c6",
+            "started": 1792640826.7659194,
+            "variant": false,
+            "worker_details": {
+              "accepted": 47,
+              "actual_method": "fq",
+              "best": 22.866399781548424,
+              "external_method": "fq",
+              "fq_finish": {
+                "fq_best": 22.86639978154851
               },
-              {
-                "name": "n499_0",
-                "before": 22.881444226588705,
-                "after": 22.881444226593082
-              },
-              {
-                "name": "n499_1",
-                "before": 22.881447356370863,
-                "after": 22.881374262412994
-              },
-              {
-                "name": "n499_2",
-                "before": 22.88145067844142,
-                "after": 22.88143624281401
-              },
-              {
-                "name": "n499_3",
-                "before": 22.881463078782254,
-                "after": 22.88144114932706
-              },
-              {
-                "name": "n499_4",
-                "before": 22.8814857827135,
-                "after": 22.88147327737396
-              },
-              {
-                "name": "n499_5",
-                "before": 22.881486826151747,
-                "after": 22.881393319485657
-              },
-              {
-                "name": "n499_6",
-                "before": 22.881525261178226,
-                "after": 22.881519966344797
-              },
-              {
-                "name": "n499_7",
-                "before": 22.88152963566328,
-                "after": 22.881458627227463
-              },
-              {
-                "name": "n499_0+fq",
-                "before": 22.881306218098892,
-                "after": 22.88130621810327
-              },
-              {
-                "name": "n499_1+fq",
-                "before": 22.881306218098885,
-                "after": 22.881306218103262
-              }
-            ]
-          }
-        }
-      },
-      "prior_source_credit": "Francisco Couzo",
-      "prior_source_provenance": {
-        "category": "exact L-border extension",
-        "construction": {
-          "kind": "L-border",
-          "source_n": 456,
-          "layers": 1,
-          "parent_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
-          "capacity": 499
-        },
-        "parent": {
-          "category": "CT105 web submission",
-          "source_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
-          "submission_id": "35d9c90dba360049b9d29d3bcfefec1a",
-          "method": "hop",
-          "received": "20261018T123136Z",
-          "previous_source_credit": {
-            "construction": {
-              "label": "elimination from n=457",
-              "kind": "derived",
-              "source_n": 457,
-              "source": "64d5bd3c1595f12be0deb2327fbb8aaea88adb758ef67ebae5ce2cec9aaeb9dd",
-              "tiles": 1,
-              "layers": 0
-            }
-          }
-        }
-      },
-      "verified_audit": "experiments/record-check-20261021",
-      "search_job": {
-        "id": 118645,
-        "n": 499,
-        "seed": 925118645,
-        "method": "hop",
-        "variant": true,
-        "radius": 0.001,
-        "iterations": 1000,
-        "hop_seconds": 240,
-        "slp_seconds": 120,
-        "source": "n456.txt",
-        "source_origin": "constructed",
-        "range_group": "focus",
-        "focus_targets": {
-          "schedule": "web",
-          "counts": 560,
-          "rotation": 2159
-        },
-        "pool_size": 8,
-        "pool_gap": 0.02,
-        "constructed_seed": {
-          "construction": "L-border and deletion",
-          "source": "n456.txt",
-          "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
-          "source_n": 456,
-          "source_side": 21.882183551474746,
-          "layers": 1,
-          "deleted": 0,
-          "border_corners": [
-            "NE"
-          ],
-          "border_layout": "single-corner",
-          "side": 22.882183551476746
-        },
-        "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
-        "allocation": "general",
-        "worker_slot": 3,
-        "host": "fran@192.168.0.200",
-        "started": 1792586213.526104,
-        "worker_details": {
-          "translations": false,
-          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-          "pool_size": 8,
-          "actual_method": "hop",
-          "fq_finish": {
-            "n499_0": 22.881306218094718,
-            "n499_1": 22.881306218094714
+              "pool_size": 8,
+              "proposals": 50,
+              "refinement_candidates": [
+                {
+                  "after": 22.872219025638305,
+                  "before": 22.872219025633928,
+                  "name": "incumbent"
+                },
+                {
+                  "after": 22.866399781550967,
+                  "before": 22.866399781552595,
+                  "name": "fq_best"
+                },
+                {
+                  "after": 22.866399781556055,
+                  "before": 22.866399781552673,
+                  "name": "fq_best+fq"
+                }
+              ],
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "seed_squares": 499,
+              "start": 22.872219025625174,
+              "translations": true,
+              "winner": "fq_best",
+              "worker_sha256": "745b457cd363f9db6447fc91fc1d8592c28a94bd3c5f93542e23f5add3bc95af"
+            },
+            "worker_slot": 3
           },
-          "winner": "n499_1+fq",
-          "refinement_candidates": [
-            {
-              "name": "incumbent",
-              "before": 22.881444226593082,
-              "after": 22.881425967504967
-            },
-            {
-              "name": "n499_0",
-              "before": 22.881444226588705,
-              "after": 22.881444226593082
-            },
-            {
-              "name": "n499_1",
-              "before": 22.881447356370863,
-              "after": 22.881374262412994
-            },
-            {
-              "name": "n499_2",
-              "before": 22.88145067844142,
-              "after": 22.88143624281401
-            },
-            {
-              "name": "n499_3",
-              "before": 22.881463078782254,
-              "after": 22.88144114932706
-            },
-            {
-              "name": "n499_4",
-              "before": 22.8814857827135,
-              "after": 22.88147327737396
-            },
-            {
-              "name": "n499_5",
-              "before": 22.881486826151747,
-              "after": 22.881393319485657
-            },
-            {
-              "name": "n499_6",
-              "before": 22.881525261178226,
-              "after": 22.881519966344797
-            },
-            {
-              "name": "n499_7",
-              "before": 22.88152963566328,
-              "after": 22.881458627227463
-            },
-            {
-              "name": "n499_0+fq",
-              "before": 22.881306218098892,
-              "after": 22.88130621810327
-            },
-            {
-              "name": "n499_1+fq",
-              "before": 22.881306218098885,
-              "after": 22.881306218103262
+          "name": "Francisco Couzo"
+        },
+        "packing_sha256": "3532c97658fd56fe5c3439abcd56a637f532eb627338b742e6e66cdf0ed937e4"
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "22905717533478719042529397799/1001464593698600000000000000",
+        "source_n": 499,
+        "certificate": "certificates/parents/fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da.cert",
+        "certificate_sha256": "fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da",
+        "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "native search",
+          "audit_source": "Desktopo / native search",
+          "source_certificate_sha256": "fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da",
+          "audit_origin": {
+            "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n499.txt",
+            "packing_sha256": "a7a7fef06046444d94bf8baab06182910884f522ad04a05b6e375c27cefbcf86",
+            "search_job": {
+              "id": 120446,
+              "n": 499,
+              "seed": 925120446,
+              "method": "hop",
+              "variant": true,
+              "radius": 0.02,
+              "iterations": 1000,
+              "hop_seconds": 240,
+              "slp_seconds": 120,
+              "source": "n456.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n456.txt",
+                "source_sha256": "9e7ecd63dac3b9408af2d927029933e0e52879d2c905076f719bc9e67a948fea",
+                "source_n": 456,
+                "source_side": 21.87542665140318,
+                "layers": 1,
+                "deleted": 0,
+                "border_corners": [
+                  "NE"
+                ],
+                "border_layout": "single-corner",
+                "side": 22.87542665140518
+              },
+              "source_sha256": "d30cab8a02f4f36a2b63981fa675834841a0ee09227b4c77890177203d1efde3",
+              "allocation": "general",
+              "worker_slot": 4,
+              "host": "fran@192.168.0.200",
+              "started": 1792631627.079377,
+              "worker_details": {
+                "translations": true,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+                "pool_size": 8,
+                "actual_method": "hop",
+                "fq_finish": {
+                  "n499_0": 22.87221902561203,
+                  "n499_1": 22.872219025612058
+                },
+                "winner": "n499_0+fq",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 22.872609174472633,
+                    "after": 22.87238055259776
+                  },
+                  {
+                    "name": "n499_0",
+                    "before": 22.87260917446826,
+                    "after": 22.87243269689687
+                  },
+                  {
+                    "name": "n499_1",
+                    "before": 22.87273223713502,
+                    "after": 22.872385905328507
+                  },
+                  {
+                    "name": "n499_2",
+                    "before": 22.872789635355723,
+                    "after": 22.872432203090664
+                  },
+                  {
+                    "name": "n499_3",
+                    "before": 22.872793668322114,
+                    "after": 22.872793668326487
+                  },
+                  {
+                    "name": "n499_4",
+                    "before": 22.872813303430313,
+                    "after": 22.872489763069595
+                  },
+                  {
+                    "name": "n499_5",
+                    "before": 22.87285153365994,
+                    "after": 22.872851533664317
+                  },
+                  {
+                    "name": "n499_6",
+                    "before": 22.872870219139152,
+                    "after": 22.872486230385675
+                  },
+                  {
+                    "name": "n499_7",
+                    "before": 22.872884832540816,
+                    "after": 22.87288483254519
+                  },
+                  {
+                    "name": "n499_0+fq",
+                    "before": 22.8722190256162,
+                    "after": 22.872219025620577
+                  },
+                  {
+                    "name": "n499_1+fq",
+                    "before": 22.872219025616225,
+                    "after": 22.872219025620602
+                  }
+                ]
+              }
             }
-          ]
+          },
+          "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+          "prior_source_provenance": {
+            "category": "native search",
+            "audit_source": "Desktopo / native search",
+            "source_certificate_sha256": "e21666adfb6a5e0c268c121f2a21191e1d5d9a4d64be907fd43085b1b269136d",
+            "audit_origin": {
+              "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n499.txt",
+              "packing_sha256": "f887f15f5e667f7b76600793e8ce6c9b66fd607aa46156c461b5f31f703a699d",
+              "search_job": {
+                "id": 118645,
+                "n": 499,
+                "seed": 925118645,
+                "method": "hop",
+                "variant": true,
+                "radius": 0.001,
+                "iterations": 1000,
+                "hop_seconds": 240,
+                "slp_seconds": 120,
+                "source": "n456.txt",
+                "source_origin": "constructed",
+                "range_group": "focus",
+                "focus_targets": {
+                  "schedule": "web",
+                  "counts": 560,
+                  "rotation": 2159
+                },
+                "pool_size": 8,
+                "pool_gap": 0.02,
+                "constructed_seed": {
+                  "construction": "L-border and deletion",
+                  "source": "n456.txt",
+                  "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
+                  "source_n": 456,
+                  "source_side": 21.882183551474746,
+                  "layers": 1,
+                  "deleted": 0,
+                  "border_corners": [
+                    "NE"
+                  ],
+                  "border_layout": "single-corner",
+                  "side": 22.882183551476746
+                },
+                "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
+                "allocation": "general",
+                "worker_slot": 3,
+                "host": "fran@192.168.0.200",
+                "started": 1792586213.526104,
+                "worker_details": {
+                  "translations": false,
+                  "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                  "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                  "pool_size": 8,
+                  "actual_method": "hop",
+                  "fq_finish": {
+                    "n499_0": 22.881306218094718,
+                    "n499_1": 22.881306218094714
+                  },
+                  "winner": "n499_1+fq",
+                  "refinement_candidates": [
+                    {
+                      "name": "incumbent",
+                      "before": 22.881444226593082,
+                      "after": 22.881425967504967
+                    },
+                    {
+                      "name": "n499_0",
+                      "before": 22.881444226588705,
+                      "after": 22.881444226593082
+                    },
+                    {
+                      "name": "n499_1",
+                      "before": 22.881447356370863,
+                      "after": 22.881374262412994
+                    },
+                    {
+                      "name": "n499_2",
+                      "before": 22.88145067844142,
+                      "after": 22.88143624281401
+                    },
+                    {
+                      "name": "n499_3",
+                      "before": 22.881463078782254,
+                      "after": 22.88144114932706
+                    },
+                    {
+                      "name": "n499_4",
+                      "before": 22.8814857827135,
+                      "after": 22.88147327737396
+                    },
+                    {
+                      "name": "n499_5",
+                      "before": 22.881486826151747,
+                      "after": 22.881393319485657
+                    },
+                    {
+                      "name": "n499_6",
+                      "before": 22.881525261178226,
+                      "after": 22.881519966344797
+                    },
+                    {
+                      "name": "n499_7",
+                      "before": 22.88152963566328,
+                      "after": 22.881458627227463
+                    },
+                    {
+                      "name": "n499_0+fq",
+                      "before": 22.881306218098892,
+                      "after": 22.88130621810327
+                    },
+                    {
+                      "name": "n499_1+fq",
+                      "before": 22.881306218098885,
+                      "after": 22.881306218103262
+                    }
+                  ]
+                }
+              }
+            },
+            "prior_source_credit": "Francisco Couzo",
+            "prior_source_provenance": {
+              "category": "exact L-border extension",
+              "construction": {
+                "kind": "L-border",
+                "source_n": 456,
+                "layers": 1,
+                "parent_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
+                "capacity": 499
+              },
+              "parent": {
+                "category": "CT105 web submission",
+                "source_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
+                "submission_id": "35d9c90dba360049b9d29d3bcfefec1a",
+                "method": "hop",
+                "received": "20261018T123136Z",
+                "previous_source_credit": {
+                  "construction": {
+                    "label": "elimination from n=457",
+                    "kind": "derived",
+                    "source_n": 457,
+                    "source": "64d5bd3c1595f12be0deb2327fbb8aaea88adb758ef67ebae5ce2cec9aaeb9dd",
+                    "tiles": 1,
+                    "layers": 0
+                  }
+                }
+              }
+            },
+            "verified_audit": "experiments/record-check-20261021",
+            "search_job": {
+              "id": 118645,
+              "n": 499,
+              "seed": 925118645,
+              "method": "hop",
+              "variant": true,
+              "radius": 0.001,
+              "iterations": 1000,
+              "hop_seconds": 240,
+              "slp_seconds": 120,
+              "source": "n456.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n456.txt",
+                "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
+                "source_n": 456,
+                "source_side": 21.882183551474746,
+                "layers": 1,
+                "deleted": 0,
+                "border_corners": [
+                  "NE"
+                ],
+                "border_layout": "single-corner",
+                "side": 22.882183551476746
+              },
+              "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
+              "allocation": "general",
+              "worker_slot": 3,
+              "host": "fran@192.168.0.200",
+              "started": 1792586213.526104,
+              "worker_details": {
+                "translations": false,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                "pool_size": 8,
+                "actual_method": "hop",
+                "fq_finish": {
+                  "n499_0": 22.881306218094718,
+                  "n499_1": 22.881306218094714
+                },
+                "winner": "n499_1+fq",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 22.881444226593082,
+                    "after": 22.881425967504967
+                  },
+                  {
+                    "name": "n499_0",
+                    "before": 22.881444226588705,
+                    "after": 22.881444226593082
+                  },
+                  {
+                    "name": "n499_1",
+                    "before": 22.881447356370863,
+                    "after": 22.881374262412994
+                  },
+                  {
+                    "name": "n499_2",
+                    "before": 22.88145067844142,
+                    "after": 22.88143624281401
+                  },
+                  {
+                    "name": "n499_3",
+                    "before": 22.881463078782254,
+                    "after": 22.88144114932706
+                  },
+                  {
+                    "name": "n499_4",
+                    "before": 22.8814857827135,
+                    "after": 22.88147327737396
+                  },
+                  {
+                    "name": "n499_5",
+                    "before": 22.881486826151747,
+                    "after": 22.881393319485657
+                  },
+                  {
+                    "name": "n499_6",
+                    "before": 22.881525261178226,
+                    "after": 22.881519966344797
+                  },
+                  {
+                    "name": "n499_7",
+                    "before": 22.88152963566328,
+                    "after": 22.881458627227463
+                  },
+                  {
+                    "name": "n499_0+fq",
+                    "before": 22.881306218098892,
+                    "after": 22.88130621810327
+                  },
+                  {
+                    "name": "n499_1+fq",
+                    "before": 22.881306218098885,
+                    "after": 22.881306218103262
+                  }
+                ]
+              }
+            }
+          },
+          "verified_audit": "experiments/record-check-20261022-0300",
+          "search_job": {
+            "id": 120446,
+            "n": 499,
+            "seed": 925120446,
+            "method": "hop",
+            "variant": true,
+            "radius": 0.02,
+            "iterations": 1000,
+            "hop_seconds": 240,
+            "slp_seconds": 120,
+            "source": "n456.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n456.txt",
+              "source_sha256": "9e7ecd63dac3b9408af2d927029933e0e52879d2c905076f719bc9e67a948fea",
+              "source_n": 456,
+              "source_side": 21.87542665140318,
+              "layers": 1,
+              "deleted": 0,
+              "border_corners": [
+                "NE"
+              ],
+              "border_layout": "single-corner",
+              "side": 22.87542665140518
+            },
+            "source_sha256": "d30cab8a02f4f36a2b63981fa675834841a0ee09227b4c77890177203d1efde3",
+            "allocation": "general",
+            "worker_slot": 4,
+            "host": "fran@192.168.0.200",
+            "started": 1792631627.079377,
+            "worker_details": {
+              "translations": true,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "hop",
+              "fq_finish": {
+                "n499_0": 22.87221902561203,
+                "n499_1": 22.872219025612058
+              },
+              "winner": "n499_0+fq",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 22.872609174472633,
+                  "after": 22.87238055259776
+                },
+                {
+                  "name": "n499_0",
+                  "before": 22.87260917446826,
+                  "after": 22.87243269689687
+                },
+                {
+                  "name": "n499_1",
+                  "before": 22.87273223713502,
+                  "after": 22.872385905328507
+                },
+                {
+                  "name": "n499_2",
+                  "before": 22.872789635355723,
+                  "after": 22.872432203090664
+                },
+                {
+                  "name": "n499_3",
+                  "before": 22.872793668322114,
+                  "after": 22.872793668326487
+                },
+                {
+                  "name": "n499_4",
+                  "before": 22.872813303430313,
+                  "after": 22.872489763069595
+                },
+                {
+                  "name": "n499_5",
+                  "before": 22.87285153365994,
+                  "after": 22.872851533664317
+                },
+                {
+                  "name": "n499_6",
+                  "before": 22.872870219139152,
+                  "after": 22.872486230385675
+                },
+                {
+                  "name": "n499_7",
+                  "before": 22.872884832540816,
+                  "after": 22.87288483254519
+                },
+                {
+                  "name": "n499_0+fq",
+                  "before": 22.8722190256162,
+                  "after": 22.872219025620577
+                },
+                {
+                  "name": "n499_1+fq",
+                  "before": 22.872219025616225,
+                  "after": 22.872219025620602
+                }
+              ]
+            }
+          }
+        },
+        "verification": {
+          "n": 499,
+          "side": "22905717533478719042529397799/1001464593698600000000000000",
+          "valid": true,
+          "pairs_tested": 7215,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": false,
+          "closed_valid": true,
+          "sha256": "fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da",
+          "candidate_pairs": 7215,
+          "near_pairs": 1123,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da",
+        "source_n": 499,
+        "source_provenance": {
+          "category": "native search",
+          "audit_source": "Desktopo / native search",
+          "source_certificate_sha256": "fddbeadbbb6697932cbb99e166275ba670fd422ea11fc1c39abaad8db80524da",
+          "audit_origin": {
+            "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n499.txt",
+            "packing_sha256": "a7a7fef06046444d94bf8baab06182910884f522ad04a05b6e375c27cefbcf86",
+            "search_job": {
+              "id": 120446,
+              "n": 499,
+              "seed": 925120446,
+              "method": "hop",
+              "variant": true,
+              "radius": 0.02,
+              "iterations": 1000,
+              "hop_seconds": 240,
+              "slp_seconds": 120,
+              "source": "n456.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n456.txt",
+                "source_sha256": "9e7ecd63dac3b9408af2d927029933e0e52879d2c905076f719bc9e67a948fea",
+                "source_n": 456,
+                "source_side": 21.87542665140318,
+                "layers": 1,
+                "deleted": 0,
+                "border_corners": [
+                  "NE"
+                ],
+                "border_layout": "single-corner",
+                "side": 22.87542665140518
+              },
+              "source_sha256": "d30cab8a02f4f36a2b63981fa675834841a0ee09227b4c77890177203d1efde3",
+              "allocation": "general",
+              "worker_slot": 4,
+              "host": "fran@192.168.0.200",
+              "started": 1792631627.079377,
+              "worker_details": {
+                "translations": true,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+                "pool_size": 8,
+                "actual_method": "hop",
+                "fq_finish": {
+                  "n499_0": 22.87221902561203,
+                  "n499_1": 22.872219025612058
+                },
+                "winner": "n499_0+fq",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 22.872609174472633,
+                    "after": 22.87238055259776
+                  },
+                  {
+                    "name": "n499_0",
+                    "before": 22.87260917446826,
+                    "after": 22.87243269689687
+                  },
+                  {
+                    "name": "n499_1",
+                    "before": 22.87273223713502,
+                    "after": 22.872385905328507
+                  },
+                  {
+                    "name": "n499_2",
+                    "before": 22.872789635355723,
+                    "after": 22.872432203090664
+                  },
+                  {
+                    "name": "n499_3",
+                    "before": 22.872793668322114,
+                    "after": 22.872793668326487
+                  },
+                  {
+                    "name": "n499_4",
+                    "before": 22.872813303430313,
+                    "after": 22.872489763069595
+                  },
+                  {
+                    "name": "n499_5",
+                    "before": 22.87285153365994,
+                    "after": 22.872851533664317
+                  },
+                  {
+                    "name": "n499_6",
+                    "before": 22.872870219139152,
+                    "after": 22.872486230385675
+                  },
+                  {
+                    "name": "n499_7",
+                    "before": 22.872884832540816,
+                    "after": 22.87288483254519
+                  },
+                  {
+                    "name": "n499_0+fq",
+                    "before": 22.8722190256162,
+                    "after": 22.872219025620577
+                  },
+                  {
+                    "name": "n499_1+fq",
+                    "before": 22.872219025616225,
+                    "after": 22.872219025620602
+                  }
+                ]
+              }
+            }
+          },
+          "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+          "prior_source_provenance": {
+            "category": "native search",
+            "audit_source": "Desktopo / native search",
+            "source_certificate_sha256": "e21666adfb6a5e0c268c121f2a21191e1d5d9a4d64be907fd43085b1b269136d",
+            "audit_origin": {
+              "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n499.txt",
+              "packing_sha256": "f887f15f5e667f7b76600793e8ce6c9b66fd607aa46156c461b5f31f703a699d",
+              "search_job": {
+                "id": 118645,
+                "n": 499,
+                "seed": 925118645,
+                "method": "hop",
+                "variant": true,
+                "radius": 0.001,
+                "iterations": 1000,
+                "hop_seconds": 240,
+                "slp_seconds": 120,
+                "source": "n456.txt",
+                "source_origin": "constructed",
+                "range_group": "focus",
+                "focus_targets": {
+                  "schedule": "web",
+                  "counts": 560,
+                  "rotation": 2159
+                },
+                "pool_size": 8,
+                "pool_gap": 0.02,
+                "constructed_seed": {
+                  "construction": "L-border and deletion",
+                  "source": "n456.txt",
+                  "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
+                  "source_n": 456,
+                  "source_side": 21.882183551474746,
+                  "layers": 1,
+                  "deleted": 0,
+                  "border_corners": [
+                    "NE"
+                  ],
+                  "border_layout": "single-corner",
+                  "side": 22.882183551476746
+                },
+                "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
+                "allocation": "general",
+                "worker_slot": 3,
+                "host": "fran@192.168.0.200",
+                "started": 1792586213.526104,
+                "worker_details": {
+                  "translations": false,
+                  "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                  "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                  "pool_size": 8,
+                  "actual_method": "hop",
+                  "fq_finish": {
+                    "n499_0": 22.881306218094718,
+                    "n499_1": 22.881306218094714
+                  },
+                  "winner": "n499_1+fq",
+                  "refinement_candidates": [
+                    {
+                      "name": "incumbent",
+                      "before": 22.881444226593082,
+                      "after": 22.881425967504967
+                    },
+                    {
+                      "name": "n499_0",
+                      "before": 22.881444226588705,
+                      "after": 22.881444226593082
+                    },
+                    {
+                      "name": "n499_1",
+                      "before": 22.881447356370863,
+                      "after": 22.881374262412994
+                    },
+                    {
+                      "name": "n499_2",
+                      "before": 22.88145067844142,
+                      "after": 22.88143624281401
+                    },
+                    {
+                      "name": "n499_3",
+                      "before": 22.881463078782254,
+                      "after": 22.88144114932706
+                    },
+                    {
+                      "name": "n499_4",
+                      "before": 22.8814857827135,
+                      "after": 22.88147327737396
+                    },
+                    {
+                      "name": "n499_5",
+                      "before": 22.881486826151747,
+                      "after": 22.881393319485657
+                    },
+                    {
+                      "name": "n499_6",
+                      "before": 22.881525261178226,
+                      "after": 22.881519966344797
+                    },
+                    {
+                      "name": "n499_7",
+                      "before": 22.88152963566328,
+                      "after": 22.881458627227463
+                    },
+                    {
+                      "name": "n499_0+fq",
+                      "before": 22.881306218098892,
+                      "after": 22.88130621810327
+                    },
+                    {
+                      "name": "n499_1+fq",
+                      "before": 22.881306218098885,
+                      "after": 22.881306218103262
+                    }
+                  ]
+                }
+              }
+            },
+            "prior_source_credit": "Francisco Couzo",
+            "prior_source_provenance": {
+              "category": "exact L-border extension",
+              "construction": {
+                "kind": "L-border",
+                "source_n": 456,
+                "layers": 1,
+                "parent_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
+                "capacity": 499
+              },
+              "parent": {
+                "category": "CT105 web submission",
+                "source_certificate_sha256": "3e4741058092fd12c6ea577b1563b9d7cda88cce746e8386871d0dad6f9426d5",
+                "submission_id": "35d9c90dba360049b9d29d3bcfefec1a",
+                "method": "hop",
+                "received": "20261018T123136Z",
+                "previous_source_credit": {
+                  "construction": {
+                    "label": "elimination from n=457",
+                    "kind": "derived",
+                    "source_n": 457,
+                    "source": "64d5bd3c1595f12be0deb2327fbb8aaea88adb758ef67ebae5ce2cec9aaeb9dd",
+                    "tiles": 1,
+                    "layers": 0
+                  }
+                }
+              }
+            },
+            "verified_audit": "experiments/record-check-20261021",
+            "search_job": {
+              "id": 118645,
+              "n": 499,
+              "seed": 925118645,
+              "method": "hop",
+              "variant": true,
+              "radius": 0.001,
+              "iterations": 1000,
+              "hop_seconds": 240,
+              "slp_seconds": 120,
+              "source": "n456.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 8,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n456.txt",
+                "source_sha256": "af053622ca48c5f0c645e06527e8cb53194a569e2d03abd76bb5d26c521cef0a",
+                "source_n": 456,
+                "source_side": 21.882183551474746,
+                "layers": 1,
+                "deleted": 0,
+                "border_corners": [
+                  "NE"
+                ],
+                "border_layout": "single-corner",
+                "side": 22.882183551476746
+              },
+              "source_sha256": "64097ec852b8a4c36e232ef3fdda5c7437c72147c8ef365570753a8bfa776a7e",
+              "allocation": "general",
+              "worker_slot": 3,
+              "host": "fran@192.168.0.200",
+              "started": 1792586213.526104,
+              "worker_details": {
+                "translations": false,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                "pool_size": 8,
+                "actual_method": "hop",
+                "fq_finish": {
+                  "n499_0": 22.881306218094718,
+                  "n499_1": 22.881306218094714
+                },
+                "winner": "n499_1+fq",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 22.881444226593082,
+                    "after": 22.881425967504967
+                  },
+                  {
+                    "name": "n499_0",
+                    "before": 22.881444226588705,
+                    "after": 22.881444226593082
+                  },
+                  {
+                    "name": "n499_1",
+                    "before": 22.881447356370863,
+                    "after": 22.881374262412994
+                  },
+                  {
+                    "name": "n499_2",
+                    "before": 22.88145067844142,
+                    "after": 22.88143624281401
+                  },
+                  {
+                    "name": "n499_3",
+                    "before": 22.881463078782254,
+                    "after": 22.88144114932706
+                  },
+                  {
+                    "name": "n499_4",
+                    "before": 22.8814857827135,
+                    "after": 22.88147327737396
+                  },
+                  {
+                    "name": "n499_5",
+                    "before": 22.881486826151747,
+                    "after": 22.881393319485657
+                  },
+                  {
+                    "name": "n499_6",
+                    "before": 22.881525261178226,
+                    "after": 22.881519966344797
+                  },
+                  {
+                    "name": "n499_7",
+                    "before": 22.88152963566328,
+                    "after": 22.881458627227463
+                  },
+                  {
+                    "name": "n499_0+fq",
+                    "before": 22.881306218098892,
+                    "after": 22.88130621810327
+                  },
+                  {
+                    "name": "n499_1+fq",
+                    "before": 22.881306218098885,
+                    "after": 22.881306218103262
+                  }
+                ]
+              }
+            }
+          },
+          "verified_audit": "experiments/record-check-20261022-0300",
+          "search_job": {
+            "id": 120446,
+            "n": 499,
+            "seed": 925120446,
+            "method": "hop",
+            "variant": true,
+            "radius": 0.02,
+            "iterations": 1000,
+            "hop_seconds": 240,
+            "slp_seconds": 120,
+            "source": "n456.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n456.txt",
+              "source_sha256": "9e7ecd63dac3b9408af2d927029933e0e52879d2c905076f719bc9e67a948fea",
+              "source_n": 456,
+              "source_side": 21.87542665140318,
+              "layers": 1,
+              "deleted": 0,
+              "border_corners": [
+                "NE"
+              ],
+              "border_layout": "single-corner",
+              "side": 22.87542665140518
+            },
+            "source_sha256": "d30cab8a02f4f36a2b63981fa675834841a0ee09227b4c77890177203d1efde3",
+            "allocation": "general",
+            "worker_slot": 4,
+            "host": "fran@192.168.0.200",
+            "started": 1792631627.079377,
+            "worker_details": {
+              "translations": true,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "hop",
+              "fq_finish": {
+                "n499_0": 22.87221902561203,
+                "n499_1": 22.872219025612058
+              },
+              "winner": "n499_0+fq",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 22.872609174472633,
+                  "after": 22.87238055259776
+                },
+                {
+                  "name": "n499_0",
+                  "before": 22.87260917446826,
+                  "after": 22.87243269689687
+                },
+                {
+                  "name": "n499_1",
+                  "before": 22.87273223713502,
+                  "after": 22.872385905328507
+                },
+                {
+                  "name": "n499_2",
+                  "before": 22.872789635355723,
+                  "after": 22.872432203090664
+                },
+                {
+                  "name": "n499_3",
+                  "before": 22.872793668322114,
+                  "after": 22.872793668326487
+                },
+                {
+                  "name": "n499_4",
+                  "before": 22.872813303430313,
+                  "after": 22.872489763069595
+                },
+                {
+                  "name": "n499_5",
+                  "before": 22.87285153365994,
+                  "after": 22.872851533664317
+                },
+                {
+                  "name": "n499_6",
+                  "before": 22.872870219139152,
+                  "after": 22.872486230385675
+                },
+                {
+                  "name": "n499_7",
+                  "before": 22.872884832540816,
+                  "after": 22.87288483254519
+                },
+                {
+                  "name": "n499_0+fq",
+                  "before": 22.8722190256162,
+                  "after": 22.872219025620577
+                },
+                {
+                  "name": "n499_1+fq",
+                  "before": 22.872219025616225,
+                  "after": 22.872219025620602
+                }
+              ]
+            }
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
       }
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

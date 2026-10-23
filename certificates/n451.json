@@ -1,0 +1,96 @@
+{
+  "n": 451,
+  "packing": "n451.txt",
+  "packing_sha256": "c682422060a569bcc79c7ec8bc2b8a15749fc931f006b1771b64706f1e6dc76d",
+  "certificate": "certificates/n451.cert",
+  "certificate_sha256": "ede609ba907a2ec997b9ee2e6a9e7b75034232dd5410dea029fa1e81cb70fe87",
+  "rational_side": "96066851499319381267768176733/4411152600914000000000000000",
+  "kind": "verified public reference certificate",
+  "origin": {
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "c237e9687836d0265d76447ee7434a8e5b1c1f730ef4efb00fe666665f9ac997",
+    "source_n": 410,
+    "source_provenance": {
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "0ec6f1dba07c9c7a7f4967f509b270a3",
+        "created": 1792655058.735998,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 20.778174593056075,
+          "method": "fq",
+          "n": 410,
+          "name": "franciscouzo",
+          "previous": 20.778174593056278,
+          "previous_holder": "this project",
+          "rational_side": "91655698898405381267768176733/4411152600914000000000000000",
+          "received": "20261022T074417Z",
+          "seed": "volunteer",
+          "sha256": "0fd1230a8313ab633a3b8bc9498f87a794ac762d8c62af4ab333b1e388d3cef5",
+          "side": 20.778174593056274
+        },
+        "packing_sha256": "0fd1230a8313ab633a3b8bc9498f87a794ac762d8c62af4ab333b1e388d3cef5"
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "94471653122979184069256010393/4546677221321500000000000000",
+        "source_n": 410,
+        "certificate": "certificates/parents/38be0d5c7bcda04b3982574fa268ab8a621032e27552d1cf4e9b6505af4bacd8.cert",
+        "certificate_sha256": "38be0d5c7bcda04b3982574fa268ab8a621032e27552d1cf4e9b6505af4bacd8",
+        "credit": "Francisco Couzo",
+        "provenance": {
+          "category": "local",
+          "construction_credit": []
+        },
+        "verification": {
+          "valid": true,
+          "n": 410,
+          "side": "94471653122979184069256010393/4546677221321500000000000000",
+          "pairs_tested": 5783
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "38be0d5c7bcda04b3982574fa268ab8a621032e27552d1cf4e9b6505af4bacd8",
+          "candidate_pairs": 5783,
+          "near_pairs": 779,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "Python Fraction"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo",
+        "source_certificate_sha256": "38be0d5c7bcda04b3982574fa268ab8a621032e27552d1cf4e9b6505af4bacd8",
+        "source_n": 410,
+        "source_provenance": {
+          "category": "local",
+          "construction_credit": []
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 410,
+      "source_bound": "91655698898405381267768176733/4411152600914000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 451,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n410.cert",
+    "reviewed_bound": "6490401802382731301/298023223876953125"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

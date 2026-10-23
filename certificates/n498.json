@@ -1,21 +1,87 @@
 {
   "n": 498,
   "packing": "n498.txt",
-  "packing_sha256": "6e205cb728a0bedc552a60e89faf757b993faab6be928c42d8f0ae2f86046b7b",
+  "packing_sha256": "870ab2abdcd2b348fc3428e42a75cb455469c9d9847ab1bd486d101ec2d1dc99",
   "certificate": "certificates/n498.cert",
-  "certificate_sha256": "207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585",
-  "rational_side": "8363897193568998249163868051/366380791275500000000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "8aebc4676db4eb6e1b36e385cc418e3b5ddf2f71ad726b6e870c3bf7bb404745",
+  "rational_side": "161023352684551053804460820191/7053633253163000000000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585",
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "8aebc4676db4eb6e1b36e385cc418e3b5ddf2f71ad726b6e870c3bf7bb404745",
     "source_n": 498,
     "source_provenance": {
-      "category": "ct105 task",
-      "construction_credit": []
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "aef274a57a94182c81426f568390ce6a",
+        "created": 1792682199.4989843,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 22.828427124750664,
+          "method": "fq",
+          "n": 498,
+          "name": "franciscouzo",
+          "previous": 22.8284271247509,
+          "previous_holder": "this project",
+          "rational_side": "161023352684551053804460820191/7053633253163000000000000000",
+          "received": "20261022T151639Z",
+          "seed": "volunteer",
+          "sha256": "a8d5da90e1dae81971dee8ac5d78a75cfda06350a641f69c12e4e984b8769430",
+          "side": 22.828427124750885
+        },
+        "packing_sha256": "a8d5da90e1dae81971dee8ac5d78a75cfda06350a641f69c12e4e984b8769430"
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "8363897193568998249163868051/366380791275500000000000000",
+        "source_n": 498,
+        "certificate": "certificates/parents/207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585.cert",
+        "certificate_sha256": "207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585",
+        "credit": "Francisco Couzo",
+        "provenance": {
+          "category": "ct105 task",
+          "construction_credit": []
+        },
+        "verification": {
+          "valid": true,
+          "n": 498,
+          "side": "8363897193568998249163868051/366380791275500000000000000",
+          "pairs_tested": 7176
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585",
+          "candidate_pairs": 7176,
+          "near_pairs": 1039,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "Python Fraction"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo",
+        "source_certificate_sha256": "207ce1d2bd399eb3570392cdbcde3557a480df823fae335d3d4b9e140dd9f585",
+        "source_n": 498,
+        "source_provenance": {
+          "category": "ct105 task",
+          "construction_credit": []
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n498.cert",
+    "reviewed_bound": "6803401447763780608/298023223876953125"
   },
   "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

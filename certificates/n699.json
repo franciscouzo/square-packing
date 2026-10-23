@@ -1,21 +1,87 @@
 {
   "n": 699,
   "packing": "n699.txt",
-  "packing_sha256": "cd6ea023eee7f4d15310f46db9026cff846a64a8e244d00a0f610b5355b0ae6a",
+  "packing_sha256": "60109d01dd25e571b13bd82eac599ad06fe434b10fe38a5f888dc25d28564623",
   "certificate": "certificates/n699.cert",
-  "certificate_sha256": "753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13",
-  "rational_side": "2639279110114456251093845068032514979091306618754176347383507942311619528429158431628215963/97933352184755025353856069228269529418330701801359119989360075707804482627984375000000000",
-  "kind": "verified source certificate",
+  "certificate_sha256": "682bb2997618df6ae5921bb661e0e793870c514cd76f35931209e273ff4f3dd8",
+  "rational_side": "24085860929867333708750560087/893732342323000000000000000",
+  "kind": "verified public reference certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13",
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "682bb2997618df6ae5921bb661e0e793870c514cd76f35931209e273ff4f3dd8",
     "source_n": 699,
     "source_provenance": {
-      "category": "ct105 task",
-      "construction_credit": []
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "69828653608179bf4e30ae3e4625c1b2",
+        "created": 1792645295.8120062,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 26.94974746831119,
+          "method": "fq",
+          "n": 699,
+          "name": "franciscouzo",
+          "previous": 26.949747468311468,
+          "previous_holder": "this project",
+          "rational_side": "24085860929867333708750560087/893732342323000000000000000",
+          "received": "20261022T050132Z",
+          "seed": "volunteer",
+          "sha256": "ac58f941a1c443d134e1c971e165ab6900cac6f4101ee7e7f07742c873123796",
+          "side": 26.949747468311454
+        },
+        "packing_sha256": "ac58f941a1c443d134e1c971e165ab6900cac6f4101ee7e7f07742c873123796"
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "2639279110114456251093845068032514979091306618754176347383507942311619528429158431628215963/97933352184755025353856069228269529418330701801359119989360075707804482627984375000000000",
+        "source_n": 699,
+        "certificate": "certificates/parents/753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13.cert",
+        "certificate_sha256": "753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13",
+        "credit": "Francisco Couzo",
+        "provenance": {
+          "category": "ct105 task",
+          "construction_credit": []
+        },
+        "verification": {
+          "valid": true,
+          "n": 699,
+          "side": "2639279110114456251093845068032514979091306618754176347383507942311619528429158431628215963/97933352184755025353856069228269529418330701801359119989360075707804482627984375000000000",
+          "pairs_tested": 10461
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13",
+          "candidate_pairs": 10461,
+          "near_pairs": 1622,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "Python Fraction"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo",
+        "source_certificate_sha256": "753693c62a28828d9388b1611dabc57099044287a9109ef6b9069ecc208aad13",
+        "source_n": 699,
+        "source_provenance": {
+          "category": "ct105 task",
+          "construction_credit": []
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n699.cert",
+    "reviewed_bound": "8031650623182329856/298023223876953125"
   },
   "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

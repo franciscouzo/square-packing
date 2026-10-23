@@ -11,16 +11,26 @@ ROUNDING = Q2(Fraction(1, 10**10))
 
 
 def our_credit(credit):
-    credit = credit.casefold().strip()
-    return (credit == 'franciscouzo' or credit.startswith('franciscouzo (')
+    credit = (credit or '').casefold().strip()
+    return (credit == 'this project' or credit.startswith('this repository;')
+            or credit == 'franciscouzo' or credit.startswith(('franciscouzo (', 'franciscouzo;'))
             or credit == 'francisco couzo' or credit.startswith('francisco couzo;')
             or credit.startswith('francisco couzo ('))
 
 
 def classification(metadata, public, registered):
-    """Only a strict improvement is an active record, regardless of credit."""
+    """Publication of our own witness must not retire the record we hold.
+
+    Ownership comes from the best public comparison, never from a superseded
+    local claim or an older registration credit.
+    """
     ours = Q2(Fraction(metadata['rational_side']))
     other = exact_value(public)
+    if other < ours:
+        return None
+    if our_credit(public.get('credit')):
+        return ('Refinement of our published record' if ours < other
+                else 'Published record held by this project')
     if ours < other - ROUNDING:
         return 'Improvement over public bound'
     return None
@@ -43,7 +53,11 @@ def public_comparison(n, public, known):
                          ', '.join(entry.get('register_found_by') or []),
                          source=external.get('request', '') if external else
                          f'https://jlevy.github.io/squares/cases/{n}.html')
-        if best is None or exact_value(candidate) < exact_value(best) - ROUNDING:
+        # Exact certificates take precedence even for a tiny gain. Register
+        # display decimals can round below their certificate, so retain the
+        # reporting tolerance only for those approximate comparisons.
+        margin = Q2(0) if external else ROUNDING
+        if best is None or exact_value(candidate) < exact_value(best) - margin:
             best = candidate
     return best
 
@@ -71,11 +85,14 @@ def catalogue(root=Path('.')):
 def render(records, context):
     lines = [START, '', '## Current records', '',
              f'Reviewed {context["date"]}: **{len(records)} counts** — '
-             'strict improvements over the reviewed public bound.', '',
+             'published records held by this project and improvements over the reviewed public bound.', '',
              'Each n opens its packing. Certified sides and public comparisons are rounded upward to '
-             '12 decimal places. A difference within `1e-10` is treated as rounding; '
-             'ties and worse bounds are excluded even when earlier record credit is retained. '
-             'Construction, seed and certificate credits are linked for each packing.', '',
+             '12 decimal places. Matching our own published bound retains the record and its credit; '
+             'a stronger public bound supersedes it. Matching another author’s record does not claim ownership. '
+             'Construction, seed and certificate credits are linked for each packing. '
+             'Updates to our own packings have no minimum gain: their exact certified bound '
+             'must strictly decrease. The `1e-10` reporting tolerance applies only to claims of '
+             'new improvements over another author’s public bound.', '',
              '| n | certified side s | reviewed public bound | standing | credits |',
              '|---:|---:|---:|---|---|']
     for n, row in sorted(records.items()):

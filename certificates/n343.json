@@ -1,35 +1,182 @@
 {
   "n": 343,
   "packing": "n343.txt",
-  "packing_sha256": "405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb",
+  "packing_sha256": "6c3861e13d6826867dafe51a6505106267d5bfbc8e58264dc2f34498dcacbd64",
   "certificate": "certificates/n343.cert",
-  "certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
-  "rational_side": "3993049794861220561760624561/210408851936750000000000000",
+  "certificate_sha256": "f22f72cd6a3a986493e1822c26b61713bb67c5ca612b8b85b1b3ab5d7f2c6948",
+  "rational_side": "7328385375504570194571662153/386160261611500000000000000",
   "kind": "verified source certificate",
   "origin": {
     "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+    "source_certificate_sha256": "f22f72cd6a3a986493e1822c26b61713bb67c5ca612b8b85b1b3ab5d7f2c6948",
     "source_n": 343,
     "source_provenance": {
-      "category": "CT105 web submission",
-      "audit_source": "web search",
-      "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
-      "audit_origin": {
-        "created": 1792606563.7930021,
-        "name": "franciscouzo",
-        "method": "fq"
+      "category": "Desktopo / shared store",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "a54e9281b7454072be79c5c8542e1901",
+        "created": 1792645195.9320009,
+        "record": {
+          "n": 343,
+          "side": 18.977575126249935,
+          "rational_side": "7328385375504570194571662153/386160261611500000000000000",
+          "dilation": "1+1e-14",
+          "float_side": 18.977575126249754,
+          "previous": 18.9775751262668,
+          "previous_holder": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+          "seed": "canonical snapshot",
+          "method": "fq",
+          "attribution": "Francisco Couzo",
+          "email_public": false,
+          "received": "20261022T045955Z",
+          "sha256": "1f72a890d92a44786dedb7e098422a09b8a6259443cbe5dd9fdf85a3e7d48d23",
+          "native_job": {
+            "allocation": "general",
+            "constructed_seed": null,
+            "focus_targets": {
+              "counts": 560,
+              "rotation": 2159,
+              "schedule": "web"
+            },
+            "hop_seconds": 360,
+            "host": "fran@192.168.0.200",
+            "id": 120970,
+            "iterations": 1000,
+            "method": "fq",
+            "n": 343,
+            "pool_gap": 0.02,
+            "pool_size": 8,
+            "provenance": {
+              "seed_certificate": {
+                "kind": "central immutable seed",
+                "packing_sha256": "405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb",
+                "rational_side": "3993049794861220561760624561/210408851936750000000000000",
+                "seed_url": "/api/seeds/405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb.txt"
+              },
+              "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance"
+            },
+            "radius": 0.001,
+            "range_group": "focus",
+            "seed": 925120970,
+            "slp_seconds": 120,
+            "source": "experiments/packing-cache/seeds/405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb.txt",
+            "source_origin": "central store",
+            "source_sha256": "405328d029b08a41656ff47b10f815552a0946d855d639a9e9e59f84f8f8edbb",
+            "started": 1792644810.2095602,
+            "variant": true,
+            "worker_details": {
+              "accepted": 4,
+              "actual_method": "fq",
+              "best": 18.977575126249008,
+              "external_method": "fq",
+              "fq_finish": {
+                "fq_best": 18.977575126248997
+              },
+              "pool_size": 8,
+              "proposals": 15,
+              "refinement_candidates": [
+                {
+                  "after": 18.977575126249803,
+                  "before": 18.977575126277586,
+                  "name": "incumbent"
+                },
+                {
+                  "after": 18.977575126249754,
+                  "before": 18.9775751262524,
+                  "name": "fq_best"
+                },
+                {
+                  "after": 18.97757512625069,
+                  "before": 18.97757512625239,
+                  "name": "fq_best+fq"
+                }
+              ],
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "seed_squares": 343,
+              "start": 18.977575126270395,
+              "translations": true,
+              "winner": "fq_best",
+              "worker_sha256": "745b457cd363f9db6447fc91fc1d8592c28a94bd3c5f93542e23f5add3bc95af"
+            },
+            "worker_slot": 1
+          },
+          "name": "Francisco Couzo"
+        },
+        "packing_sha256": "1f72a890d92a44786dedb7e098422a09b8a6259443cbe5dd9fdf85a3e7d48d23"
       },
-      "prior_source_credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
-      "prior_source_provenance": {
-        "category": "reviewed public submission",
-        "source_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
-        "request": "https://github.com/jlevy/squares/issues/702",
-        "received": "2026-10-20",
-        "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo"
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "3993049794861220561760624561/210408851936750000000000000",
+        "source_n": 343,
+        "certificate": "certificates/parents/dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d.cert",
+        "certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+        "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "CT105 web submission",
+          "audit_source": "web search",
+          "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+          "audit_origin": {
+            "created": 1792606563.7930021,
+            "name": "franciscouzo",
+            "method": "fq"
+          },
+          "prior_source_credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
+          "prior_source_provenance": {
+            "category": "reviewed public submission",
+            "source_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
+            "request": "https://github.com/jlevy/squares/issues/702",
+            "received": "2026-10-20",
+            "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo"
+          },
+          "verified_audit": "experiments/record-check-20261021"
+        },
+        "verification": {
+          "n": 343,
+          "side": "3993049794861220561760624561/210408851936750000000000000",
+          "valid": true,
+          "pairs_tested": 4823,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+          "candidate_pairs": 4823,
+          "near_pairs": 792,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
       },
-      "verified_audit": "experiments/record-check-20261021"
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+        "source_n": 343,
+        "source_provenance": {
+          "category": "CT105 web submission",
+          "audit_source": "web search",
+          "source_certificate_sha256": "dc0dab6a650a125231fb5945d378b2e02f27b74ea2169425bde71a04e57efc9d",
+          "audit_origin": {
+            "created": 1792606563.7930021,
+            "name": "franciscouzo",
+            "method": "fq"
+          },
+          "prior_source_credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo",
+          "prior_source_provenance": {
+            "category": "reviewed public submission",
+            "source_url": "https://github.com/evand/square-packing/blob/88385ab/search/packer/candidates/s343_sw.cert",
+            "request": "https://github.com/jlevy/squares/issues/702",
+            "received": "2026-10-20",
+            "credit": "Evan Daniel; construction: Kevin Fang (two-wedge family); earlier refinement: Francisco Couzo"
+          },
+          "verified_audit": "experiments/record-check-20261021"
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

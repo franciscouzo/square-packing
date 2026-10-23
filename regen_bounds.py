@@ -74,6 +74,14 @@ def scalar(bound):
         return approximation(bound)
 
 
+def bound_less(left, right):
+    """Preserve exact gains; legacy register expressions use display values."""
+    try:
+        return exact_value(left) < exact_value(right)
+    except ValueError:
+        return scalar(left['bound']) < scalar(right['bound'])
+
+
 def render(max_n=None):
     known = json.loads((ROOT/'known_best.json').read_text())
     if max_n is None:
@@ -144,14 +152,18 @@ def render(max_n=None):
         if n in certificates:
             certificate = certificates[n]
             verified.append({'bound': certificate['rational_side'], 'source': certificate['certificate'],
-                'status': 'exact certificate verified', 'credit': 'this repository; source credit in certificate metadata',
+                'status': 'exact certificate verified',
+                'credit': certificate.get('origin', {}).get('seed_credit') or 'this repository; source credit in certificate metadata',
                 'sha256': certificate['certificate_sha256']})
         if str(n) in catalogue:
             verified.append(catalogue[str(n)])
         if str(n) in classical:
             verified.append(classical[str(n)])
         best_verified = min(verified, key=exact_value)
-        best_reported = min([*reported, *verified], key=lambda item: scalar(item['bound']))
+        best_reported = reported[0]
+        for candidate in [*reported[1:], *verified]:
+            if bound_less(candidate, best_reported):
+                best_reported = candidate
         entries[str(n)] = {'verified': dict(best_verified, rounded_up=exact_value(best_verified).rounded_up()),
                           'reported': best_reported}
     # Removing squares from a witness preserves feasibility. Propagate a
@@ -170,7 +182,7 @@ def render(max_n=None):
                       if inherited.get('exact_bound') else 'verified by deletion from an exact certificate')
             inherited.update(source_n=source_n, deleted_squares=source_n-n, status=status)
             current['verified'] = inherited
-            if scalar(inherited['bound']) < scalar(current['reported']['bound']):
+            if bound_less(inherited, current['reported']):
                 current['reported'] = dict(inherited)
     return {'generated': datetime.now(timezone.utc).isoformat(), 'max_n': max_n,
             'note': 'Each count has an unconditional grid upper bound. Exact rational certificates and algebraic Göbel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.',

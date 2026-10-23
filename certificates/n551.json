@@ -1,0 +1,312 @@
+{
+  "n": 551,
+  "packing": "n551.txt",
+  "packing_sha256": "acc1c21709306c2cb1bb3856a1742e8bef848cc050315233588abe776cb4f355",
+  "certificate": "certificates/n551.cert",
+  "certificate_sha256": "9fce476d4130165725080e7b636e58ab99c34dd64912dda29867cd5820b58203",
+  "rational_side": "206163443809523492812562001479/8602734511717000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "9fce476d4130165725080e7b636e58ab99c34dd64912dda29867cd5820b58203",
+    "source_n": 551,
+    "source_provenance": {
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "01753cacc80c88b0a5892586fae5f70d",
+        "created": 1792690242.3449993,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 23.964873439802783,
+          "method": "fq",
+          "n": 551,
+          "name": "franciscouzo",
+          "previous": 23.964918052618145,
+          "previous_holder": "this project",
+          "rational_side": "206163443809523492812562001479/8602734511717000000000000000",
+          "received": "20261022T173040Z",
+          "seed": "volunteer",
+          "sha256": "c5642cc2bf61126e2e7fe81c3e6cfc865f125c88b7c657352d748c6d0da9e040",
+          "side": 23.964873439803014
+        },
+        "packing_sha256": "c5642cc2bf61126e2e7fe81c3e6cfc865f125c88b7c657352d748c6d0da9e040"
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "29100177144557378859374826029/1214239661954200000000000000",
+        "source_n": 551,
+        "certificate": "certificates/parents/7c67b9a2af5f69a4c31381289d8029a4b8eab2b31fd7db3e83501929938c717c.cert",
+        "certificate_sha256": "7c67b9a2af5f69a4c31381289d8029a4b8eab2b31fd7db3e83501929938c717c",
+        "credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "native search",
+          "packing_sha256": "db139b9f3d28375841154301ae38aa79641da8001a329d0a8a29945524c94c0d",
+          "search_job": {
+            "id": 120710,
+            "n": 551,
+            "seed": 925120710,
+            "method": "hop",
+            "variant": true,
+            "radius": 0.01,
+            "iterations": 1000,
+            "hop_seconds": 240,
+            "slp_seconds": 120,
+            "source": "records/n551.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "records/n551.txt",
+              "source_sha256": "ef72429de8f326804752a049977216009f0e30a593cd161da4a54988af56f309",
+              "source_n": 551,
+              "source_side": 23.965801641977656,
+              "layers": 0,
+              "deleted": 0,
+              "border_corners": [],
+              "border_layout": "single-corner",
+              "side": 23.965801641977656
+            },
+            "source_sha256": "ef72429de8f326804752a049977216009f0e30a593cd161da4a54988af56f309",
+            "allocation": "general",
+            "worker_slot": 11,
+            "host": "fran@192.168.0.200",
+            "started": 1792638274.926084,
+            "worker_details": {
+              "translations": true,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "hop",
+              "fq_finish": {
+                "n551_0": 23.965760678342775
+              },
+              "winner": "n551_0+fq",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 23.96580164198685,
+                  "after": 23.965801641991447
+                },
+                {
+                  "name": "n551_0",
+                  "before": 23.967339735883968,
+                  "after": 23.966507698937253
+                },
+                {
+                  "name": "n551_1",
+                  "before": 23.96735127919827,
+                  "after": 23.966562853312322
+                },
+                {
+                  "name": "n551_2",
+                  "before": 23.967483062723304,
+                  "after": 23.966618241326216
+                },
+                {
+                  "name": "n551_3",
+                  "before": 23.968073613758172,
+                  "after": 23.968073613762765
+                },
+                {
+                  "name": "n551_4",
+                  "before": 23.96877901600242,
+                  "after": 23.968779016007016
+                },
+                {
+                  "name": "n551_5",
+                  "before": 23.970023189329844,
+                  "after": 23.968908531960587
+                },
+                {
+                  "name": "n551_6",
+                  "before": 23.970118345811166,
+                  "after": 23.96935161049142
+                },
+                {
+                  "name": "n551_7",
+                  "before": 23.970298515651912,
+                  "after": 23.9695182920518
+                },
+                {
+                  "name": "n551_0+fq",
+                  "before": 23.965760678347166,
+                  "after": 23.96576067835176
+                }
+              ]
+            }
+          },
+          "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+          "seed_certificate": {
+            "source_url": "https://github.com/jlevy/squares/issues/686",
+            "certificate": "certificates/parents/57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc.cert",
+            "certificate_sha256": "57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc",
+            "bound": "23965801641974268801641950303/1000000000000000000000000000",
+            "source_n": 551,
+            "source": "reviewed best available finite reference",
+            "sha256": "57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc",
+            "side": "23965801641974268801641950303/1000000000000000000000000000",
+            "request": "https://github.com/jlevy/squares/issues/686"
+          },
+          "previous_record_origin": null,
+          "native_acceptance_receipt": "found/n551_s23.965760678352.certificate.json"
+        },
+        "verification": {
+          "n": 551,
+          "side": "29100177144557378859374826029/1214239661954200000000000000",
+          "valid": true,
+          "pairs_tested": 8214,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": false,
+          "closed_valid": true,
+          "sha256": "7c67b9a2af5f69a4c31381289d8029a4b8eab2b31fd7db3e83501929938c717c",
+          "candidate_pairs": 8214,
+          "near_pairs": 1237,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "7c67b9a2af5f69a4c31381289d8029a4b8eab2b31fd7db3e83501929938c717c",
+        "source_n": 551,
+        "source_provenance": {
+          "category": "native search",
+          "packing_sha256": "db139b9f3d28375841154301ae38aa79641da8001a329d0a8a29945524c94c0d",
+          "search_job": {
+            "id": 120710,
+            "n": 551,
+            "seed": 925120710,
+            "method": "hop",
+            "variant": true,
+            "radius": 0.01,
+            "iterations": 1000,
+            "hop_seconds": 240,
+            "slp_seconds": 120,
+            "source": "records/n551.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 8,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "records/n551.txt",
+              "source_sha256": "ef72429de8f326804752a049977216009f0e30a593cd161da4a54988af56f309",
+              "source_n": 551,
+              "source_side": 23.965801641977656,
+              "layers": 0,
+              "deleted": 0,
+              "border_corners": [],
+              "border_layout": "single-corner",
+              "side": 23.965801641977656
+            },
+            "source_sha256": "ef72429de8f326804752a049977216009f0e30a593cd161da4a54988af56f309",
+            "allocation": "general",
+            "worker_slot": 11,
+            "host": "fran@192.168.0.200",
+            "started": 1792638274.926084,
+            "worker_details": {
+              "translations": true,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+              "pool_size": 8,
+              "actual_method": "hop",
+              "fq_finish": {
+                "n551_0": 23.965760678342775
+              },
+              "winner": "n551_0+fq",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 23.96580164198685,
+                  "after": 23.965801641991447
+                },
+                {
+                  "name": "n551_0",
+                  "before": 23.967339735883968,
+                  "after": 23.966507698937253
+                },
+                {
+                  "name": "n551_1",
+                  "before": 23.96735127919827,
+                  "after": 23.966562853312322
+                },
+                {
+                  "name": "n551_2",
+                  "before": 23.967483062723304,
+                  "after": 23.966618241326216
+                },
+                {
+                  "name": "n551_3",
+                  "before": 23.968073613758172,
+                  "after": 23.968073613762765
+                },
+                {
+                  "name": "n551_4",
+                  "before": 23.96877901600242,
+                  "after": 23.968779016007016
+                },
+                {
+                  "name": "n551_5",
+                  "before": 23.970023189329844,
+                  "after": 23.968908531960587
+                },
+                {
+                  "name": "n551_6",
+                  "before": 23.970118345811166,
+                  "after": 23.96935161049142
+                },
+                {
+                  "name": "n551_7",
+                  "before": 23.970298515651912,
+                  "after": 23.9695182920518
+                },
+                {
+                  "name": "n551_0+fq",
+                  "before": 23.965760678347166,
+                  "after": 23.96576067835176
+                }
+              ]
+            }
+          },
+          "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+          "seed_certificate": {
+            "source_url": "https://github.com/jlevy/squares/issues/686",
+            "certificate": "certificates/parents/57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc.cert",
+            "certificate_sha256": "57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc",
+            "bound": "23965801641974268801641950303/1000000000000000000000000000",
+            "source_n": 551,
+            "source": "reviewed best available finite reference",
+            "sha256": "57cb7ad2adbf8888cabe1662b99193c9a9bc9be7fbdb37a59cad3ed0e931abcc",
+            "side": "23965801641974268801641950303/1000000000000000000000000000",
+            "request": "https://github.com/jlevy/squares/issues/686"
+          },
+          "previous_record_origin": null,
+          "native_acceptance_receipt": "found/n551_s23.965760678352.certificate.json"
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

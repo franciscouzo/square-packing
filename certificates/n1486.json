@@ -1,0 +1,32 @@
+{
+  "n": 1486,
+  "packing": "n1486.txt",
+  "packing_sha256": "4d6cdf7654d9a21ae1a67e30259fb6555b249003b0d62ba1b869d2d815936973",
+  "certificate": "certificates/n1486.cert",
+  "certificate_sha256": "36add1a6388cd4895bb68b9e4e139d12d072a2b5a968d5307fa5a18232e6adc2",
+  "rational_side": "4235477124275102347031803538168655964408914858790200769/108611527834200000000000001086115278342000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "36add1a6388cd4895bb68b9e4e139d12d072a2b5a968d5307fa5a18232e6adc2",
+    "source_n": 1486,
+    "source_provenance": {
+      "category": "ct105 certificate",
+      "audit_source": "ct105 certificate",
+      "source_certificate_sha256": "36add1a6388cd4895bb68b9e4e139d12d072a2b5a968d5307fa5a18232e6adc2",
+      "audit_origin": {
+        "path": "/var/lib/square-packing/accepted/f725dedf7fcd7055dceafd73c0081743.cert"
+      },
+      "prior_source_credit": "Kevin Fang and credited original pieces",
+      "prior_source_provenance": {
+        "category": "reviewed reference certificate",
+        "source_url": "https://github.com/TheSnakeFang/squarepack-certs/blob/0e9be7961773aa78b879c4ee6ba584a67e2e5513/theorem/best/n039_j4.cert",
+        "construction_credit": null
+      },
+      "verified_audit": "experiments/record-check-20261022-0300"
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

@@ -1,0 +1,61 @@
+{
+  "n": 2454,
+  "packing": "n2454.txt",
+  "packing_sha256": "3f03bc9065113546f9c74dcdb62f83f8a65d061e9b794f5ec4e2205c022df928",
+  "certificate": "certificates/n2454.cert",
+  "certificate_sha256": "b473f728908baf33fe3fba7a8739eb62254928e3ef16e39a074418f4a0063fa2",
+  "rational_side": "313795833339834382850125183452592963765751370724733740097837/6277101735386680763835789423207666416102355444464034512896",
+  "kind": "verified public reference certificate",
+  "origin": {
+    "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "88876a19957e9a95827774558bb5782490f10a9fcd8e6df7ec9f4d55a61cddb5",
+    "source_n": 2357,
+    "source_provenance": {
+      "category": "Mishapolk public certificate",
+      "source_provenance": {
+        "category": "public submission",
+        "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/2000-2999/n2357.cert",
+        "source_file": "certificates/2000-2999/n2357.cert",
+        "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+        "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+      },
+      "previous_source": {
+        "certificate": "certificates/parents/97142f9944f480a473a42f0c33964a17f0626722ac6d980f3a3e47ca9a91c58d.cert",
+        "certificate_sha256": "97142f9944f480a473a42f0c33964a17f0626722ac6d980f3a3e47ca9a91c58d",
+        "credit": "Francisco Couzo (assembly/refinement); source construction credits retained below",
+        "verification": {
+          "n": 2358,
+          "side": "439566629382975595140202211/8971489180334000000000000",
+          "valid": true,
+          "pairs_tested": 38040,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "n": 2357,
+        "kind": "certificate",
+        "bound": "439566629382975595140202211/8971489180334000000000000",
+        "source_n": 2358,
+        "deleted_squares": 1,
+        "rounded_up": "48.995949339886"
+      },
+      "previous_reference": null
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 2357,
+      "source_bound": "307518731604447702086289394029385297349649015280269705584941/6277101735386680763835789423207666416102355444464034512896",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 2454,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/2000-2999/n2357.cert",
+    "reviewed_bound": "313795833339834382850125183452592963765751370724733740097837/6277101735386680763835789423207666416102355444464034512896"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

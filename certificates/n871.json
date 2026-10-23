@@ -1,33 +1,317 @@
 {
   "n": 871,
   "packing": "n871.txt",
-  "packing_sha256": "2ed21c1039e43a425eb5d12378f1bc3073ffc98884be132fe0b56d526e36de2f",
+  "packing_sha256": "a3400b72e5347976399dec752926e92f103df828ad38ad2e3a664589e801a961",
   "certificate": "certificates/n871.cert",
-  "certificate_sha256": "0632b93fcb6f9aa6acb458f2a441c0f1d311d173e607a9bb03d50a0dcee17b25",
-  "rational_side": "208951391346767060697725766410549021429/6969391645614418149003386750000000000",
+  "certificate_sha256": "81655bb41627b31c2383aeaab0388d5ec420c6d80c66b69250ea25f19ab1f793",
+  "rational_side": "25986632405984951198457879709/866786618013800000000000000",
   "kind": "verified source certificate",
   "origin": {
     "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "0632b93fcb6f9aa6acb458f2a441c0f1d311d173e607a9bb03d50a0dcee17b25",
+    "source_certificate_sha256": "81655bb41627b31c2383aeaab0388d5ec420c6d80c66b69250ea25f19ab1f793",
     "source_n": 871,
     "source_provenance": {
-      "category": "native search",
-      "audit_source": "Desktopo / native search",
-      "source_certificate_sha256": "0632b93fcb6f9aa6acb458f2a441c0f1d311d173e607a9bb03d50a0dcee17b25",
+      "category": "local recovered candidate",
+      "audit_source": "local recovered candidate",
+      "source_certificate_sha256": "81655bb41627b31c2383aeaab0388d5ec420c6d80c66b69250ea25f19ab1f793",
       "audit_origin": {
-        "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n871.txt",
-        "packing_sha256": "29de7243cbaf1f5d9dea881af7d1aa6ae6739863ea917074c7dad9cfaf66d30c",
+        "source": "/root/square-packing/experiments/record-check-20261021-2334/native-packing/n871.txt",
+        "job": {},
+        "packing_sha256": "b1eaf9fbcbd09f8359abf370ae64cd5b84ca206405a57860d11b2e0dbd35d3ab"
+      },
+      "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+      "prior_source_provenance": {
+        "category": "native search",
+        "audit_source": "Desktopo / native search",
+        "source_certificate_sha256": "1ab9168c19a5bde360dca963d75e3187eae6ecd7b27b092e6faed4eb5efa4330",
+        "audit_origin": {
+          "packing": "/root/square-packing/experiments/record-check-20261021-2334/native-packing/n871.txt",
+          "packing_sha256": "f5db4fd34d6c15168d37b6d01d38d0fecec8ed1e759f624e8effc65a284f2c65",
+          "search_job": {
+            "id": 120020,
+            "n": 871,
+            "seed": 925120020,
+            "method": "slp",
+            "variant": false,
+            "radius": 0.05,
+            "iterations": 1000,
+            "hop_seconds": 0,
+            "slp_seconds": 120,
+            "source": "n871.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 0,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n871.txt",
+              "source_sha256": "2ed21c1039e43a425eb5d12378f1bc3073ffc98884be132fe0b56d526e36de2f",
+              "source_n": 871,
+              "source_side": 29.98129563837798,
+              "layers": 0,
+              "deleted": 0,
+              "border_corners": [],
+              "border_layout": "single-corner",
+              "side": 29.98129563837798
+            },
+            "source_sha256": "2ed21c1039e43a425eb5d12378f1bc3073ffc98884be132fe0b56d526e36de2f",
+            "allocation": "general",
+            "worker_slot": 6,
+            "host": "fran@192.168.0.200",
+            "started": 1792620604.5631182,
+            "worker_details": {
+              "translations": true,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+              "pool_size": 0,
+              "actual_method": "slp",
+              "fq_finish": {},
+              "winner": "incumbent",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 29.981295638389575,
+                  "after": 29.980426400135052
+                }
+              ]
+            }
+          }
+        },
+        "prior_source_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+        "prior_source_provenance": {
+          "category": "native search",
+          "audit_source": "Desktopo / native search",
+          "source_certificate_sha256": "0632b93fcb6f9aa6acb458f2a441c0f1d311d173e607a9bb03d50a0dcee17b25",
+          "audit_origin": {
+            "packing": "/root/square-packing/experiments/record-check-20261021/native-packing/n871.txt",
+            "packing_sha256": "29de7243cbaf1f5d9dea881af7d1aa6ae6739863ea917074c7dad9cfaf66d30c",
+            "search_job": {
+              "id": 119397,
+              "n": 871,
+              "seed": 925119397,
+              "method": "slp",
+              "variant": true,
+              "radius": 0.02,
+              "iterations": 1000,
+              "hop_seconds": 0,
+              "slp_seconds": 120,
+              "source": "n814.txt",
+              "source_origin": "constructed",
+              "range_group": "focus",
+              "focus_targets": {
+                "schedule": "web",
+                "counts": 560,
+                "rotation": 2159
+              },
+              "pool_size": 0,
+              "pool_gap": 0.02,
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n814.txt",
+                "source_sha256": "5d3c7c7fe5c6707d7e1d551bbe766c610dc5067a07e34868270d8d55794be17c",
+                "source_n": 814,
+                "source_side": 28.981388186394838,
+                "layers": 1,
+                "deleted": 0,
+                "border_corners": [
+                  "NE"
+                ],
+                "border_layout": "single-corner",
+                "side": 29.98138818639684
+              },
+              "source_sha256": "36c66bf69b119b207c5892b39832c376e69824750a447220479a317c3c76b0e9",
+              "allocation": "general",
+              "worker_slot": 7,
+              "host": "fran@192.168.0.200",
+              "started": 1792605002.2788548,
+              "worker_details": {
+                "translations": false,
+                "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+                "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+                "pool_size": 0,
+                "actual_method": "slp",
+                "fq_finish": {},
+                "winner": "incumbent",
+                "refinement_candidates": [
+                  {
+                    "name": "incumbent",
+                    "before": 29.981388186408434,
+                    "after": 29.981295638343326
+                  }
+                ]
+              }
+            }
+          },
+          "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+          "prior_source_provenance": {
+            "category": "public submission",
+            "source_url": "https://github.com/jlevy/squares/issues/686",
+            "source_provenance": {
+              "n": 871,
+              "parent_n": 814,
+              "side": "936924818037039599636071299674818035197/31250000000000000000000000000000000000",
+              "layers": 1,
+              "full_count": 871,
+              "deleted": 0,
+              "previous_side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
+              "previously_registered": true,
+              "parent": {
+                "n": 814,
+                "side": "905674818036102674818035197/31250000000000000000000000",
+                "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
+                "geometry": "witnesses/square-814/geometry.cert"
+              },
+              "certificate": {
+                "valid": true,
+                "n": 871,
+                "side": "936924818037039599636071299674818035197/31250000000000000000000000000000000000",
+                "side_float": 29.98159417718527,
+                "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
+                "checks": [
+                  "rational separating axes",
+                  "rational polygon intersection"
+                ]
+              },
+              "previous_provenance": {
+                "n": 871,
+                "parent_n": 814,
+                "side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
+                "layers": 1,
+                "full_count": 871,
+                "deleted": 0,
+                "previous_side": "43798576465715337981181619/1460595284054000000000000",
+                "previously_registered": false,
+                "parent": {
+                  "n": 814,
+                  "side": "2898219062534669219062531771/100000000000000000000000000",
+                  "sha256": "fbf6564ebfe872c5efabfb8e893cfff68d3ccf9dcc0ebc1364724ed61005698f",
+                  "geometry": "witnesses/square-814/geometry.cert"
+                },
+                "certificate": {
+                  "valid": true,
+                  "n": 871,
+                  "side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
+                  "side_float": 29.982190625376674,
+                  "sha256": "08514dae1b02895ca8b3fdcdd24bdf116a39e9b62061af7ab8fc43c3c00468e2",
+                  "checks": [
+                    "rational separating axes",
+                    "rational polygon intersection"
+                  ]
+                },
+                "previous_provenance": null,
+                "classification": "Dependent exact deletion/border consequence",
+                "recognition": "unconfirmed"
+              },
+              "classification": "Dependent exact deletion/border consequence",
+              "recognition": "unconfirmed"
+            },
+            "construction": null,
+            "original_seed_credit": null,
+            "source_packing_sha256": null,
+            "previous_seed_credit": {
+              "web_seed": {
+                "id": "9b5d52194b7f74444f741f6af98d8225",
+                "n": 871,
+                "side": 29.989568689184708,
+                "method": "hop",
+                "received": "20261014T145854Z",
+                "original_packing_sha256": "6adc43b78f8b77b31c4699762e8784c52e93c8d21b2fe21dd1e0c8744ac77753"
+              },
+              "search_job": {
+                "id": 106803,
+                "method": "fq",
+                "source": "n871.txt",
+                "source_origin": "constructed",
+                "source_sha256": "75dd1549f291aeeda72e8b401274069cc69f732dcf6c944b336b45916cddda33",
+                "constructed_seed": {
+                  "construction": "L-border and deletion",
+                  "source": "n871.txt",
+                  "source_sha256": "1ba4cf2172a70c179970e8e617c5978684b82eefeebf147c930214e6b140edca",
+                  "source_n": 871,
+                  "source_side": 29.98932907676408,
+                  "layers": 0,
+                  "deleted": 0,
+                  "side": 29.98932907676408
+                }
+              }
+            },
+            "received": "2026-10-19T20:43:04Z"
+          },
+          "verified_audit": "experiments/record-check-20261021",
+          "search_job": {
+            "id": 119397,
+            "n": 871,
+            "seed": 925119397,
+            "method": "slp",
+            "variant": true,
+            "radius": 0.02,
+            "iterations": 1000,
+            "hop_seconds": 0,
+            "slp_seconds": 120,
+            "source": "n814.txt",
+            "source_origin": "constructed",
+            "range_group": "focus",
+            "focus_targets": {
+              "schedule": "web",
+              "counts": 560,
+              "rotation": 2159
+            },
+            "pool_size": 0,
+            "pool_gap": 0.02,
+            "constructed_seed": {
+              "construction": "L-border and deletion",
+              "source": "n814.txt",
+              "source_sha256": "5d3c7c7fe5c6707d7e1d551bbe766c610dc5067a07e34868270d8d55794be17c",
+              "source_n": 814,
+              "source_side": 28.981388186394838,
+              "layers": 1,
+              "deleted": 0,
+              "border_corners": [
+                "NE"
+              ],
+              "border_layout": "single-corner",
+              "side": 29.98138818639684
+            },
+            "source_sha256": "36c66bf69b119b207c5892b39832c376e69824750a447220479a317c3c76b0e9",
+            "allocation": "general",
+            "worker_slot": 7,
+            "host": "fran@192.168.0.200",
+            "started": 1792605002.2788548,
+            "worker_details": {
+              "translations": false,
+              "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+              "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
+              "pool_size": 0,
+              "actual_method": "slp",
+              "fq_finish": {},
+              "winner": "incumbent",
+              "refinement_candidates": [
+                {
+                  "name": "incumbent",
+                  "before": 29.981388186408434,
+                  "after": 29.981295638343326
+                }
+              ]
+            }
+          }
+        },
+        "verified_audit": "experiments/record-check-20261021-2334",
         "search_job": {
-          "id": 119397,
+          "id": 120020,
           "n": 871,
-          "seed": 925119397,
+          "seed": 925120020,
           "method": "slp",
-          "variant": true,
-          "radius": 0.02,
+          "variant": false,
+          "radius": 0.05,
           "iterations": 1000,
           "hop_seconds": 0,
           "slp_seconds": 120,
-          "source": "n814.txt",
+          "source": "n871.txt",
           "source_origin": "constructed",
           "range_group": "focus",
           "focus_targets": {
@@ -39,25 +323,23 @@
           "pool_gap": 0.02,
           "constructed_seed": {
             "construction": "L-border and deletion",
-            "source": "n814.txt",
-            "source_sha256": "5d3c7c7fe5c6707d7e1d551bbe766c610dc5067a07e34868270d8d55794be17c",
-            "source_n": 814,
-            "source_side": 28.981388186394838,
-            "layers": 1,
+            "source": "n871.txt",
+            "source_sha256": "2ed21c1039e43a425eb5d12378f1bc3073ffc98884be132fe0b56d526e36de2f",
+            "source_n": 871,
+            "source_side": 29.98129563837798,
+            "layers": 0,
             "deleted": 0,
-            "border_corners": [
-              "NE"
-            ],
+            "border_corners": [],
             "border_layout": "single-corner",
-            "side": 29.98138818639684
+            "side": 29.98129563837798
           },
-          "source_sha256": "36c66bf69b119b207c5892b39832c376e69824750a447220479a317c3c76b0e9",
+          "source_sha256": "2ed21c1039e43a425eb5d12378f1bc3073ffc98884be132fe0b56d526e36de2f",
           "allocation": "general",
-          "worker_slot": 7,
+          "worker_slot": 6,
           "host": "fran@192.168.0.200",
-          "started": 1792605002.2788548,
+          "started": 1792620604.5631182,
           "worker_details": {
-            "translations": false,
+            "translations": true,
             "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
             "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
             "pool_size": 0,
@@ -67,167 +349,17 @@
             "refinement_candidates": [
               {
                 "name": "incumbent",
-                "before": 29.981388186408434,
-                "after": 29.981295638343326
+                "before": 29.981295638389575,
+                "after": 29.980426400135052
               }
             ]
           }
         }
       },
-      "prior_source_credit": "Darius Muglich, with original seed and construction credits in source provenance",
-      "prior_source_provenance": {
-        "category": "public submission",
-        "source_url": "https://github.com/jlevy/squares/issues/686",
-        "source_provenance": {
-          "n": 871,
-          "parent_n": 814,
-          "side": "936924818037039599636071299674818035197/31250000000000000000000000000000000000",
-          "layers": 1,
-          "full_count": 871,
-          "deleted": 0,
-          "previous_side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
-          "previously_registered": true,
-          "parent": {
-            "n": 814,
-            "side": "905674818036102674818035197/31250000000000000000000000",
-            "sha256": "c69968af35814e3a7a1f09e5613b6101efb11eb05c55ca0ecdd032a04ad9c469",
-            "geometry": "witnesses/square-814/geometry.cert"
-          },
-          "certificate": {
-            "valid": true,
-            "n": 871,
-            "side": "936924818037039599636071299674818035197/31250000000000000000000000000000000000",
-            "side_float": 29.98159417718527,
-            "sha256": "30e418d870ebffc1353269b8824b7b88a9e06f3b1b9ef6b3b7a613f973d4f0da",
-            "checks": [
-              "rational separating axes",
-              "rational polygon intersection"
-            ]
-          },
-          "previous_provenance": {
-            "n": 871,
-            "parent_n": 814,
-            "side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
-            "layers": 1,
-            "full_count": 871,
-            "deleted": 0,
-            "previous_side": "43798576465715337981181619/1460595284054000000000000",
-            "previously_registered": false,
-            "parent": {
-              "n": 814,
-              "side": "2898219062534669219062531771/100000000000000000000000000",
-              "sha256": "fbf6564ebfe872c5efabfb8e893cfff68d3ccf9dcc0ebc1364724ed61005698f",
-              "geometry": "witnesses/square-814/geometry.cert"
-            },
-            "certificate": {
-              "valid": true,
-              "n": 871,
-              "side": "2998219062537667438125066440219062531771/100000000000000000000000000000000000000",
-              "side_float": 29.982190625376674,
-              "sha256": "08514dae1b02895ca8b3fdcdd24bdf116a39e9b62061af7ab8fc43c3c00468e2",
-              "checks": [
-                "rational separating axes",
-                "rational polygon intersection"
-              ]
-            },
-            "previous_provenance": null,
-            "classification": "Dependent exact deletion/border consequence",
-            "recognition": "unconfirmed"
-          },
-          "classification": "Dependent exact deletion/border consequence",
-          "recognition": "unconfirmed"
-        },
-        "construction": null,
-        "original_seed_credit": null,
-        "source_packing_sha256": null,
-        "previous_seed_credit": {
-          "web_seed": {
-            "id": "9b5d52194b7f74444f741f6af98d8225",
-            "n": 871,
-            "side": 29.989568689184708,
-            "method": "hop",
-            "received": "20261014T145854Z",
-            "original_packing_sha256": "6adc43b78f8b77b31c4699762e8784c52e93c8d21b2fe21dd1e0c8744ac77753"
-          },
-          "search_job": {
-            "id": 106803,
-            "method": "fq",
-            "source": "n871.txt",
-            "source_origin": "constructed",
-            "source_sha256": "75dd1549f291aeeda72e8b401274069cc69f732dcf6c944b336b45916cddda33",
-            "constructed_seed": {
-              "construction": "L-border and deletion",
-              "source": "n871.txt",
-              "source_sha256": "1ba4cf2172a70c179970e8e617c5978684b82eefeebf147c930214e6b140edca",
-              "source_n": 871,
-              "source_side": 29.98932907676408,
-              "layers": 0,
-              "deleted": 0,
-              "side": 29.98932907676408
-            }
-          }
-        },
-        "received": "2026-10-19T20:43:04Z"
-      },
-      "verified_audit": "experiments/record-check-20261021",
-      "search_job": {
-        "id": 119397,
-        "n": 871,
-        "seed": 925119397,
-        "method": "slp",
-        "variant": true,
-        "radius": 0.02,
-        "iterations": 1000,
-        "hop_seconds": 0,
-        "slp_seconds": 120,
-        "source": "n814.txt",
-        "source_origin": "constructed",
-        "range_group": "focus",
-        "focus_targets": {
-          "schedule": "web",
-          "counts": 560,
-          "rotation": 2159
-        },
-        "pool_size": 0,
-        "pool_gap": 0.02,
-        "constructed_seed": {
-          "construction": "L-border and deletion",
-          "source": "n814.txt",
-          "source_sha256": "5d3c7c7fe5c6707d7e1d551bbe766c610dc5067a07e34868270d8d55794be17c",
-          "source_n": 814,
-          "source_side": 28.981388186394838,
-          "layers": 1,
-          "deleted": 0,
-          "border_corners": [
-            "NE"
-          ],
-          "border_layout": "single-corner",
-          "side": 29.98138818639684
-        },
-        "source_sha256": "36c66bf69b119b207c5892b39832c376e69824750a447220479a317c3c76b0e9",
-        "allocation": "general",
-        "worker_slot": 7,
-        "host": "fran@192.168.0.200",
-        "started": 1792605002.2788548,
-        "worker_details": {
-          "translations": false,
-          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
-          "refiner_sha256": "56cdfd28e59b8b6960fe8041309598a8f3471f8df86bbee2a618ff5cb4851f20",
-          "pool_size": 0,
-          "actual_method": "slp",
-          "fq_finish": {},
-          "winner": "incumbent",
-          "refinement_candidates": [
-            {
-              "name": "incumbent",
-              "before": 29.981388186408434,
-              "after": 29.981295638343326
-            }
-          ]
-        }
-      }
+      "verified_audit": "experiments/record-check-20261022-0300"
     },
     "construction": null,
     "deleted_squares": 0
-  }
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

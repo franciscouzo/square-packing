@@ -1,45 +1,156 @@
 {
   "n": 808,
   "packing": "n808.txt",
-  "packing_sha256": "00830c6cd34d0888e05a52cf87ac19d3c8e8ceebbf4533da7232e0d8bf84fd5f",
+  "packing_sha256": "cee2203b01014e09d62c76a130cf6a55932d6bc80de1d7de019d65a40a46aed5",
   "certificate": "certificates/n808.cert",
-  "certificate_sha256": "0b9634bc136988aa628c0816e169839ba07ccd7191778f16c671f0f27c46043f",
-  "rational_side": "12113555080424187918502527389138845601201251313721807390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
+  "certificate_sha256": "54b51e777747f205f447f99462032d033b5b29c1054262d9eb5847d884b85b64",
+  "rational_side": "319121105409825473496168854663443821819158618217049/11031263137738895552444271589559727000000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "0b9634bc136988aa628c0816e169839ba07ccd7191778f16c671f0f27c46043f",
-    "source_n": 808,
+    "seed_credit": "franciscouzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "97aca27e7157198499f9b7dcbb0627355db671d79adf72804b55565539359bd2",
+    "source_n": 753,
     "source_provenance": {
-      "n": 808,
-      "side": "12113555080424187918502527389138845601201251313721807390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
-      "certificate": "/root/square-packing/experiments/records-check-20261020-1645/frozen-certificates/0b9634bc136988aa628c0816e169839ba07ccd7191778f16c671f0f27c46043f.cert",
-      "certificate_sha256": "0b9634bc136988aa628c0816e169839ba07ccd7191778f16c671f0f27c46043f",
-      "category": "web",
-      "source": "/var/lib/square-packing/database.sqlite3:record:780f02b9a2ee684accac112d9fa8d291",
-      "public_credit": "franciscouzo",
-      "created": 1792514703.9810152,
-      "submission_id": "780f02b9a2ee684accac112d9fa8d291",
-      "record": {
-        "n": 808,
-        "side": 28.931498747932313,
-        "previous": 28.932449886383935,
-        "previous_holder": "this project",
-        "rational_side": "12113555080424187918502527389138845601201251313721807390985379033031/418697807049830917349641554186978070498309173496415500000000000000",
-        "float_side": 28.931498747904364,
-        "method": "fq",
-        "received": "20261020T164503Z",
-        "seed": "campaign",
-        "sha256": "be4fb51b3062974a3b3b115b115585aa264a2330f83c68eb8da7cd880ffac026"
+      "category": "web search",
+      "source_provenance": {
+        "category": "shared CT105 packing store",
+        "id": "30e6f40be1febb1a07abae6c1bf8694c",
+        "created": 1792656235.6260135,
+        "record": {
+          "attribution": "franciscouzo",
+          "dilation": "1+1e-14",
+          "email_public": false,
+          "float_side": 27.928790966655654,
+          "method": "ellsworth",
+          "n": 753,
+          "name": "franciscouzo",
+          "previous": 27.929667873145476,
+          "previous_holder": "this project",
+          "rational_side": "308089842272086577943724583073884094819158618217049/11031263137738895552444271589559727000000000000000",
+          "received": "20261022T080353Z",
+          "seed": "volunteer",
+          "sha256": "6a564955827ed73a73297b7ffebf8e3704b12a1d26a21e8fc3ac69c37f97b3ef",
+          "side": 27.928790966655928
+        },
+        "packing_sha256": "6a564955827ed73a73297b7ffebf8e3704b12a1d26a21e8fc3ac69c37f97b3ef"
       },
-      "rounded_up": "28.931498747933",
-      "previous": "28.932449886404",
-      "gain": 0.0009511384709671315,
-      "precision_refinement": false,
-      "source_url": null,
-      "received": "20261020T164503Z"
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "421440969626533353106895129/15087862730998000000000000",
+        "source_n": 753,
+        "certificate": "certificates/parents/44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c.cert",
+        "certificate_sha256": "44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c",
+        "credit": "Francisco Couzo",
+        "provenance": {
+          "category": "native search",
+          "packing_sha256": "bad5a7f57a2f393d9fbc077ef255c3e66ce74e35774389e06dd9b84529daafed",
+          "source_credit": {
+            "web_seed": {
+              "id": "fef2c497a57ca6ccfe593ac490c11c52",
+              "n": 754,
+              "side": 27.950422600584556,
+              "method": "hop",
+              "received": "20261014T110018Z",
+              "original_packing_sha256": "a3268fbb8914695d9d3382cecf1a016c8b870baf21b907e77890ea7013874b18"
+            },
+            "seed_credit": "Francisco Couzo",
+            "search_job": {
+              "id": 109315,
+              "method": "fq",
+              "source": "n753.txt",
+              "source_origin": "constructed",
+              "source_sha256": "37968660e94b634e25767a7b8801be5dc1cbe28d416e468d95d28bcac2c2166f",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n753.txt",
+                "source_sha256": "0b8d0a40034b7295c9a28add1d45e35967e03373c8768e26fc6758d04e97b5e7",
+                "source_n": 753,
+                "source_side": 27.935538484610117,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.935538484610117
+              }
+            },
+            "source_n": 754,
+            "deleted_squares": 1,
+            "source_certificate_sha256": "a4bb09778f52481783fc76b4e56a80d3230a466750157d937004001a663b68a8"
+          }
+        },
+        "verification": {
+          "valid": true,
+          "pairs_tested": 11492,
+          "side": "421440969626533353106895129/15087862730998000000000000",
+          "n": 753
+        },
+        "strict_verification": {
+          "valid": false,
+          "closed_valid": true,
+          "sha256": "44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c",
+          "candidate_pairs": 11492,
+          "near_pairs": 1802,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "Python Fraction"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo",
+        "source_certificate_sha256": "44e47e54620333f8086e3026a6ea5bc2f51396c7818e671f12469205a7ecb90c",
+        "source_n": 753,
+        "source_provenance": {
+          "category": "native search",
+          "packing_sha256": "bad5a7f57a2f393d9fbc077ef255c3e66ce74e35774389e06dd9b84529daafed",
+          "source_credit": {
+            "web_seed": {
+              "id": "fef2c497a57ca6ccfe593ac490c11c52",
+              "n": 754,
+              "side": 27.950422600584556,
+              "method": "hop",
+              "received": "20261014T110018Z",
+              "original_packing_sha256": "a3268fbb8914695d9d3382cecf1a016c8b870baf21b907e77890ea7013874b18"
+            },
+            "seed_credit": "Francisco Couzo",
+            "search_job": {
+              "id": 109315,
+              "method": "fq",
+              "source": "n753.txt",
+              "source_origin": "constructed",
+              "source_sha256": "37968660e94b634e25767a7b8801be5dc1cbe28d416e468d95d28bcac2c2166f",
+              "constructed_seed": {
+                "construction": "L-border and deletion",
+                "source": "n753.txt",
+                "source_sha256": "0b8d0a40034b7295c9a28add1d45e35967e03373c8768e26fc6758d04e97b5e7",
+                "source_n": 753,
+                "source_side": 27.935538484610117,
+                "layers": 0,
+                "deleted": 0,
+                "border_corners": [],
+                "border_layout": "single-corner",
+                "side": 27.935538484610117
+              }
+            },
+            "source_n": 754,
+            "deleted_squares": 1,
+            "source_certificate_sha256": "a4bb09778f52481783fc76b4e56a80d3230a466750157d937004001a663b68a8"
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
-    "construction": null,
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 753,
+      "source_bound": "308089842272086577943724583073884094819158618217049/11031263137738895552444271589559727000000000000000",
+      "tiles_per_side": 1,
+      "layers": 1,
+      "capacity": 808,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
     "deleted_squares": 0
-  }
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
 }

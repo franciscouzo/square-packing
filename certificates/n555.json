@@ -1,0 +1,161 @@
+{
+  "n": 555,
+  "packing": "n555.txt",
+  "packing_sha256": "dad1261f3a46c3561819147b05370fcbb787b5f87a3ce8d3da8b6b0a2ba271c8",
+  "certificate": "certificates/n555.cert",
+  "certificate_sha256": "fe1b732eb03917ca8b6630adbe52ba26e8c15692fec95b3354b6a40bd312e80e",
+  "rational_side": "18027279421646672759418186069/751337603039600000000000000",
+  "kind": "verified public reference certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "fe1b732eb03917ca8b6630adbe52ba26e8c15692fec95b3354b6a40bd312e80e",
+    "source_n": 555,
+    "source_provenance": {
+      "category": "native search",
+      "audit_source": "Desktopo / native search",
+      "source_certificate_sha256": "fe1b732eb03917ca8b6630adbe52ba26e8c15692fec95b3354b6a40bd312e80e",
+      "audit_origin": {
+        "packing": "/root/square-packing/experiments/record-check-20261022-0300/native-packing/n555.txt",
+        "packing_sha256": "1ed50ffe058f139729bf8039d3368333271fa2650d0b4ab578fe68190e03f83f",
+        "search_job": {
+          "id": 120488,
+          "n": 555,
+          "seed": 925120488,
+          "method": "slp",
+          "variant": false,
+          "radius": 0.001,
+          "iterations": 1000,
+          "hop_seconds": 0,
+          "slp_seconds": 120,
+          "source": "records/n555.txt",
+          "source_origin": "constructed",
+          "range_group": "focus",
+          "focus_targets": {
+            "schedule": "web",
+            "counts": 560,
+            "rotation": 2159
+          },
+          "pool_size": 0,
+          "pool_gap": 0.02,
+          "constructed_seed": {
+            "construction": "L-border and deletion",
+            "source": "records/n555.txt",
+            "source_sha256": "39c632619e5a22441e2c98abfeee09dadeff6ed7150efd633d5280503378fc0e",
+            "source_n": 555,
+            "source_side": 23.99358071356493,
+            "layers": 0,
+            "deleted": 0,
+            "border_corners": [],
+            "border_layout": "single-corner",
+            "side": 23.99358071356493
+          },
+          "source_sha256": "39c632619e5a22441e2c98abfeee09dadeff6ed7150efd633d5280503378fc0e",
+          "allocation": "general",
+          "worker_slot": 9,
+          "host": "fran@192.168.0.200",
+          "started": 1792632574.3311782,
+          "worker_details": {
+            "translations": true,
+            "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+            "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+            "pool_size": 0,
+            "actual_method": "slp",
+            "fq_finish": {},
+            "winner": "incumbent",
+            "refinement_candidates": [
+              {
+                "name": "incumbent",
+                "before": 23.993580713574133,
+                "after": 23.99358071353758
+              }
+            ]
+          }
+        }
+      },
+      "prior_source_credit": "Francisco Couzo; retained seed/construction credit: Joost de Winter",
+      "prior_source_provenance": {
+        "category": "CT105 web submission",
+        "source_certificate_sha256": "5444185e94b1d68cd28872a9ac0f91b2c405633c311b754fd0ea62d8a6443054",
+        "submission_id": "8ce8d17e6b9650e6041f17fec87fb48e",
+        "method": "fq",
+        "received": "20261018T054620Z",
+        "previous_source_credit": {
+          "seed_credit": "Joost de Winter",
+          "category": "reviewed public submission",
+          "source_url": "https://github.com/JoostdeWinter/joostdewinter.github.io/blob/b3152f526f23bc3ae450e51b6e906841233086d1/square-packing-above-324/n0555.cert",
+          "request": "https://github.com/jlevy/squares/issues/666",
+          "construction_credit": [
+            "Arslanov, Mustafin and Shangitbayev (four-block method)"
+          ],
+          "source_n": 555,
+          "deleted_squares": 0,
+          "source_certificate_sha256": "330ff746344b3c425fdbd724462bb71bc66dfbb01038aacf219ef948417eb424"
+        }
+      },
+      "verified_audit": "experiments/record-check-20261022-0300",
+      "search_job": {
+        "id": 120488,
+        "n": 555,
+        "seed": 925120488,
+        "method": "slp",
+        "variant": false,
+        "radius": 0.001,
+        "iterations": 1000,
+        "hop_seconds": 0,
+        "slp_seconds": 120,
+        "source": "records/n555.txt",
+        "source_origin": "constructed",
+        "range_group": "focus",
+        "focus_targets": {
+          "schedule": "web",
+          "counts": 560,
+          "rotation": 2159
+        },
+        "pool_size": 0,
+        "pool_gap": 0.02,
+        "constructed_seed": {
+          "construction": "L-border and deletion",
+          "source": "records/n555.txt",
+          "source_sha256": "39c632619e5a22441e2c98abfeee09dadeff6ed7150efd633d5280503378fc0e",
+          "source_n": 555,
+          "source_side": 23.99358071356493,
+          "layers": 0,
+          "deleted": 0,
+          "border_corners": [],
+          "border_layout": "single-corner",
+          "side": 23.99358071356493
+        },
+        "source_sha256": "39c632619e5a22441e2c98abfeee09dadeff6ed7150efd633d5280503378fc0e",
+        "allocation": "general",
+        "worker_slot": 9,
+        "host": "fran@192.168.0.200",
+        "started": 1792632574.3311782,
+        "worker_details": {
+          "translations": true,
+          "worker_sha256": "40139019b281c91150836188d37d4f9fa8fbf9c1e21400e7875d84de1e39a7c8",
+          "refiner_sha256": "e08436b3a2662bba478fa644e94236c6197f855ba227acbdf625007805ef06fe",
+          "pool_size": 0,
+          "actual_method": "slp",
+          "fq_finish": {},
+          "winner": "incumbent",
+          "refinement_candidates": [
+            {
+              "name": "incumbent",
+              "before": 23.993580713574133,
+              "after": 23.99358071353758
+            }
+          ]
+        }
+      }
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "public_standing": {
+    "active_project_record": false,
+    "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
+    "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n555.cert",
+    "reviewed_bound": "7150644276605973504/298023223876953125"
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}
