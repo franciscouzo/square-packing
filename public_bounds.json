@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T18:54:49.536778+00:00",
+  "generated": "2026-10-23T22:17:50.157188+00:00",
   "max_n": 10000,
   "entries": {
     "1": {
@@ -6846,30 +6846,29 @@
       }
     },
     "335": {
-      "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
-      "credit": "Nir Aberman (Kaggle team)",
-      "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public",
+      "source": "https://github.com/Mishapolk/square-packing-records/blob/7e82c64/certificates/0000-0999/n335.cert",
+      "credit": "Mishapolk (continuous SLP quench refinement of Couzo topology)",
+      "status": "verified public certificate",
       "origin": {
-        "board_run": 361273227,
-        "board_sha256": "96bd4010b8c76fd7104145a590b6cd5a379482c3851fb0feb1eb725dbdb6a2ac",
-        "team": "Nir Aberman",
-        "submitted": "2026-10-22 18:06:48 UTC"
+        "repository": "https://github.com/Mishapolk/square-packing-records",
+        "commit": "7e82c64",
+        "certificate": "certificates/0000-0999/n335.cert"
       },
       "source_n": 335,
       "tiles_per_side": 1,
       "L_layers": 0,
       "capacity": 335,
-      "bound": "1176429728471413/62500000000000",
+      "bound": "8606479219878431181248097487312869687009947/457235088696155529799505235000000000000000",
       "exact_bound": {
-        "rational": "1176429728471413/62500000000000",
+        "rational": "8606479219878431181248097487312869687009947/457235088696155529799505235000000000000000",
         "sqrt2": "0",
-        "expression": "1176429728471413/62500000000000 + 0*sqrt(2)"
+        "expression": "8606479219878431181248097487312869687009947/457235088696155529799505235000000000000000 + 0*sqrt(2)"
       },
       "superseded_review": {
-        "bound": "5609654085502404608/298023223876953125",
-        "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
-        "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n335.cert",
-        "status": "published exact certificate side; admitted bounds covered by the reviewed exact construction envelope"
+        "bound": "1176429728471413/62500000000000",
+        "credit": "Nir Aberman (Kaggle team)",
+        "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
+        "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public"
       }
     },
     "336": {
@@ -11722,30 +11721,30 @@
       }
     },
     "551": {
-      "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
-      "credit": "Kirill Khoruzhii (Kaggle team)",
-      "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public",
+      "source": "https://www.kaggle.com/code/kyleluecke/inos-v0-6-k-mosh-squares-in-squares-22-366222",
+      "credit": "kyleluecke, Kaggle notebook \"inos-v0-6-k-mosh-squares-in-squares-22-366222\" run 361592092; earlier construction credits in the notebook",
+      "status": "public Kaggle notebook packing; exact certificate of its published coordinates",
       "origin": {
-        "board_run": 361273227,
-        "board_sha256": "96bd4010b8c76fd7104145a590b6cd5a379482c3851fb0feb1eb725dbdb6a2ac",
-        "team": "Kirill Khoruzhii",
-        "submitted": "2026-10-22 21:38:28 UTC"
+        "notebook": "https://www.kaggle.com/code/kyleluecke/inos-v0-6-k-mosh-squares-in-squares-22-366222",
+        "run": 361592092,
+        "certificate_sha256": "fdb95562bec4a6d874626f377133d4b092ef88ab702e154792d63e22b4a0fd30",
+        "audit": "experiments/kaggle-nb-import-20261023"
       },
       "source_n": 551,
       "tiles_per_side": 1,
       "L_layers": 0,
       "capacity": 551,
-      "bound": "23936776820785833/1000000000000000",
+      "bound": "787703213097107602502506329311293732519927/32909525258867166033953713500000000000000",
       "exact_bound": {
-        "rational": "23936776820785833/1000000000000000",
+        "rational": "787703213097107602502506329311293732519927/32909525258867166033953713500000000000000",
         "sqrt2": "0",
-        "expression": "23936776820785833/1000000000000000 + 0*sqrt(2)"
+        "expression": "787703213097107602502506329311293732519927/32909525258867166033953713500000000000000 + 0*sqrt(2)"
       },
       "superseded_review": {
-        "bound": "7142365468133172224/298023223876953125",
-        "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
-        "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n551.cert",
-        "status": "published exact certificate side; admitted bounds covered by the reviewed exact construction envelope"
+        "bound": "23936776820785833/1000000000000000",
+        "credit": "Kirill Khoruzhii (Kaggle team)",
+        "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
+        "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public"
       }
     },
     "552": {
@@ -12726,30 +12725,30 @@
       }
     },
     "596": {
-      "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
-      "credit": "Lucas Boesen (Kaggle team)",
-      "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public",
+      "source": "https://www.kaggle.com/code/aqibrazadev/squares-in-squares-top-lb-blending-visualization",
+      "credit": "aqibrazadev, Kaggle notebook \"squares-in-squares-top-lb-blending-visualization\" run 361516058; earlier construction credits in the notebook",
+      "status": "public Kaggle notebook packing; exact certificate of its published coordinates",
       "origin": {
-        "board_run": 361273227,
-        "board_sha256": "96bd4010b8c76fd7104145a590b6cd5a379482c3851fb0feb1eb725dbdb6a2ac",
-        "team": "Lucas Boesen",
-        "submitted": "2026-10-22 22:51:05 UTC"
+        "notebook": "https://www.kaggle.com/code/aqibrazadev/squares-in-squares-top-lb-blending-visualization",
+        "run": 361516058,
+        "certificate_sha256": "f5f092a56096de108ca6aa2fb2d9ce4a4fe5d5fbae399b78be554b70aa81604c",
+        "audit": "experiments/kaggle-nb-import-20261023"
       },
       "source_n": 596,
       "tiles_per_side": 1,
       "L_layers": 0,
       "capacity": 596,
-      "bound": "24890372922831583/1000000000000000",
+      "bound": "183458574557525546506016551761261684160693/7371308241860604444288996500000000000000",
       "exact_bound": {
-        "rational": "24890372922831583/1000000000000000",
+        "rational": "183458574557525546506016551761261684160693/7371308241860604444288996500000000000000",
         "sqrt2": "0",
-        "expression": "24890372922831583/1000000000000000 + 0*sqrt(2)"
+        "expression": "183458574557525546506016551761261684160693/7371308241860604444288996500000000000000 + 0*sqrt(2)"
       },
       "superseded_review": {
-        "bound": "7435604175427827712/298023223876953125",
-        "credit": "Mykhailo Polkovskyi (Mishapolk); earlier construction credits retained",
-        "source": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n596.cert",
-        "status": "published exact certificate side; admitted bounds covered by the reviewed exact construction envelope"
+        "bound": "24890372922831583/1000000000000000",
+        "credit": "Lucas Boesen (Kaggle team)",
+        "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
+        "status": "Kaggle per-puzzle leaderboard side measured by the competition metric; coordinates not public"
       }
     },
     "597": {
@@ -12942,21 +12941,30 @@
       }
     },
     "604": {
-      "bound": "25",
-      "exact_bound": {
-        "rational": "25",
-        "sqrt2": "0",
-        "expression": "25 + 0*sqrt(2)"
-      },
-      "source": "G\u00f6bel/Friedman construction",
-      "credit": "Frits G\u00f6bel / Erich Friedman",
-      "status": "reviewed public upper bound",
+      "source": "https://www.kaggle.com/code/alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+      "credit": "alexchilton, Kaggle notebook \"fault-line-dp-basin-hopping-lb-22-3747\" run 361412241; earlier construction credits in the notebook",
+      "status": "public Kaggle notebook packing; exact certificate of its published coordinates",
       "origin": {
+        "notebook": "https://www.kaggle.com/code/alexchilton/fault-line-dp-basin-hopping-lb-22-3747",
+        "run": 361412241,
+        "certificate_sha256": "e5b9b024f8b1fc9b9f70c50ba95270cde039553ca17c2d5b77b38b19461a348e",
+        "audit": "experiments/kaggle-nb-import-20261023"
+      },
+      "source_n": 604,
+      "tiles_per_side": 1,
+      "L_layers": 0,
+      "capacity": 604,
+      "bound": "5897817130100046960639247964331341256810415277124309500027189/235942622909060206734410867761020009374827313250000000000000",
+      "exact_bound": {
+        "rational": "5897817130100046960639247964331341256810415277124309500027189/235942622909060206734410867761020009374827313250000000000000",
+        "sqrt2": "0",
+        "expression": "5897817130100046960639247964331341256810415277124309500027189/235942622909060206734410867761020009374827313250000000000000 + 0*sqrt(2)"
+      },
+      "superseded_review": {
+        "bound": "25",
+        "credit": "Frits G\u00f6bel / Erich Friedman",
         "source": "G\u00f6bel/Friedman construction",
-        "origin": {
-          "kind": "integer grid"
-        },
-        "capacity": 604
+        "status": "reviewed public upper bound"
       }
     },
     "605": {
@@ -16514,21 +16522,30 @@
       }
     },
     "761": {
-      "bound": "28",
-      "exact_bound": {
-        "rational": "28",
-        "sqrt2": "0",
-        "expression": "28 + 0*sqrt(2)"
-      },
-      "source": "G\u00f6bel/Friedman construction",
-      "credit": "Frits G\u00f6bel / Erich Friedman",
-      "status": "reviewed public upper bound",
+      "source": "https://www.kaggle.com/code/kirilltym/22-3662-cpu-cuda-mps-eda-union",
+      "credit": "Kirill Tymchishin (kirilltym), Kaggle notebook \"22-3662-cpu-cuda-mps-eda-union\" run 361576574; earlier construction credits in the notebook",
+      "status": "public Kaggle notebook packing; exact certificate of its published coordinates",
       "origin": {
+        "notebook": "https://www.kaggle.com/code/kirilltym/22-3662-cpu-cuda-mps-eda-union",
+        "run": 361576574,
+        "certificate_sha256": "ddae20f9189e2830fe0700c43ab73a32b6160ac5f61a3a5ac6b222131ab23db0",
+        "audit": "experiments/kaggle-nb-import-20261023"
+      },
+      "source_n": 761,
+      "tiles_per_side": 1,
+      "L_layers": 0,
+      "capacity": 761,
+      "bound": "45428736290196559456035864047/1622525304898500000000000000",
+      "exact_bound": {
+        "rational": "45428736290196559456035864047/1622525304898500000000000000",
+        "sqrt2": "0",
+        "expression": "45428736290196559456035864047/1622525304898500000000000000 + 0*sqrt(2)"
+      },
+      "superseded_review": {
+        "bound": "28",
+        "credit": "Frits G\u00f6bel / Erich Friedman",
         "source": "G\u00f6bel/Friedman construction",
-        "origin": {
-          "kind": "integer grid"
-        },
-        "capacity": 761
+        "status": "reviewed public upper bound"
       }
     },
     "762": {
@@ -216332,99 +216349,103 @@
   "registry_commit": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
   "coverage": "Public registry, open issues and PRs, linked certificates and classical constructions; source claims do not by themselves certify local coordinates.",
   "latest_review": {
-    "audit": "experiments/kaggle-intake-20261023",
-    "note": "Adds public Kaggle notebook packings and the staff per-puzzle leaderboard (2026-10-22 23:02 UTC run) as comparisons. They decide record ownership only; verified bounds still require an exact certificate.",
+    "audit": "experiments/live-intake-20261023",
+    "note": "Adds certified public Kaggle notebook packings (23 October runs) and Mishapolk certificates at 7e82c64 as comparisons; the jlevy register at 77aba4c0 and the per-puzzle board (run 361273227) bring no new comparison.",
     "previous": {
-      "audit": "experiments/public-intake-20261022-2145",
-      "github_audit": "experiments/update-records-20261022-2111",
-      "main": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
-      "linked_source_heads": [
-        {
-          "source": "squish",
-          "url": "https://github.com/itsnaka/squish-certs.git",
-          "old": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
-          "current": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
-          "changed": false
-        },
-        {
-          "source": "ry-xu",
-          "url": "https://github.com/ry-xu/square_packing.git",
-          "old": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
-          "current": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
-          "changed": false
-        },
-        {
-          "source": "evand",
-          "url": "https://github.com/evand/square-packing.git",
-          "old": "88385abc95ab25d520302282d1946cbb07bc9cf3",
-          "current": "7982d7a9346e29e36cab3ce075274f3023114353",
-          "changed": true
-        },
-        {
-          "source": "sidg2k1",
-          "url": "https://github.com/SidG2k1/square-packing-refinements.git",
-          "old": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
-          "current": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
-          "changed": false
-        },
-        {
-          "source": "mishapolk",
-          "url": "https://github.com/Mishapolk/square-packing-records.git",
-          "old": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
-          "current": "17cc220131360ef290750eb845a3544c30ccb389",
-          "changed": true
-        },
-        {
-          "source": "snakefang",
-          "url": "https://github.com/TheSnakeFang/squarepack-certs.git",
-          "old": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
-          "current": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
-          "changed": false
-        },
-        {
-          "source": "ebdeleeuw",
-          "url": "https://github.com/ebdeleeuw/square-packing-n70.git",
-          "old": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
-          "current": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
-          "changed": false
-        },
-        {
-          "source": "dostashev",
-          "url": "https://github.com/dostashev/square-packing.git",
-          "old": "b909e1b74cda50906e12b4373e010ddee39e47e4",
-          "current": "b909e1b74cda50906e12b4373e010ddee39e47e4",
-          "changed": false
-        },
-        {
-          "source": "buddenping",
-          "url": "https://github.com/BuddenPing/square-packing-certificates.git",
-          "old": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
-          "current": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
-          "changed": false
-        },
-        {
-          "source": "rbarnett",
-          "url": "https://github.com/RobertBarnettProjects/square-packing-research.git",
-          "old": "52cf1cc7ba006731ef76818267216c87bb63281e",
-          "current": "52cf1cc7ba006731ef76818267216c87bb63281e",
-          "changed": false
-        },
-        {
-          "source": "joost",
-          "url": "https://github.com/JoostdeWinter/square-packing.git",
-          "old": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
-          "current": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
-          "changed": false
-        },
-        {
-          "source": "joost-above324",
-          "url": "https://github.com/JoostdeWinter/joostdewinter.github.io.git",
-          "old": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
-          "current": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
-          "changed": false
-        }
-      ],
-      "note": "Exact certificate sides replace rounded issue-table displays. Equal values preserve original published credit. This review records constructive upper bounds, not optimality claims."
+      "audit": "experiments/kaggle-intake-20261023",
+      "note": "Adds public Kaggle notebook packings and the staff per-puzzle leaderboard (2026-10-22 23:02 UTC run) as comparisons. They decide record ownership only; verified bounds still require an exact certificate.",
+      "previous": {
+        "audit": "experiments/public-intake-20261022-2145",
+        "github_audit": "experiments/update-records-20261022-2111",
+        "main": "ffd0f4af7f4e9789da79c724f85ede567bde3175",
+        "linked_source_heads": [
+          {
+            "source": "squish",
+            "url": "https://github.com/itsnaka/squish-certs.git",
+            "old": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
+            "current": "56fa71f949234b63534772b3f3b4f1320fbf2afd",
+            "changed": false
+          },
+          {
+            "source": "ry-xu",
+            "url": "https://github.com/ry-xu/square_packing.git",
+            "old": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
+            "current": "9535d65d84cc33f20f4e26329f8da12bdcef216e",
+            "changed": false
+          },
+          {
+            "source": "evand",
+            "url": "https://github.com/evand/square-packing.git",
+            "old": "88385abc95ab25d520302282d1946cbb07bc9cf3",
+            "current": "7982d7a9346e29e36cab3ce075274f3023114353",
+            "changed": true
+          },
+          {
+            "source": "sidg2k1",
+            "url": "https://github.com/SidG2k1/square-packing-refinements.git",
+            "old": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
+            "current": "9643cb5a78c1d4dcfc867c80a6920c3a6219d05a",
+            "changed": false
+          },
+          {
+            "source": "mishapolk",
+            "url": "https://github.com/Mishapolk/square-packing-records.git",
+            "old": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+            "current": "17cc220131360ef290750eb845a3544c30ccb389",
+            "changed": true
+          },
+          {
+            "source": "snakefang",
+            "url": "https://github.com/TheSnakeFang/squarepack-certs.git",
+            "old": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
+            "current": "9ffba0f3a84b38f0c92790c1d3089f979ef53f0b",
+            "changed": false
+          },
+          {
+            "source": "ebdeleeuw",
+            "url": "https://github.com/ebdeleeuw/square-packing-n70.git",
+            "old": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
+            "current": "24221d5e51244ca5290d5b1c43f1fbe36f9749e0",
+            "changed": false
+          },
+          {
+            "source": "dostashev",
+            "url": "https://github.com/dostashev/square-packing.git",
+            "old": "b909e1b74cda50906e12b4373e010ddee39e47e4",
+            "current": "b909e1b74cda50906e12b4373e010ddee39e47e4",
+            "changed": false
+          },
+          {
+            "source": "buddenping",
+            "url": "https://github.com/BuddenPing/square-packing-certificates.git",
+            "old": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
+            "current": "318ab94e821ba7280a68fa8ce2942c9ecdbda41d",
+            "changed": false
+          },
+          {
+            "source": "rbarnett",
+            "url": "https://github.com/RobertBarnettProjects/square-packing-research.git",
+            "old": "52cf1cc7ba006731ef76818267216c87bb63281e",
+            "current": "52cf1cc7ba006731ef76818267216c87bb63281e",
+            "changed": false
+          },
+          {
+            "source": "joost",
+            "url": "https://github.com/JoostdeWinter/square-packing.git",
+            "old": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
+            "current": "9bf5d9be4d0ca13a1dbef7d7953032fe87d4e81d",
+            "changed": false
+          },
+          {
+            "source": "joost-above324",
+            "url": "https://github.com/JoostdeWinter/joostdewinter.github.io.git",
+            "old": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
+            "current": "206c7fc63b9105cf9b4009d8c6ea3fa160c495ad",
+            "changed": false
+          }
+        ],
+        "note": "Exact certificate sides replace rounded issue-table displays. Equal values preserve original published credit. This review records constructive upper bounds, not optimality claims."
+      }
     }
   }
 }

@@ -1,0 +1,1785 @@
+{
+  "n": 552,
+  "packing": "n552.txt",
+  "packing_sha256": "e75f81e283c6093a2dd123b2fb4ccaa3ec91637885c399be78c5b906a2786cd2",
+  "certificate": "certificates/n552.cert",
+  "certificate_sha256": "82d11374ef373124533e2534f26a6690e251f62e44e653d5d36512ce9999a09c",
+  "rational_side": "29850248138483371247641167101336161312715703769174003096078538075763/1246531156408590782246242412465311564085907822462424000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "82d11374ef373124533e2534f26a6690e251f62e44e653d5d36512ce9999a09c",
+    "source_n": 552,
+    "source_provenance": {
+      "category": "CT105 live record",
+      "source_provenance": {
+        "category": "own refinement",
+        "search": "native search",
+        "live_store": {
+          "record_id": "e6d2a4c2822b4e4eb488f74b769dff84",
+          "received": "20261023T195821Z",
+          "method": "fq",
+          "host": "fran@192.168.0.200",
+          "dilation": "1+1e-14",
+          "sha256": "72dcec1130a49f463a0d72d62bbe18a12042257ace833c27251b535fe0193e03",
+          "previous": 23.949433000131265,
+          "previous_holder": "this project",
+          "kaggle_file_source": null
+        },
+        "seed_credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "original_credits": "Construction credits of the starting packing are retained."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "177127945557808796744612096743383340450927/7395913945967992522877838500000000000000",
+        "source_n": 552,
+        "certificate": "certificates/best/n552.cert",
+        "certificate_sha256": "9b329c19a44bc94f18a3682884e3070999db9ff69d9ae4b104dd430517c72ddb",
+        "credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "Kaggle push refinement",
+          "source_provenance": {
+            "category": "own refinement",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "cuda",
+                "candidates": null
+              },
+              {
+                "submission": "kaggle-push-20261022-e",
+                "source": "cycle",
+                "candidates": "results/cycle-e.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-h",
+                "source": "cycle",
+                "candidates": "results/cycle-h.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-m",
+                "source": "cycle",
+                "candidates": "results/cycle-m.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-p",
+                "source": "cycle",
+                "candidates": "results/cycle-p.npz"
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
+            "seed_credit": "Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11",
+            "seed_notebook": "https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search",
+            "original_credits": "Construction credits of the starting packing are retained."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "7142611987394149376/298023223876953125",
+            "source_n": 552,
+            "certificate": "certificates/parents/ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c.cert",
+            "certificate_sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+            "credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+            "provenance": {
+              "category": "Mishapolk public certificate",
+              "source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n552.cert",
+                "source_file": "certificates/0000-0999/n552.cert",
+                "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+                "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+              },
+              "previous_source": {
+                "kind": "certificate",
+                "bound": "5991657205836294657205830303/250000000000000000000000000",
+                "source_n": 552,
+                "certificate": "certificates/parents/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a.cert",
+                "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "verification": {
+                  "valid": true,
+                  "pairs_tested": 8245,
+                  "side": "5991657205836294657205830303/250000000000000000000000000",
+                  "n": 552
+                },
+                "strict_verification": {
+                  "valid": true,
+                  "closed_valid": true,
+                  "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                  "candidate_pairs": 8245,
+                  "near_pairs": 1300,
+                  "checker": "verify_bound_certificate.py",
+                  "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                  "arithmetic_backend": "Python Fraction"
+                }
+              },
+              "previous_reference": {
+                "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "source_certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "source_n": 552,
+                "source_provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "construction": null,
+                "deleted_squares": 0
+              }
+            },
+            "verification": {
+              "n": 552,
+              "side": "7142611987394149376/298023223876953125",
+              "valid": true,
+              "pairs_tested": 8245,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+              "candidate_pairs": 8245,
+              "near_pairs": 1292,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+            "source_certificate_sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+            "source_n": 552,
+            "source_provenance": {
+              "category": "Mishapolk public certificate",
+              "source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n552.cert",
+                "source_file": "certificates/0000-0999/n552.cert",
+                "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+                "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+              },
+              "previous_source": {
+                "kind": "certificate",
+                "bound": "5991657205836294657205830303/250000000000000000000000000",
+                "source_n": 552,
+                "certificate": "certificates/parents/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a.cert",
+                "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "verification": {
+                  "valid": true,
+                  "pairs_tested": 8245,
+                  "side": "5991657205836294657205830303/250000000000000000000000000",
+                  "n": 552
+                },
+                "strict_verification": {
+                  "valid": true,
+                  "closed_valid": true,
+                  "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                  "candidate_pairs": 8245,
+                  "near_pairs": 1300,
+                  "checker": "verify_bound_certificate.py",
+                  "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                  "arithmetic_backend": "Python Fraction"
+                }
+              },
+              "previous_reference": {
+                "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "source_certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "source_n": 552,
+                "source_provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "construction": null,
+                "deleted_squares": 0
+              }
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "verification": {
+          "n": 552,
+          "side": "177127945557808796744612096743383340450927/7395913945967992522877838500000000000000",
+          "valid": true,
+          "pairs_tested": 8276,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "9b329c19a44bc94f18a3682884e3070999db9ff69d9ae4b104dd430517c72ddb",
+          "candidate_pairs": 8276,
+          "near_pairs": 1387,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "9b329c19a44bc94f18a3682884e3070999db9ff69d9ae4b104dd430517c72ddb",
+        "source_n": 552,
+        "source_provenance": {
+          "category": "Kaggle push refinement",
+          "source_provenance": {
+            "category": "own refinement",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "cuda",
+                "candidates": null
+              },
+              {
+                "submission": "kaggle-push-20261022-e",
+                "source": "cycle",
+                "candidates": "results/cycle-e.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-h",
+                "source": "cycle",
+                "candidates": "results/cycle-h.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-m",
+                "source": "cycle",
+                "candidates": "results/cycle-m.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-p",
+                "source": "cycle",
+                "candidates": "results/cycle-p.npz"
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
+            "seed_credit": "Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11",
+            "seed_notebook": "https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search",
+            "original_credits": "Construction credits of the starting packing are retained."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "7142611987394149376/298023223876953125",
+            "source_n": 552,
+            "certificate": "certificates/parents/ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c.cert",
+            "certificate_sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+            "credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+            "provenance": {
+              "category": "Mishapolk public certificate",
+              "source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n552.cert",
+                "source_file": "certificates/0000-0999/n552.cert",
+                "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+                "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+              },
+              "previous_source": {
+                "kind": "certificate",
+                "bound": "5991657205836294657205830303/250000000000000000000000000",
+                "source_n": 552,
+                "certificate": "certificates/parents/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a.cert",
+                "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "verification": {
+                  "valid": true,
+                  "pairs_tested": 8245,
+                  "side": "5991657205836294657205830303/250000000000000000000000000",
+                  "n": 552
+                },
+                "strict_verification": {
+                  "valid": true,
+                  "closed_valid": true,
+                  "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                  "candidate_pairs": 8245,
+                  "near_pairs": 1300,
+                  "checker": "verify_bound_certificate.py",
+                  "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                  "arithmetic_backend": "Python Fraction"
+                }
+              },
+              "previous_reference": {
+                "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "source_certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "source_n": 552,
+                "source_provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "construction": null,
+                "deleted_squares": 0
+              }
+            },
+            "verification": {
+              "n": 552,
+              "side": "7142611987394149376/298023223876953125",
+              "valid": true,
+              "pairs_tested": 8245,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+              "candidate_pairs": 8245,
+              "near_pairs": 1292,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance",
+            "source_certificate_sha256": "ed3677a22e99d3a75a86117c5438fcd2f51fbaa1a45e701695f00382b51d2d6c",
+            "source_n": 552,
+            "source_provenance": {
+              "category": "Mishapolk public certificate",
+              "source_provenance": {
+                "category": "public submission",
+                "source_url": "https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/0000-0999/n552.cert",
+                "source_file": "certificates/0000-0999/n552.cert",
+                "source_commit": "17cc220131360ef290750eb845a3544c30ccb389",
+                "original_credits": "Earlier construction credits retained in the previous source and linked public submission."
+              },
+              "previous_source": {
+                "kind": "certificate",
+                "bound": "5991657205836294657205830303/250000000000000000000000000",
+                "source_n": 552,
+                "certificate": "certificates/parents/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a.cert",
+                "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "verification": {
+                  "valid": true,
+                  "pairs_tested": 8245,
+                  "side": "5991657205836294657205830303/250000000000000000000000000",
+                  "n": 552
+                },
+                "strict_verification": {
+                  "valid": true,
+                  "closed_valid": true,
+                  "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                  "candidate_pairs": 8245,
+                  "near_pairs": 1300,
+                  "checker": "verify_bound_certificate.py",
+                  "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                  "arithmetic_backend": "Python Fraction"
+                }
+              },
+              "previous_reference": {
+                "seed_credit": "Darius Muglich, with original seed and construction credits in source provenance",
+                "source_certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                "source_n": 552,
+                "source_provenance": {
+                  "category": "public submission",
+                  "source_url": "https://github.com/jlevy/squares/issues/686",
+                  "source_provenance": {
+                    "n": 552,
+                    "side": "5991657205836294657205830303/250000000000000000000000000",
+                    "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                    "origin": "inventory-20261016",
+                    "record": {
+                      "family": "squares_in_square",
+                      "n": 552,
+                      "kind": "direct",
+                      "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                      "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                      "gain_ppm": 11.386443077793796,
+                      "campaign": "assembly-frontier-20261015",
+                      "source_row": {
+                        "attempt": "square-552-101911",
+                        "kind": "explore",
+                        "arm": null,
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "score": 23.96662882334518,
+                        "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "reference_gain_ppm": 11.386443077793798,
+                        "candidate_flag": true,
+                        "source": "attempts/square-552-101911/run/search/b00001.txt",
+                        "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                        "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "checks": [
+                          "rational separating axes",
+                          "rational polygon intersection"
+                        ],
+                        "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                        "review_gain_ppm": 11.386443077793796,
+                        "display_side_upper": "23.966628823346",
+                        "fresh_public_certificate": {
+                          "n": 552,
+                          "side": "30196219962790438826417548913/1259913371956500000000000000",
+                          "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                          "checks": [
+                            "rational separating axes",
+                            "rational polygon intersection"
+                          ]
+                        },
+                        "producing_operator": "aswap",
+                        "replayed_at": 1792097405.2585638,
+                        "status": "provisional candidate, not recognized world record"
+                      },
+                      "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                      "has_direct_search_improvement": true,
+                      "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                      "retained_geometry_sha256_verified": true,
+                      "witness_directory": "witnesses/square-552",
+                      "geometry_file": "witnesses/square-552/geometry.cert",
+                      "display_objective": "23.966628823346",
+                      "axis_aligned_within_0_01_degree": 385,
+                      "diagram": "diagrams/square-552.svg"
+                    },
+                    "qualification": {
+                      "n": 552,
+                      "private": {
+                        "n": 552,
+                        "side": "5991657205836294657205830303/250000000000000000000000000",
+                        "sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                        "origin": "inventory-20261016",
+                        "record": {
+                          "family": "squares_in_square",
+                          "n": 552,
+                          "kind": "direct",
+                          "objective_exact": "5991657205836294657205830303/250000000000000000000000000",
+                          "reference_exact": "30196219962790438826417548913/1259913371956500000000000000",
+                          "gain_ppm": 11.386443077793796,
+                          "campaign": "assembly-frontier-20261015",
+                          "source_row": {
+                            "attempt": "square-552-101911",
+                            "kind": "explore",
+                            "arm": null,
+                            "n": 552,
+                            "side": "5991657205836294657205830303/250000000000000000000000000",
+                            "score": 23.96662882334518,
+                            "reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "reference_gain_ppm": 11.386443077793798,
+                            "candidate_flag": true,
+                            "source": "attempts/square-552-101911/run/search/b00001.txt",
+                            "certificate": "certificates/square-552-101911/8ad304522812bd6e.cert",
+                            "certificate_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "checks": [
+                              "rational separating axes",
+                              "rational polygon intersection"
+                            ],
+                            "packet": "candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                            "review_reference": "30196219962790438826417548913/1259913371956500000000000000",
+                            "review_gain_ppm": 11.386443077793796,
+                            "display_side_upper": "23.966628823346",
+                            "fresh_public_certificate": {
+                              "n": 552,
+                              "side": "30196219962790438826417548913/1259913371956500000000000000",
+                              "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                              "checks": [
+                                "rational separating axes",
+                                "rational polygon intersection"
+                              ]
+                            },
+                            "producing_operator": "aswap",
+                            "replayed_at": 1792097405.2585638,
+                            "status": "provisional candidate, not recognized world record"
+                          },
+                          "source_packet": "/a/candidate-ledger/square-packets/e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "source_sha256": "e2ff7dc7119e0c5ec569ab7e804a5590fd72cd1ac0befb859244d07a9302f33a",
+                          "has_direct_search_improvement": true,
+                          "status": "exact feasible improvement over captured public envelope; worldwide priority unestablished",
+                          "retained_geometry_sha256_verified": true,
+                          "witness_directory": "witnesses/square-552",
+                          "geometry_file": "witnesses/square-552/geometry.cert",
+                          "display_objective": "23.966628823346",
+                          "axis_aligned_within_0_01_degree": 385,
+                          "diagram": "diagrams/square-552.svg"
+                        }
+                      },
+                      "public_bound": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_entry": {
+                        "bound": "30196219962790438826417548913/1259913371956500000000000000",
+                        "source": "certificates/best/n552.cert",
+                        "source_n": 552,
+                        "deleted_squares": 0,
+                        "status": "exact certificate verified",
+                        "credit": "Francisco Couzo",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "rounded_up": "23.966901721108"
+                      },
+                      "public_label": "verified",
+                      "status": "below-current-catalogue",
+                      "strictly_below": true,
+                      "exceeds_1e_8_absolute_gain": true,
+                      "gain_ppm": 11.386572730356042,
+                      "exact_public_hash_matches_retained": false,
+                      "private_geometry_verified": true,
+                      "private_geometry_file": "private-certificates/n552.cert",
+                      "public_receipt": {
+                        "n": 552,
+                        "url": "https://raw.githubusercontent.com/franciscouzo/square-packing/23aff0c6f992271e1ad13a148d44f392c4b386c0/certificates/best/n552.cert",
+                        "path": "public-certificates/n552.cert",
+                        "sha256": "d6b32a8b6b254aa7ff5bdca55f8c700780e8fc57bfd9b500aafdb23c414d9335",
+                        "bytes": 69301,
+                        "retrieved_at": "2026-10-17T18:25:29.150247+00:00",
+                        "cache_copy_from": "/study/qualification-r1/public-certificates/n552.cert"
+                      },
+                      "public_binding_matches": true,
+                      "public_geometry_verified": true,
+                      "public_certificate_side": "30196219962790438826417548913/1259913371956500000000000000",
+                      "public_verification": "Reused exact replay of identical pinned bytes from qualification-r1",
+                      "public_bound_matches_certificate": true,
+                      "verified_public_status": "below-verified-public-witness",
+                      "verified_public_gain_ppm": 11.386572730356042
+                    },
+                    "qualification_result_sha256": "e7778c2fce5c451c39b8d6e812fcad20bf94af832606482ee54da77fe7524b3b"
+                  },
+                  "construction": null,
+                  "original_seed_credit": null,
+                  "source_packing_sha256": null,
+                  "previous_seed_credit": {
+                    "construction": {
+                      "label": "L-border from n=507",
+                      "kind": "derived",
+                      "source_n": 507,
+                      "source": "8b3547b97448f315f1a01d8d8f5ce05c353124245b87b7a804dd2d86810cdf90",
+                      "tiles": 1,
+                      "layers": 1
+                    },
+                    "seed_credit": "Francisco Couzo"
+                  },
+                  "received": "2026-10-19T20:43:04Z"
+                },
+                "construction": null,
+                "deleted_squares": 0
+              }
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

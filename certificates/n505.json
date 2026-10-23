@@ -1,135 +1,312 @@
 {
   "n": 505,
   "packing": "n505.txt",
-  "packing_sha256": "9519c4c5fe054c9a5bd5caad263cffbb53fd964d447bc127feb9dd7fc38df15a",
+  "packing_sha256": "ff62c410504cd737e27fd2dbecf316bf5587676885e12ee13e92bae4d243fd80",
   "certificate": "certificates/n505.cert",
-  "certificate_sha256": "e94c532e963af0189a2711ad560c088f412cfbcb247955c172251490243f38b0",
-  "rational_side": "1495635991468013743213944149988232850688390215391409306306567/65199903518727124679397536535187271246787455375000000000000",
+  "certificate_sha256": "10f328e8d1841a791968e821cc659820dfe81155493c01139e9b79f4d31a707d",
+  "rational_side": "728350436198958987904027035401659026125830504946122758544141370297/31751294063563776013383962877138558027539033651229750000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
-    "source_certificate_sha256": "e94c532e963af0189a2711ad560c088f412cfbcb247955c172251490243f38b0",
+    "seed_credit": "Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "10f328e8d1841a791968e821cc659820dfe81155493c01139e9b79f4d31a707d",
     "source_n": 505,
     "source_provenance": {
-      "category": "Kaggle push refinement",
+      "category": "CT105 live record",
       "source_provenance": {
         "category": "own refinement",
-        "kaggle_submission": "submissions/kaggle-push-20261022-q",
-        "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
-        "lineage": [
-          {
-            "submission": "kaggle-public-portfolio-20261022",
-            "source": "cuda",
-            "candidates": null
-          },
-          {
-            "submission": "kaggle-push-20261022-e",
-            "source": "cycle",
-            "candidates": "results/cycle-e.npz"
-          },
-          {
-            "submission": "kaggle-push-20261022-j",
-            "source": "cycle",
-            "candidates": "results/cycle-j.npz"
-          },
-          {
-            "submission": "kaggle-push-20261022-m",
-            "source": "cycle",
-            "candidates": "results/cycle-m.npz"
-          }
-        ],
-        "witness_dilation": "1+1e-12",
-        "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
-        "seed_credit": "Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11",
-        "seed_notebook": "https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search",
+        "search": "native search",
+        "live_store": {
+          "record_id": "4786c38ceaf44f99a7e3ca5049101395",
+          "received": "20261023T193957Z",
+          "method": "hop",
+          "host": "Desktopo Rust",
+          "dilation": "1+1e-14",
+          "sha256": "d2f5eacaad1859f010bf1172c8a1394250b2d18625fb464ec82b8a83b893cc57",
+          "previous": 22.939236268017297,
+          "previous_holder": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+          "kaggle_file_source": null
+        },
+        "seed_credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
         "original_credits": "Construction credits of the starting packing are retained."
       },
       "previous_source": {
         "kind": "certificate",
-        "bound": "21097041348205130185414401299/918693320424500000000000000",
+        "bound": "1495635991468013743213944149988232850688390215391409306306567/65199903518727124679397536535187271246787455375000000000000",
         "source_n": 505,
         "certificate": "certificates/best/n505.cert",
-        "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
-        "credit": "Francisco Couzo",
+        "certificate_sha256": "e94c532e963af0189a2711ad560c088f412cfbcb247955c172251490243f38b0",
+        "credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
         "provenance": {
-          "n": 505,
-          "side": "21097041348205130185414401299/918693320424500000000000000",
-          "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
-          "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
-          "category": "web",
-          "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
-          "rounded_up": "22.964182800913",
-          "public_credit": "franciscouzo",
-          "created": 1792449934.3909888,
-          "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
-          "record": {
-            "n": 505,
-            "side": 22.9641828009121,
-            "previous": 22.964253709989816,
-            "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
-            "rational_side": "21097041348205130185414401299/918693320424500000000000000",
-            "float_side": 22.964182800890132,
-            "method": "fq",
-            "received": "20261019T224533Z",
-            "seed": "campaign",
-            "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+          "category": "Kaggle push refinement",
+          "source_provenance": {
+            "category": "own refinement",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "cuda",
+                "candidates": null
+              },
+              {
+                "submission": "kaggle-push-20261022-e",
+                "source": "cycle",
+                "candidates": "results/cycle-e.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-j",
+                "source": "cycle",
+                "candidates": "results/cycle-j.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-m",
+                "source": "cycle",
+                "candidates": "results/cycle-m.npz"
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
+            "seed_credit": "Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11",
+            "seed_notebook": "https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search",
+            "original_credits": "Construction credits of the starting packing are retained."
           },
-          "previous": "22.964253709990",
-          "gain": 7.090907771598524e-05,
-          "precision_refinement": false,
-          "source_url": null,
-          "received": "20261019T224533Z"
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "21097041348205130185414401299/918693320424500000000000000",
+            "source_n": 505,
+            "certificate": "certificates/parents/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+            "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+              "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "category": "web",
+              "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
+              "rounded_up": "22.964182800913",
+              "public_credit": "franciscouzo",
+              "created": 1792449934.3909888,
+              "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
+              "record": {
+                "n": 505,
+                "side": 22.9641828009121,
+                "previous": 22.964253709989816,
+                "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
+                "rational_side": "21097041348205130185414401299/918693320424500000000000000",
+                "float_side": 22.964182800890132,
+                "method": "fq",
+                "received": "20261019T224533Z",
+                "seed": "campaign",
+                "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+              },
+              "previous": "22.964253709990",
+              "gain": 7.090907771598524e-05,
+              "precision_refinement": false,
+              "source_url": null,
+              "received": "20261019T224533Z"
+            },
+            "verification": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "valid": true,
+              "pairs_tested": 7349,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "candidate_pairs": 7349,
+              "near_pairs": 1252,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo",
+            "source_certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+            "source_n": 505,
+            "source_provenance": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+              "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "category": "web",
+              "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
+              "rounded_up": "22.964182800913",
+              "public_credit": "franciscouzo",
+              "created": 1792449934.3909888,
+              "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
+              "record": {
+                "n": 505,
+                "side": 22.9641828009121,
+                "previous": 22.964253709989816,
+                "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
+                "rational_side": "21097041348205130185414401299/918693320424500000000000000",
+                "float_side": 22.964182800890132,
+                "method": "fq",
+                "received": "20261019T224533Z",
+                "seed": "campaign",
+                "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+              },
+              "previous": "22.964253709990",
+              "gain": 7.090907771598524e-05,
+              "precision_refinement": false,
+              "source_url": null,
+              "received": "20261019T224533Z"
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
         },
         "verification": {
           "n": 505,
-          "side": "21097041348205130185414401299/918693320424500000000000000",
+          "side": "1495635991468013743213944149988232850688390215391409306306567/65199903518727124679397536535187271246787455375000000000000",
           "valid": true,
-          "pairs_tested": 7349,
+          "pairs_tested": 7390,
           "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         },
         "strict_verification": {
           "valid": true,
           "closed_valid": true,
-          "sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
-          "candidate_pairs": 7349,
-          "near_pairs": 1252,
+          "sha256": "e94c532e963af0189a2711ad560c088f412cfbcb247955c172251490243f38b0",
+          "candidate_pairs": 7390,
+          "near_pairs": 1309,
           "checker": "verify_bound_certificate.py",
           "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
           "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
         }
       },
       "previous_reference": {
-        "seed_credit": "Francisco Couzo",
-        "source_certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+        "seed_credit": "Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "e94c532e963af0189a2711ad560c088f412cfbcb247955c172251490243f38b0",
         "source_n": 505,
         "source_provenance": {
-          "n": 505,
-          "side": "21097041348205130185414401299/918693320424500000000000000",
-          "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
-          "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
-          "category": "web",
-          "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
-          "rounded_up": "22.964182800913",
-          "public_credit": "franciscouzo",
-          "created": 1792449934.3909888,
-          "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
-          "record": {
-            "n": 505,
-            "side": 22.9641828009121,
-            "previous": 22.964253709989816,
-            "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
-            "rational_side": "21097041348205130185414401299/918693320424500000000000000",
-            "float_side": 22.964182800890132,
-            "method": "fq",
-            "received": "20261019T224533Z",
-            "seed": "campaign",
-            "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+          "category": "Kaggle push refinement",
+          "source_provenance": {
+            "category": "own refinement",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "cuda",
+                "candidates": null
+              },
+              {
+                "submission": "kaggle-push-20261022-e",
+                "source": "cycle",
+                "candidates": "results/cycle-e.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-j",
+                "source": "cycle",
+                "candidates": "results/cycle-j.npz"
+              },
+              {
+                "submission": "kaggle-push-20261022-m",
+                "source": "cycle",
+                "candidates": "results/cycle-m.npz"
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
+            "seed_credit": "Vladislav Lavrentev (lightningv08), Kaggle \"CUDA Packing Search\" v11",
+            "seed_notebook": "https://www.kaggle.com/code/lightningv08/squares-in-squares-cuda-packing-search",
+            "original_credits": "Construction credits of the starting packing are retained."
           },
-          "previous": "22.964253709990",
-          "gain": 7.090907771598524e-05,
-          "precision_refinement": false,
-          "source_url": null,
-          "received": "20261019T224533Z"
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "21097041348205130185414401299/918693320424500000000000000",
+            "source_n": 505,
+            "certificate": "certificates/parents/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+            "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+              "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "category": "web",
+              "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
+              "rounded_up": "22.964182800913",
+              "public_credit": "franciscouzo",
+              "created": 1792449934.3909888,
+              "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
+              "record": {
+                "n": 505,
+                "side": 22.9641828009121,
+                "previous": 22.964253709989816,
+                "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
+                "rational_side": "21097041348205130185414401299/918693320424500000000000000",
+                "float_side": 22.964182800890132,
+                "method": "fq",
+                "received": "20261019T224533Z",
+                "seed": "campaign",
+                "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+              },
+              "previous": "22.964253709990",
+              "gain": 7.090907771598524e-05,
+              "precision_refinement": false,
+              "source_url": null,
+              "received": "20261019T224533Z"
+            },
+            "verification": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "valid": true,
+              "pairs_tested": 7349,
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "candidate_pairs": 7349,
+              "near_pairs": 1252,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo",
+            "source_certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+            "source_n": 505,
+            "source_provenance": {
+              "n": 505,
+              "side": "21097041348205130185414401299/918693320424500000000000000",
+              "certificate": "/root/square-packing/experiments/records-check-20261020-0640/frozen-certificates/be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2.cert",
+              "certificate_sha256": "be7535b813619b5fa0becd8679361d87b5d8eb284fef5f485a856d1220c067e2",
+              "category": "web",
+              "source": "/var/lib/square-packing/database.sqlite3:record:b568f2876c544ec96f7506dcd4e30b7c",
+              "rounded_up": "22.964182800913",
+              "public_credit": "franciscouzo",
+              "created": 1792449934.3909888,
+              "submission_id": "b568f2876c544ec96f7506dcd4e30b7c",
+              "record": {
+                "n": 505,
+                "side": 22.9641828009121,
+                "previous": 22.964253709989816,
+                "previous_holder": "Darius Muglich, with original seed and construction credits in source provenance",
+                "rational_side": "21097041348205130185414401299/918693320424500000000000000",
+                "float_side": 22.964182800890132,
+                "method": "fq",
+                "received": "20261019T224533Z",
+                "seed": "campaign",
+                "sha256": "acf6941fc78ea38e0987d23786c362afcc2749fda5e1e31787c47ce6456bdd55"
+              },
+              "previous": "22.964253709990",
+              "gain": 7.090907771598524e-05,
+              "precision_refinement": false,
+              "source_url": null,
+              "received": "20261019T224533Z"
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
         },
         "construction": null,
         "deleted_squares": 0
