@@ -1,0 +1,23 @@
+{
+  "n": 211,
+  "packing": "n211.txt",
+  "packing_sha256": "18989466c08e290361378107aaca2bde8ffbaf3019fe181b0fc527ef1bbb74d2",
+  "certificate": "certificates/n211.cert",
+  "certificate_sha256": "806a37e2dd5b7c604e3481c4bd49405012b8b20d8c5dbf9a19eacbd422fbe8d3",
+  "rational_side": "7496774813149710519467765230441/500000000000000000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "806a37e2dd5b7c604e3481c4bd49405012b8b20d8c5dbf9a19eacbd422fbe8d3",
+    "source_n": 211,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": [
+        "Daniil Ostashev"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

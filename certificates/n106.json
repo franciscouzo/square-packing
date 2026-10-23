@@ -1,0 +1,30 @@
+{
+  "n": 106,
+  "packing": "n106.txt",
+  "packing_sha256": "b2e7f81e54220e77689e8111c2e72fde1dca1b16757f63248917341bfe251a92",
+  "certificate": "certificates/n106.cert",
+  "certificate_sha256": "186d69780b5cfbac068584dd24ce3ce81bfe2f188b5c522b0bcc6faf2dc920f5",
+  "rational_side": "10822908044132847555194436943331/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "search_job": {
+      "id": 9778,
+      "method": "hop",
+      "source": "n106.txt",
+      "source_sha256": "517b45562c1a4891aa1dea37bfed00e029561acddaf0469a2d38666682de025e"
+    }
+  },
+  "record_credit": {
+    "credit": "Francisco Couzo",
+    "request": "https://github.com/franciscouzo/square-packing",
+    "evand_certificate": "evand/search/regularize/lists/certs/n-106.cert.gz",
+    "evand_sha256": "1ec75f55f168d2c66bca84f715a318a3c1aba97893cd9e3ebafa79bfc1a887f3",
+    "restored_from": "487b05809099d8f7d006aaeb6bfc1ebe95cb8d0d",
+    "lower_public_recertification": {
+      "bound": "108229080441328467/10000000000000000",
+      "credit": "Mishapolk",
+      "source": "https://github.com/jlevy/squares/issues/593"
+    },
+    "note": "Held within the 1e-10 reporting tolerance of a lower re-certification by another author; the exact best witness for this count remains in certificates/best/manifest.json."
+  }
+}

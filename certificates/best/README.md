@@ -1,6 +1,6 @@
 # Verified upper-bound witnesses
 
-The complete bound index covers n=1..10000 using 1086 finite source witnesses. The reviewed public comparison remains separate in [public_bounds.json](../../public_bounds.json).
+The complete bound index covers n=1..10000 using 1087 finite source witnesses. The reviewed public comparison remains separate in [public_bounds.json](../../public_bounds.json).
 
 Published records held by this project remain listed in the root README. Source, construction, seed and certificate credits are retained in [manifest.json](manifest.json). Superseded witness bytes remain under ../parents/. Retaining a source witness does not claim that its own count is still a record.
 
@@ -273,7 +273,7 @@ Published records held by this project remain listed in the root README. Source,
 | [265](n265.cert) | 16.778174593053 | PingYou Ltd (BuddenPing) |
 | [266](n266.cert) | 16.823028750757 | PingYou Ltd (BuddenPing) |
 | [267](n267.cert) | 16.838815269949 | PingYou Ltd (BuddenPing) |
-| [268](n268.cert) | 16.878814821007 | PingYou Ltd (BuddenPing) |
+| [268](n268.cert) | 16.875467950348 | Kirill Tymchishin (kirilltym), Kaggle "CPU/GPU/MPS EDA+Seam LP" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [269](n269.cert) | 16.901513582190 | PingYou Ltd (BuddenPing) |
 | [270](n270.cert) | 16.928162252197 | Evan Daniel; ultimate start: Nate Chaoweeraprasit (SQUISH), refined by PingYou Ltd |
 | [271](n271.cert) | 16.948947733714 | Evan Daniel |
@@ -308,8 +308,8 @@ Published records held by this project remain listed in the root README. Source,
 | [300](n300.cert) | 17.824123388479 | PingYou Ltd (BuddenPing) |
 | [301](n301.cert) | 17.846667192844 | PingYou Ltd (BuddenPing) |
 | [302](n302.cert) | 17.870013850405 | Mykhailo Polkovskyi (Mishapolk) |
-| [303](n303.cert) | 17.909772217275 | Evan Daniel; earlier seed and construction credits retained in provenance |
-| [304](n304.cert) | 17.929427758076 | Mykhailo Polkovskyi (Mishapolk) |
+| [303](n303.cert) | 17.907473001999 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [304](n304.cert) | 17.926898903393 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [305](n305.cert) | 17.950466482138 | PingYou Ltd (BuddenPing) |
 | [306](n306.cert) | 17.963433717492 | PingYou Ltd (BuddenPing) |
 | [307](n307.cert) | 17.980862784055 | PingYou Ltd (BuddenPing) |
@@ -332,62 +332,62 @@ Published records held by this project remain listed in the root README. Source,
 | [324](n324.cert) | 18.000000000000 | Original construction authors in the case record |
 | [325](n325.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
 | [326](n326.cert) | 18.535533905933 | PingYou Ltd (BuddenPing) |
-| [327](n327.cert) | 18.591378145498 | Francisco Couzo |
+| [327](n327.cert) | 18.583782194361 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [328](n328.cert) | 18.614368938495 | franciscouzo; earlier seed and construction credits retained in provenance |
 | [329](n329.cert) | 18.656854249493 | PingYou Ltd (BuddenPing) |
-| [330](n330.cert) | 18.692672444455 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [330](n330.cert) | 18.692388156328 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [331](n331.cert) | 18.707106781187 | PingYou Ltd (BuddenPing) |
 | [332](n332.cert) | 18.740417287544 | PingYou Ltd (BuddenPing) |
-| [333](n333.cert) | 18.778174593053 | PingYou Ltd (BuddenPing) |
+| [333](n333.cert) | 18.774735166573 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [334](n334.cert) | 18.822875655533 | PingYou Ltd (BuddenPing) |
 | [335](n335.cert) | 18.822875655537 | franciscouzo; earlier seed and construction credits retained in provenance |
 | [336](n336.cert) | 18.825571499862 | Francisco Couzo |
 | [337](n337.cert) | 18.858391767637 | Francisco Couzo |
-| [338](n338.cert) | 18.906332809853 | Francisco Couzo |
+| [338](n338.cert) | 18.902603672778 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [339](n339.cert) | 18.907351471167 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [340](n340.cert) | 18.939649632892 | Francisco Couzo |
+| [340](n340.cert) | 18.926898901624 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [341](n341.cert) | 18.951882408720 | Francisco Couzo |
 | [342](n342.cert) | 18.964706723169 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [343](n343.cert) | 18.977575126250 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [343](n343.cert) | 18.977171588368 | Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [344](n344.cert) | 18.992727809347 | franciscouzo; earlier seed and construction credits retained in provenance |
 | [362](n362.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
 | [363](n363.cert) | 19.535533905933 | PingYou Ltd (BuddenPing) |
-| [364](n364.cert) | 19.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
+| [364](n364.cert) | 19.571428576644 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [365](n365.cert) | 19.614376892315 | Darius Muglich, with original seed and construction credits in source provenance |
 | [366](n366.cert) | 19.656854249493 | PingYou Ltd (BuddenPing) |
 | [367](n367.cert) | 19.692388155448 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [368](n368.cert) | 19.692388155448 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [369](n369.cert) | 19.707106781187 | Francisco Couzo |
-| [370](n370.cert) | 19.767428349946 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [371](n371.cert) | 19.822875655533 | PingYou Ltd (BuddenPing) |
-| [372](n372.cert) | 19.822875655537 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [370](n370.cert) | 19.764174322704 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [371](n371.cert) | 19.778174597279 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [372](n372.cert) | 19.806167170776 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [373](n373.cert) | 19.823062082838 | Francisco Couzo |
 | [374](n374.cert) | 19.832356217033 | Francisco Couzo |
-| [375](n375.cert) | 19.882451030482 | Evan Daniel |
+| [375](n375.cert) | 19.870022546721 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [376](n376.cert) | 19.899494936612 | Francisco Couzo |
-| [377](n377.cert) | 19.925471653955 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [378](n378.cert) | 19.942018057445 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [377](n377.cert) | 19.918891242798 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [378](n378.cert) | 19.926898935994 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [379](n379.cert) | 19.950889681485 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [380](n380.cert) | 19.961350023817 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [381](n381.cert) | 19.974739840480 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
 | [382](n382.cert) | 19.987621153966 | Francisco Couzo; seed/construction: Kevin Fang (TheSnakeFang) |
 | [401](n401.cert) | 20.535533905933 | PingYou Ltd (BuddenPing) |
 | [402](n402.cert) | 20.535533905933 | PingYou Ltd (BuddenPing) |
-| [403](n403.cert) | 20.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
-| [404](n404.cert) | 20.614368938496 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [405](n405.cert) | 20.656854249493 | PingYou Ltd (BuddenPing) |
-| [406](n406.cert) | 20.692388155450 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
+| [403](n403.cert) | 20.571428576655 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [404](n404.cert) | 20.591378149728 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [405](n405.cert) | 20.645753275084 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [406](n406.cert) | 20.656854250299 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [407](n407.cert) | 20.692388155451 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [408](n408.cert) | 20.707106781187 | Francisco Couzo |
-| [409](n409.cert) | 20.767428349947 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [410](n410.cert) | 20.778174593057 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [411](n411.cert) | 20.822875655557 | Francisco Couzo |
-| [412](n412.cert) | 20.822995415447 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [413](n413.cert) | 20.831663365375 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [414](n414.cert) | 20.882451030482 | Evan Daniel |
-| [415](n415.cert) | 20.899494936612 | Francisco Couzo |
-| [416](n416.cert) | 20.899494936636 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [417](n417.cert) | 20.933210770027 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [409](n409.cert) | 20.740417290708 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [410](n410.cert) | 20.774735136621 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [411](n411.cert) | 20.806167171835 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [412](n412.cert) | 20.822934488363 | Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [413](n413.cert) | 20.824764038662 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [414](n414.cert) | 20.841986667534 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [415](n415.cert) | 20.872030090963 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [416](n416.cert) | 20.891563070598 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [417](n417.cert) | 20.905466137190 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [418](n418.cert) | 20.939184128245 | franciscouzo; earlier seed and construction credits retained in provenance |
 | [419](n419.cert) | 20.957804836265 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
 | [420](n420.cert) | 20.966577898708 | franciscouzo; earlier seed and construction credits retained in provenance |
@@ -395,333 +395,334 @@ Published records held by this project remain listed in the root README. Source,
 | [422](n422.cert) | 20.983570193585 | Darius Muglich, with original seed and construction credits in source provenance; earlier seed and construction credits retained in provenance |
 | [442](n442.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
 | [443](n443.cert) | 21.535533905933 | PingYou Ltd (BuddenPing) |
-| [444](n444.cert) | 21.583782190152 | Francisco Couzo; seed/construction: Evan Daniel |
-| [445](n445.cert) | 21.606601717823 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [446](n446.cert) | 21.656854249493 | PingYou Ltd (BuddenPing) |
-| [447](n447.cert) | 21.690355937315 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [444](n444.cert) | 21.571428576666 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [445](n445.cert) | 21.591378149739 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [446](n446.cert) | 21.645753254767 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [447](n447.cert) | 21.656854250340 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [448](n448.cert) | 21.692388155458 | Francisco Couzo |
 | [449](n449.cert) | 21.707106781187 | Francisco Couzo |
-| [450](n450.cert) | 21.767428349947 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [451](n451.cert) | 21.778174593057 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [450](n450.cert) | 21.733166014146 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [451](n451.cert) | 21.756125418986 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [452](n452.cert) | 21.778174593058 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [453](n453.cert) | 21.822995415464 | Darius Muglich, with original seed and construction credits in source provenance |
-| [454](n454.cert) | 21.824764034677 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [455](n455.cert) | 21.846667192857 | Francisco Couzo; earlier seed and construction credits retained in provenance; earlier seed and construction credits retained in provenance |
-| [456](n456.cert) | 21.875426651387 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [457](n457.cert) | 21.899494936637 | Francisco Couzo |
-| [458](n458.cert) | 21.903616795094 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [459](n459.cert) | 21.937021053087 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [460](n460.cert) | 21.950987687978 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [461](n461.cert) | 21.963794208477 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [462](n462.cert) | 21.965535885145 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [463](n463.cert) | 21.971122057117 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [453](n453.cert) | 21.808663260171 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [454](n454.cert) | 21.823102658532 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [455](n455.cert) | 21.825157900492 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [456](n456.cert) | 21.860457625152 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [457](n457.cert) | 21.887657648750 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [458](n458.cert) | 21.890471244057 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [459](n459.cert) | 21.907230897236 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [460](n460.cert) | 21.937369317827 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [461](n461.cert) | 21.941809028139 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [462](n462.cert) | 21.965358252333 | Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [463](n463.cert) | 21.970614710891 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [464](n464.cert) | 21.986268532629 | Darius Muglich, with original seed and construction credits in source provenance |
+| [465](n465.cert) | 21.999896124666 | Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [485](n485.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
 | [486](n486.cert) | 22.535533905933 | PingYou Ltd (BuddenPing) |
-| [487](n487.cert) | 22.583782190178 | Francisco Couzo |
-| [488](n488.cert) | 22.606601717827 | Francisco Couzo |
+| [487](n487.cert) | 22.571428576677 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [488](n488.cert) | 22.591378149751 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [489](n489.cert) | 22.606601717825 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [490](n490.cert) | 22.656854249498 | franciscouzo; earlier seed and construction credits retained in provenance |
 | [491](n491.cert) | 22.692388155461 | Francisco Couzo |
 | [492](n492.cert) | 22.707106781187 | Francisco Couzo |
 | [493](n493.cert) | 22.707106781213 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [494](n494.cert) | 22.778174593076 | Francisco Couzo |
-| [495](n495.cert) | 22.778174593057 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [496](n496.cert) | 22.822875655538 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [497](n497.cert) | 22.823102656271 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [498](n498.cert) | 22.828427124751 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [499](n499.cert) | 22.866399781552 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [500](n500.cert) | 22.886007770011 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [501](n501.cert) | 22.887683574922 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [502](n502.cert) | 22.933269925480 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [503](n503.cert) | 22.943933771519 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [504](n504.cert) | 22.961828398888 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [505](n505.cert) | 22.964182800913 | Francisco Couzo |
-| [506](n506.cert) | 22.971169001530 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [494](n494.cert) | 22.737617473963 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [495](n495.cert) | 22.774735137643 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [496](n496.cert) | 22.782921709246 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [497](n497.cert) | 22.813708500098 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [498](n498.cert) | 22.824100748637 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [499](n499.cert) | 22.829299847781 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [500](n500.cert) | 22.870013854667 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [501](n501.cert) | 22.880960645304 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [502](n502.cert) | 22.901849086385 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [503](n503.cert) | 22.899951089308 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [504](n504.cert) | 22.930165198822 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [505](n505.cert) | 22.939236268018 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [506](n506.cert) | 22.953204939148 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [507](n507.cert) | 22.973697163643 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [508](n508.cert) | 22.983309378350 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [509](n509.cert) | 22.993588501431 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [509](n509.cert) | 22.993150623408 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [530](n530.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
 | [531](n531.cert) | 23.535533905933 | PingYou Ltd (BuddenPing) |
-| [532](n532.cert) | 23.583782190178 | Francisco Couzo |
-| [533](n533.cert) | 23.606601717865 | Francisco Couzo |
+| [532](n532.cert) | 23.569782929749 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [533](n533.cert) | 23.583782194417 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [534](n534.cert) | 23.606601717826 | Francisco Couzo |
 | [535](n535.cert) | 23.656854249498 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [536](n536.cert) | 23.677669529688 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [537](n537.cert) | 23.707106781187 | Francisco Couzo |
+| [536](n536.cert) | 23.656854254075 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [537](n537.cert) | 23.692388159698 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [538](n538.cert) | 23.707106781214 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [539](n539.cert) | 23.778174593076 | Francisco Couzo |
-| [540](n540.cert) | 23.778174593057 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [541](n541.cert) | 23.813708499013 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [542](n542.cert) | 23.813708499013 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
+| [539](n539.cert) | 23.736669678380 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [540](n540.cert) | 23.756125423085 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [541](n541.cert) | 23.778174597323 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [542](n542.cert) | 23.802559096584 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [543](n543.cert) | 23.813708499013 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [544](n544.cert) | 23.828427124765 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [545](n545.cert) | 23.883159509357 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [546](n546.cert) | 23.887683574931 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [547](n547.cert) | 23.898819144794 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [548](n548.cert) | 23.920310216788 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [549](n549.cert) | 23.955467723214 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [550](n550.cert) | 23.960681444798 | Francisco Couzo |
-| [551](n551.cert) | 23.964873439804 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [552](n552.cert) | 23.966628823341 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [553](n553.cert) | 23.977927639657 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [554](n554.cert) | 23.986307325908 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [555](n555.cert) | 23.993580713538 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [544](n544.cert) | 23.824484938784 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [545](n545.cert) | 23.839435749992 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [546](n546.cert) | 23.870013854678 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [547](n547.cert) | 23.879220692701 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [548](n548.cert) | 23.888633672073 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [549](n549.cert) | 23.909155634223 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [550](n550.cert) | 23.913405774122 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [551](n551.cert) | 23.939464710057 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [552](n552.cert) | 23.949433004744 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [553](n553.cert) | 23.969774304321 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [554](n554.cert) | 23.980968030606 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [555](n555.cert) | 23.990765768282 | Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [577](n577.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
 | [578](n578.cert) | 24.535533905933 | PingYou Ltd (BuddenPing) |
-| [579](n579.cert) | 24.583782190178 | Francisco Couzo |
-| [580](n580.cert) | 24.606601717827 | Francisco Couzo |
+| [579](n579.cert) | 24.563448006414 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [580](n580.cert) | 24.583782194428 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [581](n581.cert) | 24.606601717826 | Francisco Couzo |
-| [582](n582.cert) | 24.656854249500 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [583](n583.cert) | 24.677669529669 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [582](n582.cert) | 24.647195874441 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [583](n583.cert) | 24.656854253769 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [584](n584.cert) | 24.677669529689 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
 | [585](n585.cert) | 24.707106781227 | Francisco Couzo |
 | [586](n586.cert) | 24.707106781216 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [587](n587.cert) | 24.778174593079 | Francisco Couzo |
-| [588](n588.cert) | 24.813708499018 | Francisco Couzo |
-| [589](n589.cert) | 24.813708499019 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [590](n590.cert) | 24.813708499238 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [591](n591.cert) | 24.828427124752 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [592](n592.cert) | 24.882927273823 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [593](n593.cert) | 24.888194348858 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [594](n594.cert) | 24.896263780065 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [595](n595.cert) | 24.943087085083 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [596](n596.cert) | 24.948767393866 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [597](n597.cert) | 24.948816876704 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [598](n598.cert) | 24.953332793068 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [599](n599.cert) | 24.959619754559 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [600](n600.cert) | 24.978172747238 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [601](n601.cert) | 24.985394902832 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [602](n602.cert) | 24.987891297022 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [587](n587.cert) | 24.756125423126 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [588](n588.cert) | 24.778174594028 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [589](n589.cert) | 24.778174594028 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [590](n590.cert) | 24.802527137654 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [591](n591.cert) | 24.819594571126 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [592](n592.cert) | 24.824728380928 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [593](n593.cert) | 24.851676705604 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [594](n594.cert) | 24.879690362327 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [595](n595.cert) | 24.885334701846 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [596](n596.cert) | 24.888953762946 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [597](n597.cert) | 24.901726999692 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [598](n598.cert) | 24.914451451800 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [599](n599.cert) | 24.940898284835 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [600](n600.cert) | 24.952441191427 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [601](n601.cert) | 24.963638694988 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [602](n602.cert) | 24.982007710253 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [603](n603.cert) | 24.990355569380 | Darius Muglich, with original seed and construction credits in source provenance |
 | [626](n626.cert) | 25.520815280201 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [627](n627.cert) | 25.535533905933 | PingYou Ltd (BuddenPing) |
-| [628](n628.cert) | 25.583782190178 | Francisco Couzo |
-| [629](n629.cert) | 25.606601717827 | Francisco Couzo |
-| [630](n630.cert) | 25.606601717826 | Francisco Couzo |
-| [631](n631.cert) | 25.656854249498 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [632](n632.cert) | 25.677669529679 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [633](n633.cert) | 25.677669529670 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [628](n628.cert) | 25.535533911216 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [629](n629.cert) | 25.583782194439 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [630](n630.cert) | 25.604601480020 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [631](n631.cert) | 25.627416998980 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [632](n632.cert) | 25.656854250504 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [633](n633.cert) | 25.656854253781 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [634](n634.cert) | 25.707106781225 | Francisco Couzo |
 | [635](n635.cert) | 25.707106781217 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [636](n636.cert) | 25.727922061388 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [637](n637.cert) | 25.778174593068 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [638](n638.cert) | 25.813708499023 | Francisco Couzo |
-| [639](n639.cert) | 25.813708499025 | Francisco Couzo |
-| [640](n640.cert) | 25.828427124752 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [641](n641.cert) | 25.880039037912 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [642](n642.cert) | 25.881306218116 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [643](n643.cert) | 25.899494936641 | Francisco Couzo |
-| [644](n644.cert) | 25.899494936618 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [645](n645.cert) | 25.907009805052 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [646](n646.cert) | 25.946523722610 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [647](n647.cert) | 25.946936319318 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [648](n648.cert) | 25.959072621826 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [649](n649.cert) | 25.973662437040 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [650](n650.cert) | 25.973786539735 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [651](n651.cert) | 25.981695053458 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [652](n652.cert) | 25.988125076086 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [653](n653.cert) | 25.992652674145 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [637](n637.cert) | 25.769621349979 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [638](n638.cert) | 25.778174594069 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [639](n639.cert) | 25.802525786986 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [640](n640.cert) | 25.813708503286 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [641](n641.cert) | 25.824312249129 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [642](n642.cert) | 25.833112607336 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [643](n643.cert) | 25.851777946273 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [644](n644.cert) | 25.878470712224 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [645](n645.cert) | 25.885814047017 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [646](n646.cert) | 25.892396662006 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [647](n647.cert) | 25.899527649057 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [648](n648.cert) | 25.910482807335 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [649](n649.cert) | 25.940172713649 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [650](n650.cert) | 25.956267847554 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [651](n651.cert) | 25.964027672705 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [652](n652.cert) | 25.982345395634 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [653](n653.cert) | 25.991265513275 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [654](n654.cert) | 25.994801642508 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [677](n677.cert) | 26.520815280213 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [678](n678.cert) | 26.535533905933 | PingYou Ltd (BuddenPing) |
-| [679](n679.cert) | 26.583782190178 | Francisco Couzo |
-| [680](n680.cert) | 26.606601717827 | Francisco Couzo |
-| [681](n681.cert) | 26.606601717826 | Francisco Couzo |
-| [682](n682.cert) | 26.656854249519 | Francisco Couzo |
-| [683](n683.cert) | 26.677669529670 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [684](n684.cert) | 26.677669529680 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [685](n685.cert) | 26.707106781220 | Francisco Couzo |
+| [679](n679.cert) | 26.535533911227 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [680](n680.cert) | 26.571428577722 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [681](n681.cert) | 26.591378150795 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [682](n682.cert) | 26.621275506510 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [683](n683.cert) | 26.656854250545 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [684](n684.cert) | 26.656854253792 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [685](n685.cert) | 26.692388159732 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [686](n686.cert) | 26.707106781218 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [687](n687.cert) | 26.727922061390 | Francisco Couzo |
 | [688](n688.cert) | 26.727922061389 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [689](n689.cert) | 26.778174593058 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [690](n690.cert) | 26.813708499267 | Francisco Couzo |
-| [691](n691.cert) | 26.828427124752 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [692](n692.cert) | 26.828427124764 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [693](n693.cert) | 26.881306218106 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [694](n694.cert) | 26.889879705795 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [695](n695.cert) | 26.899494936628 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [696](n696.cert) | 26.912838787481 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [697](n697.cert) | 26.946234972260 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [698](n698.cert) | 26.946926360996 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [699](n699.cert) | 26.949747468312 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [700](n700.cert) | 26.963723854128 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [701](n701.cert) | 26.970065311218 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [702](n702.cert) | 26.976011322963 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [703](n703.cert) | 26.981311920755 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [704](n704.cert) | 26.987109192675 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [705](n705.cert) | 26.990375483504 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [706](n706.cert) | 26.997916874564 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [689](n689.cert) | 26.774735137688 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [690](n690.cert) | 26.789303788816 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [691](n691.cert) | 26.802453192395 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [692](n692.cert) | 26.819608909936 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [693](n693.cert) | 26.824767060611 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [694](n694.cert) | 26.833215407780 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [695](n695.cert) | 26.851715778277 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [696](n696.cert) | 26.879738323211 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [697](n697.cert) | 26.889681452139 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [698](n698.cert) | 26.892772122027 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [699](n699.cert) | 26.908063098208 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [700](n700.cert) | 26.908095391519 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [701](n701.cert) | 26.941578034738 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [702](n702.cert) | 26.948257709318 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [703](n703.cert) | 26.962444904315 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [704](n704.cert) | 26.965244421291 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [705](n705.cert) | 26.986862765597 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [706](n706.cert) | 26.996375081450 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [730](n730.cert) | 27.520815280206 | Francisco Couzo |
 | [731](n731.cert) | 27.535533905933 | PingYou Ltd (BuddenPing) |
-| [732](n732.cert) | 27.583782190178 | Francisco Couzo |
-| [733](n733.cert) | 27.606601717827 | Francisco Couzo |
-| [734](n734.cert) | 27.606601717826 | Francisco Couzo |
-| [735](n735.cert) | 27.656854249499 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [736](n736.cert) | 27.656854249521 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [737](n737.cert) | 27.677669529681 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [738](n738.cert) | 27.707106781220 | Francisco Couzo |
-| [739](n739.cert) | 27.707106781231 | Francisco Couzo |
+| [732](n732.cert) | 27.535533911238 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [733](n733.cert) | 27.571428577733 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [734](n734.cert) | 27.591378150807 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [735](n735.cert) | 27.617572177905 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [736](n736.cert) | 27.652543311591 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [737](n737.cert) | 27.656854253803 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [738](n738.cert) | 27.691431135633 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [739](n739.cert) | 27.691450272144 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [740](n740.cert) | 27.707106781219 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [741](n741.cert) | 27.727922061420 | Francisco Couzo |
-| [742](n742.cert) | 27.778174593069 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [743](n743.cert) | 27.798989873283 | elimination from n=744 (this project) |
+| [742](n742.cert) | 27.764174321794 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [743](n743.cert) | 27.778174597368 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [744](n744.cert) | 27.798989873233 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [745](n745.cert) | 27.828427124752 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [746](n746.cert) | 27.828427124752 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [747](n747.cert) | 27.881306218096 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [748](n748.cert) | 27.883920294486 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [749](n749.cert) | 27.884019388642 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [750](n750.cert) | 27.910827203971 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [751](n751.cert) | 27.914175273217 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [752](n752.cert) | 27.932383979104 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [753](n753.cert) | 27.928790966656 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [754](n754.cert) | 27.937423313994 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [755](n755.cert) | 27.951462957761 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [756](n756.cert) | 27.976780205512 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [757](n757.cert) | 27.976914446447 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [758](n758.cert) | 27.981168698642 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [759](n759.cert) | 27.988569162297 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [745](n745.cert) | 27.806788989465 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [746](n746.cert) | 27.824123424660 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [747](n747.cert) | 27.824728381532 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [748](n748.cert) | 27.845242229885 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [749](n749.cert) | 27.847297853432 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [750](n750.cert) | 27.879877814392 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [751](n751.cert) | 27.889780769648 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [752](n752.cert) | 27.898764406578 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [753](n753.cert) | 27.908063064311 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [754](n754.cert) | 27.920826842810 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [755](n755.cert) | 27.935151038081 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [756](n756.cert) | 27.951356225448 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [757](n757.cert) | 27.956245397890 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [758](n758.cert) | 27.971856190343 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [759](n759.cert) | 27.976916273370 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [760](n760.cert) | 27.992923233307 | Darius Muglich, with original seed and construction credits in source provenance |
 | [785](n785.cert) | 28.520815280214 | Francisco Couzo |
 | [786](n786.cert) | 28.535533905933 | PingYou Ltd (BuddenPing) |
-| [787](n787.cert) | 28.583782190178 | Francisco Couzo |
-| [788](n788.cert) | 28.606601717827 | Francisco Couzo |
-| [789](n789.cert) | 28.606601717826 | Francisco Couzo |
-| [790](n790.cert) | 28.656854249499 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [791](n791.cert) | 28.656854249499 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [787](n787.cert) | 28.535533911249 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [788](n788.cert) | 28.571428577744 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [789](n789.cert) | 28.591378150818 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [790](n790.cert) | 28.614368942839 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [791](n791.cert) | 28.642135624899 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [792](n792.cert) | 28.656854249522 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [793](n793.cert) | 28.707106781220 | Francisco Couzo |
-| [794](n794.cert) | 28.707106781231 | Francisco Couzo |
+| [793](n793.cert) | 28.678779879669 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [794](n794.cert) | 28.691448980966 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [795](n795.cert) | 28.707106781220 | Frits Göbel; family formulas generalized by David Ellsworth |
 | [796](n796.cert) | 28.727922061393 | Francisco Couzo |
-| [797](n797.cert) | 28.778174593070 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [798](n798.cert) | 28.798989873230 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [799](n799.cert) | 28.798989873230 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [797](n797.cert) | 28.756125425290 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [798](n798.cert) | 28.774735168583 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [799](n799.cert) | 28.786074452780 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [800](n800.cert) | 28.798989873253 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [801](n801.cert) | 28.825019065210 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [802](n802.cert) | 28.827332635379 | Francisco Couzo; earlier seed and construction credits retained in provenance |
+| [801](n801.cert) | 28.802518261554 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [802](n802.cert) | 28.824518961150 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [803](n803.cert) | 28.827585222354 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [804](n804.cert) | 28.883977065812 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [805](n805.cert) | 28.902673974156 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [806](n806.cert) | 28.902673974145 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [807](n807.cert) | 28.924694845693 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [808](n808.cert) | 28.931498747933 | Francisco Couzo |
-| [809](n809.cert) | 28.933268995267 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [810](n810.cert) | 28.943689603564 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [811](n811.cert) | 28.974352186977 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [812](n812.cert) | 28.976914320520 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [813](n813.cert) | 28.979118512495 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [814](n814.cert) | 28.981344337792 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [815](n815.cert) | 28.992261716527 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [816](n816.cert) | 28.995928899209 | franciscouzo; earlier seed and construction credits retained in provenance |
+| [804](n804.cert) | 28.845436135748 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [805](n805.cert) | 28.858257449036 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [806](n806.cert) | 28.864550908394 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [807](n807.cert) | 28.888230041699 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [808](n808.cert) | 28.899418519932 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [809](n809.cert) | 28.908095455610 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [810](n810.cert) | 28.911538623974 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [811](n811.cert) | 28.926193126456 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [812](n812.cert) | 28.948270291651 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [813](n813.cert) | 28.958077853427 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [814](n814.cert) | 28.962267694743 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [815](n815.cert) | 28.985807594383 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [816](n816.cert) | 28.993696421766 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [817](n817.cert) | 28.997492020580 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [842](n842.cert) | 29.520815280218 | Francisco Couzo |
 | [843](n843.cert) | 29.535533905933 | PingYou Ltd (BuddenPing) |
-| [844](n844.cert) | 29.583782190178 | Francisco Couzo |
-| [845](n845.cert) | 29.606601717827 | Francisco Couzo |
-| [846](n846.cert) | 29.606601717826 | Francisco Couzo |
-| [847](n847.cert) | 29.642135623766 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
+| [844](n844.cert) | 29.535533911260 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [845](n845.cert) | 29.571428577756 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [846](n846.cert) | 29.583782195484 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [847](n847.cert) | 29.606601722141 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [848](n848.cert) | 29.642135623766 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [849](n849.cert) | 29.642135623766 | Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [850](n850.cert) | 29.656854249499 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [851](n851.cert) | 29.707106781231 | Francisco Couzo |
+| [851](n851.cert) | 29.691448975633 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [852](n852.cert) | 29.707106781250 | Francisco Couzo |
 | [853](n853.cert) | 29.707106781222 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [854](n854.cert) | 29.778174593084 | Francisco Couzo |
-| [855](n855.cert) | 29.798989873287 | elimination from n=856 (this project) |
-| [856](n856.cert) | 29.798989873230 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [857](n857.cert) | 29.798989873257 | Francisco Couzo |
-| [858](n858.cert) | 29.825571500174 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [859](n859.cert) | 29.824728376140 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [860](n860.cert) | 29.849242405007 | Francisco Couzo |
-| [861](n861.cert) | 29.849242404953 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [862](n862.cert) | 29.899494936626 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [863](n863.cert) | 29.891065848639 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [864](n864.cert) | 29.899838977702 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [865](n865.cert) | 29.932449886402 | Francisco Couzo |
-| [866](n866.cert) | 29.929509737782 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [867](n867.cert) | 29.942070418091 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [868](n868.cert) | 29.973985523812 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [869](n869.cert) | 29.974934501502 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [870](n870.cert) | 29.981594177186 | Darius Muglich, with original seed and construction credits in source provenance |
-| [871](n871.cert) | 29.980426400136 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [872](n872.cert) | 29.992215460567 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [873](n873.cert) | 29.992265777022 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [874](n874.cert) | 29.992654196254 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [854](n854.cert) | 29.727922065706 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [855](n855.cert) | 29.748737342709 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [856](n856.cert) | 29.778174594233 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [857](n857.cert) | 29.792964849228 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [858](n858.cert) | 29.802446344800 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [859](n859.cert) | 29.810784558747 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [860](n860.cert) | 29.825090201539 | Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [861](n861.cert) | 29.834244105301 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [862](n862.cert) | 29.845573109822 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [863](n863.cert) | 29.865550967636 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [864](n864.cert) | 29.873880255873 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [865](n865.cert) | 29.887637277984 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [866](n866.cert) | 29.899318984973 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [867](n867.cert) | 29.908095427843 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [868](n868.cert) | 29.910444364079 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [869](n869.cert) | 29.917226151931 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [870](n870.cert) | 29.938828739805 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [871](n871.cert) | 29.954160293544 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [872](n872.cert) | 29.962814616688 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [873](n873.cert) | 29.987674023347 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [874](n874.cert) | 29.992261829511 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [875](n875.cert) | 29.996974281852 | Darius Muglich, with original seed and construction credits in source provenance |
 | [901](n901.cert) | 30.520815280221 | Francisco Couzo |
 | [902](n902.cert) | 30.535533905933 | PingYou Ltd (BuddenPing) |
-| [903](n903.cert) | 30.583782190178 | Francisco Couzo |
-| [904](n904.cert) | 30.606601717827 | Francisco Couzo |
-| [905](n905.cert) | 30.606601717826 | Francisco Couzo |
-| [906](n906.cert) | 30.642135623809 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [907](n907.cert) | 30.642135623809 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
+| [903](n903.cert) | 30.535533911272 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [904](n904.cert) | 30.563629816751 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [905](n905.cert) | 30.583782195495 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [906](n906.cert) | 30.591378150840 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [907](n907.cert) | 30.619460176442 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [908](n908.cert) | 30.642135626714 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [909](n909.cert) | 30.656854249499 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [910](n910.cert) | 30.707106781225 | Francisco Couzo |
+| [910](n910.cert) | 30.691449017528 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [911](n911.cert) | 30.707106781239 | Francisco Couzo |
 | [912](n912.cert) | 30.707106781223 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [913](n913.cert) | 30.778174593059 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [914](n914.cert) | 30.778174593061 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [915](n915.cert) | 30.798989873230 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [916](n916.cert) | 30.798989873230 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [917](n917.cert) | 30.824886893180 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [918](n918.cert) | 30.824728376146 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [919](n919.cert) | 30.844931419278 | Francisco Couzo |
-| [920](n920.cert) | 30.849242404954 | Francisco Couzo |
-| [921](n921.cert) | 30.849242404954 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [922](n922.cert) | 30.899494936621 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [923](n923.cert) | 30.901776731150 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [924](n924.cert) | 30.932449886402 | Francisco Couzo |
-| [925](n925.cert) | 30.933885775571 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [926](n926.cert) | 30.941822318592 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [927](n927.cert) | 30.968767627660 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [928](n928.cert) | 30.974495668125 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [929](n929.cert) | 30.975393249470 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [930](n930.cert) | 30.977272627800 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [931](n931.cert) | 30.989931303330 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [932](n932.cert) | 30.990639611064 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [933](n933.cert) | 30.990639611064 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [934](n934.cert) | 30.994078332770 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [913](n913.cert) | 30.727922066716 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [914](n914.cert) | 30.746671556530 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [915](n915.cert) | 30.765988352403 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [916](n916.cert) | 30.777517902828 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [917](n917.cert) | 30.795804013684 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [918](n918.cert) | 30.803910346360 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [919](n919.cert) | 30.821724093995 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [920](n920.cert) | 30.821724125995 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [921](n921.cert) | 30.839637519998 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [922](n922.cert) | 30.842386806015 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [923](n923.cert) | 30.866094302498 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [924](n924.cert) | 30.877665942945 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [925](n925.cert) | 30.888236320413 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [926](n926.cert) | 30.903423314011 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [927](n927.cert) | 30.908093785950 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [928](n928.cert) | 30.913553210333 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [929](n929.cert) | 30.934561887031 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [930](n930.cert) | 30.944354244662 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [931](n931.cert) | 30.950488164151 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [932](n932.cert) | 30.960278551023 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [933](n933.cert) | 30.972363413170 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [934](n934.cert) | 30.987742614794 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [935](n935.cert) | 30.994174058119 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [962](n962.cert) | 31.520815280221 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [963](n963.cert) | 31.535533905933 | PingYou Ltd (BuddenPing) |
-| [964](n964.cert) | 31.556349186141 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [965](n965.cert) | 31.606601717827 | Francisco Couzo |
-| [966](n966.cert) | 31.606601717826 | Francisco Couzo |
-| [967](n967.cert) | 31.642135623812 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
-| [968](n968.cert) | 31.642135623812 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
+| [964](n964.cert) | 31.535533911283 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [965](n965.cert) | 31.563625656683 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [966](n966.cert) | 31.583782195506 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [967](n967.cert) | 31.591378150851 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [968](n968.cert) | 31.619416178875 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [969](n969.cert) | 31.642135623812 | Francisco Couzo; seed/construction: Erich Friedman (off-centre extension of Frits Göbel’s construction) |
 | [970](n970.cert) | 31.656854249503 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [971](n971.cert) | 31.707106781225 | Francisco Couzo |
-| [972](n972.cert) | 31.707106781248 | Francisco Couzo |
+| [971](n971.cert) | 31.678779879703 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [972](n972.cert) | 31.692388159788 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
 | [973](n973.cert) | 31.707106781282 | Francisco Couzo |
 | [974](n974.cert) | 31.707106781224 | Frits Göbel; family formulas generalized by David Ellsworth |
-| [975](n975.cert) | 31.778174593089 | Francisco Couzo |
-| [976](n976.cert) | 31.778174593074 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [977](n977.cert) | 31.798989873257 | Francisco Couzo |
-| [978](n978.cert) | 31.823223304711 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [979](n979.cert) | 31.823223304711 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [980](n980.cert) | 31.828427124802 | Francisco Couzo |
-| [981](n981.cert) | 31.849242404954 | Francisco Couzo |
-| [982](n982.cert) | 31.849242405004 | Francisco Couzo |
-| [983](n983.cert) | 31.891065843369 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [984](n984.cert) | 31.895323373796 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [985](n985.cert) | 31.920310216790 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [986](n986.cert) | 31.920310216790 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [987](n987.cert) | 31.941797078383 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [988](n988.cert) | 31.949747468325 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [989](n989.cert) | 31.974133837950 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [990](n990.cert) | 31.975405698304 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [991](n991.cert) | 31.975619904790 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [992](n992.cert) | 31.977626910952 | Francisco Couzo; earlier seed and construction credits retained in provenance |
-| [993](n993.cert) | 31.983895580548 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [994](n994.cert) | 31.991986070760 | franciscouzo; earlier seed and construction credits retained in provenance |
-| [995](n995.cert) | 31.993444976976 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [996](n996.cert) | 31.993444976976 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
-| [997](n997.cert) | 31.996875919158 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
+| [975](n975.cert) | 31.727922066728 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [976](n976.cert) | 31.747883566410 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [977](n977.cert) | 31.765989508220 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [978](n978.cert) | 31.784646758497 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [979](n979.cert) | 31.792971073062 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [980](n980.cert) | 31.807256605352 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [981](n981.cert) | 31.821724094196 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [982](n982.cert) | 31.829315279663 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [983](n983.cert) | 31.832540815612 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [984](n984.cert) | 31.853001163230 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [985](n985.cert) | 31.859233662363 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [986](n986.cert) | 31.866886009760 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [987](n987.cert) | 31.888236395209 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [988](n988.cert) | 31.896086560785 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [989](n989.cert) | 31.910781425331 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [990](n990.cert) | 31.910156910234 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [991](n991.cert) | 31.935163639609 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [992](n992.cert) | 31.942956044059 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [993](n993.cert) | 31.953222312983 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [994](n994.cert) | 31.960278551224 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [995](n995.cert) | 31.967958198279 | Francisco Couzo (Kaggle push search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [996](n996.cert) | 31.992261720911 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [997](n997.cert) | 31.995520170750 | Francisco Couzo (Kaggle push search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [998](n998.cert) | 31.996875920260 | Francisco Couzo; earlier seed and construction credits retained in provenance |
 | [1057](n1057.cert) | 32.988287236851 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |
 | [1058](n1058.cert) | 32.990560384076 | Mykhailo Polkovskyi (Mishapolk); earlier seed and construction credits retained in provenance |

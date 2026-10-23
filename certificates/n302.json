@@ -1,0 +1,40 @@
+{
+  "n": 302,
+  "packing": "n302.txt",
+  "packing_sha256": "3f5ab361e32e44ea29280a5c8a40cc508af04f1a51de4e1bca1991a0db972ef0",
+  "certificate": "certificates/n302.cert",
+  "certificate_sha256": "834837d0693624c4c0f1460e32e10507d8b72aec2833bfe79fa09bcba0de60b9",
+  "rational_side": "3574002770080892868927770707857/200000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "BuddenPing",
+    "seed_certificate": {
+      "source": "buddenping",
+      "certificate": "buddenping/n302.cert.json",
+      "sha256": "fc57b683ccd411660bb5d5f9758fb2ac013733220bf525936d73f2a11fd8d2cd",
+      "request": "https://github.com/jlevy/squares/issues/503",
+      "side": "1787027538273375975382555057/100000000000000000000000000"
+    },
+    "search_job": {
+      "id": 92620,
+      "method": "hop",
+      "source": "external/seeds/n302.txt",
+      "source_origin": "external",
+      "source_sha256": "244c7c312ae9a473c99ee802ca40ec0a1d1908f57492297d2db14c2df7257461",
+      "constructed_seed": null
+    }
+  },
+  "record_credit": {
+    "credit": "Francisco Couzo (franciscouzo)",
+    "request": "https://github.com/jlevy/squares/issues/583",
+    "evand_certificate": "evand/search/regularize/lists/certs/n-302.cert.gz",
+    "evand_sha256": "d1f5027b84113f6f17ea003d255dc8e0cd209e4eb1af874c982f1c66bd61bacd",
+    "restored_from": "45966700cf15d3f42e064fd6da51fcb9a5def2be",
+    "lower_public_recertification": {
+      "bound": "893500692520223217223007670039029699948384116213961/50000000000000000000000000000000000000000000000000",
+      "credit": "Mykhailo Polkovskyi (Mishapolk)",
+      "source": "https://github.com/jlevy/squares/issues/593"
+    },
+    "note": "Held within the 1e-10 reporting tolerance of a lower re-certification by another author; the exact best witness for this count remains in certificates/best/manifest.json."
+  }
+}

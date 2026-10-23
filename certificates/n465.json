@@ -1,0 +1,52 @@
+{
+  "n": 465,
+  "packing": "n465.txt",
+  "packing_sha256": "7061be90be6611068074068f602977b278f97dfe265d42ef21c64d67aa35a6eb",
+  "certificate": "certificates/n465.cert",
+  "certificate_sha256": "7b308c52f4395b8c9d8c9d4ce989d41f61ed65da002fa1cd7a83e37b385b86dd",
+  "rational_side": "275718726779711258630767726040783310289320675409303293756427792811851704836893/12532728573685415539184198802364817418474378711791067289616384000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (Kaggle push search); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "7b308c52f4395b8c9d8c9d4ce989d41f61ed65da002fa1cd7a83e37b385b86dd",
+    "source_n": 465,
+    "source_provenance": {
+      "category": "Kaggle push refinement",
+      "source_provenance": {
+        "category": "own refinement",
+        "kaggle_submission": "submissions/kaggle-push-20261022-q",
+        "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+        "lineage": [
+          {
+            "submission": "kaggle-push-20261022-d",
+            "source": "cycle",
+            "candidates": "results/cycle-d.npz"
+          },
+          {
+            "submission": "kaggle-push-20261022-d-rt",
+            "source": "cycle",
+            "candidates": "results/cycle-d.npz"
+          }
+        ],
+        "witness_dilation": "1+1e-12",
+        "search": "GPU basin hopping, seam repair and chain composition, Rust sqpack engine (experiments/kaggle-push-20261022)",
+        "seed_credit": "Francisco Couzo",
+        "seed_notebook": null,
+        "original_credits": "Construction credits of the starting packing are retained."
+      },
+      "previous_source": {
+        "n": 465,
+        "kind": "grid",
+        "bound": "22",
+        "source_n": 484,
+        "deleted_squares": 19,
+        "rounded_up": "22.000000000000",
+        "credit": "integer square grid"
+      },
+      "previous_reference": null
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

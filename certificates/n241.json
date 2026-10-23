@@ -1,0 +1,23 @@
+{
+  "n": 241,
+  "packing": "n241.txt",
+  "packing_sha256": "a847ca0f4f6f375c8d562885eb1d89be78dd5ee1baba1cdd5448acf44bf2d173",
+  "certificate": "certificates/n241.cert",
+  "certificate_sha256": "add404b34276f4ce7e30da5c3bd01c5939853fb8eafd8ed183be89c6249e1c09",
+  "rational_side": "15987117095150238758321758129189/1000000000000000000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "add404b34276f4ce7e30da5c3bd01c5939853fb8eafd8ed183be89c6249e1c09",
+    "source_n": 241,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": [
+        "Francisco Couzo"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

@@ -18,21 +18,39 @@ def our_credit(credit):
             or credit.startswith('francisco couzo ('))
 
 
+def credited_to_us(registered, public=None):
+    """The register's finders, the reviewed source request, or the reviewed
+    comparison a newer public value superseded name this project."""
+    registered = registered or {}
+    credits = [*(registered.get('register_found_by') or []),
+               (registered.get('external') or {}).get('credit', ''),
+               ((public or {}).get('superseded_review') or {}).get('credit', '')]
+    return any(our_credit(c) for c in credits if c)
+
+
 def classification(metadata, public, registered):
     """Publication of our own witness must not retire the record we hold.
 
-    Ownership comes from the best public comparison, never from a superseded
-    local claim or an older registration credit.
+    Ownership comes from the best public comparison. A comparison more than
+    ROUNDING below our side supersedes us whatever the earlier credit; within
+    ROUNDING, a count the register or its source credits to us stays ours.
     """
     ours = Q2(Fraction(metadata['rational_side']))
     other = exact_value(public)
     if other < ours:
+        # Another author's re-certification within rounding of a packing the
+        # register or its source credits to us is a precision refinement of
+        # our construction, not a new result.
+        if not other < ours - ROUNDING and credited_to_us(registered, public):
+            return 'Published record held by this project'
         return None
     if our_credit(public.get('credit')):
         return ('Refinement of our published record' if ours < other
                 else 'Published record held by this project')
     if ours < other - ROUNDING:
         return 'Improvement over public bound'
+    if credited_to_us(registered, public):
+        return 'Published record held by this project'
     return None
 
 
@@ -87,12 +105,14 @@ def render(records, context):
              f'Reviewed {context["date"]}: **{len(records)} counts** — '
              'published records held by this project and improvements over the reviewed public bound.', '',
              'Each n opens its packing. Certified sides and public comparisons are rounded upward to '
-             '12 decimal places. Matching our own published bound retains the record and its credit; '
-             'a stronger public bound supersedes it. Matching another author’s record does not claim ownership. '
+             '12 decimal places. Matching our own published bound retains the record and its credit, '
+             'as does another author’s re-certification within `1e-10` of a packing credited to us; '
+             'a public bound stronger by more than that supersedes it. Matching another author’s record '
+             'does not claim ownership. '
              'Construction, seed and certificate credits are linked for each packing. '
              'Updates to our own packings have no minimum gain: their exact certified bound '
              'must strictly decrease. The `1e-10` reporting tolerance applies only to claims of '
-             'new improvements over another author’s public bound.', '',
+             'new improvements over another author’s public bound and to keeping a record credited to us.', '',
              '| n | certified side s | reviewed public bound | standing | credits |',
              '|---:|---:|---:|---|---|']
     for n, row in sorted(records.items()):

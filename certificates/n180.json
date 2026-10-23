@@ -1,0 +1,40 @@
+{
+  "n": 180,
+  "packing": "n180.txt",
+  "packing_sha256": "e605b66c5734baed1388c3518e01ddce1321c6297c7a69ea7a5d17ad6b3b00d7",
+  "certificate": "certificates/n180.cert",
+  "certificate_sha256": "a66d49e35a3c841df0ca1daf5bb364f36139b36ae5126fbf21200ebd6db4128e",
+  "rational_side": "13916993522477832483558124720393/1000000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Nate Chaoweeraprasit (SQUISH), precision-refined by SidG2k1",
+    "seed_certificate": {
+      "source": "sidg2k1",
+      "certificate": "sidg2k1/witnesses/packing-180.cert",
+      "sha256": "118b7ac88f32af6b71825ae0caaf83d06d51d791791368599be4be3206cb4c84",
+      "request": "https://github.com/jlevy/squares/issues/438",
+      "side": "13917653417450184239793363612399/1000000000000000000000000000000"
+    },
+    "search_job": {
+      "id": 72148,
+      "method": "ellsworth_cycle",
+      "source": "external/seeds/n180.txt",
+      "source_origin": "external",
+      "source_sha256": "b5057200e5d529ed7f8d658830de55486267aefca3cbf56b1167740427c7e332",
+      "constructed_seed": null
+    }
+  },
+  "record_credit": {
+    "credit": "Francisco Couzo (franciscouzo)",
+    "request": "https://github.com/jlevy/squares/issues/451",
+    "evand_certificate": "evand/search/regularize/lists/certs/n-180.cert.gz",
+    "evand_sha256": "968d948508e6a421727b3d5b060bd5cc2568f5d6b70806effc3cf6815c0b67e6",
+    "restored_from": "487b05809099d8f7d006aaeb6bfc1ebe95cb8d0d",
+    "lower_public_recertification": {
+      "bound": "69584967612389157/5000000000000000",
+      "credit": "Mishapolk",
+      "source": "https://github.com/jlevy/squares/issues/593"
+    },
+    "note": "Held within the 1e-10 reporting tolerance of a lower re-certification by another author; the exact best witness for this count remains in certificates/best/manifest.json."
+  }
+}

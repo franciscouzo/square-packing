@@ -28,12 +28,34 @@ class RecordStandingTests(unittest.TestCase):
         for owner in ['Francisco Couzo', 'another author']:
             with self.subTest(owner=owner):
                 self.assertIsNone(classification(dict(rational_side='6'),
-                    dict(bound=str(6-Fraction(1, 10**40)), credit=owner),
+                    dict(bound=str(6-Fraction(1, 10**6)), credit=owner),
                     dict(register_found_by=['Francisco Couzo'])))
 
+    def test_recertifying_our_packing_within_rounding_keeps_the_record(self):
+        for gap in [0, Fraction(1, 10**15), Fraction(1, 10**10)]:
+            with self.subTest(gap=gap):
+                self.assertEqual(classification(dict(rational_side='6'),
+                    dict(bound=str(6-gap), credit='another author'),
+                    dict(register_found_by=['Francisco Couzo'])),
+                    'Published record held by this project')
+        self.assertEqual(classification(dict(rational_side='6'),
+            dict(bound=str(6-Fraction(1, 10**15)), credit='another author'),
+            dict(external=dict(credit='Francisco Couzo (Kaggle push search)'))),
+            'Published record held by this project')
+
+    def test_value_within_rounding_of_our_superseded_review_keeps_the_record(self):
+        public = dict(bound=str(6-Fraction(4, 10**12)), credit='another author',
+                      superseded_review=dict(bound='6', credit='Francisco Couzo'))
+        self.assertEqual(classification(dict(rational_side='6'), public, {}),
+                         'Published record held by this project')
+        public['bound'] = str(6-Fraction(1, 10**6))
+        self.assertIsNone(classification(dict(rational_side='6'), public, {}))
+
     def test_matching_another_author_does_not_claim_the_record(self):
-        self.assertIsNone(classification(dict(rational_side='6'),
-            dict(bound='6', credit='another author'), dict(register_found_by=['Francisco Couzo'])))
+        for registered in [{}, dict(register_found_by=['another author'])]:
+            with self.subTest(registered=registered):
+                self.assertIsNone(classification(dict(rational_side='6'),
+                    dict(bound='6', credit='another author'), registered))
 
     def test_new_external_certificate_cannot_be_hidden_by_reporting_tolerance(self):
         tighter = str(6-Fraction(1, 10**40))

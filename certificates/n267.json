@@ -1,0 +1,40 @@
+{
+  "n": 267,
+  "packing": "n267.txt",
+  "packing_sha256": "4518cd5da4a7280b6b53dbc12e16d825aa54dba78d9109487a714c45555a09c2",
+  "certificate": "certificates/n267.cert",
+  "certificate_sha256": "711814d2d7ca078dc1b8b0256240867a53eec24f8025fd3ba257aaab57dd4e12",
+  "rational_side": "4209703817487065565108620335551/250000000000000000000000000000",
+  "kind": "exact optimum",
+  "origin": {
+    "seed_credit": "Ryan Xu",
+    "seed_certificate": {
+      "source": "ry-xu",
+      "certificate": "ry-xu/certificates/n267/n267.cert.json",
+      "sha256": "f226635e43bae7017b95dad7e7140c3c9051c516e6b7c8d55ad7c244eeffa88d",
+      "request": "https://github.com/jlevy/squares/issues/432",
+      "side": "168388319611168388319611/10000000000000000000000"
+    },
+    "search_job": {
+      "id": 75538,
+      "method": "ellsworth_cycle",
+      "source": "n267.txt",
+      "source_origin": "own",
+      "source_sha256": "a688b8a67e4c29b1ca750bb534fff769fdf4ae82942966d13701baadb9168810",
+      "constructed_seed": null
+    }
+  },
+  "record_credit": {
+    "credit": "Francisco Couzo (franciscouzo)",
+    "request": "https://github.com/jlevy/squares/issues/476",
+    "evand_certificate": "evand/search/regularize/lists/certs/alt/n-267.cert.gz",
+    "evand_sha256": "b7c9236621debcae4e400bbc8384f784266345c36ae6600dac7aef2b8bf3f352",
+    "restored_from": "487b05809099d8f7d006aaeb6bfc1ebe95cb8d0d",
+    "lower_public_recertification": {
+      "bound": "2405831741238427835575830183414653566109665947317277701185012039460867248827698726544955433584428652871319190591113632845060035088768288929736496996581608950044352820334231689876932005377309951441/142874169154408677241474314008763111190577911529142696020201529661424466443739201298737701430250296004349251940654786408725001950368288929736496996581608950044352820334231689876932005377309951441",
+      "credit": "PingYou Ltd (BuddenPing)",
+      "source": "https://github.com/jlevy/squares/pull/574"
+    },
+    "note": "Held within the 1e-10 reporting tolerance of a lower re-certification by another author; the exact best witness for this count remains in certificates/best/manifest.json."
+  }
+}

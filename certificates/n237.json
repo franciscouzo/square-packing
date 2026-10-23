@@ -1,0 +1,23 @@
+{
+  "n": 237,
+  "packing": "n237.txt",
+  "packing_sha256": "4df7231d7ad864155c2629c41ea8d5038956baf7706813a6dd0011b43f45479e",
+  "certificate": "certificates/n237.cert",
+  "certificate_sha256": "e367f769988aaa47ebeb4e5c40d0410c3a0bb23bad50f7478d3d3de452c1da7f",
+  "rational_side": "7951301819129798440089572127137/500000000000000000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo",
+    "source_certificate_sha256": "e367f769988aaa47ebeb4e5c40d0410c3a0bb23bad50f7478d3d3de452c1da7f",
+    "source_n": 237,
+    "source_provenance": {
+      "category": "local",
+      "construction_credit": [
+        "Nate Chaoweeraprasit (itsnaka)"
+      ]
+    },
+    "construction": null,
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}
