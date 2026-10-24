@@ -248,6 +248,14 @@ def register_bounds():
     return bounds
 
 
+def hash_kind(path, raw):
+    """What a recorded sha256 binds: a .gz file is hashed as stored, so say so and
+    give the hash of its text too (jlevy/squares#678)."""
+    if path.suffix == ".gz":
+        return {"sha256_kind": "gzip bytes", "decompressed_sha256": hashlib.sha256(gzip.decompress(raw)).hexdigest()}
+    return {"sha256_kind": "uncompressed bytes"}
+
+
 def read_cert_text(path):
     """Evan Daniel's .cert format: comment lines, 'n S', then 'x y t' rationals."""
     with (gzip.open(path, 'rt') if path.suffix == '.gz' else path.open()) as stream:
@@ -462,9 +470,11 @@ def main():
             continue
         if len(squares) != n:
             raise ValueError(f"{path}: {len(squares)} squares, header says {n}")
-        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        raw = path.read_bytes()
+        digest = hashlib.sha256(raw).hexdigest()
         found.setdefault(n, []).append({"side": side, "squares": squares, "source": source,
-                                        "path": str(path.relative_to(SOURCES)), "sha256": digest})
+                                        "path": str(path.relative_to(SOURCES)), "sha256": digest,
+                                        **hash_kind(path, raw)})
     for n, poses, source, path in decimal_packings():
         if n > a.max_n:
             continue
@@ -542,6 +552,7 @@ def main():
             entry["external"] = {"side": str(best_ext["side"]), "side_decimal": float(best_ext["side"]),
                                  "source": best_ext["source"], "credit": who, "request": url,
                                  "certificate": best_ext["path"], "sha256": best_ext["sha256"],
+                                 **{k: best_ext[k] for k in ("sha256_kind", "decompressed_sha256") if k in best_ext},
                                  "pending": reg is None or float(best_ext["side"]) < reg["reported"]-1e-12}
         if n in own and reg:
             who = register_attribution(n, commits["register"]["commit"], a.offline)
