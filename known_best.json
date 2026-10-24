@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T00:27:30Z",
+  "generated": "2026-10-24T06:55:28Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -11,7 +11,7 @@
     },
     "evand": {
       "url": "https://github.com/evand/square-packing.git",
-      "commit": "7982d7a9346e29e36cab3ce075274f3023114353"
+      "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede"
     },
     "sidg2k1": {
       "url": "https://github.com/SidG2k1/square-packing-refinements.git",
@@ -43,7 +43,7 @@
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
-      "commit": "64b316b6cc8fa31177824e20733853708b996fb5"
+      "commit": "34eb8bb75b3ce6fff9c04bcfce0eb8f8d1e1bf9a"
     }
   },
   "note": "Best known upper bounds: the register's reported value or a verified, published certificate. Third-party packings are credited to their authors and are used here only as comparison bounds and search seeds.",
@@ -85,6 +85,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-005.cert.gz",
         "sha256": "46cfb1be7ae469297f4fac9fc300c5b2ce0f948b2c14038e45add22764303159",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "3e4dc5d31cb36dbeff2b5fa6a632bf40205d626fda93cef2ea8ec921a56355db",
         "pending": false
       },
       "seed": "external/seeds/n5.txt"
@@ -126,6 +128,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-010.cert.gz",
         "sha256": "1bb0ef90257e675cc953053377c7b1741e4e5cf904957897d97b049d15b7f872",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a0a8beb3a3d79383cb95491d791142ae22b4b9fc46af2dc39416917dcc28aa19",
         "pending": false
       },
       "seed": "external/seeds/n10.txt"
@@ -143,6 +147,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-011.cert.gz",
         "sha256": "a2319447dfe463afa708940cc0b24f96e9af129122e4759c066aaad134bd1289",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "94b9c1000c4312c8f6e12e9641dda5b99ac05f53e679e5a17b787a8da4aec4f5",
         "pending": false
       },
       "seed": "external/seeds/n11.txt"
@@ -190,6 +196,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-017.cert.gz",
         "sha256": "67e0736cdc7d4bbb73e3e753e37b0f0d3774554f0e5455f2ca75efc822790583",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "fbc2996bd8a41156e2e33c957f8272a68bae3b399372e263c12c61a7c351d879",
         "pending": false
       },
       "seed": "external/seeds/n17.txt"
@@ -207,6 +215,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-018.cert.gz",
         "sha256": "4509cfb8f8e592ae32a1b378ea6e16fc326a5998c253c4e45cf488a4c0f0ab15",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "8ef41a9c2da07bc6cb5222cc5cbf22488555adf2c2b337003935b5d84f0f1e05",
         "pending": false
       },
       "seed": "external/seeds/n18.txt"
@@ -224,6 +234,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-019.cert.gz",
         "sha256": "13352e1897d1219c6a2a36d0340300244f245154843cc4a82e50124855d8b4c1",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "6fb6f71ae352f8ffa8fa0f5e63a0509a8c8cd53da8e63fc2ace0d6230f07d26f",
         "pending": false
       },
       "seed": "external/seeds/n19.txt"
@@ -277,6 +289,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-026.cert.gz",
         "sha256": "3a4147c6d9bd5ad5195a9ebd754cc56af75867e1ad77eb702714aa108f87ff9c",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "5d485b4bde6c7e7bf7b1079ccdb9c642786744f45f2d487a220903265590fd50",
         "pending": false
       },
       "seed": "external/seeds/n26.txt"
@@ -294,6 +308,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-027.cert.gz",
         "sha256": "3ce5aa78f13c99e0aa08144c6383452d6fc6caa9e0f4d9bdc1da25d6822ff6e9",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "e5aa4018f6e6955b01a1738d2f47b58f11eff8a66b9997a1f508623827c31cf9",
         "pending": false
       },
       "seed": "external/seeds/n27.txt"
@@ -311,6 +327,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-028.cert.gz",
         "sha256": "5ebc32f2d5581aad7e0083c657d220148494946f5a886620063479b294efd151",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "6f6564555177bf33bd54671dd6031b65118772397a7401fb373f0432e2f838be",
         "pending": false
       },
       "seed": "external/seeds/n28.txt"
@@ -328,6 +346,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-029.cert.gz",
         "sha256": "8328c4d72e5f2a9512cda749bc67c7377f5672942ad3ea6bd533f1f3fe88da42",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "49e77b0ec8df6cba2add59f1e2d5ab6a8844a90ee15fc620844b953b23c0a4ee",
         "pending": false
       },
       "seed": "external/seeds/n29.txt"
@@ -387,6 +407,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-037.cert.gz",
         "sha256": "3007fc3c08d9b1988a7d4bf965c1129b9f15a20a7698181ee5acccd5d2d3f1c6",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "95f14a7154402144c1fd409966c7289576f2627e77542ac5cc79f8567507ffed",
         "pending": false
       },
       "seed": "external/seeds/n37.txt"
@@ -404,6 +426,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-038.cert.gz",
         "sha256": "080371dbc8754d6e7885943602496f24b238b271606c16c0001389fdc6e819cf",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "41cabdfa3c8ac2302abe56c9d31cfadf903096c5fb9157a361e57cc355ef164c",
         "pending": false
       },
       "seed": "external/seeds/n38.txt"
@@ -421,6 +445,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-039.cert.gz",
         "sha256": "2e92dd69b6f9d53268ed32ab0c32cdfe8a5ab873ea73d311f47eb8edc3d55158",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "1a2f91701778bd8402f3c0e285b6e2a91c0cddd19adb7cdaec8d978ac853ba83",
         "pending": false
       },
       "seed": "external/seeds/n39.txt"
@@ -438,6 +464,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-040.cert.gz",
         "sha256": "c30bcaff684efedc9be0421fdc9e642926cf55e1d63e4f4e1e0fb47b3dad8ddb",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "05d642647e0abed9b0d08e0ff489b4c041d19425eff6f19fbefc2904343872e6",
         "pending": false
       },
       "seed": "external/seeds/n40.txt"
@@ -455,6 +483,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-041.cert.gz",
         "sha256": "9257c09e0eec8810aef8c579f20f8abc05b5d49ae63d889fbb58f6f69a912d53",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "9f13a533a6da4df7d48eb962049e776f05fa8cc5c4cc1aaeeed15cc4d79fe0a5",
         "pending": false
       },
       "seed": "external/seeds/n41.txt"
@@ -520,6 +550,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-050.cert.gz",
         "sha256": "780d70692d58f5d8f540f49ec418ae3d650967b837813bf8b911feb785153e91",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cb7d2b77ef35e2f87616b3488da4306a63d4e56c7fc7be1abfc11e27067ed6ff",
         "pending": false
       },
       "seed": "external/seeds/n50.txt"
@@ -537,6 +569,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-051.cert.gz",
         "sha256": "234b62d6cf7a5524a5c4cb02edcc5dfdaad1892544d86e8253c7f87b9a0eb613",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "e066f65fa4c8a426f3ce34987389332e0aeeb94578b28aa0512a9e32af2e4c9d",
         "pending": false
       },
       "seed": "external/seeds/n51.txt"
@@ -554,6 +588,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-052.cert.gz",
         "sha256": "09a272cf5111fa93df64b7fd7fde644d7a27308a6b36739f9e3e1e43237a0926",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "635c45fe161ec4cb556f3fb9db357de4545008a08748ddc15e6b7e4b897ef875",
         "pending": false
       },
       "seed": "external/seeds/n52.txt"
@@ -571,6 +607,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-053.cert.gz",
         "sha256": "3a4ad638828666cda818c7d6efac2a9af0766598f8032920b8ab3dce00b3d9b4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f35003f63796f2e9ba9744e19493c8980c06545a3049960c892e86d6be5af6fc",
         "pending": false
       },
       "seed": "external/seeds/n53.txt"
@@ -588,6 +626,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-054.cert.gz",
         "sha256": "5fb9b848da69deae640cccb986761613f0bb99b263f8469d50d42f5d1bade6d3",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "60e350f74b8c021559d7718695fddb5a08e34cb47419110affde2b5ab64d0da7",
         "pending": false
       },
       "seed": "external/seeds/n54.txt"
@@ -605,6 +645,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-055.cert.gz",
         "sha256": "4fdce0391b54fe86c366280c0b309b43d86887f84b27698415503554e64823c6",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "bf312332aaab0a0066fba7daf4061d4822405789e40fb7914f9439f3e977dd85",
         "pending": false
       },
       "seed": "external/seeds/n55.txt"
@@ -676,6 +718,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-065.cert.gz",
         "sha256": "cce72f1389a0f78e654df562ffdea5ae2f71923020f425e2832d709de259d452",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "d79008ef63af4f8ddbd98dba9c437b1bd222a52bb8edb49cd9bf429cf10be8e1",
         "pending": false
       },
       "seed": "external/seeds/n65.txt"
@@ -693,6 +737,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-066.cert.gz",
         "sha256": "36188948bcea342356b4b6eda35ec3e5a7f15953cfee761bdbbb02b21cb084f3",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "5ead10632dcc308ab8a46bd8b6f20b8d7e0e5c9522e780de252c28f0fd872148",
         "pending": false
       },
       "seed": "external/seeds/n66.txt"
@@ -710,6 +756,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-067.cert.gz",
         "sha256": "e082d16f4dd32cf78ec15f5f7f498e3dff9d270fdee7ec83193186e8ddc94473",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "2645f93a0837f40616efe4f2a36fd42e5d2535b71a2f2c5e22e1690145b1a5be",
         "pending": false
       },
       "seed": "external/seeds/n67.txt"
@@ -742,6 +790,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-069.cert.gz",
         "sha256": "96112086b7aa1e1b6035c469383c810310cd75ad28d79d063b6fafb58013262d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "4278862d711b6e33314f076de02881e3b0c8f087bde2fbd90cde8884d20b4c90",
         "pending": false
       },
       "seed": "external/seeds/n69.txt"
@@ -759,6 +809,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-070.cert.gz",
         "sha256": "65b1c4698129560857ad4f91ec9a7a12980de0ceb619bcc814e55a3fd9ef597d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "7887aab2095295323c5f57365aba9df281d3abc0807b01fcd0d25a0459b86ee8",
         "pending": false
       },
       "seed": "external/seeds/n70.txt"
@@ -776,6 +828,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-071.cert.gz",
         "sha256": "ce25b61a751d91cbb5fc98d661f1523716e3742d58aea2bd7756f15fcce3dbed",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "61b46db7424a576550258d666e62ff07af5da370fb0afbc558f53dd6984390f7",
         "pending": false
       },
       "seed": "external/seeds/n71.txt"
@@ -853,6 +907,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-082.cert.gz",
         "sha256": "c2a66e4180a7af2f4859e3d7b4b34960f1e73455d21ee8f11b980f8e35da2c36",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "b583168b1cb2974ce52d3ccc5d26bc3f5bbad7ab12f8b16c8ce8bd79a54ae4c6",
         "pending": false
       },
       "seed": "external/seeds/n82.txt"
@@ -870,6 +926,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-083.cert.gz",
         "sha256": "8b8498a65c3178fca6a833c50ba5ef10ef1ffef5e119c4b4d12cbb162212bcd1",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "6ce3f161d4a5670e9582951a71789f90667df259605f93e73d7381b47d5d9eae",
         "pending": false
       },
       "seed": "external/seeds/n83.txt"
@@ -887,6 +945,8 @@
         "request": "https://github.com/jlevy/squares/issues/470",
         "certificate": "evand/search/regularize/lists/certs/n-084.cert.gz",
         "sha256": "6d9a346a8eb7881e5df598fe556993f0795d125e39b7ef3f9363ccfba529ed3a",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "86407690d97cf88355e05d64d00f861e2494d34b6d86848acbf6ea809843ddde",
         "pending": false
       },
       "seed": "external/seeds/n84.txt"
@@ -904,6 +964,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-085.cert.gz",
         "sha256": "f557b0f01bb132696a66f21dd002cc4f68a5dab8bec419e571f455fe2db67d38",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "d764f6795e55fe64044c61f6c7ddec229793d7bd30912149d8b5cc05e2858bd8",
         "pending": false
       },
       "seed": "external/seeds/n85.txt"
@@ -921,6 +983,8 @@
         "request": "https://github.com/jlevy/squares/issues/470",
         "certificate": "evand/search/regularize/lists/certs/n-086.cert.gz",
         "sha256": "144059120c6c0b012b03b88b5f7e49b803f093ccf30ad393d4e06c54b19339f4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "7a384fe57f950a800f6013d41c0578b97f5e2a5efae2c3b104720098dc20350f",
         "pending": false
       },
       "seed": "external/seeds/n86.txt"
@@ -938,6 +1002,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-087.cert.gz",
         "sha256": "9174e2f134c8c5628c168bb3fd86c0fab2b7d496060a242d4f2c9852b0735228",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "1284708a71245f3f72a0146334c154562d091bb3751980b5eb0aa193bc152d57",
         "pending": false
       },
       "seed": "external/seeds/n87.txt"
@@ -955,6 +1021,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-088.cert.gz",
         "sha256": "7514d4f5e3c09e915283e90b248028dd242fa3efc1d5d613b471c5a9ca18d221",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f84d477c4526b02fee953ade999f76aa613a1b29914492f6b2ec01b758f3b743",
         "pending": false
       },
       "seed": "external/seeds/n88.txt"
@@ -972,6 +1040,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-089.cert.gz",
         "sha256": "a3b5c03f9d1525f155979ed1b97bdce1f7d4522e619ff9a4fb58c8bfda22e0ed",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "b700f8dcec3b4a886e50099ef86ffd9b7f1e5c24d59a8b2cd8826e8ff3fe3fa2",
         "pending": false
       },
       "seed": "external/seeds/n89.txt"
@@ -1055,6 +1125,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-101.cert.gz",
         "sha256": "23f7c62a000b708416bbb5d1eb2d2b57edbe4d5683b0c7ee9713c1396111b23a",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "79483d6a8202efc2409e665c599d9df937fd53af57455c6b54bc6204e83ec2d2",
         "pending": false
       },
       "seed": "external/seeds/n101.txt"
@@ -1072,6 +1144,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-102.cert.gz",
         "sha256": "b0e9e73533eb6ea05e0a399366f735fd2bf1278b145363ecb77c5c1fcfc78d95",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "e05bde7557e130840427b9b68e2300ed6770a52e03bc54576aecc3a5c6cc1c33",
         "pending": false
       },
       "seed": "external/seeds/n102.txt"
@@ -1089,6 +1163,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-103.cert.gz",
         "sha256": "d8f606b5173fffc0b75a09724f956019fcb03ba9ba976c5d15b29ab22bcf9d54",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "d41b32c8b8619a866510abd35b48f0c42916fbc4becb6d9652921848cf6fb0b9",
         "pending": false
       },
       "seed": "external/seeds/n103.txt"
@@ -1106,6 +1182,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-104.cert.gz",
         "sha256": "d4a92664bf7c297cbb64ab1dbead6242cb41fc13898d68c3dbd5c261ef12118c",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "6db3043730f52bd08b3d3396a37e0ee20f8f998e464bd666edf9054b753fa26e",
         "pending": false
       },
       "seed": "external/seeds/n104.txt"
@@ -1123,6 +1201,7 @@
         "request": "https://github.com/jlevy/squares/issues/503",
         "certificate": "buddenping/n105.cert.json",
         "sha256": "8c684d15e87e772bec491f0c77db5b87c0246883875f5c0ad8b0c8a8ac8cd613",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n105.txt"
@@ -1154,6 +1233,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-107.cert.gz",
         "sha256": "26ad8877a8dc79f95ea7c1db48b13dfcfb372371a47f4198586832f72720e239",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "10ef20dc36ca74294a20933bd257f7c5eb947c11e72d70fcd401a139504f2c31",
         "pending": false
       },
       "seed": "external/seeds/n107.txt"
@@ -1171,6 +1252,8 @@
         "request": "https://github.com/jlevy/squares/issues/451",
         "certificate": "evand/search/regularize/lists/certs/n-108.cert.gz",
         "sha256": "e6e49803f80162be075eb3330e73e0d58531d82bc03d47be837a87c3109f31f4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "d0fa7b797cff059184914cc95c60f7f2d887a83f4f2ddbafd9a30fe9ab4c60d5",
         "pending": false
       },
       "seed": "external/seeds/n108.txt"
@@ -1188,6 +1271,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-109.cert.gz",
         "sha256": "f9db9942171acd90406d2684555c9a586789b01d4da101448a87050a7f64dbce",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "5956935e9669ce5de8dc589f67c7901b76ed056f6440e112c269bce6b656617d",
         "pending": false
       },
       "seed": "external/seeds/n109.txt"
@@ -1286,6 +1371,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-122.cert.gz",
         "sha256": "c2c3181bdf28f42c3881b5ef82142f1fa1885f66fa9934b4cc2e076fa77036a4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "42843ca76232cbfe41b9573ac4c8bb76e846adb1743720ad012cde6056a5aeb1",
         "pending": false
       },
       "seed": "external/seeds/n122.txt"
@@ -1303,6 +1390,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-123.cert.gz",
         "sha256": "46139e2c6c476d422afe18b8d730e56f80f0d6e023a1470225d000296f3cc2a0",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a138c300f86e1b0bfc216a500caaed559df0041d891d7745f90a744b29ae4d93",
         "pending": false
       },
       "seed": "external/seeds/n123.txt"
@@ -1320,6 +1409,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-124.cert.gz",
         "sha256": "8f82ce82997c7e769144e94516d91467756a46601ad481bbeb81701d258bda10",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "225aa474c0d9054a777e2a99f42e457f2c1a3b2fa35838ae2181e98d109da678",
         "pending": false
       },
       "seed": "external/seeds/n124.txt"
@@ -1337,6 +1428,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-125.cert.gz",
         "sha256": "0fbbadc562e852a1f5e866e30bdd8a623c4995543be7151a350a9270ae6adc87",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "6e406ac42eb231523dd82100ec9025fc1e37dde5b90759cd4363a58fb68cc5a1",
         "pending": false
       },
       "seed": "external/seeds/n125.txt"
@@ -1354,6 +1447,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-126.cert.gz",
         "sha256": "90fac52493da7e961e242b349dd3d95c2ed32a155d990804ccc42016700766ed",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "028ccab5baa9e9c83d029cdd90efe63b35b36fa21a708e011971f7f6a5cc0d54",
         "pending": false
       },
       "seed": "external/seeds/n126.txt"
@@ -1397,6 +1492,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-128.cert.gz",
         "sha256": "04131864a107a12bb1fbe4a51e2c9ca5767001d1cc8524c6675f30e0cf29db8a",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "db108190b90ac0455264c3f3efcee3cf415c2125479836ff663edc2cd7cf0127",
         "pending": false
       },
       "seed": "external/seeds/n128.txt"
@@ -1414,6 +1511,7 @@
         "request": "https://github.com/jlevy/squares/issues/562",
         "certificate": "dostashev/records/n0129.sqcert",
         "sha256": "123031b8e95245cbbf23f1876ed071ca4f6b6d274ca20c01f03797fa35f4fa47",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n129.txt"
@@ -1431,6 +1529,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-130.cert.gz",
         "sha256": "6bf2a6c47e76cdf93afaf0b0c036cdd19d20daa4951d1218bdb8676ef0ae0ab6",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "b410bb3d8e461fd4cd3622069503a5126e5221d1b443b224bbab4f5a51d5693c",
         "pending": false
       },
       "seed": "external/seeds/n130.txt"
@@ -1448,6 +1548,7 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "squish/squish-submission-2026-10-09/n131/n131.cert.json",
         "sha256": "ffc4f8f6b9964e116687178de3eef54e1d029265e19a5d7e6dcae1e8e9cbaa7d",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n131.txt"
@@ -1465,6 +1566,7 @@
         "request": "https://github.com/jlevy/squares/issues/489",
         "certificate": "evand/search/packer/candidates/hunt3_n132.cert",
         "sha256": "a0def8c4e0bd5425c96f68054eb44fd0766cbd433bb3c324f366f1a19d70baa2",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n132.txt"
@@ -1554,6 +1656,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-145.cert.gz",
         "sha256": "201f6678dffc9ac2fd502bd3a9a136cf969163bf9fe7f236972222c0a1bbdff2",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "8d72e9f9303de81819b800e6dd7dc516b6b6f35511b680031fc1e13f10a1e915",
         "pending": false
       },
       "seed": "external/seeds/n145.txt"
@@ -1571,6 +1675,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/tt2_n146.cert",
         "sha256": "ec6e75ec1f7299d1107c2fabf1683c43907625f5c5b953c791c04e56944fa271",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n146.txt"
@@ -1588,6 +1693,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-147.cert.gz",
         "sha256": "569ed0909c9f07afacea8a9644a4d49ee5d3b810e45bfd87e6a59a9e1489b136",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f9df7d97d64f0c0f7e17d9f15b54b53f15c84aeddda6c9274784204bde7d7e46",
         "pending": false
       },
       "seed": "external/seeds/n147.txt"
@@ -1605,6 +1712,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-148.cert.gz",
         "sha256": "f36ba82951b94f125479b2f52687fb04e834552cfa376c0b6b8ea3287d3262dc",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "719368ad261de92269c6f0f6754010132fab576733b46443563f39b7189360d4",
         "pending": false
       },
       "seed": "external/seeds/n148.txt"
@@ -1622,6 +1731,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-149.cert.gz",
         "sha256": "3e902c98777b146093bf0cdaeedf07a8c8965f08b06599912cb36b7007239497",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a97e433fc9bb96de30d7c3a02a3ef54545e5d1210280978fd25c528fd42847af",
         "pending": false
       },
       "seed": "external/seeds/n149.txt"
@@ -1639,6 +1750,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-150.cert.gz",
         "sha256": "2e2d930cb97e5b2e51d01fd1535bc5b7a5b07b02117752437be232d031c02667",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "0633e252afb3903379bffb996c2d4646cd483e325d87e865a57d1caca4d21167",
         "pending": false
       },
       "seed": "external/seeds/n150.txt"
@@ -1656,6 +1769,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-151.cert.gz",
         "sha256": "13b1f93279688aad3cf8e091a359123c3f44a30dac3bdb5be1a09c03324c690d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "3027129e39e165adc36ffcfdcd06844a9e9b05d6457d3f276c62375ffec0a9ec",
         "pending": false
       },
       "seed": "external/seeds/n151.txt"
@@ -1687,6 +1802,8 @@
         "request": "https://github.com/jlevy/squares/issues/504",
         "certificate": "evand/search/regularize/lists/certs/n-153.cert.gz",
         "sha256": "90fcfd781c942dadf228539cfa63d946e86cde86fe4f9bbf79196b7bd237fa44",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "9a46fbe7a7a9ea3a06cc1f92e96c7e41cdbb6fe9ef1293a18d4e497a00f98e74",
         "pending": false
       },
       "seed": "external/seeds/n153.txt"
@@ -1704,6 +1821,7 @@
         "request": "https://github.com/jlevy/squares/issues/694",
         "certificate": "evand/search/packer/candidates/s154_sw.cert",
         "sha256": "c2242dcda1ae3d4c9d580af14ed9adf425780320d94846c3c96f5c3ee486d78d",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n154.txt"
@@ -1721,6 +1839,7 @@
         "request": "https://github.com/jlevy/squares/issues/669",
         "certificate": "evand/search/packer/candidates/s155_ex2.cert",
         "sha256": "a1a3b6e7c2ce4d7de79efc2e07fc0bf53616dc44b732a2849b4dc4d8f7e2c4cc",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n155.txt"
@@ -1738,6 +1857,8 @@
         "request": "https://github.com/jlevy/squares/issues/561",
         "certificate": "evand/search/regularize/lists/certs/n-156.cert.gz",
         "sha256": "af61e6098f0ec948d65c14cf0f0b474d5515ee24470c8529be2cbecc092b7584",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "b58d657e4a21864f6a146a2c5fe640c09a27ff6ec3f1ac89d498b079f4d48bf7",
         "pending": false
       },
       "register_found_by": [
@@ -1843,6 +1964,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-170.cert.gz",
         "sha256": "56360db68edf6bdc63a90b66407f273189acc90ae9ab7fc0cf2a1d95e0378d4e",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "dfd5bd7b750892fed3b02fa33ffb0fba4ec28ec5079c604046f84ec128771bbd",
         "pending": false
       },
       "seed": "external/seeds/n170.txt"
@@ -1860,6 +1983,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-171.cert.gz",
         "sha256": "96a3143f3c2139db5e0349f400fbb236c0608de91ae549e7e0f810072d72c69c",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "8f1ec250f3f856af9d7c43dc130bdd60ff3f4788f137290ab6bf05e6a42e7d53",
         "pending": false
       },
       "seed": "external/seeds/n171.txt"
@@ -1892,6 +2017,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-173.cert.gz",
         "sha256": "2b890e934186619595519f3fd34fae93656270fff565d453557c8481e249d0a9",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "bacd946a84cc6b2c70d89ce69e4d7bf3a12f815169c5a762527213acef1bce18",
         "pending": false
       },
       "seed": "external/seeds/n173.txt"
@@ -1909,6 +2036,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-174.cert.gz",
         "sha256": "242b8c8d6af61ff928832b8678e01db8d3dac2e629dacb1bf426ca7b5db406df",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f01a8721801d9008c931d25a37f94ddee5e3d63ce49eb21488f50f1014e0fa1d",
         "pending": false
       },
       "seed": "external/seeds/n174.txt"
@@ -1926,6 +2055,7 @@
         "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0175.sqcert",
         "sha256": "260dbc06037f3d08fb53049faaff66750a141a16c1c912ec47cdcff8bf5e4807",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n175.txt"
@@ -1943,6 +2073,7 @@
         "request": "https://github.com/jlevy/squares/issues/575",
         "certificate": "dostashev/records/n0176.sqcert",
         "sha256": "f70f484dfeb7057fd23c57859eac8d77bc4554e3d6aa6df1425ae5cdd2e9ef39",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n176.txt"
@@ -1960,6 +2091,8 @@
         "request": "https://github.com/franciscouzo/square-packing",
         "certificate": "evand/search/regularize/lists/certs/n-177.cert.gz",
         "sha256": "68e84bf9f988e8e9861f75ee220444d980e0e777a0c8c60571772464c1f4242b",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "237ef3b063170cb9ecf76c06fcd9ba86accfd033c5bd0bace7dd56651abb1179",
         "pending": false
       },
       "register_found_by": [
@@ -1985,6 +2118,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-178.cert.gz",
         "sha256": "a7ebe674752b1855b81b6e1eefbe4eb5a06a377ae8aa7a520a99f3a59bdf7bc7",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "1ba6adaa0f4ead6eca56af89dbed8bae297e403a5caa249bfcf7d523be40b2e2",
         "pending": false
       },
       "seed": "external/seeds/n178.txt"
@@ -2002,6 +2137,8 @@
         "request": "https://github.com/jlevy/squares/issues/422",
         "certificate": "evand/search/regularize/lists/certs/n-179.cert.gz",
         "sha256": "94b0f1940f9ec7b953e76deb2308aa08caaba6aa5457abce32e3850f38a01d23",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "fd337b05d2c5a01f91c47d9f772f237d82fad1436144942c14097d8c6d7b06fb",
         "pending": false
       },
       "seed": "external/seeds/n179.txt"
@@ -2027,6 +2164,7 @@
         "request": "https://github.com/jlevy/squares/issues/438",
         "certificate": "sidg2k1/witnesses/packing-180.cert",
         "sha256": "118b7ac88f32af6b71825ae0caaf83d06d51d791791368599be4be3206cb4c84",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "register_found_by": [
@@ -2054,6 +2192,7 @@
         "request": "https://github.com/jlevy/squares/issues/500",
         "certificate": "squish/squish-submission-2026-10-11/n181/n181.cert.json",
         "sha256": "cc0afa669ae8bb88762284bb19bbd61706a9cddd5b4a10091e6ebd38c1e4f7a0",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n181.txt"
@@ -2086,6 +2225,7 @@
         "request": "https://github.com/jlevy/squares/issues/680",
         "certificate": "evand/search/packer/candidates/s183_h183b.cert",
         "sha256": "279e70d1c7fb0bc181e3e9d313e7350b672d85e223296f252b92f2916d6e5df5",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n183.txt"
@@ -2181,6 +2321,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-197.cert.gz",
         "sha256": "7df69b412920620236c6f7337787316c00ab3672edca75de19170f5d75de61d3",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "faba856477482046cd47d38a91cdf0cb6880c6d8334cadb9c1de1be2d5a43231",
         "pending": false
       },
       "seed": "external/seeds/n197.txt"
@@ -2198,6 +2340,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-198.cert.gz",
         "sha256": "96124a4b84750b76a492673878fe1e99524829efecedd232e685d1ed68aa4d2e",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "19fe10de7ddb471976b02ca04896452b6c6b0a1ebf57af094536eb0de8f2b0c9",
         "pending": false
       },
       "seed": "external/seeds/n198.txt"
@@ -2215,6 +2359,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-199.cert.gz",
         "sha256": "e8a13754433866333ed340861b1cbb8825e85ca21bc068f3434593201f5d509a",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "e43517d6f89b5a1520cba030482162c11925a4f2db1c2426dbc4717b6f67821a",
         "pending": false
       },
       "seed": "external/seeds/n199.txt"
@@ -2232,6 +2378,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-200.cert.gz",
         "sha256": "e530a06e5c5d3099b884d33c4bdc8d2510e232e2db8f5b8c6a7529a4ba5c3a33",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "4697c6931749a41264a49d88e0b7216da1929f93042568448b34cec1451343a0",
         "pending": false
       },
       "seed": "external/seeds/n200.txt"
@@ -2249,6 +2397,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-201.cert.gz",
         "sha256": "da7d24d8ff514a78768ffc653bd2a6f5a2ac230bf69c854a4342c25efc80f02d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "06c073d3191149f0bd2f22816cf9344dd2ac638dfc3392a531c89522739de62e",
         "pending": false
       },
       "seed": "external/seeds/n201.txt"
@@ -2266,6 +2416,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-202.cert.gz",
         "sha256": "6da76c9df7293a75feaf96e68930b59800cdf4cb39cd81c2e0c02da4f80aa317",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f45b84726c1558bc792b8add338a79fd3d5b9617e95df20b292a76b9a0e37112",
         "pending": false
       },
       "seed": "external/seeds/n202.txt"
@@ -2283,15 +2435,17 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-203.cert.gz",
         "sha256": "fcdd0d97af47e59292304a705f3f0260b9626ad745a6106d84991419398aaed3",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a6db0e369419728fb6a746daa1a5b476fcd0b6c441c5ca777e5eacfaa740ecae",
         "pending": false
       },
       "seed": "external/seeds/n203.txt"
     },
     "204": {
-      "side": 14.808642830527896,
+      "side": 14.808642830513087,
       "source": "register",
-      "register": 14.808642830527896,
-      "register_text": "882663895519250432/59604644775390625",
+      "register": 14.808642830513087,
+      "register_text": "14808642830513087197802415708703/1000000000000000000000000000000",
       "external": {
         "side": "14808642840591493923068442871459/1000000000000000000000000000000",
         "side_decimal": 14.808642840591494,
@@ -2300,6 +2454,8 @@
         "request": "https://github.com/jlevy/squares/issues/678",
         "certificate": "evand/search/regularize/lists/certs/n-204.cert.gz",
         "sha256": "69e00fd0869aa0bc35e189abeedac70af53a3b0c224acdee8751a5b6c31b002f",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "0dff99c7c8e9614927fe46e6411961ab9e2257e845fb7e923683ee7afa1c84bf",
         "pending": false
       },
       "seed": "external/seeds/n204.txt"
@@ -2317,6 +2473,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-205.cert.gz",
         "sha256": "604fa62d5daa047e7535d3757c6d2451544e5e573d6a130d3c114e3271b7610c",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cf546e4374f5df45b3a0edd1c935425db3fc4f4b62731ab9646dbffcfa9f5e77",
         "pending": false
       },
       "seed": "external/seeds/n205.txt"
@@ -2334,6 +2492,8 @@
         "request": "https://github.com/franciscouzo/square-packing",
         "certificate": "evand/search/regularize/lists/certs/n-206.cert.gz",
         "sha256": "d9c97bf64890558c08b0121006b4d7cd286a9a7ecb418eef74566099fe0e7c78",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "f00e58146afc719e04a75b1dbe0cc184eda2861c020574a93c63c64d52bca8cc",
         "pending": false
       },
       "register_found_by": [
@@ -2360,6 +2520,8 @@
         "request": "https://github.com/jlevy/squares/issues/503",
         "certificate": "evand/search/regularize/lists/certs/n-207.cert.gz",
         "sha256": "b52fb7025c651a1ab196615763721b58ea5816b401a96b4c99dae747fa7540f0",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "69fecd7f883b4067d2939b021fa76cad2d66c7fb1e3953d389468a702eaf25e7",
         "pending": true
       },
       "seed": "external/seeds/n207.txt"
@@ -2377,6 +2539,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-208.cert.gz",
         "sha256": "a206990192a25a576b97c183acaf30002b7ff8ab755c83b88f9c28d217673b4d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "473ae1fd9598d17fbed283bee410dadc7a68775d775d3400c6940abb80dd6a77",
         "pending": false
       },
       "seed": "external/seeds/n208.txt"
@@ -2402,6 +2566,7 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "squish/squish-submission-2026-10-09/n209/n209.cert.json",
         "sha256": "473cd1eef2e031d98eba21075629bd2d5b6ecbc31b209aa84cc9c4428ed46f3f",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "register_found_by": [
@@ -2443,6 +2608,8 @@
         "request": "https://jlevy.github.io/squares/cases/211.html",
         "certificate": "evand/search/regularize/lists/certs/n-211.cert.gz",
         "sha256": "a52bd91e650c3f911303261a3bfc44f20f41e2f957112517e65b3dbbd27e153b",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cef56eefd3e1c9ecf5b179d1597b1f654ac9050d268ee937cad3065dbd937f2e",
         "pending": false
       },
       "register_found_by": [
@@ -2551,6 +2718,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-226.cert.gz",
         "sha256": "fdc1d1f9f453ef6bbf9649235cd7c30b178dee023c527031c747865aad686cd4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "ea3721d18b6aab5892b54ffaeeb9af0c6e70ffa596dc643ef634176df24e10f9",
         "pending": false
       },
       "seed": "external/seeds/n226.txt"
@@ -2568,6 +2737,8 @@
         "request": "https://github.com/jlevy/squares/issues/672",
         "certificate": "evand/search/regularize/lists/certs/alt/n-227.cert.gz",
         "sha256": "cbaf36bf537196321f3d2beb62c18e154047c745cb72d478942be6a49490c225",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "3f2af4407fa0073b240c6b7bac51192de664b92aeb2b421a8be0c6f968de57a6",
         "pending": false
       },
       "register_found_by": [
@@ -2607,6 +2778,8 @@
         "request": "https://github.com/jlevy/squares/issues/674",
         "certificate": "evand/search/regularize/lists/certs/n-229.cert.gz",
         "sha256": "e613256d8fd143026cf3d9a4221f0a525e0ab8d1ee9a2c321033fcfd4916adcc",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "5d1d9ac2592cb9b1ef6f7e261b4cbad85eb12b9a4bdfb79fd2c67647a17f5110",
         "pending": false
       },
       "seed": "external/seeds/n229.txt"
@@ -2624,6 +2797,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-230.cert.gz",
         "sha256": "c5128953982b44841438c0246d658c1ea13f989a21a15d011388ea311929c907",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "9581443acaa087ba8b45becec0f384d9bca014aab685bd19ebbadcdc8135f612",
         "pending": false
       },
       "seed": "external/seeds/n230.txt"
@@ -2641,6 +2816,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-231.cert.gz",
         "sha256": "b0e07ff0d3cff500563250b45e226ce5cd29abba4eae5e40fc75987e89e46396",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "e92326ee3c8a0825cf5834066358e40ec8d7f932646bcc8e15462beae8ab8591",
         "pending": false
       },
       "seed": "external/seeds/n231.txt"
@@ -2658,6 +2835,7 @@
         "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0232.sqcert",
         "sha256": "6f3db14c05d43e370248cf3b41578dc797239faea8e439428924da8807704301",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n232.txt"
@@ -2675,6 +2853,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-233.cert.gz",
         "sha256": "9572c606cbfabc903b3a426c008cd57aad3f8222f9ad40b2f671ba7e845b842f",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cd7d8dde465f4d16d13a0abeb3300c006daa44dd4b67880e3f96939dca72e830",
         "pending": false
       },
       "seed": "external/seeds/n233.txt"
@@ -2692,6 +2872,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-234.cert.gz",
         "sha256": "0149e58a593db8e820fc2136f4437f2fcec3c0c9f4c5b1c09cb7da4b794ca6ef",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "97b6f849954db24c3fd9353f6dd97a63cc16809da0c04fd63a14631b3b5f7c8e",
         "pending": false
       },
       "seed": "external/seeds/n234.txt"
@@ -2709,6 +2891,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-235.cert.gz",
         "sha256": "189d2f9d27a326e12119ce589f5de5b7fe0eaef1783beb1aa92f2004d0a37174",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "466a5d28a3857320e3d8cb98d7b2c78c6b63b25cb4b738a08157494847005349",
         "pending": false
       },
       "seed": "external/seeds/n235.txt"
@@ -2726,6 +2910,7 @@
         "request": "https://github.com/jlevy/squares/issues/659",
         "certificate": "evand/search/packer/candidates/s236_bm3c.cert",
         "sha256": "21dbf6792bec64b06ab5fc1d6ac56a17432f971431100fdbe63e92d23bc091c9",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n236.txt"
@@ -2751,6 +2936,7 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "squish/squish-submission-2026-10-09/n237/n237.cert.json",
         "sha256": "def222eff08fe0eaaeded2a49e514d4ad6ce4bde6739c808945936a779b6688d",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "register_found_by": [
@@ -2776,6 +2962,7 @@
         "request": "https://github.com/jlevy/squares/issues/500",
         "certificate": "squish/squish-submission-2026-10-11/n238/n238.cert.json",
         "sha256": "42c72bc2fdb736572a0712db48b495a5ab4dfbe6b5df0df9d912614149313f0a",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n238.txt"
@@ -2793,6 +2980,7 @@
         "request": "https://github.com/jlevy/squares/issues/500",
         "certificate": "squish/squish-submission-2026-10-11/n239/n239.cert.json",
         "sha256": "b7be0948c96ffe58e56de744330915b417c97a0561b28e32359f35f99b17f805",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n239.txt"
@@ -2825,6 +3013,7 @@
         "request": "https://github.com/jlevy/squares/issues/575",
         "certificate": "dostashev/records/n0241.sqcert",
         "sha256": "8d67da52a9445c38f28f5cea24169bcd3a421c39db581a5a5bf779c0d4cdf962",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "register_found_by": [
@@ -2939,6 +3128,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-257.cert.gz",
         "sha256": "6fbd664403c52c0826d3b0cc5138519244514ff09871b75fd19093d6539943e5",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "9bb120d7b503db3df40678718ed98148a356ca3f4cad8337b9ac1f2b43564a9f",
         "pending": false
       },
       "seed": "external/seeds/n257.txt"
@@ -2956,6 +3147,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-258.cert.gz",
         "sha256": "f51908c4740ec54b80b82a92311cb06bb58d772da7d8f2015247fe107a9d6b2f",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "b2031ddf6b9d0953f3dab39bb8ba7cf7cb503b6091b4076b3d26f44cb537d3f9",
         "pending": false
       },
       "seed": "external/seeds/n258.txt"
@@ -2973,6 +3166,7 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "squish/squish-submission-2026-10-09/n259/n259.cert.json",
         "sha256": "68bd3a471ab0b3b4f5569c70a31b1a631e479b53708a80925e85788d0871d5ad",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n259.txt"
@@ -3004,6 +3198,7 @@
         "request": "https://github.com/jlevy/squares/issues/503",
         "certificate": "buddenping/n261.cert.json",
         "sha256": "f850cb35c31e018d5f6fdde90940f3d55ad36ecdb88341b805af47639c7e16c2",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n261.txt"
@@ -3021,6 +3216,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-262.cert.gz",
         "sha256": "9f0be32ea544f1adf58c6f14065c4dc7abe2504fecdd55729938deed0ac69d3c",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "54314bc38580cc4d06ded13c192f0b7e4e78bf5af646ab32592f017779214fac",
         "pending": false
       },
       "seed": "external/seeds/n262.txt"
@@ -3038,6 +3235,8 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "evand/search/regularize/lists/certs/n-263.cert.gz",
         "sha256": "22390c08e72e8954936517bb7af1e00bc7671afaf8c3840292243d843d251e6d",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "1be0beb77375c3070eb86697914fa3d57d309b3284f7e50b3a367080d373c49c",
         "pending": false
       },
       "seed": "external/seeds/n263.txt"
@@ -3055,6 +3254,7 @@
         "request": "https://github.com/jlevy/squares/issues/528",
         "certificate": "dostashev/records/n0264.sqcert",
         "sha256": "4ecfe5b3f748ed8a53aec0253829036434add2559e2cc4fef9353b1b303804c7",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n264.txt"
@@ -3072,6 +3272,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-265.cert.gz",
         "sha256": "ef4a1301a10247a7e08b5aafd7a53a76cb8e3dc97af2f9143b54486767e8eeb2",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cee40010933101e3f177135050720089ff8af68ec6fa6399f7540cdf93dfd22b",
         "pending": false
       },
       "seed": "external/seeds/n265.txt"
@@ -3089,6 +3291,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/dc1_n266.cert",
         "sha256": "72a764513e0eef50cad798184ead0334f3d4bc5428fc878c6da59e9718781f3e",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n266.txt"
@@ -3114,6 +3317,8 @@
         "request": "https://github.com/jlevy/squares/issues/476",
         "certificate": "evand/search/regularize/lists/certs/alt/n-267.cert.gz",
         "sha256": "b7c9236621debcae4e400bbc8384f784266345c36ae6600dac7aef2b8bf3f352",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "08572a056e876cc2c7e58ed9ee2a7dc2375bd788954abaddbe38c2290fb53115",
         "pending": false
       },
       "register_found_by": [
@@ -3127,10 +3332,21 @@
       "seed": "n267.txt"
     },
     "268": {
-      "side": 16.878814821006763,
-      "source": "register",
+      "side": 16.874361715869345,
+      "source": "evand",
       "register": 16.878814821006763,
       "register_text": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+      "external": {
+        "side": "8437180857934672912242411148233/500000000000000000000000000000",
+        "side_decimal": 16.874361715869345,
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/s268_lightning.cert",
+        "sha256": "c87da316589dd3843e9344e5461add99c4f80ca495ba862f302bf958bc154a49",
+        "sha256_kind": "uncompressed bytes",
+        "pending": true
+      },
       "register_found_by": [
         "Francisco Couzo"
       ],
@@ -3138,7 +3354,7 @@
         "Evan Daniel",
         "PingYou Ltd"
       ],
-      "own": 16.874361715873825,
+      "own": 16.874361715869345,
       "own_status": "Published record held by this project"
     },
     "269": {
@@ -3154,6 +3370,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-269.cert.gz",
         "sha256": "5f2752d5a8fcd444815f531fd2361c15874814740e051363590b7cab459a5fd4",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "ada1f2b3a42bc6ee1ecee0145502ddb1eb94d5a1b6a90d85e9a46eeb5b27be0a",
         "pending": false
       },
       "seed": "external/seeds/n269.txt"
@@ -3171,6 +3389,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s270_sw.cert",
         "sha256": "a01114af338f092232c0b7de07bfd164a636ef6355e15259c7fcb5812aa6034f",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n270.txt"
@@ -3188,6 +3407,7 @@
         "request": "https://github.com/jlevy/squares/issues/664",
         "certificate": "evand/search/packer/candidates/s271_ex1.cert",
         "sha256": "48abf7ca68909c42e0aaa5215d4d578f4cdba29d6188775012ae24636e02d680",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n271.txt"
@@ -3205,6 +3425,7 @@
         "request": "https://github.com/jlevy/squares/issues/503",
         "certificate": "buddenping/n272.cert.json",
         "sha256": "1bfe74e4af5dba4bfb6865ad953ff169620c2b85d91f919abd0ef5527cae21e0",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n272.txt"
@@ -3333,6 +3554,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-290.cert.gz",
         "sha256": "6e11759b5fbadfbf8db489310181e8c172c9ca78b9de510b2a976f1ca9840b29",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "668a9eda65c8daf6265faf9da525187c2aff11d6a41530f36d22e25fbc938f4e",
         "pending": false
       },
       "seed": "external/seeds/n290.txt"
@@ -3350,6 +3573,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-291.cert.gz",
         "sha256": "1455aa54edde204709d032b8e67eb6887d6cdacdb67181b52b3379728b6f1f8b",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "2c417e042ec5716c58dc9f162671698b458eea15414c8e25479daa0baff5bf83",
         "pending": false
       },
       "seed": "external/seeds/n291.txt"
@@ -3367,6 +3592,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-292.cert.gz",
         "sha256": "1dbf703d6a8fc2073448bcb799e3f331abd7e39e55c219406e813892cf76892e",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "bc0f414541eaae1e21e16b8aeafb37bfdf36a71b4d09d76faae4e11f270bd433",
         "pending": false
       },
       "seed": "external/seeds/n292.txt"
@@ -3384,6 +3611,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-293.cert.gz",
         "sha256": "79e235fce10723f365d11aae7d2aa51ba14cbd577538a3185b29d74e9df7d262",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a71bd2ca9ab186de38a16054b668d49f7a2f0ba5eee238d02f14231cb695ad5f",
         "pending": false
       },
       "seed": "external/seeds/n293.txt"
@@ -3401,6 +3630,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-294.cert.gz",
         "sha256": "54b4e8ca49380fc8ba4a47529e239706b7f0484573042c2b82d1c65ad5feed02",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "4914d51daf28ed47b79118c2ca857f04130e7930713ab6f4df4af7b544a29491",
         "pending": false
       },
       "seed": "external/seeds/n294.txt"
@@ -3418,6 +3649,8 @@
         "request": "https://github.com/jlevy/squares/issues/432",
         "certificate": "evand/search/regularize/lists/certs/n-295.cert.gz",
         "sha256": "601f04271a738e3e6897178684abd020f8916b5060dcc1bfa87fbce9710b6ba1",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "fad181a969d3d3c9257c99f22b644073d696916a9200096d2e45473c3b59c15d",
         "pending": false
       },
       "seed": "external/seeds/n295.txt"
@@ -3435,6 +3668,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-296.cert.gz",
         "sha256": "29ca679d5698e0a31dd4880b6e040d157472c7c4e11e182c19590c405c879bb3",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "bbd388b74d28c0612990aaee7792d16a67f85d6b15091f0224adf7376a512b2f",
         "pending": false
       },
       "seed": "external/seeds/n296.txt"
@@ -3467,6 +3702,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-298.cert.gz",
         "sha256": "d44f75c8b54fe9374e2409492864a76721fe58044135c89a6558929e8e0117c0",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a39c56358e677e66e1c315f02b8a1968999042efd3e59ba479331897cf27d1f2",
         "pending": false
       },
       "seed": "external/seeds/n298.txt"
@@ -3484,6 +3721,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-299.cert.gz",
         "sha256": "9ab11aa6ed88d336a35ea933df770cdd349c7ce33e0d2e79bb4ec3abe4485d67",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "45666cd2a5c5e5627548c43b83631a87bc2b5e001c1868813ab1a9ee247b7284",
         "pending": false
       },
       "seed": "external/seeds/n299.txt"
@@ -3501,6 +3740,8 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/regularize/lists/certs/n-300.cert.gz",
         "sha256": "3dcb60b5efd274840655b0ba8a86e3aa947c7f2add3ed7fdd9a35cfdc3437f98",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "85c3237bc0727b0f42657112c5d2c6c18bd988fa403f433218283ce432d5101c",
         "pending": false
       },
       "seed": "external/seeds/n300.txt"
@@ -3532,6 +3773,8 @@
         "request": "https://github.com/jlevy/squares/issues/583",
         "certificate": "evand/search/regularize/lists/certs/n-302.cert.gz",
         "sha256": "d1f5027b84113f6f17ea003d255dc8e0cd209e4eb1af874c982f1c66bd61bacd",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "4d75574e4fad50190a6b157e6c996ef16d0d4a6d7e330f3d5262f2aed892bc8d",
         "pending": false
       },
       "register_found_by": [
@@ -3545,10 +3788,10 @@
       "own_status": "Published record held by this project"
     },
     "303": {
-      "side": 17.909772217274327,
-      "source": "register",
-      "register": 17.909772217274327,
-      "register_text": "447744305431858194305431410441/25000000000000000000000000000",
+      "side": 17.90723827453824,
+      "source": "evand",
+      "register": 17.909762327475256,
+      "register_text": "223872029093440709529093216833/12500000000000000000000000000",
       "also_found_by": [
         {
           "source": "dostashev",
@@ -3558,36 +3801,38 @@
         }
       ],
       "external": {
-        "side": "447744305431858194305431410441/25000000000000000000000000000",
-        "side_decimal": 17.909772217274327,
+        "side": "17907238274538241192624181047171/1000000000000000000000000000000",
+        "side_decimal": 17.90723827453824,
         "source": "evand",
         "credit": "Evan Daniel",
         "request": "https://github.com/jlevy/squares/issues/399",
-        "certificate": "evand/search/packer/candidates/s303_r303w0.cert",
-        "sha256": "929c2acf72ee54a1850183fc149f06dbf35bffa2f7ee68c8f833d888400e8080",
-        "pending": false
+        "certificate": "evand/search/packer/candidates/s303_cdeotte.cert",
+        "sha256": "6cf9cc95a48f957d6dc5c283430da4d453af3a3635eb58b34a8d7af93e09e746",
+        "sha256_kind": "uncompressed bytes",
+        "pending": true
       },
       "register_found_by": [
-        "Evan Daniel"
+        "Amund Kristiansen"
       ],
       "register_improved_by": [],
       "own": 17.906978233802278,
       "own_status": "best known"
     },
     "304": {
-      "side": 17.929427758075175,
-      "source": "register",
+      "side": 17.92689890035674,
+      "source": "evand",
       "register": 17.929427758075175,
       "register_text": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
       "external": {
-        "side": "358588555161503499313326522779782297248782400899192783432303585885551615034993133265227797822972487824008991927834323/20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-        "side_decimal": 17.929427758075175,
-        "source": "dostashev",
-        "credit": "Daniil Ostashev",
-        "request": "https://github.com/jlevy/squares/issues/575",
-        "certificate": "dostashev/records/n0304.sqcert",
-        "sha256": "b87d0c9df7336872a2e0c26b761a1d7030b8850c2cf385bec43126f62c270c71",
-        "pending": false
+        "side": "1792689890035674158972360842897/100000000000000000000000000000",
+        "side_decimal": 17.92689890035674,
+        "source": "evand",
+        "credit": "Evan Daniel",
+        "request": "https://github.com/jlevy/squares/issues/399",
+        "certificate": "evand/search/packer/candidates/s304_pub.cert",
+        "sha256": "5dd7436a0f658d360c643a3465bf5ac39382fd682cd10f354b2f046ed7656f21",
+        "sha256_kind": "uncompressed bytes",
+        "pending": true
       },
       "seed": "external/seeds/n304.txt"
     },
@@ -3604,6 +3849,8 @@
         "request": "https://github.com/jlevy/squares/issues/401",
         "certificate": "evand/search/regularize/lists/certs/n-305.cert.gz",
         "sha256": "9dd5c3e636bd692f4c3badf634f7ebd9369e577b36bc5238c84637a2d1d17e80",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "379da5b2340053f10ea942b6f47721e031bcd256e2725d2f98c1a15ab8b30613",
         "pending": false
       },
       "seed": "external/seeds/n305.txt"
@@ -3643,6 +3890,7 @@
         "request": "https://github.com/jlevy/squares/issues/481",
         "certificate": "squish/squish-submission-2026-10-09/n307/n307.cert.json",
         "sha256": "4fe6c5a8d68f87d9866caf4924c5a826ea240fdd1f805e4c5d1a27145eb0a2a5",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n307.txt"
@@ -3660,6 +3908,7 @@
         "request": "https://github.com/jlevy/squares/issues/689",
         "certificate": "evand/search/packer/candidates/s308_d308.cert",
         "sha256": "6a9c03318ee5a703313b5dcab02febbe6b520133ffea0a21ea2ecf0741c42a91",
+        "sha256_kind": "uncompressed bytes",
         "pending": false
       },
       "seed": "external/seeds/n308.txt"
@@ -3798,6 +4047,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s343_sw.cert",
         "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "own": 18.97757512625353,
@@ -3833,6 +4083,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n364.cert",
         "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "seed": "external/seeds/n364.txt"
@@ -3850,6 +4101,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n370.cert",
         "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "own": 19.767428349949636,
@@ -3868,6 +4120,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n375.cert",
         "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "seed": "external/seeds/n375.txt"
@@ -3919,6 +4172,7 @@
         "request": "https://github.com/jlevy/squares/issues/484",
         "certificate": "snakefang/n0382/n0382.cert",
         "sha256": "12cde743471060bf9afe7fff9abbc757c207afb3bc83222e1f88ae887e182524",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "seed": "external/seeds/n382.txt"
@@ -4025,6 +4279,7 @@
         "request": "https://github.com/jlevy/squares/issues/484",
         "certificate": "snakefang/n0507/n0507.cert",
         "sha256": "a6e179c9b9a58acee9fc687ea6a71ba3e56a91435440beaa6ec0e1ded19d9ee4",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "own": 22.973697163647323,
@@ -4227,6 +4482,7 @@
         "request": "https://github.com/jlevy/squares/issues/603",
         "certificate": "snakefang/composites/n031_j1_931.cert",
         "sha256": "70db1803759ae335b796f05c7609421db39ef754336935fdf8aaa84b90d8017d",
+        "sha256_kind": "uncompressed bytes",
         "pending": true
       },
       "own": 30.989931303333996,
@@ -5900,7 +6156,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/s343_sw.cert",
         "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
-        "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/s343_sw.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s343_sw.cert",
         "checked": "2026-10-20T23:27:30Z"
       },
       "certificates": [
@@ -5911,7 +6167,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/s343_sw.cert",
           "sha256": "18415455772cb1b9cdfd3b7384695ea202fb6a02291e2ede2db777e93d207dfa",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/s343_sw.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s343_sw.cert",
           "checked": "2026-10-20T23:27:30Z"
         },
         {
@@ -5921,7 +6177,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/s343_sw_regularized.cert",
           "sha256": "f9a147750b51bfb3d24fa5469e93aeab903bad472f8d294b15250f2c3473e2b8",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/s343_sw_regularized.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s343_sw_regularized.cert",
           "checked": "2026-10-20T23:27:30Z"
         },
         {
@@ -5931,7 +6187,7 @@
           "request": "https://github.com/jlevy/squares/issues/489",
           "certificate": "evand/search/packer/candidates/hunt3_n343.cert",
           "sha256": "bf05962c580d46bbeef5ad66fee5d3ca45dab7002d726c424126d9b9259f4332",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/hunt3_n343.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/hunt3_n343.cert",
           "checked": "2026-10-10T19:07:33Z",
           "same_as_ours": "n343_s18.978232523639.txt"
         },
@@ -5974,7 +6230,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n364.cert",
         "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-        "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/comp2_n364.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/comp2_n364.cert",
         "checked": "2026-10-13T14:45:58Z"
       },
       "certificates": [
@@ -5985,7 +6241,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n364.cert",
           "sha256": "f79b2d23b730d3b118b14d7995607410068a6b5b3db6929e2f0cfda8e522bf4a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/comp2_n364.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/comp2_n364.cert",
           "checked": "2026-10-13T14:45:58Z"
         }
       ]
@@ -6017,7 +6273,7 @@
         "request": "https://github.com/jlevy/squares/issues/596",
         "certificate": "evand/search/packer/candidates/fresh_n370.cert",
         "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-        "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/fresh_n370.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/fresh_n370.cert",
         "checked": "2026-10-14T07:06:10Z"
       },
       "certificates": [
@@ -6028,7 +6284,7 @@
           "request": "https://github.com/jlevy/squares/issues/596",
           "certificate": "evand/search/packer/candidates/fresh_n370.cert",
           "sha256": "7cfb9102add6ccce5575176e2012178733db6393f969091d2d5acdb20f31a69b",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/fresh_n370.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/fresh_n370.cert",
           "checked": "2026-10-14T07:06:10Z"
         }
       ]
@@ -6043,7 +6299,7 @@
         "request": "https://github.com/jlevy/squares/issues/399",
         "certificate": "evand/search/packer/candidates/comp2_n375.cert",
         "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-        "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/comp2_n375.cert",
+        "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/comp2_n375.cert",
         "checked": "2026-10-13T14:45:56Z"
       },
       "certificates": [
@@ -6054,7 +6310,7 @@
           "request": "https://github.com/jlevy/squares/issues/399",
           "certificate": "evand/search/packer/candidates/comp2_n375.cert",
           "sha256": "06438617618f35e202eff4f9d295076e9838df05b76a38ee04d763d9052d097e",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/comp2_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/comp2_n375.cert",
           "checked": "2026-10-13T14:45:56Z"
         },
         {
@@ -6064,7 +6320,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L957-L988",
           "certificate": "evand/search/packer/candidates/big1_n375.cert",
           "sha256": "bbe2275687e4d3447d958b29ab846921e6846797b4149a8ec33a6cd5212dd2a6",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/big1_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/big1_n375.cert",
           "checked": "2026-10-10T10:55:59Z"
         },
         {
@@ -6074,7 +6330,7 @@
           "request": "https://github.com/evand/square-packing/blob/31523f87316bdfda00f5459dd9077928e264f133/search/packer/PACKER.md#L942-L954",
           "certificate": "evand/search/packer/candidates/polish_n375.cert",
           "sha256": "fa92e2b602f87b5fcd2c7d0973cfba3ba64046fdd9aec5ed1292dd29a231bc8a",
-          "certificate_url": "https://github.com/evand/square-packing/blob/7982d7a9346e29e36cab3ce075274f3023114353/search/packer/candidates/polish_n375.cert",
+          "certificate_url": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/polish_n375.cert",
           "checked": "2026-10-10T10:55:59Z"
         }
       ]
@@ -38893,9 +39149,11 @@
     "audit": "experiments/registration-20261020/public-update"
   },
   "record_landing": {
-    "generated": "2026-10-24T00:49:32.646919+00:00",
-    "audit": "experiments/board-intake-20261024",
+    "generated": "2026-10-24T09:35:45.649139+00:00",
+    "audit": "experiments/small-intake-20261024",
     "direct_counts": [
+      268,
+      304,
       330,
       340,
       371,

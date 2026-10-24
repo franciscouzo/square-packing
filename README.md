@@ -28,9 +28,11 @@ superseded packings remain available in the full catalogue and search archives.
 
 ## Current records
 
-Reviewed 2026-10-24: **56 counts** — published records held by this project and improvements over the reviewed public bound.
+Reviewed 2026-10-24: **22 counts** — published records held by this project and improvements over the reviewed public bound.
 
 Each n opens its packing. Certified sides and public comparisons are rounded upward to 12 decimal places. Matching our own published bound retains the record and its credit, as does another author’s re-certification within `1e-10` of a packing credited to us; a public bound stronger by more than that supersedes it. Matching another author’s record does not claim ownership. Construction, seed and certificate credits are linked for each packing. Updates to our own packings have no minimum gain: their exact certified bound must strictly decrease. The `1e-10` reporting tolerance applies only to claims of new improvements over another author’s public bound and to keeping a record credited to us.
+
+Counts above 324 are not published while the Kaggle *Squares in Squares* competition runs; earlier public rows above 324 remain in the repository history.
 
 | n | certified side s | reviewed public bound | standing | credits |
 |---:|---:|---:|---|---|
@@ -50,46 +52,12 @@ Each n opens its packing. Certified sides and public comparisons are rounded upw
 | [241](n241.svg) | [15.987117095151](certificates/n241.cert) | [15.987117095151](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-241.cert.gz) | Published record held by this project | [credits](certificates/n241.json) |
 | [260](n260.svg) | [16.645753250520](certificates/n260.cert) | [16.645753250520](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz) | Published record held by this project | [credits](certificates/n260.json) |
 | [267](n267.svg) | [16.838815269949](certificates/n267.cert) | [16.838815269949](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n267.json) |
-| [268](n268.svg) | [16.874361715874](certificates/n268.cert) | [16.874361715873](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n268.json) |
+| [268](n268.svg) | [16.874361715870](certificates/n268.cert) | [16.874361715870](https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s268_lightning.cert) | Published record held by this project | [credits](certificates/n268.json) |
 | [273](n273.svg) | [16.983925962651](certificates/n273.cert) | [16.983925962651](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n273.json) |
 | [297](n297.svg) | [17.740417287544](certificates/n297.cert) | [17.740417287544](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n297.json) |
 | [301](n301.svg) | [17.846667192844](certificates/n301.cert) | [17.846667192844](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n301.json) |
 | [302](n302.svg) | [17.870013850405](certificates/n302.cert) | [17.870013850405](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n302.json) |
 | [306](n306.svg) | [17.963433717492](certificates/n306.cert) | [17.963433717492](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n306.json) |
-| [336](n336.svg) | [18.825571499862](certificates/n336.cert) | [18.825571499862](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n336.json) |
-| [337](n337.svg) | [18.858391767637](certificates/n337.cert) | [18.858391767637](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n337.json) |
-| [340](n340.svg) | [18.926898900361](certificates/n340.cert) | [18.926898900358](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n340.json) |
-| [374](n374.svg) | [19.832356217033](certificates/n374.cert) | [19.832356217033](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n374.json) |
-| [465](n465.svg) | [21.999896124646](certificates/n465.cert) | 22.000000000000 | Improvement over public bound | [credits](certificates/n465.json) |
-| [552](n552.svg) | [23.946652263780](certificates/n552.cert) | [23.947191250632](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Improvement over public bound | [credits](certificates/n552.json) |
-| [679](n679.svg) | [26.535533905939](certificates/n679.cert) | [26.535533905933](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n679.json) |
-| [704](n704.svg) | [26.965244421265](certificates/n704.cert) | [26.966191934357](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Improvement over public bound | [credits](certificates/n704.json) |
-| [732](n732.svg) | [27.535533905939](certificates/n732.cert) | [27.535533905933](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n732.json) |
-| [787](n787.svg) | [28.535533905939](certificates/n787.cert) | [28.535533905933](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n787.json) |
-| [844](n844.svg) | [29.535533905939](certificates/n844.cert) | [29.535533905933](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n844.json) |
-| [850](n850.svg) | [29.656854249499](certificates/n850.cert) | [29.656854249493](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n850.json) |
-| [903](n903.svg) | [30.535533905939](certificates/n903.cert) | [30.535533905933](https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard) | Published record held by this project | [credits](certificates/n903.json) |
-| [1335](n1335.svg) | [36.990072025463](certificates/n1335.cert) | [36.990072025463](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n1335.json) |
-| [1486](n1486.svg) | [38.996570702336](certificates/n1486.cert) | [38.997149121271](https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1486.cert) | Improvement over public bound | [credits](certificates/n1486.json) |
-| [1647](n1647.svg) | [40.997969720754](certificates/n1647.cert) | [40.998670469324](https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1568.cert) | Improvement over public bound | [credits](certificates/n1647.json) |
-| [1648](n1648.svg) | [40.998874333857](certificates/n1648.cert) | [40.999321109325](https://github.com/jlevy/squares/issues/715) | Refinement of our published record | [credits](certificates/n1648.json) |
-| [1727](n1727.svg) | [41.997969720754](certificates/n1727.cert) | [41.998670469324](https://github.com/Mishapolk/square-packing-records/blob/17cc220131360ef290750eb845a3544c30ccb389/certificates/1000-1999/n1567.cert) | Improvement over public bound | [credits](certificates/n1727.json) |
-| [1729](n1729.svg) | [41.998874333857](certificates/n1729.cert) | [41.999321109325](https://github.com/jlevy/squares/issues/715) | Refinement of our published record | [credits](certificates/n1729.json) |
-| [1765](n1765.svg) | [42.487684364192](certificates/n1765.cert) | [42.487978511861](https://kingbird.myphotos.cc/packing/squares_in_squares.html) | Improvement over public bound | [credits](certificates/n1765.json) |
-| [1811](n1811.svg) | [42.997550241724](certificates/n1811.cert) | [42.997550241724](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n1811.json) |
-| [1812](n1812.svg) | [42.997600183876](certificates/n1812.cert) | [42.997600183876](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n1812.json) |
-| [1898](n1898.svg) | [43.999267313246](certificates/n1898.cert) | [43.999336623227](https://github.com/jlevy/squares/issues/715) | Refinement of our published record | [credits](certificates/n1898.json) |
-| [1899](n1899.svg) | [43.999336623227](certificates/n1899.cert) | [43.999336623227](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n1899.json) |
-| [1986](n1986.svg) | [44.997600183879](certificates/n1986.cert) | [44.997600183879](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n1986.json) |
-| [2043](n2043.svg) | [45.695704158830](certificates/n2043.cert) | [45.695704158830](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n2043.json) |
-| [2076](n2076.svg) | [45.997550240009](certificates/n2076.cert) | [45.997550240009](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n2076.json) |
-| [2263](n2263.svg) | [47.999142007370](certificates/n2263.cert) | [47.999256231755](https://github.com/jlevy/squares/issues/715) | Refinement of our published record | [credits](certificates/n2263.json) |
-| [2359](n2359.svg) | [48.997550269630](certificates/n2359.cert) | [48.997550269630](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n2359.json) |
-| [4168](n4168.svg) | [64.999256232549](certificates/n4168.cert) | [64.999256232549](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n4168.json) |
-| [4430](n4430.svg) | [66.997550243025](certificates/n4430.cert) | [66.997550243025](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n4430.json) |
-| [4701](n4701.svg) | [68.999256219267](certificates/n4701.cert) | [68.999256219267](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n4701.json) |
-| [4839](n4839.svg) | [69.997550252215](certificates/n4839.cert) | [69.997550252215](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n4839.json) |
-| [8021](n8021.svg) | [89.999256219591](certificates/n8021.cert) | [89.999256219591](https://github.com/jlevy/squares/issues/715) | Published record held by this project | [credits](certificates/n8021.json) |
 
 The [complete bound catalogue](certificates/best/README.md) covers n=1–10000 and retains 1089 finite source witnesses, including imported packings and classical constructions. Historical improvements and search seeds remain in the repository with their provenance.
 

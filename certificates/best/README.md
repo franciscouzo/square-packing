@@ -273,7 +273,7 @@ Published records held by this project remain listed in the root README. Source,
 | [265](n265.cert) | 16.778174593053 | PingYou Ltd (BuddenPing) |
 | [266](n266.cert) | 16.823028750757 | PingYou Ltd (BuddenPing) |
 | [267](n267.cert) | 16.838815269949 | PingYou Ltd (BuddenPing) |
-| [268](n268.cert) | 16.874361715874 | Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle "CPU/GPU/MPS EDA+Seam LP" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [268](n268.cert) | 16.874361715870 | Evan Daniel; earlier seed and construction credits retained in provenance |
 | [269](n269.cert) | 16.901513582190 | PingYou Ltd (BuddenPing) |
 | [270](n270.cert) | 16.928162252197 | Evan Daniel; ultimate start: Nate Chaoweeraprasit (SQUISH), refined by PingYou Ltd |
 | [271](n271.cert) | 16.948947733714 | Evan Daniel |
@@ -309,7 +309,7 @@ Published records held by this project remain listed in the root README. Source,
 | [301](n301.cert) | 17.846667192844 | PingYou Ltd (BuddenPing) |
 | [302](n302.cert) | 17.870013850405 | Mykhailo Polkovskyi (Mishapolk) |
 | [303](n303.cert) | 17.906978233799 | Francisco Couzo (square-packing live search); refines the packing of Vladislav Lavrentev (lightningv08), Kaggle "CUDA Packing Search" v11; earlier construction credits retained; earlier seed and construction credits retained in provenance |
-| [304](n304.cert) | 17.926898903393 | Kirill Tymchishin (kirilltym), Kaggle "CPU Alternating Reclosure" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance |
+| [304](n304.cert) | 17.926898900357 | Evan Daniel; earlier seed and construction credits retained in provenance |
 | [305](n305.cert) | 17.950466482138 | PingYou Ltd (BuddenPing) |
 | [306](n306.cert) | 17.963433717492 | PingYou Ltd (BuddenPing) |
 | [307](n307.cert) | 17.980862784055 | PingYou Ltd (BuddenPing) |

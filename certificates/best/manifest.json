@@ -1,6 +1,6 @@
 {
   "scope": "1<=n<=10000",
-  "generated": "2026-10-24T00:49:32.646919+00:00",
+  "generated": "2026-10-24T09:35:45.649139+00:00",
   "first_checker": "https://github.com/jlevy/squares/blob/37e6757ed4c51a1d93f2f999814c2a5efbe2a223/packing/src/sqpack/verify.py",
   "second_checker": "verify_bound_certificate.py",
   "second_checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
@@ -10282,106 +10282,223 @@
     },
     "268": {
       "kind": "certificate",
-      "bound": "78645658458105249171306580101/4660659750118000000000000000",
+      "bound": "8437180857934672912242411148233/500000000000000000000000000000",
       "source_n": 268,
       "certificate": "certificates/best/n268.cert",
-      "certificate_sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
-      "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+      "certificate_sha256": "c87da316589dd3843e9344e5461add99c4f80ca495ba862f302bf958bc154a49",
+      "credit": "Evan Daniel; earlier seed and construction credits retained in provenance",
       "provenance": {
-        "category": "CT105 live record",
+        "category": "Evan Daniel certificate",
         "source_provenance": {
-          "category": "own refinement",
-          "search": "native search",
-          "live_store": {
-            "record_id": "149e64fc8b5b4ba3977ff4a9be8b248e",
-            "received": "20261023T195250Z",
-            "method": "hop",
-            "host": "fran@192.168.0.200",
-            "dilation": "1+1e-14",
-            "sha256": "8f805d116ea8d1660c0d31f74b0ccd139876210bb64cfd48874eef390bbd5224",
-            "previous": 16.87546795034743,
-            "previous_holder": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
-            "kaggle_file_source": null
-          },
-          "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
-          "original_credits": "Construction credits of the starting packing are retained."
+          "category": "public certificate",
+          "repository": "https://github.com/evand/square-packing",
+          "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+          "certificate": "evand/search/packer/candidates/s268_lightning.cert",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "original_credits": "Credits per the source repository."
         },
         "previous_source": {
           "kind": "certificate",
-          "bound": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
+          "bound": "78645658458105249171306580101/4660659750118000000000000000",
           "source_n": 268,
-          "certificate": "certificates/parents/85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46.cert",
-          "certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
-          "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+          "certificate": "certificates/parents/e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e.cert",
+          "certificate_sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
+          "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance",
           "provenance": {
-            "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+            "category": "CT105 live record",
             "source_provenance": {
-              "category": "public submission",
-              "kaggle_submission": "submissions/kaggle-push-20261022-q",
-              "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
-              "lineage": [
-                {
-                  "submission": "kaggle-public-portfolio-20261022",
-                  "source": "cuda",
-                  "candidates": null
-                },
-                {
-                  "submission": "kaggle-push-20261022-a",
-                  "source": "kirilltym-seam-lp",
-                  "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
-                }
-              ],
-              "witness_dilation": "1+1e-12",
-              "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
-              "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
-              "notebook_version": 4,
-              "run": 361267308,
-              "license": "Apache-2.0",
-              "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
-              "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+              "category": "own refinement",
+              "search": "native search",
+              "live_store": {
+                "record_id": "149e64fc8b5b4ba3977ff4a9be8b248e",
+                "received": "20261023T195250Z",
+                "method": "hop",
+                "host": "fran@192.168.0.200",
+                "dilation": "1+1e-14",
+                "sha256": "8f805d116ea8d1660c0d31f74b0ccd139876210bb64cfd48874eef390bbd5224",
+                "previous": 16.87546795034743,
+                "previous_holder": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+                "kaggle_file_source": null
+              },
+              "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+              "original_credits": "Construction credits of the starting packing are retained."
             },
             "previous_source": {
               "kind": "certificate",
-              "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+              "bound": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
               "source_n": 268,
-              "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
-              "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
-              "credit": "PingYou Ltd (BuddenPing)",
+              "certificate": "certificates/parents/85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46.cert",
+              "certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
+              "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
               "provenance": {
-                "category": "native",
-                "request": "https://github.com/jlevy/squares/pull/574",
-                "construction_credit": [
-                  "Francisco Couzo"
-                ]
+                "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+                "source_provenance": {
+                  "category": "public submission",
+                  "kaggle_submission": "submissions/kaggle-push-20261022-q",
+                  "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+                  "lineage": [
+                    {
+                      "submission": "kaggle-public-portfolio-20261022",
+                      "source": "cuda",
+                      "candidates": null
+                    },
+                    {
+                      "submission": "kaggle-push-20261022-a",
+                      "source": "kirilltym-seam-lp",
+                      "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
+                    }
+                  ],
+                  "witness_dilation": "1+1e-12",
+                  "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
+                  "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
+                  "notebook_version": 4,
+                  "run": 361267308,
+                  "license": "Apache-2.0",
+                  "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
+                  "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+                },
+                "previous_source": {
+                  "kind": "certificate",
+                  "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                  "source_n": 268,
+                  "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
+                  "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "credit": "PingYou Ltd (BuddenPing)",
+                  "provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "verification": {
+                    "valid": true,
+                    "n": 268,
+                    "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                    "pairs_tested": 3605,
+                    "reused_verified_sha256": true
+                  },
+                  "strict_verification": {
+                    "valid": false,
+                    "closed_valid": true,
+                    "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                    "candidate_pairs": 3605,
+                    "near_pairs": 539,
+                    "checker": "verify_bound_certificate.py",
+                    "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                    "arithmetic_backend": "Python Fraction"
+                  }
+                },
+                "previous_reference": {
+                  "seed_credit": "PingYou Ltd (BuddenPing)",
+                  "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "source_n": 268,
+                  "source_provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "construction": null,
+                  "deleted_squares": 0
+                }
               },
               "verification": {
-                "valid": true,
                 "n": 268,
-                "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
-                "pairs_tested": 3605,
-                "reused_verified_sha256": true
+                "side": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
+                "valid": true,
+                "pairs_tested": 3614,
+                "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
               },
               "strict_verification": {
-                "valid": false,
+                "valid": true,
                 "closed_valid": true,
-                "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
-                "candidate_pairs": 3605,
-                "near_pairs": 539,
+                "sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
+                "candidate_pairs": 3614,
+                "near_pairs": 597,
                 "checker": "verify_bound_certificate.py",
                 "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
-                "arithmetic_backend": "Python Fraction"
+                "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
               }
             },
             "previous_reference": {
-              "seed_credit": "PingYou Ltd (BuddenPing)",
-              "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+              "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+              "source_certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
               "source_n": 268,
               "source_provenance": {
-                "category": "native",
-                "request": "https://github.com/jlevy/squares/pull/574",
-                "construction_credit": [
-                  "Francisco Couzo"
-                ]
+                "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+                "source_provenance": {
+                  "category": "public submission",
+                  "kaggle_submission": "submissions/kaggle-push-20261022-q",
+                  "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+                  "lineage": [
+                    {
+                      "submission": "kaggle-public-portfolio-20261022",
+                      "source": "cuda",
+                      "candidates": null
+                    },
+                    {
+                      "submission": "kaggle-push-20261022-a",
+                      "source": "kirilltym-seam-lp",
+                      "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
+                    }
+                  ],
+                  "witness_dilation": "1+1e-12",
+                  "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
+                  "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
+                  "notebook_version": 4,
+                  "run": 361267308,
+                  "license": "Apache-2.0",
+                  "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
+                  "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+                },
+                "previous_source": {
+                  "kind": "certificate",
+                  "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                  "source_n": 268,
+                  "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
+                  "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "credit": "PingYou Ltd (BuddenPing)",
+                  "provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "verification": {
+                    "valid": true,
+                    "n": 268,
+                    "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                    "pairs_tested": 3605,
+                    "reused_verified_sha256": true
+                  },
+                  "strict_verification": {
+                    "valid": false,
+                    "closed_valid": true,
+                    "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                    "candidate_pairs": 3605,
+                    "near_pairs": 539,
+                    "checker": "verify_bound_certificate.py",
+                    "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                    "arithmetic_backend": "Python Fraction"
+                  }
+                },
+                "previous_reference": {
+                  "seed_credit": "PingYou Ltd (BuddenPing)",
+                  "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "source_n": 268,
+                  "source_provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "construction": null,
+                  "deleted_squares": 0
+                }
               },
               "construction": null,
               "deleted_squares": 0
@@ -10389,95 +10506,221 @@
           },
           "verification": {
             "n": 268,
-            "side": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
+            "side": "78645658458105249171306580101/4660659750118000000000000000",
             "valid": true,
-            "pairs_tested": 3614,
+            "pairs_tested": 3606,
             "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
           },
           "strict_verification": {
             "valid": true,
             "closed_valid": true,
-            "sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
-            "candidate_pairs": 3614,
-            "near_pairs": 597,
+            "sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
+            "candidate_pairs": 3606,
+            "near_pairs": 668,
             "checker": "verify_bound_certificate.py",
             "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
             "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
           }
         },
         "previous_reference": {
-          "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
-          "source_certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
+          "seed_credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+          "source_certificate_sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
           "source_n": 268,
           "source_provenance": {
-            "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+            "category": "CT105 live record",
             "source_provenance": {
-              "category": "public submission",
-              "kaggle_submission": "submissions/kaggle-push-20261022-q",
-              "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
-              "lineage": [
-                {
-                  "submission": "kaggle-public-portfolio-20261022",
-                  "source": "cuda",
-                  "candidates": null
-                },
-                {
-                  "submission": "kaggle-push-20261022-a",
-                  "source": "kirilltym-seam-lp",
-                  "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
-                }
-              ],
-              "witness_dilation": "1+1e-12",
-              "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
-              "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
-              "notebook_version": 4,
-              "run": 361267308,
-              "license": "Apache-2.0",
-              "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
-              "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+              "category": "own refinement",
+              "search": "native search",
+              "live_store": {
+                "record_id": "149e64fc8b5b4ba3977ff4a9be8b248e",
+                "received": "20261023T195250Z",
+                "method": "hop",
+                "host": "fran@192.168.0.200",
+                "dilation": "1+1e-14",
+                "sha256": "8f805d116ea8d1660c0d31f74b0ccd139876210bb64cfd48874eef390bbd5224",
+                "previous": 16.87546795034743,
+                "previous_holder": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+                "kaggle_file_source": null
+              },
+              "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+              "original_credits": "Construction credits of the starting packing are retained."
             },
             "previous_source": {
               "kind": "certificate",
-              "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+              "bound": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
               "source_n": 268,
-              "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
-              "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
-              "credit": "PingYou Ltd (BuddenPing)",
+              "certificate": "certificates/parents/85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46.cert",
+              "certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
+              "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
               "provenance": {
-                "category": "native",
-                "request": "https://github.com/jlevy/squares/pull/574",
-                "construction_credit": [
-                  "Francisco Couzo"
-                ]
+                "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+                "source_provenance": {
+                  "category": "public submission",
+                  "kaggle_submission": "submissions/kaggle-push-20261022-q",
+                  "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+                  "lineage": [
+                    {
+                      "submission": "kaggle-public-portfolio-20261022",
+                      "source": "cuda",
+                      "candidates": null
+                    },
+                    {
+                      "submission": "kaggle-push-20261022-a",
+                      "source": "kirilltym-seam-lp",
+                      "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
+                    }
+                  ],
+                  "witness_dilation": "1+1e-12",
+                  "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
+                  "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
+                  "notebook_version": 4,
+                  "run": 361267308,
+                  "license": "Apache-2.0",
+                  "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
+                  "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+                },
+                "previous_source": {
+                  "kind": "certificate",
+                  "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                  "source_n": 268,
+                  "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
+                  "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "credit": "PingYou Ltd (BuddenPing)",
+                  "provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "verification": {
+                    "valid": true,
+                    "n": 268,
+                    "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                    "pairs_tested": 3605,
+                    "reused_verified_sha256": true
+                  },
+                  "strict_verification": {
+                    "valid": false,
+                    "closed_valid": true,
+                    "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                    "candidate_pairs": 3605,
+                    "near_pairs": 539,
+                    "checker": "verify_bound_certificate.py",
+                    "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                    "arithmetic_backend": "Python Fraction"
+                  }
+                },
+                "previous_reference": {
+                  "seed_credit": "PingYou Ltd (BuddenPing)",
+                  "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "source_n": 268,
+                  "source_provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "construction": null,
+                  "deleted_squares": 0
+                }
               },
               "verification": {
-                "valid": true,
                 "n": 268,
-                "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
-                "pairs_tested": 3605,
-                "reused_verified_sha256": true
+                "side": "25614264484692055181021948557265654561457755972777068432194588238896783893573627/1517840249530070712410661917036076309611643877669529594784103688500000000000000",
+                "valid": true,
+                "pairs_tested": 3614,
+                "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
               },
               "strict_verification": {
-                "valid": false,
+                "valid": true,
                 "closed_valid": true,
-                "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
-                "candidate_pairs": 3605,
-                "near_pairs": 539,
+                "sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
+                "candidate_pairs": 3614,
+                "near_pairs": 597,
                 "checker": "verify_bound_certificate.py",
                 "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
-                "arithmetic_backend": "Python Fraction"
+                "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
               }
             },
             "previous_reference": {
-              "seed_credit": "PingYou Ltd (BuddenPing)",
-              "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+              "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+              "source_certificate_sha256": "85dbd707746197d31f62dd52b4e580dfb90097498a4970c577f776ce7de2df46",
               "source_n": 268,
               "source_provenance": {
-                "category": "native",
-                "request": "https://github.com/jlevy/squares/pull/574",
-                "construction_credit": [
-                  "Francisco Couzo"
-                ]
+                "category": "Kaggle notebook packing (CPU/GPU/MPS EDA+Seam LP)",
+                "source_provenance": {
+                  "category": "public submission",
+                  "kaggle_submission": "submissions/kaggle-push-20261022-q",
+                  "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+                  "lineage": [
+                    {
+                      "submission": "kaggle-public-portfolio-20261022",
+                      "source": "cuda",
+                      "candidates": null
+                    },
+                    {
+                      "submission": "kaggle-push-20261022-a",
+                      "source": "kirilltym-seam-lp",
+                      "candidates": "downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/submission.csv"
+                    }
+                  ],
+                  "witness_dilation": "1+1e-12",
+                  "source_url": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp?scriptVersionId=361267308",
+                  "notebook": "https://www.kaggle.com/code/kirilltym/22-3857-cpu-gpu-mps-eda-seam-lp",
+                  "notebook_version": 4,
+                  "run": 361267308,
+                  "license": "Apache-2.0",
+                  "source_notices": "experiments/kaggle-push-20261022/downloads/kirilltym__22-3857-cpu-gpu-mps-eda-seam-lp/SOURCE_NOTICES.md",
+                  "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+                },
+                "previous_source": {
+                  "kind": "certificate",
+                  "bound": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                  "source_n": 268,
+                  "certificate": "certificates/parents/733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041.cert",
+                  "certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "credit": "PingYou Ltd (BuddenPing)",
+                  "provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "verification": {
+                    "valid": true,
+                    "n": 268,
+                    "side": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
+                    "pairs_tested": 3605,
+                    "reused_verified_sha256": true
+                  },
+                  "strict_verification": {
+                    "valid": false,
+                    "closed_valid": true,
+                    "sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                    "candidate_pairs": 3605,
+                    "near_pairs": 539,
+                    "checker": "verify_bound_certificate.py",
+                    "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                    "arithmetic_backend": "Python Fraction"
+                  }
+                },
+                "previous_reference": {
+                  "seed_credit": "PingYou Ltd (BuddenPing)",
+                  "source_certificate_sha256": "733f7a5d1d7f986e397936ac79e752751d13039fb08895559def678f474c4041",
+                  "source_n": 268,
+                  "source_provenance": {
+                    "category": "native",
+                    "request": "https://github.com/jlevy/squares/pull/574",
+                    "construction_credit": [
+                      "Francisco Couzo"
+                    ]
+                  },
+                  "construction": null,
+                  "deleted_squares": 0
+                }
               },
               "construction": null,
               "deleted_squares": 0
@@ -10489,17 +10732,17 @@
       },
       "verification": {
         "n": 268,
-        "side": "78645658458105249171306580101/4660659750118000000000000000",
+        "side": "8437180857934672912242411148233/500000000000000000000000000000",
         "valid": true,
-        "pairs_tested": 3606,
+        "pairs_tested": 3616,
         "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
       },
       "strict_verification": {
         "valid": true,
         "closed_valid": true,
-        "sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
-        "candidate_pairs": 3606,
-        "near_pairs": 668,
+        "sha256": "c87da316589dd3843e9344e5461add99c4f80ca495ba862f302bf958bc154a49",
+        "candidate_pairs": 3616,
+        "near_pairs": 619,
         "checker": "verify_bound_certificate.py",
         "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
         "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
@@ -12193,79 +12436,195 @@
     },
     "304": {
       "kind": "certificate",
-      "bound": "42654421699169959072564987841514227093543746926117736119087439/2379353056489745832681562849107891444171481219500000000000000",
+      "bound": "1792689890035674158972360842897/100000000000000000000000000000",
       "source_n": 304,
       "certificate": "certificates/best/n304.cert",
-      "certificate_sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
-      "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+      "certificate_sha256": "5dd7436a0f658d360c643a3465bf5ac39382fd682cd10f354b2f046ed7656f21",
+      "credit": "Evan Daniel; earlier seed and construction credits retained in provenance",
       "provenance": {
-        "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+        "category": "Evan Daniel certificate",
         "source_provenance": {
-          "category": "public submission",
-          "kaggle_submission": "submissions/kaggle-push-20261022-q",
-          "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
-          "lineage": [
-            {
-              "submission": "kaggle-public-portfolio-20261022",
-              "source": "alternating",
-              "candidates": null
-            }
-          ],
-          "witness_dilation": "1+1e-10",
-          "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
-          "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
-          "notebook_version": 3,
-          "run": 361239073,
-          "license": "Apache-2.0",
-          "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
-          "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+          "category": "public certificate",
+          "repository": "https://github.com/evand/square-packing",
+          "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+          "certificate": "evand/search/packer/candidates/s304_pub.cert",
+          "request": "https://github.com/jlevy/squares/issues/399",
+          "original_credits": "Credits per the source repository."
         },
         "previous_source": {
           "kind": "certificate",
-          "bound": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
+          "bound": "42654421699169959072564987841514227093543746926117736119087439/2379353056489745832681562849107891444171481219500000000000000",
           "source_n": 304,
-          "certificate": "certificates/parents/72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4.cert",
-          "certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
-          "credit": "Mykhailo Polkovskyi (Mishapolk)",
+          "certificate": "certificates/parents/c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d.cert",
+          "certificate_sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
+          "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
           "provenance": {
-            "category": "mishapolk",
-            "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
-            "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
-            "request": "https://github.com/jlevy/squares/issues/593",
-            "construction_credit": [
-              "Nate Chaoweeraprasit (itsnaka)"
-            ]
+            "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+            "source_provenance": {
+              "category": "public submission",
+              "kaggle_submission": "submissions/kaggle-push-20261022-q",
+              "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+              "lineage": [
+                {
+                  "submission": "kaggle-public-portfolio-20261022",
+                  "source": "alternating",
+                  "candidates": null
+                }
+              ],
+              "witness_dilation": "1+1e-10",
+              "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+              "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+              "notebook_version": 3,
+              "run": 361239073,
+              "license": "Apache-2.0",
+              "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+              "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+            },
+            "previous_source": {
+              "kind": "certificate",
+              "bound": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
+              "source_n": 304,
+              "certificate": "certificates/parents/72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4.cert",
+              "certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+              "credit": "Mykhailo Polkovskyi (Mishapolk)",
+              "provenance": {
+                "category": "mishapolk",
+                "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+                "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
+                "request": "https://github.com/jlevy/squares/issues/593",
+                "construction_credit": [
+                  "Nate Chaoweeraprasit (itsnaka)"
+                ]
+              },
+              "verification": {
+                "valid": true,
+                "n": 304,
+                "side": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
+                "pairs_tested": 4300,
+                "reused_verified_sha256": true
+              },
+              "strict_verification": {
+                "valid": true,
+                "closed_valid": true,
+                "sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+                "candidate_pairs": 4300,
+                "near_pairs": 695,
+                "checker": "verify_bound_certificate.py",
+                "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                "arithmetic_backend": "Python Fraction"
+              }
+            },
+            "previous_reference": {
+              "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+              "source_certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+              "source_n": 304,
+              "source_provenance": {
+                "category": "mishapolk",
+                "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+                "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
+                "request": "https://github.com/jlevy/squares/issues/593",
+                "construction_credit": [
+                  "Nate Chaoweeraprasit (itsnaka)"
+                ]
+              },
+              "construction": null,
+              "deleted_squares": 0
+            }
           },
           "verification": {
-            "valid": true,
             "n": 304,
-            "side": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
-            "pairs_tested": 4300,
-            "reused_verified_sha256": true
+            "side": "42654421699169959072564987841514227093543746926117736119087439/2379353056489745832681562849107891444171481219500000000000000",
+            "valid": true,
+            "pairs_tested": 4297,
+            "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
           },
           "strict_verification": {
             "valid": true,
             "closed_valid": true,
-            "sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
-            "candidate_pairs": 4300,
-            "near_pairs": 695,
+            "sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
+            "candidate_pairs": 4297,
+            "near_pairs": 683,
             "checker": "verify_bound_certificate.py",
             "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
-            "arithmetic_backend": "Python Fraction"
+            "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
           }
         },
         "previous_reference": {
-          "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
-          "source_certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+          "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+          "source_certificate_sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
           "source_n": 304,
           "source_provenance": {
-            "category": "mishapolk",
-            "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
-            "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
-            "request": "https://github.com/jlevy/squares/issues/593",
-            "construction_credit": [
-              "Nate Chaoweeraprasit (itsnaka)"
-            ]
+            "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+            "source_provenance": {
+              "category": "public submission",
+              "kaggle_submission": "submissions/kaggle-push-20261022-q",
+              "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+              "lineage": [
+                {
+                  "submission": "kaggle-public-portfolio-20261022",
+                  "source": "alternating",
+                  "candidates": null
+                }
+              ],
+              "witness_dilation": "1+1e-10",
+              "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+              "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+              "notebook_version": 3,
+              "run": 361239073,
+              "license": "Apache-2.0",
+              "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+              "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+            },
+            "previous_source": {
+              "kind": "certificate",
+              "bound": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
+              "source_n": 304,
+              "certificate": "certificates/parents/72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4.cert",
+              "certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+              "credit": "Mykhailo Polkovskyi (Mishapolk)",
+              "provenance": {
+                "category": "mishapolk",
+                "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+                "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
+                "request": "https://github.com/jlevy/squares/issues/593",
+                "construction_credit": [
+                  "Nate Chaoweeraprasit (itsnaka)"
+                ]
+              },
+              "verification": {
+                "valid": true,
+                "n": 304,
+                "side": "1792942775807517496548703186140836311278604266912137/100000000000000000000000000000000000000000000000000",
+                "pairs_tested": 4300,
+                "reused_verified_sha256": true
+              },
+              "strict_verification": {
+                "valid": true,
+                "closed_valid": true,
+                "sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+                "candidate_pairs": 4300,
+                "near_pairs": 695,
+                "checker": "verify_bound_certificate.py",
+                "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+                "arithmetic_backend": "Python Fraction"
+              }
+            },
+            "previous_reference": {
+              "seed_credit": "Mykhailo Polkovskyi (Mishapolk)",
+              "source_certificate_sha256": "72fa0c89b01fe546d4258a8ad6c108530503dc66d5b50388af57f2baca1217f4",
+              "source_n": 304,
+              "source_provenance": {
+                "category": "mishapolk",
+                "source_revision": "70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94",
+                "certificate_url": "https://github.com/Mishapolk/square-packing-records/blob/70a033f0ecfa9e643cd5fb5dbac190cb7f4ffb94/certificates/n304.cert",
+                "request": "https://github.com/jlevy/squares/issues/593",
+                "construction_credit": [
+                  "Nate Chaoweeraprasit (itsnaka)"
+                ]
+              },
+              "construction": null,
+              "deleted_squares": 0
+            }
           },
           "construction": null,
           "deleted_squares": 0
@@ -12273,7 +12632,7 @@
       },
       "verification": {
         "n": 304,
-        "side": "42654421699169959072564987841514227093543746926117736119087439/2379353056489745832681562849107891444171481219500000000000000",
+        "side": "1792689890035674158972360842897/100000000000000000000000000000",
         "valid": true,
         "pairs_tested": 4297,
         "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
@@ -12281,9 +12640,9 @@
       "strict_verification": {
         "valid": true,
         "closed_valid": true,
-        "sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
+        "sha256": "5dd7436a0f658d360c643a3465bf5ac39382fd682cd10f354b2f046ed7656f21",
         "candidate_pairs": 4297,
-        "near_pairs": 683,
+        "near_pairs": 687,
         "checker": "verify_bound_certificate.py",
         "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
         "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"

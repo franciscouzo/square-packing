@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T00:50:06.605277+00:00",
+  "generated": "2026-10-24T09:36:10.966918+00:00",
   "max_n": 10000,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -6878,32 +6878,31 @@
     },
     "268": {
       "verified": {
-        "bound": "78645658458105249171306580101/4660659750118000000000000000",
-        "source": "certificates/n268.cert",
-        "status": "exact certificate verified",
-        "credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU/GPU/MPS EDA+Seam LP\" v4; earlier construction credits retained; earlier seed and construction credits retained in provenance",
-        "sha256": "e9833bf26e1bf7e4719ee983c91979ba51f7319d6caa8dd1911fce820903e07e",
-        "rounded_up": "16.874361715874"
+        "bound": "8437180857934672912242411148233/500000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/399",
+        "status": "exact certificate verified; adoption pending",
+        "credit": "Evan Daniel",
+        "sha256": "c87da316589dd3843e9344e5461add99c4f80ca495ba862f302bf958bc154a49",
+        "rounded_up": "16.874361715870"
       },
       "reported": {
-        "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
-        "credit": "panpanpanda (Kaggle team)",
+        "source": "https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s268_lightning.cert",
+        "credit": "Evan Daniel",
         "status": "reviewed public upper bound",
         "origin": {
-          "board_run": 361620939,
-          "board_sha256": "c77eb954f200b4e79aaeaa57132fb3b0a8e41c14af72cb3141b8cc700bf0f666",
-          "team": "panpanpanda",
-          "submitted": "2026-10-23 14:48:22 UTC"
+          "repository": "https://github.com/evand/square-packing",
+          "commit": "659ee62e4a9d39542a1146e8b011cc3ab6407ede",
+          "certificate": "evand/search/packer/candidates/s268_lightning.cert"
         },
         "source_n": 268,
         "tiles_per_side": 1,
         "L_layers": 0,
         "capacity": 268,
-        "bound": "16874361715872031/1000000000000000",
+        "bound": "8437180857934672912242411148233/500000000000000000000000000000",
         "exact_bound": {
-          "rational": "16874361715872031/1000000000000000",
+          "rational": "8437180857934672912242411148233/500000000000000000000000000000",
           "sqrt2": "0",
-          "expression": "16874361715872031/1000000000000000 + 0*sqrt(2)"
+          "expression": "8437180857934672912242411148233/500000000000000000000000000000 + 0*sqrt(2)"
         },
         "superseded_review": {
           "bound": "10549259263129227/625000000000000",
@@ -7853,14 +7852,12 @@
     },
     "304": {
       "verified": {
-        "bound": "42654421699169959072564987841514227093543746926117736119087439/2379353056489745832681562849107891444171481219500000000000000",
-        "source": "certificates/best/n304.cert",
-        "source_n": 304,
-        "deleted_squares": 0,
-        "status": "exact certificate verified",
-        "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
-        "sha256": "c8433dd798aef6f190790c6c78c63b4ab5c26baabe372405f8ff9029d175231d",
-        "rounded_up": "17.926898903393"
+        "bound": "1792689890035674158972360842897/100000000000000000000000000000",
+        "source": "https://github.com/jlevy/squares/issues/399",
+        "status": "exact certificate verified; adoption pending",
+        "credit": "Evan Daniel",
+        "sha256": "5dd7436a0f658d360c643a3465bf5ac39382fd682cd10f354b2f046ed7656f21",
+        "rounded_up": "17.926898900357"
       },
       "reported": {
         "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
