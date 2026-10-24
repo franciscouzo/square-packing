@@ -14,8 +14,15 @@
       "category": "evand",
       "request": "https://github.com/jlevy/squares/issues/672",
       "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-227.cert.gz",
+      "certificate_credit": "Evan Daniel",
+      "construction_credit": [
+        "Francisco Couzo (jlevy/squares#672 packing, start)",
+        "Joost de Winter (jlevy/squares#668 packing, refined in #672)"
+      ],
       "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
       "original_source_sha256": "dcfaa52b29885220a90faebf86814c29be9a1125989f6d930776a6e0c40f9c3f",
+      "original_source_sha256_kind": "gzip bytes",
+      "original_source_decompressed_sha256": "300e6f3538423a80679fbc5c2b6b6b4896ad7aae051f0d64a3f4d683e43ca2d9",
       "original_source_file": "evand/search/regularize/lists/certs/n-227.cert.gz"
     },
     "construction": null,

@@ -615,6 +615,8 @@
         "status": "exact certificate replayed; upstream adoption pending",
         "credit": "Thomas Schadt and David Ellsworth; exact certificate refinement by PingYou Ltd",
         "sha256": "256e83f02a9fb65309e4998abba5932156496c9f8b7d48d385a283b86b90e239",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "46668379171a13489bc9ed809e1f9d4e9528827fa484e5c44a34a7355ce62642",
         "rounded_up": "5.933833462677"
       },
       "reported": {
@@ -5346,6 +5348,8 @@
         "status": "exact certificate verified",
         "credit": "Francisco Couzo",
         "sha256": "a52bd91e650c3f911303261a3bfc44f20f41e2f957112517e65b3dbbd27e153b",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "cef56eefd3e1c9ecf5b179d1597b1f654ac9050d268ee937cad3065dbd937f2e",
         "rounded_up": "14.993549626300"
       },
       "reported": {
@@ -5367,6 +5371,8 @@
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-211.cert.gz",
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "a52bd91e650c3f911303261a3bfc44f20f41e2f957112517e65b3dbbd27e153b",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "cef56eefd3e1c9ecf5b179d1597b1f654ac9050d268ee937cad3065dbd937f2e",
             "original_source_file": "evand/search/regularize/lists/certs/n-211.cert.gz"
           },
           "certificate_sha256": "4612433a59231d380cdaf9dce9195a126dc0b77d285d68832dae494809fedeae",
@@ -5646,8 +5652,10 @@
         "bound": "7781812826162574542396221861851/500000000000000000000000000000",
         "source": "https://github.com/jlevy/squares/issues/672",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (franciscouzo)",
+        "credit": "Evan Daniel; start: Francisco Couzo",
         "sha256": "dcfaa52b29885220a90faebf86814c29be9a1125989f6d930776a6e0c40f9c3f",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "300e6f3538423a80679fbc5c2b6b6b4896ad7aae051f0d64a3f4d683e43ca2d9",
         "rounded_up": "15.563625652326"
       },
       "reported": {
@@ -5658,17 +5666,24 @@
           "expression": "7781812826162574542396221861851/500000000000000000000000000000 + 0*sqrt(2)"
         },
         "source": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-227.cert.gz",
-        "credit": "Francisco Couzo (franciscouzo)",
+        "credit": "Evan Daniel; start: Francisco Couzo",
         "status": "reviewed public upper bound",
         "origin": {
           "source": "verified public certificate",
-          "credit": "Francisco Couzo (franciscouzo)",
+          "credit": "Evan Daniel; start: Francisco Couzo",
           "provenance": {
             "category": "evand",
             "request": "https://github.com/jlevy/squares/issues/672",
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-227.cert.gz",
+            "certificate_credit": "Evan Daniel",
+            "construction_credit": [
+              "Francisco Couzo (jlevy/squares#672 packing, start)",
+              "Joost de Winter (jlevy/squares#668 packing, refined in #672)"
+            ],
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "dcfaa52b29885220a90faebf86814c29be9a1125989f6d930776a6e0c40f9c3f",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "300e6f3538423a80679fbc5c2b6b6b4896ad7aae051f0d64a3f4d683e43ca2d9",
             "original_source_file": "evand/search/regularize/lists/certs/n-227.cert.gz"
           },
           "certificate_sha256": "52f9fbf2fb302031a1d0c1835749570a0cd7e1708b8a6e6912aae63d3e6dbaad",
@@ -5723,6 +5738,8 @@
         "status": "exact certificate verified",
         "credit": "Evan Daniel (evand)",
         "sha256": "e613256d8fd143026cf3d9a4221f0a525e0ab8d1ee9a2c321033fcfd4916adcc",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "5d1d9ac2592cb9b1ef6f7e261b4cbad85eb12b9a4bdfb79fd2c67647a17f5110",
         "rounded_up": "15.650161513877"
       },
       "reported": {
@@ -5744,6 +5761,8 @@
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-229.cert.gz",
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "e613256d8fd143026cf3d9a4221f0a525e0ab8d1ee9a2c321033fcfd4916adcc",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "5d1d9ac2592cb9b1ef6f7e261b4cbad85eb12b9a4bdfb79fd2c67647a17f5110",
             "original_source_file": "evand/search/regularize/lists/certs/n-229.cert.gz"
           },
           "certificate_sha256": "4435a5ed95390bb7b35e5deafed82c70c11ac0da44d9d33e3f430c110b323343",
@@ -6003,6 +6022,8 @@
         "status": "exact certificate verified",
         "credit": "Francisco Couzo (franciscouzo)",
         "sha256": "e0b66be95d21b2fa61131b844ce8c3b11f1410f6e1323c3d36fa24559bfddc09",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "00a5f65ae295a70a8062eaa97a1e86919c7d00538c205a36859f73f8f0a48f87",
         "rounded_up": "15.902603638260"
       },
       "reported": {
@@ -6024,6 +6045,8 @@
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-237.cert.gz",
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "e0b66be95d21b2fa61131b844ce8c3b11f1410f6e1323c3d36fa24559bfddc09",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "00a5f65ae295a70a8062eaa97a1e86919c7d00538c205a36859f73f8f0a48f87",
             "original_source_file": "evand/search/regularize/lists/certs/n-237.cert.gz"
           },
           "certificate_sha256": "d6cc5ed6806b425935f9c7e213ea2ac2c57706bb827a152a43af40a7da51003f",
@@ -6150,6 +6173,8 @@
         "status": "exact certificate verified",
         "credit": "Francisco Couzo (franciscouzo)",
         "sha256": "66701baf4665024a38d9dfaaf2e75a71a77911bc41777582282bb4f37a38a6ec",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "a835756c1813524745aad12c0613177be38dd3e2a9bd81ea3405689f6277da85",
         "rounded_up": "15.987117095151"
       },
       "reported": {
@@ -6171,6 +6196,8 @@
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-241.cert.gz",
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "66701baf4665024a38d9dfaaf2e75a71a77911bc41777582282bb4f37a38a6ec",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "a835756c1813524745aad12c0613177be38dd3e2a9bd81ea3405689f6277da85",
             "original_source_file": "evand/search/regularize/lists/certs/n-241.cert.gz"
           },
           "certificate_sha256": "85d0fe32b9d0a13ea9c09b2c5075e7e1c35acd881dddfcc01dd156776a62e920",
@@ -6539,8 +6566,10 @@
         "bound": "4161438312629953048686574163329/250000000000000000000000000000",
         "source": "https://github.com/jlevy/squares/issues/678",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (franciscouzo)",
+        "credit": "Evan Daniel; start: Francisco Couzo",
         "sha256": "098be6c5f9ce5b8d2990584187823d808ce153e433b8fa1884ce679da720f037",
+        "sha256_kind": "gzip bytes",
+        "decompressed_sha256": "7b0cdf6c1d8ef8a4a87377c5674b622196522613a053ceac80d0ef921c219b8d",
         "rounded_up": "16.645753250520"
       },
       "reported": {
@@ -6551,17 +6580,24 @@
           "expression": "4161438312629953048686574163329/250000000000000000000000000000 + 0*sqrt(2)"
         },
         "source": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz",
-        "credit": "Francisco Couzo (franciscouzo)",
+        "credit": "Evan Daniel; start: Francisco Couzo",
         "status": "reviewed public upper bound",
         "origin": {
           "source": "verified public certificate",
-          "credit": "Francisco Couzo (franciscouzo)",
+          "credit": "Evan Daniel; start: Francisco Couzo",
           "provenance": {
             "category": "evand",
             "request": "https://github.com/jlevy/squares/issues/678",
             "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz",
+            "certificate_credit": "Evan Daniel",
+            "construction_credit": [
+              "Francisco Couzo (jlevy/squares#678 packing, start)",
+              "Joost de Winter (jlevy/squares#668 packing, seed of #678 in Evan Daniel's exact form)"
+            ],
             "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
             "original_source_sha256": "098be6c5f9ce5b8d2990584187823d808ce153e433b8fa1884ce679da720f037",
+            "original_source_sha256_kind": "gzip bytes",
+            "original_source_decompressed_sha256": "7b0cdf6c1d8ef8a4a87377c5674b622196522613a053ceac80d0ef921c219b8d",
             "original_source_file": "evand/search/regularize/lists/certs/n-260.cert.gz"
           },
           "certificate_sha256": "ba7b521b15d086f1504e0575e946027984d486a35ce6e5f7a8dc080f5628785e",
