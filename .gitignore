@@ -57,3 +57,28 @@ packing_store.json
 
 # Generated competition exports and local scorer reports.
 /submissions/
+
+# Counts above 324 stay private during the Kaggle Squares in Squares competition
+# (owner's decision, 24 October 2026). Files above 324 committed before then remain
+# tracked; new per-count files above 324 are not committed.
+/n32[5-9].txt
+/n32[5-9].svg
+/n3[3-9][0-9].txt
+/n3[3-9][0-9].svg
+/n[4-9][0-9][0-9].txt
+/n[4-9][0-9][0-9].svg
+/n[1-9][0-9][0-9][0-9].txt
+/n[1-9][0-9][0-9][0-9].svg
+/n10000.txt
+/n10000.svg
+/certificates/n32[5-9].*
+/certificates/n3[3-9][0-9].*
+/certificates/n[4-9][0-9][0-9].*
+/certificates/n[1-9][0-9][0-9][0-9].*
+/certificates/n10000.*
+/certificates/best/n32[5-9].cert
+/certificates/best/n3[3-9][0-9].cert
+/certificates/best/n[4-9][0-9][0-9].cert
+/certificates/best/n[1-9][0-9][0-9][0-9].cert
+/certificates/best/n10000.cert
+/certificates/extended/n*.*
