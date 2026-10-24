@@ -1,0 +1,283 @@
+{
+  "n": 903,
+  "packing": "n903.txt",
+  "packing_sha256": "b4023a6794cf5279e8d2a054fa085eb4e2e467d1b890eb7a017361e57affa5d7",
+  "certificate": "certificates/n903.cert",
+  "certificate_sha256": "fd6baf6e86044dc545ff7b9f44f5dd9b2d7cd702230b11bd8210caa7eb68a0f2",
+  "rational_side": "219960925476418353844073274581/7203441281033000000000000000",
+  "kind": "verified source certificate",
+  "origin": {
+    "seed_credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "7095162f352b6b1be00bba7b1fcb5f22c041f6be7a104181dfed3b39956ef883",
+    "source_n": 679,
+    "source_provenance": {
+      "category": "CT105 live record",
+      "source_provenance": {
+        "category": "own refinement",
+        "search": "browser search",
+        "live_store": {
+          "record_id": "b77a6b4ba28967b1ef4e424f26d7e7ef",
+          "received": "20261023T235607Z",
+          "method": "fq",
+          "host": "browser",
+          "dilation": "1+1e-14",
+          "sha256": "9f0b43a6277cc0c2a839befb404949ad6d58c78f8d9943ed38d398da76a8b1d0",
+          "previous": 26.53553390597092,
+          "previous_holder": "this project",
+          "kaggle_file_source": null
+        },
+        "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "original_credits": "Construction credits of the starting packing are retained."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "25292298502463373462720138378711646228711/953148279852890726006777375000000000000",
+        "source_n": 679,
+        "certificate": "certificates/best/n679.cert",
+        "certificate_sha256": "5e140e76a9001031f0e0a3923bd863ab16329cc01700f6bdc901fa1849e83816",
+        "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+          "source_provenance": {
+            "category": "public submission",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "alternating",
+                "candidates": null
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+            "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+            "notebook_version": 3,
+            "run": 361239073,
+            "license": "Apache-2.0",
+            "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+            "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "49504329868490792192503121287021820611279953759869576454811911855808256797793762859791368047/1862200401520799846783139868622004015207998467831398500000000000000000000000000000000000000",
+            "source_n": 679,
+            "certificate": "certificates/parents/02ee41e4266f4f4af0fb8a8c4bb290756c6fb8d15b751bd3cd326994850b168f.cert",
+            "certificate_sha256": "02ee41e4266f4f4af0fb8a8c4bb290756c6fb8d15b751bd3cd326994850b168f",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "category": "derived exact",
+              "construction_credit": [],
+              "construction": {
+                "parent_n": 487,
+                "parent_certificate_sha256": "d8c8f4bf88e731ffe659ca720e15ae55eb245fba814228ee97f9d722185f1b67",
+                "tiles": 1,
+                "layers": 4,
+                "strict_scale": "1+1e-24"
+              }
+            },
+            "verification": {
+              "valid": true,
+              "n": 679,
+              "side": "49504329868490792192503121287021820611279953759869576454811911855808256797793762859791368047/1862200401520799846783139868622004015207998467831398500000000000000000000000000000000000000",
+              "pairs_tested": 9876
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "02ee41e4266f4f4af0fb8a8c4bb290756c6fb8d15b751bd3cd326994850b168f",
+              "candidate_pairs": 9876,
+              "near_pairs": 1480,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "Python Fraction"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo; seed/construction: Evan Daniel",
+            "source_certificate_sha256": "d73f8a651e80b9f9d704a8c29cf10bc758f29496cafe8b24eb92e700ef9a277f",
+            "source_n": 364,
+            "source_provenance": {
+              "category": "native search",
+              "packing_sha256": "b7bfde6bfc4cf7ee3beff843b35d66240bbe94c06895454f4b5dedd1fc85fa5a",
+              "source_credit": {
+                "seed_credit": "Evan Daniel",
+                "search_job": {
+                  "id": 102265,
+                  "method": "fq",
+                  "source": "n364.txt",
+                  "source_origin": "constructed",
+                  "source_sha256": "69f5993b37892677380cc368ca274c344aa60acf141f924938f3afb811d3c51a",
+                  "constructed_seed": {
+                    "construction": "L-border and deletion",
+                    "source": "n364.txt",
+                    "source_sha256": "de646398d28978b8c1922bbaa11858f1f2e51234b7e79ed9695000c35226417e",
+                    "source_n": 364,
+                    "source_side": 19.583782203954577,
+                    "layers": 0,
+                    "deleted": 0,
+                    "side": 19.583782203954577
+                  }
+                }
+              }
+            },
+            "construction": {
+              "kind": "square tiling and L-border",
+              "source_n": 364,
+              "source_bound": "19583782190151860342362508597077/1000000000000000000000000000000",
+              "tiles_per_side": 1,
+              "layers": 7,
+              "capacity": 679,
+              "checker": "certificate_constructions.py",
+              "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+            },
+            "deleted_squares": 0
+          }
+        },
+        "verification": {
+          "n": 679,
+          "side": "25292298502463373462720138378711646228711/953148279852890726006777375000000000000",
+          "valid": true,
+          "pairs_tested": 9878,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "5e140e76a9001031f0e0a3923bd863ab16329cc01700f6bdc901fa1849e83816",
+          "candidate_pairs": 9878,
+          "near_pairs": 1337,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "baaf6efe9849ee4e2ea217119538948cc0bd9a29c6df01ca3acc463d7ef30102",
+        "source_n": 628,
+        "source_provenance": {
+          "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+          "source_provenance": {
+            "category": "public submission",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "alternating",
+                "candidates": null
+              }
+            ],
+            "witness_dilation": "1+1e-12",
+            "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+            "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+            "notebook_version": 3,
+            "run": 361239073,
+            "license": "Apache-2.0",
+            "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+            "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "47642129466969992345719979556199415075272108508898309332807896647809788966395262859791368047/1862200401520799846783139868622004015207998467831398500000000000000000000000000000000000000",
+            "source_n": 628,
+            "certificate": "certificates/parents/69224cc7a18eee928df95e9842b0eebc6a1d8333a90f0cfbfbd9fa4d405a8b7f.cert",
+            "certificate_sha256": "69224cc7a18eee928df95e9842b0eebc6a1d8333a90f0cfbfbd9fa4d405a8b7f",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "category": "derived exact",
+              "construction_credit": [],
+              "construction": {
+                "parent_n": 487,
+                "parent_certificate_sha256": "d8c8f4bf88e731ffe659ca720e15ae55eb245fba814228ee97f9d722185f1b67",
+                "tiles": 1,
+                "layers": 3,
+                "strict_scale": "1+1e-24"
+              }
+            },
+            "verification": {
+              "valid": true,
+              "n": 628,
+              "side": "47642129466969992345719979556199415075272108508898309332807896647809788966395262859791368047/1862200401520799846783139868622004015207998467831398500000000000000000000000000000000000000",
+              "pairs_tested": 9197
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "69224cc7a18eee928df95e9842b0eebc6a1d8333a90f0cfbfbd9fa4d405a8b7f",
+              "candidate_pairs": 9197,
+              "near_pairs": 1382,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "Python Fraction"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo; seed/construction: Evan Daniel",
+            "source_certificate_sha256": "d73f8a651e80b9f9d704a8c29cf10bc758f29496cafe8b24eb92e700ef9a277f",
+            "source_n": 364,
+            "source_provenance": {
+              "category": "native search",
+              "packing_sha256": "b7bfde6bfc4cf7ee3beff843b35d66240bbe94c06895454f4b5dedd1fc85fa5a",
+              "source_credit": {
+                "seed_credit": "Evan Daniel",
+                "search_job": {
+                  "id": 102265,
+                  "method": "fq",
+                  "source": "n364.txt",
+                  "source_origin": "constructed",
+                  "source_sha256": "69f5993b37892677380cc368ca274c344aa60acf141f924938f3afb811d3c51a",
+                  "constructed_seed": {
+                    "construction": "L-border and deletion",
+                    "source": "n364.txt",
+                    "source_sha256": "de646398d28978b8c1922bbaa11858f1f2e51234b7e79ed9695000c35226417e",
+                    "source_n": 364,
+                    "source_side": 19.583782203954577,
+                    "layers": 0,
+                    "deleted": 0,
+                    "side": 19.583782203954577
+                  }
+                }
+              }
+            },
+            "construction": {
+              "kind": "square tiling and L-border",
+              "source_n": 364,
+              "source_bound": "19583782190151860342362508597077/1000000000000000000000000000000",
+              "tiles_per_side": 1,
+              "layers": 6,
+              "capacity": 628,
+              "checker": "certificate_constructions.py",
+              "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+            },
+            "deleted_squares": 0
+          }
+        },
+        "construction": {
+          "kind": "square tiling and L-border",
+          "source_n": 628,
+          "source_bound": "679495975708317191468199710920387782005969/26609820576725282270185984500000000000000",
+          "tiles_per_side": 1,
+          "layers": 1,
+          "capacity": 679,
+          "checker": "certificate_constructions.py",
+          "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+        },
+        "deleted_squares": 0
+      }
+    },
+    "construction": {
+      "kind": "square tiling and L-border",
+      "source_n": 679,
+      "source_bound": "191147160352286353844073274581/7203441281033000000000000000",
+      "tiles_per_side": 1,
+      "layers": 4,
+      "capacity": 903,
+      "checker": "certificate_constructions.py",
+      "checker_sha256": "8cab430add817ab202e06c4e21cf1d92860cd18d83657d024ec7b2cc2c5a2985"
+    },
+    "deleted_squares": 0
+  },
+  "preview_note": "The exact certificate is authoritative; the numerical preview independently has zero pair overlap."
+}

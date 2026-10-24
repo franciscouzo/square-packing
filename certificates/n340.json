@@ -1,18 +1,192 @@
 {
   "n": 340,
   "packing": "n340.txt",
-  "packing_sha256": "3d32f48d6e19234502f305b16ef7148aff1c50502d5d0e044ff65a2cf9ad83d4",
+  "packing_sha256": "a1070f82249ade48ace3478109d1ea7bf2bd197c1ead50dba16df67acef54cc7",
   "certificate": "certificates/n340.cert",
-  "certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
-  "rational_side": "4734912408222751641551744529533/250000000000000000000000000000",
+  "certificate_sha256": "0b3316697d3ef6a4272702aff04ccbb0c04fd6bf36e854810d5fa488444577b4",
+  "rational_side": "75375865612922446301687569606954711302688177170345281/3982473093438747882466958721603362497000000000000000",
   "kind": "verified source certificate",
   "origin": {
-    "seed_credit": "Francisco Couzo",
-    "source_certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+    "seed_credit": "Francisco Couzo (square-packing live search); refines the packing of Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits retained; earlier seed and construction credits retained in provenance",
+    "source_certificate_sha256": "0b3316697d3ef6a4272702aff04ccbb0c04fd6bf36e854810d5fa488444577b4",
     "source_n": 340,
     "source_provenance": {
-      "category": "local",
-      "construction_credit": []
+      "category": "CT105 live record",
+      "source_provenance": {
+        "category": "own refinement",
+        "search": "browser search",
+        "live_store": {
+          "record_id": "e22ceab2d231993add953aa4da3437ec",
+          "received": "20261024T000359Z",
+          "method": "fq",
+          "host": "browser",
+          "dilation": "1+1e-14",
+          "sha256": "6708a87b51150550b2b31e7518ac7496b9a7d391212524ca32490d463ad42657",
+          "previous": 18.92689890036089,
+          "previous_holder": "this project",
+          "kaggle_file_source": null
+        },
+        "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "original_credits": "Construction credits of the starting packing are retained."
+      },
+      "previous_source": {
+        "kind": "certificate",
+        "bound": "130801183086441728277169267736837801895431/6910861825083354229910215500000000000000",
+        "source_n": 340,
+        "certificate": "certificates/best/n340.cert",
+        "certificate_sha256": "19323cdb476d57f4395a361034a66af99777413c2dcdb7902554365d0a5830da",
+        "credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "provenance": {
+          "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+          "source_provenance": {
+            "category": "public submission",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "alternating",
+                "candidates": null
+              }
+            ],
+            "witness_dilation": "1+1e-11",
+            "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+            "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+            "notebook_version": 3,
+            "run": 361239073,
+            "license": "Apache-2.0",
+            "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+            "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "4734912408222751641551744529533/250000000000000000000000000000",
+            "source_n": 340,
+            "certificate": "certificates/parents/84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b.cert",
+            "certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "category": "local",
+              "construction_credit": []
+            },
+            "verification": {
+              "valid": true,
+              "n": 340,
+              "side": "4734912408222751641551744529533/250000000000000000000000000000",
+              "pairs_tested": 4729,
+              "reused_verified_sha256": true
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+              "candidate_pairs": 4729,
+              "near_pairs": 749,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "Python Fraction"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo",
+            "source_certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+            "source_n": 340,
+            "source_provenance": {
+              "category": "local",
+              "construction_credit": []
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "verification": {
+          "n": 340,
+          "side": "130801183086441728277169267736837801895431/6910861825083354229910215500000000000000",
+          "valid": true,
+          "pairs_tested": 4760,
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        },
+        "strict_verification": {
+          "valid": true,
+          "closed_valid": true,
+          "sha256": "19323cdb476d57f4395a361034a66af99777413c2dcdb7902554365d0a5830da",
+          "candidate_pairs": 4760,
+          "near_pairs": 755,
+          "checker": "verify_bound_certificate.py",
+          "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+          "arithmetic_backend": "GMP exact rationals via gmpy2 2.3.2"
+        }
+      },
+      "previous_reference": {
+        "seed_credit": "Kirill Tymchishin (kirilltym), Kaggle \"CPU Alternating Reclosure\" v3; earlier construction credits in its source notices; earlier seed and construction credits retained in provenance",
+        "source_certificate_sha256": "19323cdb476d57f4395a361034a66af99777413c2dcdb7902554365d0a5830da",
+        "source_n": 340,
+        "source_provenance": {
+          "category": "Kaggle notebook packing (CPU Alternating Reclosure)",
+          "source_provenance": {
+            "category": "public submission",
+            "kaggle_submission": "submissions/kaggle-push-20261022-q",
+            "kaggle_submission_sha256": "d03ad6b4eed97925eebc97422fedeb57485ba61400ed0139d2d0bbb0e90808a2",
+            "lineage": [
+              {
+                "submission": "kaggle-public-portfolio-20261022",
+                "source": "alternating",
+                "candidates": null
+              }
+            ],
+            "witness_dilation": "1+1e-11",
+            "source_url": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure?scriptVersionId=361239073",
+            "notebook": "https://www.kaggle.com/code/kirilltym/22-408512-cpu-alternating-reclosure",
+            "notebook_version": 3,
+            "run": 361239073,
+            "license": "Apache-2.0",
+            "source_notices": "submissions/kaggle-public-portfolio-20261022/SOURCE_NOTICES.md",
+            "original_credits": "Earlier construction credits retained in the notebook and its source notices."
+          },
+          "previous_source": {
+            "kind": "certificate",
+            "bound": "4734912408222751641551744529533/250000000000000000000000000000",
+            "source_n": 340,
+            "certificate": "certificates/parents/84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b.cert",
+            "certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+            "credit": "Francisco Couzo",
+            "provenance": {
+              "category": "local",
+              "construction_credit": []
+            },
+            "verification": {
+              "valid": true,
+              "n": 340,
+              "side": "4734912408222751641551744529533/250000000000000000000000000000",
+              "pairs_tested": 4729,
+              "reused_verified_sha256": true
+            },
+            "strict_verification": {
+              "valid": true,
+              "closed_valid": true,
+              "sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+              "candidate_pairs": 4729,
+              "near_pairs": 749,
+              "checker": "verify_bound_certificate.py",
+              "checker_sha256": "1c8b89eb0de71bc751db57061a015b8ed8ffb354d38ce13bcf8201ce8c90e98b",
+              "arithmetic_backend": "Python Fraction"
+            }
+          },
+          "previous_reference": {
+            "seed_credit": "Francisco Couzo",
+            "source_certificate_sha256": "84e8a05ffd137aad5ca8adf61200f1809a2d883a70ebe03225a3cf99d4d5a78b",
+            "source_n": 340,
+            "source_provenance": {
+              "category": "local",
+              "construction_credit": []
+            },
+            "construction": null,
+            "deleted_squares": 0
+          }
+        },
+        "construction": null,
+        "deleted_squares": 0
+      }
     },
     "construction": null,
     "deleted_squares": 0

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T21:59:17Z",
+  "generated": "2026-10-24T00:27:30Z",
   "sources": {
     "squish": {
       "url": "https://github.com/itsnaka/squish-certs.git",
@@ -43,7 +43,7 @@
     },
     "register": {
       "url": "https://github.com/jlevy/squares",
-      "commit": "77aba4c02e76829339ad0db89a310cd95639a13e"
+      "commit": "64b316b6cc8fa31177824e20733853708b996fb5"
     }
   },
   "note": "Best known upper bounds: the register's reported value or a verified, published certificate. Third-party packings are credited to their authors and are used here only as comparison bounds and search seeds.",
@@ -2070,8 +2070,8 @@
         "Evan Daniel",
         "PingYou Ltd"
       ],
-      "own": 13.97409071312144,
-      "own_status": "Published record held by this project"
+      "own": 13.97409071312405,
+      "own_status": "tied (within 1e-10)"
     },
     "183": {
       "side": 13.999580178736252,
@@ -2591,8 +2591,8 @@
       "register_improved_by": [
         "PingYou Ltd"
       ],
-      "own": 15.604601475729675,
-      "own_status": "Published record held by this project"
+      "own": 15.604601475732622,
+      "own_status": "tied (within 1e-10)"
     },
     "229": {
       "side": 15.650161513876432,
@@ -3131,17 +3131,13 @@
       "source": "register",
       "register": 16.878814821006763,
       "register_text": "233270980632039540411435419500234711630560155576630993915611543452774739703722952929556646506050679237827213781742529692622682547843177659465028768064414144931073857091973918513911796469530253808279283824665291827193594194760245545948876956412126275759753119941151135458159232318443962/13820341244677848083924813816260807677337124572759119046734684346629144601651358267843383787847827349194959910412847847999665748703540707032408725232782401407917969030977642092448911296381546041810733285455019634473955659876261312467110209743680075779870696203555758879668577135424641",
-      "external": {
-        "side": "8439407410503382362373560526509/500000000000000000000000000000",
-        "side_decimal": 16.878814821006763,
-        "source": "evand",
-        "credit": "Francisco Couzo",
-        "request": "https://github.com/franciscouzo/square-packing",
-        "certificate": "evand/search/regularize/lists/certs/n-268.cert.gz",
-        "sha256": "1a974e751276a2a409b444241897cfee527c2fbccce6cae75053ba5eda00be61",
-        "pending": false
-      },
-      "seed": "external/seeds/n268.txt",
+      "register_found_by": [
+        "Francisco Couzo"
+      ],
+      "register_improved_by": [
+        "Evan Daniel",
+        "PingYou Ltd"
+      ],
       "own": 16.874361715873825,
       "own_status": "Published record held by this project"
     },
@@ -3575,8 +3571,8 @@
         "Evan Daniel"
       ],
       "register_improved_by": [],
-      "own": 17.9069782337989,
-      "own_status": "Improvement over public bound"
+      "own": 17.906978233802278,
+      "own_status": "best known"
     },
     "304": {
       "side": 17.929427758075175,
@@ -4067,8 +4063,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n553.txt",
-      "own": 23.969774299703566,
-      "own_status": "Improvement over public bound"
+      "own": 23.969774299708156,
+      "own_status": "best known"
     },
     "601": {
       "side": 24.98631505406271,
@@ -4086,8 +4082,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n601.txt",
-      "own": 24.95845226251721,
-      "own_status": "Improvement over public bound"
+      "own": 24.958452262521973,
+      "own_status": "best known"
     },
     "651": {
       "side": 25.982878838106426,
@@ -4421,8 +4417,8 @@
         "pending": true
       },
       "seed": "n555.txt",
-      "own": 23.990765763661226,
-      "own_status": "Improvement over public bound"
+      "own": 23.990765763665806,
+      "own_status": "best known"
     },
     "603": {
       "side": 24.99035556937973,
@@ -4580,8 +4576,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n328.txt",
-      "own": 18.614368938494597,
-      "own_status": "Published record held by this project"
+      "own": 18.61436893849812,
+      "own_status": "best known"
     },
     "330": {
       "side": 18.69267244446713,
@@ -4616,8 +4612,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n365.txt",
-      "own": 19.614368938494597,
-      "own_status": "Published record held by this project"
+      "own": 19.614368938498323,
+      "own_status": "best known"
     },
     "377": {
       "side": 19.925471653974824,
@@ -4722,8 +4718,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n417.txt",
-      "own": 20.905466137173622,
-      "own_status": "Improvement over public bound"
+      "own": 20.90546613717757,
+      "own_status": "best known"
     },
     "418": {
       "side": 20.939184128264923,
@@ -4775,8 +4771,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n420.txt",
-      "own": 20.966577898707975,
-      "own_status": "Improvement over public bound"
+      "own": 20.966577898711964,
+      "own_status": "best known"
     },
     "453": {
       "side": 21.822995415463172,
@@ -4811,8 +4807,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n459.txt",
-      "own": 21.905182432783075,
-      "own_status": "Improvement over public bound"
+      "own": 21.905182432787257,
+      "own_status": "best known"
     },
     "461": {
       "side": 21.966193114436095,
@@ -4906,8 +4902,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n503.txt",
-      "own": 22.89995108925591,
-      "own_status": "Improvement over public bound"
+      "own": 22.899951089260256,
+      "own_status": "best known"
     },
     "504": {
       "side": 22.962118925863564,
@@ -4944,8 +4940,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n505.txt",
-      "own": 22.939236263594626,
-      "own_status": "Improvement over public bound"
+      "own": 22.939236263599017,
+      "own_status": "best known"
     },
     "506": {
       "side": 22.97214507200364,
@@ -4963,8 +4959,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n506.txt",
-      "own": 22.953204934735343,
-      "own_status": "Improvement over public bound"
+      "own": 22.95320493473971,
+      "own_status": "best known"
     },
     "548": {
       "side": 23.944667600431085,
@@ -5001,8 +4997,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n550.txt",
-      "own": 23.913405774099203,
-      "own_status": "Improvement over public bound"
+      "own": 23.913405774103754,
+      "own_status": "best known"
     },
     "551": {
       "side": 23.96580164197427,
@@ -5191,8 +5187,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n648.txt",
-      "own": 25.90883670532566,
-      "own_status": "Improvement over public bound"
+      "own": 25.908836705330636,
+      "own_status": "best known"
     },
     "649": {
       "side": 25.974939166891584,
@@ -5267,8 +5263,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n700.txt",
-      "own": 26.908095391466965,
-      "own_status": "Improvement over public bound"
+      "own": 26.90809539147212,
+      "own_status": "best known"
     },
     "701": {
       "side": 26.971171145178353,
@@ -5396,8 +5392,8 @@
         "sha256_kind": "uncompressed bytes"
       },
       "seed": "n759.txt",
-      "own": 27.976916267948013,
-      "own_status": "Improvement over public bound"
+      "own": 27.976916267953385,
+      "own_status": "best known"
     },
     "810": {
       "side": 28.95146306140041,
@@ -38897,265 +38893,120 @@
     "audit": "experiments/registration-20261020/public-update"
   },
   "record_landing": {
-    "generated": "2026-10-23T22:24:56.647386+00:00",
-    "audit": "experiments/live-intake-20261023",
+    "generated": "2026-10-24T00:49:32.646919+00:00",
+    "audit": "experiments/board-intake-20261024",
     "direct_counts": [
-      204,
-      268,
-      303,
-      333,
-      334,
-      335,
-      338,
-      339,
-      343,
-      364,
-      370,
+      330,
+      340,
       371,
       372,
-      375,
       376,
       377,
-      378,
-      379,
-      380,
       403,
       405,
-      410,
       411,
       412,
-      414,
       415,
       416,
       417,
-      418,
-      419,
-      421,
-      422,
-      444,
       447,
-      450,
       451,
       453,
       455,
       456,
-      457,
       458,
       459,
-      460,
-      461,
-      462,
       463,
-      465,
       487,
-      494,
-      495,
-      496,
-      497,
-      499,
-      500,
+      488,
       501,
       502,
-      503,
       504,
-      505,
       506,
-      507,
       508,
-      532,
-      536,
-      539,
-      540,
-      542,
-      543,
-      544,
-      545,
+      509,
       546,
-      547,
-      548,
-      549,
-      550,
-      551,
-      552,
-      553,
-      554,
-      555,
-      582,
       583,
-      584,
-      587,
-      588,
-      590,
-      591,
+      592,
       593,
       594,
-      595,
       596,
-      597,
-      598,
-      599,
-      600,
-      601,
-      602,
       604,
       629,
-      630,
-      631,
+      632,
       637,
-      638,
-      639,
-      640,
       641,
-      642,
-      643,
-      644,
-      645,
-      646,
-      647,
-      648,
       649,
       650,
-      651,
-      652,
       653,
-      654,
+      679,
       680,
-      681,
-      682,
-      683,
       684,
       689,
-      690,
       691,
       692,
       693,
-      694,
-      695,
       696,
       697,
-      698,
-      699,
-      700,
-      701,
       702,
-      703,
-      704,
-      705,
       706,
-      733,
-      736,
       738,
-      739,
       742,
-      743,
-      744,
       745,
       746,
       748,
-      749,
-      750,
       751,
-      753,
+      752,
       754,
       755,
       756,
       757,
-      758,
       759,
       761,
-      788,
-      792,
       797,
       798,
-      799,
-      800,
       801,
-      802,
-      804,
-      805,
       806,
       807,
       808,
-      809,
-      810,
-      811,
       812,
       813,
-      814,
       815,
       816,
-      817,
-      845,
       847,
-      851,
-      855,
+      856,
       857,
       858,
-      859,
-      860,
-      861,
-      862,
-      863,
       864,
       865,
-      866,
       867,
-      868,
-      869,
+      870,
       871,
       872,
-      873,
-      874,
-      875,
-      904,
-      905,
-      907,
-      914,
-      915,
       916,
       917,
       918,
       919,
-      920,
-      921,
-      922,
-      923,
       924,
-      925,
-      926,
-      927,
-      928,
       929,
       930,
+      931,
       932,
       933,
-      934,
-      966,
-      968,
-      972,
-      976,
-      977,
-      978,
-      979,
-      980,
+      964,
+      975,
       981,
-      982,
-      983,
       984,
-      985,
-      986,
       987,
       988,
       989,
-      990,
       991,
       992,
       993,
       994,
       995,
       996,
-      997,
-      998
+      997
     ]
   }
 }
