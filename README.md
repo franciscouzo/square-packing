@@ -28,7 +28,7 @@ superseded packings remain available in the full catalogue and search archives.
 
 ## Current records
 
-Reviewed 2026-10-24: **22 counts** — published records held by this project and improvements over the reviewed public bound.
+Reviewed 2026-10-24: **23 counts** — published records held by this project and improvements over the reviewed public bound.
 
 Each n opens its packing. Certified sides and public comparisons are rounded upward to 12 decimal places. Matching our own published bound retains the record and its credit, as does another author’s re-certification within `1e-10` of a packing credited to us; a public bound stronger by more than that supersedes it. Matching another author’s record does not claim ownership. Construction, seed and certificate credits are linked for each packing. Updates to our own packings have no minimum gain: their exact certified bound must strictly decrease. The `1e-10` reporting tolerance applies only to claims of new improvements over another author’s public bound and to keeping a record credited to us.
 
@@ -39,6 +39,7 @@ Counts above 324 are not published while the Kaggle *Squares in Squares* competi
 | [68](n68.svg) | [8.798795237219](certificates/n68.cert) | [8.798795237219](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n68.json) |
 | [106](n106.svg) | [10.822908044133](certificates/n106.cert) | [10.822908044133](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n106.json) |
 | [110](n110.svg) | [10.996783396632](certificates/n110.cert) | [10.996783396632](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n110.json) |
+| [130](n130.svg) | [11.902430645985](certificates/n130.cert) | [11.904483032516](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n130.json) |
 | [152](n152.svg) | [12.830718800977](certificates/n152.cert) | [12.830718800977](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n152.json) |
 | [156](n156.svg) | [12.979165853835](certificates/n156.cert) | [12.979165853835](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n156.json) |
 | [172](n172.svg) | [13.618988956900](certificates/n172.cert) | [13.618988956900](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n172.json) |

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T09:36:10.966918+00:00",
+  "generated": "2026-10-27T19:39:03.204690+00:00",
   "max_n": 10000,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -3110,37 +3110,19 @@
     },
     "130": {
       "verified": {
-        "bound": "2509214644268825263036531694440978290209758246043072818522830111507570589721425599695084961729616663029634312794970756335412503821953477050704832998132797321208034158451300536653170703477940002973754678162834429421053247569025907033897621895952746602211201620137318414447855816672187334607810390483720459060937216419150277386104049073663174587627097494943201153124276957508932378050801732599216189873573362785486062122419186605776523988725684228778773798955795915358223826791/210778967672529866619366167575584708229855479806372533013642754318712667495407545306695048900267358247588854969288691973298340815693075118061292589207321784881230692801952593079831869896100191530582029910640365269140013108702985350607598490475575234696789463119874771219522128037339662896426833075446891603560417961182357654713523615109033759430767466131370959570040839681694145941070344369884311100982134083762458086558836719447945485805685377190573216362175360455585267880",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (certificate refinement)",
-        "sha256": "27a3ab6c8b95dfdc9b6969175eea2877f9c2678839d78611524fffc768bffb16",
-        "rounded_up": "11.904483032516"
+        "bound": "466915711841738962256077475351530705109199164124122993/39228601764570445403995003040207131754000000000000000",
+        "source": "certificates/n130.cert",
+        "status": "exact certificate verified",
+        "credit": "Francisco Couzo (square-packing live search); refines the packing of PingYou Ltd (BuddenPing); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "a2618e1a7a2961cf63bf5a23ac0b006d18ef0dde00dad562b005d82a509c7fcd",
+        "rounded_up": "11.902430645985"
       },
       "reported": {
-        "bound": "14880603790644733/1250000000000000",
-        "exact_bound": {
-          "rational": "14880603790644733/1250000000000000",
-          "sqrt2": "0",
-          "expression": "14880603790644733/1250000000000000 + 0*sqrt(2)"
-        },
-        "source": "https://github.com/jlevy/squares/issues/593",
-        "credit": "Mishapolk",
-        "status": "reviewed public upper bound",
-        "origin": {
-          "source": "public upper-bound report",
-          "n": 130,
-          "displayed_bound": "14880603790644733/1250000000000000",
-          "bound_text": "11.9044830325157864",
-          "extraction": "upper-bound table",
-          "source_line": "| **130** | 11.9044830325157864 | 11.9111905201589803 | -6.707e-03 | Francisco Couzo (catalogue baseline) / Nate Chaoweeraprasit / Gupta (conquered via exact KKT solve) |",
-          "source_url": "https://github.com/jlevy/squares/issues/593",
-          "author": "Mishapolk",
-          "source_n": 130,
-          "tiles_per_side": 1,
-          "L_layers": 0,
-          "capacity": 130
-        }
+        "bound": "466915711841738962256077475351530705109199164124122993/39228601764570445403995003040207131754000000000000000",
+        "source": "certificates/n130.cert",
+        "status": "exact certificate verified",
+        "credit": "Francisco Couzo (square-packing live search); refines the packing of PingYou Ltd (BuddenPing); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "a2618e1a7a2961cf63bf5a23ac0b006d18ef0dde00dad562b005d82a509c7fcd"
       }
     },
     "131": {

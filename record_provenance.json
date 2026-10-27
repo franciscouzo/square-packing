@@ -19479,9 +19479,10 @@
     "note": "Construction credit remains Joost de Winter; the historical exact-form certificate source is Evan Daniel. This does not assert packing identity or optimality."
   },
   "record_ownership_correction": {
-    "generated": "2026-10-24T00:49:32.646919+00:00",
-    "audit": "experiments/board-intake-20261024",
+    "generated": "2026-10-27T19:38:49.501457+00:00",
+    "audit": "experiments/live-landing-20261027-130",
     "restored_counts": [
+      130,
       679,
       732,
       787,
@@ -22267,5 +22268,13 @@
       304
     ],
     "note": "Evan Daniel's certificates at 268 and 304 (evand 659ee62), each replayed on both exact routes; counts above 324 stay private."
+  },
+  "record_landing_20261027_live": {
+    "generated": "2026-10-27T19:38:49.501457+00:00",
+    "audit": "experiments/live-landing-20261027-130",
+    "direct_counts": [
+      130
+    ],
+    "note": "CT105 live record at 130 (browser search), replayed on both exact routes; counts above 324 stay private."
   }
 }

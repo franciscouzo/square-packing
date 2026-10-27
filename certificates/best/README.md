@@ -135,7 +135,7 @@ Published records held by this project remain listed in the root README. Source,
 | [127](n127.cert) | 11.810878787590 | PingYou Ltd (BuddenPing) |
 | [128](n128.cert) | 11.825091968214 | PingYou Ltd (BuddenPing) |
 | [129](n129.cert) | 11.870013850405 | Mykhailo Polkovskyi (Mishapolk) |
-| [130](n130.cert) | 11.904483032516 | PingYou Ltd (BuddenPing) |
+| [130](n130.cert) | 11.902430645985 | Francisco Couzo (square-packing live search); refines the packing of PingYou Ltd (BuddenPing); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [131](n131.cert) | 11.949659588036 | PingYou Ltd (BuddenPing) |
 | [132](n132.cert) | 11.985680198846 | PingYou Ltd (BuddenPing) |
 | [133](n133.cert) | 12.000000000000 | Original construction authors in the case record |

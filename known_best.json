@@ -1533,7 +1533,9 @@
         "decompressed_sha256": "b410bb3d8e461fd4cd3622069503a5126e5221d1b443b224bbab4f5a51d5693c",
         "pending": false
       },
-      "seed": "external/seeds/n130.txt"
+      "seed": "external/seeds/n130.txt",
+      "own": 11.90243064598435,
+      "own_status": "Improvement over public bound"
     },
     "131": {
       "side": 11.94965958803586,
@@ -39149,11 +39151,10 @@
     "audit": "experiments/registration-20261020/public-update"
   },
   "record_landing": {
-    "generated": "2026-10-24T09:35:45.649139+00:00",
-    "audit": "experiments/small-intake-20261024",
+    "generated": "2026-10-27T19:38:49.501457+00:00",
+    "audit": "experiments/live-landing-20261027-130",
     "direct_counts": [
-      268,
-      304,
+      130,
       330,
       340,
       371,
