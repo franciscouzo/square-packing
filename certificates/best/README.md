@@ -237,7 +237,7 @@ Published records held by this project remain listed in the root README. Source,
 | [229](n229.cert) | 15.650161513877 | Evan Daniel (evand) |
 | [230](n230.cert) | 15.682926829269 | PingYou Ltd (BuddenPing) |
 | [231](n231.cert) | 15.707106781187 | PingYou Ltd (BuddenPing) |
-| [232](n232.cert) | 15.764174317487 | Mykhailo Polkovskyi (Mishapolk) |
+| [232](n232.cert) | 15.761661759482 | Francisco Couzo (Desktopo GPU basin hopping using lightningv08's CUDA Packing Search energy kernel, Apache-2.0, then native basin hopping with Evan Daniel's fq polish); refines the packing published by Alex Chilton (alexchilton) in the Kaggle notebook "Fault-line DP + Basin Hopping - LB 22.2990" (run 362691257); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [233](n233.cert) | 15.778174593053 | PingYou Ltd (BuddenPing) |
 | [234](n234.cert) | 15.822875655533 | PingYou Ltd (BuddenPing) |
 | [235](n235.cert) | 15.826605633429 | PingYou Ltd (BuddenPing) |
@@ -265,7 +265,7 @@ Published records held by this project remain listed in the root README. Source,
 | [257](n257.cert) | 16.535533905933 | PingYou Ltd (BuddenPing) |
 | [258](n258.cert) | 16.563448002134 | PingYou Ltd (BuddenPing) |
 | [259](n259.cert) | 16.591378145498 | PingYou Ltd (BuddenPing) |
-| [260](n260.cert) | 16.638532792320 | Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (李秉叡) in the Kaggle notebook "First 22.268681355 Public Code With Explanation" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [260](n260.cert) | 16.637029558871 | Francisco Couzo (square-packing web app: an Ellsworth-style structural move following David Ellsworth's tools, the project's SLP, and its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (李秉叡) in the Kaggle notebook "First 22.268681355 Public Code With Explanation" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [261](n261.cert) | 16.678779875343 | BuddenPing |
 | [262](n262.cert) | 16.707106781187 | PingYou Ltd (BuddenPing) |
 | [263](n263.cert) | 16.733166007900 | PingYou Ltd (BuddenPing) |
@@ -312,7 +312,7 @@ Published records held by this project remain listed in the root README. Source,
 | [304](n304.cert) | 17.926898900357 | Evan Daniel; earlier seed and construction credits retained in provenance |
 | [305](n305.cert) | 17.950466482138 | PingYou Ltd (BuddenPing) |
 | [306](n306.cert) | 17.963433717492 | PingYou Ltd (BuddenPing) |
-| [307](n307.cert) | 17.979251283693 | Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (李秉叡) in the Kaggle notebook "First 22.268681355 Public Code With Explanation" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance |
+| [307](n307.cert) | 17.979251283689 | Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT, and the project's SLP); refines the packing published by ntumlnoob (李秉叡) in the Kaggle notebook "First 22.268681355 Public Code With Explanation" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance |
 | [308](n308.cert) | 17.997149121271 | Evan Daniel |
 | [309](n309.cert) | 18.000000000000 | Original construction authors in the case record |
 | [310](n310.cert) | 18.000000000000 | Original construction authors in the case record |

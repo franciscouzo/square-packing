@@ -22285,5 +22285,15 @@
       307
     ],
     "note": "CT105 live records at 260 and 307 (browser searches running the web app's adaptation of Evan Daniel's fq optimizer), refining the packings ntumlnoob published in the Kaggle notebook 'First 22.268681355 Public Code With Explanation' (run 362957087); replayed on both exact routes. Counts above 324 stay private."
+  },
+  "record_landing_20261028b_live": {
+    "generated": "2026-10-28T15:39:22.431608+00:00",
+    "audit": "experiments/live-landing-20261028b",
+    "direct_counts": [
+      232,
+      260,
+      307
+    ],
+    "note": "CT105 live records at 232 (Desktopo GPU and native basin hopping, the GPU step using lightningv08's CUDA Packing Search kernel, refining Alex Chilton's Kaggle notebook packing) and at 260 and 307 (web app runs of Evan Daniel's fq, an Ellsworth-style move following David Ellsworth's tools and the project's SLP, refining ntumlnoob's Kaggle notebook packings); replayed on both exact routes. Kaggle board sides, lower at all three, have no coordinates and are reported in each count's provenance. Counts above 324 stay private."
   }
 }

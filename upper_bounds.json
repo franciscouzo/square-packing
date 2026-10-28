@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T01:34:50.342812+00:00",
+  "generated": "2026-10-28T15:39:33.762039+00:00",
   "max_n": 10000,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -5826,14 +5826,14 @@
     },
     "232": {
       "verified": {
-        "bound": "1576417431748659662929018147686747685946919370584208438569479693721179800512385635413969116208071951422158405421/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "bound": "7617348902520572307222120733/483283363059000000000000000",
         "source": "certificates/best/n232.cert",
         "source_n": 232,
         "deleted_squares": 0,
         "status": "exact certificate verified",
-        "credit": "Mykhailo Polkovskyi (Mishapolk)",
-        "sha256": "01961203e9c1a62899569ea4ba1f6c88fb39c20570623f9c91f1727ce07f277a",
-        "rounded_up": "15.764174317487"
+        "credit": "Francisco Couzo (Desktopo GPU basin hopping using lightningv08's CUDA Packing Search energy kernel, Apache-2.0, then native basin hopping with Evan Daniel's fq polish); refines the packing published by Alex Chilton (alexchilton) in the Kaggle notebook \"Fault-line DP + Basin Hopping - LB 22.2990\" (run 362691257); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "23b035c34a5a93a3bf23eccaddc49e8d6e5e4003ec5e97c036153b2ca5ddbe54",
+        "rounded_up": "15.761661759482"
       },
       "reported": {
         "source": "https://www.kaggle.com/code/inversion/squares-in-squares-per-puzzle-leaderboard",
@@ -6545,19 +6545,19 @@
     },
     "260": {
       "verified": {
-        "bound": "67077942617632138527571542307/4031481829251000000000000000",
+        "bound": "104381051573626493618357957479/6274019722347000000000000000",
         "source": "certificates/n260.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
-        "sha256": "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27",
-        "rounded_up": "16.638532792320"
+        "credit": "Francisco Couzo (square-packing web app: an Ellsworth-style structural move following David Ellsworth's tools, the project's SLP, and its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "abd3b4e3bc4411de8b32e400f424645ad66f376dcba52ea8ba748ecdf83a0b11",
+        "rounded_up": "16.637029558871"
       },
       "reported": {
-        "bound": "67077942617632138527571542307/4031481829251000000000000000",
+        "bound": "104381051573626493618357957479/6274019722347000000000000000",
         "source": "certificates/n260.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
-        "sha256": "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27"
+        "credit": "Francisco Couzo (square-packing web app: an Ellsworth-style structural move following David Ellsworth's tools, the project's SLP, and its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "abd3b4e3bc4411de8b32e400f424645ad66f376dcba52ea8ba748ecdf83a0b11"
       }
     },
     "261": {
@@ -7916,19 +7916,19 @@
     },
     "307": {
       "verified": {
-        "bound": "436081607184993722962197444889181982917255228924685874736959955436771335630565667211324538123/24254714520872479530466069702814569144398684321103594602674239356738890164429000000000000000",
+        "bound": "2707897969116659515550794271467451840032974544063449693/150612387934832692306604131393579915999000000000000000",
         "source": "certificates/n307.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
-        "sha256": "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39",
-        "rounded_up": "17.979251283693"
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT, and the project's SLP); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "1fd01ff42e7679f1e5b2c8eb8af59e51d3cca0392772b81bb4d78d67a26214e9",
+        "rounded_up": "17.979251283689"
       },
       "reported": {
-        "bound": "436081607184993722962197444889181982917255228924685874736959955436771335630565667211324538123/24254714520872479530466069702814569144398684321103594602674239356738890164429000000000000000",
+        "bound": "2707897969116659515550794271467451840032974544063449693/150612387934832692306604131393579915999000000000000000",
         "source": "certificates/n307.cert",
         "status": "exact certificate verified",
-        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
-        "sha256": "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39"
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT, and the project's SLP); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "1fd01ff42e7679f1e5b2c8eb8af59e51d3cca0392772b81bb4d78d67a26214e9"
       }
     },
     "308": {
