@@ -28,7 +28,7 @@ superseded packings remain available in the full catalogue and search archives.
 
 ## Current records
 
-Reviewed 2026-10-24: **23 counts** — published records held by this project and improvements over the reviewed public bound.
+Reviewed 2026-10-24: **24 counts** — published records held by this project and improvements over the reviewed public bound.
 
 Each n opens its packing. Certified sides and public comparisons are rounded upward to 12 decimal places. Matching our own published bound retains the record and its credit, as does another author’s re-certification within `1e-10` of a packing credited to us; a public bound stronger by more than that supersedes it. Matching another author’s record does not claim ownership. Construction, seed and certificate credits are linked for each packing. Updates to our own packings have no minimum gain: their exact certified bound must strictly decrease. The `1e-10` reporting tolerance applies only to claims of new improvements over another author’s public bound and to keeping a record credited to us.
 
@@ -51,7 +51,7 @@ Counts above 324 are not published while the Kaggle *Squares in Squares* competi
 | [237](n237.svg) | [15.902603638260](certificates/n237.cert) | [15.902603638260](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-237.cert.gz) | Published record held by this project | [credits](certificates/n237.json) |
 | [240](n240.svg) | [15.969685337531](certificates/n240.cert) | [15.969685337531](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n240.json) |
 | [241](n241.svg) | [15.987117095151](certificates/n241.cert) | [15.987117095151](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-241.cert.gz) | Published record held by this project | [credits](certificates/n241.json) |
-| [260](n260.svg) | [16.645753250520](certificates/n260.cert) | [16.645753250520](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz) | Published record held by this project | [credits](certificates/n260.json) |
+| [260](n260.svg) | [16.638532792320](certificates/n260.cert) | [16.645753250520](https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz) | Improvement over public bound | [credits](certificates/n260.json) |
 | [267](n267.svg) | [16.838815269949](certificates/n267.cert) | [16.838815269949](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n267.json) |
 | [268](n268.svg) | [16.874361715870](certificates/n268.cert) | [16.874361715870](https://github.com/evand/square-packing/blob/659ee62e4a9d39542a1146e8b011cc3ab6407ede/search/packer/candidates/s268_lightning.cert) | Published record held by this project | [credits](certificates/n268.json) |
 | [273](n273.svg) | [16.983925962651](certificates/n273.cert) | [16.983925962651](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n273.json) |
@@ -59,6 +59,7 @@ Counts above 324 are not published while the Kaggle *Squares in Squares* competi
 | [301](n301.svg) | [17.846667192844](certificates/n301.cert) | [17.846667192844](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n301.json) |
 | [302](n302.svg) | [17.870013850405](certificates/n302.cert) | [17.870013850405](https://github.com/jlevy/squares/issues/593) | Published record held by this project | [credits](certificates/n302.json) |
 | [306](n306.svg) | [17.963433717492](certificates/n306.cert) | [17.963433717492](https://github.com/jlevy/squares/pull/574) | Published record held by this project | [credits](certificates/n306.json) |
+| [307](n307.svg) | [17.979251283693](certificates/n307.cert) | [17.980862784055](https://github.com/jlevy/squares/issues/593) | Improvement over public bound | [credits](certificates/n307.json) |
 
 The [complete bound catalogue](certificates/best/README.md) covers n=1–10000 and retains 1089 finite source witnesses, including imported packings and classical constructions. Historical improvements and search seeds remain in the repository with their provenance.
 

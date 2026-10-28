@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T19:39:03.204690+00:00",
+  "generated": "2026-10-28T01:34:50.342812+00:00",
   "max_n": 10000,
   "note": "Each count has an unconditional grid upper bound. Exact rational certificates and algebraic G\u00f6bel/Friedman constructions are retained separately from frozen reference comparisons and reported register values. Algebraic exact_bound values select verified bounds; bound is an outward rational enclosure for existing consumers. Source links, checker receipts and certificate hashes preserve attribution.",
   "entries": {
@@ -6545,49 +6545,19 @@
     },
     "260": {
       "verified": {
-        "bound": "4161438312629953048686574163329/250000000000000000000000000000",
-        "source": "https://github.com/jlevy/squares/issues/678",
+        "bound": "67077942617632138527571542307/4031481829251000000000000000",
+        "source": "certificates/n260.cert",
         "status": "exact certificate verified",
-        "credit": "Evan Daniel; start: Francisco Couzo",
-        "sha256": "098be6c5f9ce5b8d2990584187823d808ce153e433b8fa1884ce679da720f037",
-        "sha256_kind": "gzip bytes",
-        "decompressed_sha256": "7b0cdf6c1d8ef8a4a87377c5674b622196522613a053ceac80d0ef921c219b8d",
-        "rounded_up": "16.645753250520"
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27",
+        "rounded_up": "16.638532792320"
       },
       "reported": {
-        "bound": "4161438312629953048686574163329/250000000000000000000000000000",
-        "exact_bound": {
-          "rational": "4161438312629953048686574163329/250000000000000000000000000000",
-          "sqrt2": "0",
-          "expression": "4161438312629953048686574163329/250000000000000000000000000000 + 0*sqrt(2)"
-        },
-        "source": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz",
-        "credit": "Evan Daniel; start: Francisco Couzo",
-        "status": "reviewed public upper bound",
-        "origin": {
-          "source": "verified public certificate",
-          "credit": "Evan Daniel; start: Francisco Couzo",
-          "provenance": {
-            "category": "evand",
-            "request": "https://github.com/jlevy/squares/issues/678",
-            "source_url": "https://github.com/evand/square-packing/blob/1d2bb82035af4b7eb4658488543e46b67d1099ca/search/regularize/lists/certs/n-260.cert.gz",
-            "certificate_credit": "Evan Daniel",
-            "construction_credit": [
-              "Francisco Couzo (jlevy/squares#678 packing, start)",
-              "Joost de Winter (jlevy/squares#668 packing, seed of #678 in Evan Daniel's exact form)"
-            ],
-            "source_revision": "1d2bb82035af4b7eb4658488543e46b67d1099ca",
-            "original_source_sha256": "098be6c5f9ce5b8d2990584187823d808ce153e433b8fa1884ce679da720f037",
-            "original_source_sha256_kind": "gzip bytes",
-            "original_source_decompressed_sha256": "7b0cdf6c1d8ef8a4a87377c5674b622196522613a053ceac80d0ef921c219b8d",
-            "original_source_file": "evand/search/regularize/lists/certs/n-260.cert.gz"
-          },
-          "certificate_sha256": "ba7b521b15d086f1504e0575e946027984d486a35ce6e5f7a8dc080f5628785e",
-          "source_n": 260,
-          "tiles_per_side": 1,
-          "L_layers": 0,
-          "capacity": 260
-        }
+        "bound": "67077942617632138527571542307/4031481829251000000000000000",
+        "source": "certificates/n260.cert",
+        "status": "exact certificate verified",
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27"
       }
     },
     "261": {
@@ -7946,37 +7916,19 @@
     },
     "307": {
       "verified": {
-        "bound": "5079043089525025965588854855384670749533446209891553958828914812678365706367750447828659505948236301410703735836408860577650796059471662187538600466589039067577898988726341701902506647581808886905117099041860146663427502829469987016102347993661980984866765436404664518503812931811982888117514608724972677349130974012995293282523585929213052790624078718478372788029111956263700101774763713179814843079413113765383019014602364571059616801899516267560050715276328743043573881171603675948278653876095307808550932134651529301725676560037309379096853596142728736109547163313714126623180152282021897694041629322770370524823180257565149664841104611467524131977034303362635/282469375942798886712948322884972047608946483662345105479843047940959922667310577885318336138172270114619928775935128421914070819145432100432060686117755333295173613145499725580090278238546505176412084640637773490275792231776403322641834648005716764718918943317748798669769896517962911874832969386608577879398405144292378712215195889675027237687786851653204545821123490109770161669300609239865395764928771909104789350715143790048045343722634349140847140364097316937112787394330003447079342401006513779356970266414348234017132875169814641100472755128195782225013183599025684227863313103536652818682110385753171214879999840385070882538938949595521741802907791437882",
-        "source": "https://github.com/BuddenPing/square-packing-certificates/releases/tag/data/pingyou-numerical-refinements-2026-10-13-v2",
-        "status": "exact certificate replayed; upstream adoption pending",
-        "credit": "PingYou Ltd (certificate refinement)",
-        "sha256": "39e950fbf13e1515b0177ceeae8d6d17b8d9d2cae00e987fb89189ab582e28d3",
-        "rounded_up": "17.980862784055"
+        "bound": "436081607184993722962197444889181982917255228924685874736959955436771335630565667211324538123/24254714520872479530466069702814569144398684321103594602674239356738890164429000000000000000",
+        "source": "certificates/n307.cert",
+        "status": "exact certificate verified",
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39",
+        "rounded_up": "17.979251283693"
       },
       "reported": {
-        "bound": "179808627840546897/10000000000000000",
-        "exact_bound": {
-          "rational": "179808627840546897/10000000000000000",
-          "sqrt2": "0",
-          "expression": "179808627840546897/10000000000000000 + 0*sqrt(2)"
-        },
-        "source": "https://github.com/jlevy/squares/issues/593",
-        "credit": "Mishapolk",
-        "status": "reviewed public upper bound",
-        "origin": {
-          "source": "public upper-bound report",
-          "n": 307,
-          "displayed_bound": "179808627840546897/10000000000000000",
-          "bound_text": "17.9808627840546897",
-          "extraction": "upper-bound table",
-          "source_line": "| **307** | 17.9808627840546897 | 17.9827220157960994 | -1.859e-03 | Nate Chaoweeraprasit (itsnaka, SQUISH) (conquered via exact dual-verified optimum) |",
-          "source_url": "https://github.com/jlevy/squares/issues/593",
-          "author": "Mishapolk",
-          "source_n": 307,
-          "tiles_per_side": 1,
-          "L_layers": 0,
-          "capacity": 307
-        }
+        "bound": "436081607184993722962197444889181982917255228924685874736959955436771335630565667211324538123/24254714520872479530466069702814569144398684321103594602674239356738890164429000000000000000",
+        "source": "certificates/n307.cert",
+        "status": "exact certificate verified",
+        "credit": "Francisco Couzo (square-packing web app, running its adaptation of Evan Daniel's fq optimizer, MIT); refines the packing published by ntumlnoob (\u674e\u79c9\u53e1) in the Kaggle notebook \"First 22.268681355 Public Code With Explanation\" (run 362957087); earlier construction credits retained; earlier seed and construction credits retained in provenance",
+        "sha256": "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39"
       }
     },
     "308": {

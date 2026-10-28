@@ -3184,8 +3184,8 @@
       "register_improved_by": [
         "Evan Daniel"
       ],
-      "own": 16.645753250519814,
-      "own_status": "Published record held by this project"
+      "own": 16.638532792319296,
+      "own_status": "Improvement over public bound"
     },
     "261": {
       "side": 16.67877987534291,
@@ -3895,7 +3895,9 @@
         "sha256_kind": "uncompressed bytes",
         "pending": false
       },
-      "seed": "external/seeds/n307.txt"
+      "seed": "external/seeds/n307.txt",
+      "own": 17.979251283692587,
+      "own_status": "Improvement over public bound"
     },
     "308": {
       "side": 17.99714912127091,
@@ -39151,10 +39153,11 @@
     "audit": "experiments/registration-20261020/public-update"
   },
   "record_landing": {
-    "generated": "2026-10-27T19:38:49.501457+00:00",
-    "audit": "experiments/live-landing-20261027-130",
+    "generated": "2026-10-28T01:34:39.560281+00:00",
+    "audit": "experiments/live-landing-20261028",
     "direct_counts": [
-      130,
+      260,
+      307,
       330,
       340,
       371,

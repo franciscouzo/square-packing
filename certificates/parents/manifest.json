@@ -56955,6 +56955,28 @@
       "reason": "immutable reviewed reference certificate",
       "recipe": null,
       "deleted_squares": 0
+    },
+    "ba7b521b15d086f1504e0575e946027984d486a35ce6e5f7a8dc080f5628785e": {
+      "certificate": "certificates/parents/ba7b521b15d086f1504e0575e946027984d486a35ce6e5f7a8dc080f5628785e.cert",
+      "sha256": "ba7b521b15d086f1504e0575e946027984d486a35ce6e5f7a8dc080f5628785e",
+      "original_path": "certificates/best/n260.cert",
+      "reason": "retained immutable witness before replacing its stable name"
+    },
+    "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27": {
+      "certificate": "certificates/parents/36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27.cert",
+      "sha256": "36d22bac73285d71abcdcf823a823c0de170601e31ddec2cfc1b94b19ccafa27",
+      "original_path": "certificates/best/n260.cert",
+      "reason": "immutable reviewed reference certificate",
+      "recipe": null,
+      "deleted_squares": 0
+    },
+    "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39": {
+      "certificate": "certificates/parents/2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39.cert",
+      "sha256": "2bdbfd0f6c454ac9a8b84576c8109fb81b0bdb01f9ed3c8dbb9a07d752abed39",
+      "original_path": "certificates/best/n307.cert",
+      "reason": "immutable reviewed reference certificate",
+      "recipe": null,
+      "deleted_squares": 0
     }
   }
 }
